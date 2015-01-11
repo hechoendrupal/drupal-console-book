@@ -6,5 +6,16 @@
    * [Composer (Local & Global)](chapter_1/composer.md)
    * [Downloading Executable (phar)](chapter_1/phar.md)
 * [FAQ'S](chapter_2/phar.md)
-
+   * [Common problems installation](chapter_2/common_problems_installation.md)
+       * [Commands not listed](chapter_2/commands_not_listed.md)
+       * [Permissions](chapter_2/permissions.md)
+   * [Interactive mode (desc)](chapter_2/interactive_mode_desc.md)
+   * [Why not drush ?](chapter_2/why_not_drush.md)
+* [How each command works](chapter_3/how_each_command_works.md)
+* [How to create your own command](chapter_4/how_to_create_your_own_command.md)
+	* [Difference Command Class & Generator Class](chapter_4/difference_command_generator.md)
+	* [Code templating in Twig](chapter_4/code_templating_in_twig.md)
+		* [Base Templates](chapter_4/base_templates.md)
+	* [How to use a service container](chapter_4/how_to_use_a_service_container.md)
+* [References](chapter_5/references.md)
 
