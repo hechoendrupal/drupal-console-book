@@ -1,2 +1,2 @@
-# How Ton Install
+# How To Install
 
