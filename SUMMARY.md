@@ -1,10 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [How To Install](chapter_1/how_to_install.md)
-   * [Installer](chapter_1/installer.md)
-   * [Composer (Local & Global)](chapter_1/composer.md)
-   * [Downloading Executable (phar)](chapter_1/phar.md)
+* How To Install
+   * [Installer](how-to-install/installer.md)
+   * [Composer (Local & Global)](how-to-install/composer.md)
+   * [Downloading Executable (phar)](how-to-install/phar.md)
 * [Available commands](chapter_3/available_commands.md)
 * [How to create your own command](chapter_4/how_to_create_your_own_command.md)
    * [Difference Command Class & Generator Class](chapter_4/difference_command_generator.md)
