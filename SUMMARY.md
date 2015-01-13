@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [why](why/index.md)
 * [How To Install](how-to-install/installer.md)
    * [Installer](how-to-install/installer.md)
    * [Composer (Local & Global)](how-to-install/composer.md)
