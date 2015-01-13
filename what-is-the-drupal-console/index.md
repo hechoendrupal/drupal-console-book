@@ -1,3 +1,11 @@
+
+# What is the Drupal Console
+
+
+The Drupal 8 Console it is an effort to bring the The Console Component to Drupal 8.
+
+The purpose of this project is to leverage the Symfony Console Component to provide a CLI tool to automate the creation of drupal 8 modules and other recurring tasks.
+
 As described on the Symfony documentation
 >The Console component eases the creation of beautiful and testable command line interfaces.
 The Console component allows you to create command-line commands. Your console commands can be used for any recurring task, such as cronjobs, imports, or other batch jobs.  
@@ -5,7 +13,7 @@ The Console component allows you to create command-line commands. Your console c
 http://symfony.com/doc/current/components/console/introduction.html
 
 #### Project Goals:
-* Take advantage of Symfony Console Component to generate command.
+* Take advantage of Symfony Console Component to generate commands.
 * Take advantage of Twig Component in order to render PHP, YML and other files.
 * Take advantage of OOP and modern development practices.
 * No plans to support previous versions of Drupal.
