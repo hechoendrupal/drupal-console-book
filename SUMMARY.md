@@ -5,7 +5,7 @@
    * [Installer](chapter_1/installer.md)
    * [Composer (Local & Global)](chapter_1/composer.md)
    * [Downloading Executable (phar)](chapter_1/phar.md)
-* [How each command works](chapter_3/how_each_command_works.md)
+* [Available commands](chapter_3/available_commands.md)
 * [How to create your own command](chapter_4/how_to_create_your_own_command.md)
    * [Difference Command Class & Generator Class](chapter_4/difference_command_generator.md)
    * [Code templating in Twig](chapter_4/code_templating_in_twig.md)
