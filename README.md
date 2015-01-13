@@ -12,4 +12,6 @@ This tool does not only generates the module code, also helps you interact with 
 
 Drupal Console is another cool addition to the Proudly Found Elsewhere school of thought as it leverages the Symfony Console component to handle the CLI part.
 
-The purpose of this project is to leverage the Symfony Console Component to provide a CLI tool to automate the creation of drupal 8 modules and other recurring tasks.
+#### Supporting organizations
+[![Blink Reaction](https://www.drupal.org/files/blink-reaction-logo.png)](http://www.blinkreaction.com/)
+[![Indava](https://www.drupal.org/files/indava-logo.png)](http://www.indava.com/)
