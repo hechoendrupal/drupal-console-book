@@ -8,7 +8,7 @@ Fortunately, a lot of that code can be generated automatically using a tool call
 
 Drupal Console is a project that takes the Symfony Console component and makes it available on Drupal to automatically generate most of the new Drupal 8 module requirements.
 
-This tool does not only generated the module code, also help you interact with your Drupal installation.
+This tool does not only generates the module code, also helps you interact with your Drupal installation.
 
 Drupal Console is another cool addition to the Proudly Found Elsewhere school of thought as it leverages the Symfony Console component to handle the CLI part.
 
