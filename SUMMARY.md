@@ -16,6 +16,6 @@
        * [Commands not listed](chapter_2/commands_not_listed.md)
        * [Permissions](chapter_2/permissions.md)
    * [Interactive mode (desc)](chapter_2/interactive_mode_desc.md)
-   * [Why not drush ?](chapter_2/why_not_drush.md)
+   * [Why use Console ?](chapter_2/why_use_console.md)
 * [References](chapter_5/references.md)
 
