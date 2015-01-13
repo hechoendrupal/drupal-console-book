@@ -1,5 +1,7 @@
 # Drupal Console
 
+> #### This is a WIP project
+
 Some of you may have begun to explore Drupal 8 already, for those of you that have not had a chance yet I can tell you that there is a whole new new set of concepts. 
 
 Drupal 8 is more advanced compared to its predecessor, writing a module involves a lot of boilerplate code, there is also a lot of things you need to know and do just to get started with building a new module and these can be repetitive and tedious therefore create opportunities for errors. 
