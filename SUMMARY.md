@@ -1,7 +1,10 @@
 # Summary
 
-* [Introduction](README.md)
-* [What is the Drupal Console](what-is-the-drupal-console/index.md)
+* [Introduction](introduction.md)
+* [About](about/what-is-the-drupal-console.md)
+  * [What is the Drupal Console?](about/what-is-the-drupal-console.md) 
+  * [Where do I find the project?](about/where-do-i-find-the-project.md) 
+  * [What is out of the box?](about/what-is-out-of-the-box.md)  
 * [How To Install](how-to-install/installer.md)
    * [Installer](how-to-install/installer.md)
    * [Composer (Local & Global)](how-to-install/composer.md)
