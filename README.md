@@ -1,5 +1,7 @@
 # Drupal Console
 
+> #### This is a WIP project
+
 This book contains the documentation for [Drupal Console](http://drupalconsole.com/) project.
 
 ### Contribute to the project

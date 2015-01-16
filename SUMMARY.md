@@ -1,7 +1,6 @@
 # Summary
 
-* [Introduction](introduction.md)
-* [About](about/what-is-the-drupal-console.md)
+* [About](about/introduction.md)
   * [What is the Drupal Console?](about/what-is-the-drupal-console.md) 
   * [Where do I find the project?](about/where-do-i-find-the-project.md) 
   * [What is out of the box?](about/what-is-out-of-the-box.md)  
