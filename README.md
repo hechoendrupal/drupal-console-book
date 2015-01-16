@@ -1,19 +1,11 @@
 # Drupal Console
 
-> #### This is a WIP project
+This book contains the documentation for [Drupal Console](http://drupalconsole.com/) project.
 
-Some of you may have begun to explore Drupal 8 already, for those of you that have not had a chance yet I can tell you that there is a whole new new set of concepts. 
+### Contribute to the project
 
-Drupal 8 is more advanced compared to its predecessor, writing a module involves a lot of boilerplate code, there is also a lot of things you need to know and do just to get started with building a new module and these can be repetitive and tedious therefore create opportunities for errors. 
+You can contribute to improve this project on [Github](https://github.com/hechoendrupal/DrupalAppConsole)
 
-Fortunately, a lot of that code can be generated automatically using a tool called the Drupal Console. 
+### Contribute to this documentation
 
-Drupal Console is a project that takes the Symfony Console component and makes it available on Drupal to automatically generate most of the new Drupal 8 module requirements.
-
-This tool does not only generates the module code, also helps you interact with your Drupal installation.
-
-Drupal Console is another cool addition to the Proudly Found Elsewhere school of thought as it leverages the Symfony Console component to handle the CLI part.
-
-#### Supporting organizations
-[![Blink Reaction](https://www.drupal.org/files/blink-reaction-logo.png)](http://www.blinkreaction.com/)
-[![Indava](https://www.drupal.org/files/indava-logo.png)](http://www.indava.com/)
+You can contribute to improve this documentation on [GitHub](https://github.com/hechoendrupal/drupal-console-book).
