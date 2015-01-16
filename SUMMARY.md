@@ -1,18 +1,24 @@
 # Summary
 
-* [About](about/introduction.md)
+* About
+  * [Introduction](about/introduction.md)  
   * [What is the Drupal Console?](about/what-is-the-drupal-console.md) 
   * [Where do I find the project?](about/where-do-i-find-the-project.md) 
   * [What is out of the box?](about/what-is-out-of-the-box.md)  
-* [How To Install](how-to-install/installer.md)
+  * [Goals and benefits](about/goals-and-benefits.md)  
+* How to Install
    * [Installer](how-to-install/installer.md)
    * [Composer (Local & Global)](how-to-install/composer.md)
    * [Downloading Executable (phar)](how-to-install/phar.md)
-* [Available commands](available-commands/index.md)
-* [How to create your own command](how-to-create-your-own-command/index.md)
-   * [Difference Command Class & Generator Class](how-to-create-your-own-command/difference_command_generator.md)
-   * [Code templating in Twig](how-to-create-your-own-command/code_templating_in_twig.md)
-       * [Base Templates](how-to-create-your-own-command/base_templates.md)
+* How to Use
+   * [Available commands](how-to-use/available-commands.md)
+* How to Contribute
+   * [Code & Documentation](how-to-contribute/code-and-documentation.md)
+   * [Create a new Command](how-to-contribute/create-a-new-command.md)
+   * [Create a new Generator](how-to-contribute/create-a-new-generator.md)
+   * [Create a new Template](how-to-contribute/create-a-new-template.md)
+   * [Add Translation Messages](how-to-contribute/transalations.md)
+   * [Access the Service Container](how-to-contribute/access-the-service-container.md)
 * [FAQ'S](faq/common_problems_installation.md)
    * [Common problems installation](faq/common_problems_installation.md)
        * [Commands not listed](faq/commands_not_listed.md)

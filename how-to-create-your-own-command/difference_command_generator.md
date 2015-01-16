@@ -1,1 +1,0 @@
-# Difference Command Class & Generator Class
