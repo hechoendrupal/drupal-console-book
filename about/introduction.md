@@ -11,7 +11,3 @@ Drupal Console is a project that takes the Symfony Console component and makes i
 This tool does not only generates the module code, also helps you interact with your Drupal installation.
 
 Drupal Console is another cool addition to the Proudly Found Elsewhere school of thought as it leverages the Symfony Console component to handle the CLI part.
-
-#### Supporting organizations
-[![Blink Reaction](https://www.drupal.org/files/blink-reaction-logo.png)](http://www.blinkreaction.com/)
-[![Indava](https://www.drupal.org/files/indava-logo.png)](http://www.indava.com/)
