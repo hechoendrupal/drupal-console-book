@@ -6,10 +6,10 @@
   * [Where do I find the project?](about/where-do-i-find-the-project.md) 
   * [What is out of the box?](about/what-is-out-of-the-box.md)  
   * [Goals and benefits](about/goals-and-benefits.md)  
-* How to Install
-   * [Installer](how-to-install/installer.md)
-   * [Composer (Local & Global)](how-to-install/composer.md)
-   * [Downloading Executable (phar)](how-to-install/phar.md)
+* How to Download
+   * [Using the Installer](how-to-download/using-the-installer.md)
+   * [Using Composer](how-to-download/using-composer.md)
+   * [Download phar file](how-to-download/download-phar-file.md)
 * How to Use
    * [Available commands](how-to-use/available-commands.md)
 * How to Contribute
