@@ -1,4 +1,4 @@
-# Installer
+# Using the Installer
 
 Installing Console locally is a matter of just running the installer in your project directory:
 
@@ -10,8 +10,7 @@ Or if you don't have curl:
 $ php -r "readfile('http://drupalconsole.com/installer');" | php
 ```
 
-This installer script will simply check some php.ini settings, warn you if they are set incorrectly, and then download the latest console.phar in the current directory. This file is the Console binary. It is a PHAR (PHP archive), which is an archive format for PHP which can be run on the command line.
-
+This installer script will simply check some php.ini settings, warn you if they are set incorrectly, and then download the latest console.phar in the current directory. 
 
 You can now execute console using:
 ```
@@ -24,8 +23,6 @@ You can run these commands to easily access composer from anywhere on your syste
 ```
 $ mv console.phar /usr/local/bin/drupal
 ```
-
-**Note**: If the above fails due to permissions, run the mv line again with sudo.
 
 You can now execute console using:
 
