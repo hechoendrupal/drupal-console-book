@@ -13,7 +13,7 @@
 * How to Use
    * [Available commands](how-to-use/available-commands.md)
 * How to Contribute
-   * [Code & Documentation](how-to-contribute/code-and-documentation.md)
+   * [Code & Documentation](how-to-contribute/getting-started.md)
    * [Create a new Command](how-to-contribute/create-a-new-command.md)
    * [Create a new Generator](how-to-contribute/create-a-new-generator.md)
    * [Create a new Template](how-to-contribute/create-a-new-template.md)
