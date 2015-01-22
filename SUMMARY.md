@@ -13,7 +13,8 @@
 * How to Use
    * [Available commands](how-to-use/available-commands.md)
 * How to Contribute
-   * [Getting Started](how-to-contribute/getting-started.md)
+   * [Project requirements](how-to-contribute/project-requirements.md)
+   * [Getting Started](how-to-contribute/getting-the-project.md)
    * [Running the project](how-to-contribute/running-the-project.md)
    * [Create a new Command](how-to-contribute/create-a-new-command.md)
    * [Create a new Generator](how-to-contribute/create-a-new-generator.md)
