@@ -26,6 +26,6 @@ $ cd /path/to/DrupalAppConsole
 $ box build
 ```
 
-As result you will the a new file **console.phar**
+As a result, you will have the new phar file **console.phar**
 
 **NOTE:** Make sure you set `phar.readonly` to '0' in your [php.ini](http://php.net/manual/en/phar.configuration.php)
