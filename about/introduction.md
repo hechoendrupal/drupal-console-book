@@ -1,4 +1,4 @@
-# Drupal Console
+# Introduction
 
 Some of you may have begun to explore Drupal 8 already, for those of you that have not had a chance yet I can tell you that there is a whole new new set of concepts. 
 

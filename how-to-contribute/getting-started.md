@@ -1,4 +1,6 @@
-### Requirements
+# Getting started
+
+### Project requirements
 * [Git](http://git-scm.com/)
 * [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 * [Box](http://box-project.org/)
@@ -8,21 +10,17 @@
 Fork your own copy of [hechoendrupal/DrupalAppConsole](https://github.com/hechoendrupal/DrupalAppConsole/fork) to your account
 
 ### Clone
-Get a copy of your recently cloned version of console in your machine
+Get a copy of your recently cloned version of console in your machine.
 ```
 $ git clone git@github.com:[your-git-user-here]/DrupalAppConsole.git
 ```
 
 ### Install dependencies
-Now that you clone the project you need to download depencencies via componser
+Now that you clone the project you need to download depencencies via componser.
 
-```
-$ composer update --no-dev
-```
-
-**NOTE:** Make sure run composer from the directory where the project was cloned.
 ```
 $ cd /path/to/DrupalAppConsole
+$ composer update --no-dev
 ```
 
 ### Download Composer

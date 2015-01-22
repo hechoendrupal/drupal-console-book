@@ -30,4 +30,4 @@ You can now execute console using:
 $ drupal generate:module
 ```
 
-**NOTE:** The name `drupal` is just an alias you can name it anything you like to.
+**NOTE:** The name `drupal` is just an alias you can name it anything you like.
