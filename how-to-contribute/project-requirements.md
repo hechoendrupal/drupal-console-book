@@ -1,14 +1,9 @@
 # Project requirements
 
-* [Git](http://git-scm.com/)
-* [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
-* [Box](http://box-project.org/)
-* [Drupal 8](https://www.drupal.org/project/drupal/git-instructions)
-
 ### Download git
 We recomend you download git from [http://git-scm.com/downloads](http://git-scm.com/downloads)
 
-### Download Composer
+### Download composer
 
 Run this in your terminal to get the latest Composer version:
 ```
@@ -38,7 +33,7 @@ You can run this command to easily access box from anywhere on your system:
 $ mv box.phar /usr/local/bin/box
 ```
 
-### Download Drupal 8
+### Download drupal 8
 The console project only support Drupal 8, you need to download and install it locally.
 ```
 $ git clone --branch 8.x http://git.drupal.org/project/drupal.git drupal8.dev
@@ -51,4 +46,4 @@ $ drush si standard --db-url=mysql://roo:root@localhost/drupal
   --account-mail=[user-email] -y
 ```
 
-**NOTE:** Make sure you use your own user and database credentials when running drush si and never user root on production. In this example code we are accepting any interaction answering yes when passing the `-y` argument.
+**NOTE:** Make sure you use your own user and database credentials when running `drush si` and never user root on production. In this example code we are accepting any interaction answering yes when passing the `-y` argument.
