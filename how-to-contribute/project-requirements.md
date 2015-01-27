@@ -40,7 +40,7 @@ $ git clone --branch 8.x http://git.drupal.org/project/drupal.git drupal8.dev
 $ cd drupal8.dev
 ```
 You can install Drupal through the UI or using drush:
-```bash
+```
 $ drush si standard --db-url=mysql://roo:root@localhost/drupal 
   --site-name=drupal8.dev --account-name=admin --account-pass=admin 
   --account-mail=[user-email] -y

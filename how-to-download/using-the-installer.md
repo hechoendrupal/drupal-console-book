@@ -1,6 +1,6 @@
 # Using the Installer
 
-Installing Console locally is a matter of just running the installer in your project directory:
+Install the Console locally by running the installer in your project directory:
 
 ```
 $ curl -LSs http://drupalconsole.com/installer | php
