@@ -1,10 +1,13 @@
 # Where do I find the project?
 
-### Project Landing page  
-#### http://drupalconsole.com/
+### Project landing page  
+#### http://drupalconsole.com
 
-### Do you have a Drupal user ?  
+### Documentation  
+#### http://hechoendrupal.gitbooks.io/drupal-console
+
+### Do you have a Drupal user?  
 #### https://drupal.org/project/console
 
-### Do you have a Github account ?  
+### Do you have a Github account?  
 #### https://github.com/hechoendrupal/DrupalAppConsole
