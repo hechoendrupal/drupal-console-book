@@ -10,6 +10,7 @@
    * [Using the Installer](how-to-download/using-the-installer.md)
    * [Using Composer](how-to-download/using-composer.md)
    * [Download phar file](how-to-download/download-phar-file.md)
+   * [Update project](how-to-download/update-project.md)
 * How to Use
    * [Available commands](how-to-use/available-commands.md)
 * How to Contribute
