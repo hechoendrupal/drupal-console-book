@@ -8,4 +8,6 @@ The purpose of this project is to leverage the Symfony Console Component. The Co
 As described on the Symfony documentation:
 > The Console component allows you to create command-line commands. Your console commands can be used for any recurring task, such as cronjobs, imports, or other batch jobs.  
 
+This project allows you to focus on one thing: creating commands. It takes care of all the coloring output, input gathering and command containing stuff.
+
 http://symfony.com/doc/current/components/console/introduction.html

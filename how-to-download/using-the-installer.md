@@ -19,7 +19,7 @@ $ php console.phar generate:module
 
 You can place this file anywhere you wish. If you put it in your PATH, you can access it globally. On unixy systems you can even make it executable and invoke it without php.
 
-You can run these commands to easily access console from anywhere on your system:
+Access console from anywhere on your system
 ```
 $ mv console.phar /usr/local/bin/drupal
 ```

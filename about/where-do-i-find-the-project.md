@@ -3,11 +3,14 @@
 ### Project landing page  
 #### http://drupalconsole.com
 
-### Documentation  
-#### http://hechoendrupal.gitbooks.io/drupal-console
-
 ### Do you have a Drupal user?  
 #### https://drupal.org/project/console
 
 ### Do you have a Github account?  
 #### https://github.com/hechoendrupal/DrupalAppConsole
+
+### Documentation  
+#### http://hechoendrupal.gitbooks.io/drupal-console
+
+### Support chat
+#### https://gitter.im/hechoendrupal/DrupalAppConsole 
