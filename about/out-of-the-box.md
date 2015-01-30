@@ -1,4 +1,4 @@
-# What is out of the box?
+# Out of the box
 
 ## Generators:
  * Generates module and info files.
@@ -9,8 +9,8 @@
  * Generates Forms, Plugins (block, entity REST resource)
 
 ## Other commands:
- * List registered services on the service container
- * List registered routes on the routing system
- * Rebuilt routes.
- * Rebuild caches
- * Downbload, install and unistall modules. 
+ * Lists and shows configurations.
+ * Lists registered services on the service container.
+ * Lists registered routes on the routing system. 
+ * Rebuilds routing system cache.
+ * List, download, install and unistall modules. 
