@@ -16,7 +16,7 @@ https://github.com/hechoendrupal/DrupalAppConsole/issues/new
     * `violations`
     * `RFC`
 
-##### Pull request 
-* Title: #IssueNumber - Short description
+##### Pull request title
+* Must comply with the following structure  #IssueNumber - Short description
 
   
