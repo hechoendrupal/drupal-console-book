@@ -8,11 +8,11 @@
 * No plans to support previous versions of Drupal.
 
 ### Who will benefit of using it?
-* **Module Maintainers & Developers**  
+* **Module Maintainers & Developers**
   Create & Migrate contributed modules to Drupal 8.
-  
-* **Drupal Trainers & Consultors**  
+
+* **Drupal Trainers & Consultants**
   Train developers on Drupal 8.
 
-* **Drupal Shops**  
+* **Drupal Shops**
   Reduce module development time for Drupal 8.

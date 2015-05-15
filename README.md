@@ -1,12 +1,12 @@
 # Drupal Console
 
-> #### This is a WIP project
+> #### Note: This project is a work-in-progress.
 
-This book contains the documentation for [Drupal Console](http://drupalconsole.com/) project.
+This book documents the [Drupal Console](http://drupalconsole.com/) project.
 
 ### Contribute to the project
 
-You can contribute to improve this project on [Github](https://github.com/hechoendrupal/DrupalAppConsole)
+You can contribute to improve this project on [Github](https://github.com/hechoendrupal/DrupalConsole)
 
 ### Contribute to this documentation
 

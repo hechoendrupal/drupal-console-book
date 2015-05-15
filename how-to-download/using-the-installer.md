@@ -1,31 +1,32 @@
-# Using the Installer
+# Download/install Using the Drupal Console Installer
 
-Install the Console locally by running the installer in your project directory:
 
+## Install the Drupal Console locally by running the installer in your project directory:
+### Using curl:
 ```
 $ curl -LSs http://drupalconsole.com/installer | php
 ```
-Or if you don't have curl:
+### Or if you don't have curl:
 ```
 $ php -r "readfile('http://drupalconsole.com/installer');" | php
 ```
 
-This installer script will simply check some php.ini settings, warn you if they are set incorrectly, and then download the latest console.phar in the current directory. 
+The installer script will simply check some php.ini settings, warn you if they are set incorrectly, and then download the latest console.phar in the current directory. 
 
-You can now execute console using:
+
+## You can now execute console using:
 ```
 $ php console.phar generate:module
 ```
 
 You can place this file anywhere you wish. If you put it in your PATH, you can access it globally. On unixy systems you can even make it executable and invoke it without php.
 
-Access console from anywhere on your system
+### Access console from anywhere on your system
 ```
 $ mv console.phar /usr/local/bin/drupal
 ```
 
-You can now execute console using:
-
+#### You can now execute console using:
 ```
 $ drupal generate:module
 ```
