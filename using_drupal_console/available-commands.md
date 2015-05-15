@@ -1,4 +1,7 @@
 # Available Commands
+
+
+
 ```
   drush                           Runs Drush from Drupal Console
   help                            Displays help for a command
@@ -10,8 +13,6 @@ config
   config:debug                    Shows the current configuration
 container
   container:debug                 Displays current services for an application
-demo
-  demo:default                    Greets someone
 generate
   generate:command                Generates commands for the console
   generate:controller             Generates & Registers a controller
