@@ -1,17 +1,17 @@
-# Using Composer
+# Install Drupal Console Using Composer
 
-You can use composer to install console globally using the following command:
-
+## Install Drupal Console globally with the following command:
 ```
 $ composer global require drupal/console:@stable
 ```
 
-Add the binary directory to your class path:
+## Add the binary directory to your class path:
 ```
 $ echo "PATH=$PATH:~/.composer/vendor/bin" > ~/.bash_profile
 ```
 
-You can now execute console using: 
+## You can now execute console using (see [Available commands](../how-to-use/available-commands.md)
+):
 ```
 $ console generate:module
 ```

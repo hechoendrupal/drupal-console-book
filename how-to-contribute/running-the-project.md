@@ -12,7 +12,7 @@ $ bin/console
 You can run this command to easily access console from anywhere on your system:
 
 ```
-$ sudo ln -s /path/to/DrupalAppConsole/bin/console /usr/local/bin/console.dev
+$ sudo ln -s /path/to/DrupalConsole/bin/console /usr/local/bin/console.dev
 ```
 
 **NOTE:** The name `console.dev` is just an alias you can name it anything you like.
@@ -22,7 +22,7 @@ $ sudo ln -s /path/to/DrupalAppConsole/bin/console /usr/local/bin/console.dev
 To create a Phar file base in our dev version execute the following command
 
 ```
-$ cd /path/to/DrupalAppConsole
+$ cd /path/to/DrupalConsole
 $ box build
 ```
 

@@ -3,7 +3,7 @@
 
 * ### Project code repository
 
-https://github.com/hechoendrupal/DrupalAppConsole
+https://github.com/hechoendrupal/DrupalConsole
 
 * ### Documentation repository
 
