@@ -15,8 +15,19 @@
 
 ## Using Drupal Console
    * [Available commands](using_drupal_console/available-commands.md)
+   * [generate:authentication:provider](using_drupal_console/generate-authentication-provider.md)
+   * [generate:command](using_drupal_console/generate_command.md)
+   * [generate:controller](using_drupal_console/generate_controller.md)
+   * [generate:entity:config](using_drupal_console/generate-entity-config.md)
+   * [generate:entity:content](using_drupal_console/generate-entity-content.md)
+   * [generate:form:config](using_drupal_console/generate-form-config.md)
    * [generate:module](using_drupal_console/generate_module.md)
    * [generate:permissions](using_drupal_console/generate_permissions.md)
+   * [generate:plugin:block](using_drupal_console/generate-plugin-block.md)
+   * [generate:plugin:imageeffect](using_drupal_console/generate-plugin-imageeffect.md)
+   * [generate:plugin:rest:resource](using_drupal_console/generate-plugin-rest-resource.md)
+   * [generate:plugin:rulesaction](using_drupal_console/generate-plugin-rulesaction.md)
+   * [generate:service](using_drupal_console/generate_service.md)
 
 ## Contribute to Drupal Console
    * [Project requirements](contribute_to_drupal_console/project-requirements.md)
