@@ -1,8 +1,8 @@
 # generate:module Options
-The generate:module command helps you generates a new module.
+The **generate:module** command helps you generate a new module.
 
 ```
-drupal g:module --help
+$ drupal g:module --help
 ```
 **Usage:**
 ```
