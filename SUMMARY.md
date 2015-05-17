@@ -15,6 +15,8 @@
 
 ## Using Drupal Console
    * [Available commands](using_drupal_console/available-commands.md)
+   * [generate:module](using_drupal_console/generate_module.md)
+   * [generate:permissions](using_drupal_console/generate_permissions.md)
 
 ## Contribute to Drupal Console
    * [Project requirements](contribute_to_drupal_console/project-requirements.md)
