@@ -1,8 +1,8 @@
 # generate:permissions Options
-The generate:permissions command helps you generate new permissions.
+The **generate:permissions** command helps you generate new permissions.
 
 ```
-drupal g:permissions --help
+$ drupal g:permissions --help
 ```
 **Usage:**
 ```
