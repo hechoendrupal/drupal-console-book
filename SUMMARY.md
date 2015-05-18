@@ -15,8 +15,15 @@
 
 ## Using Drupal Console
    * [Available commands](using_drupal_console/available-commands.md)
+   * [cache:rebuild](using_drupal_console/cache-rebuild.md)
+   * [config:debug](using_drupal_console/config-debug.md)
+   * [config:edit](using_drupal_console/config-edit.md)
+   * [config:export](using_drupal_console/config-export.md)
+   * [config:override](using_drupal_console/config-override.md)
+   * [container:debug](using_drupal_console/container-debug.md)
+   * [drush](using_drupal_console/drush.md)
    * [generate:authentication:provider](using_drupal_console/generate-authentication-provider.md)
-   * [generate:command](using_drupal_console/generate_command.md)
+   * [generate:generate:command](using_drupal_console/generate_command.md)
    * [generate:controller](using_drupal_console/generate_controller.md)
    * [generate:entity:config](using_drupal_console/generate-entity-config.md)
    * [generate:entity:content](using_drupal_console/generate-entity-content.md)
@@ -28,6 +35,7 @@
    * [generate:plugin:rest:resource](using_drupal_console/generate-plugin-rest-resource.md)
    * [generate:plugin:rulesaction](using_drupal_console/generate-plugin-rulesaction.md)
    * [generate:service](using_drupal_console/generate_service.md)
+   * [init](using_drupal_console/init.md)
 
 ## Contribute to Drupal Console
    * [Project requirements](contribute_to_drupal_console/project-requirements.md)
