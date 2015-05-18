@@ -4,19 +4,20 @@
 
 Drupal Console Command | Details
 ------------ | -------------
-drush | Runs Drush from Drupal Console
+[drush](drush.md) | Runs Drush from Drupal Console
 help | Displays help for a Drupal Console command
-list | Lists Drupal Console commands
-self-update | Updates Drupal Console to latest version
+[init](init.md) | Copies configuration files to user home directory.
+list | Lists all Drupal Console commands
+self-update | Updates Drupal Console to the latest version
 **cache**  |
-cache:rebuild  | Rebuilds and clears all site caches
+[cache:rebuild](cache-rebuild.md)  | Rebuilds and clears all site caches
 **config**  |
- config:debug  |   Shows the current configuration
- config:edit  |    Allows editing the selected configuration
- config:export  |  Exports current application configuration
- config:override  | Overrides config value in active configuration
+ [config:debug](config-debug.md)  |   Shows the current configuration
+ [config:edit](config-edit.md)  |    Allows editing the selected configuration
+ [config:export](config-export.md)  |  Exports current application configuration
+ [config:override](config-override.md)  | Overrides config value in active configuration
 **container**  |
- container:debug | Displays current services for an application
+ [container:debug](container-debug.md) | Displays current services for an application
 **generate**  |
  [generate:authentication:provider](generate-authentication-provider.md)  |   Generates an Authentication Provider
  [generate:command](generate_command.md)  |   Generate commands for the console
