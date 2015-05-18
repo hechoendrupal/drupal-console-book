@@ -10,7 +10,7 @@ $ composer global require drupal/console:@stable
 $ echo "PATH=$PATH:~/.composer/vendor/bin" > ~/.bash_profile
 ```
 
-## You can now execute console using (see [Available commands](../how-to-use/available-commands.md)
+## You can now execute console using (see [Available commands](../using_drupal_console/available-commands.md)
 ):
 ```
 $ console generate:module
