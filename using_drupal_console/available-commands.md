@@ -33,23 +33,23 @@ self-update | Updates Drupal Console to the latest version
  [generate:plugin:rulesaction](generate-plugin-rulesaction.md)  | Generates a Rules action plugin
  [generate:service](generate_service.md)  | Generates a service
 **migrate**  |
- migrate:debug  |  Display current migration available for the application
- migrate:execute  |  Execute a migration available for application
+ [migrate:debug](migrate-debug.md)  |  Displays current migration available for the application
+ [migrate:execute](migrate-execute.md)  |  Executes an available migration
 **module**  |
- module:debug  |   Displays current modules available for the application
- module:download  |   Downloads a module or modules in the application
- module:install  | Installs a module or modules in the application
- module:uninstall  |   Uninstalls a module or modules in the application
+ [module:debug](module-debug.md)  |   Displays current modules available for the application
+ [module:download](module-download.md)  |   Downloads a module or modules in the application
+ [module:install](module-install.md)  | Installs a module or modules in the application
+ [module:uninstall](module-uninstall.md)  |   Uninstalls module(s) from the application
 **rest**  |
- rest:debug  |     Display current REST resource(s) for the application
- rest:disable  |   Disables a REST resource for the application
- rest:enable  |    Enables a REST resource for the application
+ [rest:debug](rest-debug.md)  |     Display current REST resource(s) for the application
+ [rest:disable](rest-disable.md)  |   Disables a REST resource for the application
+ [rest:enable](rest-enable.md)  |    Enables a REST resource for the application
 **router**  |
- router:debug  |   Displays current routes for the application
- router:rebuild  | Rebuilds routes for the application
+ [router:debug](router-debug.md)  |   Displays current routes for the application
+ [router:rebuild](router-rebuild.md)  | Rebuilds routes for the application
 **site**  |
- site:maintenance  |   Switches site into maintenance mode
- site:mode  |      Switches system performance configuration
- site:status  |    Displays current Drupal installation status
+ [site:maintenance](site-maintenance.md)  |   Switches site into maintenance mode
+ [site:mode](site-mode.md)  |      Switches system performance configuration
+ [site:status](site-status.md)  |    Displays current Drupal installation status
 **test**  |
- test:debug  |     Lists unit tests available for the application
+ [test:debug](test-debug.md)  |     Lists unit tests available for the application
