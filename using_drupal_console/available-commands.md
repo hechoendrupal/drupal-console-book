@@ -18,18 +18,18 @@ cache:rebuild  | Rebuilds and clears all site caches
 **container**  |
  container:debug | Displays current services for an application
 **generate**  |
- generate:authentication:provider  |   Generates an Authentication Provider
+ [generate:authentication:provider](generate-authentication-provider.md)  |   Generates an Authentication Provider
  [generate:command](generate_command.md)  |   Generate commands for the console
  [generate:controller](generate_controller.md)  | Generate & Register a controller
- generate:entity:config  | Generates a new "EntityConfig"
- generate:entity:content   | Generates a new "EntityContent"
- generate:form:config   |    Generates a new "ConfigFormBase"
+ [generate:entity:config](generate-entity-config.md)  | Generates a new "EntityConfig"
+ [generate:entity:content](generate-entity-content.md)   | Generates a new "EntityContent"
+ [generate:form:config](generate-form-config.md)   |    Generates a new "ConfigFormBase"
  [generate:module](generate_module.md)  |    Generates a new module.
  [generate:permissions](generate_permissions.md)   |    Generate module permissions
- generate:plugin:block   |   Generates a plugin block
- generate:plugin:imageeffect  | Generates an image effect plugin
- generate:plugin:rest:resource  | Generates a REST resource plugin
- generate:plugin:rulesaction  | Generates a Rules action plugin
+ [generate:plugin:block](generate-plugin-block.md)   |   Generates a plugin block
+ [generate:plugin:imageeffect](generate-plugin-imageeffect.md)  | Generates an image effect plugin
+ [generate:plugin:rest:resource](generate-plugin-rest-resource.md)  | Generates a REST resource plugin
+ [generate:plugin:rulesaction](generate-plugin-rulesaction.md)  | Generates a Rules action plugin
  [generate:service](generate_service.md)  | Generates a service
 **migrate**  |
  migrate:debug  |  Display current migration available for the application
