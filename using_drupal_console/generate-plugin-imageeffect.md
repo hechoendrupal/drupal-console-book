@@ -2,11 +2,15 @@
  The **generate:plugin:imageeffect** command helps you generate a new image effect plugin.
 
 ```
-$ drupal g:p:i --help
+$ drupal generate:plugin:imageeffect --help
 ```
 **Usage:**
 ```
- generate:plugin:imageeffect [--module="..."] [--class-name="..."] [--label[="..."]] [--plugin-id[="..."]] [--description[="..."]]
+$ drupal generate:plugin:imageeffect [--module="..."] [--class-name="..."] [--label[="..."]] [--plugin-id[="..."]] [--description[="..."]]
+```
+**Aliases:**
+```
+$ drupal g:p:i --help
 ```
 ## Available options
 Options | Details
