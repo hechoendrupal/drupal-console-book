@@ -2,10 +2,8 @@
 
 * ## About Drupal Console
   * [Introduction](about_drupal_console/introduction.md)
-  * [What is the Drupal Console?](about_drupal_console/what-is-the-drupal-console.md)
+  * [How does Drupal Console help?](about_drupal_console/how-does-drupal-console-help.md)
   * [Where do I find the project?](about_drupal_console/where-do-i-find-the-project.md)
-  * [What is out of the box?](about_drupal_console/out-of-the-box.md)
-  * [Goals and benefits](about_drupal_console/goals-and-benefits.md)
 
 * ## Downloading & Installing Drupal Console
    * [Using the Installer](installing_drupal_console/using-the-installer.md)
