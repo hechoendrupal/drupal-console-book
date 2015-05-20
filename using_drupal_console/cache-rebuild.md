@@ -6,7 +6,7 @@ $ drupal cache:rebuild --help
 ```
 **Usage:**
 ```
-cache:rebuild [--cache[="..."]]
+$ drupal cache:rebuild [--cache[="..."]]
 ```
 
 **Aliases:**
