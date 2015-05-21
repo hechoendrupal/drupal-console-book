@@ -1,12 +1,9 @@
-# generate:authentication:provider Options
+# generate:authentication:provider 
 The **generate:authentication:provider** command helps you generate a new Authentication Provider.
 
-```
-$ drupal generate:authentication:provider --help
-```
 **Usage:**
 ```
-$ drupal generate:authentication:provider [--module="..."] [--class-name[="..."]]
+$ drupal generate:authentication:provider --help
 ```
 **Aliases**
 ```
