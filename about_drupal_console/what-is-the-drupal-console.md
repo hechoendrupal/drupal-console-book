@@ -1,12 +1,14 @@
 # What is the Drupal Console?
 
-The Drupal Console is an effort to bring The Symfony Console component to Drupal 8.
 
-The purpose of this project is to leverage the Symfony Console component. The Console is a CLI tool that automates the creation of Drupal 8 modules and other recurring tasks.
+The Drupal Console is a suite of tools that you run on a command line interface (CLI) to generate boilerplate code and interact with a Drupal 8 installation.
 
-As described in the Symfony documentation:
-> The Console component allows you to create command-line commands. Your console commands can be used for any recurring task, such as cronjobs, imports, or other batch jobs.
+From the ground up Drupal Console is using the modern PHP practices introduced into Drupal 8. 
 
-This project allows you to focus on one thing: creating commands. It takes care of all the input-gathering,  command-containing, and applying colors to output (you can define themes).
+The goal of this project is provide a tool easy to use for everyone, from developers currently using Drupal 8 and those who are planning to learn.
 
-http://symfony.com/doc/current/components/console/introduction.html
+Drupal 8 is more technically advanced compared to its predecessor. Writing a module involves a lot of boilerplate code. There are also a lot of things you need to know and do just to get started building a new module. These tasks can be repetitive and tedious and can therefore create opportunities for errors. Fortunately, a lot of the new code can be generated automatically using Drupal Console.
+
+The Drupal Console makes use of the Symfony Console and other third party components which allows you to automatically generate most of the code needed for a Drupal 8 module. In addition, Drupal Console helps you interact with your Drupal installation. In case you are thinking *“Gee, isn’t that what [Drush](https://www.drupal.org/project/drush) does?”*, you should know that the Drupal Console and Drush development teams are cooperating and collaborating to most ideally bring their work together.
+
+Managing the increasing complexity of Drupal 8 can be a daunting task for anyone, are you prepared for it? Drupal Console is a suite of tools to help manage that complexity. Follow along as we explore this tool.
