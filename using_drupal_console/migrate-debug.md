@@ -12,4 +12,3 @@ $ drupal migrate:debug [drupal-version]
 Argument | Details
 ------------ |-------------
 drupal-version    |    Drupal Version
-
