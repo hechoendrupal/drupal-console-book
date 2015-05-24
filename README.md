@@ -14,4 +14,5 @@ You can contribute to improve this documentation on [GitHub](https://github.com/
 
 #### Supporting organizations
 [![Blink Reaction](https://www.drupal.org/files/blink-reaction-logo.png)](http://www.blinkreaction.com/)
+[![FFW](https://ffwagency.com/assets/img/logo-blue.png)](https://ffwagency.com)
 [![Indava](https://www.drupal.org/files/indava-logo.png)](http://www.indava.com/)
