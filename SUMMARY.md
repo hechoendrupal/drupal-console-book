@@ -55,6 +55,7 @@
    * [Getting the project](contribute_to_drupal_console/getting-the-project.md)
    * [Running the project](contribute_to_drupal_console/running-the-project.md)
    * [Create an issue](contribute_to_drupal_console/create-an-issue.md)
+   * [Contribute to this documentation](../contribute_to_drupal_console/contribute-to-the-drupal-console-book.md "Contribute to the Drupal Console book")
    * [Create a new Command](contribute_to_drupal_console/create-a-new-command.md)
    * [Create a new Generator](contribute_to_drupal_console/create-a-new-generator.md)
    * [Create a new Template](contribute_to_drupal_console/create-a-new-template.md)
