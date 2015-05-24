@@ -6,7 +6,7 @@ $ drupal rest:debug --help
 ```
 **Usage:**
 ```
- rest:debug [--autorization[="..."]] [resource-id]
+ rest:debug [--authorization[="..."]] [resource-id]
 ```
 ## Arguments
 Argument | Details
@@ -16,7 +16,7 @@ Argument | Details
 ## Available options
 Options | Details
 ------------ |-------------
- --autorization |      REST resource status enabled / disabled
+ --authorization |      REST resource status enabled / disabled
 --help (-h)     |       Display this help message
 --quiet (-q)    |      Do not output any message
 **--verbose** (-v) | Show more verbose messages
