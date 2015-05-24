@@ -1,1 +1,2 @@
 # Commands not listed
+This document is a work-in-progress. At any time, it is possible that the Drupal Console project is ahead of the documentation. While we endeavor to maintain this book, it is always possible some commands have been created for the Drupal Console, but not yet added to this document. For a full list of supported commands, use the **list** command. If you see a command that is not described here, you are also welcome to add a new page for the command, using the **--help** output for the command as a simple starting point.
