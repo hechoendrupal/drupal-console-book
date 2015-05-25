@@ -18,4 +18,3 @@ Options | Details
 --module      |        The Module name.
 --entity-class |       The entity class name
 --entity-name  |        The name of the entity
-

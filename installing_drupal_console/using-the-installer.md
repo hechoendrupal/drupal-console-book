@@ -11,7 +11,7 @@ $ curl -LSs http://drupalconsole.com/installer | php
 $ php -r "readfile('http://drupalconsole.com/installer');" | php
 ```
 
-The installer script will simply check some php.ini settings, warn you if they are set incorrectly, and then download the latest console.phar in the current directory. 
+The installer script will simply check some php.ini settings, warn you if they are set incorrectly, and then download the latest console.phar in the current directory.
 
 
 ## You can now execute console using:

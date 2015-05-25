@@ -20,4 +20,3 @@ Options | Details
 --controller  |  Default Controller
 --dependencies   |   Module dependencies separated by commas (i.e. context, panels)
 --test   |   Generate a test class
-
