@@ -1,9 +1,9 @@
 # Project requirements
 
-### Download Git
+## Download Git
 We recommend downloading Git from [http://git-scm.com/downloads](http://git-scm.com/downloads)
 
-### Download Composer
+## Download Composer
 
 Run this in your terminal to get the latest Composer version:
 ```
@@ -20,7 +20,7 @@ You can run this terminal command to make Composer easily accessible, from anywh
 $ mv composer.phar /usr/local/bin/composer
 ```
 
-### Download box
+## Download box
 The Drupal Console project requires [Box](http://box-project.org/) project to create the console.phar. Box is an application that simplifies the Phar building process. Install in your system executing the following command.
 
 ```
@@ -33,7 +33,7 @@ You can run this terminal command to make Box easily accessible, from anywhere o
 $ mv box.phar /usr/local/bin/box
 ```
 
-### Download Drupal 8
+## Download Drupal 8
 The Drupal Console project only supports Drupal 8; which you will need to download and install locally.
 ```
 $ git clone --branch 8.x http://git.drupal.org/project/drupal.git drupal8.dev

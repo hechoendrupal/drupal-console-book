@@ -1,12 +1,12 @@
 # References
 
-### Drupal Console code repository
+## Drupal Console code repository
 https://github.com/hechoendrupal/DrupalConsole
 
-### Documentation repository
+## Documentation repository
 https://github.com/hechoendrupal/drupal-console-book
 
-### Resources
+## Resources
 - [Symfony Components](http://symfony.com/components)
 - [Drupal 8](https://www.drupal.org/drupal-8.0)
 - [PHP the right way](http://www.phptherightway.com/)
