@@ -55,12 +55,8 @@
    * [Getting the project](contribute_to_drupal_console/getting-the-project.md)
    * [Running the project](contribute_to_drupal_console/running-the-project.md)
    * [Create an issue](contribute_to_drupal_console/create-an-issue.md)
-   * [Contribute to this documentation](../contribute_to_drupal_console/contribute-to-the-drupal-console-book.md "Contribute to the Drupal Console book")
-   * [Create a new Command](contribute_to_drupal_console/create-a-new-command.md)
-   * [Create a new Generator](contribute_to_drupal_console/create-a-new-generator.md)
-   * [Create a new Template](contribute_to_drupal_console/create-a-new-template.md)
-   * [Add Translation Messages](contribute_to_drupal_console/add-translation-messages.md)
-   * [Access the Service Container](contribute_to_drupal_console/access-the-service-container.md)
+   * [Contribute to this documentation](contribute_to_drupal_console/contribute-to-the-drupal-console-book.md "Contribute to the Drupal Console book")
+   * [Contribute new features to Drupal Console](contribute_to_drupal_console/contribute-new-features-to-drupal-console.md)
 
 * ## FAQ (Frequently Asked Questions) about Drupal Console
    * [Installation problems](drupal_console_faq/installation-problems.md)
