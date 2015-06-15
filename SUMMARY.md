@@ -1,5 +1,7 @@
 # Summary
 
+* [Drupal Console Documentation](README.md)
+
 * ## About Drupal Console
   * [What is the Drupal Console?](about_drupal_console/what-is-the-drupal-console.md)
   * [How does Drupal Console help?](about_drupal_console/how-does-drupal-console-help.md)

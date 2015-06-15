@@ -1,4 +1,4 @@
-# Drupal Console
+# Drupal Console Documentation
 
 > **Note: This project is a work-in-progress.**
 
