@@ -1,7 +1,7 @@
 # Install Drupal Console Using Composer
 You can install this project using composer.
 
-## Install Drupal Console globally with the following command:
+## Install Drupal Console globally using composer:
 ```
 $ composer global require drupal/console:@stable
 ```
