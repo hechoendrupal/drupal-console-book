@@ -14,7 +14,6 @@
    * [Update project](installing_drupal_console/update-project.md)
 
 * [Available commands](commands/available-commands.md)
-   * 
    * [cache:rebuild](commands/cache-rebuild.md)
    * [config:debug](commands/config-debug.md)
    * [config:edit](commands/config-edit.md)
