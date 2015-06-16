@@ -2,10 +2,10 @@
 
 * [Drupal Console Documentation](README.md)
 
-* [What is the Drupal Console](about_drupal_console/what-is-the-drupal-console.md)
-  * [Why should you care about?](about_drupal_console/why-should-you-care-about.md)
-  * [How does Drupal Console help?](about_drupal_console/how-does-drupal-console-help.md)
-  * [Where do I find the project?](about_drupal_console/where-do-i-find-the-project.md)
+* [What is the Drupal Console](about/what-is-the-drupal-console.md)
+  * [Why should you care about?](about/why-should-you-care-about.md)
+  * [How does Drupal Console help?](about/how-does-drupal-console-help.md)
+  * [Where do I find the project?](about/where-do-i-find-the-project.md)
 
 * ## Downloading & Installing Drupal Console
    * [Using the Installer](installing_drupal_console/using-the-installer.md)
