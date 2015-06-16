@@ -1,12 +1,11 @@
-# Download/install Using the Drupal Console Installer
+# Using the Drupal Console Installer
+You can install the Drupal Console locally by running the installer in your project directory, the installer will take care of downloading the necesary files to run drupal console on you computer.
 
-
-## Install the Drupal Console locally by running the installer in your project directory:
-### Using curl:
+## Using curl:
 ```
 $ curl -LSs http://drupalconsole.com/installer | php
 ```
-### Or if you don't have curl:
+## Or if you don't have curl:
 ```
 $ php -r "readfile('http://drupalconsole.com/installer');" | php
 ```
