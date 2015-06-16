@@ -1,5 +1,2 @@
 # Contribute to the Drupal Console documentation
 This documentation is a work-in-progress and *you are welcome to pitch in and help*. Simply fork the [Drupal Console Book](https://github.com/hechoendrupal/drupal-console-book "(i.e. this documentation)") on GitHub. If you haven't yet contributed to a project on GitHub, or aren't still sure what the workflow looks like, read the documentation about [pull requests](https://help.github.com/articles/using-pull-requests/). You may also wish to download the GitHub application ([Mac](https://mac.github.com) | [Windows](https://windows.github.com), which simplifies the workflow a bit and provides a nice GUI for your contributions).
-
-## Github-flavored Markdown
-This documentation is written in “Github-flavored Markdown”, which is rendered on Github, directly, as HTML. If you are *already* familiar with Markdown, [GFL only adds a few useful tweaks](https://help.github.com/articles/github-flavored-markdown/ "Github-Flavored Markdown—official documentation"), otherwise you may want to read Github’s [Markdown Basics](https://help.github.com/articles/markdown-basics/) primer.
