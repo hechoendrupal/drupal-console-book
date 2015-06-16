@@ -56,6 +56,7 @@
    * [Project requirements](contribute_to_drupal_console/project-requirements.md)
    * [Getting the project](contribute_to_drupal_console/getting-the-project.md)
    * [Running the project](contribute_to_drupal_console/running-the-project.md)
+   * [Keeping your fork up to date](contribute_to_drupal_console/keeping-your-fork-up-to-date.md)
    * [Creating issues and pull requests](contribute_to_drupal_console/creating-issues-and-pull-requests.md)
    * [Contribute to this documentation](contribute_to_drupal_console/contribute-to-the-drupal-console-book.md "Contribute to the Drupal Console book")
    * [Contribute new features to Drupal Console](contribute_to_drupal_console/contribute-new-features-to-drupal-console.md)
