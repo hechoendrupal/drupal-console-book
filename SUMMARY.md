@@ -7,11 +7,11 @@
   * [How does Drupal Console help?](about/how-does-drupal-console-help.md)
   * [Where do I find the project?](about/where-do-i-find-the-project.md)
 
-* ## Downloading & Installing Drupal Console
-   * [Using the Installer](installing_drupal_console/using-the-installer.md)
-   * [Using Composer](installing_drupal_console/using-composer.md)
-   * [Download phar file](installing_drupal_console/download-phar-file.md)
-   * [Update project](installing_drupal_console/update-project.md)
+* [Using Drupal Console](using/project.md)
+   * [Using the Installer](using/installer.md)
+   * [Using Composer](using/composer.md)
+   * [Download phar file](using/download.md)
+   * [Update project](using/update.md)
 
 * [Available commands](commands/available-commands.md)
    * [cache:rebuild](commands/cache-rebuild.md)
