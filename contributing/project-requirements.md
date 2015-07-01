@@ -20,19 +20,6 @@ You can run this terminal command to make Composer easily accessible, from anywh
 $ mv composer.phar /usr/local/bin/composer
 ```
 
-## Download box
-The Drupal Console project requires [Box](http://box-project.org/) project to create the console.phar. Box is an application that simplifies the Phar building process. Install in your system executing the following command.
-
-```
-curl -LSs https://box-project.github.io/box2/installer.php | php
-```
-
-You can run this terminal command to make Box easily accessible, from anywhere on your system:
-
-```
-$ mv box.phar /usr/local/bin/box
-```
-
 ## Download Drupal 8
 The Drupal Console project only supports Drupal 8; which you will need to download and install locally.
 ```
