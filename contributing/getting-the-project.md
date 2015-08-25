@@ -14,5 +14,5 @@ Now that you have cloned the project, you need to download dependencies via Comp
 
 ```
 $ cd /path/to/DrupalConsole
-$ composer update --no-dev
+$ composer install
 ```
