@@ -1,19 +1,17 @@
 # rest:debug
-The **rest:debug** command displays current migration available for the application
+The **rest:debug** command Display current rest resource for the application
 
-```
-$ drupal rest:debug --help
-```
 **Usage:**
 ```
-$ drupal rest:debug [--authorization[="..."]] [resource-id]
+$ drupal rest:debug [arguments] [options] 
 ```
-## Arguments
-Argument | Details
------------- |-------------
- resource-id  |         Rest ID
 
 ## Available options
-Options | Details
------------- |-------------
- --authorization |      REST resource status enabled / disabled
+Option | Details
+-------|-------------
+--authorization | Rest resource status enabled | disabled
+
+## Available arguments
+Argument | Details
+---------|-------------
+resource-id | Rest ID

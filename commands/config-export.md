@@ -1,14 +1,13 @@
 # config:export
-The **config:export** command exports the current application configuration
+The **config:export** command Export current application configuration.
 
-```
-$ drupal config:export --help
-```
 **Usage:**
 ```
-$ drupal config:export [directory]
+$ drupal config:export [arguments] 
 ```
-## Arguments
+
+
+## Available arguments
 Argument | Details
------------- |-------------
-directory    |        Define export directory to save configuration output.
+---------|-------------
+directory | Define export directory to save configuration output.

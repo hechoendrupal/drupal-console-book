@@ -1,14 +1,13 @@
 # router:debug
-The **router:debug** command displays current routes for the application
+The **router:debug** command Displays current routes for the application
 
-```
-$ drupal router:debug --help
-```
 **Usage:**
 ```
-$ drupal router:debug [route-name1] ... [route-nameN]
+$ drupal router:debug [arguments] 
 ```
-## Arguments
+
+
+## Available arguments
 Argument | Details
------------- |-------------
-route-name   |          Route names
+---------|-------------
+route-name | Route names

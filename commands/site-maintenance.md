@@ -1,15 +1,13 @@
-# site-maintenance
-The **site-maintenance** command switches site into maintenance mode
-```
-$ drupal site-maintenance --help
-```
+# site:maintenance
+The **site:maintenance** command Switch site into maintenance mode
+
 **Usage:**
 ```
-$ drupal site:maintenance mode
-
-## Arguments
-Argument | Details
------------- |-------------
-mode         |    Site maintenance mode[on/off]
-
+$ drupal site:maintenance [arguments] 
 ```
+
+
+## Available arguments
+Argument | Details
+---------|-------------
+mode | Site maintenance mode[on/off]

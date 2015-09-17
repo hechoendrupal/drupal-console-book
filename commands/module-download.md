@@ -1,14 +1,14 @@
 # module:download
-The **migrate:execute** command downloads a module or modules into the application
+The **module:download** command Install module or modules in the application
 
-```
-$ drupal module:download --help
-```
 **Usage:**
 ```
-$ drupal module:download module
+$ drupal module:download [arguments] 
 ```
-## Arguments
+
+
+## Available arguments
 Argument | Details
------------- |-------------
-module       |   Module(s) to be downloaded should be listed, comma-separated
+---------|-------------
+module | Module or modules to be enabled should be separated by a comma
+version | Module version i.e 1.x-dev

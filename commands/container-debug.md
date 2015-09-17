@@ -1,10 +1,9 @@
 # container:debug
-The **container:debug** command displays current services for an application
+The **container:debug** command Displays current services for an application.
 
-```
-$ drupal container:debug --help
-```
 **Usage:**
 ```
-container:debug
+$ drupal container:debug 
 ```
+
+

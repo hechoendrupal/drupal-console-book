@@ -1,25 +1,24 @@
 # migrate:execute
-The **migrate:execute** command executes an available migration
+The **migrate:execute** command Execute a migration available for application
 
-```
-$ drupal migrate:execute --help
-```
 **Usage:**
 ```
-$ drupal migrate:execute [--site-url="..."] [--db-host="..."] [--db-name="..."] [--db-user="..."] [--db-pass[="..."]] [--db-prefix[="..."]] [--db-port="..."] migration-id
+$ drupal migrate:execute [arguments] [options] 
 ```
-## Arguments
-Argument | Details
------------- |-------------
-migration-id   |       Migration Id
 
 ## Available options
-Options | Details
------------- |-------------
---site-url   |         Site Source URL
---db-host    |         Database Host
---db-name    |         Database Name
---db-user    |         Database User
---db-pass    |         Database Pass
---db-prefix  |         Database Prefix
---db-port    |         Database Port
+Option | Details
+-------|-------------
+--site-url | Site Source URL
+--db-host | Database Host
+--db-name | Database Name
+--db-user | Database User
+--db-pass | Database Pass
+--db-prefix | Database Prefix
+--db-port | Database Port
+--exclude | Migration id(s) to exclude
+
+## Available arguments
+Argument | Details
+---------|-------------
+migration-ids | Migration id(s)

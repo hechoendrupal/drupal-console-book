@@ -1,16 +1,14 @@
 # module:debug
-The **module:debug** command displays status and origin info for each available module
+The **module:debug** command Display current modules available for application
 
-```
-$ drupal module:debug --help
-```
 **Usage:**
 ```
-$ drupal module:debug [--status[="..."]] [--type[="..."]]
+$ drupal module:debug [options] 
 ```
 
 ## Available options
-Options | Details
------------- |-------------
---status     |         Module status [enabled|disabled]
---type       |         Module type [core|no-core]
+Option | Details
+-------|-------------
+--status | Module status [enabled|disabled]
+--type | Module type [core|no-core]
+

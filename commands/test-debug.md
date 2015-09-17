@@ -1,19 +1,17 @@
 # test:debug
-The **test:debug** command lists unit tests available to the application
+The **test:debug** command List Test Units available for the application.
 
-```
-$ drupal test:debug --help
-```
 **Usage:**
 ```
-$ drupal test:debug [--group[="..."]] [test-id]
+$ drupal test:debug [arguments] [options] 
 ```
-## Arguments
-Argument | Details
------------- |-------------
-test-id      |         commands.test.debug.arguments.resource-id
 
 ## Available options
-Options | Details
------------- |-------------
---group      |         Group
+Option | Details
+-------|-------------
+--group | Group
+
+## Available arguments
+Argument | Details
+---------|-------------
+test-class | Test Class
