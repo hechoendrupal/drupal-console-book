@@ -1,16 +1,15 @@
 # config:override
-The **config:override** command overrides the config value in active configuration
+The **config:override** command Override config value in active configuration.
 
-```
-$ drupal config:override --help
-```
 **Usage:**
 ```
-$ drupal config:override config-name key value
+$ drupal config:override [arguments] 
 ```
-## Arguments
+
+
+## Available arguments
 Argument | Details
------------- |-------------
-config-name  |         Configuration name.
-key          |         Key
-value        |         Value
+---------|-------------
+config-name | Configuration name.
+key | Key
+value | Value

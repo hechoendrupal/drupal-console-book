@@ -1,15 +1,17 @@
 # module:install
-The **module:install** command installs module(s) into the application
+The **module:install** command Install module or modules in the application
 
-```
-$ drupal module:install module --help
-```
 **Usage:**
 ```
-$ drupal module:install module
+$ drupal module:install [arguments] [options] 
 ```
-## Arguments
-Argument | Details
------------- |-------------
-module       |         Module(s) to be installed should be listed comma-separated
 
+## Available options
+Option | Details
+-------|-------------
+--overwrite-config | Overwrite configuration active if necessary
+
+## Available arguments
+Argument | Details
+---------|-------------
+module | Module or modules to be enabled should be separated by a comma

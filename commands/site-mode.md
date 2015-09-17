@@ -1,13 +1,13 @@
 # site:mode
-The **site:mode** command switches system performance configuration
-```
-$ drupal site:mode --help
-```
+The **site:mode** command Switch system performance configuration
+
 **Usage:**
 ```
-$ drupal site:mode environment
+$ drupal site:mode [arguments] 
 ```
-## Arguments
+
+
+## Available arguments
 Argument | Details
------------- |-------------
-environment  |   Environment name
+---------|-------------
+environment | Environment name (dev|prod)

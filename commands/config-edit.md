@@ -1,15 +1,14 @@
 # config:edit
-The **config:edit** command allows editing the selected configuration
+The **config:edit** command Edit the selected configuration.
 
-```
-$ drupal config:edit --help
-```
 **Usage:**
 ```
-$ drupal config:edit config-name [editor]
+$ drupal config:edit [arguments] 
 ```
-## Arguments
+
+
+## Available arguments
 Argument | Details
------------- |-------------
-config-name     |      Configuration name.
-editor         |      Editor.
+---------|-------------
+config-name | Configuration name.
+editor | Editor.

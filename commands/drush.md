@@ -1,10 +1,13 @@
 # drush
-The **drush** command allows you to run Drush commands from the Drupal console. *Use the interactive mode for a better experience* i.e.: **--shell**.
+The **drush** command Run drush from console.
 
-```
-$ drupal drush --help
-```
 **Usage:**
 ```
-$ drupal drush [args1] ... [argsN]
+$ drupal drush [arguments] 
 ```
+
+
+## Available arguments
+Argument | Details
+---------|-------------
+args | Drush arguments.

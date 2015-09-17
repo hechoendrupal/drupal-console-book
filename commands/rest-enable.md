@@ -1,14 +1,13 @@
 # rest:enable
-The **rest:enable** command enables a REST resource for the application
+The **rest:enable** command Enable a rest resource for the application
 
-```
-$ drupal rest:enable --help
-```
 **Usage:**
 ```
-$ drupal rest:enable [resource-id]
+$ drupal rest:enable [arguments] 
 ```
-## Arguments
+
+
+## Available arguments
 Argument | Details
------------- |-------------
- resource-id  |         Rest ID
+---------|-------------
+resource-id | Rest ID

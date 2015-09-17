@@ -1,14 +1,13 @@
 # site:status
-The **site:status** command displays current Drupal installation details
+The **site:status** command View current Drupal Installation status
 
-```
-$ drupal site:status --help
-```
 **Usage:**
 ```
-$ drupal site:status [--format[="..."]]
+$ drupal site:status [options] 
 ```
+
 ## Available options
-Options | Details
------------- |-------------
---format     |         commands.site.status.options.format (default: "table")
+Option | Details
+-------|-------------
+--format | commands.site.status.options.format
+

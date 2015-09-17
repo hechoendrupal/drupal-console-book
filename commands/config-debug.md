@@ -1,14 +1,13 @@
 # config:debug
-The **config:debug** command allows editing the selected configuration
+The **config:debug** command Show the current configuration.
 
-```
-$ drupal config:debug --help
-```
 **Usage:**
 ```
-$ drupal config:debug [config-name]
+$ drupal config:debug [arguments] 
 ```
-## Arguments
+
+
+## Available arguments
 Argument | Details
------------- |-------------
-config-name     |      Configuration name.
+---------|-------------
+config-name | Configuration name.

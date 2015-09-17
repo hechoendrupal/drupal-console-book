@@ -1,0 +1,17 @@
+# config:export:content:type
+The **config:export:content:type** command Export a specific content type and their fields.
+
+**Usage:**
+```
+$ drupal config:export:content:type [arguments] [options] 
+```
+
+## Available options
+Option | Details
+-------|-------------
+--module | The Module name.
+
+## Available arguments
+Argument | Details
+---------|-------------
+content_type | Content Type to be exported

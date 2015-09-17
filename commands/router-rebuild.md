@@ -1,9 +1,9 @@
 # router:rebuild
-The **router:rebuild** command rebuilds routes for the application
-```
-$ drupal router:rebuild --help
-```
+The **router:rebuild** command Rebuild routes for the application
+
 **Usage:**
 ```
-$ drupal router:rebuild
+$ drupal router:rebuild 
 ```
+
+

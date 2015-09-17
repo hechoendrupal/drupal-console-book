@@ -1,14 +1,13 @@
 # migrate:debug
-The **migrate:debug** command displays current migration available for the application
+The **migrate:debug** command Display current migration available for the application
 
-```
-$ drupal migrate:debug --help
-```
 **Usage:**
 ```
-$ drupal migrate:debug [drupal-version]
+$ drupal migrate:debug [arguments] 
 ```
-## Arguments
+
+
+## Available arguments
 Argument | Details
------------- |-------------
-drupal-version    |    Drupal Version
+---------|-------------
+drupal-version | Drupal Version

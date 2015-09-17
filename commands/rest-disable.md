@@ -1,14 +1,13 @@
 # rest:disable
-The **rest:disable** command disables a REST resource for the application
+The **rest:disable** command Disable a rest resource for the application
 
-```
-$ drupal rest:disable --help
-```
 **Usage:**
 ```
-$ drupal rest:disable [resource-id]
+$ drupal rest:disable [arguments] 
 ```
-## Arguments
+
+
+## Available arguments
 Argument | Details
------------- |-------------
- resource-id  |         Rest ID
+---------|-------------
+resource-id | Rest ID
