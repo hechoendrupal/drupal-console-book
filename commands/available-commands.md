@@ -27,14 +27,14 @@ Drupal Console Command | Details
 [cron:debug](cron-debug.md) | Display current views resources for the application
 [cron:execute](cron-execute.md) | commands.views.execute.description
 **generate**  |
-[generate:doc](generate-doc.md) | commands.generate.doc.description
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
 [generate:command](generate-command.md) | Generate commands for the console.
-[generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
 [generate:contenttype](generate-contenttype.md) | Generate a new content type (node / entity bundle)
 [generate:controller](generate-controller.md) | Generate & Register a controller
+[generate:doc](generate-doc.md) | commands.generate.doc.description
 [generate:entity:config](generate-entity-config.md) | Generate a new "EntityConfig"
 [generate:entity:content](generate-entity-content.md) | Generate a new "EntityContent"
+[generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
 [generate:module](generate-module.md) | Generate a module.
 [generate:permissions](generate-permissions.md) | Generate module permissions
 [generate:plugin:block](generate-plugin-block.md) | Generate a plugin block
@@ -68,9 +68,9 @@ Drupal Console Command | Details
 [router:debug](router-debug.md) | Displays current routes for the application
 [router:rebuild](router-rebuild.md) | Rebuild routes for the application
 **site**  |
-[site:new](site-new.md) | Create a new Drupal project
 [site:maintenance](site-maintenance.md) | Switch site into maintenance mode
 [site:mode](site-mode.md) | Switch system performance configuration
+[site:new](site-new.md) | Create a new Drupal project
 [site:status](site-status.md) | View current Drupal Installation status
 **test**  |
 [test:debug](test-debug.md) | List Test Units available for the application.
