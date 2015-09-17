@@ -14,7 +14,7 @@
   * [Update project](using/update.md)
 
 * [Available commands](commands/available-commands.md)
-{% include "./commands/available-commands-list.md" %}
+  {% include "./commands/available-commands-list.md" %}
 
 * [Contributing to Drupal Console](contributing/new-features.md)
    * [Project requirements](contributing/project-requirements.md)
