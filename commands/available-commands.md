@@ -4,6 +4,7 @@
 
 Drupal Console Command | Details
 ------------ | -------------
+[about](about.md) | Display basic information about Drupal Console project
 [chain](chain.md) | Chain command execution
 [drush](drush.md) | Run drush from console.
 [help](help.md) | Displays help for a command
@@ -26,6 +27,8 @@ Drupal Console Command | Details
 **cron**  |
 [cron:debug](cron-debug.md) | Display current views resources for the application
 [cron:execute](cron-execute.md) | commands.views.execute.description
+**dblog**  |
+[dblog:debug](dblog-debug.md) | Display current log events for the application
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
 [generate:command](generate-command.md) | Generate commands for the console.
@@ -87,6 +90,7 @@ Drupal Console Command | Details
 [views:disable](views-disable.md) | Disable a View
 [views:enable](views-enable.md) | Enable a View
 **yaml**  |
+[yaml:diff](yaml-diff.md) | Merge one or more YAML files in a new YAML file. Latest values are preserved.
 [yaml:merge](yaml-merge.md) | Merge one or more YAML files in a new YAML file. Latest values are preserved.
 [yaml:update:key](yaml-update-key.md) | Replace a YAML key in a YAML file.
 [yaml:update:value](yaml-update-value.md) | Update a value for a specific key in a YAML file.
