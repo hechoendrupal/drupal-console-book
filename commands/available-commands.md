@@ -25,9 +25,10 @@ Drupal Console Command | Details
 **container**  |
 [container:debug](container-debug.md) | Displays current services for an application.
 **cron**  |
-[cron:debug](cron-debug.md) | Display current views resources for the application
-[cron:execute](cron-execute.md) | commands.views.execute.description
+[cron:debug](cron-debug.md) | List of modules implementing a cron
+[cron:execute](cron-execute.md) | Execute cron implementation from a specific module or all to execute all implementations
 **dblog**  |
+[dblog:clear](dblog-clear.md) | Remove events from DBLog table, filters are available
 [dblog:debug](dblog-debug.md) | Display current log events for the application
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
@@ -37,6 +38,7 @@ Drupal Console Command | Details
 [generate:doc](generate-doc.md) | commands.generate.doc.description
 [generate:entity:config](generate-entity-config.md) | Generate a new "EntityConfig"
 [generate:entity:content](generate-entity-content.md) | Generate a new "EntityContent"
+[generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
 [generate:module](generate-module.md) | Generate a module.
 [generate:permissions](generate-permissions.md) | Generate module permissions
@@ -90,7 +92,7 @@ Drupal Console Command | Details
 [views:disable](views-disable.md) | Disable a View
 [views:enable](views-enable.md) | Enable a View
 **yaml**  |
-[yaml:diff](yaml-diff.md) | Merge one or more YAML files in a new YAML file. Latest values are preserved.
+[yaml:diff](yaml-diff.md) | Compare two YAML files do determined differences between them
 [yaml:merge](yaml-merge.md) | Merge one or more YAML files in a new YAML file. Latest values are preserved.
 [yaml:update:key](yaml-update-key.md) | Replace a YAML key in a YAML file.
 [yaml:update:value](yaml-update-value.md) | Update a value for a specific key in a YAML file.
