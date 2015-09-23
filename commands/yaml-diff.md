@@ -1,5 +1,5 @@
 # yaml:diff
-The **yaml:diff** command Merge one or more YAML files in a new YAML file. Latest values are preserved.
+The **yaml:diff** command Compare two YAML files do determined differences between them
 
 **Usage:**
 ```

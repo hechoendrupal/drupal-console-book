@@ -1,5 +1,5 @@
 # cron:execute
-The **cron:execute** command commands.views.execute.description
+The **cron:execute** command Execute cron implementation from a specific module or all to execute all implementations
 
 **Usage:**
 ```
