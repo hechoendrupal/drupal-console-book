@@ -19,6 +19,7 @@ Drupal Console Command | Details
 [config:export](config-export.md) | Export current application configuration.
 [config:export:content:type](config-export-content-type.md) | Export a specific content type and their fields.
 [config:export:single](config-export-single.md) | Export single configuration as yml file.
+[config:export:view](config-export-view.md) | Export a view in YAML format inside a provided module to reuse in other website.
 [config:import](config-import.md) | Import configuration to current application.
 [config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | Override config value in active configuration.
@@ -27,17 +28,19 @@ Drupal Console Command | Details
 **cron**  |
 [cron:debug](cron-debug.md) | List of modules implementing a cron
 [cron:execute](cron-execute.md) | Execute cron implementation from a specific module or all to execute all implementations
+[cron:release](cron-release.md) | Release cron system lock to renable re-run cron
 **dblog**  |
 [dblog:clear](dblog-clear.md) | Remove events from DBLog table, filters are available
 [dblog:debug](dblog-debug.md) | Display current log events for the application
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
 [generate:command](generate-command.md) | Generate commands for the console.
-[generate:contenttype](generate-contenttype.md) | Generate a new content type (node / entity bundle)
 [generate:controller](generate-controller.md) | Generate & Register a controller
 [generate:doc](generate-doc.md) | commands.generate.doc.description
-[generate:entity:config](generate-entity-config.md) | Generate a new "EntityConfig"
-[generate:entity:content](generate-entity-content.md) | Generate a new "EntityContent"
+[generate:entity:bundle](generate-entity-bundle.md) | Generate a new content type (node / entity bundle)
+[generate:entity:config](generate-entity-config.md) | commands.generate.entity.description
+[generate:entity:content](generate-entity-content.md) | commands.generate.entity.description
+[generate:event:subscriber](generate-event-subscriber.md) | Generate an event subscriber
 [generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
 [generate:module](generate-module.md) | Generate a module.
@@ -54,6 +57,7 @@ Drupal Console Command | Details
 [generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Generate a plugin rule action
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Generate a plugin type with Yaml discovery
+[generate:plugin:views:field](generate-plugin-views-field.md) | Generate a custom plugin view field.
 [generate:service](generate-service.md) | Generate service
 [generate:theme](generate-theme.md) | Generate a theme.
 **migrate**  |
@@ -85,6 +89,7 @@ Drupal Console Command | Details
 [update:execute](update-execute.md) | Display current updates available for the application
 **user**  |
 [user:login:clear:attempts](user-login-clear-attempts.md) | Clear login failed attempts for an account.
+[user:login:url](user-login-url.md) | Returns a one time user login url.
 [user:password:hash](user-password-hash.md) | Generate a hash from a plaintext password.
 [user:password:reset](user-password-reset.md) | Reset password for a specific user.
 **views**  |
@@ -94,6 +99,7 @@ Drupal Console Command | Details
 **yaml**  |
 [yaml:diff](yaml-diff.md) | Compare two YAML files do determined differences between them
 [yaml:merge](yaml-merge.md) | Merge one or more YAML files in a new YAML file. Latest values are preserved.
+[yaml:split](yaml-split.md) | Split a YAML file using indent as separator criteria
 [yaml:update:key](yaml-update-key.md) | Replace a YAML key in a YAML file.
 [yaml:update:value](yaml-update-value.md) | Update a value for a specific key in a YAML file.
 
@@ -107,7 +113,7 @@ Option | Details
 --ansi | Force ANSI output
 --no-ansi | Disable ANSI output
 --no-interaction | Do not ask any interactive question
---drupal | Path to Drupal root.
+--root | application.console.arguments.root
 --shell | Launch the shell.
 --env | The Environment name.
 --no-debug | Switches off debug mode.

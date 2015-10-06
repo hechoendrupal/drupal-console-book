@@ -1,5 +1,5 @@
 # generate:entity:config
-The **generate:entity:config** command Generate a new "EntityConfig"
+The **generate:entity:config** command commands.generate.entity.description
 
 **Usage:**
 ```
@@ -10,7 +10,7 @@ $ drupal generate:entity:config [options]
 Option | Details
 -------|-------------
 --module | The Module name.
---entity-class | The entity class name
---entity-name | The name of the entity
---label | The entity label
+--entity-class | commands.generate.entity.options.entity-class
+--entity-name | commands.generate.entity.options.entity-name
+--label | commands.generate.entity.options.label
 
