@@ -15,6 +15,7 @@ Option | Details
 --description | Module description
 --core | Core version
 --package | Module package
+--feature | Set module compatible with Features module
 --composer | Add a composer.json file
 --dependencies | Module dependencies separated by commas (i.e. context, panels)
 
