@@ -3,7 +3,7 @@ The **generate:doc** command commands.generate.doc.description
 
 **Usage:**
 ```
-$ drupal generate:doc [options]
+$ drupal generate:doc [options] 
 ```
 
 ## Available options
