@@ -27,8 +27,8 @@ Drupal Console Command | Details
 [container:debug](container-debug.md) | Displays current services for an application.
 **cron**  |
 [cron:debug](cron-debug.md) | List of modules implementing a cron
-[cron:execute](cron-execute.md) | Execute cron implementation from a specific module or all to execute all implementations
-[cron:release](cron-release.md) | Release cron system lock to renable re-run cron
+[cron:execute](cron-execute.md) | Execute cron implementations by module or execute all crons
+[cron:release](cron-release.md) | Release cron system lock to run cron again
 **dblog**  |
 [dblog:clear](dblog-clear.md) | Remove events from DBLog table, filters are available
 [dblog:debug](dblog-debug.md) | Display current log events for the application
@@ -77,6 +77,8 @@ Drupal Console Command | Details
 [router:debug](router-debug.md) | Displays current routes for the application
 [router:rebuild](router-rebuild.md) | Rebuild routes for the application
 **site**  |
+[site:debug](site-debug.md) | List all known local and remote sites.
+[site:install](site-install.md) | Install a Drupal project
 [site:maintenance](site-maintenance.md) | Switch site into maintenance mode
 [site:mode](site-mode.md) | Switch system performance configuration
 [site:new](site-new.md) | Create a new Drupal project
@@ -121,6 +123,7 @@ Option | Details
 --generate-chain | Print execution options and arguments as yaml output to be used in chain command
 --generate-inline | Print execution options and arguments as inline call to be use in the future
 --generate-doc | application.console.arguments.generate-doc
+--target | application.console.arguments.target
 
 ## Available arguments
 Argument | Details
