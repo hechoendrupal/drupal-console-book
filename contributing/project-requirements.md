@@ -23,7 +23,7 @@ $ mv composer.phar /usr/local/bin/composer
 ## Download Drupal 8
 The Drupal Console project only supports Drupal 8; which you will need to download and install locally.
 ```
-$ git clone --branch 8.x http://git.drupal.org/project/drupal.git drupal8.dev
+$ git clone --branch 8.0.x http://git.drupal.org/project/drupal.git drupal8.dev
 $ cd drupal8.dev
 ```
 You can install Drupal through the UI or using drush:
