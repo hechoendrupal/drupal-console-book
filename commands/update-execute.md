@@ -1,5 +1,5 @@
 # update:execute
-The **update:execute** command Display current updates available for the application
+The **update:execute** command Execute a specfic Update N function in a module, or execute all
 
 **Usage:**
 ```
@@ -11,4 +11,4 @@ $ drupal update:execute [arguments]
 Argument | Details
 ---------|-------------
 module | The Module name.
-update-n | commands.update.debug.options.update-n
+update-n | Specific Update N function to be executed

@@ -29,17 +29,19 @@ Drupal Console Command | Details
 [cron:debug](cron-debug.md) | List of modules implementing a cron
 [cron:execute](cron-execute.md) | Execute cron implementations by module or execute all crons
 [cron:release](cron-release.md) | Release cron system lock to run cron again
-**dblog**  |
-[dblog:clear](dblog-clear.md) | Remove events from DBLog table, filters are available
-[dblog:debug](dblog-debug.md) | Display current log events for the application
+**database**  |
+[database:client](database-client.md) | Lunch a DB client if it's available
+[database:connect](database-connect.md) | Lunch a DB client if it's available
+[database:log:clear](database-log-clear.md) | Remove events from DBLog table, filters are available
+[database:log:debug](database-log-debug.md) | Display current log events for the application
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
 [generate:command](generate-command.md) | Generate commands for the console.
 [generate:controller](generate-controller.md) | Generate & Register a controller
-[generate:doc](generate-doc.md) | commands.generate.doc.description
+[generate:doc](generate-doc.md) | Generate documentations for Commands
 [generate:entity:bundle](generate-entity-bundle.md) | Generate a new content type (node / entity bundle)
-[generate:entity:config](generate-entity-config.md) | commands.generate.entity.description
-[generate:entity:content](generate-entity-content.md) | commands.generate.entity.description
+[generate:entity:config](generate-entity-config.md) | Generate a new entity
+[generate:entity:content](generate-entity-content.md) | Generate a new entity
 [generate:event:subscriber](generate-event-subscriber.md) | Generate an event subscriber
 [generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
@@ -64,6 +66,7 @@ Drupal Console Command | Details
 [migrate:debug](migrate-debug.md) | Display current migration available for the application
 [migrate:execute](migrate-execute.md) | Execute a migration available for application
 [migrate:load](migrate-load.md) | Generate a migration entity.
+[migrate:setup](migrate-setup.md) | Load and create the relevant migrations for a provided legacy database
 **module**  |
 [module:debug](module-debug.md) | Display current modules available for application
 [module:download](module-download.md) | Install module or modules in the application
@@ -86,9 +89,13 @@ Drupal Console Command | Details
 **test**  |
 [test:debug](test-debug.md) | List Test Units available for the application.
 [test:run](test-run.md) | Run Test unit from tests available for application
+**theme**  |
+[theme:download](theme-download.md) | Install theme or themes in the application
+[theme:install](theme-install.md) | Install theme or themes in the application
+[theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application
 **update**  |
 [update:debug](update-debug.md) | Display current updates available for the application
-[update:execute](update-execute.md) | Display current updates available for the application
+[update:execute](update-execute.md) | Execute a specfic Update N function in a module, or execute all
 **user**  |
 [user:login:clear:attempts](user-login-clear-attempts.md) | Clear login failed attempts for an account.
 [user:login:url](user-login-url.md) | Returns a one time user login url.
@@ -115,7 +122,7 @@ Option | Details
 --ansi | Force ANSI output
 --no-ansi | Disable ANSI output
 --no-interaction | Do not ask any interactive question
---root | application.console.arguments.root
+--root | Define the Drupal root to be use in command execution
 --shell | Launch the shell.
 --env | The Environment name.
 --no-debug | Switches off debug mode.

@@ -1,9 +1,9 @@
-# dblog:debug
-The **dblog:debug** command Display current log events for the application
+# database:log:debug
+The **database:log:debug** command Display current log events for the application
 
 **Usage:**
 ```
-$ drupal dblog:debug [arguments] [options] 
+$ drupal database:log:debug [arguments] [options] 
 ```
 
 ## Available options

@@ -1,12 +1,17 @@
 # generate:doc
-The **generate:doc** command commands.generate.doc.description
+The **generate:doc** command Generate documentations for Commands
 
 **Usage:**
 ```
-$ drupal generate:doc [options] 
+$ drupal generate:doc [arguments] [options] 
 ```
 
 ## Available options
 Option | Details
 -------|-------------
---path | commands.generate.doc.options.path
+--path | The path to render the documentation
+
+## Available arguments
+Argument | Details
+---------|-------------
+command | The command to execute

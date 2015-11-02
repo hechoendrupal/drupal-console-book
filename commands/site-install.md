@@ -9,8 +9,8 @@ $ drupal site:install [arguments] [options]
 ## Available options
 Option | Details
 -------|-------------
---langcode | commands.migrate.execute.options.langcode
---db-type | commands.site.install.options.db-type
+--langcode | Drupal language
+--db-type | Drupal Database type to be use in install
 --db-host | Database Host
 --db-name | Database Name
 --db-user | Database User
