@@ -10,7 +10,7 @@ $ drupal generate:command [options]
 Option | Details
 -------|-------------
 --module | The Module name.
---class | commands.generate.command.options.class
---name | commands.generate.command.options.name
---container-aware | commands.generate.command.options.container-aware
+--class | The Class that describes the command. (Must end with the word 'Commmand').
+--name | The Command name.
+--container-aware | Is the command aware of the drupal site installation when executed
 

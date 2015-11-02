@@ -9,5 +9,5 @@ $ drupal init [options]
 ## Available options
 Option | Details
 -------|-------------
---override | commands.init.options.override
+--override | Override configurations files
 

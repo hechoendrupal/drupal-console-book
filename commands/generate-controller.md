@@ -11,7 +11,7 @@ Option | Details
 -------|-------------
 --module | The Module name.
 --class-name | Controller Class name
---controller-title | commands.generate.controller.options.controller-title
+--controller-title | Title of the controller
 --method-name | The action method name
 --route | The route path
 --services | Load services from the container.
