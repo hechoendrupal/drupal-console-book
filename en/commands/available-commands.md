@@ -1,8 +1,8 @@
-# commands.generate.doc.output.available-commands.title
+# Available Drupal Console Commands
 
-**commands.generate.doc.output.available-commands.note:** commands.generate.doc.output.available-commands.note-description.
+**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
 
-commands.generate.doc.output.available-commands.command | commands.generate.doc.output.command.details
+Drupal Console Command | Details
 ------------ | -------------
 [about](about.md) | Display basic information about Drupal Console project
 [chain](chain.md) | Chain command execution
@@ -117,8 +117,8 @@ commands.generate.doc.output.available-commands.command | commands.generate.doc.
 [yaml:update:key](yaml-update-key.md) | Replace a YAML key in a YAML file.
 [yaml:update:value](yaml-update-value.md) | Update a value for a specific key in a YAML file.
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.options
+## Available options
+Available options | Available options
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -138,7 +138,7 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --target | application.console.arguments.target
 --uri | URI of the Drupal site to use (for multisite environments or when running on an alternate port)
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute
