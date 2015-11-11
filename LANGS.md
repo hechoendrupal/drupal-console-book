@@ -8,5 +8,5 @@
 * [हिन्दी](hi)
 * [Português](pt-br)
 * [Tiếng Việt](vn)
-* [中文](zh) 
+* [中文](zh)
 -->
