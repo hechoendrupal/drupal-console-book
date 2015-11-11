@@ -1,33 +1,33 @@
-# Summary
+# Resumen
 
-* [Drupal Console Documentation](README.md)
+* [Documentación de Drupal Console](README.md)
 
-* [What is the Drupal Console](about/what-is-the-drupal-console.md)
-  * [Why should you care about?](about/why-should-you-care-about.md)
-  * [How does Drupal Console help?](about/how-does-drupal-console-help.md)
-  * [Where do I find the project?](about/where-do-i-find-the-project.md)
+* [Que es la Drupal Console](about/what-is-the-drupal-console.md)
+  * [¿Por qué debería preocuparse?](about/why-should-you-care-about.md)
+  * [¿Cómo ayuda la Drupal Consola?](about/how-does-drupal-console-help.md)
+  * [¿Dónde encuentro el proyecto?](about/where-do-i-find-the-project.md)
 
-* [Using Drupal Console](using/project.md)
-  * [Using the Installer](using/installer.md)
-  * [Using Composer](using/composer.md)
-  * [Download phar file](using/download.md)
-  * [Update project](using/update.md)
+* [Usando la Drupal Console](using/project.md)
+  * [Usando el Instalador](using/installer.md)
+  * [Usando Composer](using/composer.md)
+  * [Descaragno el archivo phar](using/download.md)
+  * [Actualizar la Drupal Console](using/update.md)
 
-* [Available commands](commands/available-commands.md)
+* [Comandos disponibles](commands/available-commands.md)
   {% include "./commands/available-commands-list.md" %}
 
-* [Contributing to Drupal Console](contributing/new-features.md)
-   * [Project requirements](contributing/project-requirements.md)
-   * [Getting the project](contributing/getting-the-project.md)
-   * [Running the project](contributing/running-the-project.md)
-   * [Keeping your fork up to date](contributing/keeping-your-fork-up-to-date.md)
-   * [Creating issues and pull requests](contributing/creating-issues-and-pull-requests.md)
+* [Contribuyendo a la Drupal Console](contributing/new-features.md)
+   * [Requerimientos del proyecto](contributing/project-requirements.md)
+   * [Obteniendo el proyecto](contributing/getting-the-project.md)
+   * [Ejecutando el proyecto](contributing/running-the-project.md)
+   * [Actualizar nuestro fork](contributing/keeping-your-fork-up-to-date.md)
+   * [Reportando errores y crear Pull requests](contributing/creating-issues-and-pull-requests.md)
    * [Contribute to this documentation](contributing/documentation.md "Contribute to the Drupal Console book")
 
-* ## FAQ (Frequently Asked Questions) about Drupal Console
-   * [Installation problems](drupal_console_faq/installation-problems.md)
-   * [Permissions](drupal_console_faq/permissions.md)
-   * [Commands not listed](drupal_console_faq/commands-not-listed.md)
-   * [Interactive Mode](drupal_console_faq/interactive-mode.md)
+* ## Preguntas frecuentes acerca de la Drupal Console
+   * [Problemas de instalación](drupal_console_faq/installation-problems.md)
+   * [Permisos](drupal_console_faq/permissions.md)
+   * [Comandos no listadod](drupal_console_faq/commands-not-listed.md)
+   * [Modo interactivo](drupal_console_faq/interactive-mode.md)
 
-* ## [References](references/links.md)
+* ## [Referenciás](references/links.md)

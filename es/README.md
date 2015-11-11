@@ -1,8 +1,8 @@
 # Documentación de Drupal Console 
 
-> **Nota: Este proyecto en proyecto en constante desarrollo.**
+> **Nota: Este proyecto esta en constante desarrollo.**
 
-Este libro documento el proyecto [Drupal Console](http://drupalconsole.com/).
+Este libro documenta el proyecto [Drupal Console](http://drupalconsole.com/).
 
 ## Contribuir al proyecto
 
