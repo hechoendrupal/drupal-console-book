@@ -14,7 +14,7 @@ $ drupal self-update
 $ composer global update drupal/console:@stable
 ```
 
-### Instalando localmente (ejecutandolo desde el directorio donde se descargó console.phar):
+### Instalando localmente (ejecutándolo desde el directorio donde se descargó console.phar):
 ```
 $ php console.phar self-update
 ```
