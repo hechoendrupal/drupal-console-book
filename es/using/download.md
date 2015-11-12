@@ -1,7 +1,7 @@
-# Download phar file
+# Descargar el archivo phar
 
-You can download the latest version of Console from the repository releases page at:
+Descarga la última versión de Console desde el repositorio: 
 
 https://github.com/hechoendrupal/DrupalConsole
 
-Make sure you download the console.phar file from the most current release.
+Asegurate de descargar el archivo console.phar de la versión más actual.
