@@ -1,5 +1,5 @@
 # about
-El comando **about** Muestra información básica sobre el proyecto Drupal Console
+El comando **about** muestra información básica sobre el proyecto Drupal Console.
 
 **Uso:**
 ```
