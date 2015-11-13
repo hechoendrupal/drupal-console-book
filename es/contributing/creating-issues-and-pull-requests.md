@@ -1,13 +1,13 @@
-# Creating an Issue
-If you found an issue or maybe you like to propose a new feature to the project, you need to access the following link:
+# Creando un "Issue"
+Si usted encuentra un problema o tal vez le gustaría proponer una nueva funcionalidad para el proyecto, es necesario acceder al siguiente enlace:
 
 https://github.com/hechoendrupal/DrupalConsole/issues/new
 
-Please review the guidelines for contributing to Drupal Console at:
+Por favor revise las directrices para contribuir a la Consola de Drupal en:
 
 https://github.com/hechoendrupal/DrupalConsole/blob/master/CONTRIBUTING.md
 
-## Creating a Pull Request
-Remember to create a branch before start developing! It's name should contain the issue id and a slug to tell what the thing you're working on is about, for example: `1337-lorem-ipsum`
+## Creando una "Pull Request"
+¡Recuerde que debe crear una rama antes de comenzar el desarrollo! El nombre de la rama debe contener el identificador del "issue" y un "slug" para describir en qué se está trabajando, por ejemplo: '1337-ipsum-ipsum`
 
-If you haven't yet contributed to a project on GitHub, or aren't still sure what the workflow looks like, read the documentation about [pull requests](https://help.github.com/articles/using-pull-requests/). You may also wish to download the GitHub application ([Mac](https://mac.github.com) | [Windows](https://windows.github.com), which simplifies the workflow a bit and provides a nice GUI for your contributions).
+Si usted todavía no ha contribuido a un proyecto en GitHub, o usted no está seguro cómo funciona el flujo de trabajo, le sugerimos leer la documentación acerca de [pull requests] (https://help.github.com/articles/using-pull-requests/). También es posible que desee descargar la aplicación de GitHub ([Mac] (https://mac.github.com) | [Windows] (https://windows.github.com), la cual simplifica el flujo de trabajo y proporciona una agradable GUI para sus contribuciones).
