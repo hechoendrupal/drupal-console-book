@@ -1,11 +1,11 @@
 # How to use Drupal Console in a remote site installation
 
-Drupal Console allows you to run commands on your local server but actually execute them command on a remote server.
+Drupal Console allows you to run commands on your local server but actually execute them on a remote server.
  
 Setting up your local computer to use a remote site requires a little configuration.
 
 ### Edit global configuration 
-You can provide global configuration related to remote connection at copied file `~/.console/config.yml`. This information is grouped within the `remote` key.
+You can provide global configuration to remote connections at the copied file `~/.console/config.yml`. This information is grouped within the `remote` key.
 ```
 application:
   ...
@@ -22,7 +22,7 @@ application:
 ```
 
 ### Edit specific site configuration
-You can provide specific site configuration by duplicating the provided site file at `~/.console/sites/sample.yml` with a new same at `~/.console/sites/`.
+You can provide specific site configuration by duplicating the copied site file at `~/.console/sites/sample.yml` with a new same at `~/.console/sites/`.
 
 ```
 local:
@@ -53,7 +53,7 @@ $ drupal site:debug
 +--------------------+-----------------+------------------------+
 ```
 
-You can show the site configuration details by passing the site name as argument to thew `site:debug` command. 
+You can show the site configuration details by passing the site name as argument to the `site:debug` command. 
 ```
 $ drupal site:debug sample.dev
 
