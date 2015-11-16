@@ -1,14 +1,13 @@
 # module:debug
-El comando **module:debug** Muestra los módulos actualmente disponibles para la aplicación
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal module:debug [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --status | Estado del módulo [habilitado|deshabilitado]
 --type | Tipo de módulo [core|no-core]
-

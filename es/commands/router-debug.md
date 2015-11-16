@@ -1,13 +1,12 @@
 # router:debug
-El comando **router:debug** Muestra las rutas actuales de la aplicación
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal router:debug [arguments] 
 ```
 
-
-## Argumentos disponibles
-Argumento | Detalles
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 route-name | Nombres de ruta

@@ -1,9 +1,7 @@
 # container:debug
-El comando **container:debug** Muestra los servicios actuales de la aplicación.
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal container:debug 
 ```
-
-

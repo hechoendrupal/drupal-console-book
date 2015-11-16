@@ -1,16 +1,15 @@
 # generate:plugin:type:annotation
-El comando **generate:plugin:type:annotation** Genera un tipo de plugin con descubrimiento de anotaciones
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:type:annotation [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --class-name | Nombre de la clase del tipo de plugin
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
 --label | Etiqueta del tipo de plugin
-

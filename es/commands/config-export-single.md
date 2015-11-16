@@ -1,14 +1,13 @@
 # config:export:single
-El comando **config:export:single** Exportar configuración única como archivo YAML.
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:export:single [arguments] 
 ```
 
-
-## Argumentos disponibles
-Argumento | Detalles
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 config-name | Nombre de la configuración.
-directory | Defina el directorio de exportación para guardar la configuración.
+directory | Define el directorio de exportación para guardar la configuración.

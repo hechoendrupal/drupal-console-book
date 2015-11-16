@@ -1,21 +1,21 @@
 # database:log:debug
-El comando **database:log:debug** commands.database.log.debug.description
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:log:debug [arguments] [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---type | commands.database.log.debug.options.type
---severity | commands.database.log.debug.options.severity
---user-id | commands.database.log.debug.options.user-id
---limit | commands.database.log.debug.options.limit
---offset | commands.database.log.debug.options.offset
+--type | Filter events by a specific type
+--severity | Filter events by a specific level of severity
+--user-id | Filter events by a specific user id
+--limit | Limit results to a specific number
+--offset | Starting point of a limit
 
-## Argumentos disponibles
-Argumento | Detalles
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-event-id | commands.database.log.debug.arguments.event-id
+event-id | DBLog event ID

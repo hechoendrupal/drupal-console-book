@@ -1,15 +1,14 @@
 # generate:form:alter
-El comando **generate:form:alter** Genera una implementación de hook_form_alter() o hook_form_FORM_ID_alter
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:form:alter [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --form-id | Form ID a alterar
---inputs | Crear campos de entradas de formulario.
-
+--inputs | Crear campos de entrada en un formulario.

@@ -1,13 +1,13 @@
 # generate:plugin:field
-El comando **generate:plugin:field** Genera plugins de widget, formateador y tipo de campo.
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:field [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --type-class-name | Nombre de clase del plugin de tipo de campo
@@ -23,4 +23,3 @@ Opciones disponibles | Detalles
 --field-type | Plugin de tipo de campo, formateador y widget con el que puede ser usado
 --default-widget | Widget de campo por defecto del plugin de tipo de campo
 --default-formatter | Formateador de campo por defecto del plugin de tipo de campo
-

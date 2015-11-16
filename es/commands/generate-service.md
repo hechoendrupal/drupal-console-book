@@ -1,17 +1,16 @@
 # generate:service
-El comando **generate:service** Genera un servicio
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:service [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --name | commands.generate.service.options.name
 --class | commands.generate.service.options.class
 --interface | commands.common.service.options.interface
---services | Cargar servicios desde el 'container'.
-
+--services | Cargar servicios desde el contenedor.

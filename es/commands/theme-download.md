@@ -1,14 +1,13 @@
 # theme:download
-El comando **theme:download** Install theme or themes in the application
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal theme:download [arguments] 
 ```
 
-
-## Argumentos disponibles
-Argumento | Detalles
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-theme | theme or themes to be enabled should be separated by a comma
+theme | tema o temas que serán activados deberían estar separados por comas
 version | Versión del tema, por ejemplo, 1.x-dev

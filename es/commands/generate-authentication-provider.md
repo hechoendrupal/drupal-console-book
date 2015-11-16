@@ -1,15 +1,14 @@
 # generate:authentication:provider
-El comando **generate:authentication:provider** Generar un Proveedor de Autenticación
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:authentication:provider [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --class-name | commands.generate.authentication.provider.options.class-name
 --provider-id | commands.generate.authentication.provider.options.provider-id
-

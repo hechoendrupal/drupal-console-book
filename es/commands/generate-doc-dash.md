@@ -1,13 +1,12 @@
 # generate:doc:dash
-El comando **generate:doc:dash** commands.generate.doc.dash.description
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:doc:dash [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---path | commands.generate.doc.dash.options.path
-
+--path | The path to the directory where the docset will be saved.

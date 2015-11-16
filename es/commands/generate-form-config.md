@@ -1,18 +1,17 @@
 # generate:form:config
-El comando **generate:form:config** Generar un nuevo "ConfigFormBase"
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:form:config [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --class-name | El nombre de la clase del formulario
 --form-id | El id del formulario
---services | Cargar servicios desde el 'container'.
---inputs | Crear campos de entradas de formulario.
+--services | Cargar servicios desde el contenedor.
+--inputs | Crear campos de entrada en un formulario.
 --routing | Actualizar la ruta
-

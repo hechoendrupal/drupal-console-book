@@ -1,18 +1,18 @@
 # config:export:content:type
-El comando **config:export:content:type** Exporta un tipo de contenido determinado y todos sus campos.
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:export:content:type [arguments] [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --optional-config | Exportar el tipo de contenido como una configuración YAML opcional en su módulo
 
-## Argumentos disponibles
-Argumento | Detalles
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-content_type | Tipo de contenido que será exportado
+content_type | Tipo de contenido que será exportado.

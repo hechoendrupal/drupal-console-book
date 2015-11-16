@@ -1,13 +1,13 @@
 # migrate:execute
-El comando **migrate:execute** Ejecuta una migración que esté disponible para la aplicación
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal migrate:execute [arguments] [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --site-url | URL fuente del sitio
 --db-type | commands.migrate.setup.migrations.options.db-type
@@ -19,7 +19,7 @@ Opciones disponibles | Detalles
 --db-port | Puerto de la base de datos
 --exclude | Excluir los siguientes IDs de migración
 
-## Argumentos disponibles
-Argumento | Detalles
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 migration-ids | ID de migración

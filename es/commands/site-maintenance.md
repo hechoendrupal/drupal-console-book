@@ -1,13 +1,12 @@
 # site:maintenance
-El comando **site:maintenance** Poner el sitio en modo mantenimiento
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:maintenance [arguments] 
 ```
 
-
-## Argumentos disponibles
-Argumento | Detalles
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 mode | Modo mantenimiento del sitio[on/off]

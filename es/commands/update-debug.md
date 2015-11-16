@@ -1,9 +1,7 @@
 # update:debug
-El comando **update:debug** Muestra las actualizaciones actualmente disponibles para la aplicación
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal update:debug 
 ```
-
-

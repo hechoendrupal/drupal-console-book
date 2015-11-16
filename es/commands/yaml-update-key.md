@@ -1,14 +1,13 @@
 # yaml:update:key
-El comando **yaml:update:key** Reemplaza una clave en un archivo YAML.
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal yaml:update:key [arguments] 
 ```
 
-
-## Argumentos disponibles
-Argumento | Detalles
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 yaml-file | Ruta del archivo YAML que será actualizado
 yaml-key | Clave YAML a actualizar

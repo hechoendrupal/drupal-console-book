@@ -1,14 +1,13 @@
 # config:import:single
-El comando **config:import:single** Importar la configuración seleccionada.
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:import:single [arguments] 
 ```
 
-
-## Argumentos disponibles
-Argumento | Detalles
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 config-name | Nombre de la configuración.
 input-file | Ruta de los archivos de importación.

@@ -1,13 +1,13 @@
 # generate:plugin:rest:resource
-El comando **generate:plugin:rest:resource** Genera un plugin de recurso rest
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:rest:resource [options] 
 ```
 
-## Opciones disponibles
-Opciones disponibles | Detalles
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --class-name | Nombre de la clase del plugin de recurso rest
@@ -16,4 +16,3 @@ Opciones disponibles | Detalles
 --plugin-label | Etiqueta del plugin de recurso rest
 --plugin-url | URL del plugin de recurso rest
 --plugin-states | Estados del plugin de recurso rest
-

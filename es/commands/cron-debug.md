@@ -1,9 +1,7 @@
 # cron:debug
-El comando **cron:debug** Listado de módulos que implementan una llamada al cron
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal cron:debug 
 ```
-
-

@@ -1,13 +1,12 @@
 # locale:language:add
-El comando **locale:language:add** commands.locale.language.add.description
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal locale:language:add [arguments] 
 ```
 
-
-## Argumentos disponibles
-Argumento | Detalles
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-language | Language for instance es or Spanish
+language | Idioma por ejemplo es o Español

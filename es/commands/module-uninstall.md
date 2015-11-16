@@ -1,13 +1,12 @@
 # module:uninstall
-El comando **module:uninstall** Desinstala un módulo o varios en la aplicación
+commands.generate.doc.gitbook.messages.command_description
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal module:uninstall [arguments] 
 ```
 
-
-## Argumentos disponibles
-Argumento | Detalles
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-module | commands.module.uninstall.options.module
+module | Module or modules to be uninstalled should be separated by a comma
