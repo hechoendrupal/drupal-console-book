@@ -1,7 +1,7 @@
 # self-update
-commands.generate.doc.gitbook.messages.command_description
+El comando **self-update** Actualiza la consola a la última versión.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal self-update 
 ```

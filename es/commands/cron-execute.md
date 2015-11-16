@@ -1,12 +1,12 @@
 # cron:execute
-commands.generate.doc.gitbook.messages.command_description
+El comando **cron:execute** Ejecutar implementación de cron desde un módulo específico o todos para ejecutar todas las implementaciones
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal cron:execute [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 module | Nombre del módulo.

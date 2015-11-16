@@ -1,7 +1,7 @@
 # multisite:debug
-commands.generate.doc.gitbook.messages.command_description
+El comando **multisite:debug** List all multisites available in system
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal multisite:debug 
 ```

@@ -1,13 +1,13 @@
 # migrate:setup
-commands.generate.doc.gitbook.messages.command_description
+El comando **migrate:setup** Cargar y crear las migraciones pertinentes para una base de datos heredada
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal migrate:setup [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --db-type | Tipo de base de datos de Drupal
 --db-host | "Host" de base de datos

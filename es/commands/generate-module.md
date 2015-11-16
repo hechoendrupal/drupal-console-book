@@ -1,13 +1,13 @@
 # generate:module
-commands.generate.doc.gitbook.messages.command_description
+El comando **generate:module** Generar a modulo.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal generate:module [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | El nombre del módulo
 --machine-name | El nombre máquina (sólo minúsculas y guión bajo)

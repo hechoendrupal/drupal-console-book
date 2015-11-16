@@ -1,13 +1,13 @@
 # generate:plugin:condition
-commands.generate.doc.gitbook.messages.command_description
+El comando **generate:plugin:condition** Genera un plugin de condición.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal generate:plugin:condition [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class-name | Nombre de la clase para el plugin de condición

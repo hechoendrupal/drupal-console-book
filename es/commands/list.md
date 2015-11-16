@@ -1,19 +1,19 @@
 # list
-commands.generate.doc.gitbook.messages.command_description
+El comando **list** Lists commands22
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal list [arguments] [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --xml | To output list as XML
 --raw | To output raw command list
 --format | The output format (txt, xml, json, or md)
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 namespace | The namespace name

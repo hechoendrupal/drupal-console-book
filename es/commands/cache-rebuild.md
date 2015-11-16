@@ -1,12 +1,12 @@
 # cache:rebuild
-commands.generate.doc.gitbook.messages.command_description
+El comando **cache:rebuild** Reconstruye y limpia todas las cachés del sitio.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal cache:rebuild [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 cache | Reconstruir sólo una cache determinada.

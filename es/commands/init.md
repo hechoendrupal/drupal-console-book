@@ -1,12 +1,12 @@
 # init
-commands.generate.doc.gitbook.messages.command_description
+El comando **init** Copiar archivos de configuración al directorio home del usuario.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal init [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --override | Override configurations files

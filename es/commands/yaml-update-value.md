@@ -1,13 +1,13 @@
 # yaml:update:value
-commands.generate.doc.gitbook.messages.command_description
+El comando **yaml:update:value** Actualiza un valor de una clave específica en un archivo YAML.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal yaml:update:value [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 yaml-file | Ruta del archivo YAML que será actualizado
 yaml-key | Clave YAML a actualizar

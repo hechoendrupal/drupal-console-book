@@ -1,13 +1,13 @@
 # site:install
-commands.generate.doc.gitbook.messages.command_description
+El comando **site:install** Instala un proyecto Drupal
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal site:install [arguments] [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --langcode | Idioma
 --db-type | Tipo de base de datos
@@ -24,7 +24,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --account-mail | Correo electrónico de la cuenta de administrador
 --account-pass | Contraseña de la cuenta de administrador
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 profile | Perfil de Drupal que será instalado

@@ -1,13 +1,13 @@
 # config:override
-commands.generate.doc.gitbook.messages.command_description
+El comando **config:override** Sobreescribir valor de la configuración activa.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal config:override [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 config-name | Nombre de la configuración.
 key | Clave

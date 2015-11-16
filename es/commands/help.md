@@ -1,19 +1,19 @@
 # help
-commands.generate.doc.gitbook.messages.command_description
+El comando **help** Displays help for a command
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal help [arguments] [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --xml | To output help as XML
 --format | The output format (txt, xml, json, or md)
 --raw | To output raw command help
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 command_name | The command name

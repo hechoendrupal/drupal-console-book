@@ -1,12 +1,12 @@
 # theme:uninstall
-commands.generate.doc.gitbook.messages.command_description
+El comando **theme:uninstall** Desinstalar tema o temas en la aplicación
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal theme:uninstall [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 theme | commands.theme.uninstall.options.module

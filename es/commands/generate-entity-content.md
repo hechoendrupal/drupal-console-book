@@ -1,13 +1,13 @@
 # generate:entity:content
-commands.generate.doc.gitbook.messages.command_description
+El comando **generate:entity:content** Genera una nueva entidad
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal generate:entity:content [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --entity-class | El nombre de la clase

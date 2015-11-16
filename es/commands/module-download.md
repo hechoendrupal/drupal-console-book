@@ -1,13 +1,13 @@
 # module:download
-commands.generate.doc.gitbook.messages.command_description
+El comando **module:download** Descarga un módulo o varios en la aplicación
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal module:download [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 module | commands.module.download.options.module
 version | Versión del módulo. Por ejemplo: 1.x-dev

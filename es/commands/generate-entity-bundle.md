@@ -1,13 +1,13 @@
 # generate:entity:bundle
-commands.generate.doc.gitbook.messages.command_description
+El comando **generate:entity:bundle** Genera un nuevo tipo de contenido (nodo / entity bundle)
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal generate:entity:bundle [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --bundle-name | El nombre máquina del tipo de contenido

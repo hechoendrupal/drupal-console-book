@@ -1,12 +1,12 @@
 # site:mode
-commands.generate.doc.gitbook.messages.command_description
+El comando **site:mode** Cambiar la configuración de rendimiento del sistema
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal site:mode [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 environment | Nombre de entorno

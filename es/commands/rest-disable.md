@@ -1,12 +1,12 @@
 # rest:disable
-commands.generate.doc.gitbook.messages.command_description
+El comando **rest:disable** Deshabilita un recurso rest en la aplicación
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal rest:disable [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 resource-id | ID de recurso rest

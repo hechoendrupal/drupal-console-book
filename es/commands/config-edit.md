@@ -1,13 +1,13 @@
 # config:edit
-commands.generate.doc.gitbook.messages.command_description
+El comando **config:edit** Editar la configuración seleccionada.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal config:edit [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 config-name | Nombre de la configuración.
 editor | Editor.

@@ -1,17 +1,17 @@
 # module:install
-commands.generate.doc.gitbook.messages.command_description
+El comando **module:install** Instala un módulo o varios en la aplicación
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal module:install [arguments] [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --overwrite-config | Sobreescribir la configuración actual si es necesario
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 module | Separe con una coma el módulo o módulos que vayan a ser activados

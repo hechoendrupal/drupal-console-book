@@ -1,12 +1,12 @@
 # site:status
-commands.generate.doc.gitbook.messages.command_description
+El comando **site:status** Ver el estatus de la instalación actual de Drupal
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal site:status [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --format | commands.site.status.options.format

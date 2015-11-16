@@ -1,7 +1,7 @@
 # router:rebuild
-commands.generate.doc.gitbook.messages.command_description
+El comando **router:rebuild** Reconstruye las rutas de la aplicación
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal router:rebuild 
 ```

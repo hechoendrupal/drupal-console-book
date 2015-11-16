@@ -1,13 +1,13 @@
 # generate:plugin:rulesaction
-commands.generate.doc.gitbook.messages.command_description
+El comando **generate:plugin:rulesaction** Genera un plugin de acción de rules
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal generate:plugin:rulesaction [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class-name | Nombre de clase del plugin

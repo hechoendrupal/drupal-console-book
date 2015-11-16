@@ -1,7 +1,7 @@
 # about
-commands.generate.doc.gitbook.messages.command_description
+El comando **about** Muestra información básica sobre el proyecto Drupal Console
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal about 
 ```

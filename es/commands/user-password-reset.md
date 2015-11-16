@@ -1,13 +1,13 @@
 # user:password:reset
-commands.generate.doc.gitbook.messages.command_description
+El comando **user:password:reset** Restablece la contraseña de un usuario específico.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal user:password:reset [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 user | ID de usuario
 password | Contraseña en formato de texto

@@ -1,12 +1,12 @@
 # config:debug
-commands.generate.doc.gitbook.messages.command_description
+El comando **config:debug** Muestra la configuración actual.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal config:debug [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 config-name | Nombre de la configuración.

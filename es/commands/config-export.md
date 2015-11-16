@@ -1,13 +1,13 @@
 # config:export
-commands.generate.doc.gitbook.messages.command_description
+El comando **config:export** Exporta la configuración actual de la aplicación.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal config:export [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --directory | commands.config.export.options.directory
 --tar | commands.config.export.options.tar

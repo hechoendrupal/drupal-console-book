@@ -1,12 +1,12 @@
 # drush
-commands.generate.doc.gitbook.messages.command_description
+El comando **drush** Ejecutar Drush desde la consola.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal drush [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 args | Argumento de Drush.

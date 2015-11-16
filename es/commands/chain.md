@@ -1,12 +1,12 @@
 # chain
-commands.generate.doc.gitbook.messages.command_description
+El comando **chain** Ejecución de comandos en secuencia
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal chain [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --file | Archivo definido por el usuario que contiene comandos para ser ejecutados en secuencia.

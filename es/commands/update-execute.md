@@ -1,13 +1,13 @@
 # update:execute
-commands.generate.doc.gitbook.messages.command_description
+El comando **update:execute** Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal update:execute [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 module | Nombre del módulo.
 update-n | Función específica de Actualizar N que será ejecutada

@@ -1,13 +1,13 @@
 # config:import
-commands.generate.doc.gitbook.messages.command_description
+El comando **config:import** Importa la configuración del estado actual de la aplicación.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal config:import [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --file | commands.config.import.option.file
 --remove-files | commands.config.import.option.keep-files

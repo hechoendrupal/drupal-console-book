@@ -1,13 +1,13 @@
 # generate:form:config
-commands.generate.doc.gitbook.messages.command_description
+El comando **generate:form:config** Generar un nuevo "ConfigFormBase"
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal generate:form:config [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class-name | El nombre de la clase del formulario

@@ -1,7 +1,7 @@
 # cron:release
-commands.generate.doc.gitbook.messages.command_description
+El comando **cron:release** Desbloquea al cron para volver a ejecutarlo
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal cron:release 
 ```

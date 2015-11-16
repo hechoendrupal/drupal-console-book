@@ -1,13 +1,13 @@
 # generate:theme
-commands.generate.doc.gitbook.messages.command_description
+El comando **generate:theme** Genera un tema.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal generate:theme [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --theme | commands.generate.theme.options.module
 --machine-name | Nombre máquina (sólo minúsculas y guión bajo)

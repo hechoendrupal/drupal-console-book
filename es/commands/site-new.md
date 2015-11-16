@@ -1,13 +1,13 @@
 # site:new
-commands.generate.doc.gitbook.messages.command_description
+El comando **site:new** Crea un nuevo proyecto Drupal
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal site:new [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 site-name | Nombre del sitio
 version | Versión específica de Drupal a descargar

@@ -1,12 +1,12 @@
 # views:disable
-commands.generate.doc.gitbook.messages.command_description
+El comando **views:disable** Deshabilita una vista
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal views:disable [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 view-id | ID de la vista

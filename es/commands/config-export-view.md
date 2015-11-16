@@ -1,19 +1,19 @@
 # config:export:view
-commands.generate.doc.gitbook.messages.command_description
+El comando **config:export:view** Exporta una vista en formato YAML dentro de un módulo para ser reutilizado en otro sitio.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal config:export:view [arguments] [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --optional-config | Exportar la vista como una configuración YAML opcional en su módulo
 --include-module-dependencies | Incluir las dependencias del módulo en un archivo YAML de información de módulo
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 view-id | ID de la vista

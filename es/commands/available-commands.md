@@ -1,8 +1,8 @@
-# commands.generate.doc.gitbook.messages.title
+# Comandos Drupal Console disponibles
 
-**commands.generate.doc.gitbook.messages.note:** commands.generate.doc.gitbook.messages.note-description.
+**Note:** Comandos de Drupal Console que *deben* ser ejecutados desde una instalación de Drupal 8.
 
-commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.messages.details
+Comando de Drupal Console | Detalles
 ------------ | -------------
 [about](about.md) | Muestra información básica sobre el proyecto Drupal Console
 [chain](chain.md) | Ejecución de comandos en secuencia
@@ -119,8 +119,8 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [yaml:update:key](yaml-update-key.md) | Reemplaza una clave en un archivo YAML.
 [yaml:update:value](yaml-update-value.md) | Actualiza un valor de una clave específica en un archivo YAML.
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --help | Muestra este mensaje de ayuda
 --quiet | No mostrar ningún mensaje
@@ -140,7 +140,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --target | application.console.arguments.target
 --uri | URI del sitio en Drupal que se usará (para ambientes en multi-site o cuando esta usando un puerto alternativo)
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 command | El comando a ejecutar

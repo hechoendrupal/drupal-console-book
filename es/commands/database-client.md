@@ -1,12 +1,12 @@
 # database:client
-commands.generate.doc.gitbook.messages.command_description
+El comando **database:client** Launch a DB client if it's available
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal database:client [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 database | Database key from settings.php

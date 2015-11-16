@@ -1,13 +1,13 @@
 # generate:permissions
-commands.generate.doc.gitbook.messages.command_description
+El comando **generate:permissions** Genera los permisos del módulo
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal generate:permissions [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --permissions | Crear permisos.

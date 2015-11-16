@@ -1,12 +1,12 @@
 # user:login:clear:attempts
-commands.generate.doc.gitbook.messages.command_description
+El comando **user:login:clear:attempts** Limpia intentos de inicio de sesión fallidos para una cuenta.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal user:login:clear:attempts [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 uid | Id de usuario.

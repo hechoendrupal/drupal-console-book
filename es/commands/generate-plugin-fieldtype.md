@@ -1,13 +1,13 @@
 # generate:plugin:fieldtype
-commands.generate.doc.gitbook.messages.command_description
+El comando **generate:plugin:fieldtype** Genera plugins de tipo de campo.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal generate:plugin:fieldtype [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class-name | Nombre de la clase del plugin

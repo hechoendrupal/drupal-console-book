@@ -1,12 +1,12 @@
 # user:password:hash
-commands.generate.doc.gitbook.messages.command_description
+El comando **user:password:hash** Crea un hash a partir de una contraseña en texto plano.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal user:password:hash [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 password | Contraseña(s) en formato texto

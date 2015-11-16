@@ -1,13 +1,13 @@
 # yaml:split
-commands.generate.doc.gitbook.messages.command_description
+El comando **yaml:split** Divide un archivo YAML usando la indentación como criterio de separación
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal yaml:split [arguments] [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --indent-level | Dividir archivo YAML usando un nivel específico de indentación
 --file-output-prefix | commands.yaml.split.options.file-output-prefix
@@ -15,7 +15,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --starting-key | La clave YAML desde donde se empezará a extraer los elementos parciales
 --exclude-parents-key | Excluir claves padre en el nombre del archivo generado
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 yaml-file | commands.yaml.split.value.arguments.yaml-file

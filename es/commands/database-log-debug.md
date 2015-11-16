@@ -1,13 +1,13 @@
 # database:log:debug
-commands.generate.doc.gitbook.messages.command_description
+El comando **database:log:debug** Display current log events for the application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal database:log:debug [arguments] [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --type | Filter events by a specific type
 --severity | Filter events by a specific level of severity
@@ -15,7 +15,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --limit | Limit results to a specific number
 --offset | Starting point of a limit
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 event-id | DBLog event ID

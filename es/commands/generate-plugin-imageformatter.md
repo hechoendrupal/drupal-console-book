@@ -1,13 +1,13 @@
 # generate:plugin:imageformatter
-commands.generate.doc.gitbook.messages.command_description
+El comando **generate:plugin:imageformatter** Genera plugins de formateador de imagen.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal generate:plugin:imageformatter [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class-name | Nombre de clase del plugin

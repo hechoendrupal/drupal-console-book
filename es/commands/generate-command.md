@@ -1,13 +1,13 @@
 # generate:command
-commands.generate.doc.gitbook.messages.command_description
+El comando **generate:command** Genera un comando para la consola.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal generate:command [options] 
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la Clase de Comandos

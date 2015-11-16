@@ -1,13 +1,13 @@
 # yaml:merge
-commands.generate.doc.gitbook.messages.command_description
+El comando **yaml:merge** Combinar uno o más archivos de YAML en un nuevo archivo YAML. Se conservarán los valores del archivo más a la izquierda del merge.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Uso:**
 ```
 $ drupal yaml:merge [arguments] 
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 yaml-destination | Ruta para el nuevo archivo YAML que almacenará la combinación
 yaml-files | Ruta de archivos de YAML para combinar
