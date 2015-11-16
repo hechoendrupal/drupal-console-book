@@ -1,7 +1,5 @@
 # Available Drupal Console Commands
 
-**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
-
 Drupal Console Command | Details
 ------------ | -------------
 [about](about.md) | Display basic information about Drupal Console project
