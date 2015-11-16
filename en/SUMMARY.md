@@ -7,11 +7,11 @@
   * [How does Drupal Console help?](about/how-does-drupal-console-help.md)
   * [Where do I find the project?](about/where-do-i-find-the-project.md)
 
-* [Using Drupal Console](using/project.md)
-  * [Using the Installer](using/installer.md)
-  * [Using Composer](using/composer.md)
-  * [Download phar file](using/download.md)
-  * [Update project](using/update.md)
+* [Getting the project](getting/project.md)
+  * [Using the Installer](getting/installer.md)
+  * [Using Composer](getting/composer.md)
+  * [Download phar file](getting/download.md)
+  * [Update project](getting/update.md)
 
 * [Available commands](commands/available-commands.md)
   {% include "./commands/available-commands-list.md" %}
