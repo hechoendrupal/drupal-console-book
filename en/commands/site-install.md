@@ -7,7 +7,7 @@ $ drupal site:install [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --langcode | Drupal language
 --db-type | Drupal Database type to be use in install

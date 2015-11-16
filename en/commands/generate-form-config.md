@@ -7,7 +7,7 @@ $ drupal generate:form:config [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --class-name | The form class name

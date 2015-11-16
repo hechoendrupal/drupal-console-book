@@ -7,7 +7,7 @@ $ drupal database:log:clear [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --type | commands.database.log.clear.options.type
 --severity | commands.database.log.clear.options.severity

@@ -7,7 +7,7 @@ $ drupal generate:event:subscriber [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --name | commands.generate.service.options.name

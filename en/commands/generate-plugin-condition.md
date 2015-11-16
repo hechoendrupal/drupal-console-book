@@ -7,7 +7,7 @@ $ drupal generate:plugin:condition [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin condition class name

@@ -7,7 +7,7 @@ $ drupal database:log:debug [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --type | Filter events by a specific type
 --severity | Filter events by a specific level of severity

@@ -120,7 +120,7 @@ Drupal Console Command | Details
 [yaml:update:value](yaml-update-value.md) | Update a value for a specific key in a YAML file.
 
 ## Available options
-Available options | Available options
+Option | Details
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message

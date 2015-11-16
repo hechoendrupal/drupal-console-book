@@ -7,7 +7,7 @@ $ drupal generate:plugin:views:field [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --class-name | Views plugin field class name

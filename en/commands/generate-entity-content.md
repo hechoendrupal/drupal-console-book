@@ -7,7 +7,7 @@ $ drupal generate:entity:content [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --entity-class | The entity class

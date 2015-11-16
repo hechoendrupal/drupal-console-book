@@ -7,7 +7,7 @@ $ drupal generate:plugin:block [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin class name

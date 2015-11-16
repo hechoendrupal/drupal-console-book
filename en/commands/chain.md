@@ -7,6 +7,6 @@ $ drupal chain [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --file | User defined file containing commands to get executed.

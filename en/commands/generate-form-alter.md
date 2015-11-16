@@ -7,7 +7,7 @@ $ drupal generate:form:alter [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --form-id | Form ID to alter

@@ -7,6 +7,6 @@ $ drupal generate:doc:dash [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --path | The path to the directory where the docset will be saved.

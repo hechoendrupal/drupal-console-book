@@ -7,7 +7,7 @@ $ drupal config:export:view [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --optional-config | commands.config.export.view.options.optional-config
