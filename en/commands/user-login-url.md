@@ -1,13 +1,12 @@
 # user:login:url
-commands.generate.doc.output.command.command_description
+The **user:login:url** command Returns a one-time user login url.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal user:login:url [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 user-id | User ID.

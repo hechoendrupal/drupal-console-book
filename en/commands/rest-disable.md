@@ -1,13 +1,12 @@
 # rest:disable
-commands.generate.doc.output.command.command_description
+The **rest:disable** command Disable a rest resource for the application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal rest:disable [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 resource-id | Rest ID

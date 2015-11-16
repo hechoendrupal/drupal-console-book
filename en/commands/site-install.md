@@ -1,16 +1,17 @@
 # site:install
-commands.generate.doc.output.command.command_description
+The **site:install** command Install a Drupal project
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal site:install [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --langcode | Drupal language
 --db-type | Drupal Database type to be use in install
+--db-file | Drupal Database file to be use in install
 --db-host | Database Host
 --db-name | Database Name
 --db-user | Database User
@@ -23,7 +24,7 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --account-mail | Drupal administrator account mail
 --account-pass | Drupal administrator account password
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 profile | Drupal Profile to be install

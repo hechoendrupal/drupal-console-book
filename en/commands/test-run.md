@@ -1,17 +1,17 @@
 # test:run
-commands.generate.doc.output.command.command_description
+The **test:run** command Run Test unit from tests available for application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal test:run [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --url | commands.test.run.arguments.url
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 test-class | Test Class

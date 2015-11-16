@@ -1,13 +1,13 @@
 # config:export
-commands.generate.doc.output.command.command_description
+The **config:export** command Export current application configuration.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
-$ drupal config:export [arguments] 
+$ drupal config:export [options] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
----------|-------------
-directory | Define export directory to save configuration output.
+## Available options
+Available options | Details
+-------|-------------
+--directory | commands.config.export.options.directory
+--tar | commands.config.export.options.tar

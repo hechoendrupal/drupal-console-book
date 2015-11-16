@@ -1,14 +1,13 @@
 # user:password:reset
-commands.generate.doc.output.command.command_description
+The **user:password:reset** command Reset password for a specific user.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal user:password:reset [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 user | User ID
 password | Password in text format

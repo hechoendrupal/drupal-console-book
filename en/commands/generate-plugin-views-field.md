@@ -1,16 +1,15 @@
 # generate:plugin:views:field
-commands.generate.doc.output.command.command_description
+The **generate:plugin:views:field** command Generate a custom plugin view field.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:plugin:views:field [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Views plugin field class name
 --title | Views plugin field title
 --description | Views plugin field description
-

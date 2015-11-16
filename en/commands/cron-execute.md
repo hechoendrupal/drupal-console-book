@@ -1,13 +1,12 @@
 # cron:execute
-commands.generate.doc.output.command.command_description
+The **cron:execute** command Execute cron implementations by module or execute all crons
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal cron:execute [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | The Module name.

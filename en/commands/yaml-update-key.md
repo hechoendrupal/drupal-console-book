@@ -1,14 +1,13 @@
 # yaml:update:key
-commands.generate.doc.output.command.command_description
+The **yaml:update:key** command Replace a YAML key in a YAML file.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal yaml:update:key [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 yaml-file | Path of YAML file to update
 yaml-key | YAML key to update

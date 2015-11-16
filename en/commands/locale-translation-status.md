@@ -1,13 +1,12 @@
 # locale:translation:status
-commands.generate.doc.output.command.command_description
+The **locale:translation:status** command List available translation updates
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal locale:translation:status [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 language | Language for instance es or Spanish

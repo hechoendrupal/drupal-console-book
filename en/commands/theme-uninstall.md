@@ -1,13 +1,12 @@
 # theme:uninstall
-commands.generate.doc.output.command.command_description
+The **theme:uninstall** command Uninstall theme or themes in the application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal theme:uninstall [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | commands.theme.uninstall.options.module

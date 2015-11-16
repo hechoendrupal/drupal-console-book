@@ -1,13 +1,12 @@
 # views:enable
-commands.generate.doc.output.command.command_description
+The **views:enable** command Enable a View
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal views:enable [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 view-id | View ID

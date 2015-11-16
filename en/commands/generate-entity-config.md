@@ -1,16 +1,15 @@
 # generate:entity:config
-commands.generate.doc.output.command.command_description
+The **generate:entity:config** command Generate a new entity
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:entity:config [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --entity-class | The entity class
 --entity-name | The entity name
 --label | The label
-

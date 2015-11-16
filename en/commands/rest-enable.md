@@ -1,13 +1,12 @@
 # rest:enable
-commands.generate.doc.output.command.command_description
+The **rest:enable** command Enable a rest resource for the application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal rest:enable [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 resource-id | Rest ID

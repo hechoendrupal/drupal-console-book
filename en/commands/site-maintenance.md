@@ -1,13 +1,12 @@
 # site:maintenance
-commands.generate.doc.output.command.command_description
+The **site:maintenance** command Switch site into maintenance mode
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal site:maintenance [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 mode | Site maintenance mode[on/off]

@@ -1,15 +1,14 @@
 # generate:entity:bundle
-commands.generate.doc.output.command.command_description
+The **generate:entity:bundle** command Generate a new content type (node / entity bundle)
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:entity:bundle [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --bundle-name | The content type's machine name
 --bundle-title | The content type's human-readable name
-

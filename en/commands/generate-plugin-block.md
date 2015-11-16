@@ -1,13 +1,13 @@
 # generate:plugin:block
-commands.generate.doc.output.command.command_description
+The **generate:plugin:block** command Generate a plugin block
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:plugin:block [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin class name
@@ -15,4 +15,3 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --plugin-id | Plugin id
 --inputs | Create inputs in a form.
 --services | Load services from the container.
-

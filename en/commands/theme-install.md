@@ -1,17 +1,17 @@
 # theme:install
-commands.generate.doc.output.command.command_description
+The **theme:install** command Install theme or themes in the application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal theme:install [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --set-default | Set theme as default theme
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | commands.theme.install.options.module

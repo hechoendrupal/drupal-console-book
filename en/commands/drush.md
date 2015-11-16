@@ -1,13 +1,12 @@
 # drush
-commands.generate.doc.output.command.command_description
+The **drush** command Run drush from console.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal drush [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 args | Drush arguments.

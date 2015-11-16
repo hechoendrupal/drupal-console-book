@@ -19,7 +19,7 @@ Drupal Console Command | Details
 [config:export](config-export.md) | Export current application configuration.
 [config:export:content:type](config-export-content-type.md) | Export a specific content type and their fields.
 [config:export:single](config-export-single.md) | Export single configuration as yml file.
-[config:export:view](config-export-view.md) | Export a view in YAML format inside a provided module to reuse in other website.
+[config:export:view](config-export-view.md) | commands.config.export.view.description
 [config:import](config-import.md) | Import configuration to current application.
 [config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | Override config value in active configuration.
@@ -32,8 +32,10 @@ Drupal Console Command | Details
 **database**  |
 [database:client](database-client.md) | Launch a DB client if it's available
 [database:connect](database-connect.md) | Launch a DB client if it's available
+[database:dump](database-dump.md) | Dump structure and contents of MySQL databases and tables
 [database:log:clear](database-log-clear.md) | Remove events from DBLog table, filters are available
 [database:log:debug](database-log-debug.md) | Display current log events for the application
+[database:restore](database-restore.md) | Restore structure and contents of MySQL databases and tables
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
 [generate:command](generate-command.md) | Generate commands for the console.
@@ -100,10 +102,10 @@ Drupal Console Command | Details
 [theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application
 **update**  |
 [update:debug](update-debug.md) | Display current updates available for the application
-[update:execute](update-execute.md) | Execute a specfic Update N function in a module, or execute all
+[update:execute](update-execute.md) | Execute a specific Update N function in a module, or execute all
 **user**  |
 [user:login:clear:attempts](user-login-clear-attempts.md) | Clear login failed attempts for an account.
-[user:login:url](user-login-url.md) | Returns a one time user login url.
+[user:login:url](user-login-url.md) | Returns a one-time user login url.
 [user:password:hash](user-password-hash.md) | Generate a hash from a plaintext password.
 [user:password:reset](user-password-reset.md) | Reset password for a specific user.
 **views**  |
@@ -111,7 +113,7 @@ Drupal Console Command | Details
 [views:disable](views-disable.md) | Disable a View
 [views:enable](views-enable.md) | Enable a View
 **yaml**  |
-[yaml:diff](yaml-diff.md) | Compare two YAML files do determined differences between them
+[yaml:diff](yaml-diff.md) | Compare two YAML files in order to find differences between them.
 [yaml:merge](yaml-merge.md) | Merge one or more YAML files in a new YAML file. Latest values are preserved.
 [yaml:split](yaml-split.md) | Split a YAML file using indent as separator criteria
 [yaml:update:key](yaml-update-key.md) | Replace a YAML key in a YAML file.

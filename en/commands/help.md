@@ -1,19 +1,19 @@
 # help
-commands.generate.doc.output.command.command_description
+The **help** command Displays help for a command
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal help [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --xml | To output help as XML
 --format | The output format (txt, xml, json, or md)
 --raw | To output raw command help
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command_name | The command name

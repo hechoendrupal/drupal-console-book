@@ -1,14 +1,13 @@
 # config:override
-commands.generate.doc.output.command.command_description
+The **config:override** command Override config value in active configuration.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal config:override [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 config-name | Configuration name.
 key | Key

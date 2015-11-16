@@ -1,14 +1,13 @@
 # theme:download
-commands.generate.doc.output.command.command_description
+The **theme:download** command Install theme or themes in the application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal theme:download [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | theme or themes to be installed should be separated by a comma
 version | Theme version i.e 1.x-dev

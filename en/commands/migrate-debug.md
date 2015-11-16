@@ -1,13 +1,12 @@
 # migrate:debug
-commands.generate.doc.output.command.command_description
+The **migrate:debug** command Display current migration available for the application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal migrate:debug [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 tag | Migrate tag

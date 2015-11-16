@@ -1,9 +1,7 @@
 # container:debug
-commands.generate.doc.output.command.command_description
+The **container:debug** command Displays current services for an application.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal container:debug 
 ```
-
-

@@ -1,13 +1,12 @@
 # site:mode
-commands.generate.doc.output.command.command_description
+The **site:mode** command Switch system performance configuration
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal site:mode [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 environment | Environment name (dev|prod)

@@ -1,13 +1,13 @@
 # generate:plugin:rest:resource
-commands.generate.doc.output.command.command_description
+The **generate:plugin:rest:resource** command Generate plugin rest resource
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:plugin:rest:resource [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin Rest Resource class
@@ -16,4 +16,3 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --plugin-label | Plugin Rest Resource Label
 --plugin-url | Plugin Rest Resource URL
 --plugin-states | Plugin Rest Resource States
-

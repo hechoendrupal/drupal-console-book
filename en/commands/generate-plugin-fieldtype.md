@@ -1,13 +1,13 @@
 # generate:plugin:fieldtype
-commands.generate.doc.output.command.command_description
+The **generate:plugin:fieldtype** command Generate field type plugin.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:plugin:fieldtype [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin class name
@@ -16,4 +16,3 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --description | Plugin Description
 --default-widget | Default field widget of this plugin
 --default-formatter | Default field formatter of this plugin
-

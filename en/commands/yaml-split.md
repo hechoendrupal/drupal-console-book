@@ -1,13 +1,13 @@
 # yaml:split
-commands.generate.doc.output.command.command_description
+The **yaml:split** command Split a YAML file using indent as separator criteria
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal yaml:split [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --indent-level | Split YAML file using a specific indent level
 --file-output-prefix | commands.yaml.split.options.file-output-prefix
@@ -15,7 +15,7 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --starting-key | YAML Key from where start split useful to extract partial elements
 --exclude-parents-key | Exclude parents key in file name generated
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 yaml-file | commands.yaml.split.value.arguments.yaml-file

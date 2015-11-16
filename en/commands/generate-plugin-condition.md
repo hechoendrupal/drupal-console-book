@@ -1,13 +1,13 @@
 # generate:plugin:condition
-commands.generate.doc.output.command.command_description
+The **generate:plugin:condition** command Generate a plugin condition.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:plugin:condition [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin condition class name
@@ -16,4 +16,3 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --context-definition-id | Context definition ID
 --context-definition-label | Context definition label
 --context-definition-required | Context definition is requiered (TRUE/FALSE)
-

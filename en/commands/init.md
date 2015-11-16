@@ -1,13 +1,12 @@
 # init
-commands.generate.doc.output.command.command_description
+The **init** command Copy configuration files to user home directory.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal init [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --override | Override configurations files
-

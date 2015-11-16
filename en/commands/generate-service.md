@@ -1,17 +1,16 @@
 # generate:service
-commands.generate.doc.output.command.command_description
+The **generate:service** command Generate service
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:service [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --name | commands.generate.service.options.name
 --class | commands.generate.service.options.class
 --interface | commands.common.service.options.interface
 --services | Load services from the container.
-

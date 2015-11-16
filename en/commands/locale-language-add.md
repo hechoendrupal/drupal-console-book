@@ -1,13 +1,12 @@
 # locale:language:add
-commands.generate.doc.output.command.command_description
+The **locale:language:add** command Add a language to be supported by your site
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal locale:language:add [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 language | Language for instance es or Spanish

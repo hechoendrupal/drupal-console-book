@@ -1,13 +1,12 @@
 # database:connect
-commands.generate.doc.output.command.command_description
+The **database:connect** command Launch a DB client if it's available
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal database:connect [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 database | Database key from settings.php

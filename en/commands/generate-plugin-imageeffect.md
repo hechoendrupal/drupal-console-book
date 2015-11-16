@@ -1,17 +1,16 @@
 # generate:plugin:imageeffect
-commands.generate.doc.output.command.command_description
+The **generate:plugin:imageeffect** command Generate image effect plugin.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:plugin:imageeffect [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
 --description | Plugin Description
-

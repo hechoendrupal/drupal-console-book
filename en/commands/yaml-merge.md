@@ -1,14 +1,13 @@
 # yaml:merge
-commands.generate.doc.output.command.command_description
+The **yaml:merge** command Merge one or more YAML files in a new YAML file. Latest values are preserved.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal yaml:merge [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
-yaml-destination | Path of new YAML file to store result of merge.
+yaml-destination | Path of new YAML file to store the result of merge.
 yaml-files | Path of YAML files to merge
