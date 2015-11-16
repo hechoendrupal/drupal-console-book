@@ -6,7 +6,6 @@ El comando **site:new** Crea un nuevo proyecto Drupal
 $ drupal site:new [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

@@ -6,7 +6,6 @@ El comando **site:mode** Cambiar la configuración de rendimiento del sistema
 $ drupal site:mode [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

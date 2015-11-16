@@ -7,7 +7,6 @@ $ drupal site:status [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --format | commands.site.status.options.format
-

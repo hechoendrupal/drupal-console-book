@@ -6,7 +6,6 @@ El comando **module:download** Descarga un módulo o varios en la aplicación
 $ drupal module:download [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

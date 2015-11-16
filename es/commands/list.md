@@ -7,7 +7,7 @@ $ drupal list [arguments] [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --xml | To output list as XML
 --raw | To output raw command list

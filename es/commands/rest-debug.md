@@ -7,7 +7,7 @@ $ drupal rest:debug [arguments] [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --authorization | Estado del recuros rest habilitado | deshabilitado
 

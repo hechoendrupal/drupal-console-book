@@ -1,5 +1,5 @@
 # database:log:clear
-El comando **database:log:clear** commands.database.log.clear.description
+El comando **database:log:clear** Remove events from DBLog table, filters are available
 
 **Uso:**
 ```
@@ -7,7 +7,7 @@ $ drupal database:log:clear [arguments] [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --type | commands.database.log.clear.options.type
 --severity | commands.database.log.clear.options.severity

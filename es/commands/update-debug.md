@@ -5,5 +5,3 @@ El comando **update:debug** Muestra las actualizaciones actualmente disponibles 
 ```
 $ drupal update:debug 
 ```
-
-

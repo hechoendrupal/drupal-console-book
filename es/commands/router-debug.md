@@ -6,7 +6,6 @@ El comando **router:debug** Muestra las rutas actuales de la aplicación
 $ drupal router:debug [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

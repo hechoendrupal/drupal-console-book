@@ -7,7 +7,7 @@ $ drupal generate:plugin:rulesaction [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class-name | Nombre de clase del plugin
@@ -16,4 +16,3 @@ Opciones disponibles | Detalles
 --type | Tipo de acción (usuario o nodo)
 --category | Categoría del plugin
 --context | Contexto del plugin
-

@@ -5,5 +5,3 @@ El comando **multisite:debug** List all multisites available in system
 ```
 $ drupal multisite:debug 
 ```
-
-

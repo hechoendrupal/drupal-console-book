@@ -7,7 +7,7 @@ $ drupal generate:module [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --module | El nombre del módulo
 --machine-name | El nombre máquina (sólo minúsculas y guión bajo)
@@ -18,4 +18,3 @@ Opciones disponibles | Detalles
 --feature | Hacer el módulo compatible con el módulo Features
 --composer | Añadir un archivo composer.json
 --dependencies | Dependencias del módulo (por ejemplo: context, galleria, panels)
-

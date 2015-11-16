@@ -5,5 +5,3 @@ El comando **self-update** Actualiza la consola a la última versión.
 ```
 $ drupal self-update 
 ```
-
-

@@ -1,5 +1,5 @@
 # generate:doc:gitbook
-El comando **generate:doc:gitbook** commands.generate.doc.gitbook.description
+El comando **generate:doc:gitbook** Generar documentaciones para Comandos
 
 **Uso:**
 ```
@@ -7,9 +7,9 @@ $ drupal generate:doc:gitbook [arguments] [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
---path | commands.generate.doc.gitbook.options.path
+--path | La ruta donde exportar la documentación
 --help | Muestra este mensaje de ayuda
 --quiet | No mostrar ningún mensaje
 --verbose | Aumentar el detalle de los mensajes: 1 para salida normal, 2 para una salida más explícita y 3 para debug

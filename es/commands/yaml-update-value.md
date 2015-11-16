@@ -1,11 +1,10 @@
 # yaml:update:value
-El comando **yaml:update:value** Actualiza un valor de una clave específica de un archivo YAML.
+El comando **yaml:update:value** Actualiza un valor de una clave específica en un archivo YAML.
 
 **Uso:**
 ```
 $ drupal yaml:update:value [arguments] 
 ```
-
 
 ## Argumentos disponibles
 Argumento | Detalles

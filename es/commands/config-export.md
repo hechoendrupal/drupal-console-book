@@ -3,11 +3,11 @@ El comando **config:export** Exporta la configuración actual de la aplicación.
 
 **Uso:**
 ```
-$ drupal config:export [arguments] 
+$ drupal config:export [options] 
 ```
 
-
-## Argumentos disponibles
-Argumento | Detalles
----------|-------------
-directory | Defina el directorio de exportación para guardar la configuración.
+## Opciones disponibles
+Opción | Detalles
+-------|-------------
+--directory | commands.config.export.options.directory
+--tar | commands.config.export.options.tar

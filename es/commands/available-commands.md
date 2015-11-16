@@ -19,7 +19,7 @@ Comando de Drupal Console | Detalles
 [config:export](config-export.md) | Exporta la configuración actual de la aplicación.
 [config:export:content:type](config-export-content-type.md) | Exporta un tipo de contenido determinado y todos sus campos.
 [config:export:single](config-export-single.md) | Exportar configuración única como archivo YAML.
-[config:export:view](config-export-view.md) | Exporta una vista en formato YAML dentro de un módulo dado para ser reutilizado en otro sitio.
+[config:export:view](config-export-view.md) | Exporta una vista en formato YAML dentro de un módulo para ser reutilizado en otro sitio.
 [config:import](config-import.md) | Importa la configuración del estado actual de la aplicación.
 [config:import:single](config-import-single.md) | Importar la configuración seleccionada.
 [config:override](config-override.md) | Sobreescribir valor de la configuración activa.
@@ -28,18 +28,20 @@ Comando de Drupal Console | Detalles
 **cron**  |
 [cron:debug](cron-debug.md) | Listado de módulos que implementan una llamada al cron
 [cron:execute](cron-execute.md) | Ejecutar implementación de cron desde un módulo específico o todos para ejecutar todas las implementaciones
-[cron:release](cron-release.md) | Libera el bloqueo de sistema del cron para volver a posibilitar la ejecución del cron
+[cron:release](cron-release.md) | Desbloquea al cron para volver a ejecutarlo
 **database**  |
-[database:client](database-client.md) | commands.database.client.description
-[database:connect](database-connect.md) | commands.database.connect.description
-[database:log:clear](database-log-clear.md) | commands.database.log.clear.description
-[database:log:debug](database-log-debug.md) | commands.database.log.debug.description
+[database:client](database-client.md) | Launch a DB client if it's available
+[database:connect](database-connect.md) | Launch a DB client if it's available
+[database:dump](database-dump.md) | Dump structure and contents of MySQL databases and tables
+[database:log:clear](database-log-clear.md) | Remove events from DBLog table, filters are available
+[database:log:debug](database-log-debug.md) | Display current log events for the application
+[database:restore](database-restore.md) | Restore structure and contents of MySQL databases and tables
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generar un Proveedor de Autenticación
 [generate:command](generate-command.md) | Genera un comando para la consola.
 [generate:controller](generate-controller.md) | Generar y registrar un controlador
-[generate:doc:dash](generate-doc-dash.md) | commands.generate.doc.dash.description
-[generate:doc:gitbook](generate-doc-gitbook.md) | commands.generate.doc.gitbook.description
+[generate:doc:dash](generate-doc-dash.md) | Generate the DrupalConsole.docset package for Dash
+[generate:doc:gitbook](generate-doc-gitbook.md) | Generar documentaciones para Comandos
 [generate:entity:bundle](generate-entity-bundle.md) | Genera un nuevo tipo de contenido (nodo / entity bundle)
 [generate:entity:config](generate-entity-config.md) | Genera una nueva entidad
 [generate:entity:content](generate-entity-content.md) | Genera una nueva entidad
@@ -64,12 +66,12 @@ Comando de Drupal Console | Detalles
 [generate:service](generate-service.md) | Genera un servicio
 [generate:theme](generate-theme.md) | Genera un tema.
 **locale**  |
-[locale:language:add](locale-language-add.md) | commands.locale.language.add.description
-[locale:translation:status](locale-translation-status.md) | List available translation updates
+[locale:language:add](locale-language-add.md) | Add a language to be supported by your site
+[locale:translation:status](locale-translation-status.md) | Lista de traducciones disponibles actualizadas
 **migrate**  |
 [migrate:debug](migrate-debug.md) | Muestra la migración actual disponible para la aplicación
 [migrate:execute](migrate-execute.md) | Ejecuta una migración que esté disponible para la aplicación
-[migrate:setup](migrate-setup.md) | Load and create the relevant migrations for a provided legacy database
+[migrate:setup](migrate-setup.md) | Cargar y crear las migraciones pertinentes para una base de datos heredada
 **module**  |
 [module:debug](module-debug.md) | Muestra los módulos actualmente disponibles para la aplicación
 [module:download](module-download.md) | Descarga un módulo o varios en la aplicación
@@ -85,7 +87,7 @@ Comando de Drupal Console | Detalles
 [router:debug](router-debug.md) | Muestra las rutas actuales de la aplicación
 [router:rebuild](router-rebuild.md) | Reconstruye las rutas de la aplicación
 **site**  |
-[site:debug](site-debug.md) | commands.site.debug.description
+[site:debug](site-debug.md) | List all known local and remote sites.
 [site:install](site-install.md) | Instala un proyecto Drupal
 [site:maintenance](site-maintenance.md) | Poner el sitio en modo mantenimiento
 [site:mode](site-mode.md) | Cambiar la configuración de rendimiento del sistema
@@ -95,30 +97,30 @@ Comando de Drupal Console | Detalles
 [test:debug](test-debug.md) | Lista los tests unitarios disponibles para la aplicación.
 [test:run](test-run.md) | Ejecuta un test unitario de los disponibles en la aplicación
 **theme**  |
-[theme:download](theme-download.md) | Install theme or themes in the application
-[theme:install](theme-install.md) | Install theme or themes in the application
-[theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application
+[theme:download](theme-download.md) | Instalar tema o temas en la aplicación
+[theme:install](theme-install.md) | Instalar tema o temas en la aplicación
+[theme:uninstall](theme-uninstall.md) | Desinstalar tema o temas en la aplicación
 **update**  |
 [update:debug](update-debug.md) | Muestra las actualizaciones actualmente disponibles para la aplicación
 [update:execute](update-execute.md) | Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos
 **user**  |
-[user:login:clear:attempts](user-login-clear-attempts.md) | Limpia intentos de inicio de sesion para una cuenta.
+[user:login:clear:attempts](user-login-clear-attempts.md) | Limpia intentos de inicio de sesión fallidos para una cuenta.
 [user:login:url](user-login-url.md) | Crea una url de login de usuario de uso único.
 [user:password:hash](user-password-hash.md) | Crea un hash a partir de una contraseña en texto plano.
-[user:password:reset](user-password-reset.md) | Reinicia la contraseña de un usuario específico.
+[user:password:reset](user-password-reset.md) | Restablece la contraseña de un usuario específico.
 **views**  |
 [views:debug](views-debug.md) | Muestra los recursos actuales de vistas para la aplicación
 [views:disable](views-disable.md) | Deshabilita una vista
 [views:enable](views-enable.md) | Habilita una vista
 **yaml**  |
 [yaml:diff](yaml-diff.md) | Compara dos archivos YAML para encontrar las diferencias entre ambos
-[yaml:merge](yaml-merge.md) | Combinar uno o más archivos de YAML en un nuevo archivo YAML. Se conservaran los últimos valores del archivo mas a la izquierda del merge.
+[yaml:merge](yaml-merge.md) | Combinar uno o más archivos de YAML en un nuevo archivo YAML. Se conservarán los valores del archivo más a la izquierda del merge.
 [yaml:split](yaml-split.md) | Divide un archivo YAML usando la indentación como criterio de separación
 [yaml:update:key](yaml-update-key.md) | Reemplaza una clave en un archivo YAML.
-[yaml:update:value](yaml-update-value.md) | Actualiza un valor de una clave específica de un archivo YAML.
+[yaml:update:value](yaml-update-value.md) | Actualiza un valor de una clave específica en un archivo YAML.
 
 ## Opciones disponibles
-Opciones disponibles | Opciones disponibles
+Opción | Detalles
 -------|-------------
 --help | Muestra este mensaje de ayuda
 --quiet | No mostrar ningún mensaje

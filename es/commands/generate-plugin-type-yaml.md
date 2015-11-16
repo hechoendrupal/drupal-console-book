@@ -7,10 +7,9 @@ $ drupal generate:plugin:type:yaml [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class-name | Nombre de la clase del tipo de plugin
 --plugin-name | Nombre máquina del tipo de plugin
 --plugin-file-name | Nombre del archivo del plugin
-

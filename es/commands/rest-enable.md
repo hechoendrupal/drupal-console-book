@@ -6,7 +6,6 @@ El comando **rest:enable** Habilita un recurso rest para la aplicación
 $ drupal rest:enable [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

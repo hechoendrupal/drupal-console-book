@@ -7,8 +7,7 @@ $ drupal module:debug [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --status | Estado del módulo [habilitado|deshabilitado]
 --type | Tipo de módulo [core|no-core]
-

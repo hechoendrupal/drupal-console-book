@@ -1,9 +1,7 @@
 # cron:release
-El comando **cron:release** Libera el bloqueo de sistema del cron para volver a posibilitar la ejecución del cron
+El comando **cron:release** Desbloquea al cron para volver a ejecutarlo
 
 **Uso:**
 ```
 $ drupal cron:release 
 ```
-
-

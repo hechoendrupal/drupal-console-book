@@ -7,12 +7,11 @@ $ drupal generate:form:config [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class-name | El nombre de la clase del formulario
 --form-id | El id del formulario
---services | Cargar servicios desde el 'container'.
---inputs | Crear campos de entradas de formulario.
+--services | Cargar servicios desde el contenedor.
+--inputs | Crear campos de entrada en un formulario.
 --routing | Actualizar la ruta
-

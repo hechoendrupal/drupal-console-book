@@ -6,7 +6,6 @@ El comando **drush** Ejecutar Drush desde la consola.
 $ drupal drush [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

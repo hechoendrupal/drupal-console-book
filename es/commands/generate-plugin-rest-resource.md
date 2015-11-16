@@ -7,7 +7,7 @@ $ drupal generate:plugin:rest:resource [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class-name | Nombre de la clase del plugin de recurso rest
@@ -16,4 +16,3 @@ Opciones disponibles | Detalles
 --plugin-label | Etiqueta del plugin de recurso rest
 --plugin-url | URL del plugin de recurso rest
 --plugin-states | Estados del plugin de recurso rest
-

@@ -7,10 +7,9 @@ $ drupal generate:command [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la Clase de Comandos
---name | commands.generate.command.options.name
---container-aware | commands.generate.command.options.container-aware
-
+--name | The Command name.
+--container-aware | Is the command aware of the drupal site installation when executed

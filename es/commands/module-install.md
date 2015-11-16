@@ -7,7 +7,7 @@ $ drupal module:install [arguments] [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --overwrite-config | Sobreescribir la configuración actual si es necesario
 

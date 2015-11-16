@@ -7,9 +7,8 @@ $ drupal generate:entity:bundle [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --bundle-name | El nombre máquina del tipo de contenido
 --bundle-title | El nombre amigable del tipo de contenido
-

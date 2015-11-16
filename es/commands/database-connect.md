@@ -1,13 +1,12 @@
 # database:connect
-El comando **database:connect** commands.database.connect.description
+El comando **database:connect** Launch a DB client if it's available
 
 **Uso:**
 ```
 $ drupal database:connect [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-database | commands.database.connect.arguments.database
+database | Database key from settings.php

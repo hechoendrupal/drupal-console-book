@@ -7,7 +7,7 @@ $ drupal generate:theme [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --theme | commands.generate.theme.options.module
 --machine-name | Nombre máquina (sólo minúsculas y guión bajo)
@@ -19,4 +19,3 @@ Opciones disponibles | Detalles
 --base-theme | Tema base (por ejemplo: classy, seven)
 --regions | Regions
 --breakpoints | Breakpoints
-

@@ -7,9 +7,8 @@ $ drupal generate:form:alter [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --form-id | Form ID a alterar
---inputs | Crear campos de entradas de formulario.
-
+--inputs | Crear campos de entrada en un formulario.

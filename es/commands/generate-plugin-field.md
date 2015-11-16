@@ -7,7 +7,7 @@ $ drupal generate:plugin:field [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --type-class-name | Nombre de clase del plugin de tipo de campo
@@ -23,4 +23,3 @@ Opciones disponibles | Detalles
 --field-type | Plugin de tipo de campo, formateador y widget con el que puede ser usado
 --default-widget | Widget de campo por defecto del plugin de tipo de campo
 --default-formatter | Formateador de campo por defecto del plugin de tipo de campo
-

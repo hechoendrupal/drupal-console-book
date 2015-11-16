@@ -7,7 +7,7 @@ $ drupal help [arguments] [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --xml | To output help as XML
 --format | The output format (txt, xml, json, or md)

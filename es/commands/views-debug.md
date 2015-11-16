@@ -7,7 +7,7 @@ $ drupal views:debug [arguments] [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --tag | Etiqueta de la vista
 --status | Estado de la vista (Habilitado|Deshabilitado)

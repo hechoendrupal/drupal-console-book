@@ -6,7 +6,6 @@ El comando **views:disable** Deshabilita una vista
 $ drupal views:disable [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

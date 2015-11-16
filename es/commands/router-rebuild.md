@@ -5,5 +5,3 @@ El comando **router:rebuild** Reconstruye las rutas de la aplicación
 ```
 $ drupal router:rebuild 
 ```
-
-

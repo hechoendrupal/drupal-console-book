@@ -6,7 +6,6 @@ El comando **site:maintenance** Poner el sitio en modo mantenimiento
 $ drupal site:maintenance [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

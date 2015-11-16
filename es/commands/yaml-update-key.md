@@ -6,7 +6,6 @@ El comando **yaml:update:key** Reemplaza una clave en un archivo YAML.
 $ drupal yaml:update:key [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

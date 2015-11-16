@@ -6,7 +6,6 @@ El comando **config:import:single** Importar la configuración seleccionada.
 $ drupal config:import:single [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

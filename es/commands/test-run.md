@@ -7,7 +7,7 @@ $ drupal test:run [arguments] [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --url | commands.test.run.arguments.url
 

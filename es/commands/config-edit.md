@@ -6,7 +6,6 @@ El comando **config:edit** Editar la configuración seleccionada.
 $ drupal config:edit [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

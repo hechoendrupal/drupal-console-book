@@ -6,7 +6,6 @@ El comando **views:enable** Habilita una vista
 $ drupal views:enable [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

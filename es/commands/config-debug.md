@@ -6,7 +6,6 @@ El comando **config:debug** Muestra la configuración actual.
 $ drupal config:debug [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

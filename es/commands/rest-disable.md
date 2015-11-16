@@ -6,7 +6,6 @@ El comando **rest:disable** Deshabilita un recurso rest en la aplicación
 $ drupal rest:disable [arguments] 
 ```
 
-
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------

@@ -5,5 +5,3 @@ El comando **container:debug** Muestra los servicios actuales de la aplicación.
 ```
 $ drupal container:debug 
 ```
-
-

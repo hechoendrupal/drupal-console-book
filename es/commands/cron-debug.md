@@ -5,5 +5,3 @@ El comando **cron:debug** Listado de módulos que implementan una llamada al cro
 ```
 $ drupal cron:debug 
 ```
-
-

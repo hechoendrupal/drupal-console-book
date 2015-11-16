@@ -7,7 +7,7 @@ $ drupal test:debug [arguments] [options]
 ```
 
 ## Opciones disponibles
-Opciones disponibles | Detalles
+Opción | Detalles
 -------|-------------
 --group | Group
 
