@@ -7,7 +7,7 @@ $ drupal generate:plugin:field [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --type-class-name | Field type plugin class name

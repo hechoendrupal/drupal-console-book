@@ -7,7 +7,7 @@ $ drupal generate:permissions [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --permissions | Create permissions.

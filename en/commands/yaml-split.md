@@ -7,7 +7,7 @@ $ drupal yaml:split [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --indent-level | Split YAML file using a specific indent level
 --file-output-prefix | commands.yaml.split.options.file-output-prefix

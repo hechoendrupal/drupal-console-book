@@ -7,7 +7,7 @@ $ drupal migrate:execute [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --site-url | Site Source URL
 --db-type | commands.migrate.setup.migrations.options.db-type

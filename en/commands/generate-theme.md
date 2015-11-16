@@ -7,7 +7,7 @@ $ drupal generate:theme [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --theme | commands.generate.theme.options.module
 --machine-name | The machine name (lowercase and underscore only)

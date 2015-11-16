@@ -7,7 +7,7 @@ $ drupal generate:command [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | The Class that describes the command. (Must end with the word 'Commmand').

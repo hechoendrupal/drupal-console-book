@@ -7,7 +7,7 @@ $ drupal database:dump [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --file | commands.database.dump.option.file
 

@@ -7,7 +7,7 @@ $ drupal yaml:diff [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --stats | Print statistics about YAML files comparation
 --negate | Define mode diff or equal comparation, possible values TRUE/FALSE or 0/1

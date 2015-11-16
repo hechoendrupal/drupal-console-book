@@ -7,7 +7,7 @@ $ drupal config:export [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --directory | commands.config.export.options.directory
 --tar | commands.config.export.options.tar

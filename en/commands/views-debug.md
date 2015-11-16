@@ -7,7 +7,7 @@ $ drupal views:debug [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --tag | View tag
 --status | View status (Enabled|Disabled)

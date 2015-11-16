@@ -7,7 +7,7 @@ $ drupal generate:module [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name
 --machine-name | The machine name (lowercase and underscore only)

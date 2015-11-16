@@ -7,7 +7,7 @@ $ drupal generate:plugin:rest:resource [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin Rest Resource class

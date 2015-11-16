@@ -7,7 +7,7 @@ $ drupal generate:plugin:fieldformatter [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin class name

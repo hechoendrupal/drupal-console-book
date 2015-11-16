@@ -7,7 +7,7 @@ $ drupal theme:install [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --set-default | Set theme as default theme
 

@@ -7,7 +7,7 @@ $ drupal migrate:setup [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --db-type | Drupal Database type
 --db-host | Database Host

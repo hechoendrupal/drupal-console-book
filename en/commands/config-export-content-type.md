@@ -7,7 +7,7 @@ $ drupal config:export:content:type [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --optional-config | Export content type as an optional YAML configuration in your module

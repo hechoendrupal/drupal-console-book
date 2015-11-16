@@ -7,7 +7,7 @@ $ drupal generate:authentication:provider [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --module | The Module name.
 --class-name | Authentication Provider class

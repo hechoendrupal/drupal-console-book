@@ -7,7 +7,7 @@ $ drupal database:restore [arguments] [options]
 ```
 
 ## Available options
-Available options | Details
+Option | Details
 -------|-------------
 --file | The filename for your database backup file
 
