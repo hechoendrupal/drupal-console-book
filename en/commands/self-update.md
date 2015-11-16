@@ -1,9 +1,7 @@
 # self-update
-commands.generate.doc.output.command.command_description
+The **self-update** command Update the console to latest version.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal self-update 
 ```
-
-

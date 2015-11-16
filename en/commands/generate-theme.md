@@ -1,13 +1,13 @@
 # generate:theme
-commands.generate.doc.output.command.command_description
+The **generate:theme** command Generate a theme.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:theme [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --theme | commands.generate.theme.options.module
 --machine-name | The machine name (lowercase and underscore only)
@@ -19,4 +19,3 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --base-theme | Base theme (i.e. classy, seven)
 --regions | Regions
 --breakpoints | Breakpoints
-

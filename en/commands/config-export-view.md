@@ -1,19 +1,19 @@
 # config:export:view
-commands.generate.doc.output.command.command_description
+The **config:export:view** command commands.config.export.view.description
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal config:export:view [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
---optional-config | Export view as an optional YAML configuration in your module
---include-module-dependencies | Include module dependencies in module info YAML file
+--optional-config | commands.config.export.view.options.optional-config
+--include-module-dependencies | commands.config.export.view.options.include-module-dependencies
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
-view-id | View ID
+view-id | commands.config.export.view.arguments.view-id

@@ -1,13 +1,13 @@
 # generate:plugin:field
-commands.generate.doc.output.command.command_description
+The **generate:plugin:field** command Generate field type, widget and formatter plugins.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:plugin:field [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --type-class-name | Field type plugin class name
@@ -23,4 +23,3 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --field-type | Field type the formatter and widget plugin can be used with
 --default-widget | Default field widget of the field type plugin
 --default-formatter | Default field formatter of field type plugin
-

@@ -1,19 +1,19 @@
 # database:log:clear
-commands.generate.doc.output.command.command_description
+The **database:log:clear** command Remove events from DBLog table, filters are available
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal database:log:clear [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --type | commands.database.log.clear.options.type
 --severity | commands.database.log.clear.options.severity
 --user-id | commands.database.log.clear.options.user-id
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 event-id | commands.database.log.clear.arguments.event-id

@@ -1,16 +1,15 @@
 # generate:command
-commands.generate.doc.output.command.command_description
+The **generate:command** command Generate commands for the console.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:command [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class | The Class that describes the command. (Must end with the word 'Commmand').
 --name | The Command name.
 --container-aware | Is the command aware of the drupal site installation when executed
-

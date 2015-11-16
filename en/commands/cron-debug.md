@@ -1,9 +1,7 @@
 # cron:debug
-commands.generate.doc.output.command.command_description
+The **cron:debug** command List of modules implementing a cron
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal cron:debug 
 ```
-
-

@@ -1,17 +1,17 @@
 # module:install
-commands.generate.doc.output.command.command_description
+The **module:install** command Install module or modules in the application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal module:install [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --overwrite-config | Overwrite configuration active if necessary
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | Module or modules to be enabled should be separated by a comma

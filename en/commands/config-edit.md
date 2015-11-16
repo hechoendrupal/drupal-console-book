@@ -1,14 +1,13 @@
 # config:edit
-commands.generate.doc.output.command.command_description
+The **config:edit** command Edit the selected configuration.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal config:edit [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 config-name | Configuration name.
 editor | Editor.

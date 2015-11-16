@@ -1,13 +1,12 @@
 # site:debug
-commands.generate.doc.output.command.command_description
+The **site:debug** command List all known local and remote sites.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal site:debug [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 target | commands.site.debug.options.target

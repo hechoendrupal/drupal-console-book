@@ -1,13 +1,13 @@
 # migrate:execute
-commands.generate.doc.output.command.command_description
+The **migrate:execute** command Execute a migration available for application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal migrate:execute [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --site-url | Site Source URL
 --db-type | commands.migrate.setup.migrations.options.db-type
@@ -19,7 +19,7 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --db-port | Database Port
 --exclude | Migration id(s) to exclude
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 migration-ids | Migration id(s)

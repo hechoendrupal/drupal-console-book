@@ -1,14 +1,13 @@
 # update:execute
-commands.generate.doc.output.command.command_description
+The **update:execute** command Execute a specific Update N function in a module, or execute all
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal update:execute [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | The Module name.
 update-n | Specific Update N function to be executed

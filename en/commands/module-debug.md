@@ -1,14 +1,13 @@
 # module:debug
-commands.generate.doc.output.command.command_description
+The **module:debug** command Display current modules available for application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal module:debug [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --status | Module status [enabled|disabled]
 --type | Module type [core|no-core]
-

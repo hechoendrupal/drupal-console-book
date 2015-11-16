@@ -1,9 +1,7 @@
 # multisite:debug
-commands.generate.doc.output.command.command_description
+The **multisite:debug** command List all multisites available in system
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal multisite:debug 
 ```
-
-

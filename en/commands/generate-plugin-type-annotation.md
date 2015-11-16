@@ -1,16 +1,15 @@
 # generate:plugin:type:annotation
-commands.generate.doc.output.command.command_description
+The **generate:plugin:type:annotation** command Generate a plugin type with annotation discovery
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:plugin:type:annotation [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin type class name
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
 --label | Plugin type label
-

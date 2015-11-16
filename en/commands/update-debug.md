@@ -1,9 +1,7 @@
 # update:debug
-commands.generate.doc.output.command.command_description
+The **update:debug** command Display current updates available for the application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal update:debug 
 ```
-
-

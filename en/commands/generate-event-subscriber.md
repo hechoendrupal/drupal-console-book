@@ -1,17 +1,16 @@
 # generate:event:subscriber
-commands.generate.doc.output.command.command_description
+The **generate:event:subscriber** command Generate an event subscriber
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:event:subscriber [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --name | commands.generate.service.options.name
 --class | commands.generate.service.options.class
 --events | Load services from the container.
 --services | Load services from the container.
-

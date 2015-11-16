@@ -1,13 +1,12 @@
 # chain
-commands.generate.doc.output.command.command_description
+The **chain** command Chain command execution
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal chain [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --file | User defined file containing commands to get executed.
-

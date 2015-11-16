@@ -1,9 +1,7 @@
 # about
-commands.generate.doc.output.command.command_description
+The **about** command Display basic information about Drupal Console project
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal about 
 ```
-
-

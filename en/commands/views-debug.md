@@ -1,18 +1,18 @@
 # views:debug
-commands.generate.doc.output.command.command_description
+The **views:debug** command Display current views resources for the application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal views:debug [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --tag | View tag
 --status | View status (Enabled|Disabled)
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 view-id | View ID

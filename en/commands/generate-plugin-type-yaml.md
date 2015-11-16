@@ -1,16 +1,15 @@
 # generate:plugin:type:yaml
-commands.generate.doc.output.command.command_description
+The **generate:plugin:type:yaml** command Generate a plugin type with Yaml discovery
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:plugin:type:yaml [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin type class name
 --plugin-name | Plugin type machine name
 --plugin-file-name | Plugin file name
-

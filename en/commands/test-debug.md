@@ -1,17 +1,17 @@
 # test:debug
-commands.generate.doc.output.command.command_description
+The **test:debug** command List Test Units available for the application.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal test:debug [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --group | Group
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 test-class | Test Class

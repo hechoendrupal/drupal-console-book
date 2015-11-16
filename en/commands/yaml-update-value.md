@@ -1,14 +1,13 @@
 # yaml:update:value
-commands.generate.doc.output.command.command_description
+The **yaml:update:value** command Update a value for a specific key in a YAML file.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal yaml:update:value [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 yaml-file | Path of YAML file to update
 yaml-key | YAML key to update

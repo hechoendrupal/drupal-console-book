@@ -1,14 +1,13 @@
 # site:new
-commands.generate.doc.output.command.command_description
+The **site:new** command Create a new Drupal project
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal site:new [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 site-name | Site name
 version | Specific Drupal version to download

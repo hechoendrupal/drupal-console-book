@@ -1,19 +1,19 @@
 # list
-commands.generate.doc.output.command.command_description
+The **list** command Lists commands22
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal list [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --xml | To output list as XML
 --raw | To output raw command list
 --format | The output format (txt, xml, json, or md)
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 namespace | The namespace name

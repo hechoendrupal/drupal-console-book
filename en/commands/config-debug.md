@@ -1,13 +1,12 @@
 # config:debug
-commands.generate.doc.output.command.command_description
+The **config:debug** command Show the current configuration.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal config:debug [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 config-name | Configuration name.

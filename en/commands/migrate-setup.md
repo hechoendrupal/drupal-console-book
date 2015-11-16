@@ -1,13 +1,13 @@
 # migrate:setup
-commands.generate.doc.output.command.command_description
+The **migrate:setup** command Load and create the relevant migrations for a provided legacy database
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal migrate:setup [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --db-type | Drupal Database type
 --db-host | Database Host
@@ -16,4 +16,3 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --db-pass | Database Pass
 --db-prefix | Database Prefix
 --db-port | Database Port
-

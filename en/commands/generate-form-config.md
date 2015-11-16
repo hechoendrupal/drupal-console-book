@@ -1,13 +1,13 @@
 # generate:form:config
-commands.generate.doc.output.command.command_description
+The **generate:form:config** command Generate a new "ConfigFormBase"
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:form:config [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | The form class name
@@ -15,4 +15,3 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --services | Load services from the container.
 --inputs | Create inputs in a form.
 --routing | Update routing
-

@@ -1,14 +1,13 @@
 # generate:permissions
-commands.generate.doc.output.command.command_description
+The **generate:permissions** command Generate module permissions
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:permissions [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --permissions | Create permissions.
-

@@ -1,13 +1,12 @@
 # user:password:hash
-commands.generate.doc.output.command.command_description
+The **user:password:hash** command Generate a hash from a plaintext password.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal user:password:hash [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 password | Password(s) in text format

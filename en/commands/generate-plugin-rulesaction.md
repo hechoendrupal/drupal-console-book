@@ -1,13 +1,13 @@
 # generate:plugin:rulesaction
-commands.generate.doc.output.command.command_description
+The **generate:plugin:rulesaction** command Generate a plugin rule action
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:plugin:rulesaction [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin class name
@@ -16,4 +16,3 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --type | Action Type (user or node)
 --category | Plugin category
 --context | Plugin context
-

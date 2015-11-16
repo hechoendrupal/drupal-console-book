@@ -1,13 +1,22 @@
 # cache:rebuild
-commands.generate.doc.output.command.command_description
+The **cache:rebuild** command Rebuild and clear all site caches.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal cache:rebuild [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 cache | Only clear a specific cache.
+
+## Examples
+* Rebuild all caches
+```
+$ drupal cr all
+```
+* Rebuild discovery cache
+```
+$ drupal cr discovery
+```

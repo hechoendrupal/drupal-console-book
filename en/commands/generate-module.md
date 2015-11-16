@@ -1,13 +1,13 @@
 # generate:module
-commands.generate.doc.output.command.command_description
+The **generate:module** command Generate a module.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:module [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name
 --machine-name | The machine name (lowercase and underscore only)
@@ -18,4 +18,3 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --feature | Set module compatible with Features module
 --composer | Add a composer.json file
 --dependencies | Module dependencies separated by commas (i.e. context, panels)
-

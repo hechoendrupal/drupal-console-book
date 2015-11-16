@@ -1,13 +1,12 @@
 # site:status
-commands.generate.doc.output.command.command_description
+The **site:status** command View current Drupal Installation status
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal site:status [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --format | commands.site.status.options.format
-

@@ -1,13 +1,13 @@
 # database:log:debug
-commands.generate.doc.output.command.command_description
+The **database:log:debug** command Display current log events for the application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal database:log:debug [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --type | Filter events by a specific type
 --severity | Filter events by a specific level of severity
@@ -15,7 +15,7 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --limit | Limit results to a specific number
 --offset | Starting point of a limit
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 event-id | DBLog event ID

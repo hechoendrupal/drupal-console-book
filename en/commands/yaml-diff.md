@@ -1,20 +1,21 @@
 # yaml:diff
-commands.generate.doc.output.command.command_description
+The **yaml:diff** command Compare two YAML files in order to find differences between them.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal yaml:diff [arguments] [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
+--stats | Print statistics about YAML files comparation
 --negate | Define mode diff or equal comparation, possible values TRUE/FALSE or 0/1
 --limit | Limit results to a specific number
 --offset | Starting point of a limit
 
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 yaml-left | YAML file used as base to compare
-yaml-right | YAML file used to determine missing or differences with base YAML file
+yaml-right | YAML file used to find missing parts or differences with the base YAML file

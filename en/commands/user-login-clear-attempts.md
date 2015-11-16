@@ -1,13 +1,12 @@
 # user:login:clear:attempts
-commands.generate.doc.output.command.command_description
+The **user:login:clear:attempts** command Clear login failed attempts for an account.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal user:login:clear:attempts [arguments] 
 ```
 
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
+## Available arguments
+Argument | Details
 ---------|-------------
 uid | User ID.

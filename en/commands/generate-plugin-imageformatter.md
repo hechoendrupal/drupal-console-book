@@ -1,16 +1,15 @@
 # generate:plugin:imageformatter
-commands.generate.doc.output.command.command_description
+The **generate:plugin:imageformatter** command Generate image formatter plugin.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:plugin:imageformatter [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
-

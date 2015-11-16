@@ -1,15 +1,14 @@
 # generate:authentication:provider
-commands.generate.doc.output.command.command_description
+The **generate:authentication:provider** command Generate an Authentication Provider
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:authentication:provider [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Authentication Provider class
 --provider-id | Provider ID
-

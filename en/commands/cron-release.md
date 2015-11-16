@@ -1,9 +1,7 @@
 # cron:release
-commands.generate.doc.output.command.command_description
+The **cron:release** command Release cron system lock to run cron again
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal cron:release 
 ```
-
-

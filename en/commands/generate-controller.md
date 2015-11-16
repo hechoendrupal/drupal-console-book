@@ -1,13 +1,13 @@
 # generate:controller
-commands.generate.doc.output.command.command_description
+The **generate:controller** command Generate & Register a controller
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:controller [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --class-name | Controller Class name
@@ -16,4 +16,3 @@ commands.generate.doc.output.command.options | commands.generate.doc.output.comm
 --route | The route path
 --services | Load services from the container.
 --test | Generate a test class
-

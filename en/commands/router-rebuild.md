@@ -1,9 +1,7 @@
 # router:rebuild
-commands.generate.doc.output.command.command_description
+The **router:rebuild** command Rebuild routes for the application
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal router:rebuild 
 ```
-
-

@@ -1,15 +1,14 @@
 # generate:form:alter
-commands.generate.doc.output.command.command_description
+The **generate:form:alter** command Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
 $ drupal generate:form:alter [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
 --module | The Module name.
 --form-id | Form ID to alter
 --inputs | Create inputs in a form.
-

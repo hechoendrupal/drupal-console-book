@@ -1,17 +1,13 @@
 # config:import
-commands.generate.doc.output.command.command_description
+The **config:import** command Import configuration to current application.
 
-**commands.generate.doc.output.command.usage:**
+**Usage:**
 ```
-$ drupal config:import [arguments] [options] 
+$ drupal config:import [options] 
 ```
 
-## commands.generate.doc.output.command.options
-commands.generate.doc.output.command.options | commands.generate.doc.output.command.details
+## Available options
+Available options | Details
 -------|-------------
---copy-only | Copy only configuration files in staging directory.
-
-## commands.generate.doc.output.command.arguments
-commands.generate.doc.output.command.argument | commands.generate.doc.output.command.details
----------|-------------
-config-file | Configuration file path.
+--file | commands.config.import.option.file
+--remove-files | commands.config.import.option.keep-files
