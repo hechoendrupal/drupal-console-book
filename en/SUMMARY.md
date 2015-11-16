@@ -12,6 +12,11 @@
   * [Using Composer](getting/composer.md)
   * [Download phar file](getting/download.md)
   * [Update project](getting/update.md)
+  
+* [Using the project](using/project.md)
+  * [How to copy configuration files](using/how-to-copy-configuration-files.md)
+  * [How to use Drupal Console in a multi-site installation](using/how-to-use-drupal-console-in-a-multisite-installation.md)
+  * [How to use Drupal Console in a remote installation](using/how-to-use-drupal-console-in-a-remote-installation)
 
 * [Available commands](commands/available-commands.md)
   {% include "./commands/available-commands-list.md" %}
