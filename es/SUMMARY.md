@@ -2,7 +2,7 @@
 
 * [Documentación de Drupal Console](README.md)
 
-* [Que es la Drupal Console](about/what-is-the-drupal-console.md)
+* [Qué es la Drupal Console](about/what-is-the-drupal-console.md)
   * [¿Por qué debería preocuparse?](about/why-should-you-care-about.md)
   * [¿Cómo ayuda la Drupal Consola?](about/how-does-drupal-console-help.md)
   * [¿Dónde encuentro el proyecto?](about/where-do-i-find-the-project.md)
@@ -30,4 +30,4 @@
    * [Comandos no listadod](drupal_console_faq/commands-not-listed.md)
    * [Modo interactivo](drupal_console_faq/interactive-mode.md)
 
-* ## [Referenciás](references/links.md)
+* ## [Referencias](references/links.md)

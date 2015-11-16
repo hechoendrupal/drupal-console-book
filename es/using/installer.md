@@ -5,7 +5,7 @@ You can install the Drupal Console locally by running the installer in your proj
 ```
 $ curl -LSs http://drupalconsole.com/installer | php
 ```
-## Or if you don't have curl:
+## O si tu no tienes curl:
 ```
 $ php -r "readfile('http://drupalconsole.com/installer');" | php
 ```
