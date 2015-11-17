@@ -5,6 +5,15 @@ Drupal Console provides support for Drupal multi-site installations. This projec
 ### How to list all known multi sites
 ```
 $ drupal multisite:debug
+
++---------------------+--------------------------------+
+| Site                | Directory                      |
++---------------------+--------------------------------+
+| drupal8.dev         | /var/www/drupal8.dev/default   |
+| drupal8.multi.dev   | /var/www/drupal8.dev/multi.dev |
++---------------------+--------------------------------+
+
+ Sites are written using the format: <port>.<domain>.<path>
 ```
 
 ### How to execute a command against a multi-site installation
