@@ -1,5 +1,5 @@
 # generate:entity:content
-El comando **generate:entity:content** Genera una nueva entidad
+El comando **generate:entity:content** Generar una nueva entidad de contenido
 
 **Uso:**
 ```
@@ -10,6 +10,6 @@ $ drupal generate:entity:content [options]
 Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---entity-class | El nombre de la clase
---entity-name | El nombre de la entidad
---label | La etiqueta
+--entity-class | Clase de la entidad de contenido
+--entity-name | Nombre de la entidad de contenido
+--label | Etiqueta

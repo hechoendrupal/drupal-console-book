@@ -10,3 +10,13 @@ $ drupal cache:rebuild [arguments]
 Argumento | Detalles
 ---------|-------------
 cache | Reconstruir sólo una cache determinada.
+
+## Ejemplos
+* Reconstruir todas las cachés
+```
+$ drupal cr all
+```
+* Rebuild discovery cache
+```
+$ drupal cr discovery
+```

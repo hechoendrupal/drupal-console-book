@@ -17,5 +17,5 @@ Opción | Detalles
 --package | Paquete del tema
 --global-library | Nombre de la librería de estilo global
 --base-theme | Tema base (por ejemplo: classy, seven)
---regions | Regions
---breakpoints | Breakpoints
+--regions | Regiones
+--breakpoints | Puntos de quiebre

@@ -9,4 +9,4 @@ $ drupal init [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---override | Override configurations files
+--override | Sobreescribir archivos de configuración

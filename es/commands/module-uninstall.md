@@ -9,4 +9,4 @@ $ drupal module:uninstall [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-module | Module or modules to be uninstalled should be separated by a comma
+module | Los módulos a ser desinstalado(s) deben ser separados por una coma

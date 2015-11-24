@@ -1,5 +1,5 @@
 # database:log:clear
-El comando **database:log:clear** Remove events from DBLog table, filters are available
+El comando **database:log:clear** Eliminar eventos de la tabla DBLog, filtros disponibles
 
 **Uso:**
 ```

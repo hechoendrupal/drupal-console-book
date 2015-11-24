@@ -9,4 +9,4 @@ $ drupal migrate:debug [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-tag | Migrate tag
+tag | Etiqueta de migración

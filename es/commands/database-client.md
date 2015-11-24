@@ -1,5 +1,5 @@
 # database:client
-El comando **database:client** Launch a DB client if it's available
+El comando **database:client** Lanzar un cliente de base de datos si está disponible
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal database:client [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-database | Database key from settings.php
+database | Clave de la base de datos, desde settings.php

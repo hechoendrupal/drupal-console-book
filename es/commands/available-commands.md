@@ -1,6 +1,6 @@
 # Comandos Drupal Console disponibles
 
-**Note:** Comandos de Drupal Console que *deben* ser ejecutados desde una instalación de Drupal 8.
+**Nota:** Comandos de Drupal Console que *deben* ser ejecutados desde una instalación de Drupal 8.
 
 Comando de Drupal Console | Detalles
 ------------ | -------------
@@ -9,7 +9,7 @@ Comando de Drupal Console | Detalles
 [drush](drush.md) | Ejecutar Drush desde la consola.
 [help](help.md) | Displays help for a command
 [init](init.md) | Copiar archivos de configuración al directorio home del usuario.
-[list](list.md) | Lists commands22
+[list](list.md) | Enlista comandos
 [self-update](self-update.md) | Actualiza la consola a la última versión.
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
@@ -30,21 +30,21 @@ Comando de Drupal Console | Detalles
 [cron:execute](cron-execute.md) | Ejecutar implementación de cron desde un módulo específico o todos para ejecutar todas las implementaciones
 [cron:release](cron-release.md) | Desbloquea al cron para volver a ejecutarlo
 **database**  |
-[database:client](database-client.md) | Launch a DB client if it's available
-[database:connect](database-connect.md) | Launch a DB client if it's available
-[database:dump](database-dump.md) | Dump structure and contents of MySQL databases and tables
-[database:log:clear](database-log-clear.md) | Remove events from DBLog table, filters are available
-[database:log:debug](database-log-debug.md) | Display current log events for the application
-[database:restore](database-restore.md) | Restore structure and contents of MySQL databases and tables
+[database:client](database-client.md) | Lanzar un cliente de base de datos si está disponible
+[database:connect](database-connect.md) | Lanzar un cliente de base de datos si está disponible
+[database:dump](database-dump.md) | Volcado de la estructura y contenidos de las bases de datos y tablas MySQL
+[database:log:clear](database-log-clear.md) | Eliminar eventos de la tabla DBLog, filtros disponibles
+[database:log:debug](database-log-debug.md) | Desplegar eventos registrados al momento para la aplicación
+[database:restore](database-restore.md) | Restaurar la estructura y los contenidos de bases de datos y tablas MySQL
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generar un Proveedor de Autenticación
 [generate:command](generate-command.md) | Genera un comando para la consola.
 [generate:controller](generate-controller.md) | Generar y registrar un controlador
-[generate:doc:dash](generate-doc-dash.md) | Generate the DrupalConsole.docset package for Dash
+[generate:doc:dash](generate-doc-dash.md) | Generar el paquete DrupalConsole.docset para Dash
 [generate:doc:gitbook](generate-doc-gitbook.md) | Generar documentaciones para Comandos
 [generate:entity:bundle](generate-entity-bundle.md) | Genera un nuevo tipo de contenido (nodo / entity bundle)
-[generate:entity:config](generate-entity-config.md) | Genera una nueva entidad
-[generate:entity:content](generate-entity-content.md) | Genera una nueva entidad
+[generate:entity:config](generate-entity-config.md) | Generar una nueva entidad de configuración
+[generate:entity:content](generate-entity-content.md) | Generar una nueva entidad de contenido
 [generate:event:subscriber](generate-event-subscriber.md) | Genera un suscriptor de eventos
 [generate:form:alter](generate-form-alter.md) | Genera una implementación de hook_form_alter() o hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | Generar un nuevo "ConfigFormBase"
@@ -63,10 +63,12 @@ Comando de Drupal Console | Detalles
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Genera un tipo de plugin con descubrimiento de anotaciones
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Genera un tipo de plugin con descubrimiento YAML
 [generate:plugin:views:field](generate-plugin-views-field.md) | Genera un plugin de campo de vista personalizado.
+[generate:routesubscriber](generate-routesubscriber.md) | Generar un RouteSubscriber
 [generate:service](generate-service.md) | Genera un servicio
 [generate:theme](generate-theme.md) | Genera un tema.
 **locale**  |
-[locale:language:add](locale-language-add.md) | Add a language to be supported by your site
+[locale:language:add](locale-language-add.md) | Agregar un idioma para ser soportado por el sitio
+[locale:language:delete](locale-language-delete.md) | Eliminar un idioma soportado en el sitio
 [locale:translation:status](locale-translation-status.md) | Lista de traducciones disponibles actualizadas
 **migrate**  |
 [migrate:debug](migrate-debug.md) | Muestra la migración actual disponible para la aplicación
@@ -78,7 +80,7 @@ Comando de Drupal Console | Detalles
 [module:install](module-install.md) | Instala un módulo o varios en la aplicación
 [module:uninstall](module-uninstall.md) | Desinstala un módulo o varios en la aplicación
 **multisite**  |
-[multisite:debug](multisite-debug.md) | List all multisites available in system
+[multisite:debug](multisite-debug.md) | Lista todos los sitios múltiples disponibles en el sistema
 **rest**  |
 [rest:debug](rest-debug.md) | Muestra el actual recurso rest para la aplicación
 [rest:disable](rest-disable.md) | Deshabilita un recurso rest en la aplicación
@@ -87,7 +89,7 @@ Comando de Drupal Console | Detalles
 [router:debug](router-debug.md) | Muestra las rutas actuales de la aplicación
 [router:rebuild](router-rebuild.md) | Reconstruye las rutas de la aplicación
 **site**  |
-[site:debug](site-debug.md) | List all known local and remote sites.
+[site:debug](site-debug.md) | Enlista todos los sitios, locales y remotos, conocidos.
 [site:install](site-install.md) | Instala un proyecto Drupal
 [site:maintenance](site-maintenance.md) | Poner el sitio en modo mantenimiento
 [site:mode](site-mode.md) | Cambiar la configuración de rendimiento del sistema
@@ -97,6 +99,7 @@ Comando de Drupal Console | Detalles
 [test:debug](test-debug.md) | Lista los tests unitarios disponibles para la aplicación.
 [test:run](test-run.md) | Ejecuta un test unitario de los disponibles en la aplicación
 **theme**  |
+[theme:debug](theme-debug.md) | Despliega los temas actuales para la aplicación
 [theme:download](theme-download.md) | Instalar tema o temas en la aplicación
 [theme:install](theme-install.md) | Instalar tema o temas en la aplicación
 [theme:uninstall](theme-uninstall.md) | Desinstalar tema o temas en la aplicación
