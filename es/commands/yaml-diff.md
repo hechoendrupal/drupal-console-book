@@ -9,7 +9,7 @@ $ drupal yaml:diff [arguments] [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---stats | Print statistics about YAML files comparation
+--stats | Despliega estadísticas acerca de la comparación de archivos YAML
 --negate | Definir el modo de la comparación (diferencia o igualdad), valores posibles son TRUE/FALSE o 0/1
 --limit | Limitar resultados a un número específico
 --offset | Punto de empiece del límite

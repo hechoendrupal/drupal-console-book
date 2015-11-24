@@ -1,5 +1,7 @@
 # Available Drupal Console Commands
 
+**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
+
 Drupal Console Command | Details
 ------------ | -------------
 [about](about.md) | Display basic information about Drupal Console project
@@ -41,8 +43,8 @@ Drupal Console Command | Details
 [generate:doc:dash](generate-doc-dash.md) | Generate the DrupalConsole.docset package for Dash
 [generate:doc:gitbook](generate-doc-gitbook.md) | Generate documentations for Commands
 [generate:entity:bundle](generate-entity-bundle.md) | Generate a new content type (node / entity bundle)
-[generate:entity:config](generate-entity-config.md) | Generate a new entity
-[generate:entity:content](generate-entity-content.md) | Generate a new entity
+[generate:entity:config](generate-entity-config.md) | Generate a new config entity
+[generate:entity:content](generate-entity-content.md) | Generate a new content entity
 [generate:event:subscriber](generate-event-subscriber.md) | Generate an event subscriber
 [generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
@@ -61,10 +63,12 @@ Drupal Console Command | Details
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Generate a plugin type with Yaml discovery
 [generate:plugin:views:field](generate-plugin-views-field.md) | Generate a custom plugin view field.
+[generate:routesubscriber](generate-routesubscriber.md) | Generate a RouteSubscriber
 [generate:service](generate-service.md) | Generate service
 [generate:theme](generate-theme.md) | Generate a theme.
 **locale**  |
 [locale:language:add](locale-language-add.md) | Add a language to be supported by your site
+[locale:language:delete](locale-language-delete.md) | DElete a language to be supported by your site
 [locale:translation:status](locale-translation-status.md) | List available translation updates
 **migrate**  |
 [migrate:debug](migrate-debug.md) | Display current migration available for the application
@@ -95,6 +99,7 @@ Drupal Console Command | Details
 [test:debug](test-debug.md) | List Test Units available for the application.
 [test:run](test-run.md) | Run Test unit from tests available for application
 **theme**  |
+[theme:debug](theme-debug.md) | Displays current themes for the application
 [theme:download](theme-download.md) | Install theme or themes in the application
 [theme:install](theme-install.md) | Install theme or themes in the application
 [theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application

@@ -11,5 +11,5 @@ Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la Clase de Comandos
---name | The Command name.
---container-aware | Is the command aware of the drupal site installation when executed
+--name | Nombre del comando.
+--container-aware | Conoce el comando acerca de la instalación del sitio drupal cuando sea ejecutado

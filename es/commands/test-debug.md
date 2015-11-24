@@ -9,7 +9,7 @@ $ drupal test:debug [arguments] [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---group | Group
+--group | Grupo
 
 ## Argumentos disponibles
 Argumento | Detalles

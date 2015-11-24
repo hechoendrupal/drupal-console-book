@@ -13,5 +13,6 @@ Opción | Detalles
 --class-name | Nombre de la clase del plugin
 --label | Etiqueta del plugin
 --plugin-id | ID del plugin
+--theme-region | Región del tema para renderizar el plugin de bloque
 --inputs | Crear campos de entrada en un formulario.
 --services | Cargar servicios desde el contenedor.

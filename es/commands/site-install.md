@@ -11,7 +11,7 @@ Opción | Detalles
 -------|-------------
 --langcode | Idioma
 --db-type | Tipo de base de datos
---db-file | Drupal Database file to be use in install
+--db-file | Archivo de base de datos de Drupal a usar en la instalación
 --db-host | Host de la base de datos
 --db-name | Nombre de la base de datos
 --db-user | Usuario de la base de datos

@@ -10,5 +10,5 @@ $ drupal generate:authentication:provider [options]
 Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---class-name | commands.generate.authentication.provider.options.class-name
+--class | commands.generate.authentication.provider.options.class
 --provider-id | commands.generate.authentication.provider.options.provider-id
