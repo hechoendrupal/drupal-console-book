@@ -11,6 +11,7 @@ Drupal Console Command | Details
 [init](init.md) | Copy configuration files to user home directory.
 [list](list.md) | Lists commands22
 [self-update](self-update.md) | Update the console to latest version.
+[server](server.md) | Runs PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Rebuild and clear all site caches.
 **config**  |
@@ -46,6 +47,7 @@ Drupal Console Command | Details
 [generate:entity:config](generate-entity-config.md) | Generate a new config entity
 [generate:entity:content](generate-entity-content.md) | Generate a new content entity
 [generate:event:subscriber](generate-event-subscriber.md) | Generate an event subscriber
+[generate:form](generate-form.md) | Generate a new "FormBase"
 [generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
 [generate:module](generate-module.md) | Generate a module.
@@ -68,7 +70,7 @@ Drupal Console Command | Details
 [generate:theme](generate-theme.md) | Generate a theme.
 **locale**  |
 [locale:language:add](locale-language-add.md) | Add a language to be supported by your site
-[locale:language:delete](locale-language-delete.md) | DElete a language to be supported by your site
+[locale:language:delete](locale-language-delete.md) | Delete a language to be supported by your site
 [locale:translation:status](locale-translation-status.md) | List available translation updates
 **migrate**  |
 [migrate:debug](migrate-debug.md) | Display current migration available for the application

@@ -15,6 +15,7 @@
   
 * [Using the project](using/project.md)
   * [How to copy configuration files](using/how-to-copy-configuration-files.md)
+  * [How to download, install and serve Drupal 8](using/how-to-download-install-and-serve-drupal8.md)
   * [How to use Drupal Console in a multi-site installation](using/how-to-use-drupal-console-in-a-multisite-installation.md)
   * [How to use Drupal Console in a remote installation](using/how-to-use-drupal-console-in-a-remote-installation.md)
 
