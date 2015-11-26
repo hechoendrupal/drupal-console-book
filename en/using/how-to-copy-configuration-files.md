@@ -5,7 +5,8 @@ The first task you should do after installing Drupal Console is to execute the `
 ```
  ~/.console/ 
  ├── aliases.yml 
- ├── chain 
+ ├── chain
+ │   ├── quick-start.yml
  │   └── sample.yml 
  ├── config.yml 
  ├── console.rc 
