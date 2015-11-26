@@ -9,4 +9,4 @@ $ drupal theme:debug [arguments]
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | commands.theme.debug.options.theme
+theme | Specific theme to debug

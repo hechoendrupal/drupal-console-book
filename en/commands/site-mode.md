@@ -9,4 +9,4 @@ $ drupal site:mode [arguments]
 ## Available arguments
 Argument | Details
 ---------|-------------
-environment | Environment name [dev|prod]
+environment | Environment name [dev, prod]
