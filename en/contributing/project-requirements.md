@@ -45,4 +45,4 @@ $ drupal site:install standard --langcode=en --db-type=sqlite
 ```
 $ drupal server
 ```
-**NOTE:** Make sure you use your own user and database credentials when running `drush si` and never user root on production. In this example code, we accept all interactive questions, i.e. answering *“yes”* when passing the `-y` argument.
+**NOTE:** Make sure you use your own user and database credentials when running `site:install` and never user root on production. In this example code, we accept all interactive questions, i.e. answering *“yes”* when passing the `-y` argument.
