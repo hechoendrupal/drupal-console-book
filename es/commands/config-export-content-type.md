@@ -15,4 +15,4 @@ Opción | Detalles
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-content_type | Tipo de contenido que será exportado.
+content-type | commands.config.export.content.type.arguments.content-type

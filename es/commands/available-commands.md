@@ -11,6 +11,7 @@ Comando de Drupal Console | Detalles
 [init](init.md) | Copiar archivos de configuración al directorio home del usuario.
 [list](list.md) | Enlista comandos
 [self-update](self-update.md) | Actualiza la consola a la última versión.
+[server](server.md) | Runs PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
 **config**  |
@@ -42,10 +43,11 @@ Comando de Drupal Console | Detalles
 [generate:controller](generate-controller.md) | Generar y registrar un controlador
 [generate:doc:dash](generate-doc-dash.md) | Generar el paquete DrupalConsole.docset para Dash
 [generate:doc:gitbook](generate-doc-gitbook.md) | Generar documentaciones para Comandos
-[generate:entity:bundle](generate-entity-bundle.md) | Genera un nuevo tipo de contenido (nodo / entity bundle)
+[generate:entity:bundle](generate-entity-bundle.md) | Genera un nuevo tipo de contenido (nodo / bundle de entidad)
 [generate:entity:config](generate-entity-config.md) | Generar una nueva entidad de configuración
 [generate:entity:content](generate-entity-content.md) | Generar una nueva entidad de contenido
 [generate:event:subscriber](generate-event-subscriber.md) | Genera un suscriptor de eventos
+[generate:form](generate-form.md) | Generar un nuevo "FormBase"
 [generate:form:alter](generate-form-alter.md) | Genera una implementación de hook_form_alter() o hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | Generar un nuevo "ConfigFormBase"
 [generate:module](generate-module.md) | Generar a modulo.
@@ -63,6 +65,7 @@ Comando de Drupal Console | Detalles
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Genera un tipo de plugin con descubrimiento de anotaciones
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Genera un tipo de plugin con descubrimiento YAML
 [generate:plugin:views:field](generate-plugin-views-field.md) | Genera un plugin de campo de vista personalizado.
+[generate:profile](generate-profile.md) | Generate a profile.
 [generate:routesubscriber](generate-routesubscriber.md) | Generar un RouteSubscriber
 [generate:service](generate-service.md) | Genera un servicio
 [generate:theme](generate-theme.md) | Genera un tema.
@@ -100,7 +103,7 @@ Comando de Drupal Console | Detalles
 [test:run](test-run.md) | Ejecuta un test unitario de los disponibles en la aplicación
 **theme**  |
 [theme:debug](theme-debug.md) | Despliega los temas actuales para la aplicación
-[theme:download](theme-download.md) | Instalar tema o temas en la aplicación
+[theme:download](theme-download.md) | Descarga un tema para la aplicación
 [theme:install](theme-install.md) | Instalar tema o temas en la aplicación
 [theme:uninstall](theme-uninstall.md) | Desinstalar tema o temas en la aplicación
 **update**  |
@@ -133,7 +136,6 @@ Opción | Detalles
 --no-ansi | Deshabilitar salida ANSI
 --no-interaction | No hacer ninguna pregunta interactiva
 --root | Define la raíz de Drupal que se utilizará en la ejecución de los comandos
---shell | Iniciar el shell.
 --env | Nombre del ambiente.
 --no-debug | Desactivar el modo de depuración.
 --learning | Generar código con explicaciones.

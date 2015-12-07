@@ -9,8 +9,8 @@ Drupal Console Command | Details
 [drush](drush.md) | Run drush from console.
 [help](help.md) | Displays help for a command
 [init](init.md) | Copy configuration files to user home directory.
-[list](list.md) | Lists commands22
-[self-update](self-update.md) | Update the console to latest version.
+[list](list.md) | Lists all available commands
+[self-update](self-update.md) | Update project to the latest version.
 [server](server.md) | Runs PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Rebuild and clear all site caches.
@@ -20,7 +20,7 @@ Drupal Console Command | Details
 [config:export](config-export.md) | Export current application configuration.
 [config:export:content:type](config-export-content-type.md) | Export a specific content type and their fields.
 [config:export:single](config-export-single.md) | Export single configuration as yml file.
-[config:export:view](config-export-view.md) | commands.config.export.view.description
+[config:export:view](config-export-view.md) | Export a view in YAML format inside a provided module to reuse in other website.
 [config:import](config-import.md) | Import configuration to current application.
 [config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | Override config value in active configuration.
@@ -65,6 +65,7 @@ Drupal Console Command | Details
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Generate a plugin type with Yaml discovery
 [generate:plugin:views:field](generate-plugin-views-field.md) | Generate a custom plugin view field.
+[generate:profile](generate-profile.md) | Generate a profile.
 [generate:routesubscriber](generate-routesubscriber.md) | Generate a RouteSubscriber
 [generate:service](generate-service.md) | Generate service
 [generate:theme](generate-theme.md) | Generate a theme.
@@ -102,7 +103,7 @@ Drupal Console Command | Details
 [test:run](test-run.md) | Run Test unit from tests available for application
 **theme**  |
 [theme:debug](theme-debug.md) | Displays current themes for the application
-[theme:download](theme-download.md) | Install theme or themes in the application
+[theme:download](theme-download.md) | Download theme in application
 [theme:install](theme-install.md) | Install theme or themes in the application
 [theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application
 **update**  |
@@ -135,7 +136,6 @@ Option | Details
 --no-ansi | Disable ANSI output
 --no-interaction | Do not ask any interactive question
 --root | Define the Drupal root to be use in command execution
---shell | Launch the shell.
 --env | The Environment name.
 --no-debug | Switches off debug mode.
 --learning | Generate a verbose code output.

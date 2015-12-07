@@ -13,3 +13,4 @@ Option | Details
 --entity-class | The content entity class
 --entity-name | The content entity name
 --label | The label
+--has-bundles | commands.generate.entity.options.has-bundles

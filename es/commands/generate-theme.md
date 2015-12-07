@@ -18,4 +18,4 @@ Opción | Detalles
 --global-library | Nombre de la librería de estilo global
 --base-theme | Tema base (por ejemplo: classy, seven)
 --regions | Regiones
---breakpoints | Puntos de quiebre
+--breakpoints | Puntos de ruptura

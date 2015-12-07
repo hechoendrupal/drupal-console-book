@@ -1,5 +1,5 @@
 # config:export:view
-The **config:export:view** command commands.config.export.view.description
+The **config:export:view** command Export a view in YAML format inside a provided module to reuse in other website.
 
 **Usage:**
 ```
@@ -10,10 +10,10 @@ $ drupal config:export:view [arguments] [options]
 Option | Details
 -------|-------------
 --module | The Module name.
---optional-config | commands.config.export.view.options.optional-config
---include-module-dependencies | commands.config.export.view.options.include-module-dependencies
+--optional-config | Export view as an optional YAML configuration in your module
+--include-module-dependencies | Include module dependencies in module info YAML file
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-view-id | commands.config.export.view.arguments.view-id
+view-id | View ID

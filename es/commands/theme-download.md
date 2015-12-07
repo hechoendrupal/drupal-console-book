@@ -1,5 +1,5 @@
 # theme:download
-El comando **theme:download** Instalar tema o temas en la aplicación
+El comando **theme:download** Descarga un tema para la aplicación
 
 **Uso:**
 ```
@@ -9,5 +9,5 @@ $ drupal theme:download [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-theme | tema o temas que serán activados deberían estar separados por comas
+theme | commands.theme.download.options.theme
 version | Versión del tema, por ejemplo, 1.x-dev

@@ -15,4 +15,4 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-content_type | Content Type to be exported
+content-type | Content Type to be exported

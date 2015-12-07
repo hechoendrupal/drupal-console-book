@@ -13,3 +13,4 @@ Option | Details
 --entity-class | The config entity class
 --entity-name | The config entity name
 --label | The label
+--bundle-of | commands.generate.entity.options.bundle-of
