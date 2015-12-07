@@ -12,6 +12,7 @@ Opción | Detalles
 --type | Filtrar eventos por un tipo específico
 --severity | Filtrar eventos por un nivel de severidad específico
 --user-id | Filtrar eventos por un id de usuario específico
+--reverse | commands.database.log.debug.options.reverse
 --limit | Limitar los resultados a un número específico
 --offset | Punto inicial de un límite
 

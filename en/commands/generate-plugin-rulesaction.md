@@ -10,7 +10,7 @@ $ drupal generate:plugin:rulesaction [options]
 Option | Details
 -------|-------------
 --module | The Module name.
---class-name | Plugin class name
+--class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
 --type | Action Type (user or node)

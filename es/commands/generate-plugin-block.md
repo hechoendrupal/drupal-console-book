@@ -10,7 +10,7 @@ $ drupal generate:plugin:block [options]
 Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---class-name | Nombre de la clase del plugin
+--class | Nombre de la clase del plugin
 --label | Etiqueta del plugin
 --plugin-id | ID del plugin
 --theme-region | Región del tema para renderizar el plugin de bloque

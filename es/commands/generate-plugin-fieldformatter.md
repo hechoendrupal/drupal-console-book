@@ -10,7 +10,7 @@ $ drupal generate:plugin:fieldformatter [options]
 Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---class-name | Nombre de la clase del plugin
+--class | Nombre de la clase del plugin
 --label | Etiqueta del plugin
 --plugin-id | ID del plugin
 --field-type | Tipo de campo con el que el plugin puede ser usado

@@ -3,11 +3,15 @@ El comando **config:export:single** Exportar configuración única como archivo 
 
 **Uso:**
 ```
-$ drupal config:export:single [arguments] 
+$ drupal config:export:single [arguments] [options] 
 ```
+
+## Opciones disponibles
+Opción | Detalles
+-------|-------------
+--directory | Define el directorio de exportación para guardar la configuración.
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
 config-name | Nombre de la configuración.
-directory | Define el directorio de exportación para guardar la configuración.

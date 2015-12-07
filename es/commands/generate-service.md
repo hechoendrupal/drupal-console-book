@@ -11,6 +11,6 @@ Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --name | commands.generate.service.options.name
---class | commands.generate.service.options.class
+--class | Nombre de la clase
 --interface | commands.common.service.options.interface
 --services | Cargar servicios desde el contenedor.

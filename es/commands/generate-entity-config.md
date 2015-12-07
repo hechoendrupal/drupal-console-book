@@ -10,6 +10,7 @@ $ drupal generate:entity:config [options]
 Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---entity-class | Clase the la entidad de configuración
---entity-name | Nombre the la entidad de configuración
+--entity-class | Clase de la entidad de configuración
+--entity-name | Nombre de la entidad de configuración
 --label | Etiqueta
+--bundle-of | commands.generate.entity.options.bundle-of

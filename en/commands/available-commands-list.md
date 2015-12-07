@@ -53,6 +53,7 @@
   * [generate:plugin:type:annotation](commands/generate-plugin-type-annotation.md)
   * [generate:plugin:type:yaml](commands/generate-plugin-type-yaml.md)
   * [generate:plugin:views:field](commands/generate-plugin-views-field.md)
+  * [generate:profile](commands/generate-profile.md)
   * [generate:routesubscriber](commands/generate-routesubscriber.md)
   * [generate:service](commands/generate-service.md)
   * [generate:theme](commands/generate-theme.md)

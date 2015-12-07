@@ -10,7 +10,7 @@ $ drupal generate:plugin:condition [options]
 Option | Details
 -------|-------------
 --module | The Module name.
---class-name | Plugin condition class name
+--class | Plugin condition class name
 --label | Plugin condition label
 --plugin-id | Plugin condition id
 --context-definition-id | Context definition ID

@@ -11,6 +11,6 @@ Option | Details
 -------|-------------
 --module | The Module name.
 --name | commands.generate.service.options.name
---class | commands.generate.service.options.class
+--class | Class name
 --interface | commands.common.service.options.interface
 --services | Load services from the container.

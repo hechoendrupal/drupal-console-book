@@ -1,5 +1,5 @@
 # list
-The **list** command Lists commands22
+The **list** command Lists all available commands
 
 **Usage:**
 ```

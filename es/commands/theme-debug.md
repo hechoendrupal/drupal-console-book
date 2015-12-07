@@ -9,4 +9,4 @@ $ drupal theme:debug [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-theme | commands.theme.debug.options.theme
+theme | Tema específico a depurar 

@@ -1,9 +1,9 @@
-# generate:form:config
-El comando **generate:form:config** Generar un nuevo "ConfigFormBase"
+# generate:form
+El comando **generate:form** Generar un nuevo "FormBase"
 
 **Uso:**
 ```
-$ drupal generate:form:config [options] 
+$ drupal generate:form [options] 
 ```
 
 ## Opciones disponibles
