@@ -14,4 +14,4 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-module | Module or modules to be enabled should be separated by a space
+module | Module or modules to be enabled should be separated by a comma

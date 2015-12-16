@@ -4,6 +4,7 @@ El comando **generate:entity:bundle** Genera un nuevo tipo de contenido (nodo / 
 **Uso:**
 ```
 $ drupal generate:entity:bundle [options] 
+$ geb  
 ```
 
 ## Opciones disponibles

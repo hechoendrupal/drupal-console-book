@@ -4,6 +4,7 @@ The **config:edit** command Edit the selected configuration.
 **Usage:**
 ```
 $ drupal config:edit [arguments] 
+$ cdit  
 ```
 
 ## Available arguments

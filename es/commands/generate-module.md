@@ -4,6 +4,7 @@ El comando **generate:module** Generar a modulo.
 **Uso:**
 ```
 $ drupal generate:module [options] 
+$ gm  
 ```
 
 ## Opciones disponibles

@@ -98,6 +98,9 @@ Drupal Console Command | Details
 [site:mode](site-mode.md) | Switch system performance configuration
 [site:new](site-new.md) | Create a new Drupal project
 [site:status](site-status.md) | View current Drupal Installation status
+**state**  |
+[state:debug](state-debug.md) | Show the current State keys.
+[state:override](state-override.md) | Show the current State keys.
 **test**  |
 [test:debug](test-debug.md) | List Test Units available for the application.
 [test:run](test-run.md) | Run Test unit from tests available for application

@@ -98,6 +98,9 @@ Comando de Drupal Console | Detalles
 [site:mode](site-mode.md) | Cambiar la configuración de rendimiento del sistema
 [site:new](site-new.md) | Crea un nuevo proyecto Drupal
 [site:status](site-status.md) | Ver el estatus de la instalación actual de Drupal
+**state**  |
+[state:debug](state-debug.md) | commands.state.debug.description
+[state:override](state-override.md) | commands.state.debug.description
 **test**  |
 [test:debug](test-debug.md) | Lista los tests unitarios disponibles para la aplicación.
 [test:run](test-run.md) | Ejecuta un test unitario de los disponibles en la aplicación

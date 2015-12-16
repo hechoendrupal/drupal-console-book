@@ -4,6 +4,7 @@ The **generate:entity:content** command Generate a new content entity
 **Usage:**
 ```
 $ drupal generate:entity:content [options] 
+$ gect  
 ```
 
 ## Available options
@@ -13,4 +14,4 @@ Option | Details
 --entity-class | The content entity class
 --entity-name | The content entity name
 --label | The label
---has-bundles | commands.generate.entity.options.has-bundles
+--has-bundles | Entity has bundles

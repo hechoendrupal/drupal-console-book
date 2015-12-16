@@ -4,6 +4,7 @@ El comando **yaml:merge** Combinar uno o más archivos de YAML en un nuevo archi
 **Uso:**
 ```
 $ drupal yaml:merge [arguments] 
+$ ym  
 ```
 
 ## Argumentos disponibles

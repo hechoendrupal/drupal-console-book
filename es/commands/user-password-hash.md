@@ -4,6 +4,7 @@ El comando **user:password:hash** Crea un hash a partir de una contraseña en te
 **Uso:**
 ```
 $ drupal user:password:hash [arguments] 
+$ usph  
 ```
 
 ## Argumentos disponibles

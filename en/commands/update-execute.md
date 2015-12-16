@@ -4,6 +4,7 @@ The **update:execute** command Execute a specific Update N function in a module,
 **Usage:**
 ```
 $ drupal update:execute [arguments] 
+$ upe  
 ```
 
 ## Available arguments

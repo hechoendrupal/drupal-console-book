@@ -4,6 +4,7 @@ The **config:export:content:type** command Export a specific content type and th
 **Usage:**
 ```
 $ drupal config:export:content:type [arguments] [options] 
+$ cect  
 ```
 
 ## Available options

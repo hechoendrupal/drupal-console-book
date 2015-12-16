@@ -4,6 +4,7 @@ El comando **generate:theme** Genera un tema.
 **Uso:**
 ```
 $ drupal generate:theme [options] 
+$ gt  
 ```
 
 ## Opciones disponibles

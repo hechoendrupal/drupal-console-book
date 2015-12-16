@@ -4,6 +4,7 @@ The **yaml:update:value** command Update a value for a specific key in a YAML fi
 **Usage:**
 ```
 $ drupal yaml:update:value [arguments] 
+$ yuv  
 ```
 
 ## Available arguments

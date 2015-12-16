@@ -4,6 +4,7 @@ El comando **generate:authentication:provider** Generar un Proveedor de Autentic
 **Uso:**
 ```
 $ drupal generate:authentication:provider [options] 
+$ gap  
 ```
 
 ## Opciones disponibles

@@ -4,6 +4,7 @@ The **generate:theme** command Generate a theme.
 **Usage:**
 ```
 $ drupal generate:theme [options] 
+$ gt  
 ```
 
 ## Available options
@@ -16,6 +17,6 @@ Option | Details
 --core | Core version
 --package | Theme package
 --global-library | Global styling library name
---base-theme | Base theme (i.e. classy, seven)
+--base-theme | Base theme (i.e. classy, stable)
 --regions | Regions
 --breakpoints | Breakpoints

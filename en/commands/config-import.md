@@ -4,6 +4,7 @@ The **config:import** command Import configuration to current application.
 **Usage:**
 ```
 $ drupal config:import [options] 
+$ ci  
 ```
 
 ## Available options

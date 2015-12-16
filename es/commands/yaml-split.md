@@ -4,6 +4,7 @@ El comando **yaml:split** Divide un archivo YAML usando la indentación como cri
 **Uso:**
 ```
 $ drupal yaml:split [arguments] [options] 
+$ ys  
 ```
 
 ## Opciones disponibles

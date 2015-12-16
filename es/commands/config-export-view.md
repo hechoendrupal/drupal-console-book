@@ -4,6 +4,7 @@ El comando **config:export:view** Exporta una vista en formato YAML dentro de un
 **Uso:**
 ```
 $ drupal config:export:view [arguments] [options] 
+$ cev  
 ```
 
 ## Opciones disponibles

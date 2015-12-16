@@ -4,6 +4,7 @@ The **cache:rebuild** command Rebuild and clear all site caches.
 **Usage:**
 ```
 $ drupal cache:rebuild [arguments] 
+$ cr  
 ```
 
 ## Available arguments

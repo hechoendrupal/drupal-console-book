@@ -4,6 +4,7 @@ El comando **user:password:reset** Restablece la contraseña de un usuario espec
 **Uso:**
 ```
 $ drupal user:password:reset [arguments] 
+$ uspr  
 ```
 
 ## Argumentos disponibles

@@ -4,6 +4,7 @@ The **generate:event:subscriber** command Generate an event subscriber
 **Usage:**
 ```
 $ drupal generate:event:subscriber [options] 
+$ ges  
 ```
 
 ## Available options

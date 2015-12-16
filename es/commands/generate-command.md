@@ -4,6 +4,7 @@ El comando **generate:command** Genera un comando para la consola.
 **Uso:**
 ```
 $ drupal generate:command [options] 
+$ gcm  
 ```
 
 ## Opciones disponibles

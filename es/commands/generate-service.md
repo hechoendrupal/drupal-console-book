@@ -4,6 +4,7 @@ El comando **generate:service** Genera un servicio
 **Uso:**
 ```
 $ drupal generate:service [options] 
+$ gs  
 ```
 
 ## Opciones disponibles

@@ -4,6 +4,7 @@ El comando **cron:execute** Ejecutar implementación de cron desde un módulo es
 **Uso:**
 ```
 $ drupal cron:execute [arguments] 
+$ cre  
 ```
 
 ## Argumentos disponibles

@@ -4,6 +4,7 @@ El comando **config:export:single** Exportar configuración única como archivo 
 **Uso:**
 ```
 $ drupal config:export:single [arguments] [options] 
+$ ces  
 ```
 
 ## Opciones disponibles

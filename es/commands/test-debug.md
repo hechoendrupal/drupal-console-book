@@ -4,6 +4,7 @@ El comando **test:debug** Lista los tests unitarios disponibles para la aplicaci
 **Uso:**
 ```
 $ drupal test:debug [arguments] [options] 
+$ td  
 ```
 
 ## Opciones disponibles

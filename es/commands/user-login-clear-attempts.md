@@ -4,6 +4,7 @@ El comando **user:login:clear:attempts** Limpia intentos de inicio de sesión fa
 **Uso:**
 ```
 $ drupal user:login:clear:attempts [arguments] 
+$ uslca  
 ```
 
 ## Argumentos disponibles

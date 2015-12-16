@@ -4,6 +4,7 @@ El comando **yaml:update:value** Actualiza un valor de una clave específica en 
 **Uso:**
 ```
 $ drupal yaml:update:value [arguments] 
+$ yuv  
 ```
 
 ## Argumentos disponibles

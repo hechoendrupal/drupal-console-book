@@ -4,6 +4,7 @@ El comando **generate:controller** Generar y registrar un controlador
 **Uso:**
 ```
 $ drupal generate:controller [options] 
+$ gcn  
 ```
 
 ## Opciones disponibles

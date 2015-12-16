@@ -79,6 +79,8 @@
   * [site:mode](commands/site-mode.md)
   * [site:new](commands/site-new.md)
   * [site:status](commands/site-status.md)
+  * [state:debug](commands/state-debug.md)
+  * [state:override](commands/state-override.md)
   * [test:debug](commands/test-debug.md)
   * [test:run](commands/test-run.md)
   * [theme:debug](commands/theme-debug.md)

@@ -4,6 +4,7 @@ The **test:debug** command List Test Units available for the application.
 **Usage:**
 ```
 $ drupal test:debug [arguments] [options] 
+$ td  
 ```
 
 ## Available options
