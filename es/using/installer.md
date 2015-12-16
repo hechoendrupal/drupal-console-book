@@ -3,11 +3,11 @@ You can install the Drupal Console locally by running the installer in your proj
 
 ## Using curl:
 ```
-$ curl http://drupalconsole.com/installer -L -o drupal.phar
+$ curl https://drupalconsole.com/installer -L -o drupal.phar
 ```
 ## Or if you don't have curl:
 ```
-$ php -r "readfile('http://drupalconsole.com/installer');" > drupal.phar
+$ php -r "readfile('https://drupalconsole.com/installer');" > drupal.phar
 ```
 
 ## You can now execute using:
