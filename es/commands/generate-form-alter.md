@@ -4,6 +4,7 @@ El comando **generate:form:alter** Genera una implementación de hook_form_alter
 **Uso:**
 ```
 $ drupal generate:form:alter [options] 
+$ gfa  
 ```
 
 ## Opciones disponibles

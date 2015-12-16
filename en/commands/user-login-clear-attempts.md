@@ -4,6 +4,7 @@ The **user:login:clear:attempts** command Clear login failed attempts for an acc
 **Usage:**
 ```
 $ drupal user:login:clear:attempts [arguments] 
+$ uslca  
 ```
 
 ## Available arguments

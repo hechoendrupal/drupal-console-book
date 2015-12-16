@@ -4,6 +4,7 @@ The **theme:debug** command Displays current themes for the application
 **Usage:**
 ```
 $ drupal theme:debug [arguments] 
+$ tde  
 ```
 
 ## Available arguments

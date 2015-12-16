@@ -4,6 +4,7 @@ The **rest:disable** command Disable a rest resource for the application
 **Usage:**
 ```
 $ drupal rest:disable [arguments] 
+$ redi  
 ```
 
 ## Available arguments

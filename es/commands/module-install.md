@@ -14,4 +14,4 @@ Opción | Detalles
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-module | Separe con una coma el módulo o módulos que vayan a ser activados
+module | Separe con un espacio el módulo o módulos que vayan a ser activados

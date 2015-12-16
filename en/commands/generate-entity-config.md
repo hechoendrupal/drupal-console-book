@@ -4,6 +4,7 @@ The **generate:entity:config** command Generate a new config entity
 **Usage:**
 ```
 $ drupal generate:entity:config [options] 
+$ gecg  
 ```
 
 ## Available options
@@ -13,4 +14,4 @@ Option | Details
 --entity-class | The config entity class
 --entity-name | The config entity name
 --label | The label
---bundle-of | commands.generate.entity.options.bundle-of
+--bundle-of | Acts as bundle for content entities

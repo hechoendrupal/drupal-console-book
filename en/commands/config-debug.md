@@ -4,6 +4,7 @@ The **config:debug** command Show the current configuration.
 **Usage:**
 ```
 $ drupal config:debug [arguments] 
+$ cde  
 ```
 
 ## Available arguments

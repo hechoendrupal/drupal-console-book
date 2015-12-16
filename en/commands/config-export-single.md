@@ -4,6 +4,7 @@ The **config:export:single** command Export single configuration as yml file.
 **Usage:**
 ```
 $ drupal config:export:single [arguments] [options] 
+$ ces  
 ```
 
 ## Available options

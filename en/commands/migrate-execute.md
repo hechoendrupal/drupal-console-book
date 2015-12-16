@@ -4,6 +4,7 @@ The **migrate:execute** command Execute a migration available for application
 **Usage:**
 ```
 $ drupal migrate:execute [arguments] [options] 
+$ mie  
 ```
 
 ## Available options

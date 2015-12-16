@@ -4,6 +4,7 @@ El comando **site:install** Instala un proyecto Drupal
 **Uso:**
 ```
 $ drupal site:install [arguments] [options] 
+$ si  
 ```
 
 ## Opciones disponibles

@@ -4,6 +4,7 @@ The **site:new** command Create a new Drupal project
 **Usage:**
 ```
 $ drupal site:new [arguments] 
+$ sn  
 ```
 
 ## Available arguments

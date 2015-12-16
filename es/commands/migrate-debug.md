@@ -4,6 +4,7 @@ El comando **migrate:debug** Muestra la migración actual disponible para la apl
 **Uso:**
 ```
 $ drupal migrate:debug [arguments] 
+$ mid  
 ```
 
 ## Argumentos disponibles

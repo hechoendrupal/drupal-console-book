@@ -4,6 +4,7 @@ El comando **rest:debug** Muestra el actual recurso rest para la aplicación
 **Uso:**
 ```
 $ drupal rest:debug [arguments] [options] 
+$ rede  
 ```
 
 ## Opciones disponibles

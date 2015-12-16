@@ -4,6 +4,7 @@ The **generate:authentication:provider** command Generate an Authentication Prov
 **Usage:**
 ```
 $ drupal generate:authentication:provider [options] 
+$ gap  
 ```
 
 ## Available options

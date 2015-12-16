@@ -4,6 +4,7 @@ The **theme:download** command Download theme in application
 **Usage:**
 ```
 $ drupal theme:download [arguments] 
+$ td  
 ```
 
 ## Available arguments

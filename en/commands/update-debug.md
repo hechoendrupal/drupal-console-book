@@ -4,4 +4,5 @@ The **update:debug** command Display current updates available for the applicati
 **Usage:**
 ```
 $ drupal update:debug 
+$ upd  
 ```

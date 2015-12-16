@@ -4,6 +4,7 @@ The **theme:install** command Install theme or themes in the application
 **Usage:**
 ```
 $ drupal theme:install [arguments] [options] 
+$ ti  
 ```
 
 ## Available options

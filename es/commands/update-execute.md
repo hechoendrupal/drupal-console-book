@@ -4,6 +4,7 @@ El comando **update:execute** Ejecuta una función específica de Actualizar N d
 **Uso:**
 ```
 $ drupal update:execute [arguments] 
+$ upe  
 ```
 
 ## Argumentos disponibles

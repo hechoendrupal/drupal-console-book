@@ -4,6 +4,7 @@ The **generate:plugin:block** command Generate a plugin block
 **Usage:**
 ```
 $ drupal generate:plugin:block [options] 
+$ gpb  
 ```
 
 ## Available options

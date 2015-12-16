@@ -4,6 +4,7 @@ El comando **config:import** Importa la configuración del estado actual de la a
 **Uso:**
 ```
 $ drupal config:import [options] 
+$ ci  
 ```
 
 ## Opciones disponibles

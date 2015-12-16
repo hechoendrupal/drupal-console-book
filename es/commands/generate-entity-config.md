@@ -4,6 +4,7 @@ El comando **generate:entity:config** Generar una nueva entidad de configuració
 **Uso:**
 ```
 $ drupal generate:entity:config [options] 
+$ gecg  
 ```
 
 ## Opciones disponibles
@@ -13,4 +14,4 @@ Opción | Detalles
 --entity-class | Clase de la entidad de configuración
 --entity-name | Nombre de la entidad de configuración
 --label | Etiqueta
---bundle-of | commands.generate.entity.options.bundle-of
+--bundle-of | Actua como un bundle de entidades de contenido

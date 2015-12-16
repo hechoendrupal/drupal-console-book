@@ -4,6 +4,7 @@ The **cron:execute** command Execute cron implementations by module or execute a
 **Usage:**
 ```
 $ drupal cron:execute [arguments] 
+$ cre  
 ```
 
 ## Available arguments

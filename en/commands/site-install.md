@@ -4,6 +4,7 @@ The **site:install** command Install a Drupal project
 **Usage:**
 ```
 $ drupal site:install [arguments] [options] 
+$ si  
 ```
 
 ## Available options

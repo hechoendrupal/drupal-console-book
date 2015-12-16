@@ -4,6 +4,7 @@ The **views:disable** command Disable a View
 **Usage:**
 ```
 $ drupal views:disable [arguments] 
+$ vdi  
 ```
 
 ## Available arguments

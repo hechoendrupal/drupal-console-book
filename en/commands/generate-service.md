@@ -4,6 +4,7 @@ The **generate:service** command Generate service
 **Usage:**
 ```
 $ drupal generate:service [options] 
+$ gs  
 ```
 
 ## Available options

@@ -4,6 +4,7 @@ El comando **test:run** Ejecuta un test unitario de los disponibles en la aplica
 **Uso:**
 ```
 $ drupal test:run [arguments] [options] 
+$ tr  
 ```
 
 ## Opciones disponibles

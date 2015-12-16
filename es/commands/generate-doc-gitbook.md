@@ -3,7 +3,8 @@ El comando **generate:doc:gitbook** Generar documentaciones para Comandos
 
 **Uso:**
 ```
-$ drupal generate:doc:gitbook [arguments] [options] 
+$ drupal generate:doc:gitbook [options] 
+$ gdg  
 ```
 
 ## Opciones disponibles

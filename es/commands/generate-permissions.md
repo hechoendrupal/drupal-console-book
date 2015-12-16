@@ -4,6 +4,7 @@ El comando **generate:permissions** Genera los permisos del módulo
 **Uso:**
 ```
 $ drupal generate:permissions [options] 
+$ gp  
 ```
 
 ## Opciones disponibles

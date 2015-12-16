@@ -4,6 +4,7 @@ The **generate:controller** command Generate & Register a controller
 **Usage:**
 ```
 $ drupal generate:controller [options] 
+$ gcn  
 ```
 
 ## Available options

@@ -4,6 +4,7 @@ The **site:debug** command List all known local and remote sites.
 **Usage:**
 ```
 $ drupal site:debug [arguments] 
+$ sd  
 ```
 
 ## Available arguments

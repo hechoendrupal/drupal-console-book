@@ -4,6 +4,7 @@ El comando **generate:event:subscriber** Genera un suscriptor de eventos
 **Uso:**
 ```
 $ drupal generate:event:subscriber [options] 
+$ ges  
 ```
 
 ## Opciones disponibles

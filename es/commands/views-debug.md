@@ -4,6 +4,7 @@ El comando **views:debug** Muestra los recursos actuales de vistas para la aplic
 **Uso:**
 ```
 $ drupal views:debug [arguments] [options] 
+$ vde  
 ```
 
 ## Opciones disponibles

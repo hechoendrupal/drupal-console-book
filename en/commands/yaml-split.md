@@ -4,6 +4,7 @@ The **yaml:split** command Split a YAML file using indent as separator criteria
 **Usage:**
 ```
 $ drupal yaml:split [arguments] [options] 
+$ ys  
 ```
 
 ## Available options
