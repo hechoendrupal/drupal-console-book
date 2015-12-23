@@ -1,7 +1,12 @@
 # How to use Drupal Console in a remote site installation
 
 Drupal Console allows you to run commands on your local server but actually execute them on a remote server.
- 
+
+You can take advantage of this feature, using the `--target` option and passing the remote site name you want to interact with.  
+```
+$ drupal --target=sample.dev cr all
+```
+
 Setting up your local computer to use a remote site requires a little configuration.
 
 ### Edit global configuration 
