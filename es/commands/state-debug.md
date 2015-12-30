@@ -1,5 +1,5 @@
 # state:debug
-El comando **state:debug** commands.state.debug.description
+El comando **state:debug** Muestra las claves de Estado actual.
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal state:debug [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-key | commands.state.debug.arguments.key
+key | La clave de Estado para debuguear.

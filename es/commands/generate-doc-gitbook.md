@@ -11,3 +11,4 @@ $ gdg
 Opción | Detalles
 -------|-------------
 --path | La ruta donde exportar la documentación
+

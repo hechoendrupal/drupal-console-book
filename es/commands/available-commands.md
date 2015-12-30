@@ -6,12 +6,10 @@ Comando de Drupal Console | Detalles
 ------------ | -------------
 [about](about.md) | Muestra información básica sobre el proyecto Drupal Console
 [chain](chain.md) | Ejecución de comandos en secuencia
-[drush](drush.md) | Ejecutar Drush desde la consola.
 [help](help.md) | Displays help for a command
 [init](init.md) | Copiar archivos de configuración al directorio home del usuario.
 [list](list.md) | Enlista comandos
-[self-update](self-update.md) | Actualiza la consola a la última versión.
-[server](server.md) | Runs PHP built-in web server
+[server](server.md) | Lanza el servidor web PHP interno
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
 **config**  |
@@ -26,6 +24,9 @@ Comando de Drupal Console | Detalles
 [config:override](config-override.md) | Sobreescribir valor de la configuración activa.
 **container**  |
 [container:debug](container-debug.md) | Muestra los servicios actuales de la aplicación.
+**create**  |
+[create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
+[create:terms](create-terms.md) | Create dummy terms for your Drupal 8 application.
 **cron**  |
 [cron:debug](cron-debug.md) | Listado de módulos que implementan una llamada al cron
 [cron:execute](cron-execute.md) | Ejecutar implementación de cron desde un módulo específico o todos para ejecutar todas las implementaciones
@@ -99,8 +100,8 @@ Comando de Drupal Console | Detalles
 [site:new](site-new.md) | Crea un nuevo proyecto Drupal
 [site:status](site-status.md) | Ver el estatus de la instalación actual de Drupal
 **state**  |
-[state:debug](state-debug.md) | commands.state.debug.description
-[state:override](state-override.md) | commands.state.debug.description
+[state:debug](state-debug.md) | Muestra las claves de Estado actual.
+[state:override](state-override.md) | Muestra las claves de Estado actual.
 **test**  |
 [test:debug](test-debug.md) | Lista los tests unitarios disponibles para la aplicación.
 [test:run](test-run.md) | Ejecuta un test unitario de los disponibles en la aplicación
