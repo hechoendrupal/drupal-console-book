@@ -6,11 +6,9 @@ Drupal Console Command | Details
 ------------ | -------------
 [about](about.md) | Display basic information about Drupal Console project
 [chain](chain.md) | Chain command execution
-[drush](drush.md) | Run drush from console.
 [help](help.md) | Displays help for a command
 [init](init.md) | Copy configuration files to user home directory.
 [list](list.md) | Lists all available commands
-[self-update](self-update.md) | Update project to the latest version.
 [server](server.md) | Runs PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Rebuild and clear all site caches.
@@ -26,6 +24,9 @@ Drupal Console Command | Details
 [config:override](config-override.md) | Override config value in active configuration.
 **container**  |
 [container:debug](container-debug.md) | Displays current services for an application.
+**create**  |
+[create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
+[create:terms](create-terms.md) | Create dummy terms for your Drupal 8 application.
 **cron**  |
 [cron:debug](cron-debug.md) | List of modules implementing a cron
 [cron:execute](cron-execute.md) | Execute cron implementations by module or execute all crons
