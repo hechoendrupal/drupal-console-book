@@ -1,12 +1,12 @@
 # module:uninstall
 The **module:uninstall** command अनुप्रयोग में मॉड्यूल की स्थापित रद्द करें |
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal module:uninstall [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 module | रद्द किए जाने मॉड्यूल को अल्पवीराम से अलग करें |

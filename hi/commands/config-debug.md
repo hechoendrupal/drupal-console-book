@@ -1,13 +1,13 @@
 # config:debug
 The **config:debug** command वर्तमान व्यवस्था को दिखाएँ।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal config:debug [arguments] 
 $ cde  
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 config-name | व्यवस्था नाम।

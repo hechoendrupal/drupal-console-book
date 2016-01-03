@@ -1,13 +1,13 @@
 # generate:form
 The **generate:form** command एक नया FormBase उत्पन्न करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:form [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | फॉर्म क्लास का नाम

@@ -1,13 +1,13 @@
 # generate:plugin:fieldwidget
 The **generate:plugin:fieldwidget** command खाना विजेट प्लगिन उत्पन्न करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:plugin:fieldwidget [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | प्लगिन का क्लास नाम

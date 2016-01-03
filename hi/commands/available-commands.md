@@ -1,8 +1,8 @@
-# Available Drupal Console Commands
+# उपलब्ध Drupal कंसोल कमाण्डें
 
-**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
+**नोट:** Drupal कंसोल कमाण्डें Drupal 8 के स्थापना रूट से चलायी जाए.
 
-Drupal Console Command | Details
+Drupal कंसोल कमाण्ड | विवरण
 ------------ | -------------
 [about](about.md) | Drupal कंसोल परियोजना के बारे मे प्रारंभिक जानकारी दिखाएँ
 [chain](chain.md) | कमाण्डो को श्रंखला में चलायें।
@@ -44,8 +44,8 @@ Drupal Console Command | Details
 [generate:authentication:provider](generate-authentication-provider.md) | प्रमाणन प्रदाता उत्पन्न करें
 [generate:command](generate-command.md) | कंसोल के लिए कमाण्डो को उत्पन्न करें।
 [generate:controller](generate-controller.md) | एक कंट्रोलर को उत्पन्न और पंजीकृत करें
-[generate:doc:dash](generate-doc-dash.md) | Generate the DrupalConsole.docset package for Dash
-[generate:doc:gitbook](generate-doc-gitbook.md) | Generate documentations for Commands
+[generate:doc:dash](generate-doc-dash.md) | डैश के लिए  DrupalConsole.docset पैकेज उत्पन्न करें
+[generate:doc:gitbook](generate-doc-gitbook.md) | कमाण्डो के लिए प्रलेखन उत्पन्न करें
 [generate:entity:bundle](generate-entity-bundle.md) | एक नया कंटेंट प्रकार उत्पन्न करें (नोड/एंटिटी बंडल)
 [generate:entity:config](generate-entity-config.md) | Generate a new config entity
 [generate:entity:content](generate-entity-content.md) | Generate a new content entity
@@ -117,7 +117,7 @@ Drupal Console Command | Details
 [update:execute](update-execute.md) | मोड्यूल के किसी विशेष नवीनीकरण N फंक्शन को चलायें या सभी को चलायें।
 **user**  |
 [user:debug](user-debug.md) | Displays current users for the application
-[user:delete](user-delete.md) | commands.user.delete.description
+[user:delete](user-delete.md) | Delete users for the application
 [user:login:clear:attempts](user-login-clear-attempts.md) | किसी अकाउंट की असफल लोगिन प्रयासो को साफ़ करें।
 [user:login:url](user-login-url.md) | एक बार काम करने वाली उपभोग्ता लोगिन URL देता है।
 [user:password:hash](user-password-hash.md) | सरल कूटशब्द से हैश उत्पन्न करें।
@@ -133,8 +133,8 @@ Drupal Console Command | Details
 [yaml:update:key](yaml-update-key.md) | YAML फाइल में YAML कुंजी को बदले।
 [yaml:update:value](yaml-update-value.md) | YAML फाइल में किसी विशेष कुंजी के निधि को अवगत करें।
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --help | इस सहायता संदेश को दिखाएँ
 --quiet | कोई संदेश ना दिखाएँ
@@ -153,7 +153,7 @@ Option | Details
 --target | application.console.arguments.target
 --uri | URI of the Drupal site to use (for multisite environments or when running on an alternate port)
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 command | चलने वाली कमाण्ड

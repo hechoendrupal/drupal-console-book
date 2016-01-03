@@ -1,13 +1,13 @@
 # generate:plugin:type:annotation
 The **generate:plugin:type:annotation** command प्लगिन प्रकार युक्त अननोटेशन प्रकाशन उत्पन्न करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:plugin:type:annotation [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | प्लगिन प्रकार क्लास नाम

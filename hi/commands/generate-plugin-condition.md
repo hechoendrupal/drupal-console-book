@@ -1,13 +1,13 @@
 # generate:plugin:condition
 The **generate:plugin:condition** command प्लगिन नियम उत्पन्न करें।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:plugin:condition [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | प्लगिन नियम क्लास नाम

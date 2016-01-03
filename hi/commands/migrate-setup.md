@@ -1,13 +1,13 @@
 # migrate:setup
 The **migrate:setup** command विरासत डेटाबेस के लिए प्रासंगिक माइग्रेशन बनायें और लोड करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal migrate:setup [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --db-type | Drupal डेटाबेस प्रकार
 --db-host | मेजबान डेटाबेस

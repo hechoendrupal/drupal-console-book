@@ -1,18 +1,18 @@
 # test:debug
 The **test:debug** command अनुप्रयोग की सारी उपलब्ध परिक्षण यूनिटो को दिखाएँ।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal test:debug [arguments] [options] 
 $ td  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --group | Group
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 test-class | परिक्षण क्लास

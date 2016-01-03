@@ -1,13 +1,13 @@
 # views:enable
 The **views:enable** command एक व्यू चालू करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal views:enable [arguments] 
 $ ve  
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 view-id | View ID

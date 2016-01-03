@@ -1,13 +1,17 @@
 # user:delete
-The **user:delete** command commands.user.delete.description
+The **user:delete** command Delete users for the application
 
-**Usage:**
+**प्रयोग:**
 ```
-$ drupal user:delete [arguments] 
+$ drupal user:delete [arguments] [options] 
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
+-------|-------------
+--roles | commands.user.debug.options.roles
+
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
-user-id | commands.user.delete.arguments.user-id
-roles | commands.user.delete.arguments.roles
+user-id | User id to be deleted

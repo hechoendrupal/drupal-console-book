@@ -1,7 +1,7 @@
 # cron:debug
 The **cron:debug** command क्रॉन लागू करने वाले मोड्यूलों की सूचि
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal cron:debug 
 ```

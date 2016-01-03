@@ -1,13 +1,13 @@
 # generate:plugin:rest:resource
 The **generate:plugin:rest:resource** command प्लगिन रेस्ट साधन उत्पन्न करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:plugin:rest:resource [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | प्लगिन रेस्ट साधन क्लास

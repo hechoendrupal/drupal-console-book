@@ -1,14 +1,14 @@
 # migrate:execute
 The **migrate:execute** command अनुप्रयोग के उपलब्ध प्रवसन को चलाएं
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal migrate:execute [arguments] [options] 
 $ mie  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --site-url | साइट स्रोत URL
 --db-type | commands.migrate.setup.migrations.options.db-type
@@ -20,7 +20,7 @@ Option | Details
 --db-port | डेटाबेस पोर्ट
 --exclude | वर्जित किये गए प्रवसन क्रमांक
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 migration-ids | प्रवसन क्रमांक

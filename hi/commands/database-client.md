@@ -1,12 +1,12 @@
 # database:client
 The **database:client** command Launch a DB client if it's available
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal database:client [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 database | Database key from settings.php

@@ -1,18 +1,18 @@
 # config:export:single
 The **config:export:single** command एक व्यवस्था को yml फाइल के जैसे निर्यात करें।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal config:export:single [arguments] [options] 
 $ ces  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --directory | Define export directory to save configuration output.
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 config-name | व्यवस्था का नाम।

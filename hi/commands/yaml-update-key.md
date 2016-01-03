@@ -1,14 +1,14 @@
 # yaml:update:key
 The **yaml:update:key** command YAML फाइल में YAML कुंजी को बदले।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal yaml:update:key [arguments] 
 $ yu  
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 yaml-file | Path of YAML file to update
 yaml-key | YAML key to update

@@ -1,19 +1,19 @@
 # create:nodes
 The **create:nodes** command Create dummy nodes for your Drupal 8 application.
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal create:nodes [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --limit | commands.create.nodes.arguments.limit
 --title-words | commands.create.nodes.arguments.title-words
 --time-range | commands.create.nodes.arguments.time-range
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 content-types | Content type(s) to be used in node creation

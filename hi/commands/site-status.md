@@ -1,13 +1,13 @@
 # site:status
 The **site:status** command वर्तमान Drupal स्थापना के स्थिति को देखें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal site:status [options] 
 $ ss  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --format | commands.site.status.options.format
