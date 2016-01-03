@@ -1,14 +1,14 @@
 # generate:entity:bundle
 The **generate:entity:bundle** command एक नया कंटेंट प्रकार उत्पन्न करें (नोड/एंटिटी बंडल)
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:entity:bundle [options] 
 $ geb  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --bundle-name | कंटेंट प्रकार का यांत्रिक नाम

@@ -1,14 +1,14 @@
 # generate:theme
 The **generate:theme** command एक नया थीम उत्पन्न करें।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:theme [options] 
 $ gt  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --theme | commands.generate.theme.options.module
 --machine-name | यांत्रिक नाम (लोअरकेस और केवल अंडरस्कोर)

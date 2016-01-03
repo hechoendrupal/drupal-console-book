@@ -1,14 +1,14 @@
 # generate:event:subscriber
 The **generate:event:subscriber** command एक घटना ग्राहक उत्पन्न करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:event:subscriber [options] 
 $ ges  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --name | commands.generate.service.options.name

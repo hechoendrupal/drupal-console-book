@@ -1,14 +1,14 @@
 # generate:service
 The **generate:service** command सर्विस उत्पन्न करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:service [options] 
 $ gs  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --name | commands.generate.service.options.name

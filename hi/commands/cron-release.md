@@ -1,7 +1,7 @@
 # cron:release
 The **cron:release** command क्रॉन चलाने के लिए क्रॉन प्रणाली का लॉक को मुक्त करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal cron:release 
 $ crr  

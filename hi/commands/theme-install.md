@@ -1,18 +1,18 @@
 # theme:install
 The **theme:install** command Install theme or themes in the application
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal theme:install [arguments] [options] 
 $ ti  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --set-default | Set theme as default theme
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 theme | commands.theme.install.options.module

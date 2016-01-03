@@ -1,13 +1,13 @@
 # config:override
 The **config:override** command व्यवस्था निधि को सक्रिय डायरेक्टरी में चढ़ा दें।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal config:override [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 config-name | व्यवस्था का नाम।
 key | कुंजी

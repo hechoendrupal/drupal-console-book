@@ -1,12 +1,12 @@
 # chain
 The **chain** command कमाण्डो को श्रंखला में चलायें।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal chain [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --file | कमाण्ड युक्त उपभोक्ता परिभाषित फ़ाइल चलाने करने के लिए।

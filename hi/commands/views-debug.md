@@ -1,19 +1,19 @@
 # views:debug
 The **views:debug** command अनुप्रयोग के वर्तमान व्यूज साधनो को दिखाएँ
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal views:debug [arguments] [options] 
 $ vde  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --tag | View tag
 --status | View status (Enabled|Disabled)
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 view-id | View ID

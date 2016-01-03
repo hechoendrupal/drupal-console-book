@@ -1,13 +1,13 @@
 # views:disable
 The **views:disable** command एक व्यू बंद करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal views:disable [arguments] 
 $ vdi  
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 view-id | View ID

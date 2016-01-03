@@ -1,13 +1,13 @@
 # site:maintenance
 The **site:maintenance** command साइट को अनुरक्षरण विधि में बदले
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal site:maintenance [arguments] 
 $ sma  
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 mode | साइट अनुरक्षरण विधि[on/off]

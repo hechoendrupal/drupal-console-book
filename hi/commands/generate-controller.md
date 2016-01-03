@@ -1,14 +1,14 @@
 # generate:controller
 The **generate:controller** command एक कंट्रोलर को उत्पन्न और पंजीकृत करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:controller [options] 
 $ gcn  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | कंट्रोलर क्लास का नाम

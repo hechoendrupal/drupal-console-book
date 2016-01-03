@@ -1,17 +1,17 @@
 # server
 The **server** command Runs PHP built-in web server
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal server [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 address | The address:port values
 
-## Examples
+## उदाहरण
 * Run using default address argument value 127.0.0.1.8088
 ```
 $ drupal server

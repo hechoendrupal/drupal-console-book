@@ -1,13 +1,13 @@
 # database:log:debug
 The **database:log:debug** command Display current log events for the application
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal database:log:debug [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --type | Filter events by a specific type
 --severity | Filter events by a specific level of severity
@@ -16,7 +16,7 @@ Option | Details
 --limit | Limit results to a specific number
 --offset | Starting point of a limit
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 event-id | DBLog event ID

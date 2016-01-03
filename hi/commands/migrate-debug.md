@@ -1,13 +1,13 @@
 # migrate:debug
 The **migrate:debug** command अनुप्रयोग के मौजूदा प्रवसन को दिखाएँ
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal migrate:debug [arguments] 
 $ mid  
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 tag | माइग्रेट टैग

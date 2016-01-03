@@ -1,18 +1,18 @@
 # cache:rebuild
 The **cache:rebuild** command सभी साइट caches को पुनर्निर्माण और साफ़ करें।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal cache:rebuild [arguments] 
 $ cr  
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 cache | केवल एक विशेष cache साफ़ करें।
 
-## Examples
+## उदाहरण
 * Rebuild all caches
 ```
 $ drupal cr all

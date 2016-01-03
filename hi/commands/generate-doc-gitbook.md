@@ -1,16 +1,16 @@
 # generate:doc:gitbook
-The **generate:doc:gitbook** command Generate documentations for Commands
+The **generate:doc:gitbook** command कमाण्डो के लिए प्रलेखन उत्पन्न करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:doc:gitbook [arguments] [options] 
 $ gdg  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
---path | The path to render the documentation
+--path | प्रलेखन को  प्रस्तुत करने के लिए पथ
 --help | इस सहायता संदेश को दिखाएँ
 --quiet | कोई संदेश ना दिखाएँ
 --verbose | संदेशों के शब्दाडंबर को बढ़ाएं: सामान्य निर्गम के लिए १, अधिक शब्दबहुल के लिए २ और डिबग के लिए ३
@@ -28,7 +28,7 @@ Option | Details
 --target | application.console.arguments.target
 --uri | URI of the Drupal site to use (for multisite environments or when running on an alternate port)
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 command | चलने वाली कमाण्ड

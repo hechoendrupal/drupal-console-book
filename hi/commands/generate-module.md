@@ -1,14 +1,14 @@
 # generate:module
 The **generate:module** command मोड्यूल उत्पन्न करें।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:module [options] 
 $ gm  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम
 --machine-name | यांत्रिक नाम (लोअरकेस और केवल अंडरस्कोर)

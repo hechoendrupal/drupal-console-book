@@ -1,13 +1,13 @@
 # generate:form:config
 The **generate:form:config** command एक नया ConfigFormBase उत्पन्न करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:form:config [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | फॉर्म क्लास का नाम

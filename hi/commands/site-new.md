@@ -1,14 +1,14 @@
 # site:new
 The **site:new** command एक नया Drupal परियोजना बनाएँ
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal site:new [arguments] 
 $ sn  
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 site-name | Site name
 version | किसी विशेष Drupal के संस्करण को डाउनलोड करें

@@ -1,13 +1,13 @@
 # generate:profile
 The **generate:profile** command Generate a profile.
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:profile [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --profile | The profile name
 --machine-name | The machine name (lowercase and underscore only)

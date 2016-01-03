@@ -1,13 +1,13 @@
 # user:login:url
 The **user:login:url** command एक बार काम करने वाली उपभोग्ता लोगिन URL देता है।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal user:login:url [arguments] 
 $ uslu  
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध तर्कों  
+तर्क | विवरण
 ---------|-------------
 user-id | User ID.

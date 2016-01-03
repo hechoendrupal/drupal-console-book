@@ -1,13 +1,13 @@
 # generate:plugin:imageeffect
 The **generate:plugin:imageeffect** command छवि प्रभाव प्लगिन उत्पन्न करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:plugin:imageeffect [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | प्लगिन का क्लास नाम

@@ -1,14 +1,14 @@
 # generate:command
 The **generate:command** command कंसोल के लिए कमाण्डो को उत्पन्न करें।
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:command [options] 
 $ gcm  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | कमाण्ड क्लास का नाम

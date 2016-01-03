@@ -1,14 +1,14 @@
 # generate:permissions
 The **generate:permissions** command मोड्यूल अनुमतियां उत्पन्न करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:permissions [options] 
 $ gp  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --permissions | अनुमतियों को बनाएँ।

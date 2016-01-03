@@ -1,14 +1,14 @@
 # generate:entity:content
 The **generate:entity:content** command Generate a new content entity
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal generate:entity:content [options] 
 $ gect  
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
 --entity-class | The content entity class
