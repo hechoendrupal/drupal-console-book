@@ -1,5 +1,5 @@
 # database:restore
-The **database:restore** command Restore structure and contents of MySQL databases and tables
+The **database:restore** command Restore structure and contents of a database.
 
 **Usage:**
 ```

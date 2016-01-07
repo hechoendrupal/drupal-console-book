@@ -27,17 +27,21 @@ Drupal Console Command | Details
 **create**  |
 [create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
 [create:terms](create-terms.md) | Create dummy terms for your Drupal 8 application.
+[create:users](create-users.md) | Create dummy vocabularies for your Drupal 8 application.
+[create:vocabularies](create-vocabularies.md) | Create dummy vocabularies for your Drupal 8 application.
 **cron**  |
 [cron:debug](cron-debug.md) | List of modules implementing a cron
 [cron:execute](cron-execute.md) | Execute cron implementations by module or execute all crons
 [cron:release](cron-release.md) | Release cron system lock to run cron again
 **database**  |
 [database:client](database-client.md) | Launch a DB client if it's available
-[database:connect](database-connect.md) | Launch a DB client if it's available
-[database:dump](database-dump.md) | Dump structure and contents of MySQL databases and tables
+[database:connect](database-connect.md) | Shows DB connection
+[database:dump](database-dump.md) | Dump structure and contents of a database
 [database:log:clear](database-log-clear.md) | Remove events from DBLog table, filters are available
 [database:log:debug](database-log-debug.md) | Display current log events for the application
-[database:restore](database-restore.md) | Restore structure and contents of MySQL databases and tables
+[database:restore](database-restore.md) | Restore structure and contents of a database.
+[database:table:debug](database-table-debug.md) | Show all tables in a given database.
+[database:table:drop](database-table-drop.md) | Drop all tables in a given database.
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
 [generate:command](generate-command.md) | Generate commands for the console.
@@ -114,6 +118,8 @@ Drupal Console Command | Details
 [update:debug](update-debug.md) | Display current updates available for the application
 [update:execute](update-execute.md) | Execute a specific Update N function in a module, or execute all
 **user**  |
+[user:debug](user-debug.md) | Displays current users for the application
+[user:delete](user-delete.md) | Delete users for the application
 [user:login:clear:attempts](user-login-clear-attempts.md) | Clear login failed attempts for an account.
 [user:login:url](user-login-url.md) | Returns a one-time user login url.
 [user:password:hash](user-password-hash.md) | Generate a hash from a plaintext password.
