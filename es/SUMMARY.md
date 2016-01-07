@@ -7,11 +7,17 @@
   * [¿Cómo ayuda la Drupal Consola?](about/how-does-drupal-console-help.md)
   * [¿Dónde encuentro el proyecto?](about/where-do-i-find-the-project.md)
 
-* [Usando la Drupal Console](using/project.md)
-  * [Usando el Instalador](using/installer.md)
-  * [Usando Composer](using/composer.md)
-  * [Descaragno el archivo phar](using/download.md)
-  * [Actualizar la Drupal Console](using/update.md)
+* [Obteniendo el proyecto](getting/project.md)
+  * [Utilizando el Instalador](getting/installer.md)
+  * [Utilizando Composer](getting/composer.md)
+  * [Descaragno el archivo phar](getting/download.md)
+  * [Actualizar la Drupal Console](getting/update.md)
+
+* [Using the project](using/project.md)
+  * [How to copy configuration files](using/how-to-copy-configuration-files.md)
+  * [How to download, install and serve Drupal 8](using/how-to-download-install-and-serve-drupal8.md)
+  * [How to use Drupal Console in a multi-site installation](using/how-to-use-drupal-console-in-a-multisite-installation.md)
+  * [How to use Drupal Console in a remote installation](using/how-to-use-drupal-console-in-a-remote-installation.md)
 
 * [Comandos disponibles](commands/available-commands.md)
   {% include "./commands/available-commands-list.md" %}
