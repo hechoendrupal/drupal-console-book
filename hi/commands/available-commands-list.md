@@ -28,6 +28,8 @@
   * [database:log:clear](commands/database-log-clear.md)
   * [database:log:debug](commands/database-log-debug.md)
   * [database:restore](commands/database-restore.md)
+  * [database:table:debug](commands/database-table-debug.md)
+  * [database:table:drop](commands/database-table-drop.md)
   * [generate:authentication:provider](commands/generate-authentication-provider.md)
   * [generate:command](commands/generate-command.md)
   * [generate:controller](commands/generate-controller.md)

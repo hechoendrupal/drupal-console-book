@@ -40,6 +40,8 @@ Drupal कंसोल कमाण्ड | विवरण
 [database:log:clear](database-log-clear.md) | Remove events from DBLog table, filters are available
 [database:log:debug](database-log-debug.md) | Display current log events for the application
 [database:restore](database-restore.md) | Restore structure and contents of MySQL databases and tables
+[database:table:debug](database-table-debug.md) | commands.database.table.debug.description
+[database:table:drop](database-table-drop.md) | commands.database.table.drop.description
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | प्रमाणन प्रदाता उत्पन्न करें
 [generate:command](generate-command.md) | कंसोल के लिए कमाण्डो को उत्पन्न करें।
