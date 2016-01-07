@@ -27,6 +27,8 @@ Comando de Drupal Console | Detalles
 **create**  |
 [create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
 [create:terms](create-terms.md) | Create dummy terms for your Drupal 8 application.
+[create:users](create-users.md) | Create dummy vocabularies for your Drupal 8 application.
+[create:vocabularies](create-vocabularies.md) | Create dummy vocabularies for your Drupal 8 application.
 **cron**  |
 [cron:debug](cron-debug.md) | Listado de módulos que implementan una llamada al cron
 [cron:execute](cron-execute.md) | Ejecutar implementación de cron desde un módulo específico o todos para ejecutar todas las implementaciones
@@ -38,6 +40,8 @@ Comando de Drupal Console | Detalles
 [database:log:clear](database-log-clear.md) | Eliminar eventos de la tabla DBLog, filtros disponibles
 [database:log:debug](database-log-debug.md) | Desplegar eventos registrados al momento para la aplicación
 [database:restore](database-restore.md) | Restaurar la estructura y los contenidos de bases de datos y tablas MySQL
+[database:table:debug](database-table-debug.md) | commands.database.table.debug.description
+[database:table:drop](database-table-drop.md) | commands.database.table.drop.description
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generar un Proveedor de Autenticación
 [generate:command](generate-command.md) | Genera un comando para la consola.
@@ -114,6 +118,8 @@ Comando de Drupal Console | Detalles
 [update:debug](update-debug.md) | Muestra las actualizaciones actualmente disponibles para la aplicación
 [update:execute](update-execute.md) | Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos
 **user**  |
+[user:debug](user-debug.md) | Displays current users for the application
+[user:delete](user-delete.md) | Delete users for the application
 [user:login:clear:attempts](user-login-clear-attempts.md) | Limpia intentos de inicio de sesión fallidos para una cuenta.
 [user:login:url](user-login-url.md) | Crea una url de login de usuario de uso único.
 [user:password:hash](user-password-hash.md) | Crea un hash a partir de una contraseña en texto plano.
