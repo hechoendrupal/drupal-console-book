@@ -13,5 +13,5 @@ $ echo "PATH=$PATH:~/.composer/vendor/bin" >> ~/.bash_profile
 
 ## Ahora executa console usando:
 ```
-$ console generate:module
+$ drupal generate:module
 ```
