@@ -1,5 +1,5 @@
 # create:users
-The **create:users** command Create dummy vocabularies for your Drupal 8 application.
+The **create:users** command Create dummy users for your Drupal 8 application.
 
 **Usage:**
 ```
