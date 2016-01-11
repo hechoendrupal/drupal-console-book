@@ -36,3 +36,12 @@ Creating a symlink pointing to `/tmp/mysql.sock`:
 ln -s /path/to/your/mysql/data/mysql.sock /tmp/mysql.sock
 ```
 
+---
+
+Error message:
+```
+Fatal error: require(): Failed opening required 'drupal.php'
+```
+This can be caused by the ioncube loader extension, which can be used to encode
+and decode PHP files. This extension prevents normal working of any phar files
+with require/include calls. You must disable the extension.
