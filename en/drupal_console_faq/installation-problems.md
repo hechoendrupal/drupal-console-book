@@ -4,7 +4,7 @@ When you run DrupalConsole from your Drupal 8 root directory, you can get differ
 
 --- 
 
-Error message:
+### Error message:
 ```
 [PDOException] SQLSTATE[HY000] [2002] No such file or directory
 ```
@@ -26,7 +26,7 @@ After you make the change, be sure to save the file and then run DrupalConsole a
 
 ---
 
-Error message:
+### Error message:
 ```
 [PDOException]
 SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock'
@@ -38,7 +38,7 @@ ln -s /path/to/your/mysql/data/mysql.sock /tmp/mysql.sock
 
 ---
 
-Error message:
+### Error message:
 ```
 Fatal error: require(): Failed opening required 'drupal.php'
 ```
