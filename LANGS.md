@@ -3,3 +3,4 @@
 * [Hindi](hi)
 * [Portuguese](pt_br)
 * [Vietnamese](vn)
+* [Chinese simplified](zh_hans)

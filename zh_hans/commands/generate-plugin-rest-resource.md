@@ -1,0 +1,18 @@
+# generate:plugin:rest:resource
+**generate:plugin:rest:resource** 命令 生成插件REST资源
+
+**用法:**
+```
+$ drupal generate:plugin:rest:resource [options] 
+```
+
+## 可用选项
+选项 | 详细
+-------|-------------
+--module | 模块名称
+--class | 插件REST资源类
+--name | commands.generate.service.options.name
+--plugin-id | 插件REST资源id
+--plugin-label | 插件REST资源标签
+--plugin-url | 插件REST资源URL链接
+--plugin-states | 插件REST资源状态
