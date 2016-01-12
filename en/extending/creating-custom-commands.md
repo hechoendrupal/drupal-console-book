@@ -2,38 +2,35 @@
 
 The simple way to create a custom Command Class is to execute the `generate:command` command.
 
+Executing the command using the interactive command questions: 
 ```
  $ drupal generate:command
-```
-
-This command will generate a new Command class containing the boiler-plate code to write a new command within your Drupal 8 module. 
-
-## Registering Commands Automatically
-
-To make the console commands available automatically within a Drupal installation, you will need to:
-
-* Create a `Command` directory inside your module i.e. `src/Command` and create a `PHP` file suffixed with `Command.php` i.e. `MyCustomCommand.php` for each command that you want to provide.
-
-* Make sure you class extends one of `Command` or `ContainerAwareCommand` classes.
-
-Drupal Console provides two types of commands, `stand alone` and `container aware` commands.
-
-### Stand alone commands
-These commands are listed and can run outside of a Drupal installation, you defined one by extending the `Command` class.
-```
-use Drupal\Console\Command\Command;
-
-class MyStandAloneCommand extends Command
-{
-}
-```
  
-### Container aware commands
-These commands are listed and must be run against a Drupal, you defined one by extending the `ContainerAwareCommand` class.
-```
-use Drupal\Console\Command\ContainerAwareCommand;
+ // Welcome to the Drupal Command generator
+ Enter the module name [devel]:
+ > example
 
-class MyContainerAwareCommand extends ContainerAwareCommand
-{
-}
+ Enter the Command name. [example:default]:
+ >
+
+ Enter the Command Class. (Must end with the word 'Command'). [DefaultCommand]:
+ >
+
+ Is the command aware of the drupal site installation when executed?. (yes/no) [yes]:
+ >
+
+ Do you confirm generation? (yes/no) [yes]:
+ >
+
+Generated or updated files
+ Site path: /www/var/drupal8.dev
+ 1 - modules/custom/example/src/Command/DefaultCommand.php
 ```
+
+Executing the `generate:command` passing inline options, make sure you adjust the following command based on your requirements.
+
+```
+$ drupal generate:command  --module=example --class=DefaultCommand --name=example:default --container-aware -y
+```
+
+This command execution will generate a new Command class containing the boiler-plate required to register a new command within your Drupal module.

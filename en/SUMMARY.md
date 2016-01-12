@@ -19,12 +19,13 @@
   * [How to use Drupal Console in a multi-site installation](using/how-to-use-drupal-console-in-a-multisite-installation.md)
   * [How to use Drupal Console in a remote installation](using/how-to-use-drupal-console-in-a-remote-installation.md)
 
-* [Creating Custom Commands](extending/creating-custom-commands.md)
+* [Creating custom Commands](extending/creating-custom-commands.md)
+   * [Registering Commands Automatically](extending/registering-commands-automatically.md)
    * [Configuring the Command](extending/configuring-the-command.md)
    * [Command Lifecycle](extending/command-lifecycle.md)
    * [Getting Services from the Service Container](extending/getting-services-from-the-service-container.md)
 
-* [Contributing to Drupal Console](contributing/new-features.md)
+* [Contributing new features](contributing/new-features.md)
    * [Project requirements](contributing/project-requirements.md)
    * [Getting the project](contributing/getting-the-project.md)
    * [Running the project](contributing/running-the-project.md)
