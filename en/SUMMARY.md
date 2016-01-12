@@ -19,6 +19,11 @@
   * [How to use Drupal Console in a multi-site installation](using/how-to-use-drupal-console-in-a-multisite-installation.md)
   * [How to use Drupal Console in a remote installation](using/how-to-use-drupal-console-in-a-remote-installation.md)
 
+* [Creating Custom Commands](extending/creating-custom-commands.md)
+   * [Configuring the Command](extending/configuring-the-command.md)
+   * [Command Lifecycle](extending/command-lifecycle.md)
+   * [Getting Services from the Service Container](extending/getting-services-from-the-service-container.md)
+
 * [Contributing to Drupal Console](contributing/new-features.md)
    * [Project requirements](contributing/project-requirements.md)
    * [Getting the project](contributing/getting-the-project.md)
@@ -27,18 +32,13 @@
    * [Creating issues and pull requests](contributing/creating-issues-and-pull-requests.md)
    * [Contribute to this documentation](contributing/documentation.md "Contribute to the Drupal Console book")
 
-* [Creating Custom Commands](extending/creating-custom-commands.md)
-   * [Configuring the Command](extending/configuring-the-command.md)
-   * [Command Lifecycle](extending/command-lifecycle.md)
-   * [Getting Services from the Service Container](extending/getting-services-from-the-service-container.md)
-
 * [Available commands](commands/available-commands.md)
   {% include "./commands/available-commands-list.md" %}
 
-* ## FAQ (Frequently Asked Questions) about Drupal Console
+* FAQ (Frequently Asked Questions) about Drupal Console
    * [Installation problems](drupal_console_faq/installation-problems.md)
    * [Permissions](drupal_console_faq/permissions.md)
    * [Commands not listed](drupal_console_faq/commands-not-listed.md)
    * [Interactive Mode](drupal_console_faq/interactive-mode.md)
 
-* ## [References](references/links.md)
+* [References](references/links.md)
