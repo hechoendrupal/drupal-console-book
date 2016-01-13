@@ -7,6 +7,8 @@ protected function execute(InputInterface $input, OutputInterface $output)
 {
     $uid = $input->getArgument('uid');
     $entityManager = $this->getService('entity.manager');
-    $user = $entityManager->getStorage('user')->load($uid);
+    if ($entityManager) {
+        $user = $entityManager->getStorage('user')->load($uid);
+    }
 }
 ```
