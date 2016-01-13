@@ -23,7 +23,7 @@ Executing the command using the interactive command questions:
  >
 
 Generated or updated files
- Site path: /www/var/drupal8.dev
+ Site path: /var/www/drupal.dev
  1 - modules/custom/example/src/Command/DefaultCommand.php
 ```
 
