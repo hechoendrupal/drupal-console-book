@@ -18,7 +18,7 @@ commands:
       version: 8.0.0
   - command: site:install
     options:
-        root: /Users/jmolivas/develop/drupal/sites/drupal8.dev
+        root: /var/www/drupal8.dev
         langcode: en
         db-type: sqlite
         db-file: sites/default/files/.ht.sqlite
@@ -27,7 +27,6 @@ commands:
         account-name: admin
         account-mail: admin@example.com
         account-pass: admin
-        generate-inline: true
     arguments:
         profile: standard
   - command: server
