@@ -12,8 +12,6 @@ Option | Details
 -------|-------------
 --module | The Module name.
 --class | Controller Class name
---title | Title of the controller
---method | The action method name
---route | The route path
+--routes | The routes, must be an array containing [title, method, path]
 --services | Load services from the container.
 --test | Generate a test class

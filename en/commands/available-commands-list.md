@@ -77,6 +77,7 @@
   * [rest:enable](commands/rest-enable.md)
   * [router:debug](commands/router-debug.md)
   * [router:rebuild](commands/router-rebuild.md)
+  * [settings:debug](commands/settings-debug.md)
   * [site:debug](commands/site-debug.md)
   * [site:install](commands/site-install.md)
   * [site:maintenance](commands/site-maintenance.md)

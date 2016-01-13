@@ -96,6 +96,8 @@ Drupal Console Command | Details
 **router**  |
 [router:debug](router-debug.md) | Displays current routes for the application
 [router:rebuild](router-rebuild.md) | Rebuild routes for the application
+**settings**  |
+[settings:debug](settings-debug.md) | Displays current key:value on settings file.
 **site**  |
 [site:debug](site-debug.md) | List all known local and remote sites.
 [site:install](site-install.md) | Install a Drupal project
