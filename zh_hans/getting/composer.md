@@ -1,17 +1,17 @@
-# Install Drupal Console Using Composer
-You can install this project using composer.
+# 使用 Composer 安装 Drupal Console
+你可以使用 composer 进行安装。
 
-## Install Drupal Console globally using composer:
+## 全局安装：
 ```
 $ composer global require drupal/console:@stable
 ```
 
-## Add the binary directory to your class path:
+## 添加 bin 文件夹到系统 path 环境变量中：
 ```
 $ echo "PATH=$PATH:~/.composer/vendor/bin" >> ~/.bash_profile
 ```
 
-## You can now execute console using:
+## 现在你可以使用它了。例如：生成一个模块：
 ```
 $ drupal generate:module
 ```

@@ -1,16 +1,17 @@
-# Where do I find the project?
+# Drupal Console 项目相关链接
 
-## Project landing page
-http://drupalconsole.com
+## Drupal Console 官网
+[http://drupalconsole.com](http://drupalconsole.com)
 
-## Github repository
-https://github.com/hechoendrupal/DrupalConsole
+## Github
+[https://github.com/hechoendrupal/DrupalConsole](https://github.com/hechoendrupal/DrupalConsole)
 
-## Documentation
-http://hechoendrupal.gitbooks.io/drupal-console
+## 文档
+[http://hechoendrupal.gitbooks.io/drupal-console](http://hechoendrupal.gitbooks.io/drupal-console)
 
-## Support chat
-https://gitter.im/hechoendrupal/DrupalConsole
+## 在线聊天
+[https://gitter.im/hechoendrupal/DrupalConsole](https://gitter.im/hechoendrupal/DrupalConsole)
 
-## More information on Drupal.org project page
-https://drupal.org/project/console
+## 更多信息
+
+请访问 Drupal 官网上的项目页面 [https://drupal.org/project/console](https://drupal.org/project/console)
