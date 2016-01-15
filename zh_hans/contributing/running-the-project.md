@@ -1,16 +1,16 @@
-# Running the project
-After using Composer to download dependencies, you can run the project by executing:
+# 如何运行 Drupal Console
+使用 Composer 下载完依赖后，你可以执行以下命令运行 Drupal Console：
 
 ```
 $ bin/drupal
 ```
 
-## Create a symbolic link
+## 创建一个 symbolic 链接
 
-You can run this command to easily access the Drupal Console from anywhere on your system:
+symbolic 链接创建后，可以从系统的其他地方访问 Drupal Console
 
 ```
 $ sudo ln -s /path/to/DrupalConsole/bin/drupal /usr/local/bin/drupal
 ```
 
-**NOTE:** The name `drupal` is just an alias you can name it anything you like.
+**注意:** `drupal` 仅仅是个别名，你可以改为其他任何你喜欢的名字

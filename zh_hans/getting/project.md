@@ -1,4 +1,4 @@
-# Getting the project
-There are different ways to get the project on your local machine.
+# 安装 Drupal Console
+有不同的方式可以安装 Drupal Console
 
-Our recommendation for getting the project on your local machine is by using the installer.
+我们推荐使用安装器进行安装

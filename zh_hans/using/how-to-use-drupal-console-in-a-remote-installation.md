@@ -1,16 +1,16 @@
-# How to use Drupal Console in a remote site installation
+# Drupal Console 用于非本地网站
 
-Drupal Console allows you to run commands on your local server but actually execute them on a remote server.
+Drupal Console 允许在本地运行命令，但命令的实际执行却是在一个远程服务器上。
 
-You can take advantage of this feature, using the `--target` option and passing the remote site name you want to interact with.  
+我们可以利用这个功能，使用 `--target` 选项，指定想要交互的远程服务器上的网站
 ```
 $ drupal --target=sample.dev cr all
 ```
 
-Setting up your local computer to use a remote site requires a little configuration.
+使用这个功能需要一点配置
 
-### Edit global configuration 
-You can provide global configuration to remote connections at the copied file `~/.console/config.yml`. This information is grouped within the `remote` key.
+### 编辑全局配置
+你可以在 `~/.console/config.yml` 文件中提供全局配置，来进行远程连接。相关配置信息属于 `remote` 这个键.
 ```
 application:
   ...
@@ -26,8 +26,8 @@ application:
       passphrase: ~/.ssh/passphrase.txt
 ```
 
-### Edit specific site configuration
-You can provide specific site configuration by duplicating the copied site file at `~/.console/sites/sample.yml` with a new same at `~/.console/sites/`.
+### 编辑特定网站的配置
+你可以复制一份 `~/.console/sites/sample.yml` ，包含一个新站点的配置放到 `~/.console/sites/` 
 
 ```
 local:

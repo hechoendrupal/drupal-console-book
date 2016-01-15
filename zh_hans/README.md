@@ -1,18 +1,15 @@
-# Drupal Console Documentation
+# Drupal Console 文档
 
-> **Note: This project is a work-in-progress.**
+> **注意: 该项目正在开发和完善中**
 
-This book documents the [Drupal Console](http://drupalconsole.com/) project.
+这本书是[Drupal Console](http://drupalconsole.com/)项目的文档。
 
-## Contribute to the project
+## 参与贡献
 
-You can contribute to improve this project on [Github](https://github.com/hechoendrupal/DrupalConsole)
+- 你可以在[这里](https://github.com/hechoendrupal/DrupalConsole)参与项目的贡献
+- 你可以在[这里](https://github.com/hechoendrupal/drupal-console-book)参与本文档的贡献
 
-## Contribute to this documentation
-
-You can contribute to improve this documentation on [GitHub](https://github.com/hechoendrupal/drupal-console-book).
-
-## Supporting organizations
+## 提供支持
 [![FFW](https://www.drupal.org/files/ffw-logo.png)](https://ffwagency.com)  
 [![Indava](https://www.drupal.org/files/indava-logo.png)](http://www.indava.com/)  
 [![Anexus](https://www.drupal.org/files/anexus-logo.png)](http://www.anexusit.com/)

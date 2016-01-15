@@ -1,11 +1,11 @@
-# Why should you care about it
-Drupal 8 is more technically advanced compared to its predecessor and managing the increasing complexity of Drupal 8 could be a daunting task for anyone. Drupal Console is a suite of tools to help manage that complexity. Writing a Drupal 8 module now involves a lot more boilerplate code and there is a lot you need to know and do just to *get started* building a new module. These tasks can be repetitive and tedious, and can therefore create increased potential for errors. Fortunately, a lot of the new code can be automatically generated, using Drupal Console, without risk of copy/paste errors and with a lot of saved time.
+# 为什么你应该关注？
+Drupal 8 相比之前的版本，技术上更加高级。Drupal 8 的复杂度不断增加，对于任何人来说，都是一件伤脑筋的事。现在，写一个 Drupal 8 模块涉及大量的 boilerplate 代码，你需要去了解很多才能开始创建一个新模块。这部分工作其实是单调和乏味的。同时，你还可能会不小心引入一些错误。幸运的是，有 Drupal Console 这个工具，大量的新代码能够被自动生成，使用它，不会有复制粘贴之类引起的错误，最重要的是会节省大量的时间。
 
-## Benefits of the Drupal Console:
-* Takes advantage of the Symfony Console and other third-party components to generate PHP, YML, and other files.
-* Takes advantage of other modern development practices.
-* Saves development time, both during migration of existing Drupal modules and when writing new ones.
-* Provides easy-to-learn tools that make Drupal 8 development, by extension, also easier to learn.
-* Reduces development time for remaining Drupal 8 tasks and for development of new modules.
+## Drupal Console 的优点
+* 集成 Symfony Console 和其他第三方组件，用于生成 PHP、 YML、以及其他文件
+* 吸收其他现代开发实践
+* 节约开发时间，无论是迁移现有 Drupal 模块还是写一个新模块
+* 提供 easy-to-learn 工具，使得 Drupal 8 开发更加易于学习。
+* 减少遗留的 Drupal 任务的开发时间和开发新模块的时间
 
-Follow along in this documentation as we explore the power of this exciting new set of tools.
+继续阅读，让我们去探索 Drupal Console 这一令人兴奋的强大工具。

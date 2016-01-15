@@ -1,8 +1,9 @@
-# How to use Drupal Console in a multi-site installation 
+# 如何在多站点环境下使用 Drupal Console
+
+对 Drupal 的多站点（多个站点共用一个Drupal核心）Drupal Console 提供了支持。`multisite:debug` 命令和 `--uri` 选项被用于与多站点进行交互。
+
  
-Drupal Console provides support for Drupal multi-site installations. This project provides the `multisite:debug` command to debug multi-site installations and the `--uri` option to interact with multi-site installations.
- 
-### How to list all known multi sites
+### 列出多站点
 ```
 $ drupal multisite:debug
 
@@ -13,10 +14,10 @@ $ drupal multisite:debug
 | drupal8.multi.dev   | /var/www/drupal8.dev/multi.dev |
 +---------------------+--------------------------------+
 
- Sites are written using the format: <port>.<domain>.<path>
+表示一个网站使用的格式: <端口>.<域名>.<路径>
 ```
 
-### How to execute a command against a multi-site installation
+### 针对某个多站点中的某个站点，执行命令
 ```
 $ drupal --uri=http://drupal8.multi.dev cr all
 ```

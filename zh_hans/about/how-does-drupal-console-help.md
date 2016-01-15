@@ -1,10 +1,10 @@
-# How does Drupal Console help?
+# Drupal Console 是怎样提供帮助的?
 
-## Generating the code and files required by a Drupal 8 module
-Drupal Console provides a number of commands for creating module scaffolding and boilerplate code. For any command, you will be asked a series of questions about what you want to generate. Based on that user interaction, it will then generate the required boilerplate to build the requested component.
+## 生成一个 Drupal 8 模块必须的代码和文件
+Drupal Console 提供大量的命令，用于创建模块的 scaffolding 和 boilerplate 代码。任何一个命令，都会要求你回答一系列提问，基于你的回答，Drupal Console 会生成你想要的代码。
 
-## Interacting with your Drupal installation.
-Drupal Console allows you to interact with your Drupal installation, from rebuilding caches, to listing routes, services, and modules, and interacting with the configuration management.
+## 与 Drupal 网站进行交互
+Drupal Console 允许你和 Drupal 网站进行交互。从重建缓存，到列出路由、服务以及模块。甚至还可以和配置管理进行交互。
 
-## Learning Drupal 8
-Drupal Console helps you learn Drupal 8. In addition to generating complex code, you can increase the verbosity of the code comments, to better understand the generated code and how to build on it, by using the `--learning` option.
+## 学习 Drupal 8
+Drupal Console 帮助你学习 Drupal 8。除了生成复杂的代码，还可以调节代码评论输出的多少，来帮助你理解生成的代码。如果想更好的了解代码，还可以使用 `--learning` 选项。

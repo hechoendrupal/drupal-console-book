@@ -1,7 +1,7 @@
-# Download phar file
+# 下载 phar 文件
 
-You can download the latest version of Console from the repository releases page at:
+你可以从 github 上的 releases 页面下载 Drupal Console 的最新版本：
 
-https://github.com/hechoendrupal/DrupalConsole
+[https://github.com/hechoendrupal/DrupalConsole](https://github.com/hechoendrupal/DrupalConsole)
 
-Make sure you download the console.phar file from the most current release.
+请确认你下载了最新发布的 console.phar 文件

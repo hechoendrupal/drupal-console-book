@@ -1,15 +1,15 @@
-# How to download, install and serve Drupal 8
+# 如何下载，安装并运行 Drupal 8
 
-The easiest way to try Drupal 8 in your local machine is by executing the `chain` command and pass the option `--file=~/.console/chain/quick-start.yml` as shown on the following example.
+最简单的方式就是在本地执行 `chain` 命令，并且将 `--file=~/.console/chain/quick-start.yml` 选项传递给它。示例如下：
 
 ```
 $ drupal chain --file=~/.console/chain/quick-start.yml
 ```
-> NOTE: You must execute `drupal init` before in order to copy the `~/.console/chain/quick-start.yml` on your system.
+> 注意: 你必须先执行 `drupal init` 命令，该命令会拷贝 `quick-start.yml` 到 `~/.console/chain/quick-start.yml`
 
-The `chain` command helps you to automate command execution, allowing you to define an external YAML file containing the definition name, option and arguments of several commands and execute that list based on the sequence defined in the file.
+`chain` 命令帮助你自动执行命令，它允许你定义一个包含多条命令的外部 YAML 文件，这个文件中的每条命令，由命令的名称、选项和参数组成，命令在文件中的顺序即为执行顺序
 
-The content of the provided `~/.console/chain/quick-start.yml` file is:
+默认 `~/.console/chain/quick-start.yml` 文件中的内容：
 ```
 commands:
   - command: site:new
@@ -33,6 +33,6 @@ commands:
   - command: server
 ```
 
-The previous configuration will execute several commands, in this case commands that will download and install Drupal using SQLite, and finally start the PHP's built in server, now you only need to open your browser and point it to 127.0.0.1:8088.
+在这个例子中，会下载和使用 SQLite 安装 Drupal，最后会启动 PHP 内建服务器。然后，你只需要打开浏览器，访问 127.0.0.1:8088 就可以了.
 
-You can duplicate or make changes on the provided YAML file, to add commands for download modules `module:download`, install modules `module:install` , import configurations `config:import` and restore your database `database:restore` or any other command provided by DrupalConsole or a custom command by your own module.
+你可以复制或修改提供这个 YAML 文件，添加任意命令，如下载模块 `module:download`，安装模块 `module:install` ，导入配置 `config:import` 以及还原数据库 `database:restore` 或其他任何 Drupal Console 提供的命令或者你自己的模块提供的自定义命令。

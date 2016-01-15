@@ -1,15 +1,15 @@
-# Using the project
+# 使用 Drupal Console
 
-Drupal Console provides two types of commands, `stand alone` and `container aware` commands.
+Drupal Console 提供两种类型的命令：`标准命令` 和 `容器相关命令`
 
-**Stand alone commands:**
-These commands can run outside of a Drupal 8 site root.
+**标准命令**
+能够在 Drupal 8 网站根目录以外的地方运行的命令属于标准命令
  
-**Container aware commands:**
-These commands must be run within a Drupal 8 site root.
+**容器相关命令**
+必须在 Drupal 8 网站根目录内运行的命令属于容器相关命令
 
-### Executing Drupal Console outside a Drupal site root 
-You can run Drupal Console form any directory on your system by using the `--root` option to define the Drupal root to be use in the command execution. 
+### 在 Drupal 网站根目录以外执行 Drupal Console
+通过 `--root` 选项指定 Drupal 网站根目录，你就可以在系统中的任何地方运行容器相关命令。
 ```
 $ drupal --root=/var/www/drupal8.dev cr all
 ```

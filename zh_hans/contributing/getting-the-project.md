@@ -1,16 +1,16 @@
-# Getting the project
+# 获取项目
 
 ## Fork
-Fork your own copy of the [Console](https://github.com/hechoendrupal/DrupalConsole/fork) repository to your account
+Fork [Drupal Console](https://github.com/hechoendrupal/DrupalConsole/fork) 到你自己的账号
 
-## Clone
-Get a copy of your recently cloned version of console in your machine.
+## 克隆
+克隆 Fork 后的版本到本地
 ```
-$ git clone git@github.com:[your-git-user-here]/DrupalConsole.git
+$ git clone git@github.com:[你的github用户账号]/DrupalConsole.git
 ```
 
-## Install dependencies
-Now that you have cloned the project, you need to download dependencies via Composer.
+## 安装依赖
+克隆完项目，你需要使用 Composer 下载依赖
 
 ```
 $ cd /path/to/DrupalConsole

@@ -1,15 +1,15 @@
-# References
+# 参考资料
 
-## Drupal Console code repository
-https://github.com/hechoendrupal/DrupalConsole
+## Drupal Console 代码 repository 
+[https://github.com/hechoendrupal/DrupalConsole]()
 
-## Documentation repository
-https://github.com/hechoendrupal/drupal-console-book
+## 文档 repository
+[https://github.com/hechoendrupal/drupal-console-book](https://github.com/hechoendrupal/drupal-console-book)
 
-## Resources
-- [Symfony Components](http://symfony.com/components)
+## 资源
+- [Symfony 组件](http://symfony.com/components)
 - [Drupal 8](https://www.drupal.org/drupal-8.0)
-- [PHP the right way](http://www.phptherightway.com/)
+- [PHP 之道](http://www.phptherightway.com/)
 - [KNP University](https://knpuniversity.com/)
 - [Build a module](http://buildamodule.com/)
 - [DrupalizeMe](https://drupalize.me/)
