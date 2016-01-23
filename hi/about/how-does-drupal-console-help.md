@@ -1,10 +1,10 @@
-# How does Drupal Console help?
+# Drupal कंसोल कैसे मदद करता है?
 
-## Generating the code and files required by a Drupal 8 module
-Drupal Console provides a number of commands for creating module scaffolding and boilerplate code. For any command, you will be asked a series of questions about what you want to generate. Based on that user interaction, it will then generate the required boilerplate to build the requested component.
+## एक Drupal 8 मॉड्यूल द्वारा अपेक्षित कोड और फ़ाइलों को पैदा करना
+Drupal कंसोल मॉड्यूल मचान और बॉयलरप्लेट कोड बनाने के लिए कमाण्डो प्रदान करता है| किसी भी कमाण्ड के लिए, आप को सवालों की एक श्रृंखला के लिए कहा जाएगा की आप क्या पैदा करना चाहते हैं| उपयोगकर्ता बातचीत पर आधारित, यह तब अनुरोध घटक बनाने के लिए आवश्यक बॉयलरप्लेट उत्पन्न करेगा|
 
-## Interacting with your Drupal installation.
-Drupal Console allows you to interact with your Drupal installation, from rebuilding caches, to listing routes, services, and modules, and interacting with the configuration management.
+## अपने Drupal स्थापना के साथ वार्तालाप.
+Drupal कंसोल अपने Drupal स्थापना के साथ वार्तालाप करने के लिए अनुमति देता है, पुनर्निर्माण कैश से, लिस्टिंग मार्गों के लिए, सर्विसेज़, और मॉड्यूल, और विन्यास प्रबंधन के साथ वार्तालाप|
 
-## Learning Drupal 8
-Drupal Console helps you learn Drupal 8. In addition to generating complex code, you can increase the verbosity of the code comments, to better understand the generated code and how to build on it, by using the `--learning` option.
+## Drupal 8 सीखना
+Drupal कंसोल Drupal 8 सीखने में मदद करता है| जटिल कोड पैदा करने के अलावा, आप कोड टिप्पणियों के शब्दाडंबर बढ़ा सकते हैं, उत्पन्न कोड को बेहतर समझने के लिए और कैसे उस पर निर्माण करने के लिए, `--learning` विकल्प का उपयोग करके|
