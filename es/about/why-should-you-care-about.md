@@ -1,11 +1,11 @@
-# Why should you care about it
-Drupal 8 is more technically advanced compared to its predecessor and managing the increasing complexity of Drupal 8 could be a daunting task for anyone. Drupal Console is a suite of tools to help manage that complexity. Writing a Drupal 8 module now involves a lot more boilerplate code and there is a lot you need to know and do just to *get started* building a new module. These tasks can be repetitive and tedious, and can therefore create increased potential for errors. Fortunately, a lot of the new code can be automatically generated, using Drupal Console, without risk of copy/paste errors and with a lot of saved time.
+# ¿Por qué deberías interesarte por este proyecto?
+Drupal 8 es más avanzado técnicamente comparado con su predecesor. Manejar su mayor complejidad puede ser una tarea desalentadora para cualquiera. Drupal Console es una suite de herramientas cuyo objetivo consiste en ayudarle a superar dicha complejidad. Escribir un módulo de Drupal 8 ahora comporta un montón de código repetitivo más que antes. Es más, ahora necesitas aprender y hacer un montón de cosas nuevas sólo para *ponerse manos a la obra* a la hora de programar un nuevo módulo. Estas tareas pueden ser repetitivas y tediosas, y, por lo tanto, comportan una mayor probabilidad de cometer errores. Afortunadamente, hay un montón de código nuevo que puede ser generado automáticamente, usando Drupal Console, sin riesgo de cometer errores de «copypasteo», ahorrándole un montón de tiempo.
 
-## Benefits of the Drupal Console:
-* Takes advantage of the Symfony Console and other third-party components to generate PHP, YML, and other files.
-* Takes advantage of other modern development practices.
-* Saves development time, both during migration of existing Drupal modules and when writing new ones.
-* Provides easy-to-learn tools that make Drupal 8 development, by extension, also easier to learn.
-* Reduces development time for remaining Drupal 8 tasks and for development of new modules.
+## Beneficios de Drupal Console:
+* Hace uso de Symfony Console y otros componentes de terceros para generar PHP, YML, así como otros tipos de archivos.
+* Hace uso de muchas prácticas de desarrollo modernas.
+* Ahorra tiempo de desarrollo, tanto durante la migración de módulos de Drupal existentes, así como a la hora de escribir módulos nuevos.
+* Provee herramientas fáciles de aprender que hacen del desarrollo de Drupal 8 algo sencillo y cómodo.
+* Reduce el tiempo requerido para desarrollar el resto de tareas en Drupal 8 y para el desarrollo de nuevos módulos.
 
-Follow along in this documentation as we explore the power of this exciting new set of tools.
+Continúe leyendo esta documentación para explorar todo el poder de este nuevo conjunto de herramientas.
