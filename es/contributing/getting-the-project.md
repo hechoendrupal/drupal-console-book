@@ -1,16 +1,16 @@
-# Getting the project
+# Cómo descargar el proyecto
 
-## Fork
-Fork your own copy of the [Console](https://github.com/hechoendrupal/DrupalConsole/fork) repository to your account
+## Forkear
+Cree un fork del repositorio del proyecto [Drupal Console](https://github.com/hechoendrupal/DrupalConsole/fork) en su cuenta.
 
-## Clone
-Get a copy of your recently cloned version of console in your machine.
+## Clonar
+Obtenga una copia en su máquina de la versión del repositorio que acaba de clonar.
 ```
 $ git clone git@github.com:[your-git-user-here]/DrupalConsole.git
 ```
 
-## Install dependencies
-Now that you have cloned the project, you need to download dependencies via Composer.
+## Instalar dependencias
+Ahora que ha clonado el proyecto, necesita descargar las dependencias via Composer.
 
 ```
 $ cd /path/to/DrupalConsole
