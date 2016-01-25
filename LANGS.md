@@ -2,5 +2,6 @@
 * [Español](es)
 * [Hindi](hi)
 * [Portuguese](pt_br)
+* [Romanian](ro)
 * [Vietnamese](vn)
 * [简体中文](zh_hans)
