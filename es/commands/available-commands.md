@@ -107,7 +107,7 @@ Comando de Drupal Console | Detalles
 [site:status](site-status.md) | Ver el estatus de la instalación actual de Drupal
 **state**  |
 [state:debug](state-debug.md) | Muestra las claves de Estado actual.
-[state:override](state-override.md) | Muestra las claves de Estado actual.
+[state:override](state-override.md) | Sobreescribir una clave de Estado.
 **test**  |
 [test:debug](test-debug.md) | Lista los tests unitarios disponibles para la aplicación.
 [test:run](test-run.md) | Ejecuta un test unitario de los disponibles en la aplicación

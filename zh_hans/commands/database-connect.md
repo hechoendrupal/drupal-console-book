@@ -9,4 +9,4 @@ $ drupal database:connect [arguments]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-database | settings.php文件里的数据库键
+database | settings.php 文件中 Database 的键

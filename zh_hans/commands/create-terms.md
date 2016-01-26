@@ -1,5 +1,5 @@
 # create:terms
-**create:terms** 命令 Create dummy terms for your Drupal 8 application.
+**create:terms** 命令 生成分类术语
 
 **用法:**
 ```
@@ -9,10 +9,10 @@ $ drupal create:terms [arguments] [options]
 ## 可用选项
 选项 | 详细
 -------|-------------
---limit | How many terms would you like to create
---name-words | Maximum number of words in term names
+--limit | 生成多少个分类术语
+--name-words | 分类术语名称允许的最多单词数量
 
 ## 可用参数
 参数 | 详细
 ---------|-------------
-vocabularies | Vocabularie(s) to be used in terms creation
+vocabularies | 用于生成分类术语的词汇表(s)

@@ -1,5 +1,5 @@
 # create:nodes
-**create:nodes** 命令 Create dummy nodes for your Drupal 8 application.
+**create:nodes** 命令 生成节点
 
 **用法:**
 ```
@@ -16,4 +16,4 @@ $ drupal create:nodes [arguments] [options]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-content-types | Content type(s) to be used in node creation
+content-types | 节点的内容类型(s)

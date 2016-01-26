@@ -1,5 +1,5 @@
 # config:override
-**config:override** 命令 覆盖当前使用中的配置值.
+**config:override** 命令 覆写活动配置
 
 **用法:**
 ```
@@ -9,12 +9,12 @@ $ drupal config:override [arguments]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-config-name | 配置名.
+config-name | 配置名称
 key | 键
 value | 值
 
 ## 例子
-* Définir la valeur de "flood" du module Contact à 10.
+* 设置 Contact 模块 flood limit 为 10.
 ```
 $ drupal config:override contact.settings flood.limit 10
 ```

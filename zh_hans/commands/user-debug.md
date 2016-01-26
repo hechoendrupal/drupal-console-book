@@ -9,5 +9,5 @@ $ drupal user:debug [options]
 ## 可用选项
 选项 | 详细
 -------|-------------
---roles | Roles to filter debug
---limit | How many users would you listed in debug
+--roles | 用于过滤用户的角色
+--limit | 指定显示的用户数量

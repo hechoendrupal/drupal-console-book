@@ -1,5 +1,5 @@
 # database:restore
-**database:restore** 命令 恢复数据库，结构以及数据
+**database:restore** 命令 还原数据库
 
 **用法:**
 ```
@@ -14,4 +14,4 @@ $ drupal database:restore [arguments] [options]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-database | settings.php文件里的数据库键
+database | settings.php 文件中 Database 的键

@@ -1,5 +1,5 @@
 # generate:authentication:provider
-**generate:authentication:provider** 命令 生成一个认证提供者
+**generate:authentication:provider** 命令 生成认证提供者
 
 **用法:**
 ```

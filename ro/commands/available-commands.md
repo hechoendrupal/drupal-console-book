@@ -107,7 +107,7 @@ Comanda Consolei Drupal | Detalii
 [site:status](site-status.md) | Vizualizează statutul de instalare (Drupal Installation status)
 **state**  |
 [state:debug](state-debug.md) | Show the current State keys.
-[state:override](state-override.md) | Show the current State keys.
+[state:override](state-override.md) | Override a State key.
 **test**  |
 [test:debug](test-debug.md) | Afişează testele accesibile
 [test:run](test-run.md) | Execută un test dintre testele disponibile in aplicaţie.

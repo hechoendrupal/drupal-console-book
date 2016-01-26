@@ -1,5 +1,5 @@
 # generate:entity:config
-**generate:entity:config** 命令 创建新的配置实体
+**generate:entity:config** 命令 生成新配置实体
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # state:override
-The **state:override** command वर्तमान स्टेट कीस दिखाएँ।
+The **state:override** command स्थिति की मौलिक को ओवरराइड करे
 
 **प्रयोग:**
 ```

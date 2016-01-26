@@ -1,5 +1,5 @@
 # generate:form:config
-**generate:form:config** 命令 生成新的"ConfigFormBase"
+**generate:form:config** 命令 生成新 "ConfigFormBase"
 
 **用法:**
 ```

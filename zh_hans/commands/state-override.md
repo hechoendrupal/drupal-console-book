@@ -1,5 +1,5 @@
 # state:override
-**state:override** 命令 Show the current State keys.
+**state:override** 命令 覆写状态键的值
 
 **用法:**
 ```
@@ -9,5 +9,5 @@ $ drupal state:override [arguments]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-key | The State key to override.
-value | The State value to set.
+key | 覆写的键
+value | 赋的新值

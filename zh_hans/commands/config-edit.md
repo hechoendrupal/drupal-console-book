@@ -1,5 +1,5 @@
 # config:edit
-**config:edit** 命令 编辑选中配置
+**config:edit** 命令 编辑配置
 
 **用法:**
 ```

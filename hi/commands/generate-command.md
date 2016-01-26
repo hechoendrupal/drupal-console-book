@@ -12,5 +12,5 @@ $ gcm
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | कमाण्ड क्लास का नाम
---name | The Command name.
---container-aware | Is the command aware of the drupal site installation when executed
+--name | कमाण्ड का नाम।
+--container-aware | Drupal साइट स्थापना के बारे में कमांड पता है जब एक्सेक्युट होगा?

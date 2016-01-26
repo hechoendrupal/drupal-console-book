@@ -1,5 +1,5 @@
 # translation:sync
-**translation:sync** 命令 Sync translation files
+**translation:sync** 命令 同步翻译文件
 
 **用法:**
 ```
@@ -14,4 +14,4 @@ $ drupal translation:sync [arguments] [options]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-language | Language to syncronize against English source files
+language | 语言代码

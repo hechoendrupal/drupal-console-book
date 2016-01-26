@@ -1,5 +1,5 @@
 # state:override
-The **state:override** command Az aktuális állapotkulcsok megjelenítése.
+The **state:override** command Állapotkulcs felülbírálása.
 
 **Usage:**
 ```
