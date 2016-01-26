@@ -1,5 +1,5 @@
 # state:override
-Câu lệnh **state:override** Hiển thị State keys hiện tại.
+Câu lệnh **state:override** Ghi đè một State key.
 
 **Usage:**
 ```

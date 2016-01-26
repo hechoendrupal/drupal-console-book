@@ -1,5 +1,5 @@
 # config:export:single
-**config:export:single** 命令 导出单个配置为 YAML 格式文件
+**config:export:single** 命令 导出单个配置
 
 **用法:**
 ```

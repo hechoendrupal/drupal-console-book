@@ -107,7 +107,7 @@ Drupal कंसोल कमाण्ड | विवरण
 [site:status](site-status.md) | वर्तमान Drupal स्थापना के स्थिति को देखें
 **state**  |
 [state:debug](state-debug.md) | वर्तमान स्टेट कीस दिखाएँ।
-[state:override](state-override.md) | वर्तमान स्टेट कीस दिखाएँ।
+[state:override](state-override.md) | स्थिति की मौलिक को ओवरराइड करे
 **test**  |
 [test:debug](test-debug.md) | अनुप्रयोग की सारी उपलब्ध परिक्षण यूनिटो को दिखाएँ।
 [test:run](test-run.md) | अनुप्रयोग के उपलब्ध परीक्षणों मे से परिक्षण यूनिट को चलायें

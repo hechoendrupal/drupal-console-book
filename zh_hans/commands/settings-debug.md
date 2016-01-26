@@ -1,5 +1,5 @@
 # settings:debug
-**settings:debug** 命令 Displays current key:value on settings file.
+**settings:debug** 命令 配置文件调试
 
 **用法:**
 ```

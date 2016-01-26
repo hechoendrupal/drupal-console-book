@@ -1,5 +1,5 @@
 # generate:command
-**generate:command** 命令 生成 Console 命令
+**generate:command** 命令 生成新 Console 命令
 
 **用法:**
 ```

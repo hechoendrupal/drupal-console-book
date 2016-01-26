@@ -1,5 +1,5 @@
 # generate:doc:dash
-**generate:doc:dash** 命令 生成 DrupalConsole.docset 包，提供给 Dash
+**generate:doc:dash** 命令 生成 Dash 文档
 
 **用法:**
 ```

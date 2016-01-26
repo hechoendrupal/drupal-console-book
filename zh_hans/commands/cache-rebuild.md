@@ -1,5 +1,5 @@
 # cache:rebuild
-**cache:rebuild** 命令 重建以及清除所有站点缓存
+**cache:rebuild** 命令 重建缓存
 
 **用法:**
 ```

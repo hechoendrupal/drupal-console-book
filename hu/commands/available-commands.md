@@ -107,7 +107,7 @@ Drupal Console Command | Details
 [site:status](site-status.md) | Aktuális Drupal-telepítés állapotának megtekintése
 **state**  |
 [state:debug](state-debug.md) | Az aktuális állapotkulcsok megjelenítése.
-[state:override](state-override.md) | Az aktuális állapotkulcsok megjelenítése.
+[state:override](state-override.md) | Állapotkulcs felülbírálása.
 **test**  |
 [test:debug](test-debug.md) | Az alkalmazás egységtesztjeinek listázása.
 [test:run](test-run.md) | Egységteszt futtatása az alkalmazás számára elérhető tesztek közül

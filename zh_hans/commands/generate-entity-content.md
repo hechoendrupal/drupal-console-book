@@ -1,5 +1,5 @@
 # generate:entity:content
-**generate:entity:content** 命令 创建新的内容实体
+**generate:entity:content** 命令 生成新内容实体
 
 **用法:**
 ```

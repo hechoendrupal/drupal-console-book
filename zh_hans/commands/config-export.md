@@ -1,5 +1,5 @@
 # config:export
-**config:export** 命令 导出当前应用/网站配置
+**config:export** 命令 导出配置
 
 **用法:**
 ```

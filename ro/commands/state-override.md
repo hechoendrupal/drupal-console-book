@@ -1,5 +1,5 @@
 # state:override
-**state:override** comanda Show the current State keys.
+**state:override** comanda Override a State key.
 
 **Folosire:**
 ```

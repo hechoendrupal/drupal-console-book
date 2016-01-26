@@ -1,5 +1,5 @@
 # generate:entity:bundle
-**generate:entity:bundle** 命令 生成内容类型（node 或实体 bundle）
+**generate:entity:bundle** 命令 生成新内容类型（node 或实体 bundle）
 
 **用法:**
 ```

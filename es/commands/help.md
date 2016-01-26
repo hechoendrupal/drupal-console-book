@@ -9,9 +9,9 @@ $ drupal help [arguments] [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---xml | To output help as XML
+--xml | To output list as XML
+--raw | To output raw command list
 --format | The output format (txt, xml, json, or md)
---raw | To output raw command help
 
 ## Argumentos disponibles
 Argumento | Detalles

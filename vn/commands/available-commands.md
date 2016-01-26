@@ -107,7 +107,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [site:status](site-status.md) | Xem trạng thái cài đặt hiện tại
 **state**  |
 [state:debug](state-debug.md) | Hiển thị State keys hiện tại.
-[state:override](state-override.md) | Hiển thị State keys hiện tại.
+[state:override](state-override.md) | Ghi đè một State key.
 **test**  |
 [test:debug](test-debug.md) | Danh sách các đơn vị thử nghiệm có sẵn của ứng dụng.
 [test:run](test-run.md) | Chạy đơn vị thử nghiệm từ các thử nghiệm có sẵn cho ứng dụng

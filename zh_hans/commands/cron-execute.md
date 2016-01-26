@@ -1,5 +1,5 @@
 # cron:execute
-**cron:execute** 命令 执行模块中的定时任务或全部定时任务
+**cron:execute** 命令 执行模块中的或所有的定时任务（cron）
 
 **用法:**
 ```

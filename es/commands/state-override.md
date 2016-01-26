@@ -1,5 +1,5 @@
 # state:override
-El comando **state:override** Muestra las claves de Estado actual.
+El comando **state:override** Sobreescribir una clave de Estado.
 
 **Uso:**
 ```

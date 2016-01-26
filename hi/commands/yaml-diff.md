@@ -10,7 +10,7 @@ $ yd
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---stats | Print statistics about YAML files comparation
+--stats | YAML फाइल्स comparation की तुलना में Print statistics
 --negate | विधि अंतर या समान तुलना दर्ज करें, सम्भवत निधि TRUE/FALSE या 0/1
 --limit | परिणामों कि संख्या सीमित करें
 --offset | सीमा का प्रारंभिक बिंदु

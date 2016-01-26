@@ -1,5 +1,5 @@
 # state:override
-O **state:override** comando Exibir as chaves atuais do Estado.
+O **state:override** comando Sobrescrever a chave de Estado.
 
 **Uso:**
 ```

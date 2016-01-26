@@ -10,14 +10,14 @@ $ cr
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-cache | केवल एक विशेष cache साफ़ करें।
+cache | केवल एक विशेष caches साफ़ करें।
 
 ## उदाहरण
-* Rebuild all caches
+* सभी caches के पुनर्निर्माण 
 ```
-$ drupal cr all
+$ Drupal cr all
 ```
-* Rebuild discovery cache
+* डिस्कवरी caches के पुनर्निर्माण
 ```
-$ drupal cr discovery
+$ Drupal cr discovery
 ```

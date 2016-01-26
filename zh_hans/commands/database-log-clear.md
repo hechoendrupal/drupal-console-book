@@ -1,5 +1,5 @@
 # database:log:clear
-**database:log:clear** 命令 在DBLog表中删除事件日志，可以使用过滤器
+**database:log:clear** 命令 清除事件日志
 
 **用法:**
 ```
