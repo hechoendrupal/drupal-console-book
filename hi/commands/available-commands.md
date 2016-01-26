@@ -8,40 +8,40 @@ Drupal कंसोल कमाण्ड | विवरण
 [chain](chain.md) | कमाण्डो को श्रंखला में चलायें।
 [help](help.md) | Displays help for a command
 [init](init.md) | व्यवस्था फाइलो को उपभोगक्ता के होम डायरेक्टरी में प्रतिरुप करें।
-[list](list.md) | Lists commands22
-[server](server.md) | Runs PHP built-in web server
+[list](list.md) | कमांड की सूची
+[server](server.md) | PHP निर्मित वेब सर्वर चलायॆ
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | सभी साइट caches को पुनर्निर्माण और साफ़ करें।
 **config**  |
 [config:debug](config-debug.md) | वर्तमान व्यवस्था को दिखाएँ।
 [config:edit](config-edit.md) | चयनित व्यवस्था को बदलें।
-[config:export](config-export.md) | Export current application configuration.
-[config:export:content:type](config-export-content-type.md) | किसी विशेष कंटेंट प्रकार और उनके खानो का निर्यात करें।
-[config:export:single](config-export-single.md) | एक व्यवस्था को yml फाइल के जैसे निर्यात करें।
-[config:export:view](config-export-view.md) | एक व्यू को YAML संरूप में निर्यात करें ताकि वो किसी दूसरे वेबसाइट में पुनर्प्रयोग किया जाये।
+[config:export](config-export.md) | मौजूदा एप्लीकेशन कॉन्फ़िगरेशन एक्सपोर्ट करे।
+[config:export:content:type](config-export-content-type.md) | किसी विशेष कंटेंट टाइप और उनके खानो का एक्सपोर्ट करें।
+[config:export:single](config-export-single.md) | एक कॉन्फिग को yml फाइल के जैसे निर्यात करें।
+[config:export:view](config-export-view.md) | एक व्यू को YAML संरूप में एक्सपोर्ट करें ताकि वो किसी दूसरे वेबसाइट में पुनर्प्रयोग किया जाये।
 [config:import](config-import.md) | वर्तमान अनुप्रयोग में व्यवस्था आयात करें।
 [config:import:single](config-import-single.md) | चयनित व्यवस्था आयात करें।
 [config:override](config-override.md) | व्यवस्था निधि को सक्रिय डायरेक्टरी में चढ़ा दें।
 **container**  |
 [container:debug](container-debug.md) | अनुप्रयोग की वर्तमान सर्विसेज़ को दिखाएँ।
 **create**  |
-[create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
-[create:terms](create-terms.md) | Create dummy terms for your Drupal 8 application.
-[create:users](create-users.md) | Create dummy vocabularies for your Drupal 8 application.
-[create:vocabularies](create-vocabularies.md) | Create dummy vocabularies for your Drupal 8 application.
+[create:nodes](create-nodes.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी नोड्स बनाएँ।
+[create:terms](create-terms.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी टर्म्ज़ बनाएँ।
+[create:users](create-users.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी यूजरस बनाएँ।
+[create:vocabularies](create-vocabularies.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी वोकैब्युलरीस बनाएँ।
 **cron**  |
 [cron:debug](cron-debug.md) | क्रॉन लागू करने वाले मोड्यूलों की सूचि
 [cron:execute](cron-execute.md) | क्रॉन लागू करने वाले किसी विशेष मोड्यूल को चलायें या सारे क्रॉन चलायें
 [cron:release](cron-release.md) | क्रॉन चलाने के लिए क्रॉन प्रणाली का लॉक को मुक्त करें
 **database**  |
-[database:client](database-client.md) | Launch a DB client if it's available
-[database:connect](database-connect.md) | Launch a DB client if it's available
-[database:dump](database-dump.md) | Dump structure and contents of MySQL databases and tables
-[database:log:clear](database-log-clear.md) | Remove events from DBLog table, filters are available
-[database:log:debug](database-log-debug.md) | Display current log events for the application
-[database:restore](database-restore.md) | Restore structure and contents of MySQL databases and tables
-[database:table:debug](database-table-debug.md) | commands.database.table.debug.description
-[database:table:drop](database-table-drop.md) | commands.database.table.drop.description
+[database:client](database-client.md) | लॉन्च एक DB क्लाइंट अगर यह उपलब्ध है
+[database:connect](database-connect.md) | लॉन्च एक DB क्लाइंट अगर यह उपलब्ध है
+[database:dump](database-dump.md) | डंप संरचना और MYSQL का कंटेंट डेटाबेसेस और टेबल्स
+[database:log:clear](database-log-clear.md) | DBLog टेबल से इवेंट्स निकालें, फिल्टर उपलब्ध हैं
+[database:log:debug](database-log-debug.md) | एप्लीकेशन के लिए वर्तमान लॉग इवेंट्स को प्रदर्शित करे
+[database:restore](database-restore.md) | MYSQL डाटाबेस और टेबल्स ले कंटेंट और संरचना को रिस्टोर करे
+[database:table:debug](database-table-debug.md) | एक दिए गए डेटाबेस में सभी टेबल्स दिखाएँ.
+[database:table:drop](database-table-drop.md) | एक दिए गए डेटाबेस में सभी टेबल्स ड्राप।
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | प्रमाणन प्रदाता उत्पन्न करें
 [generate:command](generate-command.md) | कंसोल के लिए कमाण्डो को उत्पन्न करें।
@@ -49,8 +49,8 @@ Drupal कंसोल कमाण्ड | विवरण
 [generate:doc:dash](generate-doc-dash.md) | डैश के लिए  DrupalConsole.docset पैकेज उत्पन्न करें
 [generate:doc:gitbook](generate-doc-gitbook.md) | कमाण्डो के लिए प्रलेखन उत्पन्न करें
 [generate:entity:bundle](generate-entity-bundle.md) | एक नया कंटेंट प्रकार उत्पन्न करें (नोड/एंटिटी बंडल)
-[generate:entity:config](generate-entity-config.md) | Generate a new config entity
-[generate:entity:content](generate-entity-content.md) | Generate a new content entity
+[generate:entity:config](generate-entity-config.md) | एक नया कॉन्फिग एंटिटि उत्पन्न करे
+[generate:entity:content](generate-entity-content.md) | एक नई कंटेंट एंटिटि बनाए
 [generate:event:subscriber](generate-event-subscriber.md) | एक घटना ग्राहक उत्पन्न करें
 [generate:form](generate-form.md) | एक नया FormBase उत्पन्न करें
 [generate:form:alter](generate-form-alter.md) | एक hook_form_alter() या hook_form_FORM_ID_alter कार्यान्वयन उत्पन्न करें
@@ -70,14 +70,14 @@ Drupal कंसोल कमाण्ड | विवरण
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | प्लगिन प्रकार युक्त अननोटेशन प्रकाशन उत्पन्न करें
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | प्लगिन प्रकार युक्त YAML प्रकाशन उत्पन्न करें
 [generate:plugin:views:field](generate-plugin-views-field.md) | विशेष प्लगिन व्यू खाना उत्पन्न करें
-[generate:profile](generate-profile.md) | Generate a profile.
-[generate:routesubscriber](generate-routesubscriber.md) | Generate a RouteSubscriber
+[generate:profile](generate-profile.md) | प्रोफाइल उत्पन्न करे.
+[generate:routesubscriber](generate-routesubscriber.md) | RouteSubscriber उत्पन्न करे.
 [generate:service](generate-service.md) | सर्विस उत्पन्न करें
 [generate:theme](generate-theme.md) | एक नया थीम उत्पन्न करें।
 **locale**  |
-[locale:language:add](locale-language-add.md) | Add a language to be supported by your site
-[locale:language:delete](locale-language-delete.md) | DElete a language to be supported by your site
-[locale:translation:status](locale-translation-status.md) | List available translation updates
+[locale:language:add](locale-language-add.md) | एक भाषा को जोड़े जो आप के साइट द्वारा सपोर्ट होना है
+[locale:language:delete](locale-language-delete.md) | आपकी साइट के द्वारा समर्थित एक भाषा को हटाएँ
+[locale:translation:status](locale-translation-status.md) | सूची उपलब्ध अनुवाद अपडेट
 **migrate**  |
 [migrate:debug](migrate-debug.md) | अनुप्रयोग के मौजूदा प्रवसन को दिखाएँ
 [migrate:execute](migrate-execute.md) | अनुप्रयोग के उपलब्ध प्रवसन को चलाएं
@@ -96,34 +96,41 @@ Drupal कंसोल कमाण्ड | विवरण
 **router**  |
 [router:debug](router-debug.md) | अनुप्रयोग के वर्तमान मार्गों को दिखाएँ
 [router:rebuild](router-rebuild.md) | अनुप्रयोग के मार्ग पथ को पुनर्निर्माण करें
+**settings**  |
+[settings:debug](settings-debug.md) | सेटिंग्स फाइल पर वर्तमान key:value दिखाता है।
 **site**  |
 [site:debug](site-debug.md) | सभी ज्ञात स्थानीय और दूरस्थ साइटों की सूची दें।
-[site:install](site-install.md) | Install a Drupal project
-[site:maintenance](site-maintenance.md) | साइट को अनुरक्षरण विधि में बदले
+[site:install](site-install.md) | एक Drupal परियोजना स्थापित करें
+[site:maintenance](site-maintenance.md) | साइट को मेंटेनेंस मोड में बदले
 [site:mode](site-mode.md) | प्रणाली की कार्य-निष्पादन व्यवस्था को बदलें
 [site:new](site-new.md) | एक नया Drupal परियोजना बनाएँ
 [site:status](site-status.md) | वर्तमान Drupal स्थापना के स्थिति को देखें
 **state**  |
-[state:debug](state-debug.md) | Show the current State keys.
-[state:override](state-override.md) | Show the current State keys.
+[state:debug](state-debug.md) | वर्तमान स्टेट कीस दिखाएँ।
+[state:override](state-override.md) | वर्तमान स्टेट कीस दिखाएँ।
 **test**  |
 [test:debug](test-debug.md) | अनुप्रयोग की सारी उपलब्ध परिक्षण यूनिटो को दिखाएँ।
 [test:run](test-run.md) | अनुप्रयोग के उपलब्ध परीक्षणों मे से परिक्षण यूनिट को चलायें
 **theme**  |
-[theme:debug](theme-debug.md) | Displays current themes for the application
-[theme:download](theme-download.md) | Download theme in application
-[theme:install](theme-install.md) | Install theme or themes in the application
-[theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application
+[theme:debug](theme-debug.md) | एप्लीकेशन के लिए वर्तमान थीम्स को प्रदर्शित करता है
+[theme:download](theme-download.md) | आवेदन में विषय डाउनलोड करे
+[theme:install](theme-install.md) | इंस्टॉल विषय या विषयों के आवेदन में
+[theme:uninstall](theme-uninstall.md) | विषय की स्थापना रद्द करें या विषयों के आवेदन में
+**translation**  |
+[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
+[translation:stats](translation-stats.md) | Generate translate stats
+[translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | अनुप्रयोग के उपलब्ध नवीनीकरणो को दिखाएँ
 [update:execute](update-execute.md) | मोड्यूल के किसी विशेष नवीनीकरण N फंक्शन को चलायें या सभी को चलायें।
 **user**  |
-[user:debug](user-debug.md) | Displays current users for the application
-[user:delete](user-delete.md) | Delete users for the application
+[user:debug](user-debug.md) | एप्लीकेशन के लिए करंट यूजरस को प्रदर्शित करता है
+[user:delete](user-delete.md) | एप्लीकेशन के लिए यूजरस को हटाये
 [user:login:clear:attempts](user-login-clear-attempts.md) | किसी अकाउंट की असफल लोगिन प्रयासो को साफ़ करें।
 [user:login:url](user-login-url.md) | एक बार काम करने वाली उपभोग्ता लोगिन URL देता है।
-[user:password:hash](user-password-hash.md) | सरल कूटशब्द से हैश उत्पन्न करें।
-[user:password:reset](user-password-reset.md) | किसी विशेष उपभोगता का कूटशब्द रिसेट करें
+[user:password:hash](user-password-hash.md) | सरल पासवर्ड से हैश उत्पन्न करें।
+[user:password:reset](user-password-reset.md) | किसी विशेष उपभोगता का पासवर्ड रिसेट करें
 **views**  |
 [views:debug](views-debug.md) | अनुप्रयोग के वर्तमान व्यूज साधनो को दिखाएँ
 [views:disable](views-disable.md) | एक व्यू बंद करें
@@ -145,15 +152,16 @@ Drupal कंसोल कमाण्ड | विवरण
 --ansi | ANSI परिणाम अनिवार्य करें
 --no-ansi | ANSI निगम अक्षम करें
 --no-interaction | कोई वार्तालाप प्रशन ना पूछें
---root | कमाण्ड चलाने के लिए Drupal रूट परिभाषित करें
 --env | पर्यावरण का नाम।
+--root | कमाण्ड चलाने के लिए Drupal रूट परिभाषित करें
 --no-debug | डिबग विधि को बंद कर देता है।
 --learning | शब्दबहुल कोड उत्पन्न करें।
 --generate-chain | निष्पादन विकल्प में प्रिंट और तर्क को YAML आउटपुट के रूप में श्रृंखला कमांड में इस्तेमाल किया जाएगा
 --generate-inline | निष्पादन विकल्प में प्रिंट और तर्क को इनलाइन कॉल के रूप में भविष्य में उपयोग किया जाएगा
---generate-doc | application.console.arguments.generate-doc
---target | application.console.arguments.target
---uri | URI of the Drupal site to use (for multisite environments or when running on an alternate port)
+--generate-doc | कमाण्ड विकल्पों और तर्क जैसा नीचे निशान
+--target | साइट का नाम आप (स्थानीय या दूरस्थ साइटों के लिए ) के साथ बातचीत करना चाहते हैं
+--uri | Drupal यूआरआई साइट का(एकाधिक वातावरण के लिए या एक वैकल्पिक port पर चलते समय ) का उपयोग करे
+--yes | Skip confirmation and proceed
 
 ## उपलब्ध तर्कों  
 तर्क | विवरण

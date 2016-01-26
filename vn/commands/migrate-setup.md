@@ -16,4 +16,4 @@ Tùy chọn | Các chi tiết
 --db-pass | Mật khẩu cơ sở dữ liệu
 --db-prefix | Tiền tố cơ sở dữ liệu
 --db-port | Cổng vào cơ sở dữ liệu
---files-directory | commands.migrate.setup.options.files-directory
+--files-directory | Files Directory

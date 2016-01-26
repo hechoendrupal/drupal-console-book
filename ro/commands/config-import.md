@@ -10,5 +10,5 @@ $ ci
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---file | commands.config.import.option.file
---remove-files | commands.config.import.option.keep-files
+--file | Calea către fișierul de configurare.
+--remove-files | Eliminați fișierele după sincronizare.

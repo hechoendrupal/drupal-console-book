@@ -10,5 +10,5 @@ $ sn
 ## 可用参数
 参数 | 详细
 ---------|-------------
-site-name | 站名
+directory | Directory when downloading Drupal
 version | 下载特定的Drupal版本

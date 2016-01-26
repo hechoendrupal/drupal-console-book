@@ -9,5 +9,5 @@ $ drupal user:delete [options]
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---user-id | commands.user.delete.options.user-id
---roles | commands.user.delete.options.roles
+--user-id | User id to be deleted
+--roles | Roles associated to users to be deleted

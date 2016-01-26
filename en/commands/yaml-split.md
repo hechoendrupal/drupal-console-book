@@ -13,8 +13,8 @@ Option | Details
 --indent-level | Split YAML file using a specific indent level
 --file-output-prefix | commands.yaml.split.options.file-output-prefix
 --file-output-suffix | commands.yaml.split.options.file-output-suffix
---starting-key | YAML Key from where start split useful to extract partial elements
---exclude-parents-key | Exclude parents key in file name generated
+--starting-key | YAML Key from where start split - useful to extract partial elements
+--exclude-parents-key | Exclude the "parents" key from the generated file
 
 ## Available arguments
 Argument | Details

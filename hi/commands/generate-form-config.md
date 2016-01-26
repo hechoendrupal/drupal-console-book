@@ -15,3 +15,7 @@ $ drupal generate:form:config [options]
 --services | सर्विसेज़ को container से लोड करें।
 --inputs | एक फॉर्म के लिए आदानो को बनाएँ।
 --routing | राउटिंग अवगत करें
+--menu_link_gen | commands.generate.form.options.menu_link_gen
+--menu_link_title | commands.generate.form.options.menu_link_title
+--menu_parent | commands.generate.form.options.menu_parent
+--menu_link_desc | commands.generate.form.options.menu_link_desc

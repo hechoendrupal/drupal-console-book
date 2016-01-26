@@ -1,5 +1,5 @@
 # server
-The **server** command Runs PHP built-in web server
+The **server** command PHP निर्मित वेब सर्वर चलायॆ
 
 **प्रयोग:**
 ```
@@ -9,18 +9,18 @@ $ drupal server [arguments]
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-address | The address:port values
+address | पता: पोर्ट मान
 
 ## उदाहरण
-* Run using default address argument value 127.0.0.1.8088
+* डिफ़ॉल्ट पता तर्क मूल्य का उपयोग करे 127.0.0.1.8088
 ```
-$ drupal server
+$ Drupal सर्वर
 ```
-* Passing address argument to use a different port number
+* पासिंग पता तर्क एक अलग पोर्ट नंबर का उपयोग करने के लिए
 ```
-$ drupal server 127.0.0.1:8089
+$ drupal सर्वर 127.0.0.1:8089
 ```
-* Running default address argument values, using --root option to define the Drupal root
+* डिफ़ॉल्ट पता तर्क मूल्यों चल रहा हे --root विकल्प का उपयोग Drupal के जड़ को परिभाषित करने के लिए
 ```
-$ drupal --root=/var/www/drupal8.dev server
+$ drupal --root=/var/www/drupal8.dev सर्वर
 ```

@@ -1,5 +1,5 @@
 # database:connect
-The **database:connect** command Launch a DB client if it's available
+The **database:connect** command लॉन्च एक DB क्लाइंट अगर यह उपलब्ध है
 
 **प्रयोग:**
 ```
@@ -9,4 +9,4 @@ $ drupal database:connect [arguments]
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-database | Database key from settings.php
+database | Settings.php से डाटाबेस कुंज

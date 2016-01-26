@@ -1,5 +1,5 @@
 # config:export
-The **config:export** command Export current application configuration.
+The **config:export** command मौजूदा एप्लीकेशन कॉन्फ़िगरेशन एक्सपोर्ट करे।
 
 **प्रयोग:**
 ```

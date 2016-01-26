@@ -11,4 +11,4 @@ $ upe
 तर्क | विवरण
 ---------|-------------
 module | मोड्यूल का नाम।
-update-n | Specific Update N function to be executed
+update-n | विशिष्ट अपडेट N फंक्शन एक्सेक्युट किया जाना

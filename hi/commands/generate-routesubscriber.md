@@ -1,5 +1,5 @@
 # generate:routesubscriber
-The **generate:routesubscriber** command Generate a RouteSubscriber
+The **generate:routesubscriber** command RouteSubscriber उत्पन्न करे.
 
 **प्रयोग:**
 ```
@@ -10,5 +10,5 @@ $ drupal generate:routesubscriber [options]
 विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
---name | Service name
---class | Class name
+--name | सेवा का नाम
+--class | कक्षा का नाम

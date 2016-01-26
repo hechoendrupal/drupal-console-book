@@ -1,5 +1,5 @@
 # database:table:drop
-The **database:table:drop** command commands.database.table.drop.description
+The **database:table:drop** command एक दिए गए डेटाबेस में सभी टेबल्स ड्राप।
 
 **प्रयोग:**
 ```
@@ -9,4 +9,4 @@ $ drupal database:table:drop [arguments]
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-database | commands.database.table.drop.arguments.database
+database | Settings.php से डाटाबेस कुंज

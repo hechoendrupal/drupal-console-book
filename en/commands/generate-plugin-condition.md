@@ -15,4 +15,4 @@ Option | Details
 --plugin-id | Plugin condition id
 --context-definition-id | Context definition ID
 --context-definition-label | Context definition label
---context-definition-required | Context definition is requiered (TRUE/FALSE)
+--context-definition-required | Context definition is required (TRUE/FALSE)

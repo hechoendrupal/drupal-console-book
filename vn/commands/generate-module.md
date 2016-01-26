@@ -16,6 +16,7 @@ Tùy chọn | Các chi tiết
 --description | Mô tả module
 --core | Phiên bản Core
 --package | Module package
+--module-file | Add a .module file
 --feature | Thiết lập module tương thích với Features module
 --composer | Thêm một file composer.json
 --dependencies | Sự phụ thuộc của module chia ra bởi dấu phẩy (ví dụ context, panels)

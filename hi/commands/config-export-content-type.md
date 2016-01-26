@@ -1,5 +1,5 @@
 # config:export:content:type
-The **config:export:content:type** command किसी विशेष कंटेंट प्रकार और उनके खानो का निर्यात करें।
+The **config:export:content:type** command किसी विशेष कंटेंट टाइप और उनके खानो का एक्सपोर्ट करें।
 
 **प्रयोग:**
 ```
@@ -11,9 +11,9 @@ $ cect
 विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
---optional-config | ऐच्छिक YAML व्यवस्था स्वरूप मॉड्यूल में कंटेंट प्रकार निर्यात करें
+--optional-config | ऐच्छिक YAML कॉन्फिग स्वरूप मॉड्यूल में कंटेंट टाइप निर्यात करें
 
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-content-type | Content Type to be exported
+content-type | कंटेंट टाइप एक्सपोर्ट किए जाये

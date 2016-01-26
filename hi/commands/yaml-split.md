@@ -10,11 +10,11 @@ $ ys
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---indent-level | Split YAML file using a specific indent level
+--indent-level | YAML फ़ाइल का विभाजन एक विशिष्ट मांगपत्र स्तर पर करे
 --file-output-prefix | commands.yaml.split.options.file-output-prefix
 --file-output-suffix | commands.yaml.split.options.file-output-suffix
---starting-key | YAML Key from where start split useful to extract partial elements
---exclude-parents-key | Exclude parents key in file name generated
+--starting-key | YAML मौलिक जहां से आंशिक तत्वों को निकालने के लिए उपयोगी विभाजन शुरू हे
+--exclude-parents-key | उत्पन्न फ़ाइल नाम में मौलिक को बाहर निकालें
 
 ## उपलब्ध तर्कों  
 तर्क | विवरण

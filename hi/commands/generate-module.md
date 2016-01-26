@@ -16,6 +16,7 @@ $ gm
 --description | मोड्यूल का विवरण
 --core | मूल संस्करण
 --package | मोड्यूल पैकेज
+--module-file | Add a .module file
 --feature | मोड्यूल को फीचर्स मोड्यूल के उपयुक्त बनाएं
 --composer | composer.json फाइल डालें
 --dependencies | मोड्यूल निर्भरता को अल्पविराम से विभाजित करें (अथवा context, panels)

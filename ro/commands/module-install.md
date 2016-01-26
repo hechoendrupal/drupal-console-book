@@ -9,9 +9,9 @@ $ drupal module:install [arguments] [options]
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---overwrite-config | Suprascrie configurările active dacă este necesar.
+--latest | Default to download most recent version
 
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-module | Modulul/Modulele trebuie sa fie separate prin virgula
+module | Module or modules to be enabled should be separated by a space

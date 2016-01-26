@@ -1,5 +1,5 @@
 # database:restore
-The **database:restore** command Restore structure and contents of MySQL databases and tables
+The **database:restore** command MYSQL डाटाबेस और टेबल्स ले कंटेंट और संरचना को रिस्टोर करे
 
 **प्रयोग:**
 ```
@@ -9,9 +9,9 @@ $ drupal database:restore [arguments] [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---file | The filename for your database backup file
+--file | अपने डेटाबेस बैकअप फ़ाइल के लिए फ़ाइल नाम
 
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-database | Database key from settings.php
+database | Settings.php से डाटाबेस कुंजी

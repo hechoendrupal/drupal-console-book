@@ -18,5 +18,5 @@ $ yd
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-yaml-left | YAML file used as base to compare
-yaml-right | YAML file used to determine missing or differences with base YAML file
+yaml-left | YAML तुलना करने के लिए आधार के रूप में इस्तेमाल किया जाता हे
+yaml-right | YAML फाइल गायब या आधार YAML फ़ाइल के साथ मतभेदों को निर्धारित करने के लिए प्रयोग किया जाता है

@@ -25,10 +25,10 @@ Comando de Drupal Console | Detalles
 **container**  |
 [container:debug](container-debug.md) | Muestra los servicios actuales de la aplicación.
 **create**  |
-[create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
-[create:terms](create-terms.md) | Create dummy terms for your Drupal 8 application.
-[create:users](create-users.md) | Create dummy vocabularies for your Drupal 8 application.
-[create:vocabularies](create-vocabularies.md) | Create dummy vocabularies for your Drupal 8 application.
+[create:nodes](create-nodes.md) | Crea nodos de relleno para su Drupal 8.
+[create:terms](create-terms.md) | Crea términos de relleno para tu Drupal 8.
+[create:users](create-users.md) | Crea usuarios de prueba para tu Drupal 8.
+[create:vocabularies](create-vocabularies.md) | Crea vocabularios de prueba para tu Drupal 8.
 **cron**  |
 [cron:debug](cron-debug.md) | Listado de módulos que implementan una llamada al cron
 [cron:execute](cron-execute.md) | Ejecutar implementación de cron desde un módulo específico o todos para ejecutar todas las implementaciones
@@ -40,8 +40,8 @@ Comando de Drupal Console | Detalles
 [database:log:clear](database-log-clear.md) | Eliminar eventos de la tabla DBLog, filtros disponibles
 [database:log:debug](database-log-debug.md) | Desplegar eventos registrados al momento para la aplicación
 [database:restore](database-restore.md) | Restaurar la estructura y los contenidos de bases de datos y tablas MySQL
-[database:table:debug](database-table-debug.md) | commands.database.table.debug.description
-[database:table:drop](database-table-drop.md) | commands.database.table.drop.description
+[database:table:debug](database-table-debug.md) | Muestra todas las tablas de una base de datos dada.
+[database:table:drop](database-table-drop.md) | Elimina todas las tablas de una base de datos dada.
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generar un Proveedor de Autenticación
 [generate:command](generate-command.md) | Genera un comando para la consola.
@@ -96,6 +96,8 @@ Comando de Drupal Console | Detalles
 **router**  |
 [router:debug](router-debug.md) | Muestra las rutas actuales de la aplicación
 [router:rebuild](router-rebuild.md) | Reconstruye las rutas de la aplicación
+**settings**  |
+[settings:debug](settings-debug.md) | Displays current key:value on settings file.
 **site**  |
 [site:debug](site-debug.md) | Enlista todos los sitios, locales y remotos, conocidos.
 [site:install](site-install.md) | Instala un proyecto Drupal
@@ -114,12 +116,17 @@ Comando de Drupal Console | Detalles
 [theme:download](theme-download.md) | Descarga un tema para la aplicación
 [theme:install](theme-install.md) | Instalar tema o temas en la aplicación
 [theme:uninstall](theme-uninstall.md) | Desinstalar tema o temas en la aplicación
+**translation**  |
+[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
+[translation:stats](translation-stats.md) | Generate translate stats
+[translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | Muestra las actualizaciones actualmente disponibles para la aplicación
 [update:execute](update-execute.md) | Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos
 **user**  |
-[user:debug](user-debug.md) | Displays current users for the application
-[user:delete](user-delete.md) | Delete users for the application
+[user:debug](user-debug.md) | Muestra los usuarios actuales del sitio
+[user:delete](user-delete.md) | Eliminar usuarios del sitio
 [user:login:clear:attempts](user-login-clear-attempts.md) | Limpia intentos de inicio de sesión fallidos para una cuenta.
 [user:login:url](user-login-url.md) | Crea una url de login de usuario de uso único.
 [user:password:hash](user-password-hash.md) | Crea un hash a partir de una contraseña en texto plano.
@@ -145,15 +152,16 @@ Opción | Detalles
 --ansi | Forzar salida ANSI
 --no-ansi | Deshabilitar salida ANSI
 --no-interaction | No hacer ninguna pregunta interactiva
---root | Define la raíz de Drupal que se utilizará en la ejecución de los comandos
 --env | Nombre del ambiente.
+--root | Define la raíz de Drupal que se utilizará en la ejecución de los comandos
 --no-debug | Desactivar el modo de depuración.
 --learning | Generar código con explicaciones.
 --generate-chain | Imprimir opciones y argumentos como YAML para ser usado el comando chain
 --generate-inline | Imprimir opciones y argumentos de ejecución como llamada inline para ser usados en el futuro
---generate-doc | application.console.arguments.generate-doc
---target | application.console.arguments.target
+--generate-doc | Shows command options and arguments as markdown
+--target | Site name you want to interact with (for local or remote sites)
 --uri | URI del sitio en Drupal que se usará (para ambientes en multi-site o cuando esta usando un puerto alternativo)
+--yes | Skip confirmation and proceed
 
 ## Argumentos disponibles
 Argumento | Detalles

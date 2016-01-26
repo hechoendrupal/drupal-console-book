@@ -1,5 +1,5 @@
 # database:table:debug
-The **database:table:debug** command commands.database.table.debug.description
+The **database:table:debug** command एक दिए गए डेटाबेस में सभी टेबल्स दिखाएँ.
 
 **प्रयोग:**
 ```
@@ -9,4 +9,4 @@ $ drupal database:table:debug [arguments]
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-database | commands.database.table.debug.arguments.database
+database | Settings.php से डाटाबेस कुंज

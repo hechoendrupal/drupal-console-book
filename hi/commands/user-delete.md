@@ -1,5 +1,5 @@
 # user:delete
-The **user:delete** command Delete users for the application
+The **user:delete** command एप्लीकेशन के लिए यूजरस को हटाये
 
 **प्रयोग:**
 ```
@@ -9,5 +9,5 @@ $ drupal user:delete [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---user-id | User id to be deleted
---roles | Roles associated to users to be deleted
+--user-id | यूजर आईडी हटाया जाना है
+--roles | यूजरस के लिए एसोसिएटेड रोल्स को हटाए जाना है

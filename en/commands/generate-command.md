@@ -11,6 +11,6 @@ $ gcm
 Option | Details
 -------|-------------
 --module | The Module name.
---class | The Class that describes the command. (Must end with the word 'Commmand').
+--class | The Class that describes the command. (Must end with the word 'Command').
 --name | The Command name.
 --container-aware | Is the command aware of the drupal site installation when executed

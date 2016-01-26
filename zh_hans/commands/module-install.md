@@ -9,9 +9,9 @@ $ drupal module:install [arguments] [options]
 ## 可用选项
 选项 | 详细
 -------|-------------
---overwrite-config | 覆写配置
+--latest | Default to download most recent version
 
 ## 可用参数
 参数 | 详细
 ---------|-------------
-module | 一个或多个模块，模块之间使用逗号分隔
+module | Module or modules to be enabled should be separated by a space

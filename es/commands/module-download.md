@@ -3,12 +3,16 @@ El comando **module:download** Descarga un módulo o varios en la aplicación
 
 **Uso:**
 ```
-$ drupal module:download [arguments] 
+$ drupal module:download [arguments] [options] 
 $ md  
 ```
+
+## Opciones disponibles
+Opción | Detalles
+-------|-------------
+--latest | Default to download most recent version
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-module | commands.module.download.options.module
-version | Versión del módulo. Por ejemplo: 1.x-dev
+module | Module or modules to be enabled should be separated by a space

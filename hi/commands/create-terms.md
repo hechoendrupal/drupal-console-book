@@ -1,5 +1,5 @@
 # create:terms
-The **create:terms** command Create dummy terms for your Drupal 8 application.
+The **create:terms** command अपने Drupal 8 एप्लीकेशन के लिए डमी टर्म्ज़ बनाएँ।
 
 **प्रयोग:**
 ```
@@ -9,10 +9,10 @@ $ drupal create:terms [arguments] [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---limit | How many terms would you like to create
---name-words | Maximum number of words in term names
+--limit | आप कितने टर्म्ज़ बनाना चाहते हैं
+--name-words | टर्म नेम्स में शब्दों की अधिकतम संख्या
 
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-vocabularies | Vocabularie(s) to be used in terms creation
+vocabularies | टर्म्ज़ के निर्माण में प्रयोग की जाने वाली वोकेबुलरी(स)

@@ -117,8 +117,10 @@ Comanda Consolei Drupal | Detalii
 [theme:install](theme-install.md) | Instalează tema sau temele în aplicație
 [theme:uninstall](theme-uninstall.md) | Dezinstalează tema sau temele din aplicație
 **translation**  |
-[translation:pending](translation-pending.md) | commands.translation.pending.description
-[translation:stats](translation-stats.md) | commands.translation.stats.description
+[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
+[translation:stats](translation-stats.md) | Generate translate stats
+[translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | Afişează actualizările disponibile pentru aplicaţie.
 [update:execute](update-execute.md) | Execută o funcţie specifică Update N dintr-un modul sau execută-le pe toate

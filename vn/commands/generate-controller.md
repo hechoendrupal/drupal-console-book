@@ -12,8 +12,6 @@ Tùy chọn | Các chi tiết
 -------|-------------
 --module | Tên module.
 --class | Tên lớp của trình điều khiển
---title | Tiêu đề của trình điều khiển
---method | Tên phương pháp thực hiện
---route | Đường dẫn
+--routes | The routes, must be an array containing [title, method, path]
 --services | Nạp các dịch vụ từ container.
 --test | Tạo một lớp thử nghiệm

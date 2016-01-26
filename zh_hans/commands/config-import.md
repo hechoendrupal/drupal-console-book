@@ -10,5 +10,5 @@ $ ci
 ## 可用选项
 选项 | 详细
 -------|-------------
---file | commands.config.import.option.file
---remove-files | commands.config.import.option.keep-files
+--file | 配置文件路径.
+--remove-files | 同步化后删除文件.

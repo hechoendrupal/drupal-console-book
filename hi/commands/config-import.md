@@ -10,5 +10,5 @@ $ ci
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---file | commands.config.import.option.file
---remove-files | commands.config.import.option.keep-files
+--file | विन्यास फ़ाइल पथ।
+--remove-files | Syncronization के बाद फ़ाइलें निकालें।

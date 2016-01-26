@@ -12,8 +12,6 @@ $ gcn
 -------|-------------
 --module | 模块名称
 --class | 控制器类名
---title | Title of the controller
---method | The action method name
---route | 路由路径
+--routes | The routes, must be an array containing [title, method, path]
 --services | 从容器中导入服务
 --test | 生成一个测试类

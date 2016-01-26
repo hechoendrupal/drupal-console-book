@@ -116,6 +116,11 @@ Drupal Console 命令 | 详细
 [theme:download](theme-download.md) | 下载主题
 [theme:install](theme-install.md) | 安装主题
 [theme:uninstall](theme-uninstall.md) | 卸载程序的一个或多个外观主题
+**translation**  |
+[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
+[translation:stats](translation-stats.md) | Generate translate stats
+[translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | 显示目前有的程序更新
 [update:execute](update-execute.md) | 执行的给出的某个模块的更新程序或者执行所有的更新程序

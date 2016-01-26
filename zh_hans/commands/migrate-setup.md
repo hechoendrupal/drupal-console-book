@@ -16,4 +16,4 @@ $ drupal migrate:setup [options]
 --db-pass | 数据库密码
 --db-prefix | 数据库前缀
 --db-port | 数据库端口
---files-directory | commands.migrate.setup.options.files-directory
+--files-directory | Files Directory

@@ -1,5 +1,5 @@
 # theme:install
-The **theme:install** command Install theme or themes in the application
+The **theme:install** command इंस्टॉल विषय या विषयों के आवेदन में
 
 **प्रयोग:**
 ```
@@ -10,7 +10,7 @@ $ ti
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---set-default | Set theme as default theme
+--set-default | डिफ़ॉल्ट विषय के रूप में विषय सेट करे
 
 ## उपलब्ध तर्कों  
 तर्क | विवरण

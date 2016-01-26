@@ -116,6 +116,11 @@ Comando Drupal Console | Detalhes
 [theme:download](theme-download.md) | Baixar um tema para a aplicação
 [theme:install](theme-install.md) | Instalar tema(s) na aplicação
 [theme:uninstall](theme-uninstall.md) | Desinstalar tema(s) da aplicação
+**translation**  |
+[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
+[translation:stats](translation-stats.md) | Generate translate stats
+[translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | Exibir atualizações necessários para a aplicação
 [update:execute](update-execute.md) | Executar uma função especifica de atualização (Update N) de um módulo especifico, ou executar todas

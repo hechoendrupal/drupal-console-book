@@ -1,5 +1,5 @@
 # generate:entity:config
-The **generate:entity:config** command Generate a new config entity
+The **generate:entity:config** command एक नया कॉन्फिग एंटिटि उत्पन्न करे
 
 **प्रयोग:**
 ```
@@ -11,7 +11,7 @@ $ gecg
 विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
---entity-class | The config entity class
---entity-name | The config entity name
---label | The label
---bundle-of | Acts as bundle for content entities
+--entity-class | कॉन्फिग इकाई वर्ग
+--entity-name | कॉन्फिग इकाई नाम
+--label | लेबल
+--bundle-of | कंटेंट एंटिटि के लिए बंडल के रूप में कार्य करता है    

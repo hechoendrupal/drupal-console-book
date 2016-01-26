@@ -1,5 +1,5 @@
 # database:log:debug
-The **database:log:debug** command Display current log events for the application
+The **database:log:debug** command एप्लीकेशन के लिए वर्तमान लॉग इवेंट्स को प्रदर्शित करे
 
 **प्रयोग:**
 ```
@@ -9,14 +9,14 @@ $ drupal database:log:debug [arguments] [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---type | Filter events by a specific type
---severity | Filter events by a specific level of severity
---user-id | Filter events by a specific user id
---reverse | Reverse the order of events
---limit | Limit results to a specific number
---offset | Starting point of a limit
+--type | एक विशिष्ट टाइप द्वारा इवेंट्स फ़िल्टर
+--severity | गंभीरता का एक विशिष्ट स्तर द्वारा फ़िल्टर इवेंट्स
+--user-id | एक विशिष्ट यूजर आईडी के आधार पर फ़िल्टर इवेंट्स
+--reverse | इवेंट्स के कमांड रिवर्स
+--limit | एक विशिष्ट संख्या को सीमा परिणाम
+--offset | एक सीमा का शुरूआती पॉइंट्स
 
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-event-id | DBLog event ID
+event-id | DBLog इवेंट आईडी

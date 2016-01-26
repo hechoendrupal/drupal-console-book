@@ -10,5 +10,5 @@ $ ci
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---file | commands.config.import.option.file
---remove-files | commands.config.import.option.keep-files
+--file | Ruta al archivo de configuración.
+--remove-files | Remover archivos luego de la sincronización.
