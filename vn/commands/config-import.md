@@ -10,5 +10,5 @@ $ ci
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---file | commands.config.import.option.file
---remove-files | commands.config.import.option.keep-files
+--file | Cấu hình đường dẫn file
+--remove-files | Xoá file sau khi đồng bộ.

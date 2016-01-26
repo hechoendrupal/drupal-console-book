@@ -10,5 +10,5 @@ $ ci
 ## Available options
 Option | Details
 -------|-------------
---file | commands.config.import.option.file
---remove-files | commands.config.import.option.keep-files
+--file | Configuration file path.
+--remove-files | Remove files after synchronization.

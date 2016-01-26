@@ -1,5 +1,5 @@
 # site:maintenance
-The **site:maintenance** command साइट को अनुरक्षरण विधि में बदले
+The **site:maintenance** command साइट को मेंटेनेंस मोड में बदले
 
 **प्रयोग:**
 ```
@@ -10,4 +10,4 @@ $ sma
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-mode | साइट अनुरक्षरण विधि[on/off]
+mode | साइट मेंटेनेंस मोड[on/off]

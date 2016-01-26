@@ -16,3 +16,4 @@ Opção | Detalhes
 --db-pass | Database Pass
 --db-prefix | Database Prefix
 --db-port | Database Port
+--files-directory | Files Directory

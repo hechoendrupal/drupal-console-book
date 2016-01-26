@@ -9,9 +9,9 @@ $ drupal module:install [arguments] [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---overwrite-config | यदि आवश्यक हो तो सक्रिय ओवरराइट विन्यास
+--latest | Default to download most recent version
 
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-module | चालू करने वाले मोड्यूल या मोड्यूलो को अल्पविराम से विभाजित करें
+module | Module or modules to be enabled should be separated by a space

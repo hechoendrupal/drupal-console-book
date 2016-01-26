@@ -19,7 +19,7 @@ Option | Details
 --no-ansi | Disable ANSI output
 --no-interaction | Do not ask any interactive question
 --env | The Environment name
---root | Define the Drupal root to be use in command execution
+--root | Define the Drupal root to be used in command execution
 --no-debug | Switches off debug mode
 --learning | Generate a verbose code output
 --generate-chain | Shows command options and arguments as yaml output to be used in chain command

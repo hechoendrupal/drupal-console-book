@@ -10,5 +10,5 @@ $ ym
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-yaml-destination | Path of new YAML file to store result of merge.
-yaml-files | Path of YAML files to merge
+yaml-destination | YAML फ़ाइलें का पथ परिणाम स्टोर करने के लिए
+yaml-files | YAML फ़ाइलें का पथ प्रदान करे के लिए

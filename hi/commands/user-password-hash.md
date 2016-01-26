@@ -1,5 +1,5 @@
 # user:password:hash
-The **user:password:hash** command सरल कूटशब्द से हैश उत्पन्न करें।
+The **user:password:hash** command सरल पासवर्ड से हैश उत्पन्न करें।
 
 **प्रयोग:**
 ```
@@ -10,4 +10,4 @@ $ usph
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-password | Password(s) in text format
+password | पासवर्ड(स) टेक्स्ट फॉर्मेट में

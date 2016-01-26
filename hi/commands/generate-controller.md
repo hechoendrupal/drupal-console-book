@@ -12,8 +12,6 @@ $ gcn
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | कंट्रोलर क्लास का नाम
---title | Title of the controller
---method | The action method name
---route | मार्ग
+--routes | मार्गों युक्त एक सरणी होना चाहिए [शीर्षक, विधि, पथ]
 --services | सर्विसेज़ को container से लोड करें।
 --test | एक परिक्षण क्लास उत्पन्न करें

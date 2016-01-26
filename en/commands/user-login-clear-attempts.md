@@ -1,5 +1,5 @@
 # user:login:clear:attempts
-The **user:login:clear:attempts** command Clear login failed attempts for an account.
+The **user:login:clear:attempts** command Clear failed login attempts for an account.
 
 **Usage:**
 ```

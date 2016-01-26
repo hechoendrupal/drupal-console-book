@@ -1,5 +1,5 @@
 # create:nodes
-El comando **create:nodes** Create dummy nodes for your Drupal 8 application.
+El comando **create:nodes** Crea nodos de relleno para su Drupal 8.
 
 **Uso:**
 ```
@@ -16,4 +16,4 @@ Opción | Detalles
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-content-types | Content type(s) to be used in node creation
+content-types | Tipo(s) de contenido que desea generar

@@ -1,5 +1,5 @@
 # theme:download
-The **theme:download** command Download theme in application
+The **theme:download** command आवेदन में विषय डाउनलोड करे
 
 **प्रयोग:**
 ```
@@ -11,4 +11,4 @@ $ td
 तर्क | विवरण
 ---------|-------------
 theme | commands.theme.download.options.theme
-version | Theme version i.e 1.x-dev
+version | थीम संस्करण अर्थात् 1.x-dev

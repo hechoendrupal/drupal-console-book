@@ -3,12 +3,16 @@
 
 **Folosire:**
 ```
-$ drupal module:download [arguments] 
+$ drupal module:download [arguments] [options] 
 $ md  
 ```
+
+## Opțiuni disponibile
+Opțiune | Detalii
+-------|-------------
+--latest | Default to download most recent version
 
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-module | commands.module.download.options.module
-version | Versiunea modulului (ex.: 1.x-dev)
+module | Module or modules to be enabled should be separated by a space

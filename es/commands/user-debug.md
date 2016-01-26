@@ -1,5 +1,5 @@
 # user:debug
-El comando **user:debug** Displays current users for the application
+El comando **user:debug** Muestra los usuarios actuales del sitio
 
 **Uso:**
 ```
@@ -9,5 +9,5 @@ $ drupal user:debug [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---roles | Roles to filter debug
---limit | How many users would you listed in debug
+--roles | Indique los roles con los que filtrar el listado de usuarios
+--limit | Cuántos usuarios le gustaría listar

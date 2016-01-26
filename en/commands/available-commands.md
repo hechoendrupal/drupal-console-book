@@ -116,13 +116,18 @@ Drupal Console Command | Details
 [theme:download](theme-download.md) | Download theme in application
 [theme:install](theme-install.md) | Install theme or themes in the application
 [theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application
+**translation**  |
+[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
+[translation:stats](translation-stats.md) | Generate translate stats
+[translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | Display current updates available for the application
 [update:execute](update-execute.md) | Execute a specific Update N function in a module, or execute all
 **user**  |
 [user:debug](user-debug.md) | Displays current users for the application
 [user:delete](user-delete.md) | Delete users for the application
-[user:login:clear:attempts](user-login-clear-attempts.md) | Clear login failed attempts for an account.
+[user:login:clear:attempts](user-login-clear-attempts.md) | Clear failed login attempts for an account.
 [user:login:url](user-login-url.md) | Returns a one-time user login url.
 [user:password:hash](user-password-hash.md) | Generate a hash from a plaintext password.
 [user:password:reset](user-password-reset.md) | Reset password for a specific user.
@@ -132,7 +137,7 @@ Drupal Console Command | Details
 [views:enable](views-enable.md) | Enable a View
 **yaml**  |
 [yaml:diff](yaml-diff.md) | Compare two YAML files in order to find differences between them.
-[yaml:merge](yaml-merge.md) | Merge one or more YAML files in a new YAML file. Latest values are preserved.
+[yaml:merge](yaml-merge.md) | Merge two or more YAML files in a new YAML file. Latest values are preserved.
 [yaml:split](yaml-split.md) | Split a YAML file using indent as separator criteria
 [yaml:update:key](yaml-update-key.md) | Replace a YAML key in a YAML file.
 [yaml:update:value](yaml-update-value.md) | Update a value for a specific key in a YAML file.
@@ -148,7 +153,7 @@ Option | Details
 --no-ansi | Disable ANSI output
 --no-interaction | Do not ask any interactive question
 --env | The Environment name
---root | Define the Drupal root to be use in command execution
+--root | Define the Drupal root to be used in command execution
 --no-debug | Switches off debug mode
 --learning | Generate a verbose code output
 --generate-chain | Shows command options and arguments as yaml output to be used in chain command

@@ -9,9 +9,9 @@ $ drupal module:install [arguments] [options]
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---overwrite-config | Overwrite configuration active if necessary
+--latest | Default to download most recent version
 
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-module | Module or modules to be enabled should be separated by a comma
+module | Module or modules to be enabled should be separated by a space

@@ -9,7 +9,7 @@ $ drupal module:install [arguments] [options]
 ## Available options
 Option | Details
 -------|-------------
---overwrite-config | Overwrite configuration active if necessary
+--latest | Default to download most recent version
 
 ## Available arguments
 Argument | Details

@@ -9,4 +9,4 @@ $ drupal init [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---override | Override configurations files
+--override | विन्यास फाइलों ओवरराइड करे

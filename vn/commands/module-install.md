@@ -9,9 +9,9 @@ $ drupal module:install [arguments] [options]
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---overwrite-config | Ghi đè phần thiết lập nếu cần thiết
+--latest | Default to download most recent version
 
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-module | Module hoặc các module được bật cần được chia ra bằng dấu phẩy
+module | Module or modules to be enabled should be separated by a space

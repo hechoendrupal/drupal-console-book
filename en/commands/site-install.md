@@ -11,8 +11,8 @@ $ si
 Option | Details
 -------|-------------
 --langcode | Drupal language
---db-type | Drupal Database type to be use in install
---db-file | Drupal Database file to be use in install
+--db-type | Drupal Database type to be used in install
+--db-file | Drupal Database file to be used in install
 --db-host | Database Host
 --db-name | Database Name
 --db-user | Database User
@@ -28,4 +28,4 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-profile | Drupal Profile to be install
+profile | Drupal Profile to be installed

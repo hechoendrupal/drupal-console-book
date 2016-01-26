@@ -1,5 +1,5 @@
 # generate:entity:content
-The **generate:entity:content** command Generate a new content entity
+The **generate:entity:content** command एक नई कंटेंट एंटिटि बनाए
 
 **प्रयोग:**
 ```
@@ -11,7 +11,7 @@ $ gect
 विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
---entity-class | The content entity class
---entity-name | The content entity name
---label | The label
---has-bundles | Entity has bundles
+--entity-class | कंटेंट एंटिटि कक्षा
+--entity-name | कंटेंट एंटिटि नाम
+--label | लेबल
+--has-bundles | एंटिटि मॆ बंडल हे

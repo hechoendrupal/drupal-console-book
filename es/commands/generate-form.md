@@ -15,3 +15,7 @@ Opción | Detalles
 --services | Cargar servicios desde el contenedor.
 --inputs | Crear campos de entrada en un formulario.
 --routing | Actualizar la ruta
+--menu_link_gen | commands.generate.form.options.menu_link_gen
+--menu_link_title | commands.generate.form.options.menu_link_title
+--menu_parent | commands.generate.form.options.menu_parent
+--menu_link_desc | commands.generate.form.options.menu_link_desc

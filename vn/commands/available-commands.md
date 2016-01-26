@@ -116,6 +116,11 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [theme:download](theme-download.md) | Tải xuống theme trong ứng dụng
 [theme:install](theme-install.md) | Cài đặt theme hoặc các themes trong ứng dụng
 [theme:uninstall](theme-uninstall.md) | Gỡ cài đặt theme hay các themes trong ứng dụng
+**translation**  |
+[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
+[translation:stats](translation-stats.md) | Generate translate stats
+[translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | Hiển thị các cập nhật có sẵn cho ứng dụng
 [update:execute](update-execute.md) | Tiến hành một hàm cụ thể cập nhật N trong một module, hoặc tiến hành tất cả

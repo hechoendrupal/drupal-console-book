@@ -10,5 +10,5 @@ $ sn
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-site-name | Nombre del sitio
+directory | Directory when downloading Drupal
 version | Versión específica de Drupal a descargar

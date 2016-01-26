@@ -1,5 +1,5 @@
 # user:password:reset
-The **user:password:reset** command किसी विशेष उपभोगता का कूटशब्द रिसेट करें
+The **user:password:reset** command किसी विशेष उपभोगता का पासवर्ड रिसेट करें
 
 **प्रयोग:**
 ```
@@ -10,5 +10,5 @@ $ uspr
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-user | User ID
-password | कूटशब्द टेक्स्ट फॉरमेट में
+user | यूजर आईडी
+password | पासवर्ड टेक्स्ट फॉरमेट में

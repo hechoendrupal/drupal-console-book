@@ -1,5 +1,5 @@
 # state:override
-The **state:override** command Show the current State keys.
+The **state:override** command वर्तमान स्टेट कीस दिखाएँ।
 
 **प्रयोग:**
 ```
@@ -9,5 +9,5 @@ $ drupal state:override [arguments]
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-key | The State key to override.
-value | The State value to set.
+key | स्थिति की मौलिक को ओवरराइड करे
+value | स्थिति की मूल्य को ओवरराइड करे

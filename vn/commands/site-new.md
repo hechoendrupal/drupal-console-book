@@ -10,5 +10,5 @@ $ sn
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-site-name | Tên site
+directory | Directory when downloading Drupal
 version | Phiên bản cụ thể của Drupal để tải xuống

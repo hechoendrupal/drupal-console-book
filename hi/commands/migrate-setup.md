@@ -16,3 +16,4 @@ $ drupal migrate:setup [options]
 --db-pass | डेटाबेस पासवर्ड
 --db-prefix | डेटाबेस उपसर्ग
 --db-port | डेटाबेस पोर्ट
+--files-directory | Files Directory

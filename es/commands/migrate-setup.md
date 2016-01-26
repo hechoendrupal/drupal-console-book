@@ -16,3 +16,4 @@ Opción | Detalles
 --db-pass | Contraseña de base de datos
 --db-prefix | Prefijo de base de datos
 --db-port | Puerto
+--files-directory | Files Directory

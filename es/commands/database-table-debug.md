@@ -1,5 +1,5 @@
 # database:table:debug
-El comando **database:table:debug** commands.database.table.debug.description
+El comando **database:table:debug** Muestra todas las tablas de una base de datos dada.
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal database:table:debug [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-database | commands.database.table.debug.arguments.database
+database | Índice de la base de datos del settings.php

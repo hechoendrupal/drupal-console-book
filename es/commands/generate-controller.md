@@ -12,8 +12,6 @@ Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase del controlador
---title | Título del controlador
---method | El nombre del método de acción
---route | El directorio de la ruta
+--routes | The routes, must be an array containing [title, method, path]
 --services | Cargar servicios desde el contenedor.
 --test | Generar una clase de prueba

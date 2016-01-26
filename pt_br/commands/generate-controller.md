@@ -12,8 +12,6 @@ Opção | Detalhes
 -------|-------------
 --module | O nome do módulo.
 --class | Nome da classe do Controller
---title | Title of the controller
---method | The action method name
---route | O caminho da rota
+--routes | The routes, must be an array containing [title, method, path]
 --services | Carrega serviços do container.
 --test | Criar uma classe de teste

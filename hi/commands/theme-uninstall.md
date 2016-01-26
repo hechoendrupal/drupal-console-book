@@ -1,5 +1,5 @@
 # theme:uninstall
-The **theme:uninstall** command Uninstall theme or themes in the application
+The **theme:uninstall** command विषय की स्थापना रद्द करें या विषयों के आवेदन में
 
 **प्रयोग:**
 ```

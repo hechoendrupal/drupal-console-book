@@ -15,4 +15,4 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-vocabularies | Vocabularie(s) to be used in terms creation
+vocabularies | Vocabulary(s) to be used in terms creation

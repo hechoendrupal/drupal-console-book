@@ -1,5 +1,5 @@
 # create:users
-The **create:users** command Create dummy vocabularies for your Drupal 8 application.
+The **create:users** command अपने Drupal 8 एप्लीकेशन के लिए डमी यूजरस बनाएँ।
 
 **प्रयोग:**
 ```
@@ -9,11 +9,11 @@ $ drupal create:users [arguments] [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---limit | How many users would you like to create
---password | Password to be set to users created
---time-range | How far back in time should the users be dated
+--limit | कितने भी यूजरस आप बना सकते है
+--password | पासवर्ड क्रिएटेड यूजरस के लिए स्थापित किया जाता है
+--time-range | कितनी अवधि में यूजरस दिनांकित किया जाना चाहिए
 
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-roles | Role(s) to be used in user creation
+roles | रोल(स) का उपयोग यूजर क्रिएशन में किया जाता है।

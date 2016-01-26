@@ -1,5 +1,5 @@
 # create:nodes
-The **create:nodes** command Create dummy nodes for your Drupal 8 application.
+The **create:nodes** command अपने Drupal 8 एप्लीकेशन के लिए डमी नोड्स बनाएँ।
 
 **प्रयोग:**
 ```
@@ -16,4 +16,4 @@ $ drupal create:nodes [arguments] [options]
 ## उपलब्ध तर्कों  
 तर्क | विवरण
 ---------|-------------
-content-types | Content type(s) to be used in node creation
+content-types | कंटेंट टाइप(स) का उपयोग नोड क्रिएशन में किया जाता है।

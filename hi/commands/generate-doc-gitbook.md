@@ -18,15 +18,16 @@ $ gdg
 --ansi | ANSI परिणाम अनिवार्य करें
 --no-ansi | ANSI निगम अक्षम करें
 --no-interaction | कोई वार्तालाप प्रशन ना पूछें
---root | कमाण्ड चलाने के लिए Drupal रूट परिभाषित करें
 --env | पर्यावरण का नाम।
+--root | कमाण्ड चलाने के लिए Drupal रूट परिभाषित करें
 --no-debug | डिबग विधि को बंद कर देता है।
 --learning | शब्दबहुल कोड उत्पन्न करें।
 --generate-chain | निष्पादन विकल्प में प्रिंट और तर्क को YAML आउटपुट के रूप में श्रृंखला कमांड में इस्तेमाल किया जाएगा
 --generate-inline | निष्पादन विकल्प में प्रिंट और तर्क को इनलाइन कॉल के रूप में भविष्य में उपयोग किया जाएगा
---generate-doc | application.console.arguments.generate-doc
---target | application.console.arguments.target
---uri | URI of the Drupal site to use (for multisite environments or when running on an alternate port)
+--generate-doc | कमाण्ड विकल्पों और तर्क जैसा नीचे निशान
+--target | साइट का नाम आप (स्थानीय या दूरस्थ साइटों के लिए ) के साथ बातचीत करना चाहते हैं
+--uri | Drupal यूआरआई साइट का(एकाधिक वातावरण के लिए या एक वैकल्पिक port पर चलते समय ) का उपयोग करे
+--yes | Skip confirmation and proceed
 
 ## उपलब्ध तर्कों  
 तर्क | विवरण

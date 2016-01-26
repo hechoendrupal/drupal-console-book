@@ -16,6 +16,7 @@ Opción | Detalles
 --description | Descripción del módulo
 --core | Versión del core
 --package | Paquete del módulo
+--module-file | Add a .module file
 --feature | Hacer el módulo compatible con el módulo Features
 --composer | Añadir un archivo composer.json
 --dependencies | Dependencias del módulo (por ejemplo: context, galleria, panels)

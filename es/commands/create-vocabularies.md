@@ -1,5 +1,5 @@
 # create:vocabularies
-El comando **create:vocabularies** Create dummy vocabularies for your Drupal 8 application.
+El comando **create:vocabularies** Crea vocabularios de prueba para tu Drupal 8.
 
 **Uso:**
 ```
@@ -9,5 +9,5 @@ $ drupal create:vocabularies [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---limit | How many vocabularies would you like to create
---name-words | Maximum number of words in vocabulary names
+--limit | Cuántos vocabularios le gustaría crear
+--name-words | Número máximo de palabras en los nombres de vocabulario
