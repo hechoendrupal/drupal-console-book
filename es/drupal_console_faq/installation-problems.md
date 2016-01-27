@@ -1,37 +1,37 @@
-# Installation problems 
+# Problemas de instalación
 
-When you run DrupalConsole from your Drupal 8 root directory, you can get different error messages, we will try to compile the reported issues and how to have them fixed.
+Cuando lanza DrupalConsole desde su directorio raíz de Drupal 8, puede obtener distintos mensajes de error, vamos a intentar listar los problemas reportados y cómo resolverlos.
 
 --- 
 
-Error message:
+Mensaje de error:
 ```
 [PDOException] SQLSTATE[HY000] [2002] No such file or directory
 ```
-You will need to edit your 'host' in your 'settings.php' file. 
+Tiene que editar su valor 'host' en su archivo 'settings.php'. 
 
-Navigate to `sites/default/settings.php`. In your `settings.php` file, change the `host` to read:
+Navegue a `sites/default/settings.php`. En su archivo `settings.php` cambie el siguiente valor de `host`:
 ```
 'host' => '127.0.0.1'
 ```
-or if your 'settings.php' file already reads:
+o si su archivo 'settings.php' ya existe:
 ```
 'host' => '127.0.0.1'
 ```
-change it to read:
+cámbielo para que se lea:
 ```
 'host' => 'localhost'. 
 ```
-After you make the change, be sure to save the file and then run DrupalConsole again.
+Después de hacer este cambio, asegúrese de guardar el archivo, después pruebe a lanzar DrupalConsole de nuevo.
 
 ---
 
-Error message:
+Mensaje de error:
 ```
 [PDOException]
 SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock'
 ```
-Creating a symlink pointing to `/tmp/mysql.sock`:
+Cree un enlace simbólico apuntando a `/tmp/mysql.sock`:
 ```
 ln -s /path/to/your/mysql/data/mysql.sock /tmp/mysql.sock
 ```
