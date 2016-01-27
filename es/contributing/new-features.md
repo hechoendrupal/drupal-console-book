@@ -1,11 +1,13 @@
-# Contributing new features
-If you create a new custom command or something else which would be useful for *other* Drupal installations, please consider [forking the Drupal Console project on GitHub](getting-the-project.md "Fork the Drupal Console project and clone it locally to add your functionality"). Then just [create an issue for a "feature request"](creating-issues-and-pull-requests.md "Add a new feature request as an “issue” and indicate you are working on it"), put your work in a new Git branch on your fork, publish your branch and add a pull request on GitHub (including your issue ID in the PR title). The Drupal Console maintainers are very happy to accept useful contributions and usually do so quite promptly.
+# Contribuyendo con nuevas funcionalidades
+Si ud. crea un nuevo comando o cualquier cosa que pueda ser útil para *otras* instalaciones de Drupal, por favor considere [hacer un fork del proyecto Drupal Console en GitHub](getting-the-project.md "Fork the Drupal Console project and clone it locally to add your functionality").
+Después puede [crear un issue para solicitar una "feature request"](creating-issues-and-pull-requests.md "Add a new feature request as an “issue” and indicate you are working on it"), ponga su trabajo en una rama nueva de Git en su fork, publique su rama y añada el pull request en Github (incluyendo su ID de issue en el título del PR). Los mantenedores de Drupal Console estarán muy contentos de aceptar contribuciones útiles y normalmente lo hacen con celeridad.
 
-## Getting support with becoming a contributor
-If you want to contribute to Drupal Console and have any difficulty getting oriented to the process, you can find [Instant Messaging support on Gitter IM](https://gitter.im/hechoendrupal/DrupalConsole).
+## Obteniendo ayuda al convertirse en contribuidor
+Si desea contribuir al proyecto Drupal Console y tiene cualquier dificultad orientándose en el proceso, puede encontrar [ayuda via Mensajería Instantánea en Gitter](https://gitter.im/hechoendrupal/DrupalConsole).
 
-## Standard GitHub Workflow
-If you haven't yet contributed to a project on GitHub, or are not sure you remember the workflow, you might first want to read the documentation  about [pull requests](https://help.github.com/articles/using-pull-requests/). You may also wish to download the GitHub application ([Mac](https://mac.github.com) | [Windows](https://windows.github.com), which simplifies the workflow a bit and provides a nice GUI for your contributions).
+## Flujo de trabajo standard en Github
+Si no ha contribuido todavía a ningún proyecto en GitHub, o no está seguro de recordar el flujo de trabajo, primero puede leer la documentación sobre [pull requests](https://help.github.com/articles/using-pull-requests/). También puede descargar la aplicación para ([Mac](https://mac.github.com) o [Windows](https://windows.github.com) de GitHub, que le simplifica el flujo de trabajo bastante y le provee de una magnífica GUI para sus contribuciones.
 
-## Github-flavored Markdown
-This documentation is written in “Github-flavored Markdown”, which is rendered on Github, directly, as HTML. If you are *already* familiar with Markdown, [GFL only adds a few useful tweaks](https://help.github.com/articles/github-flavored-markdown/ "Github-Flavored Markdown—official documentation"), otherwise you may want to read Github’s [Markdown Basics](https://help.github.com/articles/markdown-basics/) primer.
+## Lenguaje de etiquetas propio de GitHub
+Esta documentación está escrita en “el lenguaje de etiquetas propio de GitHub”, el cual se renderiza en Github, directamente, como HTML. 
+Si *ya* está familiarizado con este lenguaje de etiquetas, [GFL sólo añade unas pocas mejoras](https://help.github.com/articles/github-flavored-markdown/ "Github-Flavored Markdown—official documentation"), si no quizá le interese leer antes [los Fundamentos del Lenguaje de Etiquetas de GitHub](https://help.github.com/articles/markdown-basics/).
