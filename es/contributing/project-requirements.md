@@ -1,48 +1,48 @@
-# Project requirements
+# Requerimientos del proyecto
 
-## Download Git
-We recommend downloading Git from [http://git-scm.com/downloads](http://git-scm.com/downloads)
+## Descargar Git
+Recomendamos descargar Git de [http://git-scm.com/downloads](http://git-scm.com/downloads)
 
-## Download Composer
+## Descargar Composer
 
-Run this in your terminal to get the latest Composer version:
+Lance el siguiente comando desde su terminal para conseguir la última versión de Composer:
 ```
 curl -sS https://getcomposer.org/installer | php
 ```
-Or if you don't have curl:
+O si no tiene curl:
 ```
 php -r "readfile('https://getcomposer.org/installer');" | php
 ```
-This installer script will simply check some php.ini settings, warn you if they are set incorrectly, and then download the latest composer.phar in the current directory
+Este script instalador simplemente comprobará algunas configuraciones de su php.ini y le advertirá si están dispuestas incorrectamente. Después descargará el último composer.phar en el directorio actual.
 
-You can run this terminal command to make Composer easily accessible, from anywhere on your system:
+Puede lanzar este comando para la terminal para hacer Composer fácilmente accesible, desde cualquier lugar en su sistema:
 ```
 $ mv composer.phar /usr/local/bin/composer
 ```
 
-## Download Drupal 8
-The Drupal Console project only supports Drupal 8; which you will need to download and install locally.
+## Descargar Drupal 8
+El proyecto Drupal Console sólo soporta Drupal 8; el cual necesitará descargar e instalar localmente.
 ### Download Drupal
 ```
 $ drupal site:new drupal8.dev 8.0.0
 $ cd drupal8.dev
 ```
-### Install Drupal using MySQL:
+### Instalar Drupal usando MySQL:
 ```
 $ drupal site:install standard --langcode=en --db-type=mysql --db-host=127.0.0.1 
   --db-name=drupal --db-user=root --db-pass=root --db-port=3306 
   --site-name="Drupal 8 Site Install" --site-mail=admin@example.com 
   --account-name=admin --account-mail=admin@example.com --account-pass=admin -n
 ```
-### Install Drupal using SQLite:
+### Instalar Drupal usando SQLite:
 ```
 $ drupal site:install standard --langcode=en --db-type=sqlite 
   --db-file=sites/default/files/.ht.sqlite --site-name="Drupal 8 Site Install" 
   --site-mail=admin@example.com --account-name=admin --account-mail=admin@example.com
   --account-pass=admin -n
 ```
-### Start the PHP's built in server
+### Arrancar el servidor incorporado de PHP
 ```
 $ drupal server
 ```
-**NOTE:** Make sure you use your own user and database credentials when running `site:install` and never user root on production. In this example code, we accept all interactive questions, i.e. answering *“yes”* when passing the `-y` argument.
+**NOTA:** Asegúrese de que usa sus propias credenciales de usuario y contraseña cuando lance `site:install` y nunca utilice el usuario root en producción. En este código de ejemplo, aceptamos todas las preguntas interactivas, por ejemplo, contestando *“si”* al pasarle al comando el argumento `-y`
