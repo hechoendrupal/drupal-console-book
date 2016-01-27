@@ -1,4 +1,4 @@
-# Getting the project
-There are different ways to get the project on your local machine.
+# परियोजना प्राप्त करना
+अपने स्थानीय मशीन पर परियोजना को पाने के लिए अलग अलग तरीके हैं|
 
-Our recommendation for getting the project on your local machine is by using the installer.
+अपने स्थानीय मशीन पर परियोजना प्राप्त करने के लिए हमारी सिफारिश संस्थापक के प्रयोग की है|
