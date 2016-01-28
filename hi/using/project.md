@@ -1,23 +1,23 @@
-# Using the project
+# परियोजना का उपयोग
 
-Drupal Console provides two types of commands, `stand alone` and `container aware` commands.
+ड्रुपल कंसोल कमांडो के दो प्रकार प्रदान करता है, `stand alone` और `container aware` कमांडो|
 
 **Stand alone commands:**
-These commands can run outside of a Drupal 8 site root.
- 
-**Container aware commands:**
-These commands must be run within a Drupal 8 site root.
+ये आदेश एक Drupal 8 साइट रूट के बाहर चला सकते हैं|
 
-### Executing Drupal Console outside a Drupal site root 
-You can run Drupal Console form any directory on your system by using the `--root` option to define the Drupal root to be use in the command execution. 
+**Container aware commands:**
+ये आदेश एक Drupal 8 साइट रूट के भीतर चलाया जाना चाहिए|
+
+### एक Drupal साइट रूट के बाहर Drupal कंसोल को चलाना
+आप Drupal कंसोल अपने सिस्टम पर किसी भी निर्देशिका फार्म चला सकते हैं Drupal के जड़ को परिभाषित करने के लिए विकल्प आदेश निष्पादन `--root` में उपयोग होने के द्वारा|
 ```
 $ drupal --root=/var/www/drupal8.dev cr all
 ```
 
-**NOTE:** Possible messages when executing Drupal Console outside a Drupal site root and no `--root` option provided.
+**NOTE:** संभव संदेशों जब एक Drupal साइट रूट के बाहर ड्रुपल कंसोल को चलाएं पर और कोई `--root` विकल्प प्रदान नहीं|
 
-When running the project outside of a Drupal 8 site root, the following message will be shown.  
-> In order to list all of the available commands, you should run this inside a drupal root directory.
+एक Drupal 8 साइट रूट के बाहर परियोजना चल रहा है, निम्न संदेश दिखाया जाएगा|
+> उपलब्ध सभी कमांडों को सूची के क्रम में दिखने के लिए, आप एक Drupal रूट निर्देशिका के अंदर इस चलाना चाहिए|
 
-When running the project within of a Drupal 8 site root, but site is not yet installed, the following message will be shown.
-> In order to list all of the available commands you should install drupal first.
+एक Drupal 8 साइट रूट के बाहर परियोजना चल रहा है, लेकिन साइट अभी तक स्थापित नहीं है, निम्न संदेश दिखाया जाएगा|
+> पहले आपको Drupal स्थापित करना चाहिए उपलब्ध सभी कमांडों को सूची के क्रम में दिखने के लिए|
