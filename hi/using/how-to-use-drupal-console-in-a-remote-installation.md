@@ -1,16 +1,16 @@
-# How to use Drupal Console in a remote site installation
+# एक दूरस्थ साइट स्थापना में Drupal कंसोल का उपयोग कैसे करें
 
-Drupal Console allows you to run commands on your local server but actually execute them on a remote server.
+Drupal कंसोल आप अपने स्थानीय सर्वर पर कमांडों को चलाने, लेकिन वास्तव में एक रिमोट सर्वर पर उन पर उनको चलाने की अनुमति देता है|
 
-You can take advantage of this feature, using the `--target` option and passing the remote site name you want to interact with.  
+आप इस सुविधा का लाभ ले सकते हैं, `--target` विकल्प का उपयोग करते हुए और सर्वाधिक दूरस्थ साइट नाम आप जिस के साथ वार्तालाप करना चाहते हैं|
 ```
 $ drupal --target=sample.dev cr all
 ```
 
-Setting up your local computer to use a remote site requires a little configuration.
+एक दूरस्थ साइट का उपयोग करने के लिए अपने स्थानीय कंप्यूटर की स्थापना एक छोटी सी विन्यास की आवश्यकता है|
 
-### Edit global configuration 
-You can provide global configuration to remote connections at the copied file `~/.console/config.yml`. This information is grouped within the `remote` key.
+### वैश्विक विन्यास संपादित करें
+आप दूरस्थ कनेक्शन के लिए वैश्विक विन्यास प्रदान कर सकते हैं `~/.console/config.yml` नकल की फ़ाइल पर| उसकी जानकारी के भीतर बांटा है `remote` कुंजी.
 ```
 application:
   ...
@@ -26,8 +26,8 @@ application:
       passphrase: ~/.ssh/passphrase.txt
 ```
 
-### Edit specific site configuration
-You can provide specific site configuration by duplicating the copied site file at `~/.console/sites/sample.yml` with a new same at `~/.console/sites/`.
+### विशिष्ट साइट विन्यास संपादित करें
+आप विशिष्ट साइट विन्यास प्रदान कर सकते हैं डुप्लिकेटिंग नकल साइट फ़ाइल द्वारा `~/.console/sites/sample.yml` पर एक नया नाम के साथ `~/.console/sites/`.
 
 ```
 local:
@@ -44,8 +44,8 @@ prod:
   console: /var/www/html/docroot/console.phar
 ```
 
-### Debug sites.
-You can list all known local and remote sites by executing the `site:debug` command.
+### डीबग साइटों.
+आप सबी ज्ञात स्थानीय और दूरस्थ साइटों को सूचीबद्ध कर सकते इस कमांड को चला कर `site:debug` कमांड|
 ```
 $ drupal site:debug
 
@@ -58,7 +58,7 @@ $ drupal site:debug
 +--------------------+-----------------+------------------------+
 ```
 
-You can show the site configuration details by passing the site name as argument to the `site:debug` command. 
+आप तर्क के रूप में साइट के नाम से सर्वाधिक साइट विन्यास विवरण दिखा सकते हैं `site:debug` कमांड को|
 ```
 $ drupal site:debug sample.dev
 
@@ -66,7 +66,7 @@ user: drupal
 port: 22
 console: /usr/local/bin/drupal
 options:
-arguments: 
+arguments:
 keys:
     public: ~/.ssh/id_rsa.pub
     private: ~/.ssh/id_rsa
@@ -76,4 +76,4 @@ host: 140.211.10.62
 remote: true
 ```
 
-**NOTE:** As you may notice the global configuration and the specific site configuration are merged when debugging a site. You can override any global configuration by adding those keys on the site specific configuration.  
+**NOTE:** आप नोटिस कर सकते हैं जब एक साइट डिबगिंग होती है तब वैश्विक विन्यास और विशिष्ट साइट विन्यास विलय हो जाते हैं| आप साइट विशिष्ट विन्यास पर उन कुंजी जोड़कर किसी भी वैश्विक विन्यास ओवरराइड कर सकते हैं|
