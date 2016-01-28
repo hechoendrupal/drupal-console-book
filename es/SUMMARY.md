@@ -10,7 +10,7 @@
 * [Obteniendo el proyecto](getting/project.md)
   * [Utilizando el Instalador](getting/installer.md)
   * [Utilizando Composer](getting/composer.md)
-  * [Descaragno el archivo phar](getting/download.md)
+  * [Descargando el archivo phar](getting/download.md)
   * [Actualizar la Drupal Console](getting/update.md)
 
 * [Using the project](using/project.md)

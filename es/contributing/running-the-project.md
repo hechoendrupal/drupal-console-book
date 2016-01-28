@@ -1,16 +1,16 @@
-# Running the project
-After using Composer to download dependencies, you can run the project by executing:
+# Ejecutando el proyecto
+Después de usar Composer para descargarse las dependencias, puede ejecutar el proyecto con el siguiente comando:
 
 ```
 $ bin/drupal
 ```
 
-## Create a symbolic link
+## Crear un enlace simbólico
 
-You can run this command to easily access the Drupal Console from anywhere on your system:
+Puede ejecutar el siguiente comando para acceder fácilmente a Drupal Console desde cualquier directorio en su máquina:
 
 ```
 $ sudo ln -s /path/to/DrupalConsole/bin/drupal /usr/local/bin/drupal
 ```
 
-**NOTE:** The name `drupal` is just an alias you can name it anything you like.
+**NOTA:** El nombre `drupal` es sólo un alias que puede llamar de cualquier modo que le agrade.
