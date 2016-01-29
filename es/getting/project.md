@@ -1,4 +1,4 @@
-# Consigue el proyecto
-Hay diferentes maneras de conseguir el proyecto en su máquina local.
+# Obtener Drupal Console
+Existen diferentes maneras de conseguir el proyecto en su máquina local.
 
-Te recomendamos para conseguir el proyecto en tu maquina local es usando el instalador.
+La forma recomendada de conseguir Drupal Console en su maquina local es usando el instalador.
