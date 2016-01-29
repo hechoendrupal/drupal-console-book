@@ -1,15 +1,15 @@
-# References
+# Referencias
 
-## Drupal Console code repository
+## Repositorio de código de Drupal Console
 https://github.com/hechoendrupal/DrupalConsole
 
-## Documentation repository
+## Repositorio de documentación
 https://github.com/hechoendrupal/drupal-console-book
 
-## Resources
+## Recursos
 - [Symfony Components](http://symfony.com/components)
-- [Drupal 8](https://www.drupal.org/drupal-8.0)
-- [PHP the right way](http://www.phptherightway.com/)
+- [Drupal 8](https://www.drupal.org/es/8)
+- [PHP the right way](https://phpdevenezuela.github.io/php-the-right-way/)
 - [KNP University](https://knpuniversity.com/)
 - [Build a module](http://buildamodule.com/)
 - [DrupalizeMe](https://drupalize.me/)
