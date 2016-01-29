@@ -1,7 +1,7 @@
 # Descargar el archivo phar
 
-Descarga la última versión de Console desde el repositorio: 
+Descarga la última versión de Drupal Console desde el repositorio: 
 
 https://github.com/hechoendrupal/DrupalConsole
 
-Asegurate de descargar el archivo console.phar de la versión más actual.
+Asegúrate de descargar la versión más actual del archivo console.phar.
