@@ -6,3 +6,4 @@
 * [Romanian](ro)
 * [Vietnamese](vn)
 * [简体中文](zh_hans)
+* [Русский](ru)
