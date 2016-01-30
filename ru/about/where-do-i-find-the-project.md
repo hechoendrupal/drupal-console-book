@@ -9,7 +9,7 @@ https://github.com/hechoendrupal/DrupalConsole
 ## Документация
 http://hechoendrupal.gitbooks.io/drupal-console
 
-## Чат
+## Чат поддержки
 https://gitter.im/hechoendrupal/DrupalConsole
 
 ## Drupal.org страница проекта
