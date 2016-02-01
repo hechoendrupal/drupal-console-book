@@ -6,12 +6,12 @@ Puedes instalar este proyecto usando composer.
 $ composer global require drupal/console:@stable
 ```
 
-## Agregar el directorio binario a la ruta de clases:
+## Agregar el directorio del binario a la ruta de clases:
 ```
 $ echo "PATH=$PATH:~/.composer/vendor/bin" >> ~/.bash_profile
 ```
 
-## Ahora executa console usando:
+## Ahora ejecuta console usando:
 ```
 $ drupal generate:module
 ```
