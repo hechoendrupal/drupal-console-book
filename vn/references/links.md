@@ -15,4 +15,4 @@ https://github.com/hechoendrupal/drupal-console-book
 - [DrupalizeMe](https://drupalize.me/)
 - [Git](http://git-scm.com/)
 - [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
-- [Box](http://box-project.org/)
+- [Box](https://box-project.github.io/box2/)
