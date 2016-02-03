@@ -11,6 +11,7 @@ $ gdg
 Tùy chọn | Các chi tiết
 -------|-------------
 --path | Đường dẫn để render documentation
+--learning | Sinh ra chi tiết mã thực thi
 --help | Hiển thị thông báo giúp đỡ
 --quiet | Đừng đưa ra bất cứ thông báo nào
 --verbose | Tăng độ dài của các thông báo: 1 cho đầu ra thông thường, 2 cho những đầu ra dài hơn và 3 cho tìm kiếm lỗi
@@ -21,7 +22,6 @@ Tùy chọn | Các chi tiết
 --env | Tên môi trường
 --root | Định nghĩa Drupal root dùng để thực thi lệnh
 --no-debug | Tắt chế độ debug
---learning | Sinh ra chi tiết mã thực thi
 --generate-chain | In các lựa chọn thi hành và các đối số dạng yaml, để sử dụng trong chuỗi lệnh
 --generate-inline | In các lựa chọn thi hành và các đối số dạng inline, để sử dụng sau
 --generate-doc | Shows command options and arguments as markdown

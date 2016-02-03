@@ -1,5 +1,5 @@
 # update:execute
-El comandament **update:execute** executa Execute a specific Update N function in a module, or execute all
+El comandament **update:execute** executa Executar una funció Update N en un mòdul, o executar-les totes
 
 **Ús:**
 ```
@@ -11,4 +11,4 @@ $ upe
 Argument | Detalls
 ---------|-------------
 module | Nom del mòdul.
-update-n | Specific Update N function to be executed
+update-n | Funció Update N a executar

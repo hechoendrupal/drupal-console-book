@@ -16,7 +16,7 @@ Opció | Detalls
 --description | Descripció del mòdul
 --core | Versió del core
 --package | Paquet del mòdul
---module-file | commands.generate.module.options.module-file
+--module-file | Add a .module file
 --feature | Definir-ho compatible amb el mòdul Features
 --composer | Afegir fitxer composer.json
 --dependencies | Dependències del mòdul separades per comes (p.e. context, panels)

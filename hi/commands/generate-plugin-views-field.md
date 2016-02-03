@@ -1,5 +1,5 @@
 # generate:plugin:views:field
-The **generate:plugin:views:field** command विशेष प्लगिन व्यू खाना उत्पन्न करें
+**generate:plugin:views:field** कमांड विशेष प्लगिन व्यू खाना उत्पन्न करें
 
 **प्रयोग:**
 ```

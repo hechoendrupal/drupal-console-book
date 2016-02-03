@@ -1,5 +1,5 @@
 # theme:install
-El comandament **theme:install** executa Install theme or themes in the application
+El comandament **theme:install** executa Instal·lar temes per l'aplicació
 
 **Ús:**
 ```
@@ -10,7 +10,7 @@ $ ti
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---set-default | Set theme as default theme
+--set-default | Definir tema com a predeterminat
 
 ## Arguments disponibles
 Argument | Detalls

@@ -1,5 +1,5 @@
 # generate:authentication:provider
-The **generate:authentication:provider** command प्रमाणन प्रदाता उत्पन्न करें
+**generate:authentication:provider** कमांड प्रमाणन प्रदाता उत्पन्न करें
 
 **प्रयोग:**
 ```
@@ -11,5 +11,5 @@ $ gap
 विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
---class | Authentication Provider class
+--class | ऑथेंटिकेशन प्रोवाइडर क्लास
 --provider-id | प्रदाता क्रमांक

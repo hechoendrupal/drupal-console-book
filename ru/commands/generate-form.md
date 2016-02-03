@@ -9,11 +9,11 @@ $ drupal generate:form [options]
 ## Available options
 Option | Details
 -------|-------------
---module | The Module name.
+--module | Имя модуля.
 --class | The form class name
 --form-id | The Form id
---services | Load services from the container.
---inputs | Create inputs in a form.
+--services | Загрузка сервисов из контейнера.
+--inputs | Создание полей ввода в форме.
 --routing | Update routing
 --menu_link_gen | commands.generate.form.options.menu_link_gen
 --menu_link_title | commands.generate.form.options.menu_link_title

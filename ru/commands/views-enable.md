@@ -1,5 +1,5 @@
 # views:enable
-The **views:enable** command Enable a View
+The **views:enable** command Включить представление
 
 **Usage:**
 ```
@@ -10,4 +10,4 @@ $ ve
 ## Available arguments
 Argument | Details
 ---------|-------------
-view-id | View ID
+view-id | ID Представления

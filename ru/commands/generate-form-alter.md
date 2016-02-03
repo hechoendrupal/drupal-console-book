@@ -10,6 +10,6 @@ $ gfa
 ## Available options
 Option | Details
 -------|-------------
---module | The Module name.
+--module | Имя модуля.
 --form-id | Form ID to alter
---inputs | Create inputs in a form.
+--inputs | Создание полей ввода в форме.

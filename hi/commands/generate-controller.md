@@ -1,5 +1,5 @@
 # generate:controller
-The **generate:controller** command एक कंट्रोलर को उत्पन्न और पंजीकृत करें
+**generate:controller** कमांड एक कंट्रोलर को उत्पन्न और पंजीकृत करें
 
 **प्रयोग:**
 ```

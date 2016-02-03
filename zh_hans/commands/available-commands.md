@@ -7,13 +7,14 @@ Drupal Console 命令 | 详细
 [about](about.md) | 显示 Drupal Console 项目基本信息
 [chain](chain.md) | 链式执行一组命令
 [help](help.md) | 显示帮助
-[init](init.md) | 拷贝配置文件到用户的 home 目录
+[settings:init](settings-init.md) | 拷贝配置文件到用户的 home 目录
 [list](list.md) | 列出当前可用命令
 [server](server.md) | 运行PHP内建的网站服务器
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | 重建缓存
 **config**  |
 [config:debug](config-debug.md) | 显示当前配置
+[config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | 编辑配置
 [config:export](config-export.md) | 导出配置
 [config:export:content:type](config-export-content-type.md) | 导出内容类型及其字段
@@ -22,6 +23,7 @@ Drupal Console 命令 | 详细
 [config:import](config-import.md) | 导入配置
 [config:import:single](config-import-single.md) | 导入配置
 [config:override](config-override.md) | 覆写活动配置
+[config:settings:debug](config-settings-debug.md) | 配置文件调试
 **container**  |
 [container:debug](container-debug.md) | 显示当前服务
 **create**  |
@@ -97,13 +99,16 @@ Drupal Console 命令 | 详细
 [router:debug](router-debug.md) | 显示路由
 [router:rebuild](router-rebuild.md) | 重建路由
 **settings**  |
-[settings:debug](settings-debug.md) | 配置文件调试
+[settings:debug](settings-debug.md) | List user Drupal Console settings.
+[settings:init](settings-init.md) | 拷贝配置文件到用户的 home 目录
+[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | 列出已知当地和远程网站.
 [site:install](site-install.md) | 安装 Drupal
 [site:maintenance](site-maintenance.md) | 切换网站到维护模式
 [site:mode](site-mode.md) | 转换系统性能配置
 [site:new](site-new.md) | 生成一个新的Drupal项目
+[site:statistics](site-statistics.md) | Show the current statistics of website.
 [site:status](site-status.md) | 当前Drupal安装状态
 **state**  |
 [state:debug](state-debug.md) | 显示当前状态的键(s)

@@ -1,5 +1,5 @@
 # user:debug
-El comandament **user:debug** executa Displays current users for the application
+El comandament **user:debug** executa Mostrar els usuaris actuals de l'aplicació
 
 **Ús:**
 ```
@@ -9,5 +9,5 @@ $ drupal user:debug [options]
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---roles | Roles to filter debug
---limit | How many users would you listed in debug
+--roles | Rols per filtrar la depuració
+--limit | Quants usuaris voldries mostrar

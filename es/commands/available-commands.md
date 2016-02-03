@@ -7,13 +7,14 @@ Comando de Drupal Console | Detalles
 [about](about.md) | Muestra información básica sobre el proyecto Drupal Console
 [chain](chain.md) | Ejecución de comandos en secuencia
 [help](help.md) | Displays help for a command
-[init](init.md) | Copiar archivos de configuración al directorio home del usuario.
+[settings:init](settings-init.md) | Copiar archivos de configuración al directorio home del usuario.
 [list](list.md) | Enlista comandos
 [server](server.md) | Lanza el servidor web PHP interno
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
 **config**  |
 [config:debug](config-debug.md) | Muestra la configuración actual.
+[config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Editar la configuración seleccionada.
 [config:export](config-export.md) | Exporta la configuración actual de la aplicación.
 [config:export:content:type](config-export-content-type.md) | Exporta un tipo de contenido determinado y todos sus campos.
@@ -22,6 +23,7 @@ Comando de Drupal Console | Detalles
 [config:import](config-import.md) | Importa la configuración del estado actual de la aplicación.
 [config:import:single](config-import-single.md) | Importar la configuración seleccionada.
 [config:override](config-override.md) | Sobreescribir valor de la configuración activa.
+[config:settings:debug](config-settings-debug.md) | Displays current key:value on settings file.
 **container**  |
 [container:debug](container-debug.md) | Muestra los servicios actuales de la aplicación.
 **create**  |
@@ -97,13 +99,16 @@ Comando de Drupal Console | Detalles
 [router:debug](router-debug.md) | Muestra las rutas actuales de la aplicación
 [router:rebuild](router-rebuild.md) | Reconstruye las rutas de la aplicación
 **settings**  |
-[settings:debug](settings-debug.md) | Displays current key:value on settings file.
+[settings:debug](settings-debug.md) | List user Drupal Console settings.
+[settings:init](settings-init.md) | Copiar archivos de configuración al directorio home del usuario.
+[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Enlista todos los sitios, locales y remotos, conocidos.
 [site:install](site-install.md) | Instala un proyecto Drupal
 [site:maintenance](site-maintenance.md) | Poner el sitio en modo mantenimiento
 [site:mode](site-mode.md) | Cambiar la configuración de rendimiento del sistema
 [site:new](site-new.md) | Crea un nuevo proyecto Drupal
+[site:statistics](site-statistics.md) | Show the current statistics of website.
 [site:status](site-status.md) | Ver el estatus de la instalación actual de Drupal
 **state**  |
 [state:debug](state-debug.md) | Muestra las claves de Estado actual.

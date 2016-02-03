@@ -1,5 +1,5 @@
 # site:status
-The **site:status** command वर्तमान Drupal स्थापना के स्थिति को देखें
+**site:status** कमांड वर्तमान Drupal स्थापना के स्थिति को देखें
 
 **प्रयोग:**
 ```

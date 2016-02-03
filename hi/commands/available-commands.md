@@ -1,19 +1,20 @@
-# उपलब्ध Drupal कंसोल कमाण्डें
+# उपलब्ध Drupal Console कमांड
 
-**नोट:** Drupal कंसोल कमाण्डें Drupal 8 के स्थापना रूट से चलायी जाए.
+**नोट:** Drupal Console कमांड को एक Drupal 8 इंस्टालेशन की रुट से चलाया जाना चाहिए.
 
-Drupal कंसोल कमाण्ड | विवरण
+Drupal Console कमाण्ड | विवरण
 ------------ | -------------
 [about](about.md) | Drupal कंसोल परियोजना के बारे मे प्रारंभिक जानकारी दिखाएँ
 [chain](chain.md) | कमाण्डो को श्रंखला में चलायें।
-[help](help.md) | Displays help for a command
-[init](init.md) | व्यवस्था फाइलो को उपभोगक्ता के होम डायरेक्टरी में प्रतिरुप करें।
+[help](help.md) | एक कमांड के लिए मदद प्रदर्शित करता है
+[settings:init](settings-init.md) | व्यवस्था फाइलो को उपभोगक्ता के होम डायरेक्टरी में प्रतिरुप करें।
 [list](list.md) | कमांड की सूची
 [server](server.md) | PHP निर्मित वेब सर्वर चलायॆ
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | सभी साइट caches को पुनर्निर्माण और साफ़ करें।
 **config**  |
 [config:debug](config-debug.md) | वर्तमान व्यवस्था को दिखाएँ।
+[config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | चयनित व्यवस्था को बदलें।
 [config:export](config-export.md) | मौजूदा एप्लीकेशन कॉन्फ़िगरेशन एक्सपोर्ट करे।
 [config:export:content:type](config-export-content-type.md) | किसी विशेष कंटेंट टाइप और उनके खानो का एक्सपोर्ट करें।
@@ -22,6 +23,7 @@ Drupal कंसोल कमाण्ड | विवरण
 [config:import](config-import.md) | वर्तमान अनुप्रयोग में व्यवस्था आयात करें।
 [config:import:single](config-import-single.md) | चयनित व्यवस्था आयात करें।
 [config:override](config-override.md) | व्यवस्था निधि को सक्रिय डायरेक्टरी में चढ़ा दें।
+[config:settings:debug](config-settings-debug.md) | सेटिंग्स फाइल पर वर्तमान key:value दिखाता है।
 **container**  |
 [container:debug](container-debug.md) | अनुप्रयोग की वर्तमान सर्विसेज़ को दिखाएँ।
 **create**  |
@@ -47,7 +49,7 @@ Drupal कंसोल कमाण्ड | विवरण
 [generate:command](generate-command.md) | कंसोल के लिए कमाण्डो को उत्पन्न करें।
 [generate:controller](generate-controller.md) | एक कंट्रोलर को उत्पन्न और पंजीकृत करें
 [generate:doc:dash](generate-doc-dash.md) | डैश के लिए  DrupalConsole.docset पैकेज उत्पन्न करें
-[generate:doc:gitbook](generate-doc-gitbook.md) | कमाण्डो के लिए प्रलेखन उत्पन्न करें
+[generate:doc:gitbook](generate-doc-gitbook.md) | कमाण्डो के लिए डॉक्युमेंटेशन्स उत्पन्न करें
 [generate:entity:bundle](generate-entity-bundle.md) | एक नया कंटेंट प्रकार उत्पन्न करें (नोड/एंटिटी बंडल)
 [generate:entity:config](generate-entity-config.md) | एक नया कॉन्फिग एंटिटि उत्पन्न करे
 [generate:entity:content](generate-entity-content.md) | एक नई कंटेंट एंटिटि बनाए
@@ -80,7 +82,7 @@ Drupal कंसोल कमाण्ड | विवरण
 [locale:translation:status](locale-translation-status.md) | सूची उपलब्ध अनुवाद अपडेट
 **migrate**  |
 [migrate:debug](migrate-debug.md) | अनुप्रयोग के मौजूदा प्रवसन को दिखाएँ
-[migrate:execute](migrate-execute.md) | अनुप्रयोग के उपलब्ध प्रवसन को चलाएं
+[migrate:execute](migrate-execute.md) | अनुप्रयोग के उपलब्ध माइग्रेशन को चलाएं
 [migrate:setup](migrate-setup.md) | विरासत डेटाबेस के लिए प्रासंगिक माइग्रेशन बनायें और लोड करें
 **module**  |
 [module:debug](module-debug.md) | अनुप्रयोग के उपलब्ध मोड्यूलो को दिखाएँ
@@ -97,13 +99,16 @@ Drupal कंसोल कमाण्ड | विवरण
 [router:debug](router-debug.md) | अनुप्रयोग के वर्तमान मार्गों को दिखाएँ
 [router:rebuild](router-rebuild.md) | अनुप्रयोग के मार्ग पथ को पुनर्निर्माण करें
 **settings**  |
-[settings:debug](settings-debug.md) | सेटिंग्स फाइल पर वर्तमान key:value दिखाता है।
+[settings:debug](settings-debug.md) | List user Drupal Console settings.
+[settings:init](settings-init.md) | व्यवस्था फाइलो को उपभोगक्ता के होम डायरेक्टरी में प्रतिरुप करें।
+[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | सभी ज्ञात स्थानीय और दूरस्थ साइटों की सूची दें।
 [site:install](site-install.md) | एक Drupal परियोजना स्थापित करें
 [site:maintenance](site-maintenance.md) | साइट को मेंटेनेंस मोड में बदले
 [site:mode](site-mode.md) | प्रणाली की कार्य-निष्पादन व्यवस्था को बदलें
 [site:new](site-new.md) | एक नया Drupal परियोजना बनाएँ
+[site:statistics](site-statistics.md) | Show the current statistics of website.
 [site:status](site-status.md) | वर्तमान Drupal स्थापना के स्थिति को देखें
 **state**  |
 [state:debug](state-debug.md) | वर्तमान स्टेट कीस दिखाएँ।
@@ -117,10 +122,10 @@ Drupal कंसोल कमाण्ड | विवरण
 [theme:install](theme-install.md) | इंस्टॉल विषय या विषयों के आवेदन में
 [theme:uninstall](theme-uninstall.md) | विषय की स्थापना रद्द करें या विषयों के आवेदन में
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clenaup translation files
-[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
-[translation:stats](translation-stats.md) | Generate translate stats
-[translation:sync](translation-sync.md) | Sync translation files
+[translation:cleanup](translation-cleanup.md) | क्लीनअप ट्रांसलेशन फाइल्स
+[translation:pending](translation-pending.md) | पेंडिंग ट्रांसलेशन स्ट्रिंग को एक भाषा में या एक स्पेसिफिक फाइल को एक भाषा में निर्धारण करें
+[translation:stats](translation-stats.md) | ट्रांसलेट स्टैट्स उत्पन्न
+[translation:sync](translation-sync.md) | सींक ट्रांसलेशन फाइल्स
 **update**  |
 [update:debug](update-debug.md) | अनुप्रयोग के उपलब्ध नवीनीकरणो को दिखाएँ
 [update:execute](update-execute.md) | मोड्यूल के किसी विशेष नवीनीकरण N फंक्शन को चलायें या सभी को चलायें।
@@ -161,9 +166,9 @@ Drupal कंसोल कमाण्ड | विवरण
 --generate-doc | कमाण्ड विकल्पों और तर्क जैसा नीचे निशान
 --target | साइट का नाम आप (स्थानीय या दूरस्थ साइटों के लिए ) के साथ बातचीत करना चाहते हैं
 --uri | Drupal यूआरआई साइट का(एकाधिक वातावरण के लिए या एक वैकल्पिक port पर चलते समय ) का उपयोग करे
---yes | Skip confirmation and proceed
+--yes | स्किप कन्फर्मेशन और आगे बढ़ें
 
-## उपलब्ध तर्कों  
+## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
 command | चलने वाली कमाण्ड

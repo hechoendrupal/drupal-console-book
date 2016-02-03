@@ -1,5 +1,5 @@
 # settings:debug
-The **settings:debug** command सेटिंग्स फाइल पर वर्तमान key:value दिखाता है।
+**settings:debug** कमांड List user Drupal Console settings.
 
 **प्रयोग:**
 ```

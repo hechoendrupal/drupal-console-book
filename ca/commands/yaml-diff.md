@@ -1,5 +1,5 @@
 # yaml:diff
-El comandament **yaml:diff** executa Compare two YAML files in order to find differences between them.
+El comandament **yaml:diff** executa Compara dos fitxers YAML amb l'objectiu de trobar diferències.
 
 **Ús:**
 ```
@@ -10,13 +10,13 @@ $ yd
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---stats | Print statistics about YAML files comparation
---negate | Define mode diff or equal comparation, possible values TRUE/FALSE or 0/1
---limit | Limit results to a specific number
---offset | Starting point of a limit
+--stats | Imprimir estadístiques de la comparació de fitxer YAML
+--negate | Defineix el mode de comparació (diff) o igual (equal), valors possibles TRUE/FALSE or 0/1
+--limit | Limitar els resultats a un número determinat
+--offset | Punt d'inici del límit
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-yaml-left | YAML file used as base to compare
-yaml-right | YAML file used to find missing parts or differences with the base YAML file
+yaml-left | Fitxer YAML utilitzat com va base per la comparació
+yaml-right | Fitxer YAML utilitzat per trobar diferències amb el fitxer YAML base

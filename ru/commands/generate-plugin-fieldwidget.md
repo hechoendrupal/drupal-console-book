@@ -9,7 +9,7 @@ $ drupal generate:plugin:fieldwidget [options]
 ## Available options
 Option | Details
 -------|-------------
---module | The Module name.
+--module | Имя модуля.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id

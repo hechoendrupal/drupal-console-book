@@ -1,5 +1,5 @@
 # views:disable
-The **views:disable** command Disable a View
+The **views:disable** command Отключить представление
 
 **Usage:**
 ```
@@ -10,4 +10,4 @@ $ vdi
 ## Available arguments
 Argument | Details
 ---------|-------------
-view-id | View ID
+view-id | ID Представления

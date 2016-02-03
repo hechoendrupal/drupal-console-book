@@ -1,5 +1,5 @@
 # site:new
-El comandament **site:new** executa Create a new Drupal project
+El comandament **site:new** executa Crear un nou projecte Drupal
 
 **Ús:**
 ```
@@ -10,5 +10,5 @@ $ sn
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-directory | Directory when downloading Drupal
-version | Specific Drupal version to download
+directory | El directori on es descarregarà Drupal
+version | Especifica un versió a descarregar

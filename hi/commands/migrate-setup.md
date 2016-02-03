@@ -1,5 +1,5 @@
 # migrate:setup
-The **migrate:setup** command विरासत डेटाबेस के लिए प्रासंगिक माइग्रेशन बनायें और लोड करें
+**migrate:setup** कमांड विरासत डेटाबेस के लिए प्रासंगिक माइग्रेशन बनायें और लोड करें
 
 **प्रयोग:**
 ```
@@ -16,4 +16,4 @@ $ drupal migrate:setup [options]
 --db-pass | डेटाबेस पासवर्ड
 --db-prefix | डेटाबेस उपसर्ग
 --db-port | डेटाबेस पोर्ट
---files-directory | Files Directory
+--files-directory | फाइल्स डायरेक्टरी

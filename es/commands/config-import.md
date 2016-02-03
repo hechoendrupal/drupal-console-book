@@ -11,4 +11,5 @@ $ ci
 Opción | Detalles
 -------|-------------
 --file | Ruta al archivo de configuración.
+--directory | Path to a directory of configuration to import.
 --remove-files | Remover archivos luego de la sincronización.

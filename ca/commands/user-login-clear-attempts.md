@@ -1,5 +1,5 @@
 # user:login:clear:attempts
-El comandament **user:login:clear:attempts** executa Clear login failed attempts for an account.
+El comandament **user:login:clear:attempts** executa Esborrar intents de connexió d'un compte.
 
 **Ús:**
 ```
@@ -10,4 +10,4 @@ $ uslca
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-uid | User ID.
+uid | ID d'usuari.

@@ -1,5 +1,5 @@
 # user:password:hash
-El comandament **user:password:hash** executa Generate a hash from a plaintext password.
+El comandament **user:password:hash** executa Generar un 'hash' a partir d'una contrasenya de text sense format.
 
 **Ús:**
 ```
@@ -10,4 +10,4 @@ $ usph
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-password | Password(s) in text format
+password | Contrasenya en text sense format

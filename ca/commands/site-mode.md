@@ -1,5 +1,5 @@
 # site:mode
-El comandament **site:mode** executa Switch system performance configuration
+El comandament **site:mode** executa Canviar la configuració de rendiment del sistema
 
 **Ús:**
 ```
@@ -10,4 +10,4 @@ $ smo
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-environment | Environment name [dev, prod]
+environment | Nom de l'entorn [dev, prod]

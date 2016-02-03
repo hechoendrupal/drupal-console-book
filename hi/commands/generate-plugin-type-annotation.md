@@ -1,5 +1,5 @@
 # generate:plugin:type:annotation
-The **generate:plugin:type:annotation** command प्लगिन प्रकार युक्त अननोटेशन प्रकाशन उत्पन्न करें
+**generate:plugin:type:annotation** कमांड प्लगिन प्रकार युक्त अननोटेशन प्रकाशन उत्पन्न करें
 
 **प्रयोग:**
 ```

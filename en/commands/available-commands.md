@@ -7,13 +7,14 @@ Drupal Console Command | Details
 [about](about.md) | Display basic information about Drupal Console project
 [chain](chain.md) | Chain command execution
 [help](help.md) | Displays help for a command
-[init](init.md) | Copy configuration files to user home directory.
+[settings:init](settings-init.md) | Copy configuration files to user home directory.
 [list](list.md) | Lists all available commands
 [server](server.md) | Runs PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Rebuild and clear all site caches.
 **config**  |
 [config:debug](config-debug.md) | Show the current configuration.
+[config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Edit the selected configuration.
 [config:export](config-export.md) | Export current application configuration.
 [config:export:content:type](config-export-content-type.md) | Export a specific content type and their fields.
@@ -22,6 +23,7 @@ Drupal Console Command | Details
 [config:import](config-import.md) | Import configuration to current application.
 [config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | Override config value in active configuration.
+[config:settings:debug](config-settings-debug.md) | Displays current key:value on settings file.
 **container**  |
 [container:debug](container-debug.md) | Displays current services for an application.
 **create**  |
@@ -97,17 +99,20 @@ Drupal Console Command | Details
 [router:debug](router-debug.md) | Displays current routes for the application
 [router:rebuild](router-rebuild.md) | Rebuild routes for the application
 **settings**  |
-[settings:debug](settings-debug.md) | Displays current key:value on settings file.
+[settings:debug](settings-debug.md) | List user Drupal Console settings.
+[settings:init](settings-init.md) | Copy configuration files to user home directory.
+[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | List all known local and remote sites.
 [site:install](site-install.md) | Install a Drupal project
 [site:maintenance](site-maintenance.md) | Switch site into maintenance mode
 [site:mode](site-mode.md) | Switch system performance configuration
 [site:new](site-new.md) | Create a new Drupal project
+[site:statistics](site-statistics.md) | Show the current statistics of website.
 [site:status](site-status.md) | View current Drupal Installation status
 **state**  |
 [state:debug](state-debug.md) | Show the current State keys.
-[state:override](state-override.md) | Show the current State keys.
+[state:override](state-override.md) | Override a State key.
 **test**  |
 [test:debug](test-debug.md) | List Test Units available for the application.
 [test:run](test-run.md) | Run Test unit from tests available for application

@@ -1,5 +1,5 @@
 # test:debug
-El comandament **test:debug** executa List Test Units available for the application.
+El comandament **test:debug** executa Llista els Test Units disponibles per l'aplicació.
 
 **Ús:**
 ```
@@ -10,9 +10,9 @@ $ td
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---group | Group
+--test-class | Classe test
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-test-class | Test Class
+group | Grup

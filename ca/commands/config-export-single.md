@@ -11,6 +11,7 @@ $ ces
 Opció | Detalls
 -------|-------------
 --directory | Defineix el directori d'exportació per desar la configuració.
+--include-dependencies | Export dependencies of the configuration as well.
 
 ## Arguments disponibles
 Argument | Detalls

@@ -10,9 +10,9 @@ $ td
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---group | Grupo
+--test-class | Classe do teste
 
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-test-class | Classe do teste
+group | Grupo

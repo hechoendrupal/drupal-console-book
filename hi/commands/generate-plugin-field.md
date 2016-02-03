@@ -1,5 +1,5 @@
 # generate:plugin:field
-The **generate:plugin:field** command खाना प्रकार, विजेट और formatter प्लगिन उत्पन्न करें।
+**generate:plugin:field** कमांड खाना प्रकार, विजेट और formatter प्लगिन उत्पन्न करें।
 
 **प्रयोग:**
 ```

@@ -1,5 +1,5 @@
 # generate:form:alter
-The **generate:form:alter** command एक hook_form_alter() या hook_form_FORM_ID_alter कार्यान्वयन उत्पन्न करें
+**generate:form:alter** कमांड एक hook_form_alter() या hook_form_FORM_ID_alter कार्यान्वयन उत्पन्न करें
 
 **प्रयोग:**
 ```
@@ -11,5 +11,5 @@ $ gfa
 विकल्प | विवरण
 -------|-------------
 --module | मोड्यूल का नाम।
---form-id | Form ID को बदलने के लिए
+--form-id | फॉर्म आईड को बदलने के लिए
 --inputs | एक फॉर्म के लिए आदानो को बनाएँ।

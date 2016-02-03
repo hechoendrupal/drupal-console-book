@@ -1,5 +1,5 @@
 # database:dump
-The **database:dump** command Dump structure and contents of a database
+The **database:dump** command Дамп структуры и контента MySQL БД и таблиц
 
 **Usage:**
 ```
@@ -14,4 +14,4 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-database | Database key from settings.php
+database | Ключ БД из settings.php

@@ -1,5 +1,5 @@
 # state:override
-The **state:override** command Show the current State keys.
+The **state:override** command Override a State key.
 
 **Usage:**
 ```

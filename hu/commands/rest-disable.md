@@ -1,5 +1,5 @@
 # rest:disable
-The **rest:disable** command Az alkalmazás REST-erőforrásának letiltása
+The **rest:disable** command REST-erőforrás letiltása
 
 **Usage:**
 ```

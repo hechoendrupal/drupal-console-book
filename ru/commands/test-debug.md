@@ -10,9 +10,9 @@ $ td
 ## Available options
 Option | Details
 -------|-------------
---group | Group
+--test-class | Test Class
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-test-class | Test Class
+group | Group

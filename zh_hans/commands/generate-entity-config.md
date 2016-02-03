@@ -13,5 +13,6 @@ $ gecg
 --module | 模块名称
 --entity-class | 配置实体类名
 --entity-name | 配置实体名称
+--base-path | The base-path for the config entity routes
 --label | 标签
 --bundle-of | Acts as bundle for content entities

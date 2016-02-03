@@ -1,5 +1,5 @@
 # site:debug
-El comandament **site:debug** executa List all known local and remote sites.
+El comandament **site:debug** executa Llista tots els llocs locals i remots coneguts.
 
 **Ús:**
 ```

@@ -1,5 +1,5 @@
 # user:login:clear:attempts
-The **user:login:clear:attempts** command Clear failed login attempts for an account.
+The **user:login:clear:attempts** command Сброс неудачных попыток входа в аккаунт.
 
 **Usage:**
 ```
@@ -10,4 +10,4 @@ $ uslca
 ## Available arguments
 Argument | Details
 ---------|-------------
-uid | User ID.
+uid | ID пользователя.

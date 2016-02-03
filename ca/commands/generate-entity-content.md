@@ -13,5 +13,6 @@ Opció | Detalls
 --module | Nom del mòdul.
 --entity-class | La classe de l'entitat de contingut
 --entity-name | El nom de l'entitat de contigut
+--base-path | The base-path for the content entity routes
 --label | Etiqueta
 --has-bundles | L'entitat conté bundles

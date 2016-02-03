@@ -10,8 +10,8 @@ $ gcn
 ## Available options
 Option | Details
 -------|-------------
---module | The Module name.
+--module | Имя модуля.
 --class | Controller Class name
 --routes | The routes, must be an array containing [title, method, path]
---services | Load services from the container.
+--services | Загрузка сервисов из контейнера.
 --test | Generate a test class

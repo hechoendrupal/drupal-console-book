@@ -10,6 +10,6 @@ $ gap
 ## Available options
 Option | Details
 -------|-------------
---module | The Module name.
+--module | Имя модуля.
 --class | Authentication Provider class
 --provider-id | Provider ID

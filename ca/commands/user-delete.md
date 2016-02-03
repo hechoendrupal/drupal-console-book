@@ -1,5 +1,5 @@
 # user:delete
-El comandament **user:delete** executa Delete users for the application
+El comandament **user:delete** executa Eliminar usuaris de l'aplicació
 
 **Ús:**
 ```
@@ -9,5 +9,5 @@ $ drupal user:delete [options]
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---user-id | User id to be deleted
---roles | Roles associated to users to be deleted
+--user-id | L'id d'usuari a eliminar
+--roles | Rols vinculats als usuaris a eliminar

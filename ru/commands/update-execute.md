@@ -1,5 +1,5 @@
 # update:execute
-The **update:execute** command Execute a specific Update N function in a module, or execute all
+The **update:execute** command Выполнить конкретный update_N хук в модуле или выполнить все
 
 **Usage:**
 ```
@@ -10,5 +10,5 @@ $ upe
 ## Available arguments
 Argument | Details
 ---------|-------------
-module | The Module name.
-update-n | Specific Update N function to be executed
+module | Имя модуля.
+update-n | Конкретный update_N хук будет выполнен

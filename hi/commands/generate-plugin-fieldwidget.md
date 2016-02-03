@@ -1,5 +1,5 @@
 # generate:plugin:fieldwidget
-The **generate:plugin:fieldwidget** command खाना विजेट प्लगिन उत्पन्न करें
+**generate:plugin:fieldwidget** कमांड खाना विजेट प्लगिन उत्पन्न करें
 
 **प्रयोग:**
 ```

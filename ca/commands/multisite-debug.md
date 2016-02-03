@@ -1,5 +1,5 @@
 # multisite:debug
-El comandament **multisite:debug** executa Mostra tots el multisites disponibles al sistema
+El comandament **multisite:debug** executa Mostra tots el multisites disponibles del sistema
 
 **Ús:**
 ```

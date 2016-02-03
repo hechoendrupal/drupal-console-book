@@ -1,5 +1,5 @@
 # config:debug
-The **config:debug** command Show the current configuration.
+The **config:debug** command Показывает текущую конфигурацию.
 
 **Usage:**
 ```
@@ -10,4 +10,4 @@ $ cde
 ## Available arguments
 Argument | Details
 ---------|-------------
-config-name | Configuration name.
+config-name | Имя конфигурации.

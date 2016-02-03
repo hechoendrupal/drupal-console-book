@@ -1,5 +1,5 @@
 # generate:plugin:rest:resource
-The **generate:plugin:rest:resource** command प्लगिन रेस्ट साधन उत्पन्न करें
+**generate:plugin:rest:resource** कमांड प्लगिन रेस्ट साधन उत्पन्न करें
 
 **प्रयोग:**
 ```

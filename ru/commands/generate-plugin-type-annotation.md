@@ -9,7 +9,7 @@ $ drupal generate:plugin:type:annotation [options]
 ## Available options
 Option | Details
 -------|-------------
---module | The Module name.
+--module | Имя модуля.
 --class | Plugin type class name
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
 --label | Plugin type label

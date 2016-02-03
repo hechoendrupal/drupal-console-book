@@ -11,6 +11,7 @@ $ ces
 Option | Details
 -------|-------------
 --directory | Export könyvtár meghatározása a beállítások mentéséhez.
+--include-dependencies | Export dependencies of the configuration as well.
 
 ## Available arguments
 Argument | Details

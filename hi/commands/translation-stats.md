@@ -1,5 +1,5 @@
 # translation:stats
-The **translation:stats** command Generate translate stats
+**translation:stats** कमांड ट्रांसलेट स्टैट्स उत्पन्न
 
 **प्रयोग:**
 ```
@@ -9,9 +9,9 @@ $ drupal translation:stats [arguments] [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---format | Define output format table|markdown
+--format | आउटपुट स्वरूप को परिभाषित करें table|markdown
 
-## उपलब्ध तर्कों  
+## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
-language | Language to generate translation stats against English
+language | इंग्लिश के खिलाफ भाषा का ट्रांसलेशन स्टैट्स उत्पन्न करने के लिए

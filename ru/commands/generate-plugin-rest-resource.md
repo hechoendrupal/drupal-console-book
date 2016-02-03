@@ -9,7 +9,7 @@ $ drupal generate:plugin:rest:resource [options]
 ## Available options
 Option | Details
 -------|-------------
---module | The Module name.
+--module | Имя модуля.
 --class | Plugin Rest Resource class
 --name | commands.generate.service.options.name
 --plugin-id | Plugin Rest Resource id

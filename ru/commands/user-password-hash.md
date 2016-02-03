@@ -1,5 +1,5 @@
 # user:password:hash
-The **user:password:hash** command Generate a hash from a plaintext password.
+The **user:password:hash** command Сгенерировать хеш для пароля.
 
 **Usage:**
 ```
@@ -10,4 +10,4 @@ $ usph
 ## Available arguments
 Argument | Details
 ---------|-------------
-password | Password(s) in text format
+password | Пароль(и) в текстовом формате

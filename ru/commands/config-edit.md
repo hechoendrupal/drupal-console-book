@@ -1,5 +1,5 @@
 # config:edit
-The **config:edit** command Edit the selected configuration.
+The **config:edit** command Редактирование выбранной конфигурации.
 
 **Usage:**
 ```
@@ -10,5 +10,5 @@ $ cdit
 ## Available arguments
 Argument | Details
 ---------|-------------
-config-name | Configuration name.
-editor | Editor.
+config-name | Имя конфигурации.
+editor | Редактор.

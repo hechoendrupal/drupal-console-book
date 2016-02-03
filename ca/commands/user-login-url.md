@@ -1,5 +1,5 @@
 # user:login:url
-El comandament **user:login:url** executa Returns a one-time user login url.
+El comandament **user:login:url** executa Retorna la 'one-time login url' d'un usuari.
 
 **Ús:**
 ```
@@ -10,4 +10,4 @@ $ uslu
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-user-id | User ID.
+user-id | ID d'usuari.

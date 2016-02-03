@@ -11,6 +11,7 @@ $ ces
 Opción | Detalles
 -------|-------------
 --directory | Define el directorio de exportación para guardar la configuración.
+--include-dependencies | Export dependencies of the configuration as well.
 
 ## Argumentos disponibles
 Argumento | Detalles

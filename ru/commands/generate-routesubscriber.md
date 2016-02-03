@@ -9,6 +9,6 @@ $ drupal generate:routesubscriber [options]
 ## Available options
 Option | Details
 -------|-------------
---module | The Module name.
+--module | Имя модуля.
 --name | Service name
 --class | Class name

@@ -1,5 +1,5 @@
 # site:new
-The **site:new** command एक नया Drupal परियोजना बनाएँ
+**site:new** कमांड एक नया Drupal परियोजना बनाएँ
 
 **प्रयोग:**
 ```
@@ -7,7 +7,7 @@ $ drupal site:new [arguments]
 $ sn  
 ```
 
-## उपलब्ध तर्कों  
+## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
 directory | Drupal डाउनलोड के लिये निर्देशिका

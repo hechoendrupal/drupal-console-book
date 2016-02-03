@@ -1,5 +1,5 @@
 # generate:plugin:block
-El comandament **generate:plugin:block** executa commands.generate.plugin.block.description
+El comandament **generate:plugin:block** executa Generate a plugin block
 
 **Ús:**
 ```

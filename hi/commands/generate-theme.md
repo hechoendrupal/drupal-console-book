@@ -1,5 +1,5 @@
 # generate:theme
-The **generate:theme** command एक नया थीम उत्पन्न करें।
+**generate:theme** कमांड एक नया थीम उत्पन्न करें।
 
 **प्रयोग:**
 ```

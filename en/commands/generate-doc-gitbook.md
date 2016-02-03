@@ -11,6 +11,7 @@ $ gdg
 Option | Details
 -------|-------------
 --path | The path to render the documentation
+--learning | Generate a verbose code output
 --help | Display this help message
 --quiet | Do not output any message
 --verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
@@ -21,7 +22,6 @@ Option | Details
 --env | The Environment name
 --root | Define the Drupal root to be used in command execution
 --no-debug | Switches off debug mode
---learning | Generate a verbose code output
 --generate-chain | Shows command options and arguments as yaml output to be used in chain command
 --generate-inline | Shows command options and arguments as inline command
 --generate-doc | Shows command options and arguments as markdown

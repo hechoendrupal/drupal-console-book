@@ -1,5 +1,5 @@
 # user:debug
-The **user:debug** command Megjeleníti az alkalmazás aktuális felhasználóit
+The **user:debug** command Megjeleníti az aktuális felhasználókat
 
 **Usage:**
 ```

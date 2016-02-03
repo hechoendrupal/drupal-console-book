@@ -1,5 +1,5 @@
 # rest:enable
-El comandament **rest:enable** executa Habilitar un resurs Rest per l'aplicació
+El comandament **rest:enable** executa Habilitar un recurs Rest per l'aplicació
 
 **Ús:**
 ```

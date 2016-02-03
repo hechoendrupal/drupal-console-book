@@ -1,5 +1,5 @@
 # settings:debug
-**settings:debug** comanda Displays current key:value on settings file.
+**settings:debug** comanda List user Drupal Console settings.
 
 **Folosire:**
 ```

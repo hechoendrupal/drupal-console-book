@@ -1,5 +1,5 @@
 # generate:plugin:condition
-The **generate:plugin:condition** command प्लगिन नियम उत्पन्न करें।
+**generate:plugin:condition** कमांड प्लगिन नियम उत्पन्न करें।
 
 **प्रयोग:**
 ```

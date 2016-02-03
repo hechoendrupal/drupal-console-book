@@ -1,5 +1,5 @@
 # generate:plugin:block
-The **generate:plugin:block** command प्लगिन खंड उत्पन्न करें
+**generate:plugin:block** कमांड प्लगिन खंड उत्पन्न करें
 
 **प्रयोग:**
 ```

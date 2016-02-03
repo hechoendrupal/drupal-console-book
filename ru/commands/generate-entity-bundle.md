@@ -10,6 +10,6 @@ $ geb
 ## Available options
 Option | Details
 -------|-------------
---module | The Module name.
+--module | Имя модуля.
 --bundle-name | The content type's machine name
 --bundle-title | The content type's human-readable name

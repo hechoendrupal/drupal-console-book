@@ -1,5 +1,5 @@
 # state:override
-El comandament **state:override** executa Override a State key.
+El comandament **state:override** executa Anul·lar l'estat de la clau.
 
 **Ús:**
 ```
@@ -9,5 +9,5 @@ $ drupal state:override [arguments]
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-key | The State key to override.
-value | The State value to set.
+key | L'estat de la clau a anul·lar.
+value | El valor de l'estat a definir.

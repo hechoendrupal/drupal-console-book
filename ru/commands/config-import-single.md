@@ -1,5 +1,5 @@
 # config:import:single
-The **config:import:single** command Import the selected configuration.
+The **config:import:single** command Импорт выбранной конфигурации.
 
 **Usage:**
 ```
@@ -10,5 +10,5 @@ $ cis
 ## Available arguments
 Argument | Details
 ---------|-------------
-config-name | Configuration name.
-input-file | Path to the import files.
+config-name | Имя конфигурации.
+input-file | Путь к импортируемым файлам.

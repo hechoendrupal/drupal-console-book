@@ -1,5 +1,5 @@
 # yaml:update:value
-The **yaml:update:value** command Update a value for a specific key in a YAML file.
+The **yaml:update:value** command Обновить значение для заданного ключа в YAML файле.
 
 **Usage:**
 ```
@@ -10,6 +10,6 @@ $ yuv
 ## Available arguments
 Argument | Details
 ---------|-------------
-yaml-file | Path of YAML file to update
-yaml-key | YAML key to update
-yaml-value | YAML value to update
+yaml-file | Путь к YAML файлу для обновления
+yaml-key | YAML ключ для обновления
+yaml-value | YAML значение для обновления

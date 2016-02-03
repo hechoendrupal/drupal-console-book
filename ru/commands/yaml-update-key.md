@@ -1,5 +1,5 @@
 # yaml:update:key
-The **yaml:update:key** command Replace a YAML key in a YAML file.
+The **yaml:update:key** command Заменить YAML ключ в YAML файле.
 
 **Usage:**
 ```
@@ -10,6 +10,6 @@ $ yu
 ## Available arguments
 Argument | Details
 ---------|-------------
-yaml-file | Path of YAML file to update
-yaml-key | YAML key to update
+yaml-file | Путь к YAML файлу для обновления
+yaml-key | YAML ключ для обновления
 yaml-new-key | commands.yaml.update.value.arguments.yaml-new-key

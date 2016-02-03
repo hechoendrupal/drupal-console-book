@@ -1,5 +1,5 @@
 # theme:debug
-El comandament **theme:debug** executa Displays current themes for the application
+El comandament **theme:debug** executa Mostra els temes actuals per l'aplicació
 
 **Ús:**
 ```
@@ -10,4 +10,4 @@ $ tde
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-theme | Specific theme to debug
+theme | Especifica el tema a depurar

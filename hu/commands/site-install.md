@@ -13,12 +13,12 @@ Option | Details
 --langcode | A Drupal nyelve
 --db-type | A telepítéskor használandó Drupal adatbázis
 --db-file | A telepítéskor használandó Drupal adatbázisfájl
---db-host | Adatbázis Host
---db-name | Adatbázis Név
---db-user | Adatbázis Felhasználó
+--db-host | Adatbázis-gazdagép
+--db-name | Adatbázis neve
+--db-user | Adatbázis-felhasználó
 --db-pass | Adatbázis jelszó
---db-prefix | Adatbázis Prefix
---db-port | Adatbázis Port
+--db-prefix | Adatbázis előtag
+--db-port | Adatbázis port
 --site-name | A Drupal webhely neve
 --site-mail | A Drupal webhely e-mail címe
 --account-name | A Drupal adminisztrátori fiók neve

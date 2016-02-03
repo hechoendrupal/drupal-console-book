@@ -10,4 +10,4 @@ $ drupal user:debug [options]
 Option | Details
 -------|-------------
 --roles | Roles to filter debug
---limit | How many users would you like to be listed in debug
+--limit | How many users would you listed in debug

@@ -1,5 +1,5 @@
 # generate:profile
-The **generate:profile** command प्रोफाइल उत्पन्न करे.
+**generate:profile** कमांड प्रोफाइल उत्पन्न करे.
 
 **प्रयोग:**
 ```

@@ -1,5 +1,5 @@
 # cron:release
-The **cron:release** command Release cron system lock to run cron again
+The **cron:release** command Снимает блокировку с крона для повторного запуска
 
 **Usage:**
 ```

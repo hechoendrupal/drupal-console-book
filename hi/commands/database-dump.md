@@ -1,5 +1,5 @@
 # database:dump
-The **database:dump** command डंप संरचना और MYSQL का कंटेंट डेटाबेसेस और टेबल्स
+**database:dump** कमांड डंप संरचना और MYSQL का कंटेंट डेटाबेसेस और टेबल्स
 
 **प्रयोग:**
 ```
@@ -11,7 +11,7 @@ $ drupal database:dump [arguments] [options]
 -------|-------------
 --file | commands.database.dump.option.file
 
-## उपलब्ध तर्कों  
+## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
 database | Settings.php से डाटाबेस कुंजी

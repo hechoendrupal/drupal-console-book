@@ -7,13 +7,14 @@ Comanda Consolei Drupal | Detalii
 [about](about.md) | Afișează informațiile de bază despre proiectul Drupal Console
 [chain](chain.md) | Execuție comandă înlănțuită
 [help](help.md) | Displays help for a command
-[init](init.md) | Copiază fişierele de configurare în directorul de bază al utilizatorului.
+[settings:init](settings-init.md) | Copiază fişierele de configurare în directorul de bază al utilizatorului.
 [list](list.md) | Listele de comenzi
 [server](server.md) | Runs PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruiți și curățați tot cache-ul.
 **config**  |
 [config:debug](config-debug.md) | Afișează configurarea curentă.
+[config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Editează configurarea selectată.
 [config:export](config-export.md) | Exportă configurările curente ale aplicației.
 [config:export:content:type](config-export-content-type.md) | Exportă un anumit tip de conținut și câmpurile aferente.
@@ -22,6 +23,7 @@ Comanda Consolei Drupal | Detalii
 [config:import](config-import.md) | Importă configurarea pentru aplicația curentă.
 [config:import:single](config-import-single.md) | Importă configurarea selectată.
 [config:override](config-override.md) | Suprascrie valoarea de configurare în configurarea activă.
+[config:settings:debug](config-settings-debug.md) | Displays current key:value on settings file.
 **container**  |
 [container:debug](container-debug.md) | Afișează serviciile curente pentru o aplicație.
 **create**  |
@@ -97,13 +99,16 @@ Comanda Consolei Drupal | Detalii
 [router:debug](router-debug.md) | Afişează rutele curente
 [router:rebuild](router-rebuild.md) | Reconstruieşte o rută
 **settings**  |
-[settings:debug](settings-debug.md) | Displays current key:value on settings file.
+[settings:debug](settings-debug.md) | List user Drupal Console settings.
+[settings:init](settings-init.md) | Copiază fişierele de configurare în directorul de bază al utilizatorului.
+[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Listează toate siturile locale sau la distanță.
 [site:install](site-install.md) | Instalează un proiect Drupal
 [site:maintenance](site-maintenance.md) | Activează modul de mentenanţă
 [site:mode](site-mode.md) | Schimbă configurarile de performanţă ale sistemului
 [site:new](site-new.md) | Crează un proiect Drupal nou.
+[site:statistics](site-statistics.md) | Show the current statistics of website.
 [site:status](site-status.md) | Vizualizează statutul de instalare (Drupal Installation status)
 **state**  |
 [state:debug](state-debug.md) | Show the current State keys.

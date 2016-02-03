@@ -7,13 +7,14 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [about](about.md) | Hiển thị thông tin cơ bản về dự án Drupal Console
 [chain](chain.md) | Thi hành chuỗi câu lệnh
 [help](help.md) | Displays help for a command
-[init](init.md) | Sao chép các file cấu hình tới thư mục gốc.
+[settings:init](settings-init.md) | Sao chép các file cấu hình tới thư mục gốc.
 [list](list.md) | Các danh sách tất cả các dòng lệnh có sẵn
 [server](server.md) | Chạy PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Xây dựng lại và làm sạch tất cả cache trên trang.
 **config**  |
 [config:debug](config-debug.md) | Hiển thị cấu hình hiện tại
+[config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Chỉnh sửa cấu hình đã được chọn
 [config:export](config-export.md) | Xuất cấu hình ứng dụng hiện tại
 [config:export:content:type](config-export-content-type.md) | Xuất một kiểu nội dung chỉ định và các field của chúng
@@ -22,6 +23,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [config:import](config-import.md) | Nhập cấu hình tới ứng dụng hiện tại
 [config:import:single](config-import-single.md) | Import cấu hình đã được chọn.
 [config:override](config-override.md) | Ghi đè giá trị cấu hình trong cấu hình đang hoạt động
+[config:settings:debug](config-settings-debug.md) | Displays current key:value on settings file.
 **container**  |
 [container:debug](container-debug.md) | Các dịch vụ hiển thị hiện tại cho một ứng dụng
 **create**  |
@@ -97,13 +99,16 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [router:debug](router-debug.md) | Hiển thị các định tuyến hiện tại của ứng dụng
 [router:rebuild](router-rebuild.md) | Xây dựng lại định tuyến cho ứng dụng
 **settings**  |
-[settings:debug](settings-debug.md) | Displays current key:value on settings file.
+[settings:debug](settings-debug.md) | List user Drupal Console settings.
+[settings:init](settings-init.md) | Sao chép các file cấu hình tới thư mục gốc.
+[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Liệt kê tất cả các sites cục bộ và từ xa đã biết.
 [site:install](site-install.md) | Cài đặt một dự án Drupal
 [site:maintenance](site-maintenance.md) | Chuyển site sang chế độ bảo trì
 [site:mode](site-mode.md) | Chuyển đổi cấu hình hiệu năng của hệ thống
 [site:new](site-new.md) | Tạo một dự án Drupal mới
+[site:statistics](site-statistics.md) | Show the current statistics of website.
 [site:status](site-status.md) | Xem trạng thái cài đặt hiện tại
 **state**  |
 [state:debug](state-debug.md) | Hiển thị State keys hiện tại.

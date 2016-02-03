@@ -1,5 +1,5 @@
 # theme:download
-The **theme:download** command आवेदन में विषय डाउनलोड करे
+**theme:download** कमांड आवेदन में विषय डाउनलोड करे
 
 **प्रयोग:**
 ```
@@ -7,7 +7,7 @@ $ drupal theme:download [arguments]
 $ td  
 ```
 
-## उपलब्ध तर्कों  
+## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
 theme | commands.theme.download.options.theme

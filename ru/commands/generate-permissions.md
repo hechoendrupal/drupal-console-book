@@ -10,5 +10,5 @@ $ gp
 ## Available options
 Option | Details
 -------|-------------
---module | The Module name.
---permissions | Create permissions.
+--module | Имя модуля.
+--permissions | Создание прав доступа.

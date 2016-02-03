@@ -1,5 +1,5 @@
 # theme:uninstall
-El comandament **theme:uninstall** executa Uninstall theme or themes in the application
+El comandament **theme:uninstall** executa Desinstal·lar temes de l'alicació
 
 **Ús:**
 ```
