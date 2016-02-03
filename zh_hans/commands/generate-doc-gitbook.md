@@ -11,6 +11,7 @@ $ gdg
 选项 | 详细
 -------|-------------
 --path | 呈现文档的路径
+--learning | 生成详细的代码输出用于学习
 --help | 显示帮助
 --quiet | 静默模式，不输出任何消息
 --verbose | 消息输出。 v：正常输出，vv：详细输出，vvv：调试输出
@@ -21,7 +22,6 @@ $ gdg
 --env | 环境名称
 --root | 定义 Drupal 根目录，命令执行时使用
 --no-debug | 禁用调试
---learning | 生成详细的代码输出用于学习
 --generate-chain | 以 YAML 格式显示命令执行时的选项和参数，用于链式执行一组命令
 --generate-inline | 将命令执行时的选项和参数显示成一行，以便后续使用
 --generate-doc | 显示命令选项和参数为 markdown 格式

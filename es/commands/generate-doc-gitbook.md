@@ -11,6 +11,7 @@ $ gdg
 Opción | Detalles
 -------|-------------
 --path | La ruta donde exportar la documentación
+--learning | Generar código con explicaciones.
 --help | Muestra este mensaje de ayuda
 --quiet | No mostrar ningún mensaje
 --verbose | Aumentar el detalle de los mensajes: 1 para salida normal, 2 para una salida más explícita y 3 para debug
@@ -21,7 +22,6 @@ Opción | Detalles
 --env | Nombre del ambiente.
 --root | Define la raíz de Drupal que se utilizará en la ejecución de los comandos
 --no-debug | Desactivar el modo de depuración.
---learning | Generar código con explicaciones.
 --generate-chain | Imprimir opciones y argumentos como YAML para ser usado el comando chain
 --generate-inline | Imprimir opciones y argumentos de ejecución como llamada inline para ser usados en el futuro
 --generate-doc | Shows command options and arguments as markdown

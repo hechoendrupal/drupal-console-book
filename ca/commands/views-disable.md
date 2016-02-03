@@ -1,5 +1,5 @@
 # views:disable
-El comandament **views:disable** executa Disable a View
+El comandament **views:disable** executa Deshabilitar vistes
 
 **Ús:**
 ```
@@ -10,4 +10,4 @@ $ vdi
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-view-id | View ID
+view-id | ID de la vista

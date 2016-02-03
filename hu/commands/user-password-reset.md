@@ -1,5 +1,5 @@
 # user:password:reset
-The **user:password:reset** command Addott felhasználó jelszavának alaphelyzetbe állítása.
+The **user:password:reset** command Adott felhasználó jelszavának alaphelyzetbe állítása.
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # yaml:update:key
-El comandament **yaml:update:key** executa Replace a YAML key in a YAML file.
+El comandament **yaml:update:key** executa Reemplaçar una clau YAML en un fitxer YAML.
 
 **Ús:**
 ```
@@ -10,6 +10,6 @@ $ yu
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-yaml-file | Path of YAML file to update
-yaml-key | YAML key to update
+yaml-file | Ruta la fitxer YAML per actualitzar
+yaml-key | Clau YAML per actualitzar
 yaml-new-key | commands.yaml.update.value.arguments.yaml-new-key

@@ -1,5 +1,5 @@
 # config:export:single
-The **config:export:single** command एक कॉन्फिग को yml फाइल के जैसे निर्यात करें।
+**config:export:single** कमांड एक कॉन्फिग को yml फाइल के जैसे निर्यात करें।
 
 **प्रयोग:**
 ```
@@ -11,8 +11,9 @@ $ ces
 विकल्प | विवरण
 -------|-------------
 --directory | कॉन्फ़िगरेशन उत्पादन को सेव करने के लिए एक्सपोर्ट डायरेक्टरी को परिभाषित करें।
+--include-dependencies | Export dependencies of the configuration as well.
 
-## उपलब्ध तर्कों  
+## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
 config-name | कॉन्फिग का नाम।

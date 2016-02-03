@@ -1,5 +1,5 @@
 # chain
-The **chain** command Chain command execution
+The **chain** command Последовательное выполнение команд
 
 **Usage:**
 ```
@@ -9,4 +9,4 @@ $ drupal chain [options]
 ## Available options
 Option | Details
 -------|-------------
---file | User defined file containing commands to get executed.
+--file | Определенный пользователем файл содержащий команды на выполнение.

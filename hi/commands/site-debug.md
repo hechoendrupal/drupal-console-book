@@ -1,5 +1,5 @@
 # site:debug
-The **site:debug** command सभी ज्ञात स्थानीय और दूरस्थ साइटों की सूची दें।
+**site:debug** कमांड सभी ज्ञात स्थानीय और दूरस्थ साइटों की सूची दें।
 
 **प्रयोग:**
 ```
@@ -7,7 +7,7 @@ $ drupal site:debug [arguments]
 $ sd  
 ```
 
-## उपलब्ध तर्कों  
+## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
 target | commands.site.debug.options.target

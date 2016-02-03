@@ -1,5 +1,5 @@
 # config:export
-The **config:export** command Export current application configuration.
+The **config:export** command Экспорт текущей конфигурации приложения.
 
 **Usage:**
 ```
@@ -10,5 +10,5 @@ $ ce
 ## Available options
 Option | Details
 -------|-------------
---directory | commands.config.export.options.directory
---tar | commands.config.export.options.tar
+--directory | Задать директорию для экспорта конфигурации.
+--tar | If set, the configuration will be exported to an archive file.

@@ -9,9 +9,9 @@ $ drupal module:install [arguments] [options]
 ## Available options
 Option | Details
 -------|-------------
---latest | Default to download most recent version
+--latest | Az alapértelmezés a legfrissebb verzió letöltése
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-module | Module or modules to be enabled should be separated by a space
+module | Az engedélyezendő modulokat szóközzel kell elválasztani

@@ -1,5 +1,5 @@
 # site:maintenance
-El comandament **site:maintenance** executa Switch site into maintenance mode
+El comandament **site:maintenance** executa Canviar al mode manteniment
 
 **Ús:**
 ```
@@ -10,4 +10,4 @@ $ sma
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-mode | Site maintenance mode[on/off]
+mode | Mode de manteniment del lloc[on/off]

@@ -10,7 +10,8 @@ $ ces
 ## Available options
 Option | Details
 -------|-------------
---directory | Define export directory to save configuration output.
+--directory | Define the export directory to save the configuration output.
+--include-dependencies | Export dependencies of the configuration as well.
 
 ## Available arguments
 Argument | Details

@@ -1,5 +1,5 @@
 # site:status
-El comandament **site:status** executa View current Drupal Installation status
+El comandament **site:status** executa Veure l'estat actual de l'instal·lació de Drupal
 
 **Ús:**
 ```

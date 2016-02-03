@@ -1,5 +1,5 @@
 # container:debug
-The **container:debug** command Displays current services for an application.
+The **container:debug** command Отображает текущие сервисы для приложения.
 
 **Usage:**
 ```

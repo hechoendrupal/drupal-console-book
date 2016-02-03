@@ -1,5 +1,5 @@
 # cron:execute
-The **cron:execute** command Execute cron implementations by module or execute all crons
+The **cron:execute** command Выполнить реализацию крона для модуля иои выполнить все крон-задачи
 
 **Usage:**
 ```
@@ -10,4 +10,4 @@ $ cre
 ## Available arguments
 Argument | Details
 ---------|-------------
-module | The Module name.
+module | Имя модуля.

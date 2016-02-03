@@ -1,5 +1,5 @@
 # settings:debug
-El comandament **settings:debug** executa Displays current key:value on settings file.
+El comandament **settings:debug** executa Mostrar la clau actual: valor del fitxer de configuració.
 
 **Ús:**
 ```

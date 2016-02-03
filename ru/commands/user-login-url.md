@@ -1,5 +1,5 @@
 # user:login:url
-The **user:login:url** command Returns a one-time user login url.
+The **user:login:url** command Возвращает одноразовый url для входа.
 
 **Usage:**
 ```
@@ -10,4 +10,4 @@ $ uslu
 ## Available arguments
 Argument | Details
 ---------|-------------
-user-id | User ID.
+user-id | ID пользователя.

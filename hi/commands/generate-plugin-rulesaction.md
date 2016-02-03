@@ -1,5 +1,5 @@
 # generate:plugin:rulesaction
-The **generate:plugin:rulesaction** command प्लगिन रुल प्रक्रिया उत्पन्न करें
+**generate:plugin:rulesaction** कमांड प्लगिन रुल प्रक्रिया उत्पन्न करें
 
 **प्रयोग:**
 ```

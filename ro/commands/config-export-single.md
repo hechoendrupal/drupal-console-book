@@ -11,6 +11,7 @@ $ ces
 Opțiune | Detalii
 -------|-------------
 --directory | Indică calea de salvare pentru configurările exportate.
+--include-dependencies | Export dependencies of the configuration as well.
 
 ## Argumente disponibile
 Argument | Detalii

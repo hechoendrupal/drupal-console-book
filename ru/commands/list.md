@@ -1,5 +1,5 @@
 # list
-The **list** command Lists all available commands
+The **list** command Список команд
 
 **Usage:**
 ```
@@ -9,11 +9,11 @@ $ drupal list [arguments] [options]
 ## Available options
 Option | Details
 -------|-------------
---xml | To output list as XML
---raw | To output raw command list
---format | The output format (txt, xml, json, or md)
+--xml | Вывести список в XML формате
+--raw | Вывести список в исходном формате
+--format | Формат вывода (txt, xml, json, или md)
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-namespace | The namespace name
+namespace | Пространство имен

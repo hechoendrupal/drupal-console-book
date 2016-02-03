@@ -1,5 +1,5 @@
 # cron:debug
-The **cron:debug** command List of modules implementing a cron
+The **cron:debug** command Список модулей реализующих крон
 
 **Usage:**
 ```

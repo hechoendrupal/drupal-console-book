@@ -13,5 +13,6 @@ Opció | Detalls
 --module | Nom del mòdul.
 --entity-class | Classe de l'entitat de continguts
 --entity-name | Nom de l'entitat de continguts
+--base-path | The base-path for the config entity routes
 --label | Etiqueta
---bundle-of | commands.generate.entity.config.options.bundle-of
+--bundle-of | Acts as bundle for content entities

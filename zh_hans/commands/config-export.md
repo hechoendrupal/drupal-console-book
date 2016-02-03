@@ -10,5 +10,5 @@ $ ce
 ## 可用选项
 选项 | 详细
 -------|-------------
---directory | commands.config.export.options.directory
---tar | commands.config.export.options.tar
+--directory | 导出配置存放目录
+--tar | If set, the configuration will be exported to an archive file.

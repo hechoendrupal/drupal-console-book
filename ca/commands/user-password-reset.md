@@ -1,5 +1,5 @@
 # user:password:reset
-El comandament **user:password:reset** executa Reset password for a specific user.
+El comandament **user:password:reset** executa Reinicialitza una contrasenya per un usuari determinat.
 
 **Ús:**
 ```
@@ -10,5 +10,5 @@ $ uspr
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-user | User ID
-password | Password in text format
+user | ID d'usuari
+password | Contrasenya en text sense format

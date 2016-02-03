@@ -10,5 +10,5 @@ $ ce
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---directory | commands.config.export.options.directory
---tar | commands.config.export.options.tar
+--directory | Indică calea de salvare pentru configurările exportate.
+--tar | If set, the configuration will be exported to an archive file.

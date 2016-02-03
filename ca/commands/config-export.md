@@ -10,5 +10,5 @@ $ ce
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---directory | commands.config.export.options.directory
---tar | commands.config.export.options.tar
+--directory | Defineix el directori d'exportació per desar la configuració.
+--tar | If set, the configuration will be exported to an archive file.

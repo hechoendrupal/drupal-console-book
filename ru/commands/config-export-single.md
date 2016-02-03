@@ -1,5 +1,5 @@
 # config:export:single
-The **config:export:single** command Export single configuration as yml file.
+The **config:export:single** command Экспорт конфигурации в yml файл.
 
 **Usage:**
 ```
@@ -10,9 +10,10 @@ $ ces
 ## Available options
 Option | Details
 -------|-------------
---directory | Define export directory to save configuration output.
+--directory | Задать директорию для экспорта конфигурации.
+--include-dependencies | Export dependencies of the configuration as well.
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-config-name | Configuration name.
+config-name | Имя конфигурации.

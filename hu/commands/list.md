@@ -1,5 +1,5 @@
 # list
-The **list** command Lists commands22
+The **list** command A rendelkezésre álló parancsok listázása
 
 **Usage:**
 ```
@@ -9,11 +9,11 @@ $ drupal list [arguments] [options]
 ## Available options
 Option | Details
 -------|-------------
---xml | To output list as XML
---raw | To output raw command list
---format | The output format (txt, xml, json, or md)
+--xml | A lista kiírása XML formátumban
+--raw | A nyers parancslista kiírása
+--format | A kimeneti formátum (txt, xml, json vagy md)
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-namespace | The namespace name
+namespace | A névtér neve

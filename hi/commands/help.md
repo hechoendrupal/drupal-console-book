@@ -1,5 +1,5 @@
 # help
-The **help** command Displays help for a command
+**help** कमांड एक कमांड के लिए मदद प्रदर्शित करता है
 
 **प्रयोग:**
 ```
@@ -9,11 +9,11 @@ $ drupal help [arguments] [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---xml | To output list as XML
---raw | To output raw command list
---format | The output format (txt, xml, json, or md)
+--xml | XML के रूप में उत्पादन सूची
+--raw | रॉ कमांड सूची उत्पादन करने के लिए
+--format | फॉर्मेट आउटपुट (txt, xml, json, or md)
 
-## उपलब्ध तर्कों  
+## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
-command_name | The command name
+command_name | कमांड का नाम

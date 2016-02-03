@@ -1,5 +1,5 @@
 # user:password:reset
-The **user:password:reset** command Reset password for a specific user.
+The **user:password:reset** command Сброс пароля указанного пользователя.
 
 **Usage:**
 ```
@@ -10,5 +10,5 @@ $ uspr
 ## Available arguments
 Argument | Details
 ---------|-------------
-user | User ID
-password | Password in text format
+user | ID пользователя
+password | Пароль в текстовом формате

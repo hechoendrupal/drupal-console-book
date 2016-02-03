@@ -1,5 +1,5 @@
 # test:run
-El comandament **test:run** executa Run Test unit from tests available for application
+El comandament **test:run** executa Executa els Test Units disponibles per l'aplicació
 
 **Ús:**
 ```
@@ -15,4 +15,4 @@ Opció | Detalls
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-test-class | Test Class
+test-class | Classe Test

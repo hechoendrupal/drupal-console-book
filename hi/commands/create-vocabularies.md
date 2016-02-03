@@ -1,5 +1,5 @@
 # create:vocabularies
-The **create:vocabularies** command अपने Drupal 8 एप्लीकेशन के लिए डमी वोकैब्युलरीस बनाएँ।
+**create:vocabularies** कमांड अपने Drupal 8 एप्लीकेशन के लिए डमी वोकैब्युलरीस बनाएँ।
 
 **प्रयोग:**
 ```

@@ -1,5 +1,5 @@
 # user:delete
-The **user:delete** command Felhasználók törlése az alkalmazásból
+The **user:delete** command Felhasználók törlése
 
 **Usage:**
 ```

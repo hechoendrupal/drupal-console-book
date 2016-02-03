@@ -1,5 +1,5 @@
 # views:debug
-The **views:debug** command Display current views resources for the application
+The **views:debug** command Отображение текущих ресурсов представлений приложения
 
 **Usage:**
 ```
@@ -10,10 +10,10 @@ $ vde
 ## Available options
 Option | Details
 -------|-------------
---tag | View tag
---status | View status (Enabled|Disabled)
+--tag | Тег представления
+--status | Статус представления (Вкл.|Выкл.)
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-view-id | View ID
+view-id | ID Представления

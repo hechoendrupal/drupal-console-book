@@ -1,5 +1,5 @@
 # database:connect
-The **database:connect** command Shows DB connection
+The **database:connect** command Запуск клиента БД, если он доступен
 
 **Usage:**
 ```
@@ -9,4 +9,4 @@ $ drupal database:connect [arguments]
 ## Available arguments
 Argument | Details
 ---------|-------------
-database | Database key from settings.php
+database | Ключ БД из settings.php

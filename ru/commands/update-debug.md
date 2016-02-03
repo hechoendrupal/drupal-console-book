@@ -1,5 +1,5 @@
 # update:debug
-The **update:debug** command Display current updates available for the application
+The **update:debug** command Отобрахить обновления доступные для приложения
 
 **Usage:**
 ```

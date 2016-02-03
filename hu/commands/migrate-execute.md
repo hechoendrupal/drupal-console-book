@@ -1,5 +1,5 @@
 # migrate:execute
-The **migrate:execute** command Elérhető migráció futtatása
+The **migrate:execute** command Az alkalmazáshoz elérhető költöztetés végrehajtása
 
 **Usage:**
 ```
@@ -10,17 +10,17 @@ $ mie
 ## Available options
 Option | Details
 -------|-------------
---site-url | Oldal forrás URL
+--site-url | Webhely forrás URL-címe
 --db-type | commands.migrate.setup.migrations.options.db-type
---db-host | Adatbázis Host
---db-name | Adatbázis Név
---db-user | Adatbázis Felhasználó
+--db-host | Adatbázis-gazdagép
+--db-name | Adatbázis neve
+--db-user | Adatbázis-felhasználó
 --db-pass | Adatbázis jelszó
---db-prefix | Adatbázis Prefix
---db-port | Adatbázis Port
---exclude | Migration id(s) to exclude
+--db-prefix | Adatbázis előtag
+--db-port | Adatbázis port
+--exclude | Kizárandó költöztetési azonosító(k)
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-migration-ids | Migráció Id
+migration-ids | Költöztetési azonosító(k)

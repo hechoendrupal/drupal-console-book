@@ -2,18 +2,19 @@
 
 **Nota:** Els comandaments de Drupal Console *han* de ser executats a la rel de la'instal·lació de Drupal 8.
 
-Commandaments de Drupal Console | Detalls
+Comandaments de Drupal Console | Detalls
 ------------ | -------------
 [about](about.md) | Mostra l'informació bàsica sobre el projecte Drupal Console
 [chain](chain.md) | Execució de comandaments en secuència
 [help](help.md) | Mostra l'ajuda per un comandament
-[console:config:init](console-config-init.md) | commands.console.config.init.description
-[list](list.md) | Llista tots els commandaments disponibles
-[server](server.md) | Runs PHP built-in web server
+[settings:init](settings-init.md) | Copiar fitxers de configuració al directori principal de l'usuari.
+[list](list.md) | Llista tots els comandaments disponibles
+[server](server.md) | Executar servidor PHP integrat
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstrueix i esborra tota la memòria cau (cache) del lloc web.
 **config**  |
 [config:debug](config-debug.md) | Mostra la configuració actual
+[config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Editar la configuració seleccionada
 [config:export](config-export.md) | Exporta la configuració actual de l'aplicació
 [config:export:content:type](config-export-content-type.md) | Exporta un tipus de contingut i els seus camps.
@@ -22,9 +23,7 @@ Commandaments de Drupal Console | Detalls
 [config:import](config-import.md) | Importa la configuració a l'aplicació actual.
 [config:import:single](config-import-single.md) | Importar la configuració seleccionada.
 [config:override](config-override.md) | Sobreescriure el valor de la configuració activa.
-**console**  |
-[console:config:init](console-config-init.md) | commands.console.config.init.description
-[console:config:set:language](console-config-set-language.md) | commands.console.config.set.language.description
+[config:settings:debug](config-settings-debug.md) | Displays current key:value on settings file.
 **container**  |
 [container:debug](container-debug.md) | Mostra el serveis actuals de l'aplicació.
 **create**  |
@@ -59,8 +58,8 @@ Commandaments de Drupal Console | Detalls
 [generate:form:alter](generate-form-alter.md) | Generar una implementació de hook_form_alter() o hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | Generar un nou "ConfigFormBase"
 [generate:module](generate-module.md) | Generar mòdul
-[generate:permissions](generate-permissions.md) | commands.generate.permission.description
-[generate:plugin:block](generate-plugin-block.md) | commands.generate.plugin.block.description
+[generate:permissions](generate-permissions.md) | Generate module permissions
+[generate:plugin:block](generate-plugin-block.md) | Generate a plugin block
 [generate:plugin:condition](generate-plugin-condition.md) | Generar un connector de condició (Plugin condition)
 [generate:plugin:field](generate-plugin-field.md) | Generar connectors de tipus de camp, plugin i formatador
 [generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Genera un  plugin formatador de camp.
@@ -91,59 +90,62 @@ Commandaments de Drupal Console | Detalls
 [module:install](module-install.md) | Instal·lar mòdul en l'aplicació
 [module:uninstall](module-uninstall.md) | Desintal·lar mòdul(s) en l'aplicació
 **multisite**  |
-[multisite:debug](multisite-debug.md) | Mostra tots el multisites disponibles al sistema
+[multisite:debug](multisite-debug.md) | Mostra tots el multisites disponibles del sistema
 **rest**  |
 [rest:debug](rest-debug.md) | Mostra el recurs Rest actual per l'aplicació
 [rest:disable](rest-disable.md) | Deshabilitar el recurs Rest per l'aplicació
-[rest:enable](rest-enable.md) | Habilitar un resurs Rest per l'aplicació
+[rest:enable](rest-enable.md) | Habilitar un recurs Rest per l'aplicació
 **router**  |
 [router:debug](router-debug.md) | Mostrar les rutes actuals per l'aplicació
 [router:rebuild](router-rebuild.md) | Reconstruir rutes per l'aplicació
 **settings**  |
-[settings:debug](settings-debug.md) | Displays current key:value on settings file.
+[settings:debug](settings-debug.md) | Mostrar la clau actual: valor del fitxer de configuració.
+[settings:init](settings-init.md) | Copiar fitxers de configuració al directori principal de l'usuari.
+[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
-[site:debug](site-debug.md) | List all known local and remote sites.
-[site:install](site-install.md) | Install a Drupal project
-[site:maintenance](site-maintenance.md) | Switch site into maintenance mode
-[site:mode](site-mode.md) | Switch system performance configuration
-[site:new](site-new.md) | Create a new Drupal project
-[site:status](site-status.md) | View current Drupal Installation status
+[site:debug](site-debug.md) | Llista tots els llocs locals i remots coneguts.
+[site:install](site-install.md) | Instal·lar un projecte Drupal
+[site:maintenance](site-maintenance.md) | Canviar al mode manteniment
+[site:mode](site-mode.md) | Canviar la configuració de rendiment del sistema
+[site:new](site-new.md) | Crear un nou projecte Drupal
+[site:statistics](site-statistics.md) | Show the current statistics of website.
+[site:status](site-status.md) | Veure l'estat actual de l'instal·lació de Drupal
 **state**  |
-[state:debug](state-debug.md) | Show the current State keys.
-[state:override](state-override.md) | Override a State key.
+[state:debug](state-debug.md) | Mostrar l'estat actual de les claus.
+[state:override](state-override.md) | Anul·lar l'estat de la clau.
 **test**  |
-[test:debug](test-debug.md) | List Test Units available for the application.
-[test:run](test-run.md) | Run Test unit from tests available for application
+[test:debug](test-debug.md) | Llista els Test Units disponibles per l'aplicació.
+[test:run](test-run.md) | Executa els Test Units disponibles per l'aplicació
 **theme**  |
-[theme:debug](theme-debug.md) | Displays current themes for the application
-[theme:download](theme-download.md) | Download theme in application
-[theme:install](theme-install.md) | Install theme or themes in the application
-[theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application
+[theme:debug](theme-debug.md) | Mostra els temes actuals per l'aplicació
+[theme:download](theme-download.md) | Descarregar tema per l'aplicació
+[theme:install](theme-install.md) | Instal·lar temes per l'aplicació
+[theme:uninstall](theme-uninstall.md) | Desinstal·lar temes de l'alicació
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clenaup translation files
-[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
-[translation:stats](translation-stats.md) | Generate translate stats
-[translation:sync](translation-sync.md) | Sync translation files
+[translation:cleanup](translation-cleanup.md) | Netejar el fitxer de traduccions
+[translation:pending](translation-pending.md) | Determinar cadena de traduccions pendent en un idioma o en un fitxer especific d'un idioma
+[translation:stats](translation-stats.md) | Generar estadístiques de traduccions
+[translation:sync](translation-sync.md) | Sincronitzar fitxer de traduccions
 **update**  |
-[update:debug](update-debug.md) | Display current updates available for the application
-[update:execute](update-execute.md) | Execute a specific Update N function in a module, or execute all
+[update:debug](update-debug.md) | Mostra les actualitzacions disponibles per l'aplicació
+[update:execute](update-execute.md) | Executar una funció Update N en un mòdul, o executar-les totes
 **user**  |
-[user:debug](user-debug.md) | Displays current users for the application
-[user:delete](user-delete.md) | Delete users for the application
-[user:login:clear:attempts](user-login-clear-attempts.md) | Clear login failed attempts for an account.
-[user:login:url](user-login-url.md) | Returns a one-time user login url.
-[user:password:hash](user-password-hash.md) | Generate a hash from a plaintext password.
-[user:password:reset](user-password-reset.md) | Reset password for a specific user.
+[user:debug](user-debug.md) | Mostrar els usuaris actuals de l'aplicació
+[user:delete](user-delete.md) | Eliminar usuaris de l'aplicació
+[user:login:clear:attempts](user-login-clear-attempts.md) | Esborrar intents de connexió d'un compte.
+[user:login:url](user-login-url.md) | Retorna la 'one-time login url' d'un usuari.
+[user:password:hash](user-password-hash.md) | Generar un 'hash' a partir d'una contrasenya de text sense format.
+[user:password:reset](user-password-reset.md) | Reinicialitza una contrasenya per un usuari determinat.
 **views**  |
-[views:debug](views-debug.md) | Display current views resources for the application
-[views:disable](views-disable.md) | Disable a View
-[views:enable](views-enable.md) | Enable a View
+[views:debug](views-debug.md) | Mostrar els recursos de vistes actuals de l'aplicació
+[views:disable](views-disable.md) | Deshabilitar vistes
+[views:enable](views-enable.md) | Habilitar vistes
 **yaml**  |
-[yaml:diff](yaml-diff.md) | Compare two YAML files in order to find differences between them.
-[yaml:merge](yaml-merge.md) | Merge one or more YAML files in a new YAML file. Latest values are preserved.
-[yaml:split](yaml-split.md) | Split a YAML file using indent as separator criteria
-[yaml:update:key](yaml-update-key.md) | Replace a YAML key in a YAML file.
-[yaml:update:value](yaml-update-value.md) | Update a value for a specific key in a YAML file.
+[yaml:diff](yaml-diff.md) | Compara dos fitxers YAML amb l'objectiu de trobar diferències.
+[yaml:merge](yaml-merge.md) | Combinar un o més fitxers YAML en un nou fitxer YAML. Es conserven els últims valors.
+[yaml:split](yaml-split.md) | Dividir un fitxer YAML utilitzant una indentació com a criteri de separació
+[yaml:update:key](yaml-update-key.md) | Reemplaçar una clau YAML en un fitxer YAML.
+[yaml:update:value](yaml-update-value.md) | Actualitzar un valor per un clau determinada en un fitxer YAML.
 
 ## Opcions disponibles
 Opció | Detalls
@@ -161,10 +163,10 @@ Opció | Detalls
 --learning | Generar codi detalladament (verbose).
 --generate-chain | Imprimir les opcions d'execució i els arguments com una sortida de YAML per ser utilitzats amb el comandament "chain".
 --generate-inline | Imprimir les opcions d'execució i els arguments com inserits (inline) per ser utilitzats en un futur
---generate-doc | Shows command options and arguments as markdown
---target | Site name you want to interact with (for local or remote sites)
+--generate-doc | Mostrar les opcions i arguments dels comandaments com a "markdown"
+--target | El nom del lloc web amb el qual vols interactuar (llocs locals o remots)
 --uri | URI del lloc web Drupal que s'utilitzarà (per entorns "multisite" o quan s'utilitza un port alternatiu)
---yes | Skip confirmation and proceed
+--yes | Continuar ometent la confirmació
 
 ## Arguments disponibles
 Argument | Detalls

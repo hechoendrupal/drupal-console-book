@@ -13,5 +13,6 @@ Opción | Detalles
 --module | Nombre del módulo.
 --entity-class | Clase de la entidad de configuración
 --entity-name | Nombre de la entidad de configuración
+--base-path | The base-path for the config entity routes
 --label | Etiqueta
 --bundle-of | Actua como un bundle de entidades de contenido

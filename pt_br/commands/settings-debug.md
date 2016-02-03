@@ -1,5 +1,5 @@
 # settings:debug
-O **settings:debug** comando Displays current key:value on settings file.
+O **settings:debug** comando List user Drupal Console settings.
 
 **Uso:**
 ```

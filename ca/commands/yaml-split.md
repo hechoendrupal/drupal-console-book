@@ -1,5 +1,5 @@
 # yaml:split
-El comandament **yaml:split** executa Split a YAML file using indent as separator criteria
+El comandament **yaml:split** executa Dividir un fitxer YAML utilitzant una indentació com a criteri de separació
 
 **Ús:**
 ```
@@ -10,11 +10,11 @@ $ ys
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---indent-level | Split YAML file using a specific indent level
+--indent-level | Dividir un fitxer YAML utilitzant una indentació determinada
 --file-output-prefix | commands.yaml.split.options.file-output-prefix
 --file-output-suffix | commands.yaml.split.options.file-output-suffix
---starting-key | YAML Key from where start split useful to extract partial elements
---exclude-parents-key | Exclude parents key in file name generated
+--starting-key | Clau YAML des d'on començar a dividir per extreure els elements parcials
+--exclude-parents-key | Excloure claus parells en el nom del fitxer generat
 
 ## Arguments disponibles
 Argument | Detalls

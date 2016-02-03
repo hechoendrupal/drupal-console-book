@@ -1,5 +1,5 @@
 # module:uninstall
-The **module:uninstall** command Modul vagy modulok eltávolítása az alkalmazásból
+The **module:uninstall** command Modul vagy modulok eltávolítása
 
 **Usage:**
 ```

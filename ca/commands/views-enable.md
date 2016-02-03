@@ -1,5 +1,5 @@
 # views:enable
-El comandament **views:enable** executa Enable a View
+El comandament **views:enable** executa Habilitar vistes
 
 **Ús:**
 ```
@@ -10,4 +10,4 @@ $ ve
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-view-id | View ID
+view-id | ID de la vista

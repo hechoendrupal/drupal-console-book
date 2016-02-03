@@ -1,5 +1,5 @@
 # generate:service
-The **generate:service** command सर्विस उत्पन्न करें
+**generate:service** कमांड सर्विस उत्पन्न करें
 
 **प्रयोग:**
 ```

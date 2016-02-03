@@ -10,9 +10,9 @@ $ td
 ## Available options
 Option | Details
 -------|-------------
---group | Csoport
+--test-class | Tesztosztály
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-test-class | Tesztosztály
+group | Csoport

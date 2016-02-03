@@ -10,5 +10,6 @@ $ ci
 ## Available options
 Option | Details
 -------|-------------
---file | Configuration file path.
+--file | Path to an archive file of configuration to import.
+--directory | Path to a directory of configuration to import.
 --remove-files | Remove files after synchronization.

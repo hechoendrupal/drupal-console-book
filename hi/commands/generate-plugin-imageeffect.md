@@ -1,5 +1,5 @@
 # generate:plugin:imageeffect
-The **generate:plugin:imageeffect** command छवि प्रभाव प्लगिन उत्पन्न करें
+**generate:plugin:imageeffect** कमांड छवि प्रभाव प्लगिन उत्पन्न करें
 
 **प्रयोग:**
 ```

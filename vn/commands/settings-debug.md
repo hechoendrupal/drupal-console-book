@@ -1,5 +1,5 @@
 # settings:debug
-Câu lệnh **settings:debug** Displays current key:value on settings file.
+Câu lệnh **settings:debug** List user Drupal Console settings.
 
 **Usage:**
 ```

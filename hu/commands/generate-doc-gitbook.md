@@ -11,6 +11,7 @@ $ gdg
 Option | Details
 -------|-------------
 --path | The path to render the documentation
+--learning | Részletes kimeneti kód generálása.
 --help | Kimeneti űzenet megjelentése
 --quiet | Kimeneti űzenet tíltása
 --verbose | Üzenetek gyakoriságának növelése: 1 normál kimenet, 2 részletes kimenet és 3 hibakeresésre
@@ -21,7 +22,6 @@ Option | Details
 --env | A Környezet neve.
 --root | Define the Drupal root to be used in command execution
 --no-debug | Hibakeresés mód leállítása.
---learning | Részletes kimeneti kód generálása.
 --generate-chain | Végrehajtási lehetőségek és argumentumok nyomtatása mint yaml kimenet amit késöbb egy parancsláncba használhat fel
 --generate-inline | Végrehajtási lehetőségek és argumentumok nyomtatása beágyazott hívásként amit késöbb felhasználhat
 --generate-doc | Shows command options and arguments as markdown

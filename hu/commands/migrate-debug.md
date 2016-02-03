@@ -1,5 +1,5 @@
 # migrate:debug
-The **migrate:debug** command Elérhető migrációk megjelenítése
+The **migrate:debug** command Az elérhető aktuális költöztetések megjelenítése
 
 **Usage:**
 ```
@@ -10,4 +10,4 @@ $ mid
 ## Available arguments
 Argument | Details
 ---------|-------------
-tag | Migrate tag
+tag | Költöztetési címke

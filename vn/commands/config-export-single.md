@@ -11,6 +11,7 @@ $ ces
 Tùy chọn | Các chi tiết
 -------|-------------
 --directory | Định nghĩa xuất thư mục để lưu cấu hình đầu ra
+--include-dependencies | Export dependencies of the configuration as well.
 
 ## Các đối số có sẵn
 Đối số | Các chi tiết

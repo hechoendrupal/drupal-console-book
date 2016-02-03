@@ -12,6 +12,6 @@ Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --class | Nom de la classe del controlador
---routes | commands.generate.controller.options.routes
+--routes | The routes, must be an array containing [title, method, path]
 --services | Carregar serveis des del contenidor.
 --test | Generar una classe de prova

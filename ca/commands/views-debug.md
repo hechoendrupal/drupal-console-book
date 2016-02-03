@@ -1,5 +1,5 @@
 # views:debug
-El comandament **views:debug** executa Display current views resources for the application
+El comandament **views:debug** executa Mostrar els recursos de vistes actuals de l'aplicació
 
 **Ús:**
 ```
@@ -10,10 +10,10 @@ $ vde
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---tag | View tag
---status | View status (Enabled|Disabled)
+--tag | Etiqueta de la vista
+--status | Estat de la vista (Habilitat|Deshabilitat)
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-view-id | View ID
+view-id | ID de la vista

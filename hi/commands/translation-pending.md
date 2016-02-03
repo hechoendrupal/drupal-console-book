@@ -1,5 +1,5 @@
 # translation:pending
-The **translation:pending** command Determine pending translation string in a language or a specific file in a language
+**translation:pending** कमांड पेंडिंग ट्रांसलेशन स्ट्रिंग को एक भाषा में या एक स्पेसिफिक फाइल को एक भाषा में निर्धारण करें
 
 **प्रयोग:**
 ```
@@ -9,9 +9,9 @@ $ drupal translation:pending [arguments] [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---file | Specific file to determine pending translations against English
+--file | इंग्लिश के खिलाफ पेंडिंग ट्रांसलेशन्स निर्धारित करने के लिए विशिष्ट फ़ाइल
 
-## उपलब्ध तर्कों  
+## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
-language | Language to determine pending translations against English
+language | इंग्लिश के खिलाफ पेंडिंग ट्रांसलेशन्स निर्धारित करने के लिए विशिष्ट फ़ाइल

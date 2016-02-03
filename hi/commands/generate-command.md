@@ -1,5 +1,5 @@
 # generate:command
-The **generate:command** command कंसोल के लिए कमाण्डो को उत्पन्न करें।
+**generate:command** कमांड कंसोल के लिए कमाण्डो को उत्पन्न करें।
 
 **प्रयोग:**
 ```

@@ -1,5 +1,5 @@
 # list
-El comandament **list** executa Llista tots els commandaments disponibles
+El comandament **list** executa Llista tots els comandaments disponibles
 
 **Ús:**
 ```

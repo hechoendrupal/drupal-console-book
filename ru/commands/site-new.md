@@ -11,4 +11,4 @@ $ sn
 Argument | Details
 ---------|-------------
 directory | Directory when downloading Drupal
-version | Drupal version to download
+version | Specific Drupal version to download

@@ -1,5 +1,5 @@
 # generate:permissions
-El comandament **generate:permissions** executa commands.generate.permission.description
+El comandament **generate:permissions** executa Generate module permissions
 
 **Ús:**
 ```

@@ -1,5 +1,5 @@
 # generate:entity:bundle
-The **generate:entity:bundle** command एक नया कंटेंट प्रकार उत्पन्न करें (नोड/एंटिटी बंडल)
+**generate:entity:bundle** कमांड एक नया कंटेंट प्रकार उत्पन्न करें (नोड/एंटिटी बंडल)
 
 **प्रयोग:**
 ```

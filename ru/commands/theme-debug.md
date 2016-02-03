@@ -10,4 +10,4 @@ $ tde
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | Specific theme to debug
+theme | Specific theme to debug 

@@ -1,5 +1,5 @@
 # yaml:update:value
-The **yaml:update:value** command YAML फाइल में किसी विशेष कुंजी के निधि को अवगत करें।
+**yaml:update:value** कमांड YAML फाइल में किसी विशेष कुंजी के निधि को अवगत करें।
 
 **प्रयोग:**
 ```
@@ -7,7 +7,7 @@ $ drupal yaml:update:value [arguments]
 $ yuv  
 ```
 
-## उपलब्ध तर्कों  
+## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
 yaml-file | YAML फ़ाइल के पथ अद्यतन करने के लिए

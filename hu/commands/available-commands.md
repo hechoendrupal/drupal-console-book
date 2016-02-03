@@ -7,13 +7,14 @@ Drupal Console Command | Details
 [about](about.md) | Alapinformáció listázása a Drupal Console projektről
 [chain](chain.md) | Parancsláncsor végrehajtása
 [help](help.md) | Displays help for a command
-[init](init.md) | Copy configuration files to user home directory.
-[list](list.md) | Lists commands22
+[settings:init](settings-init.md) | Copy configuration files to user home directory.
+[list](list.md) | A rendelkezésre álló parancsok listázása
 [server](server.md) | A PHP beépített webkiszolgálójának futtatása
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Minden gyorsítótár újraépítése és törlése.
 **config**  |
 [config:debug](config-debug.md) | Jelenlegi beállítások megjelenítése.
+[config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Kiválasztott beállítások szerkesztése.
 [config:export](config-export.md) | Jelenlegi alkalmazás beállításainak exportálása.
 [config:export:content:type](config-export-content-type.md) | Bizonyos tipusú tartalom és ennek a mezőinek az exportálása.
@@ -22,6 +23,7 @@ Drupal Console Command | Details
 [config:import](config-import.md) | Konfiguráció importálása az aktuális aplikációba.
 [config:import:single](config-import-single.md) | Importálja a kijelölt konfigurációt.
 [config:override](config-override.md) | Beállítás felülírása.
+[config:settings:debug](config-settings-debug.md) | A settings fájl aktuális kulcs:érték beállításainak megjelenítése.
 **container**  |
 [container:debug](container-debug.md) | Alkalmazáshoz tartozó service megjelenítése.
 **create**  |
@@ -75,35 +77,38 @@ Drupal Console Command | Details
 [generate:service](generate-service.md) | Service létrehozása
 [generate:theme](generate-theme.md) | Generate a theme.
 **locale**  |
-[locale:language:add](locale-language-add.md) | Add a language to be supported by your site
-[locale:language:delete](locale-language-delete.md) | DElete a language to be supported by your site
-[locale:translation:status](locale-translation-status.md) | List available translation updates
+[locale:language:add](locale-language-add.md) | A webhely által támogatott nyelv hozzáadása
+[locale:language:delete](locale-language-delete.md) | A webhely által támogatott nyelv törlése
+[locale:translation:status](locale-translation-status.md) | Rendelkezésre álló fordítási frissítések listázása
 **migrate**  |
-[migrate:debug](migrate-debug.md) | Elérhető migrációk megjelenítése
-[migrate:execute](migrate-execute.md) | Elérhető migráció futtatása
-[migrate:setup](migrate-setup.md) | Load and create the relevant migrations for a provided legacy database
+[migrate:debug](migrate-debug.md) | Az elérhető aktuális költöztetések megjelenítése
+[migrate:execute](migrate-execute.md) | Az alkalmazáshoz elérhető költöztetés végrehajtása
+[migrate:setup](migrate-setup.md) | Adott örökölt adatbázis fontos költöztetéseinek betöltése és létrehozása
 **module**  |
-[module:debug](module-debug.md) | Elérhető modulok megjelenítése
+[module:debug](module-debug.md) | Az alkalmazáshoz elérhető aktuális modulok megjelenítése
 [module:download](module-download.md) | Modul vagy modulok letöltése
 [module:install](module-install.md) | Modul vagy modulok telepítése
-[module:uninstall](module-uninstall.md) | Modul vagy modulok eltávolítása az alkalmazásból
+[module:uninstall](module-uninstall.md) | Modul vagy modulok eltávolítása
 **multisite**  |
 [multisite:debug](multisite-debug.md) | A rendszeren elérhető multisite-ok listázása
 **rest**  |
-[rest:debug](rest-debug.md) | Alkalmazás aktuális REST-erőforrásának megjelenítése
-[rest:disable](rest-disable.md) | Az alkalmazás REST-erőforrásának letiltása
+[rest:debug](rest-debug.md) | Aktuális REST-erőforrás megjelenítése
+[rest:disable](rest-disable.md) | REST-erőforrás letiltása
 [rest:enable](rest-enable.md) | Az alkalmazás REST-erőforrásának engedélyezése
 **router**  |
 [router:debug](router-debug.md) | Megjeleníti az alkalmazás aktuális útvonalait
 [router:rebuild](router-rebuild.md) | Az alkalmazás útvonalainak újraépítése
 **settings**  |
-[settings:debug](settings-debug.md) | A settings fájl aktuális kulcs:érték beállításainak megjelenítése.
+[settings:debug](settings-debug.md) | List user Drupal Console settings.
+[settings:init](settings-init.md) | Copy configuration files to user home directory.
+[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Minden ismert helyi és távoli webhely listázása.
 [site:install](site-install.md) | Drupal projekt telepítése
-[site:maintenance](site-maintenance.md) | Webhely átváltása karbantartási módba
+[site:maintenance](site-maintenance.md) | Webhely karbantartási módba állítása
 [site:mode](site-mode.md) | Rendszerteljesítmény beállításának átváltása
 [site:new](site-new.md) | Új Drupal projekt létrehozása
+[site:statistics](site-statistics.md) | Show the current statistics of website.
 [site:status](site-status.md) | Aktuális Drupal-telepítés állapotának megtekintése
 **state**  |
 [state:debug](state-debug.md) | Az aktuális állapotkulcsok megjelenítése.
@@ -125,12 +130,12 @@ Drupal Console Command | Details
 [update:debug](update-debug.md) | Az alkalmazás jelenleg elérhető frissítéseinek megjelenítése
 [update:execute](update-execute.md) | Egy modul adott Update N függvényének végrehajtása, vagy az összes végrehajtása
 **user**  |
-[user:debug](user-debug.md) | Megjeleníti az alkalmazás aktuális felhasználóit
-[user:delete](user-delete.md) | Felhasználók törlése az alkalmazásból
+[user:debug](user-debug.md) | Megjeleníti az aktuális felhasználókat
+[user:delete](user-delete.md) | Felhasználók törlése
 [user:login:clear:attempts](user-login-clear-attempts.md) | Egy fiók sikertelen bejelentkezési kísérleteinek törlése.
 [user:login:url](user-login-url.md) | Egyszer használatos felhasználói bejelentkezési URL-címet ad vissza.
 [user:password:hash](user-password-hash.md) | Ellenőrzőösszeg előállítása sima szöveges jelszóból.
-[user:password:reset](user-password-reset.md) | Addott felhasználó jelszavának alaphelyzetbe állítása.
+[user:password:reset](user-password-reset.md) | Adott felhasználó jelszavának alaphelyzetbe állítása.
 **views**  |
 [views:debug](views-debug.md) | Alkalmazás aktuális views erőforrásainak megjelenítése
 [views:disable](views-disable.md) | Nézet letiltása

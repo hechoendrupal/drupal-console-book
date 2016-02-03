@@ -1,5 +1,5 @@
 # rest:disable
-The **rest:disable** command अनुप्रयोग में REST संसाधन अक्षम करें|
+**rest:disable** कमांड अनुप्रयोग में REST संसाधन अक्षम करें|
 
 **प्रयोग:**
 ```
@@ -7,7 +7,7 @@ $ drupal rest:disable [arguments]
 $ redi  
 ```
 
-## उपलब्ध तर्कों  
+## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
 resource-id | Rest क्रमांक

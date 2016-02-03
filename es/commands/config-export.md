@@ -10,5 +10,5 @@ $ ce
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---directory | commands.config.export.options.directory
---tar | commands.config.export.options.tar
+--directory | Define el directorio de exportación para guardar la configuración.
+--tar | If set, the configuration will be exported to an archive file.

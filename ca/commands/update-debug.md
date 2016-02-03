@@ -1,5 +1,5 @@
 # update:debug
-El comandament **update:debug** executa Display current updates available for the application
+El comandament **update:debug** executa Mostra les actualitzacions disponibles per l'aplicació
 
 **Ús:**
 ```

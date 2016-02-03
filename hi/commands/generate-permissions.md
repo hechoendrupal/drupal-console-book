@@ -1,5 +1,5 @@
 # generate:permissions
-The **generate:permissions** command मोड्यूल अनुमतियां उत्पन्न करें
+**generate:permissions** कमांड मोड्यूल अनुमतियां उत्पन्न करें
 
 **प्रयोग:**
 ```

@@ -1,5 +1,5 @@
 # translation:sync
-El comandament **translation:sync** executa Sync translation files
+El comandament **translation:sync** executa Sincronitzar fitxer de traduccions
 
 **Ús:**
 ```
@@ -14,4 +14,4 @@ Opció | Detalls
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-language | Language to syncronize against English source files
+language | Idioma a sincronitzar con els fitxers font d'anglès

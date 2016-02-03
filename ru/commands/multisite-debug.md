@@ -1,5 +1,5 @@
 # multisite:debug
-The **multisite:debug** command List all multisites available in system
+The **multisite:debug** command Список всех мультисайтов доступных в системе
 
 **Usage:**
 ```

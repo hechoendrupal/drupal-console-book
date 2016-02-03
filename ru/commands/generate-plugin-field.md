@@ -9,7 +9,7 @@ $ drupal generate:plugin:field [options]
 ## Available options
 Option | Details
 -------|-------------
---module | The Module name.
+--module | Имя модуля.
 --type-class | Field type plugin class name
 --type-label | Field type plugin label
 --type-plugin-id | Field type plugin id

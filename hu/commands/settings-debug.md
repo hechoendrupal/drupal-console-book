@@ -1,5 +1,5 @@
 # settings:debug
-The **settings:debug** command A settings fájl aktuális kulcs:érték beállításainak megjelenítése.
+The **settings:debug** command List user Drupal Console settings.
 
 **Usage:**
 ```
