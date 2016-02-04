@@ -9,6 +9,7 @@
 
 * [Getting the project](getting/project.md)
   * [Using the Installer](getting/installer.md)
+  * [Installing on Windows](getting/windows.md)
   * [Using Composer](getting/composer.md)
   * [Download phar file](getting/download.md)
   * [Update project](getting/update.md)
