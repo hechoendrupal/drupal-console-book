@@ -9,9 +9,11 @@ $ curl https://drupalconsole.com/installer -L -o drupal.phar
 ```
 $ php -r "readfile('https://drupalconsole.com/installer');" > drupal.phar
 ```
+
 You can now execute it, supposing php.exe is in your PATH environment variable.
 
 ## Run:
+
 ```
 $ php drupal.phar
 ```
