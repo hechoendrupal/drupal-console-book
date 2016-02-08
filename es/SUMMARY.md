@@ -1,7 +1,7 @@
 # Resumen
 
 * [Documentación de Drupal Console](README.md)
-* [Guía de Estilo para Traductores](es/about/guia-de-estilo.md)
+* [Guía de Estilo para Traductores](about/guia-de-estilo.md)
 
 * [Qué es la Drupal Console](about/what-is-the-drupal-console.md)
   * [¿Por qué debería interesarse en este proyecto?](about/why-should-you-care-about.md)
