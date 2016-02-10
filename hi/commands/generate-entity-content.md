@@ -13,6 +13,6 @@ $ gect
 --module | मोड्यूल का नाम।
 --entity-class | कंटेंट एंटिटि कक्षा
 --entity-name | कंटेंट एंटिटि नाम
---base-path | The base-path for the content entity routes
+--base-path | कॉन्फिग एंटिटी रुट्स के लिए बेस पथ
 --label | लेबल
 --has-bundles | एंटिटि मॆ बंडल हे

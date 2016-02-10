@@ -6,7 +6,7 @@ Comando de Drupal Console | Detalles
 ------------ | -------------
 [about](about.md) | Muestra información básica sobre el proyecto Drupal Console
 [chain](chain.md) | Ejecución de comandos en secuencia
-[help](help.md) | Displays help for a command
+[help](help.md) | Muestra ayuda para un comando dado
 [settings:init](settings-init.md) | Copiar archivos de configuración al directorio home del usuario.
 [list](list.md) | Enlista comandos
 [server](server.md) | Lanza el servidor web PHP interno
@@ -14,7 +14,7 @@ Comando de Drupal Console | Detalles
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
 **config**  |
 [config:debug](config-debug.md) | Muestra la configuración actual.
-[config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
+[config:diff](config-diff.md) | Muestra los items de configuración que son diferentes en la configuración activa comparada con un directorio.
 [config:edit](config-edit.md) | Editar la configuración seleccionada.
 [config:export](config-export.md) | Exporta la configuración actual de la aplicación.
 [config:export:content:type](config-export-content-type.md) | Exporta un tipo de contenido determinado y todos sus campos.
@@ -23,7 +23,7 @@ Comando de Drupal Console | Detalles
 [config:import](config-import.md) | Importa la configuración del estado actual de la aplicación.
 [config:import:single](config-import-single.md) | Importar la configuración seleccionada.
 [config:override](config-override.md) | Sobreescribir valor de la configuración activa.
-[config:settings:debug](config-settings-debug.md) | Displays current key:value on settings file.
+[config:settings:debug](config-settings-debug.md) | Muestra el par clave:valor actual en el archivo de configuración.
 **container**  |
 [container:debug](container-debug.md) | Muestra los servicios actuales de la aplicación.
 **create**  |
@@ -77,7 +77,7 @@ Comando de Drupal Console | Detalles
 [generate:service](generate-service.md) | Genera un servicio
 [generate:theme](generate-theme.md) | Genera un tema.
 **locale**  |
-[locale:language:add](locale-language-add.md) | Agregar un idioma para ser soportado por el sitio
+[locale:language:add](locale-language-add.md) | Añadir un idioma que sea soportado en el sitio
 [locale:language:delete](locale-language-delete.md) | Eliminar un idioma soportado en el sitio
 [locale:translation:status](locale-translation-status.md) | Lista de traducciones disponibles actualizadas
 **migrate**  |
@@ -99,16 +99,16 @@ Comando de Drupal Console | Detalles
 [router:debug](router-debug.md) | Muestra las rutas actuales de la aplicación
 [router:rebuild](router-rebuild.md) | Reconstruye las rutas de la aplicación
 **settings**  |
-[settings:debug](settings-debug.md) | List user Drupal Console settings.
+[settings:debug](settings-debug.md) | Ofrece un listado de la configuración de usuario de Drupal Console.
 [settings:init](settings-init.md) | Copiar archivos de configuración al directorio home del usuario.
-[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
+[settings:set](settings-set.md) | Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole
 **site**  |
 [site:debug](site-debug.md) | Enlista todos los sitios, locales y remotos, conocidos.
 [site:install](site-install.md) | Instala un proyecto Drupal
 [site:maintenance](site-maintenance.md) | Poner el sitio en modo mantenimiento
 [site:mode](site-mode.md) | Cambiar la configuración de rendimiento del sistema
 [site:new](site-new.md) | Crea un nuevo proyecto Drupal
-[site:statistics](site-statistics.md) | Show the current statistics of website.
+[site:statistics](site-statistics.md) | Muestra las estadísticas actuales del sitio web.
 [site:status](site-status.md) | Ver el estatus de la instalación actual de Drupal
 **state**  |
 [state:debug](state-debug.md) | Muestra las claves de Estado actual.
@@ -122,10 +122,10 @@ Comando de Drupal Console | Detalles
 [theme:install](theme-install.md) | Instalar tema o temas en la aplicación
 [theme:uninstall](theme-uninstall.md) | Desinstalar tema o temas en la aplicación
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clenaup translation files
-[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
-[translation:stats](translation-stats.md) | Generate translate stats
-[translation:sync](translation-sync.md) | Sync translation files
+[translation:cleanup](translation-cleanup.md) | Ficheros de limpieza de traducción
+[translation:pending](translation-pending.md) | Determina cadenas de traducción pendientes en un idioma o en un archivo específico de un idioma
+[translation:stats](translation-stats.md) | Genera estadísticas de traducción
+[translation:sync](translation-sync.md) | Sincronizar archivos de traducción
 **update**  |
 [update:debug](update-debug.md) | Muestra las actualizaciones actualmente disponibles para la aplicación
 [update:execute](update-execute.md) | Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos
@@ -150,25 +150,25 @@ Comando de Drupal Console | Detalles
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---help | Muestra este mensaje de ayuda
---quiet | No mostrar ningún mensaje
---verbose | Aumentar el detalle de los mensajes: 1 para salida normal, 2 para una salida más explícita y 3 para debug
---version | Muestra la versión de esta aplicación
---ansi | Forzar salida ANSI
---no-ansi | Deshabilitar salida ANSI
---no-interaction | No hacer ninguna pregunta interactiva
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> versión <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
 --env | Nombre del ambiente.
 --root | Define la raíz de Drupal que se utilizará en la ejecución de los comandos
 --no-debug | Desactivar el modo de depuración.
 --learning | Generar código con explicaciones.
 --generate-chain | Imprimir opciones y argumentos como YAML para ser usado el comando chain
 --generate-inline | Imprimir opciones y argumentos de ejecución como llamada inline para ser usados en el futuro
---generate-doc | Shows command options and arguments as markdown
---target | Site name you want to interact with (for local or remote sites)
+--generate-doc | Muestra las opciones del comando y sus argumentos como markdown
+--target | Nombre del sitio con el que desea interactuar (sitio remoto o local)
 --uri | URI del sitio en Drupal que se usará (para ambientes en multi-site o cuando esta usando un puerto alternativo)
---yes | Skip confirmation and proceed
+--yes | Saltar confirmación y ejecutar directamente
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-command | El comando a ejecutar
+command | The command to execute

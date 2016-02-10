@@ -14,4 +14,4 @@ Opțiune | Detalii
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-directory | The directory to diff against. If ommitted, choose from Drupal config directories.
+directory | The directory to diff against. If omitted, choose from Drupal config directories.

@@ -1,5 +1,5 @@
 # config:diff
-El comando **config:diff** Ouput configuration items that are different in active configuration compared with a directory.
+El comando **config:diff** Muestra los items de configuración que son diferentes en la configuración activa comparada con un directorio.
 
 **Uso:**
 ```
@@ -9,9 +9,9 @@ $ drupal config:diff [arguments] [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---reverse | See the changes in reverse (i.e diff a directory to the active configuration).
+--reverse | Ver los cambios inversos (por ejemplo, las diferencias de un directorio frente a la configuración activa).
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-directory | The directory to diff against. If ommitted, choose from Drupal config directories.
+directory | El directorio con el que comparar. Si se omite, se elige uno de los directorios de configuración de Drupal.

@@ -13,6 +13,6 @@ Opción | Detalles
 --module | Nombre del módulo.
 --entity-class | Clase de la entidad de contenido
 --entity-name | Nombre de la entidad de contenido
---base-path | The base-path for the content entity routes
+--base-path | El directorio raíz para las rutas de la entidad de contenido
 --label | Etiqueta
 --has-bundles | La entidad tiene bundles

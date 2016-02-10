@@ -14,4 +14,4 @@ $ drupal config:diff [arguments] [options]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-directory | The directory to diff against. If ommitted, choose from Drupal config directories.
+directory | The directory to diff against. If omitted, choose from Drupal config directories.

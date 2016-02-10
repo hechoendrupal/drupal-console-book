@@ -150,13 +150,13 @@ Drupal Console 命令 | 详细
 ## 可用选项
 选项 | 详细
 -------|-------------
---help | 显示帮助
---quiet | 静默模式，不输出任何消息
---verbose | 消息输出。 v：正常输出，vv：详细输出，vvv：调试输出
---version | 显示程序版本
---ansi | 强制 ANSI 输出
---no-ansi | 禁用 ANSI 输出
---no-interaction | 无交互问题
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> 版本 <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
 --env | 环境名称
 --root | 定义 Drupal 根目录，命令执行时使用
 --no-debug | 禁用调试
@@ -171,4 +171,4 @@ Drupal Console 命令 | 详细
 ## 可用参数
 参数 | 详细
 ---------|-------------
-command | 执行的命令
+command | The command to execute

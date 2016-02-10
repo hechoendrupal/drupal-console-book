@@ -122,7 +122,7 @@ Drupal Console Command | Details
 [theme:install](theme-install.md) | Smink vagy sminkek telepítése az alkalmazásba
 [theme:uninstall](theme-uninstall.md) | Az alkalmazás sminkjének vagy sminkjeinek eltávolítása
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:cleanup](translation-cleanup.md) | Clean up translation files
 [translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
 [translation:stats](translation-stats.md) | Generate translate stats
 [translation:sync](translation-sync.md) | Sync translation files
@@ -150,13 +150,13 @@ Drupal Console Command | Details
 ## Available options
 Option | Details
 -------|-------------
---help | Kimeneti űzenet megjelentése
---quiet | Kimeneti űzenet tíltása
---verbose | Üzenetek gyakoriságának növelése: 1 normál kimenet, 2 részletes kimenet és 3 hibakeresésre
---version | Alkalmazás verzió megjelenítése
---ansi | ANSI kimenet kényszerítése
---no-ansi | ANSI kimenet letiltása
---no-interaction | Ne kérdezzen interaktiv kérdést
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> version <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
 --env | A Környezet neve.
 --root | Define the Drupal root to be used in command execution
 --no-debug | Hibakeresés mód leállítása.
@@ -171,4 +171,4 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-command | A parancs amit végrehajt
+command | The command to execute

@@ -1,5 +1,5 @@
 # settings:debug
-El comando **settings:debug** List user Drupal Console settings.
+El comando **settings:debug** Ofrece un listado de la configuración de usuario de Drupal Console.
 
 **Uso:**
 ```

@@ -11,5 +11,5 @@ $ ci
 विकल्प | विवरण
 -------|-------------
 --file | विन्यास फ़ाइल पथ।
---directory | Path to a directory of configuration to import.
---remove-files | Syncronization के बाद फ़ाइलें निकालें।
+--directory | कॉन्फ़िगरेशन की एक डायरेक्टरी के लिए पथ इम्पोर्ट करते हैं।
+--remove-files | सिंक्रोनिज़ेशन के बाद फ़ाइलें निकालें।

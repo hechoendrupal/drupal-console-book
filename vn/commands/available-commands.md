@@ -122,7 +122,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [theme:install](theme-install.md) | Cài đặt theme hoặc các themes trong ứng dụng
 [theme:uninstall](theme-uninstall.md) | Gỡ cài đặt theme hay các themes trong ứng dụng
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:cleanup](translation-cleanup.md) | Clean up translation files
 [translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
 [translation:stats](translation-stats.md) | Generate translate stats
 [translation:sync](translation-sync.md) | Sync translation files
@@ -150,13 +150,13 @@ Các lệnh điều khiển Drupal | Các chi tiết
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---help | Hiển thị thông báo giúp đỡ
---quiet | Đừng đưa ra bất cứ thông báo nào
---verbose | Tăng độ dài của các thông báo: 1 cho đầu ra thông thường, 2 cho những đầu ra dài hơn và 3 cho tìm kiếm lỗi
---version | Hiển thị phiên bản ứng dụng
---ansi | hiệu lực ANSI đầu ra
---no-ansi | Tắt ANSI đầu ra
---no-interaction | Đừng yêu cầu bất kỳ câu hỏi tương tác nào
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> version <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
 --env | Tên môi trường
 --root | Định nghĩa Drupal root dùng để thực thi lệnh
 --no-debug | Tắt chế độ debug
@@ -171,4 +171,4 @@ Tùy chọn | Các chi tiết
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-command | Câu lệnh để thực thi
+command | The command to execute

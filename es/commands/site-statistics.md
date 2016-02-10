@@ -1,5 +1,5 @@
 # site:statistics
-El comando **site:statistics** Show the current statistics of website.
+El comando **site:statistics** Muestra las estadísticas actuales del sitio web.
 
 **Uso:**
 ```

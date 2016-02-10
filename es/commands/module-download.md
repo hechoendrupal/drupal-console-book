@@ -10,9 +10,9 @@ $ md
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---latest | Default to download most recent version
+--latest | Valor por defecto que descarga la versión más reciente
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-module | Module or modules to be enabled should be separated by a space
+module | El módulo o los módulos que vayan a ser habilitados deben ir separados por un espacio

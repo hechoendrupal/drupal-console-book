@@ -122,7 +122,7 @@ Comando Drupal Console | Detalhes
 [theme:install](theme-install.md) | Instalar tema(s) na aplicação
 [theme:uninstall](theme-uninstall.md) | Desinstalar tema(s) da aplicação
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:cleanup](translation-cleanup.md) | Clean up translation files
 [translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
 [translation:stats](translation-stats.md) | Generate translate stats
 [translation:sync](translation-sync.md) | Sync translation files
@@ -150,13 +150,13 @@ Comando Drupal Console | Detalhes
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---help | Exibir mensagens de ajuda.
---quiet | Não exibir nenhuma mensagem.
---verbose | Detalhar as mensagens de saída: 1 para normal, 2 para  mais detalhes e 3 para debug.
---version | Mostra a versão desta aplicação.
---ansi | Forçar saida ANSI
---no-ansi | Desabilitar saída ANSI
---no-interaction | Não exibir perguntas de interação.
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> versão <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
 --env | Nome do ambiente.
 --root | Define a rais do Drupal que utilizará os comandos em execução.
 --no-debug | Desligar o modo de depuração.
@@ -171,4 +171,4 @@ Opção | Detalhes
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-command | O comando para executar.
+command | The command to execute

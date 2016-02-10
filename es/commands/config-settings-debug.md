@@ -1,5 +1,5 @@
 # config:settings:debug
-El comando **config:settings:debug** Displays current key:value on settings file.
+El comando **config:settings:debug** Muestra el par clave:valor actual en el archivo de configuración.
 
 **Uso:**
 ```

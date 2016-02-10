@@ -16,3 +16,4 @@ $ tr
 参数 | 详细
 ---------|-------------
 test-class | 测试类
+test-methods | commands.test.run.arguments.test-methods

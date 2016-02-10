@@ -122,7 +122,7 @@ Comanda Consolei Drupal | Detalii
 [theme:install](theme-install.md) | Instalează tema sau temele în aplicație
 [theme:uninstall](theme-uninstall.md) | Dezinstalează tema sau temele din aplicație
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:cleanup](translation-cleanup.md) | Clean up translation files
 [translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
 [translation:stats](translation-stats.md) | Generate translate stats
 [translation:sync](translation-sync.md) | Sync translation files
@@ -150,13 +150,13 @@ Comanda Consolei Drupal | Detalii
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---help | Afișează acest mesaj de ajutor
---quiet | Nu afișa nici un mesaj
---verbose | Crește nivelul de detaliere a mesajelor: 1 pentru o detaliere normală, 2 pentru o detaliere mai amănunțită si 3 pentru depanare
---version | Afișează versiunea aplicației
---ansi | Forțează standardul ANSI
---no-ansi | Dezactivați standardul ANSI
---no-interaction | Nu adresa nici o întrebare interactivă
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> versiunea <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
 --env | Numele mediului de lucru.
 --root | Definiți rădăcina Drupal care va fi folosită la executarea comenzilor
 --no-debug | Oprește modul de depanare.
@@ -171,4 +171,4 @@ Opțiune | Detalii
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-command | Comanda ce urmează a fi executată
+command | The command to execute

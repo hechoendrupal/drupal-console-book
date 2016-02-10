@@ -11,4 +11,4 @@ $ ce
 Opción | Detalles
 -------|-------------
 --directory | Define el directorio de exportación para guardar la configuración.
---tar | If set, the configuration will be exported to an archive file.
+--tar | Indique esta opción para exportar la configuración a un archivo.

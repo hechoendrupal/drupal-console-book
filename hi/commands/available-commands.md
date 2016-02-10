@@ -14,7 +14,7 @@ Drupal Console कमाण्ड | विवरण
 [cache:rebuild](cache-rebuild.md) | सभी साइट caches को पुनर्निर्माण और साफ़ करें।
 **config**  |
 [config:debug](config-debug.md) | वर्तमान व्यवस्था को दिखाएँ।
-[config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
+[config:diff](config-diff.md) | आउटपुट विन्यास आइटम है कि एक डायरेक्टरी के साथ तुलना में सक्रिय कॉन्फ़िगरेशन में अलग हैं।
 [config:edit](config-edit.md) | चयनित व्यवस्था को बदलें।
 [config:export](config-export.md) | मौजूदा एप्लीकेशन कॉन्फ़िगरेशन एक्सपोर्ट करे।
 [config:export:content:type](config-export-content-type.md) | किसी विशेष कंटेंट टाइप और उनके खानो का एक्सपोर्ट करें।
@@ -99,16 +99,16 @@ Drupal Console कमाण्ड | विवरण
 [router:debug](router-debug.md) | अनुप्रयोग के वर्तमान मार्गों को दिखाएँ
 [router:rebuild](router-rebuild.md) | अनुप्रयोग के मार्ग पथ को पुनर्निर्माण करें
 **settings**  |
-[settings:debug](settings-debug.md) | List user Drupal Console settings.
+[settings:debug](settings-debug.md) | यूजर Drupal कंसोल सेटिंग्स की सूची
 [settings:init](settings-init.md) | व्यवस्था फाइलो को उपभोगक्ता के होम डायरेक्टरी में प्रतिरुप करें।
-[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
+[settings:set](settings-set.md) | Drupal कंसोल कॉन्फिग फाइल में एक विशिष्ट सेटिंग मूल्य बदलें
 **site**  |
 [site:debug](site-debug.md) | सभी ज्ञात स्थानीय और दूरस्थ साइटों की सूची दें।
 [site:install](site-install.md) | एक Drupal परियोजना स्थापित करें
 [site:maintenance](site-maintenance.md) | साइट को मेंटेनेंस मोड में बदले
 [site:mode](site-mode.md) | प्रणाली की कार्य-निष्पादन व्यवस्था को बदलें
 [site:new](site-new.md) | एक नया Drupal परियोजना बनाएँ
-[site:statistics](site-statistics.md) | Show the current statistics of website.
+[site:statistics](site-statistics.md) | वेबसाइट के मौजूदा आंकड़े बताते हैं।
 [site:status](site-status.md) | वर्तमान Drupal स्थापना के स्थिति को देखें
 **state**  |
 [state:debug](state-debug.md) | वर्तमान स्टेट कीस दिखाएँ।
@@ -150,13 +150,13 @@ Drupal Console कमाण्ड | विवरण
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---help | इस सहायता संदेश को दिखाएँ
---quiet | कोई संदेश ना दिखाएँ
---verbose | संदेशों के शब्दाडंबर को बढ़ाएं: सामान्य निर्गम के लिए १, अधिक शब्दबहुल के लिए २ और डिबग के लिए ३
---version | अनुप्रयोग संस्करण दिखाएँ
---ansi | ANSI परिणाम अनिवार्य करें
---no-ansi | ANSI निगम अक्षम करें
---no-interaction | कोई वार्तालाप प्रशन ना पूछें
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> संस्करण <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
 --env | पर्यावरण का नाम।
 --root | कमाण्ड चलाने के लिए Drupal रूट परिभाषित करें
 --no-debug | डिबग विधि को बंद कर देता है।
@@ -171,4 +171,4 @@ Drupal Console कमाण्ड | विवरण
 ## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
-command | चलने वाली कमाण्ड
+command | The command to execute
