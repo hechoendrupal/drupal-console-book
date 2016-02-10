@@ -150,25 +150,25 @@ Các lệnh điều khiển Drupal | Các chi tiết
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---help | application.options.help
---quiet | application.options.quiet
---verbose | application.options.verbose
---version | application.options.version
---ansi | application.options.ansi
---no-ansi | application.options.no-ansi
---no-interaction | application.options.no-interaction
---env | application.options.env
---root | application.options.root
---no-debug | application.options.no-debug
---learning | application.options.learning
---generate-chain | application.options.generate-chain
---generate-inline | application.options.generate-inline
---generate-doc | application.options.generate-doc
---target | application.options.target
---uri | application.options.uri
---yes | application.options.yes
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> version <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
+--env | Tên môi trường
+--root | Định nghĩa Drupal root dùng để thực thi lệnh
+--no-debug | Tắt chế độ debug
+--learning | Sinh ra chi tiết mã thực thi
+--generate-chain | In các lựa chọn thi hành và các đối số dạng yaml, để sử dụng trong chuỗi lệnh
+--generate-inline | In các lựa chọn thi hành và các đối số dạng inline, để sử dụng sau
+--generate-doc | Shows command options and arguments as markdown
+--target | Site name you want to interact with (for local or remote sites)
+--uri | Đường dẫn site Drupal được dùng (cho môi trường multisite hoặc khi chạy trên một cổng thay thế)
+--yes | Skip confirmation and proceed
 
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-command | application.arguments.command
+command | The command to execute

@@ -150,25 +150,25 @@ Comando de Drupal Console | Detalles
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---help | application.options.help
---quiet | application.options.quiet
---verbose | application.options.verbose
---version | application.options.version
---ansi | application.options.ansi
---no-ansi | application.options.no-ansi
---no-interaction | application.options.no-interaction
---env | application.options.env
---root | application.options.root
---no-debug | application.options.no-debug
---learning | application.options.learning
---generate-chain | application.options.generate-chain
---generate-inline | application.options.generate-inline
---generate-doc | application.options.generate-doc
---target | application.options.target
---uri | application.options.uri
---yes | application.options.yes
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> versión <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
+--env | Nombre del ambiente.
+--root | Define la raíz de Drupal que se utilizará en la ejecución de los comandos
+--no-debug | Desactivar el modo de depuración.
+--learning | Generar código con explicaciones.
+--generate-chain | Imprimir opciones y argumentos como YAML para ser usado el comando chain
+--generate-inline | Imprimir opciones y argumentos de ejecución como llamada inline para ser usados en el futuro
+--generate-doc | Muestra las opciones del comando y sus argumentos como markdown
+--target | Nombre del sitio con el que desea interactuar (sitio remoto o local)
+--uri | URI del sitio en Drupal que se usará (para ambientes en multi-site o cuando esta usando un puerto alternativo)
+--yes | Saltar confirmación y ejecutar directamente
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-command | application.arguments.command
+command | The command to execute

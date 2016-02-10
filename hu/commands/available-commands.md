@@ -150,25 +150,25 @@ Drupal Console Command | Details
 ## Available options
 Option | Details
 -------|-------------
---help | application.options.help
---quiet | application.options.quiet
---verbose | application.options.verbose
---version | application.options.version
---ansi | application.options.ansi
---no-ansi | application.options.no-ansi
---no-interaction | application.options.no-interaction
---env | application.options.env
---root | application.options.root
---no-debug | application.options.no-debug
---learning | application.options.learning
---generate-chain | application.options.generate-chain
---generate-inline | application.options.generate-inline
---generate-doc | application.options.generate-doc
---target | application.options.target
---uri | application.options.uri
---yes | application.options.yes
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> version <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
+--env | A Környezet neve.
+--root | Define the Drupal root to be used in command execution
+--no-debug | Hibakeresés mód leállítása.
+--learning | Részletes kimeneti kód generálása.
+--generate-chain | Végrehajtási lehetőségek és argumentumok nyomtatása mint yaml kimenet amit késöbb egy parancsláncba használhat fel
+--generate-inline | Végrehajtási lehetőségek és argumentumok nyomtatása beágyazott hívásként amit késöbb felhasználhat
+--generate-doc | Shows command options and arguments as markdown
+--target | Site name you want to interact with (for local or remote sites)
+--uri | URI of the Drupal site to use (for multisite environments or when running on an alternate port)
+--yes | Skip confirmation and proceed
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-command | application.arguments.command
+command | The command to execute

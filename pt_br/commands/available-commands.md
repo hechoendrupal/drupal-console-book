@@ -150,25 +150,25 @@ Comando Drupal Console | Detalhes
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---help | application.options.help
---quiet | application.options.quiet
---verbose | application.options.verbose
---version | application.options.version
---ansi | application.options.ansi
---no-ansi | application.options.no-ansi
---no-interaction | application.options.no-interaction
---env | application.options.env
---root | application.options.root
---no-debug | application.options.no-debug
---learning | application.options.learning
---generate-chain | application.options.generate-chain
---generate-inline | application.options.generate-inline
---generate-doc | application.options.generate-doc
---target | application.options.target
---uri | application.options.uri
---yes | application.options.yes
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> versão <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
+--env | Nome do ambiente.
+--root | Define a rais do Drupal que utilizará os comandos em execução.
+--no-debug | Desligar o modo de depuração.
+--learning | Gerar código com explicações.
+--generate-chain | Imprimir opções e argumentos como YAML para ser usado o comando chain
+--generate-inline | Imprimir opções e argumentos de execução como chamada inline para ser usado no futuro
+--generate-doc | Shows command options and arguments as markdown
+--target | Site name you want to interact with (for local or remote sites)
+--uri | URI do site Drupal para usar (para ambientes multisites ou quando usado em uma porta alternativa)
+--yes | Skip confirmation and proceed
 
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-command | application.arguments.command
+command | The command to execute

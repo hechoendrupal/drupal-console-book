@@ -150,25 +150,25 @@ Comanda Consolei Drupal | Detalii
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---help | application.options.help
---quiet | application.options.quiet
---verbose | application.options.verbose
---version | application.options.version
---ansi | application.options.ansi
---no-ansi | application.options.no-ansi
---no-interaction | application.options.no-interaction
---env | application.options.env
---root | application.options.root
---no-debug | application.options.no-debug
---learning | application.options.learning
---generate-chain | application.options.generate-chain
---generate-inline | application.options.generate-inline
---generate-doc | application.options.generate-doc
---target | application.options.target
---uri | application.options.uri
---yes | application.options.yes
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> versiunea <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
+--env | Numele mediului de lucru.
+--root | Definiți rădăcina Drupal care va fi folosită la executarea comenzilor
+--no-debug | Oprește modul de depanare.
+--learning | Generarea unui cod verbal.
+--generate-chain | Printează opțiunile și argumentele de execuție în format yaml pentru a fi folosit în comandă înlănțuită
+--generate-inline | Printează opțiunile și argumentele de execuție în apel inline pentru a fi folosit pe viitor
+--generate-doc | Shows command options and arguments as markdown
+--target | Site name you want to interact with (for local or remote sites)
+--uri | URI-ul sitului Drupal care va fi folosit (pentru medii multi-sit sau când rulează pe un port alternativ)
+--yes | Skip confirmation and proceed
 
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-command | application.arguments.command
+command | The command to execute

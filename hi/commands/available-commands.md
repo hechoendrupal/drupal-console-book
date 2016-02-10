@@ -150,25 +150,25 @@ Drupal Console कमाण्ड | विवरण
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---help | application.options.help
---quiet | application.options.quiet
---verbose | application.options.verbose
---version | application.options.version
---ansi | application.options.ansi
---no-ansi | application.options.no-ansi
---no-interaction | application.options.no-interaction
---env | application.options.env
---root | application.options.root
---no-debug | application.options.no-debug
---learning | application.options.learning
---generate-chain | application.options.generate-chain
---generate-inline | application.options.generate-inline
---generate-doc | application.options.generate-doc
---target | application.options.target
---uri | application.options.uri
---yes | application.options.yes
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>%s</info> संस्करण <comment>%s</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
+--env | पर्यावरण का नाम।
+--root | कमाण्ड चलाने के लिए Drupal रूट परिभाषित करें
+--no-debug | डिबग विधि को बंद कर देता है।
+--learning | शब्दबहुल कोड उत्पन्न करें।
+--generate-chain | निष्पादन विकल्प में प्रिंट और तर्क को YAML आउटपुट के रूप में श्रृंखला कमांड में इस्तेमाल किया जाएगा
+--generate-inline | निष्पादन विकल्प में प्रिंट और तर्क को इनलाइन कॉल के रूप में भविष्य में उपयोग किया जाएगा
+--generate-doc | कमाण्ड विकल्पों और तर्क जैसा नीचे निशान
+--target | साइट का नाम आप (स्थानीय या दूरस्थ साइटों के लिए ) के साथ बातचीत करना चाहते हैं
+--uri | Drupal यूआरआई साइट का(एकाधिक वातावरण के लिए या एक वैकल्पिक port पर चलते समय ) का उपयोग करे
+--yes | स्किप कन्फर्मेशन और आगे बढ़ें
 
 ## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
-command | application.arguments.command
+command | The command to execute
