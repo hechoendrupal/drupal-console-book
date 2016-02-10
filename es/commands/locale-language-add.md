@@ -1,5 +1,5 @@
 # locale:language:add
-El comando **locale:language:add** Agregar un idioma para ser soportado por el sitio
+El comando **locale:language:add** Añadir un idioma que sea soportado en el sitio
 
 **Uso:**
 ```

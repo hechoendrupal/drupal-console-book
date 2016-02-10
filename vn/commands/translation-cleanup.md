@@ -1,5 +1,5 @@
 # translation:cleanup
-Câu lệnh **translation:cleanup** Clenaup translation files
+Câu lệnh **translation:cleanup** Clean up translation files
 
 **Usage:**
 ```
@@ -9,4 +9,4 @@ $ drupal translation:cleanup [arguments]
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-language | Language to cleanup files against English
+language | Language to clean up files against English

@@ -122,7 +122,7 @@ Drupal Console Command | Details
 [theme:install](theme-install.md) | Smink vagy sminkek telepítése az alkalmazásba
 [theme:uninstall](theme-uninstall.md) | Az alkalmazás sminkjének vagy sminkjeinek eltávolítása
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:cleanup](translation-cleanup.md) | Clean up translation files
 [translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
 [translation:stats](translation-stats.md) | Generate translate stats
 [translation:sync](translation-sync.md) | Sync translation files
@@ -150,25 +150,25 @@ Drupal Console Command | Details
 ## Available options
 Option | Details
 -------|-------------
---help | Kimeneti űzenet megjelentése
---quiet | Kimeneti űzenet tíltása
---verbose | Üzenetek gyakoriságának növelése: 1 normál kimenet, 2 részletes kimenet és 3 hibakeresésre
---version | Alkalmazás verzió megjelenítése
---ansi | ANSI kimenet kényszerítése
---no-ansi | ANSI kimenet letiltása
---no-interaction | Ne kérdezzen interaktiv kérdést
---env | A Környezet neve.
---root | Define the Drupal root to be used in command execution
---no-debug | Hibakeresés mód leállítása.
---learning | Részletes kimeneti kód generálása.
---generate-chain | Végrehajtási lehetőségek és argumentumok nyomtatása mint yaml kimenet amit késöbb egy parancsláncba használhat fel
---generate-inline | Végrehajtási lehetőségek és argumentumok nyomtatása beágyazott hívásként amit késöbb felhasználhat
---generate-doc | Shows command options and arguments as markdown
---target | Site name you want to interact with (for local or remote sites)
---uri | URI of the Drupal site to use (for multisite environments or when running on an alternate port)
---yes | Skip confirmation and proceed
+--help | application.options.help
+--quiet | application.options.quiet
+--verbose | application.options.verbose
+--version | application.options.version
+--ansi | application.options.ansi
+--no-ansi | application.options.no-ansi
+--no-interaction | application.options.no-interaction
+--env | application.options.env
+--root | application.options.root
+--no-debug | application.options.no-debug
+--learning | application.options.learning
+--generate-chain | application.options.generate-chain
+--generate-inline | application.options.generate-inline
+--generate-doc | application.options.generate-doc
+--target | application.options.target
+--uri | application.options.uri
+--yes | application.options.yes
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-command | A parancs amit végrehajt
+command | application.arguments.command

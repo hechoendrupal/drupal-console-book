@@ -122,7 +122,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [theme:install](theme-install.md) | Cài đặt theme hoặc các themes trong ứng dụng
 [theme:uninstall](theme-uninstall.md) | Gỡ cài đặt theme hay các themes trong ứng dụng
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:cleanup](translation-cleanup.md) | Clean up translation files
 [translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
 [translation:stats](translation-stats.md) | Generate translate stats
 [translation:sync](translation-sync.md) | Sync translation files
@@ -150,25 +150,25 @@ Các lệnh điều khiển Drupal | Các chi tiết
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---help | Hiển thị thông báo giúp đỡ
---quiet | Đừng đưa ra bất cứ thông báo nào
---verbose | Tăng độ dài của các thông báo: 1 cho đầu ra thông thường, 2 cho những đầu ra dài hơn và 3 cho tìm kiếm lỗi
---version | Hiển thị phiên bản ứng dụng
---ansi | hiệu lực ANSI đầu ra
---no-ansi | Tắt ANSI đầu ra
---no-interaction | Đừng yêu cầu bất kỳ câu hỏi tương tác nào
---env | Tên môi trường
---root | Định nghĩa Drupal root dùng để thực thi lệnh
---no-debug | Tắt chế độ debug
---learning | Sinh ra chi tiết mã thực thi
---generate-chain | In các lựa chọn thi hành và các đối số dạng yaml, để sử dụng trong chuỗi lệnh
---generate-inline | In các lựa chọn thi hành và các đối số dạng inline, để sử dụng sau
---generate-doc | Shows command options and arguments as markdown
---target | Site name you want to interact with (for local or remote sites)
---uri | Đường dẫn site Drupal được dùng (cho môi trường multisite hoặc khi chạy trên một cổng thay thế)
---yes | Skip confirmation and proceed
+--help | application.options.help
+--quiet | application.options.quiet
+--verbose | application.options.verbose
+--version | application.options.version
+--ansi | application.options.ansi
+--no-ansi | application.options.no-ansi
+--no-interaction | application.options.no-interaction
+--env | application.options.env
+--root | application.options.root
+--no-debug | application.options.no-debug
+--learning | application.options.learning
+--generate-chain | application.options.generate-chain
+--generate-inline | application.options.generate-inline
+--generate-doc | application.options.generate-doc
+--target | application.options.target
+--uri | application.options.uri
+--yes | application.options.yes
 
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-command | Câu lệnh để thực thi
+command | application.arguments.command

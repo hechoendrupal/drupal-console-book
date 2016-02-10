@@ -122,7 +122,7 @@ Comanda Consolei Drupal | Detalii
 [theme:install](theme-install.md) | Instalează tema sau temele în aplicație
 [theme:uninstall](theme-uninstall.md) | Dezinstalează tema sau temele din aplicație
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:cleanup](translation-cleanup.md) | Clean up translation files
 [translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
 [translation:stats](translation-stats.md) | Generate translate stats
 [translation:sync](translation-sync.md) | Sync translation files
@@ -150,25 +150,25 @@ Comanda Consolei Drupal | Detalii
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---help | Afișează acest mesaj de ajutor
---quiet | Nu afișa nici un mesaj
---verbose | Crește nivelul de detaliere a mesajelor: 1 pentru o detaliere normală, 2 pentru o detaliere mai amănunțită si 3 pentru depanare
---version | Afișează versiunea aplicației
---ansi | Forțează standardul ANSI
---no-ansi | Dezactivați standardul ANSI
---no-interaction | Nu adresa nici o întrebare interactivă
---env | Numele mediului de lucru.
---root | Definiți rădăcina Drupal care va fi folosită la executarea comenzilor
---no-debug | Oprește modul de depanare.
---learning | Generarea unui cod verbal.
---generate-chain | Printează opțiunile și argumentele de execuție în format yaml pentru a fi folosit în comandă înlănțuită
---generate-inline | Printează opțiunile și argumentele de execuție în apel inline pentru a fi folosit pe viitor
---generate-doc | Shows command options and arguments as markdown
---target | Site name you want to interact with (for local or remote sites)
---uri | URI-ul sitului Drupal care va fi folosit (pentru medii multi-sit sau când rulează pe un port alternativ)
---yes | Skip confirmation and proceed
+--help | application.options.help
+--quiet | application.options.quiet
+--verbose | application.options.verbose
+--version | application.options.version
+--ansi | application.options.ansi
+--no-ansi | application.options.no-ansi
+--no-interaction | application.options.no-interaction
+--env | application.options.env
+--root | application.options.root
+--no-debug | application.options.no-debug
+--learning | application.options.learning
+--generate-chain | application.options.generate-chain
+--generate-inline | application.options.generate-inline
+--generate-doc | application.options.generate-doc
+--target | application.options.target
+--uri | application.options.uri
+--yes | application.options.yes
 
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-command | Comanda ce urmează a fi executată
+command | application.arguments.command

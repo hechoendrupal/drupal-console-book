@@ -16,3 +16,4 @@ Option | Details
 Argument | Details
 ---------|-------------
 test-class | Tesztosztály
+test-methods | commands.test.run.arguments.test-methods

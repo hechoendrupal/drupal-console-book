@@ -14,4 +14,4 @@ Tùy chọn | Các chi tiết
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-directory | The directory to diff against. If ommitted, choose from Drupal config directories.
+directory | The directory to diff against. If omitted, choose from Drupal config directories.

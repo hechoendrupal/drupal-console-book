@@ -1,5 +1,5 @@
 # translation:cleanup
-**translation:cleanup** comanda Clenaup translation files
+**translation:cleanup** comanda Clean up translation files
 
 **Folosire:**
 ```
@@ -9,4 +9,4 @@ $ drupal translation:cleanup [arguments]
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-language | Language to cleanup files against English
+language | Language to clean up files against English

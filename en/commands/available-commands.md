@@ -122,7 +122,7 @@ Drupal Console Command | Details
 [theme:install](theme-install.md) | Install theme or themes in the application
 [theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clenaup translation files
+[translation:cleanup](translation-cleanup.md) | Clean up translation files
 [translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
 [translation:stats](translation-stats.md) | Generate translate stats
 [translation:sync](translation-sync.md) | Sync translation files
@@ -165,7 +165,7 @@ Option | Details
 --generate-inline | Shows command options and arguments as inline command
 --generate-doc | Shows command options and arguments as markdown
 --target | Site name you want to interact with (for local or remote sites)
---uri | URI of the Drupal site to use (for multisite environments or when running on an alternate port)
+--uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
 ## Available arguments

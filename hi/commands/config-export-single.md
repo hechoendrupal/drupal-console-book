@@ -11,7 +11,7 @@ $ ces
 विकल्प | विवरण
 -------|-------------
 --directory | कॉन्फ़िगरेशन उत्पादन को सेव करने के लिए एक्सपोर्ट डायरेक्टरी को परिभाषित करें।
---include-dependencies | Export dependencies of the configuration as well.
+--include-dependencies | कॉन्फ़िगरेशन का निर्भरता के रूप में अच्छी तरह से एक्सपोर्ट करे।
 
 ## उपलब्ध तर्कों
 तर्क | विवरण

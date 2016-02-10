@@ -1,5 +1,5 @@
 # settings:set
-**settings:set** कमांड Change a specific setting value in DrupalConsole config file
+**settings:set** कमांड Drupal कंसोल कॉन्फिग फाइल में एक विशिष्ट सेटिंग मूल्य बदलें
 
 **प्रयोग:**
 ```
@@ -9,5 +9,5 @@ $ drupal settings:set [arguments]
 ## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
-setting-name | Setting name in yaml flatten format to set a value in Drupal Console config file
-setting-value | Setting value to set in Drupal Console config file
+setting-name |  Drupal कंसोल config फाइल में एक मूल्य निर्धारित करने के लिए YAML समतल में सेटिंग नाम का स्थापना
+setting-value | सेटिंग वैल्यू Drupal कंसोल config फाइल में स्थापित करने के लिए

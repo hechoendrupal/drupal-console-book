@@ -16,3 +16,4 @@ Option | Details
 Argument | Details
 ---------|-------------
 test-class | Test Class
+test-methods | Test method(s) to be run
