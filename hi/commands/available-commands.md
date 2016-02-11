@@ -12,6 +12,8 @@ Drupal Console कमाण्ड | विवरण
 [server](server.md) | PHP निर्मित वेब सर्वर चलायॆ
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | सभी साइट caches को पुनर्निर्माण और साफ़ करें।
+**chain**  |
+[chain:debug](chain-debug.md) | commands.chain.debug.description
 **config**  |
 [config:debug](config-debug.md) | वर्तमान व्यवस्था को दिखाएँ।
 [config:diff](config-diff.md) | आउटपुट विन्यास आइटम है कि एक डायरेक्टरी के साथ तुलना में सक्रिय कॉन्फ़िगरेशन में अलग हैं।
@@ -99,6 +101,7 @@ Drupal Console कमाण्ड | विवरण
 [router:debug](router-debug.md) | अनुप्रयोग के वर्तमान मार्गों को दिखाएँ
 [router:rebuild](router-rebuild.md) | अनुप्रयोग के मार्ग पथ को पुनर्निर्माण करें
 **settings**  |
+[settings:check](settings-check.md) | commands.settings.check.description
 [settings:debug](settings-debug.md) | यूजर Drupal कंसोल सेटिंग्स की सूची
 [settings:init](settings-init.md) | व्यवस्था फाइलो को उपभोगक्ता के होम डायरेक्टरी में प्रतिरुप करें।
 [settings:set](settings-set.md) | Drupal कंसोल कॉन्फिग फाइल में एक विशिष्ट सेटिंग मूल्य बदलें
@@ -167,6 +170,7 @@ Drupal Console कमाण्ड | विवरण
 --target | साइट का नाम आप (स्थानीय या दूरस्थ साइटों के लिए ) के साथ बातचीत करना चाहते हैं
 --uri | Drupal यूआरआई साइट का(एकाधिक वातावरण के लिए या एक वैकल्पिक port पर चलते समय ) का उपयोग करे
 --yes | स्किप कन्फर्मेशन और आगे बढ़ें
+--check-fix | application.options.check-fix
 
 ## उपलब्ध तर्कों
 तर्क | विवरण

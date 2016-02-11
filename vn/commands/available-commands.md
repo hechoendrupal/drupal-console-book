@@ -12,6 +12,8 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [server](server.md) | Chạy PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Xây dựng lại và làm sạch tất cả cache trên trang.
+**chain**  |
+[chain:debug](chain-debug.md) | commands.chain.debug.description
 **config**  |
 [config:debug](config-debug.md) | Hiển thị cấu hình hiện tại
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
@@ -99,6 +101,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [router:debug](router-debug.md) | Hiển thị các định tuyến hiện tại của ứng dụng
 [router:rebuild](router-rebuild.md) | Xây dựng lại định tuyến cho ứng dụng
 **settings**  |
+[settings:check](settings-check.md) | commands.settings.check.description
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
 [settings:init](settings-init.md) | Sao chép các file cấu hình tới thư mục gốc.
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
@@ -167,6 +170,7 @@ Tùy chọn | Các chi tiết
 --target | Site name you want to interact with (for local or remote sites)
 --uri | Đường dẫn site Drupal được dùng (cho môi trường multisite hoặc khi chạy trên một cổng thay thế)
 --yes | Skip confirmation and proceed
+--check-fix | application.options.check-fix
 
 ## Các đối số có sẵn
 Đối số | Các chi tiết
