@@ -12,6 +12,8 @@ Drupal Console Command | Details
 [server](server.md) | A PHP beépített webkiszolgálójának futtatása
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Minden gyorsítótár újraépítése és törlése.
+**chain**  |
+[chain:debug](chain-debug.md) | commands.chain.debug.description
 **config**  |
 [config:debug](config-debug.md) | Jelenlegi beállítások megjelenítése.
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
@@ -99,6 +101,7 @@ Drupal Console Command | Details
 [router:debug](router-debug.md) | Megjeleníti az alkalmazás aktuális útvonalait
 [router:rebuild](router-rebuild.md) | Az alkalmazás útvonalainak újraépítése
 **settings**  |
+[settings:check](settings-check.md) | commands.settings.check.description
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
 [settings:init](settings-init.md) | Copy configuration files to user home directory.
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
@@ -167,6 +170,7 @@ Option | Details
 --target | Site name you want to interact with (for local or remote sites)
 --uri | URI of the Drupal site to use (for multisite environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
+--check-fix | application.options.check-fix
 
 ## Available arguments
 Argument | Details

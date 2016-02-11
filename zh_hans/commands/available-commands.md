@@ -12,6 +12,8 @@ Drupal Console 命令 | 详细
 [server](server.md) | 运行PHP内建的网站服务器
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | 重建缓存
+**chain**  |
+[chain:debug](chain-debug.md) | commands.chain.debug.description
 **config**  |
 [config:debug](config-debug.md) | 显示当前配置
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
@@ -99,6 +101,7 @@ Drupal Console 命令 | 详细
 [router:debug](router-debug.md) | 显示路由
 [router:rebuild](router-rebuild.md) | 重建路由
 **settings**  |
+[settings:check](settings-check.md) | commands.settings.check.description
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
 [settings:init](settings-init.md) | 拷贝配置文件到用户的 home 目录
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
@@ -167,6 +170,7 @@ Drupal Console 命令 | 详细
 --target | 与之交互的站点名字（本地或远程网站）
 --uri | Drupal 网站的 URI( 用于多站点环境或运行在不同的端口)
 --yes | 跳过确认并继续
+--check-fix | application.options.check-fix
 
 ## 可用参数
 参数 | 详细

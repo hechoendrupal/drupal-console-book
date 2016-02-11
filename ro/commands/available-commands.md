@@ -12,6 +12,8 @@ Comanda Consolei Drupal | Detalii
 [server](server.md) | Runs PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruiți și curățați tot cache-ul.
+**chain**  |
+[chain:debug](chain-debug.md) | commands.chain.debug.description
 **config**  |
 [config:debug](config-debug.md) | Afișează configurarea curentă.
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
@@ -99,6 +101,7 @@ Comanda Consolei Drupal | Detalii
 [router:debug](router-debug.md) | Afişează rutele curente
 [router:rebuild](router-rebuild.md) | Reconstruieşte o rută
 **settings**  |
+[settings:check](settings-check.md) | commands.settings.check.description
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
 [settings:init](settings-init.md) | Copiază fişierele de configurare în directorul de bază al utilizatorului.
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
@@ -167,6 +170,7 @@ Opțiune | Detalii
 --target | Site name you want to interact with (for local or remote sites)
 --uri | URI-ul sitului Drupal care va fi folosit (pentru medii multi-sit sau când rulează pe un port alternativ)
 --yes | Skip confirmation and proceed
+--check-fix | application.options.check-fix
 
 ## Argumente disponibile
 Argument | Detalii

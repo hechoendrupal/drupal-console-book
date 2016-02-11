@@ -12,6 +12,8 @@ Comando de Drupal Console | Detalles
 [server](server.md) | Lanza el servidor web PHP interno
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
+**chain**  |
+[chain:debug](chain-debug.md) | commands.chain.debug.description
 **config**  |
 [config:debug](config-debug.md) | Muestra la configuración actual.
 [config:diff](config-diff.md) | Muestra los items de configuración que son diferentes en la configuración activa comparada con un directorio.
@@ -99,6 +101,7 @@ Comando de Drupal Console | Detalles
 [router:debug](router-debug.md) | Muestra las rutas actuales de la aplicación
 [router:rebuild](router-rebuild.md) | Reconstruye las rutas de la aplicación
 **settings**  |
+[settings:check](settings-check.md) | commands.settings.check.description
 [settings:debug](settings-debug.md) | Ofrece un listado de la configuración de usuario de Drupal Console.
 [settings:init](settings-init.md) | Copiar archivos de configuración al directorio home del usuario.
 [settings:set](settings-set.md) | Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole
@@ -167,6 +170,7 @@ Opción | Detalles
 --target | Nombre del sitio con el que desea interactuar (sitio remoto o local)
 --uri | URI del sitio en Drupal que se usará (para ambientes en multi-site o cuando esta usando un puerto alternativo)
 --yes | Saltar confirmación y ejecutar directamente
+--check-fix | application.options.check-fix
 
 ## Argumentos disponibles
 Argumento | Detalles
