@@ -45,3 +45,21 @@ Fatal error: require(): Failed opening required 'drupal.php'
 This can be caused by the ioncube loader extension, which can be used to encode
 and decode PHP files. This extension prevents normal working of any phar files
 with require/include calls. You must disable the extension.
+
+---
+
+### Warning message:
+```
+The configuration date.timezone was missing and overwritten with America/Tijuana.
+```
+Your timezone is not set in php.ini; you must correct this by editing the appropriate php.ini for the command line (there's a separate php.ini for the CLI). 
+
+Run `php --ini`and look for "Loaded Configuration File". For example, in Ubuntu: 
+```
+Loaded Configuration File:         /etc/php5/cli/php.ini
+```
+Edit that file and look for 
+```
+;date.timezone =
+```
+Uncomment this line and assign the desired timezone as seen on http://php.net/manual/en/timezones.php. 
