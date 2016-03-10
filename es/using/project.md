@@ -1,23 +1,23 @@
-# Using the project
+# Usando el proyecto
 
-Drupal Console provides two types of commands, `stand alone` and `container aware` commands.
+Drupal Console ofrece dos tipos de comandos, son `stand alone` y `container aware`.
 
-**Stand alone commands:**
-These commands can run outside of a Drupal 8 site root.
+**Comandos stand alone:**
+Estos comandos pueden ser ejecutados fuera del diretorio raíz de su sitio Drupal 8.
  
-**Container aware commands:**
-These commands must be run within a Drupal 8 site root.
+**Comandos container aware:**
+Estos comandos deben ser ejecutados dentro del directorio raíz del sitio Drupal 8.
 
-### Executing Drupal Console outside a Drupal site root 
-You can run Drupal Console form any directory on your system by using the `--root` option to define the Drupal root to be use in the command execution. 
+### Ejecutando Drupal Console fuera del raíz del sitio Drupal 8 
+Puede ejecutar Drupal Console desde cualquier directorio en su sistema local usando la opción  `--root` para definir el directorio raíz del sitio Drupal al que se referirá la ejecución del comando. 
 ```
 $ drupal --root=/var/www/drupal8.dev cr all
 ```
 
-**NOTE:** Possible messages when executing Drupal Console outside a Drupal site root and no `--root` option provided.
+**NOTA:** Si ejecuta Drupal Console fuera del raíz de un sitio Drupal y sin la opción `--root` pueden aparecer mensajes de advertencia.
 
-When running the project outside of a Drupal 8 site root, the following message will be shown.  
-> In order to list all of the available commands, you should run this inside a drupal root directory.
+Cuando ejecute el proyecto fuera del raíz de su sitio Drupal 8, aparecerá el siguiente mensaje.  
+> Para listar todos los comandos disponibles Ud. debería ejecutar este comando dentro de un directorio raíz de un sitio Drupal.
 
-When running the project within of a Drupal 8 site root, but site is not yet installed, the following message will be shown.
-> In order to list all of the available commands you should install drupal first.
+Cuando ejecute el proyecto dentro del raíz de su sitio Drupal 8, pero el sitio aún no ha sido instalado, aparecerá el siguiente mensaje.
+> Para listar todos los comandos disponibles Ud. debería instalar Drupal antes.
