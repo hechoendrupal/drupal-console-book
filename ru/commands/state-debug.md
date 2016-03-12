@@ -1,12 +1,12 @@
 # state:debug
 The **state:debug** command Show the current State keys.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal state:debug [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 key | The State key to debug.

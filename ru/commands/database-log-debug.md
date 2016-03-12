@@ -1,13 +1,13 @@
 # database:log:debug
 The **database:log:debug** command Показать лог событий приложения
 
-**Usage:**
+**Использование:**
 ```
 $ drupal database:log:debug [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --type | Фильтрация событий по типу
 --severity | Фильтрация событий по уровню важности
@@ -16,7 +16,7 @@ Option | Details
 --limit | Ограничить кол-во результатов заданным числом
 --offset | Смещение стартовой позиции
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 event-id | ID события в DBLog

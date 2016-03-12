@@ -1,14 +1,14 @@
 # config:import:single
 The **config:import:single** command Импорт выбранной конфигурации.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal config:import:single [arguments] 
 $ cis  
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 config-name | Имя конфигурации.
 input-file | Путь к импортируемым файлам.

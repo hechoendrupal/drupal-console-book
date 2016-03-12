@@ -1,17 +1,17 @@
 # database:restore
 The **database:restore** command Восстановление структуры и контента MySQL БД и таблиц
 
-**Usage:**
+**Использование:**
 ```
 $ drupal database:restore [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --file | Имя файла бекапа вашей БД
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 database | Ключ БД из settings.php

@@ -1,13 +1,13 @@
 # generate:plugin:views:field
 The **generate:plugin:views:field** command Generate a custom plugin view field.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:views:field [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Views plugin field class name

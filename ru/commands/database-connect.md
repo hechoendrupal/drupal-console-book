@@ -1,12 +1,12 @@
 # database:connect
 The **database:connect** command Запуск клиента БД, если он доступен
 
-**Usage:**
+**Использование:**
 ```
 $ drupal database:connect [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 database | Ключ БД из settings.php

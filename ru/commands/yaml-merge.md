@@ -1,14 +1,14 @@
 # yaml:merge
 The **yaml:merge** command Слияние одного или более YAML файлов в новый YAML файл. Последующие значения заменят собой исходные.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal yaml:merge [arguments] 
 $ ym  
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 yaml-destination | Путь к новому YAML файлу для сохранения результата слияния
 yaml-files | Путь к YAML файлам для слияния

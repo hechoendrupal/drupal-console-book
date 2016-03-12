@@ -1,13 +1,13 @@
 # generate:form:config
 The **generate:form:config** command Generate a new "ConfigFormBase"
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:form:config [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | The form class name

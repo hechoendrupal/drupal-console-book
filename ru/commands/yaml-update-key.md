@@ -1,14 +1,14 @@
 # yaml:update:key
 The **yaml:update:key** command Заменить YAML ключ в YAML файле.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal yaml:update:key [arguments] 
 $ yu  
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 yaml-file | Путь к YAML файлу для обновления
 yaml-key | YAML ключ для обновления

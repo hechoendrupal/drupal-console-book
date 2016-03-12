@@ -1,19 +1,19 @@
 # list
 The **list** command Список команд
 
-**Usage:**
+**Использование:**
 ```
 $ drupal list [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --xml | Вывести список в XML формате
 --raw | Вывести список в исходном формате
 --format | Формат вывода (txt, xml, json, или md)
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 namespace | Пространство имен

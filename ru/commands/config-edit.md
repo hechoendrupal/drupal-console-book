@@ -1,14 +1,14 @@
 # config:edit
 The **config:edit** command Редактирование выбранной конфигурации.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal config:edit [arguments] 
 $ cdit  
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 config-name | Имя конфигурации.
 editor | Редактор.

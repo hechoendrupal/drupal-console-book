@@ -1,13 +1,13 @@
 # site:maintenance
 The **site:maintenance** command Switch site into maintenance mode
 
-**Usage:**
+**Использование:**
 ```
 $ drupal site:maintenance [arguments] 
 $ sma  
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 mode | Site maintenance mode[on/off]

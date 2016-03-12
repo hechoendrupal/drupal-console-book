@@ -1,14 +1,14 @@
 # generate:module
 The **generate:module** command Generate a module.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:module [options] 
 $ gm  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | The Module name
 --machine-name | The machine name (lowercase and underscore only)

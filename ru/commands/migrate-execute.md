@@ -1,14 +1,14 @@
 # migrate:execute
 The **migrate:execute** command Execute a migration available for application
 
-**Usage:**
+**Использование:**
 ```
 $ drupal migrate:execute [arguments] [options] 
 $ mie  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --site-url | Site Source URL
 --db-type | commands.migrate.setup.migrations.options.db-type
@@ -20,7 +20,7 @@ Option | Details
 --db-port | Database Port
 --exclude | Migration id(s) to exclude
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 migration-ids | Migration id(s)

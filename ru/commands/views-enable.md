@@ -1,13 +1,13 @@
 # views:enable
 The **views:enable** command Включить представление
 
-**Usage:**
+**Использование:**
 ```
 $ drupal views:enable [arguments] 
 $ ve  
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 view-id | ID Представления

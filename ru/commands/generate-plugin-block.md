@@ -1,14 +1,14 @@
 # generate:plugin:block
 The **generate:plugin:block** command Generate a plugin block
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:block [options] 
 $ gpb  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

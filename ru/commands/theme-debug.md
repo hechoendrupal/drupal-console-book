@@ -1,13 +1,13 @@
 # theme:debug
 The **theme:debug** command Displays current themes for the application
 
-**Usage:**
+**Использование:**
 ```
 $ drupal theme:debug [arguments] 
 $ tde  
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 theme | Specific theme to debug 

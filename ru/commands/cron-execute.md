@@ -1,13 +1,13 @@
 # cron:execute
 The **cron:execute** command Выполнить реализацию крона для модуля иои выполнить все крон-задачи
 
-**Usage:**
+**Использование:**
 ```
 $ drupal cron:execute [arguments] 
 $ cre  
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 module | Имя модуля.

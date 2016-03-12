@@ -1,14 +1,14 @@
 # generate:entity:config
 The **generate:entity:config** command Generate a new config entity
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:entity:config [options] 
 $ gecg  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --entity-class | The config entity class

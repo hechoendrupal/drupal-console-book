@@ -1,18 +1,18 @@
 # test:debug
 The **test:debug** command List Test Units available for the application.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal test:debug [arguments] [options] 
 $ td  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --test-class | Test Class
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 group | Group

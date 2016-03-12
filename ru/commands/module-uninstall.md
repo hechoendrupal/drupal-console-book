@@ -1,12 +1,12 @@
 # module:uninstall
 The **module:uninstall** command Uninstall module or modules in the application
 
-**Usage:**
+**Использование:**
 ```
 $ drupal module:uninstall [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 module | Module or modules to be uninstalled should be separated by a comma

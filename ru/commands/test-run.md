@@ -1,18 +1,18 @@
 # test:run
 The **test:run** command Run Test unit from tests available for application
 
-**Usage:**
+**Использование:**
 ```
 $ drupal test:run [arguments] [options] 
 $ tr  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --url | commands.test.run.arguments.url
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 test-class | Test Class
