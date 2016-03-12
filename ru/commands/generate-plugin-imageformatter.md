@@ -1,13 +1,13 @@
 # generate:plugin:imageformatter
 The **generate:plugin:imageformatter** command Generate image formatter plugin.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:imageformatter [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

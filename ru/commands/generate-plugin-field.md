@@ -1,13 +1,13 @@
 # generate:plugin:field
 The **generate:plugin:field** command Generate field type, widget and formatter plugins.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:field [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --type-class | Field type plugin class name

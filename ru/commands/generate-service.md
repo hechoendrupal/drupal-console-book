@@ -1,14 +1,14 @@
 # generate:service
 The **generate:service** command Generate service
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:service [options] 
 $ gs  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --name | commands.generate.service.options.name

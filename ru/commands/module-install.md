@@ -1,17 +1,17 @@
 # module:install
 The **module:install** command Install module or modules in the application
 
-**Usage:**
+**Использование:**
 ```
 $ drupal module:install [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --latest | Default to download most recent version
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 module | Module or modules to be enabled should be separated by a space

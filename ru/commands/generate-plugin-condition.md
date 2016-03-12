@@ -1,13 +1,13 @@
 # generate:plugin:condition
 The **generate:plugin:condition** command Generate a plugin condition.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:condition [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Plugin condition class name

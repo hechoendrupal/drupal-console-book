@@ -1,13 +1,13 @@
 # generate:plugin:rest:resource
 The **generate:plugin:rest:resource** command Generate plugin rest resource
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:rest:resource [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Plugin Rest Resource class

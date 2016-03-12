@@ -1,14 +1,14 @@
 # generate:permissions
 The **generate:permissions** command Generate module permissions
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:permissions [options] 
 $ gp  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --permissions | Создание прав доступа.

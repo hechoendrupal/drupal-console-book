@@ -1,7 +1,7 @@
 # site:statistics
 The **site:statistics** command Show the current statistics of website.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal site:statistics 
 ```

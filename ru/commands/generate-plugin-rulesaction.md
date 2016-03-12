@@ -1,13 +1,13 @@
 # generate:plugin:rulesaction
 The **generate:plugin:rulesaction** command Generate a plugin rule action
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:rulesaction [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

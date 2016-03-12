@@ -1,14 +1,14 @@
 # generate:controller
 The **generate:controller** command Generate & Register a controller
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:controller [options] 
 $ gcn  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Controller Class name

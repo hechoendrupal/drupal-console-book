@@ -1,12 +1,12 @@
 # translation:cleanup
 The **translation:cleanup** command Clenaup translation files
 
-**Usage:**
+**Использование:**
 ```
 $ drupal translation:cleanup [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 language | Language to cleanup files against English

@@ -1,13 +1,13 @@
 # state:override
 The **state:override** command Override a State key.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal state:override [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 key | The State key to override.
 value | The State value to set.

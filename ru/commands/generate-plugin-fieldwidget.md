@@ -1,13 +1,13 @@
 # generate:plugin:fieldwidget
 The **generate:plugin:fieldwidget** command Generate field widget plugin.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:fieldwidget [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

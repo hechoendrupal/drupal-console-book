@@ -1,17 +1,17 @@
 # migrate:load
 The **migrate:load** command Generate a migration entity.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal migrate:load [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --override | The File is already installed, do you want override it [yes/no] ?
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 file | Path to the yml file

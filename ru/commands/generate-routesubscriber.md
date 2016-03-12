@@ -1,13 +1,13 @@
 # generate:routesubscriber
 The **generate:routesubscriber** command Generate a RouteSubscriber
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:routesubscriber [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --name | Service name

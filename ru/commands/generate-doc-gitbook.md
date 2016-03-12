@@ -1,14 +1,14 @@
 # generate:doc:gitbook
 The **generate:doc:gitbook** command Generate documentations for Commands
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:doc:gitbook [arguments] [options] 
 $ gdg  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --path | The path to render the documentation
 --learning | Генерация подробного вывода
@@ -29,7 +29,7 @@ Option | Details
 --uri | URI сайта Drupal (в случае мультисайтингового окружения или запуска на альтернативном порту)
 --yes | Пропустить подтверждение и продолжить
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 command | Команда на выполнение

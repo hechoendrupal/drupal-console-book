@@ -1,13 +1,13 @@
 # settings:init
 The **settings:init** command Копирование конфигурационных файлов в домашнюю директорию пользователя.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal settings:init [options] 
 $ init  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --override | Перезапись конфигурационных файлов
