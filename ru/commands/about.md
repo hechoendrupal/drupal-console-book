@@ -1,7 +1,7 @@
 # about
-The **about** command Отображение основных сведений о проекте Drupal Console
+Команда **about** отображает базовую информацию о Drupal Console
 
-**Usage:**
+**Использование:**
 ```
-$ drupal about 
+$ drupal about
 ```
