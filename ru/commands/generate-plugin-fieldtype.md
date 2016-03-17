@@ -1,13 +1,13 @@
 # generate:plugin:fieldtype
 The **generate:plugin:fieldtype** command Generate field type plugin.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:fieldtype [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

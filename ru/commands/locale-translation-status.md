@@ -1,12 +1,12 @@
 # locale:translation:status
 The **locale:translation:status** command List available translation updates
 
-**Usage:**
+**Использование:**
 ```
 $ drupal locale:translation:status [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 language | Language for instance es or Spanish

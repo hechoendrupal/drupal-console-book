@@ -1,13 +1,13 @@
 # generate:plugin:type:yaml
 The **generate:plugin:type:yaml** command Generate a plugin type with Yaml discovery
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:type:yaml [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Plugin type class name

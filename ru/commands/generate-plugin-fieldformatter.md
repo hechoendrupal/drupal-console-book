@@ -1,13 +1,13 @@
 # generate:plugin:fieldformatter
 The **generate:plugin:fieldformatter** command Generate field formatter plugin.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:fieldformatter [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

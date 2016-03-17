@@ -1,13 +1,13 @@
 # user:debug
 The **user:debug** command Displays current users for the application
 
-**Usage:**
+**Использование:**
 ```
 $ drupal user:debug [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --roles | Roles to filter debug
 --limit | How many users would you listed in debug

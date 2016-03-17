@@ -1,12 +1,12 @@
 # database:table:drop
 The **database:table:drop** command Drop all tables in a given database.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal database:table:drop [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 database | Database key from settings.php

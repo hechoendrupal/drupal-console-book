@@ -1,13 +1,13 @@
 # generate:plugin:type:annotation
 The **generate:plugin:type:annotation** command Generate a plugin type with annotation discovery
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:plugin:type:annotation [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | Plugin type class name

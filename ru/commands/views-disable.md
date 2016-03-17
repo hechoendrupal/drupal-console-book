@@ -1,13 +1,13 @@
 # views:disable
 The **views:disable** command Отключить представление
 
-**Usage:**
+**Использование:**
 ```
 $ drupal views:disable [arguments] 
 $ vdi  
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 view-id | ID Представления

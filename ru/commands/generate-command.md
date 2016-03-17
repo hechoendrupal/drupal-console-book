@@ -1,14 +1,14 @@
 # generate:command
 The **generate:command** command Generate commands for the console.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:command [options] 
 $ gcm  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --class | The Class that describes the command. (Must end with the word 'Commmand').

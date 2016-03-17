@@ -1,13 +1,13 @@
 # module:debug
 The **module:debug** command Display current modules available for application
 
-**Usage:**
+**Использование:**
 ```
 $ drupal module:debug [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --status | Module status [enabled|disabled]
 --type | Module type [core|no-core]

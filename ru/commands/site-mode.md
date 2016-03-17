@@ -1,13 +1,13 @@
 # site:mode
 The **site:mode** command Switch system performance configuration
 
-**Usage:**
+**Использование:**
 ```
 $ drupal site:mode [arguments] 
 $ smo  
 ```
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 environment | Environment name (dev|prod)

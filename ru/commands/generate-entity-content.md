@@ -1,14 +1,14 @@
 # generate:entity:content
 The **generate:entity:content** command Generate a new content entity
 
-**Usage:**
+**Использование:**
 ```
 $ drupal generate:entity:content [options] 
 $ gect  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --module | Имя модуля.
 --entity-class | The content entity class

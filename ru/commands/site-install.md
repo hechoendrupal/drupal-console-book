@@ -1,14 +1,14 @@
 # site:install
 The **site:install** command Install a Drupal project
 
-**Usage:**
+**Использование:**
 ```
 $ drupal site:install [arguments] [options] 
 $ si  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --langcode | Drupal language
 --db-type | Drupal Database type to be used in install
@@ -25,7 +25,7 @@ Option | Details
 --account-mail | Drupal administrator account mail
 --account-pass | Drupal administrator account password
 
-## Available arguments
-Argument | Details
+## Доступные параметры
+Параметр | Описание
 ---------|-------------
 profile | Drupal Profile to be installed

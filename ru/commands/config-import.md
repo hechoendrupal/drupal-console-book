@@ -1,14 +1,14 @@
 # config:import
 The **config:import** command Импорт конфигурации в текущее приложение.
 
-**Usage:**
+**Использование:**
 ```
 $ drupal config:import [options] 
 $ ci  
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --file | Путь к файлу конфигурации.
 --directory | Path to a directory of configuration to import.

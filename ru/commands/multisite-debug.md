@@ -1,7 +1,7 @@
 # multisite:debug
 The **multisite:debug** command Список всех мультисайтов доступных в системе
 
-**Usage:**
+**Использование:**
 ```
 $ drupal multisite:debug 
 ```

@@ -1,23 +1,23 @@
 # cache:rebuild
-The **cache:rebuild** command Перестроить и очистить весь кеш сайта.
+**cache:rebuild** команда очищает и пересобирает все кэши сайта.
 
-**Usage:**
+**Использование:**
 ```
-$ drupal cache:rebuild [arguments] 
+$ drupal cache:rebuild [arguments]
 $ cr  
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Описание
 ---------|-------------
-cache | Очистить только конкретный кеш.
+cache | Очистить только указанный кэш
 
-## Examples
-* Перестроить все кеши
+## Примеры
+* Очистить все кэши
 ```
 $ drupal cr all
 ```
-* Перестроить кеш отображения
+* Очистить кэш discovery
 ```
 $ drupal cr discovery
 ```

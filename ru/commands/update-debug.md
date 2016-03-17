@@ -1,7 +1,7 @@
 # update:debug
 The **update:debug** command Отобрахить обновления доступные для приложения
 
-**Usage:**
+**Использование:**
 ```
 $ drupal update:debug 
 $ upd  

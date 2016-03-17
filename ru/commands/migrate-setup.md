@@ -1,13 +1,13 @@
 # migrate:setup
 The **migrate:setup** command Load and create the relevant migrations for a provided legacy database
 
-**Usage:**
+**Использование:**
 ```
 $ drupal migrate:setup [options] 
 ```
 
-## Available options
-Option | Details
+## Доступные опции
+Опция | Описание
 -------|-------------
 --db-type | Drupal Database type
 --db-host | Database Host
