@@ -3,10 +3,15 @@ The **database:table:debug** command Show all tables in a given database.
 
 **Usage:**
 ```
-$ drupal database:table:debug [arguments] 
+$ drupal database:table:debug [arguments] [options] 
 ```
+
+## Available options
+Option | Details
+-------|-------------
+--database | Database key from settings.php
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-database | Database key from settings.php
+table | commands.database.table.debug.arguments.table
