@@ -16,6 +16,7 @@ Drupal Console Command | Details
 [chain:debug](chain-debug.md) | List available chain files.
 **config**  |
 [config:debug](config-debug.md) | Show the current configuration.
+[config:delete](config-delete.md) | Delete configuration
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Edit the selected configuration.
 [config:export](config-export.md) | Export current application configuration.
@@ -29,6 +30,7 @@ Drupal Console Command | Details
 **container**  |
 [container:debug](container-debug.md) | Displays current services for an application.
 **create**  |
+[create:comments](create-comments.md) | Create dummy comments for your Drupal 8 application.
 [create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
 [create:terms](create-terms.md) | Create dummy terms for your Drupal 8 application.
 [create:users](create-users.md) | Create dummy users for your Drupal 8 application.
@@ -40,12 +42,12 @@ Drupal Console Command | Details
 **database**  |
 [database:client](database-client.md) | Launch a DB client if it's available
 [database:connect](database-connect.md) | Shows DB connection
+[database:drop](database-drop.md) | Drop all tables in a given database.
 [database:dump](database-dump.md) | Dump structure and contents of a database
 [database:log:clear](database-log-clear.md) | Remove events from DBLog table, filters are available
 [database:log:debug](database-log-debug.md) | Display current log events for the application
 [database:restore](database-restore.md) | Restore structure and contents of a database.
 [database:table:debug](database-table-debug.md) | Show all tables in a given database.
-[database:table:drop](database-table-drop.md) | Drop all tables in a given database.
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
 [generate:command](generate-command.md) | Generate commands for the console.
@@ -62,6 +64,7 @@ Drupal Console Command | Details
 [generate:module](generate-module.md) | Generate a module.
 [generate:permissions](generate-permissions.md) | Generate module permissions
 [generate:plugin:block](generate-plugin-block.md) | Generate a plugin block
+[generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
 [generate:plugin:condition](generate-plugin-condition.md) | Generate a plugin condition.
 [generate:plugin:field](generate-plugin-field.md) | Generate field type, widget and formatter plugins.
 [generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Generate field formatter plugin.
@@ -69,6 +72,7 @@ Drupal Console Command | Details
 [generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Generate field widget plugin.
 [generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Generate image effect plugin.
 [generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Generate image formatter plugin.
+[generate:plugin:mail](generate-plugin-mail.md) | Generate a plugin mail
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Generate plugin rest resource
 [generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Generate a plugin rule action
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
@@ -78,6 +82,9 @@ Drupal Console Command | Details
 [generate:routesubscriber](generate-routesubscriber.md) | Generate a RouteSubscriber
 [generate:service](generate-service.md) | Generate service
 [generate:theme](generate-theme.md) | Generate a theme.
+**image**  |
+[image:styles:debug](image-styles-debug.md) | List image styles on the site
+[image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
 **locale**  |
 [locale:language:add](locale-language-add.md) | Add a language to be supported by your site
 [locale:language:delete](locale-language-delete.md) | Delete a language to be supported by your site
@@ -93,6 +100,8 @@ Drupal Console Command | Details
 [module:uninstall](module-uninstall.md) | Uninstall module or modules in the application
 **multisite**  |
 [multisite:debug](multisite-debug.md) | List all multisites available in system
+**node**  |
+[node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 **rest**  |
 [rest:debug](rest-debug.md) | Display current rest resource for the application
 [rest:disable](rest-disable.md) | Disable a rest resource for the application
@@ -131,6 +140,7 @@ Drupal Console Command | Details
 [translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | Display current updates available for the application
+[update:entities](update-entities.md) | Applying Entity Updates
 [update:execute](update-execute.md) | Execute a specific Update N function in a module, or execute all
 **user**  |
 [user:debug](user-debug.md) | Displays current users for the application
@@ -143,6 +153,7 @@ Drupal Console Command | Details
 [views:debug](views-debug.md) | Display current views resources for the application
 [views:disable](views-disable.md) | Disable a View
 [views:enable](views-enable.md) | Enable a View
+[views:plugins:debug](views-plugins-debug.md) | Display current views plugins for the application
 **yaml**  |
 [yaml:diff](yaml-diff.md) | Compare two YAML files in order to find differences between them.
 [yaml:merge](yaml-merge.md) | Merge two or more YAML files in a new YAML file. Latest values are preserved.
@@ -170,7 +181,6 @@ Option | Details
 --target | Site name you want to interact with (for local or remote sites)
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
---check-fix | Attempt to fix any missing configuration.
 
 ## Available arguments
 Argument | Details
