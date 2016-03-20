@@ -1,6 +1,6 @@
-# Configuring the command.
+# Configurando el comando.
 
-You must provide a`configure` method containing the configuration of the command as name, arguments, options, etc.
+Debes proveer un método `configure` que contenga la configuración del comando como nombre, argumentos, opciones, etc.
 ```
     /**
      * {@inheritdoc}

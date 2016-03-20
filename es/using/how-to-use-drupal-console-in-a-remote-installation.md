@@ -1,6 +1,6 @@
-# Cómo usar Drupal Console en una instalación de un sitio remoto
+# ¿Cómo usar Drupal Console en una instalación de un sitio remoto?
 
-Drupal Console le permite ejecutar comandos en su local servidor. Pero, además, también puede ejecutarlos en un servidor remoto.
+Drupal Console le permite ejecutar comandos en su servidor local. Además es posible ejecutar comandos en un servidor remoto.
 
 Para utilizar esta característica, utilice la opción `--target` pasándole el nombre del sitio remoto con el que quiere interactuar.  
 ```
@@ -27,7 +27,7 @@ application:
 ```
 
 ### Editar la configuración de un sitio específico
-Puede proporcionar una configuración de un sitio específico duplicando el archivo del sitio copiado en `~/.console/sites/sample.yml` con un nuevo nombre en `~/.console/sites/`.
+Puede proporcionar una configuración de un sitio específico duplicando el archivo `~/.console/sites/sample.yml` y guardándolo con un nuevo nombre en `~/.console/sites/`.
 
 ```
 local:
@@ -44,7 +44,7 @@ prod:
   console: /var/www/html/docroot/console.phar
 ```
 
-### Debuguear sitios.
+### Depurar sitios
 Puede listar todos los sitios locales y remotos ejecutando el comando `site:debug`.
 ```
 $ drupal site:debug
@@ -58,7 +58,7 @@ $ drupal site:debug
 +--------------------+-----------------+------------------------+
 ```
 
-Puede mostrar los detalles de la configuración del sitio pasándole el nombre del sitio como argumento al comando `site:debug`. 
+Puede mostrar los detalles de la configuración del sitio pasándo el nombre del sitio como argumento al comando `site:debug`. 
 ```
 $ drupal site:debug sample.dev
 
@@ -76,4 +76,4 @@ host: 140.211.10.62
 remote: true
 ```
 
-**NOTA:** Como ha podido observar la configuración global y la específica de un sitio aparecen juntas al debuguear los sitios. Puede sobreescribir cualquier configuración global añadiendo esas claves en la configuración específica del sitio.  
+**NOTA:** Como ha podido observar la configuración global y la específica de un sitio aparecen juntas al depurar los sitios. Puede sobreescribir cualquier configuración global añadiendo esas claves en la configuración específica del sitio.

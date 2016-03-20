@@ -1,12 +1,12 @@
-# Cómo descargar el proyecto
+# ¿Cómo descargar el proyecto?
 
-## Forkear
+## Fork
 Cree un fork del repositorio del proyecto [Drupal Console](https://github.com/hechoendrupal/DrupalConsole/fork) en su cuenta.
 
 ## Clonar
 Obtenga una copia en su máquina de la versión del repositorio que acaba de clonar.
 ```
-$ git clone git@github.com:[your-git-user-here]/DrupalConsole.git
+$ git clone git@github.com:[su-nombre-de-usuario-en-github]/DrupalConsole.git
 ```
 
 ## Instalar dependencias

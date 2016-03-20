@@ -1,6 +1,6 @@
-# Getting Services from the Service Container
+# Obteniendo Servicios del Contenedor de Servicios
 
-By using `ContainerAwareCommand` as the base class for the command (instead of the more basic `Command`), you have access to the service container. In other words, you have access to any configured service using the provided `getService` method.
+Al usar `ContainerAwareCommand` como la clase base para el comando (en lugar de la más básica `Command`), tienes acceso al contenedor de servicios. En otras palabras, tienes acceso a cualquier servicio provisto por el contenedor de Drupal usando el método `getService`.
 
 ```
 protected function execute(InputInterface $input, OutputInterface $output)

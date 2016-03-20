@@ -1,6 +1,6 @@
 # Problemas de instalación
 
-Cuando lanza DrupalConsole desde su directorio raíz de Drupal 8, puede obtener distintos mensajes de error, vamos a intentar listar los problemas reportados y cómo resolverlos.
+Cuando ejecuta Drupal Console desde su directorio raíz de Drupal 8, puede obtener distintos mensajes de error. A continuación se listan algunos problemas reportados y cómo resolverlos.
 
 --- 
 
@@ -22,7 +22,7 @@ cámbielo para que se lea:
 ```
 'host' => 'localhost'. 
 ```
-Después de hacer este cambio, asegúrese de guardar el archivo, después pruebe a lanzar DrupalConsole de nuevo.
+Después de hacer este cambio asegúrese de guardar el archivo. Luego pruebe ejecutar Drupal Console de nuevo.
 
 ---
 

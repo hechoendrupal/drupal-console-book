@@ -11,7 +11,7 @@ $ composer global require drupal/console:@stable
 $ echo "PATH=$PATH:~/.composer/vendor/bin" >> ~/.bash_profile
 ```
 
-## Ahora ejecuta console usando:
+## Ahora ejecutar Drupal Console usando:
 ```
 $ drupal generate:module
 ```
