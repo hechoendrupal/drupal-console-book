@@ -26,5 +26,5 @@ La primera tarea que debería hacer tras instalar Drupal Console es ejecutar el 
   ├── router.php
   ├── site.mode.yml
   └── sites
-      └── sample.yml 
+      └── sample.yml
 ```
