@@ -8,13 +8,23 @@ The first task you should do after installing Drupal Console is to execute the `
 ### Which files are copied when executing the `init` command.
 ```
  ~/.console/ 
- ├── aliases.yml 
- ├── chain
- │   ├── quick-start.yml
- │   └── sample.yml 
- ├── config.yml 
- ├── console.rc 
- ├── drupal.fish 
- └── sites 
-     └── sample.yml 
+  ├── aliases.yml
+  ├── chain
+  │   ├── create-data.yml
+  │   ├── form-sample.yml
+  │   ├── quick-start-mysql.yml
+  │   ├── quick-start.yml
+  │   ├── sample.yml
+  │   ├── site-drop-restore.yml
+  │   ├── site-install.yml
+  │   └── update-gitbook.yml
+  ├── commands.yml
+  ├── config.yml
+  ├── console.rc
+  ├── drupal.fish
+  ├── phpcheck.yml
+  ├── router.php
+  ├── site.mode.yml
+  └── sites
+      └── sample.yml
 ```
