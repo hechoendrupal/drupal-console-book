@@ -1,11 +1,11 @@
 # Usando el proyecto
 
-Drupal Console ofrece dos tipos de comandos, son `stand alone` y `container aware`.
+Drupal Console ofrece dos tipos de comandos: `autónomos` y `conscientes del contenedor`.
 
-**Comandos stand alone:**
+**Comandos autónomos:**
 Estos comandos pueden ser ejecutados fuera del diretorio raíz de su sitio Drupal 8.
  
-**Comandos container aware:**
+**Comandos conscientes del contenedor:**
 Estos comandos deben ser ejecutados dentro del directorio raíz del sitio Drupal 8.
 
 ### Ejecutando Drupal Console fuera del raíz del sitio Drupal 8 
@@ -14,10 +14,10 @@ Puede ejecutar Drupal Console desde cualquier directorio en su sistema local usa
 $ drupal --root=/var/www/drupal8.dev cr all
 ```
 
-**NOTA:** Si ejecuta Drupal Console fuera del raíz de un sitio Drupal y sin la opción `--root` pueden aparecer mensajes de advertencia.
+**NOTA:** Si ejecuta Drupal Console fuera de la raíz de un sitio Drupal y sin la opción `--root` pueden aparecer mensajes de advertencia.
 
 Cuando ejecute el proyecto fuera del raíz de su sitio Drupal 8, aparecerá el siguiente mensaje.  
-> Para listar todos los comandos disponibles Ud. debería ejecutar este comando dentro de un directorio raíz de un sitio Drupal.
+> [WARNING] Para listar todos los comandos disponibles, debe estar dentro del directorio raíz de Drupal.
 
 Cuando ejecute el proyecto dentro del raíz de su sitio Drupal 8, pero el sitio aún no ha sido instalado, aparecerá el siguiente mensaje.
-> Para listar todos los comandos disponibles Ud. debería instalar Drupal antes.
+> [WARNING] Para listar todos los comandos disponibles primero debe instalar Drupal.

@@ -5,7 +5,7 @@ Recomendamos descargar Git de [http://git-scm.com/downloads](http://git-scm.com/
 
 ## Descargar Composer
 
-Lance el siguiente comando desde su terminal para conseguir la última versión de Composer:
+Ejecute el siguiente comando desde su terminal para conseguir la última versión de Composer:
 ```
 curl -sS https://getcomposer.org/installer | php
 ```
@@ -13,16 +13,16 @@ O si no tiene curl:
 ```
 php -r "readfile('https://getcomposer.org/installer');" | php
 ```
-Este script instalador simplemente comprobará algunas configuraciones de su php.ini y le advertirá si están dispuestas incorrectamente. Después descargará el último composer.phar en el directorio actual.
+Este script es un instalador que simplemente comprobará algunas configuraciones de su php.ini y le advertirá si están establecidas de forma incorrecta. Después descargará el último composer.phar en el directorio actual.
 
-Puede lanzar este comando para la terminal para hacer Composer fácilmente accesible, desde cualquier lugar en su sistema:
+Puede ejecutar este comando en la terminal para hacer Composer fácilmente accesible desde cualquier lugar en su sistema:
 ```
 $ mv composer.phar /usr/local/bin/composer
 ```
 
 ## Descargar Drupal 8
 El proyecto Drupal Console sólo soporta Drupal 8; el cual necesitará descargar e instalar localmente.
-### Download Drupal
+### Descargar Drupal
 ```
 $ drupal site:new drupal8.dev 8.0.0
 $ cd drupal8.dev
@@ -41,8 +41,8 @@ $ drupal site:install standard --langcode=en --db-type=sqlite
   --site-mail=admin@example.com --account-name=admin --account-mail=admin@example.com
   --account-pass=admin -n
 ```
-### Arrancar el servidor incorporado de PHP
+### Iniciar el servidor incorporado de PHP
 ```
 $ drupal server
 ```
-**NOTA:** Asegúrese de que usa sus propias credenciales de usuario y contraseña cuando lance `site:install` y nunca utilice el usuario root en producción. En este código de ejemplo, aceptamos todas las preguntas interactivas, por ejemplo, contestando *“si”* al pasarle al comando el argumento `-y`
+**NOTA:** Asegúrese de usar sus propias credenciales de usuario y contraseña cuando ejecute `site:install` y nunca utilice el usuario root en producción. En este código de ejemplo, evitamos todas las preguntas interactivas utilizando el argumento `-n`.
