@@ -1,18 +1,18 @@
 # test:debug
-The **test:debug** command Az alkalmazás egységtesztjeinek listázása.
+**test:debug** parancs Az alkalmazás egységtesztjeinek listázása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal test:debug [arguments] [options] 
 $ td  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --test-class | Tesztosztály
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 group | Csoport

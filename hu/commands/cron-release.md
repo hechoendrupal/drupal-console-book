@@ -1,7 +1,7 @@
 # cron:release
-The **cron:release** command Cron rendszer zárolás feloldása ahhoz hogy a cron újrafusson
+**cron:release** parancs Cron rendszerzár feloldása a cron újbóli futtatásához
 
-**Usage:**
+**Használat:**
 ```
 $ drupal cron:release 
 $ crr  

@@ -10,6 +10,6 @@ $ drupal generate:plugin:type:yaml [options]
 选项 | 详细
 -------|-------------
 --module | 模块名称
---class | Plugin type class name
+--class | 插件类型类名
 --plugin-name | 插件类别内部机器名
 --plugin-file-name | 插件文件名

@@ -1,14 +1,14 @@
 # config:edit
-The **config:edit** command Kiválasztott beállítások szerkesztése.
+**config:edit** parancs Szerkeszteni kell a kiválasztott konfigurációt.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal config:edit [arguments] 
 $ cdit  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-config-name | Beállítás neve.
-editor | Szerkesztő program.
+config-name | A konfiguráció neve.
+editor | Szerkesztő.

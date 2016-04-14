@@ -1,13 +1,13 @@
 # site:status
-The **site:status** command Aktuális Drupal-telepítés állapotának megtekintése
+**site:status** parancs Aktuális Drupal-telepítés állapotának megtekintése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal site:status [options] 
 $ ss  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --format | commands.site.status.options.format

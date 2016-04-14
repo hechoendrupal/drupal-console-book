@@ -1,5 +1,5 @@
 # settings:debug
-**settings:debug** 命令 List user Drupal Console settings.
+**settings:debug** 命令 列出用户Drupal控制台设置.
 
 **用法:**
 ```

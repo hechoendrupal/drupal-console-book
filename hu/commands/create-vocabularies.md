@@ -1,13 +1,13 @@
 # create:vocabularies
-The **create:vocabularies** command Create dummy vocabularies for your Drupal 8 application.
+**create:vocabularies** parancs Tesztszótárak létrehozása egy Drupal 8 alkalmazáshoz.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal create:vocabularies [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---limit | How many vocabularies would you like to create
---name-words | Maximum number of words in vocabulary names
+--limit | Hány szótár jöjjön létre?
+--name-words | A szótárak nevében használt szavak maximális száma

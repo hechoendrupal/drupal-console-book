@@ -1,13 +1,13 @@
 # site:mode
-The **site:mode** command Rendszerteljesítmény beállításának átváltása
+**site:mode** parancs Rendszerteljesítmény beállításának átváltása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal site:mode [arguments] 
 $ smo  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 environment | Környezet neve [dev, prod]

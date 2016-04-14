@@ -3,8 +3,13 @@
 
 **प्रयोग:**
 ```
-$ drupal module:uninstall [arguments] 
+$ drupal module:uninstall [arguments] [options] 
 ```
+
+## उपलब्ध विकल्प
+विकल्प | विवरण
+-------|-------------
+--force | Do you want to ignore dependencies and forcefully uninstall the module?
 
 ## उपलब्ध तर्कों
 तर्क | विवरण

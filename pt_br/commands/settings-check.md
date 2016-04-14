@@ -1,5 +1,5 @@
 # settings:check
-O **settings:check** comando commands.settings.check.description
+O **settings:check** comando System requirement checker
 
 **Uso:**
 ```

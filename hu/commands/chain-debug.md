@@ -1,7 +1,7 @@
 # chain:debug
-The **chain:debug** command commands.chain.debug.description
+**chain:debug** parancs Rendelkezésre álló láncolt fájlok felsorolása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal chain:debug 
 ```

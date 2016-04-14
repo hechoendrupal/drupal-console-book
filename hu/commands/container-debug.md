@@ -1,7 +1,7 @@
 # container:debug
-The **container:debug** command Alkalmazáshoz tartozó service megjelenítése.
+**container:debug** parancs Egy alkalmazás aktuális szolgáltatásait jeleníti meg.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal container:debug 
 $ cod  

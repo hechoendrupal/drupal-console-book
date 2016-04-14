@@ -1,17 +1,17 @@
 # server
-The **server** command A PHP beépített webkiszolgálójának futtatása
+**server** parancs A PHP beépített webkiszolgálójának futtatása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal server [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 address | A cím:port értékek
 
-## Examples
+## Példák
 * Futtatás az alapértelmezett cím argumentumértékkel: 127.0.0.1.8088
 ```
 $ drupal server

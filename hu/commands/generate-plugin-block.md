@@ -1,19 +1,19 @@
 # generate:plugin:block
-The **generate:plugin:block** command Plugin block létrehozása
+**generate:plugin:block** parancs Blokk bővítmény létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:plugin:block [options] 
 $ gpb  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | Plugin Class neve
---label | Plugin címke
---plugin-id | Plugin ID
---theme-region | Theme region to render Plugin Block
---inputs | Beviteli mezők létrehozása formhoz.
---services | Service betöltése a container-ből.
+--module | A modul neve.
+--class | Bővítmény osztályneve
+--label | Bővítmény felirata
+--plugin-id | Bővítmény azonosítója
+--theme-region | Smink azon régiója, ahol a blokk bővítménynek meg kell jelennie
+--inputs | Bemenetek létrehozása egy űrlapban.
+--services | Szolgáltatások betöltése a tárolóból.

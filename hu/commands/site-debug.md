@@ -1,13 +1,13 @@
 # site:debug
-The **site:debug** command Minden ismert helyi és távoli webhely listázása.
+**site:debug** parancs Minden ismert helyi és távoli webhely listázása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal site:debug [arguments] 
 $ sd  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 target | commands.site.debug.options.target

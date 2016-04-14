@@ -1,14 +1,14 @@
 # generate:permissions
-The **generate:permissions** command Modul jogosultságok létrehozása
+**generate:permissions** parancs Modul engedélyeinek létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:permissions [options] 
 $ gp  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---permissions | Jogosultságok létrehozása.
+--module | A modul neve.
+--permissions | Engedélyek létrehozása.

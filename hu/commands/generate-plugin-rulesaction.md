@@ -1,18 +1,18 @@
 # generate:plugin:rulesaction
-The **generate:plugin:rulesaction** command Generate a plugin rule action
+**generate:plugin:rulesaction** parancs Szabályművelet bővítmény létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:plugin:rulesaction [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | Beépülő class neve
---label | Beépülő címke
---plugin-id | Beépülő id
---type | Action Type (user or node)
---category | Beépülő kategória
---context | Beépülő kontextus
+--module | A modul neve.
+--class | Bővítményosztály neve
+--label | Bővítmény felirata
+--plugin-id | Bővítmény azonosítója
+--type | Művelet típusa (felhasználó vagy tartalom)
+--category | Bővítmény kategóriája
+--context | Bővítmény kontextusa

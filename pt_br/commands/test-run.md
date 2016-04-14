@@ -16,4 +16,4 @@ Opção | Detalhes
 Argumento | Detalhes
 ---------|-------------
 test-class | Classe de teste
-test-methods | commands.test.run.arguments.test-methods
+test-methods | Test method(s) to be run

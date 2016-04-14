@@ -10,5 +10,5 @@ $ cis
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-config-name | Nombre de la configuración.
-input-file | Ruta de los archivos de importación.
+name | Nombre de la configuración.
+file | Path to the import file

@@ -1,7 +1,7 @@
 # about
-The **about** command Alapinformáció listázása a Drupal Console projektről
+**about** parancs Alapvető információkat jelenít meg a Drupal Console projektről
 
-**Usage:**
+**Használat:**
 ```
 $ drupal about 
 ```

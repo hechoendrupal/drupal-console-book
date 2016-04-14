@@ -1,13 +1,13 @@
 # user:login:url
-The **user:login:url** command Egyszer használatos felhasználói bejelentkezési URL-címet ad vissza.
+**user:login:url** parancs Egyszer használatos felhasználói bejelentkezési URL-címet ad vissza.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal user:login:url [arguments] 
 $ uslu  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 user-id | Felhasználói azonosító.

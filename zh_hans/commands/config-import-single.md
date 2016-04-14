@@ -1,5 +1,5 @@
 # config:import:single
-**config:import:single** 命令 导入配置
+**config:import:single** 命令 Import the selected configuration.
 
 **用法:**
 ```
@@ -10,5 +10,5 @@ $ cis
 ## 可用参数
 参数 | 详细
 ---------|-------------
-config-name | 配置名称
-input-file | 导入文件路径
+name | Configuration name.
+file | Path to the import file

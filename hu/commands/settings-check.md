@@ -1,7 +1,7 @@
 # settings:check
-The **settings:check** command commands.settings.check.description
+**settings:check** parancs System requirement checker
 
-**Usage:**
+**Használat:**
 ```
 $ drupal settings:check 
 $ check  

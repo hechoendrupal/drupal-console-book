@@ -1,15 +1,15 @@
 # generate:plugin:type:annotation
-The **generate:plugin:type:annotation** command Generate a plugin type with annotation discovery
+**generate:plugin:type:annotation** parancs Bővítménytípus létrehozása magyarázatészleléssel
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:plugin:type:annotation [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | Plugin type class name
+--module | A modul neve.
+--class | Bővítménytípus osztályneve
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
---label | Plugin type label
+--label | Bővítménytípus felirata

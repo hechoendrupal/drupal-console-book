@@ -1,16 +1,16 @@
 # generate:plugin:fieldwidget
-The **generate:plugin:fieldwidget** command Generate field widget plugin.
+**generate:plugin:fieldwidget** parancs Mező felületi elem bővítmény létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:plugin:fieldwidget [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---field-type | Field type the plugin can be used with
+--module | A modul neve.
+--class | Bővítmény osztályneve
+--label | Bővítmény felirata
+--plugin-id | Bővítmény azonosítója
+--field-type | A mezőtípus, amivel a bővítmény használható

@@ -1,22 +1,22 @@
 # database:log:debug
-The **database:log:debug** command Display current log events for the application
+**database:log:debug** parancs Az alkalmazás aktuális naplóeseményeinek megjelenítése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal database:log:debug [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---type | Filter events by a specific type
---severity | Filter events by a specific level of severity
---user-id | Filter events by a specific user id
---reverse | Reverse the order of events
---limit | Limit results to a specific number
---offset | Starting point of a limit
+--type | Események szűrése típus alapján
+--severity | Események szűrése súlyossági szintjük alapján
+--user-id | Események szűrése felhasználói azonosító alapján
+--reverse | Események sorrendjének megfordítása
+--limit | Egy adott számra korlátozza a találatok számát
+--offset | Egy korlát kezdőpontja
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-event-id | DBLog event ID
+event-id | DBLog eseményazonosító

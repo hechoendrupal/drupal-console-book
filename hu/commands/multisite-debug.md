@@ -1,7 +1,7 @@
 # multisite:debug
-The **multisite:debug** command A rendszeren elérhető multisite-ok listázása
+**multisite:debug** parancs A rendszeren elérhető multisite-ok listázása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal multisite:debug 
 ```

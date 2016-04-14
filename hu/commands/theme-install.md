@@ -1,18 +1,18 @@
 # theme:install
-The **theme:install** command Smink vagy sminkek telepítése az alkalmazásba
+**theme:install** parancs Smink vagy sminkek telepítése az alkalmazásba
 
-**Usage:**
+**Használat:**
 ```
 $ drupal theme:install [arguments] [options] 
 $ ti  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --set-default | Smink beállítása alapértelmezettként
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 theme | commands.theme.install.options.module

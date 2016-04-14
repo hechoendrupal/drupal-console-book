@@ -13,9 +13,10 @@ Comando Drupal Console | Detalhes
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruir e limpar todos os caches do site.
 **chain**  |
-[chain:debug](chain-debug.md) | commands.chain.debug.description
+[chain:debug](chain-debug.md) | List available chain files.
 **config**  |
 [config:debug](config-debug.md) | Exibe a configuração atual.
+[config:delete](config-delete.md) | Delete configuration
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Edit the selected configuration.
 [config:export](config-export.md) | Exportar a configuração atual da aplicação.
@@ -23,12 +24,13 @@ Comando Drupal Console | Detalhes
 [config:export:single](config-export-single.md) | Exportar uma configuração única como um arquivo YML.
 [config:export:view](config-export-view.md) | Exportar uma view no formato YAML em um módulo, para reutilizar em outro website.
 [config:import](config-import.md) | Importar configuração do estado atual da aplicação.
-[config:import:single](config-import-single.md) | Importar a configuração selecionada.
+[config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | Sobrescrever valor de configuração ativa.
 [config:settings:debug](config-settings-debug.md) | Displays current key:value on settings file.
 **container**  |
 [container:debug](container-debug.md) | Exibe serviços atuais para um aplicativo.
 **create**  |
+[create:comments](create-comments.md) | Create dummy comments for your Drupal 8 application.
 [create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
 [create:terms](create-terms.md) | Create dummy terms for your Drupal 8 application.
 [create:users](create-users.md) | Create dummy users for your Drupal 8 application.
@@ -40,12 +42,12 @@ Comando Drupal Console | Detalhes
 **database**  |
 [database:client](database-client.md) | Iniciar um cliente de banco de dados se ele está disponível
 [database:connect](database-connect.md) | Iniciar um cliente de banco de dados se ele está disponível
+[database:drop](database-drop.md) | Drop all tables in a given database.
 [database:dump](database-dump.md) | Dump da estrutura e conteúdos da base de dados e tabelas MySQL
 [database:log:clear](database-log-clear.md) | Remove eventos da tabela DBLog, filtros disponíveis
 [database:log:debug](database-log-debug.md) | Exibir eventos de log atuais do aplicativo
 [database:restore](database-restore.md) | Restaurar a estrutura e conteúdo das bases de dados e tabelas do MySQL
 [database:table:debug](database-table-debug.md) | Show all tables in a given database.
-[database:table:drop](database-table-drop.md) | Drop all tables in a given database.
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Gerar um provedor de autenticação
 [generate:command](generate-command.md) | Cria comandos via console.
@@ -62,6 +64,7 @@ Comando Drupal Console | Detalhes
 [generate:module](generate-module.md) | Criar um módulo.
 [generate:permissions](generate-permissions.md) | Gerar permissões ao módulo
 [generate:plugin:block](generate-plugin-block.md) | Criar plugin de bloco.
+[generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
 [generate:plugin:condition](generate-plugin-condition.md) | Criar um plugin de condition.
 [generate:plugin:field](generate-plugin-field.md) | Gera plugins de widgets, fortmato e tipo de campo
 [generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Gerar um plugin de formato de campo.
@@ -69,6 +72,7 @@ Comando Drupal Console | Detalhes
 [generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Generate field widget plugin.
 [generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Criar plugin de efeito de imagem.
 [generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Generate image formatter plugin.
+[generate:plugin:mail](generate-plugin-mail.md) | Generate a plugin mail
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Generate plugin rest resource
 [generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Generate a plugin rule action
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
@@ -78,6 +82,9 @@ Comando Drupal Console | Detalhes
 [generate:routesubscriber](generate-routesubscriber.md) | Generate a RouteSubscriber
 [generate:service](generate-service.md) | Criar serviço
 [generate:theme](generate-theme.md) | Generate a theme.
+**image**  |
+[image:styles:debug](image-styles-debug.md) | List image styles on the site
+[image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
 **locale**  |
 [locale:language:add](locale-language-add.md) | Add a language to be supported by your site
 [locale:language:delete](locale-language-delete.md) | DElete a language to be supported by your site
@@ -93,6 +100,10 @@ Comando Drupal Console | Detalhes
 [module:uninstall](module-uninstall.md) | Uninstall module or modules in the application
 **multisite**  |
 [multisite:debug](multisite-debug.md) | List all multisites available in system
+**node**  |
+[node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
+**plugin**  |
+[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
 **rest**  |
 [rest:debug](rest-debug.md) | Display current rest resource for the application
 [rest:disable](rest-disable.md) | Disable a rest resource for the application
@@ -101,12 +112,13 @@ Comando Drupal Console | Detalhes
 [router:debug](router-debug.md) | Exibe as rotas atuais de uma aplicação
 [router:rebuild](router-rebuild.md) | Reconstruir rotas de uma aplicação
 **settings**  |
-[settings:check](settings-check.md) | commands.settings.check.description
+[settings:check](settings-check.md) | System requirement checker
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
 [settings:init](settings-init.md) | Copy configuration files to user home directory.
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Listar todos os sites locais e remotos.
+[site:import:local](site-import-local.md) | Import/Configure an existing local Drupal project
 [site:install](site-install.md) | Instalar um projeto Drupal
 [site:maintenance](site-maintenance.md) | Habilitar/Desabilitar modo de manutenção
 [site:mode](site-mode.md) | Atualizar as configurações de desempenho do sistema
@@ -115,6 +127,7 @@ Comando Drupal Console | Detalhes
 [site:status](site-status.md) | Exibir informações da atual instalação do Drupal
 **state**  |
 [state:debug](state-debug.md) | Exibir as chaves atuais do Estado.
+[state:delete](state-delete.md) | Delete State
 [state:override](state-override.md) | Sobrescrever a chave de Estado.
 **test**  |
 [test:debug](test-debug.md) | Listar testes unitários disponíveis para a aplicação.
@@ -131,6 +144,7 @@ Comando Drupal Console | Detalhes
 [translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | Exibir atualizações necessários para a aplicação
+[update:entities](update-entities.md) | Applying Entity Updates
 [update:execute](update-execute.md) | Executar uma função especifica de atualização (Update N) de um módulo especifico, ou executar todas
 **user**  |
 [user:debug](user-debug.md) | Exibe informações dos usuários da aplicação
@@ -143,6 +157,7 @@ Comando Drupal Console | Detalhes
 [views:debug](views-debug.md) | Exibir informações sobre a View atual
 [views:disable](views-disable.md) | Desabilitar uma View
 [views:enable](views-enable.md) | Habilitar uma View
+[views:plugins:debug](views-plugins-debug.md) | Display current views plugins for the application
 **yaml**  |
 [yaml:diff](yaml-diff.md) | Comparar dois arquivos YAML para determinar diferenças entre eles
 [yaml:merge](yaml-merge.md) | Combinar um ou mais arquivos YAML em um único novo arquivo. Os últimos valores serão preservados.
@@ -170,7 +185,6 @@ Opção | Detalhes
 --target | Site name you want to interact with (for local or remote sites)
 --uri | URI do site Drupal para usar (para ambientes multisites ou quando usado em uma porta alternativa)
 --yes | Skip confirmation and proceed
---check-fix | application.options.check-fix
 
 ## Argumentos disponíveis
 Argumento | Detalhes

@@ -1,13 +1,13 @@
 # module:debug
-The **module:debug** command Az alkalmazáshoz elérhető aktuális modulok megjelenítése
+**module:debug** parancs Az alkalmazáshoz elérhető aktuális modulok megjelenítése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal module:debug [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --status | Modul állapota [engedélyezett|tiltott]
 --type | Modul típusa [alaprendszer|nem alaprendszer]

@@ -1,17 +1,17 @@
 # generate:controller
-The **generate:controller** command Controller létrehozása és regisztrálása
+**generate:controller** parancs Kontroller létrehozása és regisztrálása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:controller [options] 
 $ gcn  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | Controller Class neve
---routes | The routes, must be an array containing [title, method, path]
---services | Service betöltése a container-ből.
---test | Teszt osztály létrehozása
+--module | A modul neve.
+--class | Kontroller osztályneve
+--routes | Az útvonalak, [title, method, path] tartalmú tömbnek kell lennie
+--services | Szolgáltatások betöltése a tárolóból.
+--test | Tesztosztály létrehozása

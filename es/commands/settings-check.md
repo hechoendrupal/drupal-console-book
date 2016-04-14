@@ -1,5 +1,5 @@
 # settings:check
-El comando **settings:check** commands.settings.check.description
+El comando **settings:check** Verificador de requisitos del sistema
 
 **Uso:**
 ```

@@ -1,20 +1,20 @@
 # config:override
-The **config:override** command Beállítás felülírása.
+**config:override** parancs Az aktív konfiguráció értékének felülbírálása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal config:override [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-config-name | Beállítás neve.
+config-name | A konfiguráció neve.
 key | Kulcs
 value | Érték
 
-## Examples
-* Définir la valeur de "flood" du module Contact à 10.
+## Példák
+* A Contact modul elárasztási korlátjának beállítása 10 értékre.
 ```
 $ drupal config:override contact.settings flood.limit 10
 ```

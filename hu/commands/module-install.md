@@ -1,17 +1,17 @@
 # module:install
-The **module:install** command Modul vagy modulok telepítése
+**module:install** parancs Modul vagy modulok telepítése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal module:install [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --latest | Az alapértelmezés a legfrissebb verzió letöltése
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 module | Az engedélyezendő modulokat szóközzel kell elválasztani

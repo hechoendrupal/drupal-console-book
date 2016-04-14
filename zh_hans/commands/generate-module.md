@@ -14,9 +14,9 @@ $ gm
 --machine-name | 模块名 (只能用小写英文字母和下划线)
 --module-path | 模块路径
 --description | 模块说明
---core | 内核版本
---package | Module package
---module-file | Add a .module file
---feature | Set module compatible with Features module
---composer | Add a composer.json file
---dependencies | Module dependencies separated by commas (i.e. context, panels)
+--core | Drupal 核心版本
+--package | 模块包
+--module-file | 添加一个 .module 文件
+--features-bundle | Define module as feature using the given Features bundle name
+--composer | 添加一个 composer.json 文件
+--dependencies | 模块依赖，以逗号分隔 (例如： context, panels)

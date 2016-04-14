@@ -1,5 +1,5 @@
 # chain:debug
-El comando **chain:debug** commands.chain.debug.description
+El comando **chain:debug** Lista las secuencias de comandos disponibles.
 
 **Uso:**
 ```

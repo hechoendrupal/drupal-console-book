@@ -1,5 +1,5 @@
 # views:enable
-**views:enable** 命令 启动视图
+**views:enable** 命令 启用一个视图
 
 **用法:**
 ```

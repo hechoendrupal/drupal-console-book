@@ -1,5 +1,5 @@
 # config:import:single
-**config:import:single** कमांड चयनित व्यवस्था आयात करें।
+**config:import:single** कमांड Import the selected configuration.
 
 **प्रयोग:**
 ```
@@ -10,5 +10,5 @@ $ cis
 ## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
-config-name | व्यवस्था का नाम।
-input-file | आयात फाइलो का पथ।
+name | Configuration name.
+file | Path to the import file

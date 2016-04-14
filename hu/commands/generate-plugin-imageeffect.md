@@ -1,16 +1,16 @@
 # generate:plugin:imageeffect
-The **generate:plugin:imageeffect** command Kép hatás beépülő létrehozása.
+**generate:plugin:imageeffect** parancs Képhatás bővítmény létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:plugin:imageeffect [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | Plugin class neve
---label | Plugin címke
---plugin-id | Plugin ID
---description | Plugin leírás
+--module | A modul neve.
+--class | Bővítmény osztályneve
+--label | Bővítmény felirata
+--plugin-id | Bővítmény azonosítója
+--description | Bővítmény leírása

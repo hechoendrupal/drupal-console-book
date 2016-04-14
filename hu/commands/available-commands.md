@@ -1,83 +1,90 @@
-# Available Drupal Console Commands
+# Rendelkezésre álló Drupal Console parancsok
 
-**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
+**Megjegyzés:** A Drupal Console parancsokat a Drupal 8 telepítési gyökérkönyvtárából *kell* futtatni.
 
-Drupal Console Command | Details
+Drupal Console parancs | Részletek
 ------------ | -------------
-[about](about.md) | Alapinformáció listázása a Drupal Console projektről
-[chain](chain.md) | Parancsláncsor végrehajtása
+[about](about.md) | Alapvető információkat jelenít meg a Drupal Console projektről
+[chain](chain.md) | Chain parancs végrehajtása
 [help](help.md) | Displays help for a command
 [settings:init](settings-init.md) | Copy configuration files to user home directory.
 [list](list.md) | A rendelkezésre álló parancsok listázása
 [server](server.md) | A PHP beépített webkiszolgálójának futtatása
 **cache**  |
-[cache:rebuild](cache-rebuild.md) | Minden gyorsítótár újraépítése és törlése.
+[cache:rebuild](cache-rebuild.md) | A webhely összes gyorsítótárának újraépítése és törlése.
 **chain**  |
-[chain:debug](chain-debug.md) | commands.chain.debug.description
+[chain:debug](chain-debug.md) | Rendelkezésre álló láncolt fájlok felsorolása.
 **config**  |
-[config:debug](config-debug.md) | Jelenlegi beállítások megjelenítése.
-[config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
-[config:edit](config-edit.md) | Kiválasztott beállítások szerkesztése.
-[config:export](config-export.md) | Jelenlegi alkalmazás beállításainak exportálása.
-[config:export:content:type](config-export-content-type.md) | Bizonyos tipusú tartalom és ennek a mezőinek az exportálása.
-[config:export:single](config-export-single.md) | Egyetlen konfiguráció exportálása yml fájlként.
-[config:export:view](config-export-view.md) | Exportáljon egy view-t YAML formátumban, egy adott modulon belül amit más siteokon újrahasználhat.
-[config:import](config-import.md) | Konfiguráció importálása az aktuális aplikációba.
-[config:import:single](config-import-single.md) | Importálja a kijelölt konfigurációt.
-[config:override](config-override.md) | Beállítás felülírása.
-[config:settings:debug](config-settings-debug.md) | A settings fájl aktuális kulcs:érték beállításainak megjelenítése.
+[config:debug](config-debug.md) | Aktuális konfiguráció megjelenítése.
+[config:delete](config-delete.md) | Delete configuration
+[config:diff](config-diff.md) | Az aktív konfigurációt egy könyvtárral összehasonlítva az eltérő konfigurációs elemek.
+[config:edit](config-edit.md) | Szerkeszteni kell a kiválasztott konfigurációt.
+[config:export](config-export.md) | Aktuális alkalmazáskonfiguráció exportálása.
+[config:export:content:type](config-export-content-type.md) | Adott tartalomtípus és mezőinek exportálása.
+[config:export:single](config-export-single.md) | Egyetlen konfigurációs fájl exportálása yml-fájlként.
+[config:export:view](config-export-view.md) | Nézet exportálása YAML-formátumban egy megadott modulba, hogy újra lehessen használni más weboldalon.
+[config:import](config-import.md) | Konfiguráció importálása az aktuális alkalmazásba.
+[config:import:single](config-import-single.md) | Import the selected configuration.
+[config:override](config-override.md) | Az aktív konfiguráció értékének felülbírálása.
+[config:settings:debug](config-settings-debug.md) | A beállításfájl aktuális kulcs:érték beállításainak megjelenítése.
 **container**  |
-[container:debug](container-debug.md) | Alkalmazáshoz tartozó service megjelenítése.
+[container:debug](container-debug.md) | Egy alkalmazás aktuális szolgáltatásait jeleníti meg.
 **create**  |
-[create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
-[create:terms](create-terms.md) | Create dummy terms for your Drupal 8 application.
-[create:users](create-users.md) | Create dummy users for your Drupal 8 application.
-[create:vocabularies](create-vocabularies.md) | Create dummy vocabularies for your Drupal 8 application.
+[create:comments](create-comments.md) | Create dummy comments for your Drupal 8 application.
+[create:nodes](create-nodes.md) | Teszttartalom létrehozása egy Drupal 8 alkalmazáshoz.
+[create:terms](create-terms.md) | Tesztkifejezések létrehozása egy Drupal 8 alkalmazáshoz.
+[create:users](create-users.md) | Tesztfelhasználók létrehozása egy Drupal 8 alkalmazáshoz.
+[create:vocabularies](create-vocabularies.md) | Tesztszótárak létrehozása egy Drupal 8 alkalmazáshoz.
 **cron**  |
-[cron:debug](cron-debug.md) | Modulok listája amelyek implementálják a cront
-[cron:execute](cron-execute.md) | Cron megvalósitás futtatása egy bizonyos modulból vagy az összesből
-[cron:release](cron-release.md) | Cron rendszer zárolás feloldása ahhoz hogy a cron újrafusson
+[cron:debug](cron-debug.md) | Cron metódust megvalósító modulok listája
+[cron:execute](cron-execute.md) | Cron megvalósítások végrehajtása modul szerint, vagy az összes cron metódus végrehajtása
+[cron:release](cron-release.md) | Cron rendszerzár feloldása a cron újbóli futtatásához
 **database**  |
-[database:client](database-client.md) | Launch a DB client if it's available
-[database:connect](database-connect.md) | Launch a DB client if it's available
-[database:dump](database-dump.md) | Dump structure and contents of MySQL databases and tables
-[database:log:clear](database-log-clear.md) | Remove events from DBLog table, filters are available
-[database:log:debug](database-log-debug.md) | Display current log events for the application
-[database:restore](database-restore.md) | Restore structure and contents of MySQL databases and tables
-[database:table:debug](database-table-debug.md) | Show all tables in a given database.
-[database:table:drop](database-table-drop.md) | Drop all tables in a given database.
+[database:client](database-client.md) | Adatbázisügyfél indítása, ha az elérhető
+[database:connect](database-connect.md) | Megjeleníti az adatbázis-kapcsolatot
+[database:drop](database-drop.md) | Egy adatbázis összes táblájának eldobása.
+[database:dump](database-dump.md) | Adatbázis szerkezetének és tartalmának kiíratása
+[database:log:clear](database-log-clear.md) | Események eltávolítása a DBLog táblából, rendelkezésre állnak szűrők
+[database:log:debug](database-log-debug.md) | Az alkalmazás aktuális naplóeseményeinek megjelenítése
+[database:restore](database-restore.md) | Adatbázis szerkezetének és tartalmának visszaállítása.
+[database:table:debug](database-table-debug.md) | Adott adatbázis összes táblájának megjelenítése.
 **generate**  |
-[generate:authentication:provider](generate-authentication-provider.md) | Authentication Provider létrehozása
-[generate:command](generate-command.md) | Console parancsok létrehozása.
-[generate:controller](generate-controller.md) | Controller létrehozása és regisztrálása
-[generate:doc:dash](generate-doc-dash.md) | Generate the DrupalConsole.docset package for Dash
-[generate:doc:gitbook](generate-doc-gitbook.md) | Generate documentations for Commands
-[generate:entity:bundle](generate-entity-bundle.md) | Generate a new content type (node / entity bundle)
-[generate:entity:config](generate-entity-config.md) | Generate a new config entity
-[generate:entity:content](generate-entity-content.md) | Generate a new content entity
-[generate:event:subscriber](generate-event-subscriber.md) | Generate an event subscriber
+[generate:authentication:provider](generate-authentication-provider.md) | Hitelesítésszolgáltató létrehozása
+[generate:command](generate-command.md) | Parancsok létrehozása a konzolhoz.
+[generate:controller](generate-controller.md) | Kontroller létrehozása és regisztrálása
+[generate:doc:dash](generate-doc-dash.md) | DrupalConsole.docset csomag létrehozása a Dash számára
+[generate:doc:gitbook](generate-doc-gitbook.md) | Dokumentáció létrehozása a parancsokhoz
+[generate:entity:bundle](generate-entity-bundle.md) | Új tartalomtípus létrehozása (tartalom / mezőköteg)
+[generate:entity:config](generate-entity-config.md) | Új konfigurációs entitás létrehozása
+[generate:entity:content](generate-entity-content.md) | Új tartalom entitás létrehozása
+[generate:event:subscriber](generate-event-subscriber.md) | Esemény-előfizető létrehozása
 [generate:form](generate-form.md) | Új "FormBase" létrehozása
-[generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
+[generate:form:alter](generate-form-alter.md) | A hook_form_alter() vagy hook_form_FORM_ID_alter megvalósításának létrehozása
 [generate:form:config](generate-form-config.md) | Új "ConfigFormBase" létrehozása
 [generate:module](generate-module.md) | Modul létrehozása.
-[generate:permissions](generate-permissions.md) | Modul jogosultságok létrehozása
-[generate:plugin:block](generate-plugin-block.md) | Plugin block létrehozása
-[generate:plugin:condition](generate-plugin-condition.md) | Generate a plugin condition.
-[generate:plugin:field](generate-plugin-field.md) | Generate field type, widget and formatter plugins.
-[generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Generate field formatter plugin.
-[generate:plugin:fieldtype](generate-plugin-fieldtype.md) | Generate field type plugin.
-[generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Generate field widget plugin.
-[generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Kép hatás beépülő létrehozása.
-[generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Generate image formatter plugin.
-[generate:plugin:rest:resource](generate-plugin-rest-resource.md) | REST erőforrás beépülő létrehozása
-[generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Generate a plugin rule action
-[generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
-[generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Generate a plugin type with Yaml discovery
-[generate:plugin:views:field](generate-plugin-views-field.md) | Generate a custom plugin view field.
-[generate:profile](generate-profile.md) | Generate a profile.
-[generate:routesubscriber](generate-routesubscriber.md) | Generate a RouteSubscriber
-[generate:service](generate-service.md) | Service létrehozása
-[generate:theme](generate-theme.md) | Generate a theme.
+[generate:permissions](generate-permissions.md) | Modul engedélyeinek létrehozása
+[generate:plugin:block](generate-plugin-block.md) | Blokk bővítmény létrehozása
+[generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
+[generate:plugin:condition](generate-plugin-condition.md) | Feltételbővítmény létrehozása.
+[generate:plugin:field](generate-plugin-field.md) | Mezőtípus, felületi elem és formázó bővítmények létrehozása.
+[generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Mezőformázó bővítmény létrehozása
+[generate:plugin:fieldtype](generate-plugin-fieldtype.md) | Mezőtípus bővítmény létrehozása
+[generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Mező felületi elem bővítmény létrehozása
+[generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Képhatás bővítmény létrehozása
+[generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Képformázó bővítmény létrehozása.
+[generate:plugin:mail](generate-plugin-mail.md) | Generate a plugin mail
+[generate:plugin:rest:resource](generate-plugin-rest-resource.md) | REST-erőforrás bővítmény létrehozása
+[generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Szabályművelet bővítmény létrehozása
+[generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Bővítménytípus létrehozása magyarázatészleléssel
+[generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Bővítménytípus létrehozása YAML-észleléssel
+[generate:plugin:views:field](generate-plugin-views-field.md) | Egyéni nézetmező bővítmény létrehozása.
+[generate:profile](generate-profile.md) | Profil létrehozása.
+[generate:routesubscriber](generate-routesubscriber.md) | RouteSubscriber létrehozása
+[generate:service](generate-service.md) | Szolgáltatás létrehozása
+[generate:theme](generate-theme.md) | Smink létrehozása.
+**image**  |
+[image:styles:debug](image-styles-debug.md) | List image styles on the site
+[image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
 **locale**  |
 [locale:language:add](locale-language-add.md) | A webhely által támogatott nyelv hozzáadása
 [locale:language:delete](locale-language-delete.md) | A webhely által támogatott nyelv törlése
@@ -93,6 +100,10 @@ Drupal Console Command | Details
 [module:uninstall](module-uninstall.md) | Modul vagy modulok eltávolítása
 **multisite**  |
 [multisite:debug](multisite-debug.md) | A rendszeren elérhető multisite-ok listázása
+**node**  |
+[node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
+**plugin**  |
+[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
 **rest**  |
 [rest:debug](rest-debug.md) | Aktuális REST-erőforrás megjelenítése
 [rest:disable](rest-disable.md) | REST-erőforrás letiltása
@@ -101,12 +112,13 @@ Drupal Console Command | Details
 [router:debug](router-debug.md) | Megjeleníti az alkalmazás aktuális útvonalait
 [router:rebuild](router-rebuild.md) | Az alkalmazás útvonalainak újraépítése
 **settings**  |
-[settings:check](settings-check.md) | commands.settings.check.description
+[settings:check](settings-check.md) | System requirement checker
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
 [settings:init](settings-init.md) | Copy configuration files to user home directory.
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Minden ismert helyi és távoli webhely listázása.
+[site:import:local](site-import-local.md) | Import/Configure an existing local Drupal project
 [site:install](site-install.md) | Drupal projekt telepítése
 [site:maintenance](site-maintenance.md) | Webhely karbantartási módba állítása
 [site:mode](site-mode.md) | Rendszerteljesítmény beállításának átváltása
@@ -115,6 +127,7 @@ Drupal Console Command | Details
 [site:status](site-status.md) | Aktuális Drupal-telepítés állapotának megtekintése
 **state**  |
 [state:debug](state-debug.md) | Az aktuális állapotkulcsok megjelenítése.
+[state:delete](state-delete.md) | Delete State
 [state:override](state-override.md) | Állapotkulcs felülbírálása.
 **test**  |
 [test:debug](test-debug.md) | Az alkalmazás egységtesztjeinek listázása.
@@ -131,6 +144,7 @@ Drupal Console Command | Details
 [translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | Az alkalmazás jelenleg elérhető frissítéseinek megjelenítése
+[update:entities](update-entities.md) | Applying Entity Updates
 [update:execute](update-execute.md) | Egy modul adott Update N függvényének végrehajtása, vagy az összes végrehajtása
 **user**  |
 [user:debug](user-debug.md) | Megjeleníti az aktuális felhasználókat
@@ -143,6 +157,7 @@ Drupal Console Command | Details
 [views:debug](views-debug.md) | Alkalmazás aktuális views erőforrásainak megjelenítése
 [views:disable](views-disable.md) | Nézet letiltása
 [views:enable](views-enable.md) | Nézet engedélyezése
+[views:plugins:debug](views-plugins-debug.md) | Display current views plugins for the application
 **yaml**  |
 [yaml:diff](yaml-diff.md) | Két YAML-fájl összehasonlítása a közöttük lévő különbségek megkereséséhez.
 [yaml:merge](yaml-merge.md) | YAML-fájlok összevonása egy új YAML-fájlba. A legfrissebb értékek maradnak meg.
@@ -150,29 +165,28 @@ Drupal Console Command | Details
 [yaml:update:key](yaml-update-key.md) | YAML-kulcs lecserélése egy YAML-fájlban.
 [yaml:update:value](yaml-update-value.md) | A YAML-fájl adott kulcsához tartozó érték frissítése.
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---help | Display this help message
---quiet | Do not output any message
---verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
---version | <info>%s</info> version <comment>%s</comment>
---ansi | Force ANSI output
---no-ansi | Disable ANSI output
---no-interaction | Do not ask any interactive question
---env | A Környezet neve.
---root | Define the Drupal root to be used in command execution
---no-debug | Hibakeresés mód leállítása.
---learning | Részletes kimeneti kód generálása.
---generate-chain | Végrehajtási lehetőségek és argumentumok nyomtatása mint yaml kimenet amit késöbb egy parancsláncba használhat fel
---generate-inline | Végrehajtási lehetőségek és argumentumok nyomtatása beágyazott hívásként amit késöbb felhasználhat
---generate-doc | Shows command options and arguments as markdown
---target | Site name you want to interact with (for local or remote sites)
---uri | URI of the Drupal site to use (for multisite environments or when running on an alternate port)
---yes | Skip confirmation and proceed
---check-fix | application.options.check-fix
+--help | A súgóüzenet megjelenítése
+--quiet | Ne írjon ki semmilyen üzenetet
+--verbose | Az üzenetek részletességi szintjének növelése: 1: normális kimenet, 2: részletesebb kimenet, és 3: hibakeresés
+--version | Az alkalmazás verziójának megjelenítése
+--ansi | ANSI kimenet kényszerítése
+--no-ansi | ANSI kimenet tiltása
+--no-interaction | Ne tegyen fel semmilyen kérdést
+--env | A környezet neve
+--root | A parancs végrehajtásakor használt Drupal gyökérkönyvtárt adja meg
+--no-debug | Kikapcsolja a hibakeresési módot
+--learning | Részletes kódkimenet létrehozása
+--generate-chain | A parancspbeállításokat és argumentumokat a chain parancsban használandó yaml-kimenetként jeleníti meg
+--generate-inline | A parancsbeállításokat és argumentumokat beágyazott parancsként jeleníti meg
+--generate-doc | A parancsbeállításokat és argumentumokat markdown szövegként jeleníti meg
+--target | A kezelni kívánt webhely neve (helyi vagy távoli webhelyek esetén)
+--uri | A használandó Drupal webhely URI-címe (multisite vagy másodlagos porton futó környezetek esetén)
+--yes | Megerősítés kihagyása és a művelet folytatása
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-command | The command to execute
+command | A végrehajtandó parancs

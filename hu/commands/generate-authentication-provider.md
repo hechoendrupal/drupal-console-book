@@ -1,15 +1,15 @@
 # generate:authentication:provider
-The **generate:authentication:provider** command Authentication Provider létrehozása
+**generate:authentication:provider** parancs Hitelesítésszolgáltató létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:authentication:provider [options] 
 $ gap  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | commands.generate.authentication.provider.options.class
---provider-id | commands.generate.authentication.provider.options.provider-id
+--module | A modul neve.
+--class | Hitelesítésszolgáltató osztály
+--provider-id | Szolgáltató azonosítója

@@ -1,19 +1,19 @@
 # create:users
-The **create:users** command Create dummy users for your Drupal 8 application.
+**create:users** parancs Tesztfelhasználók létrehozása egy Drupal 8 alkalmazáshoz.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal create:users [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---limit | How many users would you like to create
---password | Password to be set to users created
---time-range | How far back in time should the users be dated
+--limit | Hány felhasználó jöjjön létre
+--password | A létrehozott felhasználókhoz beállított jelszó
+--time-range | Mennyire legyen visszadátumozva a felhasználók létrehozása
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-roles | Role(s) to be used in user creation
+roles | A felhasználók létrehozásakor használandó szerepkörök

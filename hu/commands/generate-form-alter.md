@@ -1,15 +1,15 @@
 # generate:form:alter
-The **generate:form:alter** command Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
+**generate:form:alter** parancs A hook_form_alter() vagy hook_form_FORM_ID_alter megvalósításának létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:form:alter [options] 
 $ gfa  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---form-id | Form ID to alter
---inputs | Beviteli mezők létrehozása formhoz.
+--module | A modul neve.
+--form-id | A módosítandó formazonosító
+--inputs | Bemenetek létrehozása egy űrlapban.

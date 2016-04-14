@@ -17,6 +17,6 @@ $ gt
 --core | 内核版本
 --package | 外观主题包
 --global-library | 全局格式库名
---base-theme | 基础外观主题 (例如： classy, seven)
+--base-theme | 基础外观主题 (例如： classy, stable)
 --regions | 区域
 --breakpoints | 断点

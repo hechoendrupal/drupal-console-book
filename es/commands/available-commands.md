@@ -13,9 +13,10 @@ Comando de Drupal Console | Detalles
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
 **chain**  |
-[chain:debug](chain-debug.md) | commands.chain.debug.description
+[chain:debug](chain-debug.md) | Lista las secuencias de comandos disponibles.
 **config**  |
 [config:debug](config-debug.md) | Muestra la configuración actual.
+[config:delete](config-delete.md) | Eliminar configuración
 [config:diff](config-diff.md) | Muestra los items de configuración que son diferentes en la configuración activa comparada con un directorio.
 [config:edit](config-edit.md) | Editar la configuración seleccionada.
 [config:export](config-export.md) | Exporta la configuración actual de la aplicación.
@@ -29,6 +30,7 @@ Comando de Drupal Console | Detalles
 **container**  |
 [container:debug](container-debug.md) | Muestra los servicios actuales de la aplicación.
 **create**  |
+[create:comments](create-comments.md) | Crear comentarios de prueba para tu aplicación en Drupal 8.
 [create:nodes](create-nodes.md) | Crea nodos de relleno para su Drupal 8.
 [create:terms](create-terms.md) | Crea términos de relleno para tu Drupal 8.
 [create:users](create-users.md) | Crea usuarios de prueba para tu Drupal 8.
@@ -40,12 +42,12 @@ Comando de Drupal Console | Detalles
 **database**  |
 [database:client](database-client.md) | Lanzar un cliente de base de datos si está disponible
 [database:connect](database-connect.md) | Lanzar un cliente de base de datos si está disponible
+[database:drop](database-drop.md) | Muestra todas las tablas de una base de datos datos.
 [database:dump](database-dump.md) | Volcado de la estructura y contenidos de las bases de datos y tablas MySQL
 [database:log:clear](database-log-clear.md) | Eliminar eventos de la tabla DBLog, filtros disponibles
 [database:log:debug](database-log-debug.md) | Desplegar eventos registrados al momento para la aplicación
 [database:restore](database-restore.md) | Restaurar la estructura y los contenidos de bases de datos y tablas MySQL
-[database:table:debug](database-table-debug.md) | Muestra todas las tablas de una base de datos dada.
-[database:table:drop](database-table-drop.md) | Elimina todas las tablas de una base de datos dada.
+[database:table:debug](database-table-debug.md) | Muestra todas las tablas en una base de datos.
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generar un Proveedor de Autenticación
 [generate:command](generate-command.md) | Genera un comando para la consola.
@@ -59,9 +61,10 @@ Comando de Drupal Console | Detalles
 [generate:form](generate-form.md) | Generar un nuevo "FormBase"
 [generate:form:alter](generate-form-alter.md) | Genera una implementación de hook_form_alter() o hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | Generar un nuevo "ConfigFormBase"
-[generate:module](generate-module.md) | Generar a modulo.
+[generate:module](generate-module.md) | Generar un módulo.
 [generate:permissions](generate-permissions.md) | Genera los permisos del módulo
 [generate:plugin:block](generate-plugin-block.md) | Genera un plugin de bloque
+[generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Genera un plugin de botón para CKEditor.
 [generate:plugin:condition](generate-plugin-condition.md) | Genera un plugin de condición.
 [generate:plugin:field](generate-plugin-field.md) | Genera plugins de widget, formateador y tipo de campo.
 [generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Genera un plugin de formateador de campo.
@@ -69,15 +72,19 @@ Comando de Drupal Console | Detalles
 [generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Genera un plugin de widget de campo.
 [generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Genera un plugin de efecto de imagen.
 [generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Genera plugins de formateador de imagen.
+[generate:plugin:mail](generate-plugin-mail.md) | Genera un plugin de correo
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Genera un plugin de recurso rest
 [generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Genera un plugin de acción de rules
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Genera un tipo de plugin con descubrimiento de anotaciones
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Genera un tipo de plugin con descubrimiento YAML
 [generate:plugin:views:field](generate-plugin-views-field.md) | Genera un plugin de campo de vista personalizado.
-[generate:profile](generate-profile.md) | Generate a profile.
+[generate:profile](generate-profile.md) | Genera un perfil.
 [generate:routesubscriber](generate-routesubscriber.md) | Generar un RouteSubscriber
 [generate:service](generate-service.md) | Genera un servicio
 [generate:theme](generate-theme.md) | Genera un tema.
+**image**  |
+[image:styles:debug](image-styles-debug.md) | Lista los estilos de imágenes del sitio
+[image:styles:flush](image-styles-flush.md) | Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
 **locale**  |
 [locale:language:add](locale-language-add.md) | Añadir un idioma que sea soportado en el sitio
 [locale:language:delete](locale-language-delete.md) | Eliminar un idioma soportado en el sitio
@@ -93,6 +100,10 @@ Comando de Drupal Console | Detalles
 [module:uninstall](module-uninstall.md) | Desinstala un módulo o varios en la aplicación
 **multisite**  |
 [multisite:debug](multisite-debug.md) | Lista todos los sitios múltiples disponibles en el sistema
+**node**  |
+[node:access:rebuild](node-access-rebuild.md) | Reconstruir los permisos de acceso a nodos. La reconstrucción eliminará todos los privilegios al contenudo y los reemplazará con permisos basado en los módulos y configuración actual,
+**plugin**  |
+[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
 **rest**  |
 [rest:debug](rest-debug.md) | Muestra el actual recurso rest para la aplicación
 [rest:disable](rest-disable.md) | Deshabilita un recurso rest en la aplicación
@@ -101,12 +112,13 @@ Comando de Drupal Console | Detalles
 [router:debug](router-debug.md) | Muestra las rutas actuales de la aplicación
 [router:rebuild](router-rebuild.md) | Reconstruye las rutas de la aplicación
 **settings**  |
-[settings:check](settings-check.md) | commands.settings.check.description
+[settings:check](settings-check.md) | Verificador de requisitos del sistema
 [settings:debug](settings-debug.md) | Ofrece un listado de la configuración de usuario de Drupal Console.
 [settings:init](settings-init.md) | Copiar archivos de configuración al directorio home del usuario.
 [settings:set](settings-set.md) | Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole
 **site**  |
 [site:debug](site-debug.md) | Enlista todos los sitios, locales y remotos, conocidos.
+[site:import:local](site-import-local.md) | Import/Configure an existing local Drupal project
 [site:install](site-install.md) | Instala un proyecto Drupal
 [site:maintenance](site-maintenance.md) | Poner el sitio en modo mantenimiento
 [site:mode](site-mode.md) | Cambiar la configuración de rendimiento del sistema
@@ -115,6 +127,7 @@ Comando de Drupal Console | Detalles
 [site:status](site-status.md) | Ver el estatus de la instalación actual de Drupal
 **state**  |
 [state:debug](state-debug.md) | Muestra las claves de Estado actual.
+[state:delete](state-delete.md) | Eliminar Estado
 [state:override](state-override.md) | Sobreescribir una clave de Estado.
 **test**  |
 [test:debug](test-debug.md) | Lista los tests unitarios disponibles para la aplicación.
@@ -131,6 +144,7 @@ Comando de Drupal Console | Detalles
 [translation:sync](translation-sync.md) | Sincronizar archivos de traducción
 **update**  |
 [update:debug](update-debug.md) | Muestra las actualizaciones actualmente disponibles para la aplicación
+[update:entities](update-entities.md) | Aplicar actualizaciones a entidades
 [update:execute](update-execute.md) | Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos
 **user**  |
 [user:debug](user-debug.md) | Muestra los usuarios actuales del sitio
@@ -143,6 +157,7 @@ Comando de Drupal Console | Detalles
 [views:debug](views-debug.md) | Muestra los recursos actuales de vistas para la aplicación
 [views:disable](views-disable.md) | Deshabilita una vista
 [views:enable](views-enable.md) | Habilita una vista
+[views:plugins:debug](views-plugins-debug.md) | Mostrar los plugins de views en la aplicación
 **yaml**  |
 [yaml:diff](yaml-diff.md) | Compara dos archivos YAML para encontrar las diferencias entre ambos
 [yaml:merge](yaml-merge.md) | Combinar uno o más archivos de YAML en un nuevo archivo YAML. Se conservarán los valores del archivo más a la izquierda del merge.
@@ -153,13 +168,13 @@ Comando de Drupal Console | Detalles
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---help | Display this help message
---quiet | Do not output any message
---verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--help | Muestra este mensaje de ayuda
+--quiet | No mostrar ningún mensaje
+--verbose | Aumenta la verbosidad de los mensajes: 1 para la salida normal, 2 para mayor verbosidad y 3 para depurar
 --version | <info>%s</info> versión <comment>%s</comment>
---ansi | Force ANSI output
---no-ansi | Disable ANSI output
---no-interaction | Do not ask any interactive question
+--ansi | Forzar salida ANSI
+--no-ansi | Deshabilitar salida ANSI
+--no-interaction | No hacer ningura pregunta interactiva
 --env | Nombre del ambiente.
 --root | Define la raíz de Drupal que se utilizará en la ejecución de los comandos
 --no-debug | Desactivar el modo de depuración.
@@ -170,9 +185,8 @@ Opción | Detalles
 --target | Nombre del sitio con el que desea interactuar (sitio remoto o local)
 --uri | URI del sitio en Drupal que se usará (para ambientes en multi-site o cuando esta usando un puerto alternativo)
 --yes | Saltar confirmación y ejecutar directamente
---check-fix | application.options.check-fix
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-command | The command to execute
+command | El comando a ejecutar

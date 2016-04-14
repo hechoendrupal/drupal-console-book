@@ -11,4 +11,4 @@ $ ce
 选项 | 详细
 -------|-------------
 --directory | 导出配置存放目录
---tar | If set, the configuration will be exported to an archive file.
+--tar | 如果启用，配置文件会导出到一个存档文件.

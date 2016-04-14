@@ -1,14 +1,14 @@
 # yaml:update:value
-The **yaml:update:value** command A YAML-fájl adott kulcsához tartozó érték frissítése.
+**yaml:update:value** parancs A YAML-fájl adott kulcsához tartozó érték frissítése.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal yaml:update:value [arguments] 
 $ yuv  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 yaml-file | Frissítendő YAML-fájl útvonala
 yaml-key | Frissítendő YAML-kulcs

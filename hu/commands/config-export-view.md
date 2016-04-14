@@ -1,20 +1,20 @@
 # config:export:view
-The **config:export:view** command Exportáljon egy view-t YAML formátumban, egy adott modulon belül amit más siteokon újrahasználhat.
+**config:export:view** parancs Nézet exportálása YAML-formátumban egy megadott modulba, hogy újra lehessen használni más weboldalon.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal config:export:view [arguments] [options] 
 $ cev  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---optional-config | Vew exportálása a modulodba opciónális YAML konfigurációs fájlként
---include-module-dependencies | Modul függőségek becsatolása a modul YAML info fájljába 
+--module | A modul neve.
+--optional-config | Nézet exportálása a modulba nem kötelező YAML-konfigurációként
+--include-module-dependencies | Modulfüggőségeinek tartalmazása a modul info.yml fájljában
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-view-id | View ID
+view-id | Nézet azonosítója

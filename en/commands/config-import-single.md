@@ -10,5 +10,5 @@ $ cis
 ## Available arguments
 Argument | Details
 ---------|-------------
-name | Configuration name.
-input-file | Path to the import files.
+name | Configuration name
+file | Path to the import file

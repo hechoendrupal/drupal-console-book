@@ -1,17 +1,17 @@
 # config:diff
-The **config:diff** command Ouput configuration items that are different in active configuration compared with a directory.
+**config:diff** parancs Az aktív konfigurációt egy könyvtárral összehasonlítva az eltérő konfigurációs elemek.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal config:diff [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---reverse | See the changes in reverse (i.e diff a directory to the active configuration).
+--reverse | Módosítások megtekintése fordítva (vagyis egy könyvtár összehasonlítása az aktív konfigurációval).
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-directory | The directory to diff against. If omitted, choose from Drupal config directories.
+directory | A könyvtár, amivel az összehasonlítást végezni kell. Ha nincs megadva, akkor a program a Drupal konfigurációs könyvtárakból választ.

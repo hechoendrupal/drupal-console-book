@@ -1,15 +1,15 @@
 # generate:plugin:imageformatter
-The **generate:plugin:imageformatter** command Generate image formatter plugin.
+**generate:plugin:imageformatter** parancs Képformázó bővítmény létrehozása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:plugin:imageformatter [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
+--module | A modul neve.
+--class | Bővítményosztály neve
+--label | Bővítmény felirata
+--plugin-id | Bővítmény azonosítója

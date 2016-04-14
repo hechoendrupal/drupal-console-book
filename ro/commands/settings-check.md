@@ -1,5 +1,5 @@
 # settings:check
-**settings:check** comanda commands.settings.check.description
+**settings:check** comanda System requirement checker
 
 **Folosire:**
 ```

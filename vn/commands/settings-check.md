@@ -1,5 +1,5 @@
 # settings:check
-Câu lệnh **settings:check** commands.settings.check.description
+Câu lệnh **settings:check** System requirement checker
 
 **Usage:**
 ```

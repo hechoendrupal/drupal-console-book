@@ -1,22 +1,22 @@
 # generate:module
-The **generate:module** command Modul létrehozása.
+**generate:module** parancs Modul létrehozása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:module [options] 
 $ gm  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --module | A modul neve
---machine-name | Gépi név (angol kis betűk és aláhúzás)
---module-path | A modul elérési útvonala
---description | Modul leírása
---core | Drupal verzió
---package | Modul csomag
---module-file | Add a .module file
---feature | Set module compatible with Features module
---composer | Add a composer.json file
---dependencies | Modul függőségek vesszővel elválasztva (pl. context, panels)
+--machine-name | A programok által használt név (csak kisbetűk és aláhúzás)
+--module-path | A modul útvonala
+--description | A modul leírása
+--core | Drupal alaprendszer verziója
+--package | Modulcsomag
+--module-file | .module fájl hozzáadása
+--features-bundle | Define module as feature using the given Features bundle name
+--composer | composer.json fájl hozzáadása
+--dependencies | Modulfüggőségek vesszővel elválasztva (pl. context, panels)

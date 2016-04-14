@@ -17,6 +17,6 @@ Tùy chọn | Các chi tiết
 --core | Phiên bản Core
 --package | Module package
 --module-file | Add a .module file
---feature | Thiết lập module tương thích với Features module
+--features-bundle | Define module as feature using the given Features bundle name
 --composer | Thêm một file composer.json
 --dependencies | Sự phụ thuộc của module chia ra bởi dấu phẩy (ví dụ context, panels)

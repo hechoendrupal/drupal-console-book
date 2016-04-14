@@ -1,13 +1,13 @@
 # theme:debug
-The **theme:debug** command Megjeleníti az alkalmazás aktuális sminkjeit
+**theme:debug** parancs Megjeleníti az alkalmazás aktuális sminkjeit
 
-**Usage:**
+**Használat:**
 ```
 $ drupal theme:debug [arguments] 
 $ tde  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 theme | Adott smink, ahol hibakeresést kell végezni

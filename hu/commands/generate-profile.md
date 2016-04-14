@@ -1,17 +1,17 @@
 # generate:profile
-The **generate:profile** command Generate a profile.
+**generate:profile** parancs Profil létrehozása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:profile [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---profile | The profile name
---machine-name | The machine name (lowercase and underscore only)
---description | Profile description
---core | Core version
---dependencies | Module dependencies separated by commas (i.e. context, panels)
---distribution | The distribution name
+--profile | A profil neve
+--machine-name | A programok által használt név (csak kisbetűk és aláhúzás)
+--description | Profil leírása
+--core | Drupal alaprendszer verziója
+--dependencies | Modulfüggőségek vesszővel elválasztva (pl. context, panels)
+--distribution | A disztribúció neve

@@ -1,12 +1,12 @@
 # database:connect
-The **database:connect** command Launch a DB client if it's available
+**database:connect** parancs Megjeleníti az adatbázis-kapcsolatot
 
-**Usage:**
+**Használat:**
 ```
 $ drupal database:connect [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-database | Database key from settings.php
+database | Adatbáziskulcs a settings.php fájlból

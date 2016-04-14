@@ -1,12 +1,17 @@
 # module:uninstall
-The **module:uninstall** command Modul vagy modulok eltávolítása
+**module:uninstall** parancs Modul vagy modulok eltávolítása
 
-**Usage:**
+**Használat:**
 ```
-$ drupal module:uninstall [arguments] 
+$ drupal module:uninstall [arguments] [options] 
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
+-------|-------------
+--force | Do you want to ignore dependencies and forcefully uninstall the module?
+
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 module | Az eltávolítani kívánt modulokat vesszővel kell elválasztani

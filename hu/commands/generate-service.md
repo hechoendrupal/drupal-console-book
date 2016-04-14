@@ -1,17 +1,17 @@
 # generate:service
-The **generate:service** command Service létrehozása
+**generate:service** parancs Szolgáltatás létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:service [options] 
 $ gs  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
+--module | A modul neve.
 --name | commands.generate.service.options.name
---class | Class neve
+--class | Osztálynév
 --interface | commands.common.service.options.interface
---services | Service betöltése a container-ből.
+--services | Szolgáltatások betöltése a tárolóból.

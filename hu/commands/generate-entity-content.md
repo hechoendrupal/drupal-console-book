@@ -1,18 +1,18 @@
 # generate:entity:content
-The **generate:entity:content** command Generate a new content entity
+**generate:entity:content** parancs Új tartalom entitás létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:entity:content [options] 
 $ gect  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---entity-class | The content entity class
---entity-name | The content entity name
---base-path | The base-path for the content entity routes
---label | The label
---has-bundles | Entity has bundles
+--module | A modul neve.
+--entity-class | A tartalom entitás osztály
+--entity-name | A tartalom entitás neve
+--base-path | A tartalom entitás útvonalak alapútvonala
+--label | A felirat
+--has-bundles | Az entitás nem rendelkezik mezőcsoportokkal

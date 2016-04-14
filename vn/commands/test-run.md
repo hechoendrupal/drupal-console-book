@@ -16,4 +16,4 @@ Tùy chọn | Các chi tiết
 Đối số | Các chi tiết
 ---------|-------------
 test-class | Lớp thử nghiệm
-test-methods | commands.test.run.arguments.test-methods
+test-methods | Test method(s) to be run

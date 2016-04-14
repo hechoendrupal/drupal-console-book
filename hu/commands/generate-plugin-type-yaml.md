@@ -1,15 +1,15 @@
 # generate:plugin:type:yaml
-The **generate:plugin:type:yaml** command Generate a plugin type with Yaml discovery
+**generate:plugin:type:yaml** parancs Bővítménytípus létrehozása YAML-észleléssel
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:plugin:type:yaml [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | Plugin type class name
---plugin-name | Plugin type machine name
---plugin-file-name | Plugin file name
+--module | A modul neve.
+--class | Bővítménytípus osztályneve
+--plugin-name | Bővítménytípus programok által használt neve
+--plugin-file-name | Bővítmény fájlneve

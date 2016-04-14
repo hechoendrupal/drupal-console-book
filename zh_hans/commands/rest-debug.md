@@ -10,7 +10,7 @@ $ rede
 ## 可用选项
 选项 | 详细
 -------|-------------
---authorization | REST 资源状态 enabled | disabled
+--authorization | REST 资源状态 启用 | 禁用
 
 ## 可用参数
 参数 | 详细

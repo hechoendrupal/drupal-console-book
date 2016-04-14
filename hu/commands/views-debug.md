@@ -1,19 +1,19 @@
 # views:debug
-The **views:debug** command Alkalmazás aktuális views erőforrásainak megjelenítése
+**views:debug** parancs Alkalmazás aktuális views erőforrásainak megjelenítése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal views:debug [arguments] [options] 
 $ vde  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --tag | Nézet címkéje
 --status | Nézet állapota (engedélyezett|tiltott)
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 view-id | Nézet azonosítója

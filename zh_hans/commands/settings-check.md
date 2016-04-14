@@ -1,5 +1,5 @@
 # settings:check
-**settings:check** 命令 commands.settings.check.description
+**settings:check** 命令 系统需求检查
 
 **用法:**
 ```

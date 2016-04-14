@@ -1,12 +1,12 @@
 # locale:language:add
-The **locale:language:add** command A webhely által támogatott nyelv hozzáadása
+**locale:language:add** parancs A webhely által támogatott nyelv hozzáadása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal locale:language:add [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 language | Nyelv, például es vagy Spanish

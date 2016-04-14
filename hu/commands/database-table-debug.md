@@ -1,12 +1,17 @@
 # database:table:debug
-The **database:table:debug** command Show all tables in a given database.
+**database:table:debug** parancs Adott adatbázis összes táblájának megjelenítése.
 
-**Usage:**
+**Használat:**
 ```
-$ drupal database:table:debug [arguments] 
+$ drupal database:table:debug [arguments] [options] 
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
+-------|-------------
+--database | Database key from settings.php
+
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-database | Database key from settings.php
+table | Table to debug

@@ -10,6 +10,6 @@ $ drupal generate:plugin:type:annotation [options]
 选项 | 详细
 -------|-------------
 --module | 模块名称
---class | Plugin type class name
+--class | 插件类别类名
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
 --label | 插件类别标签

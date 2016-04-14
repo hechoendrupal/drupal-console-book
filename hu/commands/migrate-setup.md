@@ -1,13 +1,13 @@
 # migrate:setup
-The **migrate:setup** command Adott örökölt adatbázis fontos költöztetéseinek betöltése és létrehozása
+**migrate:setup** parancs Adott örökölt adatbázis fontos költöztetéseinek betöltése és létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal migrate:setup [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --db-type | Drupal adatbázis típusa
 --db-host | Adatbázis-gazdagép

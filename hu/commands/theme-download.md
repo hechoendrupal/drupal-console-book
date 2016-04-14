@@ -1,14 +1,14 @@
 # theme:download
-The **theme:download** command Smink letöltése az alkalmazásban
+**theme:download** parancs Smink letöltése az alkalmazásban
 
-**Usage:**
+**Használat:**
 ```
 $ drupal theme:download [arguments] 
 $ td  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 theme | commands.theme.download.options.theme
 version | Smink verziója, pl. 1.x-dev

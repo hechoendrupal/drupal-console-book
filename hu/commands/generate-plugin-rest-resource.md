@@ -1,18 +1,18 @@
 # generate:plugin:rest:resource
-The **generate:plugin:rest:resource** command REST erőforrás beépülő létrehozása
+**generate:plugin:rest:resource** parancs REST-erőforrás bővítmény létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:plugin:rest:resource [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | REST erőforrás beépülő class
+--module | A modul neve.
+--class | REST-erőforrás bővítményosztály
 --name | commands.generate.service.options.name
---plugin-id | REST erőforrás beépülő azonosító
---plugin-label | REST erőforrás beépülő címke
---plugin-url | REST erőforrás beépülő url
---plugin-states | REST erőforrás beépülő States
+--plugin-id | REST-erőforrás bővítmény azonosítója
+--plugin-label | REST-erőforrás bővítmény címkéje
+--plugin-url | REST-erőforrás bővítmény URL-címe
+--plugin-states | REST-erőforrás bővítmény állapotok

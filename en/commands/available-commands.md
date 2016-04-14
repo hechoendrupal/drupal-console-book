@@ -102,6 +102,8 @@ Drupal Console Command | Details
 [multisite:debug](multisite-debug.md) | List all multisites available in system
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
+**plugin**  |
+[plugin:debug](plugin-debug.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 **rest**  |
 [rest:debug](rest-debug.md) | Display current rest resource for the application
 [rest:disable](rest-disable.md) | Disable a rest resource for the application
@@ -116,6 +118,7 @@ Drupal Console Command | Details
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | List all known local and remote sites.
+[site:import:local](site-import-local.md) | Import/Configure an existing local Drupal project
 [site:install](site-install.md) | Install a Drupal project
 [site:maintenance](site-maintenance.md) | Switch site into maintenance mode
 [site:mode](site-mode.md) | Switch system performance configuration
@@ -124,6 +127,7 @@ Drupal Console Command | Details
 [site:status](site-status.md) | View current Drupal Installation status
 **state**  |
 [state:debug](state-debug.md) | Show the current State keys.
+[state:delete](state-delete.md) | Delete State
 [state:override](state-override.md) | Override a State key.
 **test**  |
 [test:debug](test-debug.md) | List Test Units available for the application.
@@ -165,8 +169,8 @@ Drupal Console Command | Details
 Option | Details
 -------|-------------
 --help | Display this help message
---quiet | Do not output any message
---verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--quiet | Suppress all output from the command
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output, and 3 for debug
 --version | Display this application version
 --ansi | Force ANSI output
 --no-ansi | Disable ANSI output
