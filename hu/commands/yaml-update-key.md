@@ -1,14 +1,14 @@
 # yaml:update:key
-The **yaml:update:key** command YAML-kulcs lecserélése egy YAML-fájlban.
+**yaml:update:key** parancs YAML-kulcs lecserélése egy YAML-fájlban.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal yaml:update:key [arguments] 
 $ yu  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 yaml-file | Frissítendő YAML-fájl útvonala
 yaml-key | Frissítendő YAML-kulcs

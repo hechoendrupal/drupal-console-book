@@ -1,15 +1,15 @@
 # config:import
-The **config:import** command Konfiguráció importálása az aktuális aplikációba.
+**config:import** parancs Konfiguráció importálása az aktuális alkalmazásba.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal config:import [options] 
 $ ci  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---file | Configuration file path.
---directory | Path to a directory of configuration to import.
---remove-files | Remove files after syncronization.
+--file | Az importálni kívánt archívumfájl útvonala.
+--directory | Az importálni kívánt konfiguráció könyvtárának útvonala.
+--remove-files | Fájlok eltávolítása a szinkronizáció után.

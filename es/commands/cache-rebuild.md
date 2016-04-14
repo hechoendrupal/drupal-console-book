@@ -17,7 +17,7 @@ cache | Reconstruir sólo una cache determinada.
 ```
 $ drupal cr all
 ```
-* Rebuild discovery cache
+* Reconstruir la caché "discovery"
 ```
 $ drupal cr discovery
 ```

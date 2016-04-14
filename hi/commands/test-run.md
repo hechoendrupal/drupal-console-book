@@ -16,4 +16,4 @@ $ tr
 तर्क | विवरण
 ---------|-------------
 test-class | परिक्षण क्लास
-test-methods | commands.test.run.arguments.test-methods
+test-methods | Test method(s) to be run

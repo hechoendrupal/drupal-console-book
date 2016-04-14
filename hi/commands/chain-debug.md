@@ -1,5 +1,5 @@
 # chain:debug
-**chain:debug** कमांड commands.chain.debug.description
+**chain:debug** कमांड List available chain files.
 
 **प्रयोग:**
 ```

@@ -1,5 +1,5 @@
 # chain:debug
-Câu lệnh **chain:debug** commands.chain.debug.description
+Câu lệnh **chain:debug** List available chain files.
 
 **Usage:**
 ```

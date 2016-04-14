@@ -13,9 +13,10 @@ Drupal Console कमाण्ड | विवरण
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | सभी साइट caches को पुनर्निर्माण और साफ़ करें।
 **chain**  |
-[chain:debug](chain-debug.md) | commands.chain.debug.description
+[chain:debug](chain-debug.md) | List available chain files.
 **config**  |
 [config:debug](config-debug.md) | वर्तमान व्यवस्था को दिखाएँ।
+[config:delete](config-delete.md) | Delete configuration
 [config:diff](config-diff.md) | आउटपुट विन्यास आइटम है कि एक डायरेक्टरी के साथ तुलना में सक्रिय कॉन्फ़िगरेशन में अलग हैं।
 [config:edit](config-edit.md) | चयनित व्यवस्था को बदलें।
 [config:export](config-export.md) | मौजूदा एप्लीकेशन कॉन्फ़िगरेशन एक्सपोर्ट करे।
@@ -23,12 +24,13 @@ Drupal Console कमाण्ड | विवरण
 [config:export:single](config-export-single.md) | एक कॉन्फिग को yml फाइल के जैसे निर्यात करें।
 [config:export:view](config-export-view.md) | एक व्यू को YAML संरूप में एक्सपोर्ट करें ताकि वो किसी दूसरे वेबसाइट में पुनर्प्रयोग किया जाये।
 [config:import](config-import.md) | वर्तमान अनुप्रयोग में व्यवस्था आयात करें।
-[config:import:single](config-import-single.md) | चयनित व्यवस्था आयात करें।
+[config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | व्यवस्था निधि को सक्रिय डायरेक्टरी में चढ़ा दें।
 [config:settings:debug](config-settings-debug.md) | सेटिंग्स फाइल पर वर्तमान key:value दिखाता है।
 **container**  |
 [container:debug](container-debug.md) | अनुप्रयोग की वर्तमान सर्विसेज़ को दिखाएँ।
 **create**  |
+[create:comments](create-comments.md) | Create dummy comments for your Drupal 8 application.
 [create:nodes](create-nodes.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी नोड्स बनाएँ।
 [create:terms](create-terms.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी टर्म्ज़ बनाएँ।
 [create:users](create-users.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी यूजरस बनाएँ।
@@ -40,12 +42,12 @@ Drupal Console कमाण्ड | विवरण
 **database**  |
 [database:client](database-client.md) | लॉन्च एक DB क्लाइंट अगर यह उपलब्ध है
 [database:connect](database-connect.md) | लॉन्च एक DB क्लाइंट अगर यह उपलब्ध है
+[database:drop](database-drop.md) | एक दिए गए डेटाबेस में सभी टेबल्स ड्राप।
 [database:dump](database-dump.md) | डंप संरचना और MYSQL का कंटेंट डेटाबेसेस और टेबल्स
 [database:log:clear](database-log-clear.md) | DBLog टेबल से इवेंट्स निकालें, फिल्टर उपलब्ध हैं
 [database:log:debug](database-log-debug.md) | एप्लीकेशन के लिए वर्तमान लॉग इवेंट्स को प्रदर्शित करे
 [database:restore](database-restore.md) | MYSQL डाटाबेस और टेबल्स ले कंटेंट और संरचना को रिस्टोर करे
 [database:table:debug](database-table-debug.md) | एक दिए गए डेटाबेस में सभी टेबल्स दिखाएँ.
-[database:table:drop](database-table-drop.md) | एक दिए गए डेटाबेस में सभी टेबल्स ड्राप।
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | प्रमाणन प्रदाता उत्पन्न करें
 [generate:command](generate-command.md) | कंसोल के लिए कमाण्डो को उत्पन्न करें।
@@ -62,6 +64,7 @@ Drupal Console कमाण्ड | विवरण
 [generate:module](generate-module.md) | मोड्यूल उत्पन्न करें।
 [generate:permissions](generate-permissions.md) | मोड्यूल अनुमतियां उत्पन्न करें
 [generate:plugin:block](generate-plugin-block.md) | प्लगिन खंड उत्पन्न करें
+[generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
 [generate:plugin:condition](generate-plugin-condition.md) | प्लगिन नियम उत्पन्न करें।
 [generate:plugin:field](generate-plugin-field.md) | खाना प्रकार, विजेट और formatter प्लगिन उत्पन्न करें।
 [generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | खाना formatter प्लगिन उत्पन्न करें
@@ -69,6 +72,7 @@ Drupal Console कमाण्ड | विवरण
 [generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | खाना विजेट प्लगिन उत्पन्न करें
 [generate:plugin:imageeffect](generate-plugin-imageeffect.md) | छवि प्रभाव प्लगिन उत्पन्न करें
 [generate:plugin:imageformatter](generate-plugin-imageformatter.md) | छवि formatter प्लगिन उत्पन्न करें
+[generate:plugin:mail](generate-plugin-mail.md) | Generate a plugin mail
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | प्लगिन रेस्ट साधन उत्पन्न करें
 [generate:plugin:rulesaction](generate-plugin-rulesaction.md) | प्लगिन रुल प्रक्रिया उत्पन्न करें
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | प्लगिन प्रकार युक्त अननोटेशन प्रकाशन उत्पन्न करें
@@ -78,6 +82,9 @@ Drupal Console कमाण्ड | विवरण
 [generate:routesubscriber](generate-routesubscriber.md) | RouteSubscriber उत्पन्न करे.
 [generate:service](generate-service.md) | सर्विस उत्पन्न करें
 [generate:theme](generate-theme.md) | एक नया थीम उत्पन्न करें।
+**image**  |
+[image:styles:debug](image-styles-debug.md) | List image styles on the site
+[image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
 **locale**  |
 [locale:language:add](locale-language-add.md) | एक भाषा को जोड़े जो आप के साइट द्वारा सपोर्ट होना है
 [locale:language:delete](locale-language-delete.md) | आपकी साइट के द्वारा समर्थित एक भाषा को हटाएँ
@@ -93,6 +100,10 @@ Drupal Console कमाण्ड | विवरण
 [module:uninstall](module-uninstall.md) | अनुप्रयोग में मॉड्यूल की स्थापित रद्द करें |
 **multisite**  |
 [multisite:debug](multisite-debug.md) | सभी उपलब्ध multisites की सूची|
+**node**  |
+[node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
+**plugin**  |
+[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
 **rest**  |
 [rest:debug](rest-debug.md) | आवेदन के लिए मौजूदा REST संसाधन को प्रदर्शित करें
 [rest:disable](rest-disable.md) | अनुप्रयोग में REST संसाधन अक्षम करें|
@@ -101,12 +112,13 @@ Drupal Console कमाण्ड | विवरण
 [router:debug](router-debug.md) | अनुप्रयोग के वर्तमान मार्गों को दिखाएँ
 [router:rebuild](router-rebuild.md) | अनुप्रयोग के मार्ग पथ को पुनर्निर्माण करें
 **settings**  |
-[settings:check](settings-check.md) | commands.settings.check.description
+[settings:check](settings-check.md) | System requirement checker
 [settings:debug](settings-debug.md) | यूजर Drupal कंसोल सेटिंग्स की सूची
 [settings:init](settings-init.md) | व्यवस्था फाइलो को उपभोगक्ता के होम डायरेक्टरी में प्रतिरुप करें।
 [settings:set](settings-set.md) | Drupal कंसोल कॉन्फिग फाइल में एक विशिष्ट सेटिंग मूल्य बदलें
 **site**  |
 [site:debug](site-debug.md) | सभी ज्ञात स्थानीय और दूरस्थ साइटों की सूची दें।
+[site:import:local](site-import-local.md) | Import/Configure an existing local Drupal project
 [site:install](site-install.md) | एक Drupal परियोजना स्थापित करें
 [site:maintenance](site-maintenance.md) | साइट को मेंटेनेंस मोड में बदले
 [site:mode](site-mode.md) | प्रणाली की कार्य-निष्पादन व्यवस्था को बदलें
@@ -115,6 +127,7 @@ Drupal Console कमाण्ड | विवरण
 [site:status](site-status.md) | वर्तमान Drupal स्थापना के स्थिति को देखें
 **state**  |
 [state:debug](state-debug.md) | वर्तमान स्टेट कीस दिखाएँ।
+[state:delete](state-delete.md) | Delete State
 [state:override](state-override.md) | स्थिति की मौलिक को ओवरराइड करे
 **test**  |
 [test:debug](test-debug.md) | अनुप्रयोग की सारी उपलब्ध परिक्षण यूनिटो को दिखाएँ।
@@ -131,6 +144,7 @@ Drupal Console कमाण्ड | विवरण
 [translation:sync](translation-sync.md) | सींक ट्रांसलेशन फाइल्स
 **update**  |
 [update:debug](update-debug.md) | अनुप्रयोग के उपलब्ध नवीनीकरणो को दिखाएँ
+[update:entities](update-entities.md) | Applying Entity Updates
 [update:execute](update-execute.md) | मोड्यूल के किसी विशेष नवीनीकरण N फंक्शन को चलायें या सभी को चलायें।
 **user**  |
 [user:debug](user-debug.md) | एप्लीकेशन के लिए करंट यूजरस को प्रदर्शित करता है
@@ -143,6 +157,7 @@ Drupal Console कमाण्ड | विवरण
 [views:debug](views-debug.md) | अनुप्रयोग के वर्तमान व्यूज साधनो को दिखाएँ
 [views:disable](views-disable.md) | एक व्यू बंद करें
 [views:enable](views-enable.md) | एक व्यू चालू करें
+[views:plugins:debug](views-plugins-debug.md) | Display current views plugins for the application
 **yaml**  |
 [yaml:diff](yaml-diff.md) | दो YAML फाइल का अंतर देखने के लिये उनकी तुलना करें
 [yaml:merge](yaml-merge.md) | एक या एक से ज़्यादा YAML फाइलो को एक YAML फाइल में विलय करें। नवीनीकरण निधि सुरक्षित रहेंगे।
@@ -170,7 +185,6 @@ Drupal Console कमाण्ड | विवरण
 --target | साइट का नाम आप (स्थानीय या दूरस्थ साइटों के लिए ) के साथ बातचीत करना चाहते हैं
 --uri | Drupal यूआरआई साइट का(एकाधिक वातावरण के लिए या एक वैकल्पिक port पर चलते समय ) का उपयोग करे
 --yes | स्किप कन्फर्मेशन और आगे बढ़ें
---check-fix | application.options.check-fix
 
 ## उपलब्ध तर्कों
 तर्क | विवरण

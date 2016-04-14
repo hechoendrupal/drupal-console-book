@@ -1,5 +1,5 @@
 # settings:check
-**settings:check** कमांड commands.settings.check.description
+**settings:check** कमांड System requirement checker
 
 **प्रयोग:**
 ```

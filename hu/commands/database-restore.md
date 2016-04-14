@@ -1,17 +1,17 @@
 # database:restore
-The **database:restore** command Restore structure and contents of MySQL databases and tables
+**database:restore** parancs Adatbázis szerkezetének és tartalmának visszaállítása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal database:restore [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---file | The filename for your database backup file
+--file | Az adatbázis biztonsági mentésének fájlneve
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-database | Database key from settings.php
+database | Adatbáziskulcs a settings.php fájlból

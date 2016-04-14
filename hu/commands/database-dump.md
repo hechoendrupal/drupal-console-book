@@ -1,17 +1,17 @@
 # database:dump
-The **database:dump** command Dump structure and contents of MySQL databases and tables
+**database:dump** parancs Adatbázis szerkezetének és tartalmának kiíratása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal database:dump [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --file | commands.database.dump.option.file
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-database | Database key from settings.php
+database | Adatbáziskulcs a settings.php fájlból

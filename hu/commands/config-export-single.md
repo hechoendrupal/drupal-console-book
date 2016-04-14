@@ -1,19 +1,19 @@
 # config:export:single
-The **config:export:single** command Egyetlen konfiguráció exportálása yml fájlként.
+**config:export:single** parancs Egyetlen konfigurációs fájl exportálása yml-fájlként.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal config:export:single [arguments] [options] 
 $ ces  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---directory | Export könyvtár meghatározása a beállítások mentéséhez.
---include-dependencies | Export dependencies of the configuration as well.
+--directory | Meg kell adni az exportálási könyvtárt a konfigurációs kimenet mentéséhez.
+--include-dependencies | A konfiguráció függőségei is legyenek exportálva.
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-config-name | Konfiguráció neve.
+config-name | A konfiguráció neve.

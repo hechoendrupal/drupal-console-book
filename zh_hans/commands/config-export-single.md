@@ -11,7 +11,7 @@ $ ces
 选项 | 详细
 -------|-------------
 --directory | 导出配置存放目录
---include-dependencies | Export dependencies of the configuration as well.
+--include-dependencies | 同时输出其他相关配置.
 
 ## 可用参数
 参数 | 详细

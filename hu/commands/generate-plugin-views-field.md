@@ -1,15 +1,15 @@
 # generate:plugin:views:field
-The **generate:plugin:views:field** command Generate a custom plugin view field.
+**generate:plugin:views:field** parancs Egyéni nézetmező bővítmény létrehozása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:plugin:views:field [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | Views plugin field class name
---title | Views plugin field title
---description | Views plugin field description
+--module | A modul neve.
+--class | Nézetmező bővítmény osztályneve
+--title | Nézetmező bővítmény címe
+--description | Nézetmező bővítmény leírása

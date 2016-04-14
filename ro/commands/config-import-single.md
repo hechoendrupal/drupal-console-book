@@ -1,5 +1,5 @@
 # config:import:single
-**config:import:single** comanda Importă configurarea selectată.
+**config:import:single** comanda Import the selected configuration.
 
 **Folosire:**
 ```
@@ -10,5 +10,5 @@ $ cis
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-config-name | Numele configurării.
-input-file | Calea către fișierele importate.
+name | Configuration name.
+file | Path to the import file

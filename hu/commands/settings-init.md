@@ -1,13 +1,13 @@
 # settings:init
-The **settings:init** command Copy configuration files to user home directory.
+**settings:init** parancs Copy configuration files to user home directory.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal settings:init [options] 
 $ init  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --override | Override configurations files

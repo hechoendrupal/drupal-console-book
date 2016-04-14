@@ -1,17 +1,17 @@
 # generate:event:subscriber
-The **generate:event:subscriber** command Generate an event subscriber
+**generate:event:subscriber** parancs Esemény-előfizető létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:event:subscriber [options] 
 $ ges  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
+--module | A modul neve.
 --name | commands.generate.service.options.name
---class | Class neve
---events | Service betöltése a container-ből.
---services | Service betöltése a container-ből.
+--class | Osztálynév
+--events | Szolgáltatások betöltése a tárolóból.
+--services | Szolgáltatások betöltése a tárolóból.

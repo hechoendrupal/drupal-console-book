@@ -1,7 +1,7 @@
 # settings:debug
-The **settings:debug** command List user Drupal Console settings.
+**settings:debug** parancs List user Drupal Console settings.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal settings:debug 
 ```

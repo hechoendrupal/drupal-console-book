@@ -9,11 +9,11 @@ $ drupal database:log:clear [arguments] [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---type | commands.database.log.clear.options.type
---severity | commands.database.log.clear.options.severity
---user-id | commands.database.log.clear.options.user-id
+--type | Filtrar por tipo de evento
+--severity | Filtrar eventos por nivel de severidad
+--user-id | Filtrar eventos por ID de usuario
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-event-id | commands.database.log.clear.arguments.event-id
+event-id | ID del evento DBLog

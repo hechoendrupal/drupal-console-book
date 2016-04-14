@@ -1,13 +1,13 @@
 # user:delete
-The **user:delete** command Felhasználók törlése
+**user:delete** parancs Felhasználók törlése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal user:delete [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --user-id | Törölni kívánt felhasználói azonosító
 --roles | A törölni kívánt felhasználókkal társított szerepkörök

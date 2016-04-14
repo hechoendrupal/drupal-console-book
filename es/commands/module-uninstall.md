@@ -3,8 +3,13 @@ El comando **module:uninstall** Desinstala un módulo o varios en la aplicación
 
 **Uso:**
 ```
-$ drupal module:uninstall [arguments] 
+$ drupal module:uninstall [arguments] [options] 
 ```
+
+## Opciones disponibles
+Opción | Detalles
+-------|-------------
+--force | Do you want to ignore dependencies and forcefully uninstall the module?
 
 ## Argumentos disponibles
 Argumento | Detalles

@@ -1,19 +1,19 @@
 # list
-The **list** command A rendelkezésre álló parancsok listázása
+**list** parancs A rendelkezésre álló parancsok listázása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal list [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --xml | A lista kiírása XML formátumban
 --raw | A nyers parancslista kiírása
 --format | A kimeneti formátum (txt, xml, json vagy md)
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 namespace | A névtér neve

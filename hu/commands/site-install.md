@@ -1,14 +1,14 @@
 # site:install
-The **site:install** command Drupal projekt telepítése
+**site:install** parancs Drupal projekt telepítése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal site:install [arguments] [options] 
 $ si  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --langcode | A Drupal nyelve
 --db-type | A telepítéskor használandó Drupal adatbázis
@@ -25,7 +25,7 @@ Option | Details
 --account-mail | A Drupal adminisztrátori fiók e-mail címe
 --account-pass | A Drupal adminisztrátori fiók jelszava
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 profile | Telepítendő Drupal profil

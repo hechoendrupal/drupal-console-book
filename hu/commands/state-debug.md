@@ -1,12 +1,12 @@
 # state:debug
-The **state:debug** command Az aktuális állapotkulcsok megjelenítése.
+**state:debug** parancs Az aktuális állapotkulcsok megjelenítése.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal state:debug [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 key | Az állapotkulcs, amelyen hibakeresést kell végezni.

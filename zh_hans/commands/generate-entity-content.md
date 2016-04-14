@@ -13,6 +13,6 @@ $ gect
 --module | 模块名称
 --entity-class | 内容实体类名
 --entity-name | 内容实体名称
---base-path | The base-path for the content entity routes
+--base-path | 内容实体路由的基本路径
 --label | 标签
---has-bundles | Entity has bundles
+--has-bundles | 实体包含 Bundles

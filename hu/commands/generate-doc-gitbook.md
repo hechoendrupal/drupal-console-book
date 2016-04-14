@@ -1,13 +1,13 @@
 # generate:doc:gitbook
-The **generate:doc:gitbook** command Generate documentations for Commands
+**generate:doc:gitbook** parancs Dokumentáció létrehozása a parancsokhoz
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:doc:gitbook [options] 
 $ gdg  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---path | The path to render the documentation
+--path | A dokumentáció előállításának útvonala

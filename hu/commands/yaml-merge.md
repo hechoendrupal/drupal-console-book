@@ -1,14 +1,14 @@
 # yaml:merge
-The **yaml:merge** command YAML-fájlok összevonása egy új YAML-fájlba. A legfrissebb értékek maradnak meg.
+**yaml:merge** parancs YAML-fájlok összevonása egy új YAML-fájlba. A legfrissebb értékek maradnak meg.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal yaml:merge [arguments] 
 $ ym  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 yaml-destination | Az összevonás eredményét tároló új YAML-fájl útvonala.
 yaml-files | Az összevonni kívánt YAML-fájlok útvonala

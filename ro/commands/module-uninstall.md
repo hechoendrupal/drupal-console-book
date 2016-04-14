@@ -3,8 +3,13 @@
 
 **Folosire:**
 ```
-$ drupal module:uninstall [arguments] 
+$ drupal module:uninstall [arguments] [options] 
 ```
+
+## Opțiuni disponibile
+Opțiune | Detalii
+-------|-------------
+--force | Do you want to ignore dependencies and forcefully uninstall the module?
 
 ## Argumente disponibile
 Argument | Detalii

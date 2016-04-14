@@ -10,5 +10,5 @@ $ sn
 ## Available arguments
 Argument | Details
 ---------|-------------
-directory | Directory when downloading Drupal
+directory | Directory where to install Drupal
 version | Drupal version to download

@@ -1,13 +1,13 @@
 # generate:doc:dash
-The **generate:doc:dash** command Generate the DrupalConsole.docset package for Dash
+**generate:doc:dash** parancs DrupalConsole.docset csomag létrehozása a Dash számára
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:doc:dash [options] 
 $ gdd  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---path | The path to the directory where the docset will be saved.
+--path | A docset mentési könyvtárának útvonala.

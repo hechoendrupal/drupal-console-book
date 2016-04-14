@@ -1,16 +1,16 @@
 # generate:command
-The **generate:command** command Console parancsok létrehozása.
+**generate:command** parancs Parancsok létrehozása a konzolhoz.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:command [options] 
 $ gcm  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---class | Parancs Class neve
---name | The Command name.
---container-aware | Is the command aware of the drupal site installation when executed
+--module | A modul neve.
+--class | A parancsot leíró osztály. (A 'Command' szóra kell végződnie).
+--name | A parancs neve.
+--container-aware | A parancs ismeri-e a drupal telepítési helyét a végrehajtáskor

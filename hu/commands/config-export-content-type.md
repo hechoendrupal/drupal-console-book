@@ -1,19 +1,19 @@
 # config:export:content:type
-The **config:export:content:type** command Bizonyos tipusú tartalom és ennek a mezőinek az exportálása.
+**config:export:content:type** parancs Adott tartalomtípus és mezőinek exportálása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal config:export:content:type [arguments] [options] 
 $ cect  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---optional-config | Tartalom tipus exportálása az ön moduljába opciónális YAML konfiguracióként
+--module | A modul neve.
+--optional-config | Tartalomtípus exportálása a modulba nem kötelező YAML-konfigurációként
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-content-type | Content Type to be exported
+content-type | Az exportálni kívánt tartalomtípus

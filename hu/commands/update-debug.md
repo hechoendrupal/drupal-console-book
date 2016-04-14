@@ -1,7 +1,7 @@
 # update:debug
-The **update:debug** command Az alkalmazás jelenleg elérhető frissítéseinek megjelenítése
+**update:debug** parancs Az alkalmazás jelenleg elérhető frissítéseinek megjelenítése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal update:debug 
 $ upd  

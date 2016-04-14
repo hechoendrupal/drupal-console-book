@@ -1,19 +1,19 @@
 # create:nodes
-The **create:nodes** command Create dummy nodes for your Drupal 8 application.
+**create:nodes** parancs Teszttartalom létrehozása egy Drupal 8 alkalmazáshoz.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal create:nodes [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --limit | commands.create.nodes.arguments.limit
 --title-words | commands.create.nodes.arguments.title-words
 --time-range | commands.create.nodes.arguments.time-range
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-content-types | Content type(s) to be used in node creation
+content-types | A tartalom létrehozásakor használandó tartalomtípusok

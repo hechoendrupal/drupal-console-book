@@ -1,12 +1,12 @@
 # database:client
-The **database:client** command Launch a DB client if it's available
+**database:client** parancs Adatbázisügyfél indítása, ha az elérhető
 
-**Usage:**
+**Használat:**
 ```
 $ drupal database:client [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-database | Database key from settings.php
+database | Adatbáziskulcs a settings.php fájlból

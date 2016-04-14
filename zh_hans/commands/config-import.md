@@ -11,5 +11,5 @@ $ ci
 选项 | 详细
 -------|-------------
 --file | 配置文件路径
---directory | Path to a directory of configuration to import.
+--directory | 要导入的配置文件的目录路径.
 --remove-files | 同步后删除文件.

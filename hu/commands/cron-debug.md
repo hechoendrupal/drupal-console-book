@@ -1,7 +1,7 @@
 # cron:debug
-The **cron:debug** command Modulok listája amelyek implementálják a cront
+**cron:debug** parancs Cron metódust megvalósító modulok listája
 
-**Usage:**
+**Használat:**
 ```
 $ drupal cron:debug 
 ```

@@ -1,13 +1,13 @@
 # migrate:debug
-The **migrate:debug** command Az elérhető aktuális költöztetések megjelenítése
+**migrate:debug** parancs Az elérhető aktuális költöztetések megjelenítése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal migrate:debug [arguments] 
 $ mid  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 tag | Költöztetési címke

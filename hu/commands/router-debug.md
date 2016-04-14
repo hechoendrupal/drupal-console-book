@@ -1,13 +1,13 @@
 # router:debug
-The **router:debug** command Megjeleníti az alkalmazás aktuális útvonalait
+**router:debug** parancs Megjeleníti az alkalmazás aktuális útvonalait
 
-**Usage:**
+**Használat:**
 ```
 $ drupal router:debug [arguments] 
 $ rod  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 route-name | Útvonalnevek

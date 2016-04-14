@@ -1,18 +1,18 @@
 # create:terms
-The **create:terms** command Create dummy terms for your Drupal 8 application.
+**create:terms** parancs Tesztkifejezések létrehozása egy Drupal 8 alkalmazáshoz.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal create:terms [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---limit | How many terms would you like to create
---name-words | Maximum number of words in term names
+--limit | Hány szó jöjjön létre
+--name-words | A kifejezések által tartalmazott szavak maximális száma
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-vocabularies | Vocabularie(s) to be used in terms creation
+vocabularies | A kifejezések létrehozásakor használandó szótárak

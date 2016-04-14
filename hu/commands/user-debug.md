@@ -1,13 +1,13 @@
 # user:debug
-The **user:debug** command Megjeleníti az aktuális felhasználókat
+**user:debug** parancs Megjeleníti az aktuális felhasználókat
 
-**Usage:**
+**Használat:**
 ```
 $ drupal user:debug [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --roles | Szerepek szűrése a hibakereséshez
 --limit | Hány felhasználó jelenjen meg a hibakeresésben

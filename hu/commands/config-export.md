@@ -1,14 +1,14 @@
 # config:export
-The **config:export** command Jelenlegi alkalmazás beállításainak exportálása.
+**config:export** parancs Aktuális alkalmazáskonfiguráció exportálása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal config:export [options] 
 $ ce  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---directory | Export könyvtár meghatározása a beállítások mentéséhez.
---tar | If set, the configuration will be exported to an archive file.
+--directory | Meg kell adni az exportálási könyvtárt a konfigurációs kimenet mentéséhez.
+--tar | Ha be van állítva, akkor a konfiguráció archívumfájlba lesz exportálva.

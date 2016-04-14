@@ -1,13 +1,13 @@
 # views:enable
-The **views:enable** command Nézet engedélyezése
+**views:enable** parancs Nézet engedélyezése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal views:enable [arguments] 
 $ ve  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 view-id | Nézet azonosítója

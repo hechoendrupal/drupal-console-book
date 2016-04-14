@@ -1,7 +1,7 @@
 # router:rebuild
-The **router:rebuild** command Az alkalmazás útvonalainak újraépítése
+**router:rebuild** parancs Az alkalmazás útvonalainak újraépítése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal router:rebuild 
 $ ror  

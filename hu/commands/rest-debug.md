@@ -1,18 +1,18 @@
 # rest:debug
-The **rest:debug** command Aktuális REST-erőforrás megjelenítése
+**rest:debug** parancs Aktuális REST-erőforrás megjelenítése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal rest:debug [arguments] [options] 
 $ rede  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --authorization | Engedélyezett | tilott állapotú REST-erőforrás
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 resource-id | REST-azonosító

@@ -10,5 +10,5 @@ $ sn
 ## 可用参数
 参数 | 详细
 ---------|-------------
-directory | Directory when downloading Drupal
+directory | 下载Drupal的目录
 version | 下载特定的Drupal版本

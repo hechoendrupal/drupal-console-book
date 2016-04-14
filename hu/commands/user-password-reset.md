@@ -1,14 +1,14 @@
 # user:password:reset
-The **user:password:reset** command Adott felhasználó jelszavának alaphelyzetbe állítása.
+**user:password:reset** parancs Adott felhasználó jelszavának alaphelyzetbe állítása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal user:password:reset [arguments] 
 $ uspr  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 user | Felhasználói azonosító
 password | Szövegformátumú jelszó

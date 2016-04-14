@@ -14,4 +14,4 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-table | commands.database.table.debug.arguments.table
+table | Table to debug

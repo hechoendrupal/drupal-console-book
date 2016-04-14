@@ -1,7 +1,7 @@
 # config:settings:debug
-The **config:settings:debug** command A settings fájl aktuális kulcs:érték beállításainak megjelenítése.
+**config:settings:debug** parancs A beállításfájl aktuális kulcs:érték beállításainak megjelenítése.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal config:settings:debug 
 ```

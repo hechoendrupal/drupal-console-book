@@ -1,5 +1,5 @@
 # config:import:single
-Câu lệnh **config:import:single** Import cấu hình đã được chọn.
+Câu lệnh **config:import:single** Import the selected configuration.
 
 **Usage:**
 ```
@@ -10,5 +10,5 @@ $ cis
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-config-name | Tên cấu hình.
-input-file | Đường dẫn tới các file import.
+name | Configuration name.
+file | Path to the import file

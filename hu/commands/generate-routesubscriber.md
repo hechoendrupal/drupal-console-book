@@ -1,14 +1,14 @@
 # generate:routesubscriber
-The **generate:routesubscriber** command Generate a RouteSubscriber
+**generate:routesubscriber** parancs RouteSubscriber létrehozása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:routesubscriber [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---name | Service name
---class | Class name
+--module | A modul neve.
+--name | Szolgáltatásnév
+--class | Osztálynév

@@ -1,5 +1,5 @@
 # config:diff
-**config:diff** 命令 Ouput configuration items that are different in active configuration compared with a directory.
+**config:diff** 命令 输出选取目录中和使用中不同的配置项目.
 
 **用法:**
 ```
@@ -9,9 +9,9 @@ $ drupal config:diff [arguments] [options]
 ## 可用选项
 选项 | 详细
 -------|-------------
---reverse | See the changes in reverse (i.e diff a directory to the active configuration).
+--reverse | 反向显示差异(就是说：从一个目录到使用配置的比较).
 
 ## 可用参数
 参数 | 详细
 ---------|-------------
-directory | The directory to diff against. If omitted, choose from Drupal config directories.
+directory | 要对比的目录. 缺省使用配置目录.

@@ -1,5 +1,5 @@
 # user:delete
-**user:delete** 命令 Delete users for the application
+**user:delete** 命令 删除网站用户(s)
 
 **用法:**
 ```
@@ -9,5 +9,5 @@ $ drupal user:delete [options]
 ## 可用选项
 选项 | 详细
 -------|-------------
---user-id | User id to be deleted
---roles | Roles associated to users to be deleted
+--user-id | 要删除的用户ID
+--roles | 要删除用户的角色

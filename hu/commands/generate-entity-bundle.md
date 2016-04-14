@@ -1,15 +1,15 @@
 # generate:entity:bundle
-The **generate:entity:bundle** command Generate a new content type (node / entity bundle)
+**generate:entity:bundle** parancs Új tartalomtípus létrehozása (tartalom / mezőköteg)
 
-**Usage:**
+**Használat:**
 ```
 $ drupal generate:entity:bundle [options] 
 $ geb  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---module | A Modul neve.
---bundle-name | The content type's machine name
---bundle-title | The content type's human-readable name
+--module | A modul neve.
+--bundle-name | A tartalomtípus programok által használt neve
+--bundle-title | A tartalomtípus felhasználók által olvasható neve

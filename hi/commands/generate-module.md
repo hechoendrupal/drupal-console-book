@@ -17,6 +17,6 @@ $ gm
 --core | मूल संस्करण
 --package | मोड्यूल पैकेज
 --module-file | एक .module फ़ाइल जोड़ें
---feature | मोड्यूल को फीचर्स मोड्यूल के उपयुक्त बनाएं
+--features-bundle | Define module as feature using the given Features bundle name
 --composer | composer.json फाइल डालें
 --dependencies | मोड्यूल निर्भरता को अल्पविराम से विभाजित करें (अथवा context, panels)

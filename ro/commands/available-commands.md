@@ -13,9 +13,10 @@ Comanda Consolei Drupal | Detalii
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruiți și curățați tot cache-ul.
 **chain**  |
-[chain:debug](chain-debug.md) | commands.chain.debug.description
+[chain:debug](chain-debug.md) | List available chain files.
 **config**  |
 [config:debug](config-debug.md) | Afișează configurarea curentă.
+[config:delete](config-delete.md) | Delete configuration
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Editează configurarea selectată.
 [config:export](config-export.md) | Exportă configurările curente ale aplicației.
@@ -23,12 +24,13 @@ Comanda Consolei Drupal | Detalii
 [config:export:single](config-export-single.md) | Exportă o singură configurare ca fișier YAML.
 [config:export:view](config-export-view.md) | Exportă un view în format YAML în cadrul unui modul pentru a fi reutilizat într-un alt website.
 [config:import](config-import.md) | Importă configurarea pentru aplicația curentă.
-[config:import:single](config-import-single.md) | Importă configurarea selectată.
+[config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | Suprascrie valoarea de configurare în configurarea activă.
 [config:settings:debug](config-settings-debug.md) | Displays current key:value on settings file.
 **container**  |
 [container:debug](container-debug.md) | Afișează serviciile curente pentru o aplicație.
 **create**  |
+[create:comments](create-comments.md) | Create dummy comments for your Drupal 8 application.
 [create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
 [create:terms](create-terms.md) | Create dummy terms for your Drupal 8 application.
 [create:users](create-users.md) | Create dummy users for your Drupal 8 application.
@@ -40,12 +42,12 @@ Comanda Consolei Drupal | Detalii
 **database**  |
 [database:client](database-client.md) | Lansează un client DB dacă acesta este disponibil
 [database:connect](database-connect.md) | Lansează un client DB dacă acesta este disponibil
+[database:drop](database-drop.md) | Drop all tables in a given database.
 [database:dump](database-dump.md) | Descărcați structura și conținutul bazei de date MySQL și tabelele acesteia
 [database:log:clear](database-log-clear.md) | Eliminați evenimentele din tabelul DBLog, sunt disponibile filtre
 [database:log:debug](database-log-debug.md) | Afișează evenimentele curente, de intrare în jurnal, pentru aplicație
 [database:restore](database-restore.md) | Restabilește structura și conținutul bazei de date MySQL și ale tabelelor acesteia
 [database:table:debug](database-table-debug.md) | Show all tables in a given database.
-[database:table:drop](database-table-drop.md) | Drop all tables in a given database.
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generează un "Authentication Provider"
 [generate:command](generate-command.md) | Generează comenzi pentru consolă.
@@ -62,6 +64,7 @@ Comanda Consolei Drupal | Detalii
 [generate:module](generate-module.md) | Generează un modul.
 [generate:permissions](generate-permissions.md) | Generează permisiuni pentru modul
 [generate:plugin:block](generate-plugin-block.md) | Generează un Plugin de tip bloc
+[generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
 [generate:plugin:condition](generate-plugin-condition.md) | Generează o condiție pentru extensie.
 [generate:plugin:field](generate-plugin-field.md) | Generează extensiile: tipul de câmp, widget-ul si formatare.
 [generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Generează extensia de formatare a câmpului.
@@ -69,6 +72,7 @@ Comanda Consolei Drupal | Detalii
 [generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Generează extensia de widget pentru câmp.
 [generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Generează un plugin pentru efecte de imagini.
 [generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Generează un plugin de formatare a imaginii.
+[generate:plugin:mail](generate-plugin-mail.md) | Generate a plugin mail
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Generează un plugin de tip resursă REST
 [generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Generează un plugin care implementează o acţiune de rules
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generează un tip de plugin cu descoperire de adnotaţii
@@ -78,6 +82,9 @@ Comanda Consolei Drupal | Detalii
 [generate:routesubscriber](generate-routesubscriber.md) | Generează un RouteSubscriber
 [generate:service](generate-service.md) | Genereaza un serviciu
 [generate:theme](generate-theme.md) | Generează o temă.
+**image**  |
+[image:styles:debug](image-styles-debug.md) | List image styles on the site
+[image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
 **locale**  |
 [locale:language:add](locale-language-add.md) | Adaugă o limbă ce va avea suport pe situl dvs.
 [locale:language:delete](locale-language-delete.md) | Ștergeți o limbă ce are suport pe situl dvs.
@@ -93,6 +100,10 @@ Comanda Consolei Drupal | Detalii
 [module:uninstall](module-uninstall.md) | Dezinstalează un modul sau mai multe din aplicaţie.
 **multisite**  |
 [multisite:debug](multisite-debug.md) | Listează toate multi siturile disponibile în sistem
+**node**  |
+[node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
+**plugin**  |
+[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
 **rest**  |
 [rest:debug](rest-debug.md) | Afişează resursele REST curente.
 [rest:disable](rest-disable.md) | Dezactiveaza o resursă REST
@@ -101,12 +112,13 @@ Comanda Consolei Drupal | Detalii
 [router:debug](router-debug.md) | Afişează rutele curente
 [router:rebuild](router-rebuild.md) | Reconstruieşte o rută
 **settings**  |
-[settings:check](settings-check.md) | commands.settings.check.description
+[settings:check](settings-check.md) | System requirement checker
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
 [settings:init](settings-init.md) | Copiază fişierele de configurare în directorul de bază al utilizatorului.
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Listează toate siturile locale sau la distanță.
+[site:import:local](site-import-local.md) | Import/Configure an existing local Drupal project
 [site:install](site-install.md) | Instalează un proiect Drupal
 [site:maintenance](site-maintenance.md) | Activează modul de mentenanţă
 [site:mode](site-mode.md) | Schimbă configurarile de performanţă ale sistemului
@@ -115,6 +127,7 @@ Comanda Consolei Drupal | Detalii
 [site:status](site-status.md) | Vizualizează statutul de instalare (Drupal Installation status)
 **state**  |
 [state:debug](state-debug.md) | Show the current State keys.
+[state:delete](state-delete.md) | Delete State
 [state:override](state-override.md) | Override a State key.
 **test**  |
 [test:debug](test-debug.md) | Afişează testele accesibile
@@ -131,6 +144,7 @@ Comanda Consolei Drupal | Detalii
 [translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | Afişează actualizările disponibile pentru aplicaţie.
+[update:entities](update-entities.md) | Applying Entity Updates
 [update:execute](update-execute.md) | Execută o funcţie specifică Update N dintr-un modul sau execută-le pe toate
 **user**  |
 [user:debug](user-debug.md) | Displays current users for the application
@@ -143,6 +157,7 @@ Comanda Consolei Drupal | Detalii
 [views:debug](views-debug.md) | Afişează resursele curente ale views-ului pentru aplicație.
 [views:disable](views-disable.md) | Dezactivează un View
 [views:enable](views-enable.md) | Activează un View
+[views:plugins:debug](views-plugins-debug.md) | Display current views plugins for the application
 **yaml**  |
 [yaml:diff](yaml-diff.md) | Compară două fişiere YAML pentru a determina diferenţele dintre acestea.
 [yaml:merge](yaml-merge.md) | Uneşte doua sau mai multe fişiere de tip YAML într-un nou fişier de tip YAML. Ultimele valori sunt păstrate.
@@ -170,7 +185,6 @@ Opțiune | Detalii
 --target | Site name you want to interact with (for local or remote sites)
 --uri | URI-ul sitului Drupal care va fi folosit (pentru medii multi-sit sau când rulează pe un port alternativ)
 --yes | Skip confirmation and proceed
---check-fix | application.options.check-fix
 
 ## Argumente disponibile
 Argument | Detalii

@@ -1,12 +1,12 @@
 # chain
-The **chain** command Parancsláncsor végrehajtása
+**chain** parancs Chain parancs végrehajtása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal chain [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---file | Felhasználó által definiált futtatható parancsokat tartalmazo fájl.
+--file | A végrehajtandó parancsokat tartalmazó, felhasználó által megadott fájl.

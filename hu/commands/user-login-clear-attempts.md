@@ -1,13 +1,13 @@
 # user:login:clear:attempts
-The **user:login:clear:attempts** command Egy fiók sikertelen bejelentkezési kísérleteinek törlése.
+**user:login:clear:attempts** parancs Egy fiók sikertelen bejelentkezési kísérleteinek törlése.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal user:login:clear:attempts [arguments] 
 $ uslca  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 uid | Felhasználói azonosító.

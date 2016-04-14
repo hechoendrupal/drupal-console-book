@@ -1,17 +1,17 @@
 # translation:sync
-The **translation:sync** command Sync translation files
+**translation:sync** parancs Sync translation files
 
-**Usage:**
+**Használat:**
 ```
 $ drupal translation:sync [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --file | commands.translation.stats.options.file
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 language | Language to syncronize against English source files

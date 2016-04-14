@@ -1,14 +1,14 @@
 # yaml:split
-The **yaml:split** command YAML-fájl felosztása a behúzást elválasztási feltételként használva
+**yaml:split** parancs YAML-fájl felosztása a behúzást elválasztási feltételként használva
 
-**Usage:**
+**Használat:**
 ```
 $ drupal yaml:split [arguments] [options] 
 $ ys  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --indent-level | YAML-fájl felosztása adott behúzási szint használatával
 --file-output-prefix | commands.yaml.split.options.file-output-prefix
@@ -16,7 +16,7 @@ Option | Details
 --starting-key | A felosztás kezdetéül szolgáló YAML-kulcs - részleges elemek kinyerésére használható
 --exclude-parents-key | A parents kulcs kihagyása az előállított fájlból
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 yaml-file | commands.yaml.split.value.arguments.yaml-file

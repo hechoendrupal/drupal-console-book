@@ -1,14 +1,14 @@
 # config:import:single
-The **config:import:single** command Importálja a kijelölt konfigurációt.
+**config:import:single** parancs Import the selected configuration.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal config:import:single [arguments] 
 $ cis  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-config-name | Konfiguráció neve.
-input-file | Import fájlok felé vezető útvonal.
+name | Configuration name.
+file | Path to the import file

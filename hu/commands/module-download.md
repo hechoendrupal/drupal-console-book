@@ -1,18 +1,18 @@
 # module:download
-The **module:download** command Modul vagy modulok letöltése
+**module:download** parancs Modul vagy modulok letöltése
 
-**Usage:**
+**Használat:**
 ```
 $ drupal module:download [arguments] [options] 
 $ md  
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --latest | Az alapértelmezés a legfrissebb verzió letöltése
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 module | Az engedélyezendő modulokat szóközzel kell elválasztani

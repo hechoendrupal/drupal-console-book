@@ -17,6 +17,6 @@ Option | Details
 --core | Core version
 --package | Module package
 --module-file | Add a .module file
---feature | Set module compatible with Features module
+--features-bundle | Define module as feature using the given Features bundle name
 --composer | Add a composer.json file
 --dependencies | Module dependencies separated by commas (i.e. context, panels)

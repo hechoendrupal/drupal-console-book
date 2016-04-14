@@ -1,23 +1,23 @@
 # cache:rebuild
-The **cache:rebuild** command Minden gyorsítótár újraépítése és törlése.
+**cache:rebuild** parancs A webhely összes gyorsítótárának újraépítése és törlése.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal cache:rebuild [arguments] 
 $ cr  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-cache | Csak bizonyos gyorsítótár törlése.
+cache | Csak egy adott gyorsítótár törlése.
 
-## Examples
-* Rebuild all caches
+## Példák
+* Összes gyorsítótár újraépítése
 ```
 $ drupal cr all
 ```
-* Rebuild discovery cache
+* Felderítési gyorsítótár újraépítése
 ```
 $ drupal cr discovery
 ```

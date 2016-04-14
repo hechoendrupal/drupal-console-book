@@ -1,12 +1,12 @@
 # translation:cleanup
-The **translation:cleanup** command Clean up translation files
+**translation:cleanup** parancs Clean up translation files
 
-**Usage:**
+**Használat:**
 ```
 $ drupal translation:cleanup [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 language | Language to clean up files against English

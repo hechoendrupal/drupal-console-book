@@ -17,6 +17,6 @@ Opțiune | Detalii
 --core | Versiunea nucleului
 --package | Pachetul
 --global-library | Numele librariei de stilizare globală
---base-theme | Tema de bază (ex.: classy, seven)
+--base-theme | Tema de bază (ex.: classy, stable)
 --regions | Regiuni
 --breakpoints | Puncte de întrerupere

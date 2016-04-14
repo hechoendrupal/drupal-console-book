@@ -16,4 +16,4 @@ Opción | Detalles
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-content-type | Content Type to be exported
+content-type | Tipo de contenido a exportar

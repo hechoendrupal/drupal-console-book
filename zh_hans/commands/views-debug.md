@@ -1,5 +1,5 @@
 # views:debug
-**views:debug** 命令 Display current views resources for the application
+**views:debug** 命令 显示网站当前视图资源
 
 **用法:**
 ```
@@ -11,7 +11,7 @@ $ vde
 选项 | 详细
 -------|-------------
 --tag | 视图标签
---status | 视图状态(已启动|未启动)
+--status | 视图状态(已启用|已禁用)
 
 ## 可用参数
 参数 | 详细

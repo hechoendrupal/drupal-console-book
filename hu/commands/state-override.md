@@ -1,13 +1,13 @@
 # state:override
-The **state:override** command Állapotkulcs felülbírálása.
+**state:override** parancs Állapotkulcs felülbírálása.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal state:override [arguments] 
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 key | A felülbírálandó állapotkulcs.
 value | A beállítandó állapotkulcs.

@@ -1,13 +1,13 @@
 # views:disable
-The **views:disable** command Nézet letiltása
+**views:disable** parancs Nézet letiltása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal views:disable [arguments] 
 $ vdi  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 view-id | Nézet azonosítója

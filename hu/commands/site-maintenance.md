@@ -1,13 +1,13 @@
 # site:maintenance
-The **site:maintenance** command Webhely karbantartási módba állítása
+**site:maintenance** parancs Webhely karbantartási módba állítása
 
-**Usage:**
+**Használat:**
 ```
 $ drupal site:maintenance [arguments] 
 $ sma  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 mode | Webhely karbantartási módja[on/off]

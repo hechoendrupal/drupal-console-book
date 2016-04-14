@@ -1,13 +1,13 @@
 # config:debug
-The **config:debug** command Jelenlegi beállítások megjelenítése.
+**config:debug** parancs Aktuális konfiguráció megjelenítése.
 
-**Usage:**
+**Használat:**
 ```
 $ drupal config:debug [arguments] 
 $ cde  
 ```
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
-config-name | Beállítás neve.
+config-name | A konfiguráció neve.

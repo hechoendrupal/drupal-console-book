@@ -10,9 +10,9 @@ $ md
 ## 可用选项
 选项 | 详细
 -------|-------------
---latest | Default to download most recent version
+--latest | 缺省下载最新版本
 
 ## 可用参数
 参数 | 详细
 ---------|-------------
-module | Module or modules to be enabled should be separated by a space
+module | 要启用的模块之间用空格隔开

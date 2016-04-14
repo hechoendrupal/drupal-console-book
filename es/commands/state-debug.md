@@ -9,4 +9,4 @@ $ drupal state:debug [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-key | La clave de Estado para debuguear.
+key | La clave de Estado para depurar.

@@ -1,17 +1,17 @@
 # translation:stats
-The **translation:stats** command Generate translate stats
+**translation:stats** parancs Generate translate stats
 
-**Usage:**
+**Használat:**
 ```
 $ drupal translation:stats [arguments] [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
 --format | Define output format table|markdown
 
-## Available arguments
-Argument | Details
+## Rendelkezésre álló argumentumok
+Argumentum | Részletek
 ---------|-------------
 language | Language to generate translation stats against English

@@ -13,9 +13,10 @@ Các lệnh điều khiển Drupal | Các chi tiết
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Xây dựng lại và làm sạch tất cả cache trên trang.
 **chain**  |
-[chain:debug](chain-debug.md) | commands.chain.debug.description
+[chain:debug](chain-debug.md) | List available chain files.
 **config**  |
 [config:debug](config-debug.md) | Hiển thị cấu hình hiện tại
+[config:delete](config-delete.md) | Delete configuration
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Chỉnh sửa cấu hình đã được chọn
 [config:export](config-export.md) | Xuất cấu hình ứng dụng hiện tại
@@ -23,12 +24,13 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [config:export:single](config-export-single.md) | Xuất cấu hình đơn giản như yml file
 [config:export:view](config-export-view.md) | Export 1 view trong YAML format inside 1 module được cung cấp để sử dụng lại trên các website khác.
 [config:import](config-import.md) | Nhập cấu hình tới ứng dụng hiện tại
-[config:import:single](config-import-single.md) | Import cấu hình đã được chọn.
+[config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | Ghi đè giá trị cấu hình trong cấu hình đang hoạt động
 [config:settings:debug](config-settings-debug.md) | Displays current key:value on settings file.
 **container**  |
 [container:debug](container-debug.md) | Các dịch vụ hiển thị hiện tại cho một ứng dụng
 **create**  |
+[create:comments](create-comments.md) | Create dummy comments for your Drupal 8 application.
 [create:nodes](create-nodes.md) | Tạo dummy nodes cho ứng dụng Drupal 8 của bạn.
 [create:terms](create-terms.md) | Tạo dummy terms cho ứng dụng Drupal 8 của bạn.
 [create:users](create-users.md) | Tạo dummy users cho ứng dụng Drupal 8 của bạn.
@@ -40,12 +42,12 @@ Các lệnh điều khiển Drupal | Các chi tiết
 **database**  |
 [database:client](database-client.md) | Launch a DB client if it's available
 [database:connect](database-connect.md) | Hiển thị DB connection
+[database:drop](database-drop.md) | Drop tất cả các tables trong 1 cơ sở dữ liệu được đưa ra.
 [database:dump](database-dump.md) | Dump cấu trúc và nội dung của 1 cơ sở dữ liệu
 [database:log:clear](database-log-clear.md) | Xóa các sự kiện từ DBLog table, filters là có thể sử dụng được
 [database:log:debug](database-log-debug.md) | Hiển thị các dấu sự kiện hiện tại cho ứng dụng
 [database:restore](database-restore.md) | Khôi phục cấu trúc và content của một cơ sở dữ liệu
 [database:table:debug](database-table-debug.md) | Hiển thị tất cả các bảng trong database đã được cung cấp.
-[database:table:drop](database-table-drop.md) | Drop tất cả các tables trong 1 cơ sở dữ liệu được đưa ra.
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Tạo ra một Authentication Provider
 [generate:command](generate-command.md) | Tạo ra các lệnh cho trình điều khiển.
@@ -62,6 +64,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [generate:module](generate-module.md) | Tạo một module.
 [generate:permissions](generate-permissions.md) | Tạo module permissions
 [generate:plugin:block](generate-plugin-block.md) | Tạo một plugin block
+[generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
 [generate:plugin:condition](generate-plugin-condition.md) | Tạo một plugin condition.
 [generate:plugin:field](generate-plugin-field.md) | Tạo field type, widget và formatter plugins.
 [generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Tạo một formatter plugin.
@@ -69,6 +72,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Tạo field widget plugin.
 [generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Tạo plugin hiệu ứng hình ảnh
 [generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Phát sinh một image formatter plugin.
+[generate:plugin:mail](generate-plugin-mail.md) | Generate a plugin mail
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Tạo plugin rest resource
 [generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Tạo một plugin rule action
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Tạo một kiểu plugin với annotation discovery
@@ -78,6 +82,9 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [generate:routesubscriber](generate-routesubscriber.md) | Tạo một RouteSubscriber
 [generate:service](generate-service.md) | Tạo dịch vụ
 [generate:theme](generate-theme.md) | Tạo một theme.
+**image**  |
+[image:styles:debug](image-styles-debug.md) | List image styles on the site
+[image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
 **locale**  |
 [locale:language:add](locale-language-add.md) | Thêm một ngôn ngữ được hỗ trợ bởi site của bạn
 [locale:language:delete](locale-language-delete.md) | Xóa một ngôn ngữ được hỗ trợ bởi site cuuar bạn
@@ -93,6 +100,10 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [module:uninstall](module-uninstall.md) | Gỡ bỏ module hoặc các module trong ứng dụng
 **multisite**  |
 [multisite:debug](multisite-debug.md) | Liệt kê tất cả các multisites đang có sẵn trong hệ thống
+**node**  |
+[node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
+**plugin**  |
+[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
 **rest**  |
 [rest:debug](rest-debug.md) | Hiển thị rest resource hiện có cho ứng dụng
 [rest:disable](rest-disable.md) | Tắt một tài nguyên rest cho ứng dụng
@@ -101,12 +112,13 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [router:debug](router-debug.md) | Hiển thị các định tuyến hiện tại của ứng dụng
 [router:rebuild](router-rebuild.md) | Xây dựng lại định tuyến cho ứng dụng
 **settings**  |
-[settings:check](settings-check.md) | commands.settings.check.description
+[settings:check](settings-check.md) | System requirement checker
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
 [settings:init](settings-init.md) | Sao chép các file cấu hình tới thư mục gốc.
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Liệt kê tất cả các sites cục bộ và từ xa đã biết.
+[site:import:local](site-import-local.md) | Import/Configure an existing local Drupal project
 [site:install](site-install.md) | Cài đặt một dự án Drupal
 [site:maintenance](site-maintenance.md) | Chuyển site sang chế độ bảo trì
 [site:mode](site-mode.md) | Chuyển đổi cấu hình hiệu năng của hệ thống
@@ -115,6 +127,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [site:status](site-status.md) | Xem trạng thái cài đặt hiện tại
 **state**  |
 [state:debug](state-debug.md) | Hiển thị State keys hiện tại.
+[state:delete](state-delete.md) | Delete State
 [state:override](state-override.md) | Ghi đè một State key.
 **test**  |
 [test:debug](test-debug.md) | Danh sách các đơn vị thử nghiệm có sẵn của ứng dụng.
@@ -131,6 +144,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | Hiển thị các cập nhật có sẵn cho ứng dụng
+[update:entities](update-entities.md) | Applying Entity Updates
 [update:execute](update-execute.md) | Tiến hành một hàm cụ thể cập nhật N trong một module, hoặc tiến hành tất cả
 **user**  |
 [user:debug](user-debug.md) | Hiển thị các người dùng hiện tại cho ứng dụng
@@ -143,6 +157,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [views:debug](views-debug.md) | Hiển thị các views resources hiện tại cho ứng dụng
 [views:disable](views-disable.md) | Tắt một View
 [views:enable](views-enable.md) | Bật một View
+[views:plugins:debug](views-plugins-debug.md) | Display current views plugins for the application
 **yaml**  |
 [yaml:diff](yaml-diff.md) | So sánh hai files YAML để xác định sự khác nhau giữa chúng
 [yaml:merge](yaml-merge.md) | Merge một hoặc nhiều files YAML vào trong một file YAML mới. Giá trị mới nhất được duy trì.
@@ -170,7 +185,6 @@ Tùy chọn | Các chi tiết
 --target | Site name you want to interact with (for local or remote sites)
 --uri | Đường dẫn site Drupal được dùng (cho môi trường multisite hoặc khi chạy trên một cổng thay thế)
 --yes | Skip confirmation and proceed
---check-fix | application.options.check-fix
 
 ## Các đối số có sẵn
 Đối số | Các chi tiết
