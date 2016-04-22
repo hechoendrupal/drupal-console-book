@@ -1,13 +1,13 @@
 # self-update
-The **self-update** command Update project to the latest version.
+**self-update** comanda Actualizează Consola la ultima versiune.
 
-**Usage:**
+**Folosire:**
 ```
 $ drupal self-update [options] 
 ```
 
-## Available options
-Option | Details
+## Opțiuni disponibile
+Opțiune | Detalii
 -------|-------------
 --major | Update to a new major version, if available.
 --manifest | Override the manifest file path.

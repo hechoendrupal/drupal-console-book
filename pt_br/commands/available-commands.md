@@ -6,9 +6,11 @@ Comando Drupal Console | Detalhes
 ------------ | -------------
 [about](about.md) | Exibir informações básicas sobre projeto Drupal Console
 [chain](chain.md) | Execução de comandos em sequência
+[check](check.md) | commands.check.description
 [help](help.md) | Displays help for a command
-[settings:init](settings-init.md) | Copy configuration files to user home directory.
+[init](init.md) | commands.init.description
 [list](list.md) | Lists commands22
+[self-update](self-update.md) | Update the console to latest version.
 [server](server.md) | Executar o servidor PHP atual
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruir e limpar todos os caches do site.
@@ -53,6 +55,7 @@ Comando Drupal Console | Detalhes
 [generate:command](generate-command.md) | Cria comandos via console.
 [generate:controller](generate-controller.md) | Cria e Registra um controller
 [generate:doc:dash](generate-doc-dash.md) | Gerar o pacote DrupalConsole.docset para Dash
+[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | Gerar documentação para os comandos
 [generate:entity:bundle](generate-entity-bundle.md) | Gera um novo tipo de conteúdo (node / entity bundle)
 [generate:entity:config](generate-entity-config.md) | Gerar uma nova entidade de configuração
@@ -112,9 +115,7 @@ Comando Drupal Console | Detalhes
 [router:debug](router-debug.md) | Exibe as rotas atuais de uma aplicação
 [router:rebuild](router-rebuild.md) | Reconstruir rotas de uma aplicação
 **settings**  |
-[settings:check](settings-check.md) | System requirement checker
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
-[settings:init](settings-init.md) | Copy configuration files to user home directory.
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Listar todos os sites locais e remotos.

@@ -1,5 +1,5 @@
 # init
-**init** comanda Copiază fişierele de configurare în directorul de bază al utilizatorului.
+**init** comanda commands.init.description
 
 **Folosire:**
 ```
@@ -9,4 +9,4 @@ $ drupal init [options]
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---override | Suprascrie fișierele de configurare
+--override | commands.init.options.override

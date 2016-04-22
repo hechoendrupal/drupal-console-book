@@ -1,14 +1,14 @@
 # self-update
-The **self-update** command Update project to the latest version.
+Câu lệnh **self-update** Cập nhật dự án lên phiên bản mới nhất.
 
 **Usage:**
 ```
 $ drupal self-update [options] 
 ```
 
-## Available options
-Option | Details
+## Các tùy chọn có sẵn
+Tùy chọn | Các chi tiết
 -------|-------------
---major | Update to a new major version, if available.
---manifest | Override the manifest file path.
---current-version | Override the version to update from.
+--major | Cập nhật lên phiên bản chính mới, nếu có sẵn.
+--manifest | Ghi đè lên các đường dẫn tập tin rõ ràng.
+--current-version | Ghi đè lên phiên bản cập nhật từ.

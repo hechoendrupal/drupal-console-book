@@ -1,0 +1,12 @@
+# generate:doc:data
+**generate:doc:data** कमांड commands.generate.doc.data.description
+
+**प्रयोग:**
+```
+$ drupal generate:doc:data [options] 
+```
+
+## उपलब्ध विकल्प
+विकल्प | विवरण
+-------|-------------
+--path | commands.generate.doc.data.options.path

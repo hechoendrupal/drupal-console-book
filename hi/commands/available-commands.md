@@ -6,9 +6,11 @@ Drupal Console कमाण्ड | विवरण
 ------------ | -------------
 [about](about.md) | Drupal कंसोल परियोजना के बारे मे प्रारंभिक जानकारी दिखाएँ
 [chain](chain.md) | कमाण्डो को श्रंखला में चलायें।
+[check](check.md) | commands.check.description
 [help](help.md) | एक कमांड के लिए मदद प्रदर्शित करता है
-[settings:init](settings-init.md) | व्यवस्था फाइलो को उपभोगक्ता के होम डायरेक्टरी में प्रतिरुप करें।
+[init](init.md) | commands.init.description
 [list](list.md) | कमांड की सूची
+[self-update](self-update.md) | कंसोल को नवीनतम संस्करण में अवगत करें
 [server](server.md) | PHP निर्मित वेब सर्वर चलायॆ
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | सभी साइट caches को पुनर्निर्माण और साफ़ करें।
@@ -53,6 +55,7 @@ Drupal Console कमाण्ड | विवरण
 [generate:command](generate-command.md) | कंसोल के लिए कमाण्डो को उत्पन्न करें।
 [generate:controller](generate-controller.md) | एक कंट्रोलर को उत्पन्न और पंजीकृत करें
 [generate:doc:dash](generate-doc-dash.md) | डैश के लिए  DrupalConsole.docset पैकेज उत्पन्न करें
+[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | कमाण्डो के लिए डॉक्युमेंटेशन्स उत्पन्न करें
 [generate:entity:bundle](generate-entity-bundle.md) | एक नया कंटेंट प्रकार उत्पन्न करें (नोड/एंटिटी बंडल)
 [generate:entity:config](generate-entity-config.md) | एक नया कॉन्फिग एंटिटि उत्पन्न करे
@@ -112,9 +115,7 @@ Drupal Console कमाण्ड | विवरण
 [router:debug](router-debug.md) | अनुप्रयोग के वर्तमान मार्गों को दिखाएँ
 [router:rebuild](router-rebuild.md) | अनुप्रयोग के मार्ग पथ को पुनर्निर्माण करें
 **settings**  |
-[settings:check](settings-check.md) | System requirement checker
 [settings:debug](settings-debug.md) | यूजर Drupal कंसोल सेटिंग्स की सूची
-[settings:init](settings-init.md) | व्यवस्था फाइलो को उपभोगक्ता के होम डायरेक्टरी में प्रतिरुप करें।
 [settings:set](settings-set.md) | Drupal कंसोल कॉन्फिग फाइल में एक विशिष्ट सेटिंग मूल्य बदलें
 **site**  |
 [site:debug](site-debug.md) | सभी ज्ञात स्थानीय और दूरस्थ साइटों की सूची दें।

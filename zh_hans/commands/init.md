@@ -1,5 +1,5 @@
 # init
-**init** 命令 拷贝配置文件到用户的 home 目录
+**init** 命令 commands.init.description
 
 **用法:**
 ```
@@ -9,4 +9,4 @@ $ drupal init [options]
 ## 可用选项
 选项 | 详细
 -------|-------------
---override | 覆盖配置文件
+--override | commands.init.options.override

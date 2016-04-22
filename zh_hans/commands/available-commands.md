@@ -6,9 +6,11 @@ Drupal Console 命令 | 详细
 ------------ | -------------
 [about](about.md) | 显示 Drupal Console 项目基本信息
 [chain](chain.md) | 链式执行一组命令
+[check](check.md) | commands.check.description
 [help](help.md) | 显示帮助
-[settings:init](settings-init.md) | 拷贝配置文件到用户的 home 目录
+[init](init.md) | commands.init.description
 [list](list.md) | 列出当前可用命令
+[self-update](self-update.md) | 更新项目到最新版本
 [server](server.md) | 运行PHP内建的网站服务器
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | 重建缓存
@@ -53,6 +55,7 @@ Drupal Console 命令 | 详细
 [generate:command](generate-command.md) | 生成新 Console 命令
 [generate:controller](generate-controller.md) | 生成并注册新控制器
 [generate:doc:dash](generate-doc-dash.md) | 生成 Dash 文档
+[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | 生成命令文档
 [generate:entity:bundle](generate-entity-bundle.md) | 生成新内容类型（node 或实体 bundle）
 [generate:entity:config](generate-entity-config.md) | 生成新配置实体
@@ -112,9 +115,7 @@ Drupal Console 命令 | 详细
 [router:debug](router-debug.md) | 显示路由
 [router:rebuild](router-rebuild.md) | 重建路由
 **settings**  |
-[settings:check](settings-check.md) | 系统需求检查
 [settings:debug](settings-debug.md) | 列出用户Drupal控制台设置.
-[settings:init](settings-init.md) | 拷贝配置文件到用户的 home 目录
 [settings:set](settings-set.md) | 改变 DrupalConsole 配置文件中的配置
 **site**  |
 [site:debug](site-debug.md) | 列出已知当地和远程网站.

@@ -6,9 +6,11 @@ Comando de Drupal Console | Detalles
 ------------ | -------------
 [about](about.md) | Muestra información básica sobre el proyecto Drupal Console
 [chain](chain.md) | Ejecución de comandos en secuencia
+[check](check.md) | commands.check.description
 [help](help.md) | Muestra ayuda para un comando dado
-[settings:init](settings-init.md) | Copiar archivos de configuración al directorio home del usuario.
+[init](init.md) | commands.init.description
 [list](list.md) | Enlista comandos
+[self-update](self-update.md) | Actualiza la consola a la última versión.
 [server](server.md) | Lanza el servidor web PHP interno
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
@@ -53,6 +55,7 @@ Comando de Drupal Console | Detalles
 [generate:command](generate-command.md) | Genera un comando para la consola.
 [generate:controller](generate-controller.md) | Generar y registrar un controlador
 [generate:doc:dash](generate-doc-dash.md) | Generar el paquete DrupalConsole.docset para Dash
+[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | Generar documentaciones para Comandos
 [generate:entity:bundle](generate-entity-bundle.md) | Genera un nuevo tipo de contenido (nodo / bundle de entidad)
 [generate:entity:config](generate-entity-config.md) | Generar una nueva entidad de configuración
@@ -112,9 +115,7 @@ Comando de Drupal Console | Detalles
 [router:debug](router-debug.md) | Muestra las rutas actuales de la aplicación
 [router:rebuild](router-rebuild.md) | Reconstruye las rutas de la aplicación
 **settings**  |
-[settings:check](settings-check.md) | Verificador de requisitos del sistema
 [settings:debug](settings-debug.md) | Ofrece un listado de la configuración de usuario de Drupal Console.
-[settings:init](settings-init.md) | Copiar archivos de configuración al directorio home del usuario.
 [settings:set](settings-set.md) | Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole
 **site**  |
 [site:debug](site-debug.md) | Enlista todos los sitios, locales y remotos, conocidos.

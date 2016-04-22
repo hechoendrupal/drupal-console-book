@@ -6,9 +6,11 @@ Comanda Consolei Drupal | Detalii
 ------------ | -------------
 [about](about.md) | Afișează informațiile de bază despre proiectul Drupal Console
 [chain](chain.md) | Execuție comandă înlănțuită
+[check](check.md) | commands.check.description
 [help](help.md) | Displays help for a command
-[settings:init](settings-init.md) | Copiază fişierele de configurare în directorul de bază al utilizatorului.
+[init](init.md) | commands.init.description
 [list](list.md) | Listele de comenzi
+[self-update](self-update.md) | Actualizează Consola la ultima versiune.
 [server](server.md) | Runs PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruiți și curățați tot cache-ul.
@@ -53,6 +55,7 @@ Comanda Consolei Drupal | Detalii
 [generate:command](generate-command.md) | Generează comenzi pentru consolă.
 [generate:controller](generate-controller.md) | Generează și Înregistrează un controller
 [generate:doc:dash](generate-doc-dash.md) | Generați pachetul DrupalConsole.docset pentru Dash
+[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | Generează documentațiile pentru Comenzi
 [generate:entity:bundle](generate-entity-bundle.md) | Generează un tip de conținut nou (nod / entitate)
 [generate:entity:config](generate-entity-config.md) | Generează o entitate de configurare nouă
@@ -112,9 +115,7 @@ Comanda Consolei Drupal | Detalii
 [router:debug](router-debug.md) | Afişează rutele curente
 [router:rebuild](router-rebuild.md) | Reconstruieşte o rută
 **settings**  |
-[settings:check](settings-check.md) | System requirement checker
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
-[settings:init](settings-init.md) | Copiază fişierele de configurare în directorul de bază al utilizatorului.
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Listează toate siturile locale sau la distanță.
