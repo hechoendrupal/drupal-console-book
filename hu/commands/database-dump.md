@@ -1,5 +1,5 @@
 # database:dump
-**database:dump** parancs Adatbázis szerkezetének és tartalmának kiíratása
+Adatbázis szerkezetének és tartalmának kiíratása
 
 **Használat:**
 ```

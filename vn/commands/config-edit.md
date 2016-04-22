@@ -1,5 +1,5 @@
 # config:edit
-Câu lệnh **config:edit** Chỉnh sửa cấu hình đã được chọn
+Chỉnh sửa cấu hình đã được chọn
 
 **Usage:**
 ```

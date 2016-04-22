@@ -1,5 +1,5 @@
 # image:styles:flush
-Câu lệnh **image:styles:flush** Execute flush function by image style or execute all flush images styles
+Execute flush function by image style or execute all flush images styles
 
 **Usage:**
 ```

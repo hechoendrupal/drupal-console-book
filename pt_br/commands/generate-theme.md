@@ -1,5 +1,5 @@
 # generate:theme
-O **generate:theme** comando Generate a theme.
+Generate a theme.
 
 **Uso:**
 ```

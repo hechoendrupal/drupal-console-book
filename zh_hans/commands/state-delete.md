@@ -1,5 +1,5 @@
 # state:delete
-**state:delete** 命令 删除状态
+删除状态
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # database:drop
-**database:drop** parancs Egy adatbázis összes táblájának eldobása.
+Egy adatbázis összes táblájának eldobása.
 
 **Használat:**
 ```

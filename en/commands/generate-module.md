@@ -1,5 +1,5 @@
 # generate:module
-The **generate:module** command Generate a module.
+Generate a module.
 
 **Usage:**
 ```

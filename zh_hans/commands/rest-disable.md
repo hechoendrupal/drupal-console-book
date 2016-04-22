@@ -1,5 +1,5 @@
 # rest:disable
-**rest:disable** 命令 禁用 REST 资源
+禁用 REST 资源
 
 **用法:**
 ```

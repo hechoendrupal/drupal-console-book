@@ -1,5 +1,5 @@
 # generate:routesubscriber
-**generate:routesubscriber** कमांड RouteSubscriber उत्पन्न करे.
+RouteSubscriber उत्पन्न करे.
 
 **प्रयोग:**
 ```

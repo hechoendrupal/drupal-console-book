@@ -1,5 +1,5 @@
 # locale:translation:status
-El comando **locale:translation:status** Lista de traducciones disponibles actualizadas
+Lista de traducciones disponibles actualizadas
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # update:entities
-El comando **update:entities** Aplicar actualizaciones a entidades
+Aplicar actualizaciones a entidades
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # generate:authentication:provider
-Câu lệnh **generate:authentication:provider** Tạo ra một Authentication Provider
+Tạo ra một Authentication Provider
 
 **Usage:**
 ```

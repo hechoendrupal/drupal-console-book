@@ -1,5 +1,5 @@
 # generate:plugin:mail
-**generate:plugin:mail** comanda Generate a plugin mail
+Generate a plugin mail
 
 **Folosire:**
 ```

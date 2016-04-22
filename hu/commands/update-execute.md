@@ -1,5 +1,5 @@
 # update:execute
-**update:execute** parancs Egy modul adott Update N függvényének végrehajtása, vagy az összes végrehajtása
+Egy modul adott Update N függvényének végrehajtása, vagy az összes végrehajtása
 
 **Használat:**
 ```

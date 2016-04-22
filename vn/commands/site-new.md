@@ -1,5 +1,5 @@
 # site:new
-Câu lệnh **site:new** Tạo một dự án Drupal mới
+Tạo một dự án Drupal mới
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # settings:set
-**settings:set** 命令 改变 DrupalConsole 配置文件中的配置
+改变 DrupalConsole 配置文件中的配置
 
 **用法:**
 ```

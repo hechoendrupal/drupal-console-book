@@ -1,5 +1,5 @@
 # config:override
-**config:override** 命令 覆写活动配置
+覆写活动配置
 
 **用法:**
 ```

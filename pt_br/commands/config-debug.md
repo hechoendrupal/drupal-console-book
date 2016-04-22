@@ -1,5 +1,5 @@
 # config:debug
-O **config:debug** comando Exibe a configuração atual.
+Exibe a configuração atual.
 
 **Uso:**
 ```

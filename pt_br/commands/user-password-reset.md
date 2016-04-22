@@ -1,5 +1,5 @@
 # user:password:reset
-O **user:password:reset** comando Recuperar senha para um usuário específico.
+Recuperar senha para um usuário específico.
 
 **Uso:**
 ```

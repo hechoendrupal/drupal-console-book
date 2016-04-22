@@ -1,5 +1,5 @@
 # database:log:debug
-The **database:log:debug** command Display current log events for the application
+Display current log events for the application
 
 **Usage:**
 ```

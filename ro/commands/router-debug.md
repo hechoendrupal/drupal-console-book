@@ -1,5 +1,5 @@
 # router:debug
-**router:debug** comanda Afişează rutele curente
+Afişează rutele curente
 
 **Folosire:**
 ```

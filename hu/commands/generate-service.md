@@ -1,5 +1,5 @@
 # generate:service
-**generate:service** parancs Szolgáltatás létrehozása
+Szolgáltatás létrehozása
 
 **Használat:**
 ```

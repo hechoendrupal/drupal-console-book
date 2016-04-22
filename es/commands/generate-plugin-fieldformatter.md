@@ -1,5 +1,5 @@
 # generate:plugin:fieldformatter
-El comando **generate:plugin:fieldformatter** Genera un plugin de formateador de campo.
+Genera un plugin de formateador de campo.
 
 **Uso:**
 ```

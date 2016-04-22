@@ -1,5 +1,5 @@
 # generate:routesubscriber
-**generate:routesubscriber** parancs RouteSubscriber létrehozása
+RouteSubscriber létrehozása
 
 **Használat:**
 ```

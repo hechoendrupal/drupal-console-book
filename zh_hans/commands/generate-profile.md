@@ -1,5 +1,5 @@
 # generate:profile
-**generate:profile** 命令 生成一个方案.
+生成一个方案.
 
 **用法:**
 ```

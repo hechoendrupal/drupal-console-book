@@ -1,5 +1,5 @@
 # user:delete
-O **user:delete** comando Remover usuários da aplicação
+Remover usuários da aplicação
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # config:export:content:type
-Câu lệnh **config:export:content:type** Xuất một kiểu nội dung chỉ định và các field của chúng
+Xuất một kiểu nội dung chỉ định và các field của chúng
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # router:debug
-The **router:debug** command Displays current routes for the application
+Displays current routes for the application
 
 **Usage:**
 ```

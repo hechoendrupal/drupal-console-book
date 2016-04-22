@@ -1,5 +1,5 @@
 # config:import
-El comando **config:import** Importa la configuración del estado actual de la aplicación.
+Importa la configuración del estado actual de la aplicación.
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # user:debug
-**user:debug** comanda Displays current users for the application
+Displays current users for the application
 
 **Folosire:**
 ```

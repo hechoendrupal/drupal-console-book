@@ -1,5 +1,5 @@
 # server
-Câu lệnh **server** Chạy PHP built-in web server
+Chạy PHP built-in web server
 
 **Usage:**
 ```

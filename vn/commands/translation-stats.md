@@ -1,5 +1,5 @@
 # translation:stats
-Câu lệnh **translation:stats** Generate translate stats
+Generate translate stats
 
 **Usage:**
 ```

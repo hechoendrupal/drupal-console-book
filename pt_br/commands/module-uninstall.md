@@ -1,5 +1,5 @@
 # module:uninstall
-O **module:uninstall** comando Uninstall module or modules in the application
+Uninstall module or modules in the application
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # generate:form:alter
-**generate:form:alter** comanda Generează o implementare a hook_form_alter() sau hook_form_FORM_ID_alter()
+Generează o implementare a hook_form_alter() sau hook_form_FORM_ID_alter()
 
 **Folosire:**
 ```

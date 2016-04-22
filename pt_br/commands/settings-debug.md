@@ -1,5 +1,5 @@
 # settings:debug
-O **settings:debug** comando List user Drupal Console settings.
+List user Drupal Console settings.
 
 **Uso:**
 ```

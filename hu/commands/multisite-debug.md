@@ -1,5 +1,5 @@
 # multisite:debug
-**multisite:debug** parancs A rendszeren elérhető multisite-ok listázása
+A rendszeren elérhető multisite-ok listázása
 
 **Használat:**
 ```

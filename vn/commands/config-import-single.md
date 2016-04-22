@@ -1,5 +1,5 @@
 # config:import:single
-Câu lệnh **config:import:single** Import the selected configuration.
+Import the selected configuration.
 
 **Usage:**
 ```

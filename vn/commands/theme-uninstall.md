@@ -1,5 +1,5 @@
 # theme:uninstall
-Câu lệnh **theme:uninstall** Gỡ cài đặt theme hay các themes trong ứng dụng
+Gỡ cài đặt theme hay các themes trong ứng dụng
 
 **Usage:**
 ```

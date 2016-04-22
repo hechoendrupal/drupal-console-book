@@ -1,5 +1,5 @@
 # rest:enable
-Câu lệnh **rest:enable** Bật một rest resource cho ứng dụng
+Bật một rest resource cho ứng dụng
 
 **Usage:**
 ```

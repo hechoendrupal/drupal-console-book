@@ -1,5 +1,5 @@
 # config:delete
-Câu lệnh **config:delete** Delete configuration
+Delete configuration
 
 **Usage:**
 ```

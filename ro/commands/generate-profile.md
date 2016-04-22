@@ -1,5 +1,5 @@
 # generate:profile
-**generate:profile** comanda Generate a profile.
+Generate a profile.
 
 **Folosire:**
 ```

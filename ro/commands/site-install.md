@@ -1,5 +1,5 @@
 # site:install
-**site:install** comanda Instalează un proiect Drupal
+Instalează un proiect Drupal
 
 **Folosire:**
 ```

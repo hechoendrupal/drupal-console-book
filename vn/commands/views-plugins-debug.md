@@ -1,5 +1,5 @@
 # views:plugins:debug
-Câu lệnh **views:plugins:debug** Display current views plugins for the application
+Display current views plugins for the application
 
 **Usage:**
 ```

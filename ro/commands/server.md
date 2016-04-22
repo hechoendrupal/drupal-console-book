@@ -1,5 +1,5 @@
 # server
-**server** comanda Runs PHP built-in web server
+Runs PHP built-in web server
 
 **Folosire:**
 ```

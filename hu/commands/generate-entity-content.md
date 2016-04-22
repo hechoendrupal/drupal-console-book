@@ -1,5 +1,5 @@
 # generate:entity:content
-**generate:entity:content** parancs Új tartalom entitás létrehozása
+Új tartalom entitás létrehozása
 
 **Használat:**
 ```

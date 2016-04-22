@@ -1,5 +1,5 @@
 # config:import:single
-The **config:import:single** command Import the selected configuration.
+Import the selected configuration.
 
 **Usage:**
 ```

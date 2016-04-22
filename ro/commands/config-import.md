@@ -1,5 +1,5 @@
 # config:import
-**config:import** comanda Importă configurarea pentru aplicația curentă.
+Importă configurarea pentru aplicația curentă.
 
 **Folosire:**
 ```

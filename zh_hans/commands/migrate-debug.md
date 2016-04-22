@@ -1,5 +1,5 @@
 # migrate:debug
-**migrate:debug** 命令 显示当前可用迁移
+显示当前可用迁移
 
 **用法:**
 ```

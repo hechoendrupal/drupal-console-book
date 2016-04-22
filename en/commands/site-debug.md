@@ -1,5 +1,5 @@
 # site:debug
-The **site:debug** command List all known local and remote sites.
+List all known local and remote sites.
 
 **Usage:**
 ```

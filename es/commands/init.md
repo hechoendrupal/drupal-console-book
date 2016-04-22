@@ -1,5 +1,5 @@
 # init
-El comando **init** commands.init.description
+commands.init.description
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # site:new
-The **site:new** command Create a new Drupal project
+Create a new Drupal project
 
 **Usage:**
 ```

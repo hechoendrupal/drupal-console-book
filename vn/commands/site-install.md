@@ -1,5 +1,5 @@
 # site:install
-Câu lệnh **site:install** Cài đặt một dự án Drupal
+Cài đặt một dự án Drupal
 
 **Usage:**
 ```

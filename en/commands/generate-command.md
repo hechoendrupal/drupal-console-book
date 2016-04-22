@@ -1,5 +1,5 @@
 # generate:command
-The **generate:command** command Generate commands for the console.
+Generate commands for the console.
 
 **Usage:**
 ```

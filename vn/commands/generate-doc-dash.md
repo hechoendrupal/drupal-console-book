@@ -1,5 +1,5 @@
 # generate:doc:dash
-Câu lệnh **generate:doc:dash** Tạo gói DrupalConsole.docset cho Dash
+Tạo gói DrupalConsole.docset cho Dash
 
 **Usage:**
 ```

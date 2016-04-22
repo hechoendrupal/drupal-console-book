@@ -1,5 +1,5 @@
 # database:dump
-Câu lệnh **database:dump** Dump cấu trúc và nội dung của 1 cơ sở dữ liệu
+Dump cấu trúc và nội dung của 1 cơ sở dữ liệu
 
 **Usage:**
 ```

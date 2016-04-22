@@ -1,5 +1,5 @@
 # config:import
-**config:import** 命令 导入配置
+导入配置
 
 **用法:**
 ```

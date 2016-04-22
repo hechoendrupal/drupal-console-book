@@ -1,5 +1,5 @@
 # check
-Câu lệnh **check** commands.check.description
+commands.check.description
 
 **Usage:**
 ```

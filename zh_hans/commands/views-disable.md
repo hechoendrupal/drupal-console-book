@@ -1,5 +1,5 @@
 # views:disable
-**views:disable** 命令 停启视图
+停启视图
 
 **用法:**
 ```

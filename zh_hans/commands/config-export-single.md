@@ -1,5 +1,5 @@
 # config:export:single
-**config:export:single** 命令 导出单个配置
+导出单个配置
 
 **用法:**
 ```

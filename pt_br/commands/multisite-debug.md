@@ -1,5 +1,5 @@
 # multisite:debug
-O **multisite:debug** comando List all multisites available in system
+List all multisites available in system
 
 **Uso:**
 ```

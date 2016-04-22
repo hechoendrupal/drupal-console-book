@@ -1,5 +1,5 @@
 # migrate:execute
-**migrate:execute** comanda Execută o migraţie disponibilă pentru aplicaţie
+Execută o migraţie disponibilă pentru aplicaţie
 
 **Folosire:**
 ```

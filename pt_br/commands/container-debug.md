@@ -1,5 +1,5 @@
 # container:debug
-O **container:debug** comando Exibe serviços atuais para um aplicativo.
+Exibe serviços atuais para um aplicativo.
 
 **Uso:**
 ```

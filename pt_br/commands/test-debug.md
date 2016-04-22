@@ -1,5 +1,5 @@
 # test:debug
-O **test:debug** comando Listar testes unitários disponíveis para a aplicação.
+Listar testes unitários disponíveis para a aplicação.
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # site:mode
-The **site:mode** command Switch system performance configuration
+Switch system performance configuration
 
 **Usage:**
 ```

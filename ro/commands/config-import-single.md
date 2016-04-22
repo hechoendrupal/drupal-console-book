@@ -1,5 +1,5 @@
 # config:import:single
-**config:import:single** comanda Import the selected configuration.
+Import the selected configuration.
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # settings:set
-**settings:set** parancs Change a specific setting value in DrupalConsole config file
+Change a specific setting value in DrupalConsole config file
 
 **Használat:**
 ```

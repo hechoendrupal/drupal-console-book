@@ -1,5 +1,5 @@
 # cache:rebuild
-Câu lệnh **cache:rebuild** Xây dựng lại và làm sạch tất cả cache trên trang.
+Xây dựng lại và làm sạch tất cả cache trên trang.
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # generate:plugin:fieldwidget
-**generate:plugin:fieldwidget** 命令 生成字段 Widget 插件
+生成字段 Widget 插件
 
 **用法:**
 ```

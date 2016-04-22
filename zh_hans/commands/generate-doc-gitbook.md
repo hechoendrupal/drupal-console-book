@@ -1,5 +1,5 @@
 # generate:doc:gitbook
-**generate:doc:gitbook** 命令 生成命令文档
+生成命令文档
 
 **用法:**
 ```

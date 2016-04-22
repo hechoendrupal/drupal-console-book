@@ -1,5 +1,5 @@
 # generate:doc:gitbook
-**generate:doc:gitbook** parancs Dokumentáció létrehozása a parancsokhoz
+Dokumentáció létrehozása a parancsokhoz
 
 **Használat:**
 ```

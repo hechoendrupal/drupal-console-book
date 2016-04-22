@@ -1,5 +1,5 @@
 # database:drop
-O **database:drop** comando Drop all tables in a given database.
+Drop all tables in a given database.
 
 **Uso:**
 ```

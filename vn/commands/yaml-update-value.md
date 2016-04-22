@@ -1,5 +1,5 @@
 # yaml:update:value
-Câu lệnh **yaml:update:value** Cập nhật một giá trị cho một key cụ thể trong file YAML.
+Cập nhật một giá trị cho một key cụ thể trong file YAML.
 
 **Usage:**
 ```

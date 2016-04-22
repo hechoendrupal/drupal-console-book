@@ -1,5 +1,5 @@
 # self-update
-**self-update** parancs Projekt frissítése a legújabb verzióra.
+Projekt frissítése a legújabb verzióra.
 
 **Használat:**
 ```

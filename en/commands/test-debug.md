@@ -1,5 +1,5 @@
 # test:debug
-The **test:debug** command List Test Units available for the application.
+List Test Units available for the application.
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # update:debug
-**update:debug** comanda Afişează actualizările disponibile pentru aplicaţie.
+Afişează actualizările disponibile pentru aplicaţie.
 
 **Folosire:**
 ```

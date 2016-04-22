@@ -1,5 +1,5 @@
 # database:client
-**database:client** 命令 运行数据库客户端
+运行数据库客户端
 
 **用法:**
 ```

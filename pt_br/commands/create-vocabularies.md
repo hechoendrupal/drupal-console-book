@@ -1,5 +1,5 @@
 # create:vocabularies
-O **create:vocabularies** comando Create dummy vocabularies for your Drupal 8 application.
+Create dummy vocabularies for your Drupal 8 application.
 
 **Uso:**
 ```

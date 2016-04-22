@@ -1,5 +1,5 @@
 # config:diff
-**config:diff** comanda Ouput configuration items that are different in active configuration compared with a directory.
+Ouput configuration items that are different in active configuration compared with a directory.
 
 **Folosire:**
 ```

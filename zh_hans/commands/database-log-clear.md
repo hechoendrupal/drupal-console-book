@@ -1,5 +1,5 @@
 # database:log:clear
-**database:log:clear** 命令 清除事件日志
+清除事件日志
 
 **用法:**
 ```

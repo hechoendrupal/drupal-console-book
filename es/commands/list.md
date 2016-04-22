@@ -1,5 +1,5 @@
 # list
-El comando **list** Enlista comandos
+Enlista comandos
 
 **Uso:**
 ```

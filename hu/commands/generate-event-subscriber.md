@@ -1,5 +1,5 @@
 # generate:event:subscriber
-**generate:event:subscriber** parancs Esemény-előfizető létrehozása
+Esemény-előfizető létrehozása
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # generate:routesubscriber
-Câu lệnh **generate:routesubscriber** Tạo một RouteSubscriber
+Tạo một RouteSubscriber
 
 **Usage:**
 ```

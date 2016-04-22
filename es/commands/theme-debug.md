@@ -1,5 +1,5 @@
 # theme:debug
-El comando **theme:debug** Despliega los temas actuales para la aplicación
+Despliega los temas actuales para la aplicación
 
 **Uso:**
 ```

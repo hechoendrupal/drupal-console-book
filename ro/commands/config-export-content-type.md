@@ -1,5 +1,5 @@
 # config:export:content:type
-**config:export:content:type** comanda Exportă un anumit tip de conținut și câmpurile aferente.
+Exportă un anumit tip de conținut și câmpurile aferente.
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # database:restore
-**database:restore** 命令 还原数据库
+还原数据库
 
 **用法:**
 ```

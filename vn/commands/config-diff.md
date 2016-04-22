@@ -1,5 +1,5 @@
 # config:diff
-Câu lệnh **config:diff** Ouput configuration items that are different in active configuration compared with a directory.
+Ouput configuration items that are different in active configuration compared with a directory.
 
 **Usage:**
 ```

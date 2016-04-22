@@ -1,5 +1,5 @@
 # update:execute
-El comando **update:execute** Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos
+Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos
 
 **Uso:**
 ```

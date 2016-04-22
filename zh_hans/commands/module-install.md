@@ -1,5 +1,5 @@
 # module:install
-**module:install** 命令 安装模块
+安装模块
 
 **用法:**
 ```

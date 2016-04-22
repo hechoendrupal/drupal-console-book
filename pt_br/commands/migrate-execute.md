@@ -1,5 +1,5 @@
 # migrate:execute
-O **migrate:execute** comando Execute a migration available for application
+Execute a migration available for application
 
 **Uso:**
 ```

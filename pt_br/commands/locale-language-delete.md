@@ -1,5 +1,5 @@
 # locale:language:delete
-O **locale:language:delete** comando DElete a language to be supported by your site
+DElete a language to be supported by your site
 
 **Uso:**
 ```

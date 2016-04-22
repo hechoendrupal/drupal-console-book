@@ -1,5 +1,5 @@
 # cache:rebuild
-O **cache:rebuild** comando Reconstruir e limpar todos os caches do site.
+Reconstruir e limpar todos os caches do site.
 
 **Uso:**
 ```

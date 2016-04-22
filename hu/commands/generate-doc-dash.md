@@ -1,5 +1,5 @@
 # generate:doc:dash
-**generate:doc:dash** parancs DrupalConsole.docset csomag létrehozása a Dash számára
+DrupalConsole.docset csomag létrehozása a Dash számára
 
 **Használat:**
 ```

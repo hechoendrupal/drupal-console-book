@@ -1,5 +1,5 @@
 # site:status
-**site:status** 命令 当前Drupal安装状态
+当前Drupal安装状态
 
 **用法:**
 ```

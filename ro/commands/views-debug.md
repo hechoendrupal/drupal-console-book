@@ -1,5 +1,5 @@
 # views:debug
-**views:debug** comanda Afişează resursele curente ale views-ului pentru aplicație.
+Afişează resursele curente ale views-ului pentru aplicație.
 
 **Folosire:**
 ```

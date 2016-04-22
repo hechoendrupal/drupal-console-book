@@ -1,5 +1,5 @@
 # generate:authentication:provider
-**generate:authentication:provider** comanda Generează un "Authentication Provider"
+Generează un "Authentication Provider"
 
 **Folosire:**
 ```

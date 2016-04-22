@@ -1,5 +1,5 @@
 # state:delete
-**state:delete** कमांड Delete State
+Delete State
 
 **प्रयोग:**
 ```

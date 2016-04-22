@@ -1,5 +1,5 @@
 # test:run
-**test:run** comanda Execută un test dintre testele disponibile in aplicaţie.
+Execută un test dintre testele disponibile in aplicaţie.
 
 **Folosire:**
 ```

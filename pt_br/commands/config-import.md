@@ -1,5 +1,5 @@
 # config:import
-O **config:import** comando Importar configuração do estado atual da aplicação.
+Importar configuração do estado atual da aplicação.
 
 **Uso:**
 ```

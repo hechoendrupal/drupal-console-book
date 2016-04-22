@@ -1,5 +1,5 @@
 # generate:doc:data
-**generate:doc:data** 命令 commands.generate.doc.data.description
+commands.generate.doc.data.description
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # generate:plugin:views:field
-O **generate:plugin:views:field** comando Generate a custom plugin view field.
+Generate a custom plugin view field.
 
 **Uso:**
 ```

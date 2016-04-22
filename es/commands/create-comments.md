@@ -1,5 +1,5 @@
 # create:comments
-El comando **create:comments** Crear comentarios de prueba para tu aplicación en Drupal 8.
+Crear comentarios de prueba para tu aplicación en Drupal 8.
 
 **Uso:**
 ```

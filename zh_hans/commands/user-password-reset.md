@@ -1,5 +1,5 @@
 # user:password:reset
-**user:password:reset** 命令 为指定用户重设密码.
+为指定用户重设密码.
 
 **用法:**
 ```

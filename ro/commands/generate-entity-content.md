@@ -1,5 +1,5 @@
 # generate:entity:content
-**generate:entity:content** comanda Generează o entitate de conținut nouă
+Generează o entitate de conținut nouă
 
 **Folosire:**
 ```

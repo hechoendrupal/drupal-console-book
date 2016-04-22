@@ -1,5 +1,5 @@
 # generate:command
-O **generate:command** comando Cria comandos via console.
+Cria comandos via console.
 
 **Uso:**
 ```

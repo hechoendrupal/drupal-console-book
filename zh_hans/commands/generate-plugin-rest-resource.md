@@ -1,5 +1,5 @@
 # generate:plugin:rest:resource
-**generate:plugin:rest:resource** 命令 生成 REST资源插件
+生成 REST资源插件
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # config:delete
-O **config:delete** comando Delete configuration
+Delete configuration
 
 **Uso:**
 ```

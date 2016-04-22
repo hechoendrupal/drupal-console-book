@@ -1,5 +1,5 @@
 # generate:plugin:type:yaml
-Câu lệnh **generate:plugin:type:yaml** Tạo một plugin với Yaml discovery
+Tạo một plugin với Yaml discovery
 
 **Usage:**
 ```

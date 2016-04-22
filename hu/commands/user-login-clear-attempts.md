@@ -1,5 +1,5 @@
 # user:login:clear:attempts
-**user:login:clear:attempts** parancs Egy fiók sikertelen bejelentkezési kísérleteinek törlése.
+Egy fiók sikertelen bejelentkezési kísérleteinek törlése.
 
 **Használat:**
 ```

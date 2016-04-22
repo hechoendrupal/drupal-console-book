@@ -1,5 +1,5 @@
 # self-update
-Câu lệnh **self-update** Cập nhật dự án lên phiên bản mới nhất.
+Cập nhật dự án lên phiên bản mới nhất.
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # database:client
-The **database:client** command Launch a DB client if it's available
+Launch a DB client if it's available
 
 **Usage:**
 ```

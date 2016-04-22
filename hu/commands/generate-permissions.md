@@ -1,5 +1,5 @@
 # generate:permissions
-**generate:permissions** parancs Modul engedélyeinek létrehozása
+Modul engedélyeinek létrehozása
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # yaml:update:key
-O **yaml:update:key** comando Substituir a chave YAML no arquivo YAML.
+Substituir a chave YAML no arquivo YAML.
 
 **Uso:**
 ```

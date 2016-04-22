@@ -1,5 +1,5 @@
 # generate:doc:dash
-El comando **generate:doc:dash** Generar el paquete DrupalConsole.docset para Dash
+Generar el paquete DrupalConsole.docset para Dash
 
 **Uso:**
 ```

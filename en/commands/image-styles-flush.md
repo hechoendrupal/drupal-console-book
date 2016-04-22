@@ -1,5 +1,5 @@
 # image:styles:flush
-The **image:styles:flush** command Execute flush function by image style or execute all flush images styles
+Execute flush function by image style or execute all flush images styles
 
 **Usage:**
 ```

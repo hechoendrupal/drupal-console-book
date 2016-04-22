@@ -1,5 +1,5 @@
 # database:restore
-O **database:restore** comando Restaurar a estrutura e conteúdo das bases de dados e tabelas do MySQL
+Restaurar a estrutura e conteúdo das bases de dados e tabelas do MySQL
 
 **Uso:**
 ```

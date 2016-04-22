@@ -1,5 +1,5 @@
 # config:export:view
-**config:export:view** comanda Exportă un view în format YAML în cadrul unui modul pentru a fi reutilizat într-un alt website.
+Exportă un view în format YAML în cadrul unui modul pentru a fi reutilizat într-un alt website.
 
 **Folosire:**
 ```

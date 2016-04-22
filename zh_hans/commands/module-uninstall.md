@@ -1,5 +1,5 @@
 # module:uninstall
-**module:uninstall** 命令 卸载模块
+卸载模块
 
 **用法:**
 ```

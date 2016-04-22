@@ -1,5 +1,5 @@
 # generate:plugin:rest:resource
-**generate:plugin:rest:resource** parancs REST-erőforrás bővítmény létrehozása
+REST-erőforrás bővítmény létrehozása
 
 **Használat:**
 ```

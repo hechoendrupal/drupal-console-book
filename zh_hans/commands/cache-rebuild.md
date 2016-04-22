@@ -1,5 +1,5 @@
 # cache:rebuild
-**cache:rebuild** 命令 重建缓存
+重建缓存
 
 **用法:**
 ```

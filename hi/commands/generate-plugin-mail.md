@@ -1,5 +1,5 @@
 # generate:plugin:mail
-**generate:plugin:mail** कमांड Generate a plugin mail
+Generate a plugin mail
 
 **प्रयोग:**
 ```

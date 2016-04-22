@@ -1,5 +1,5 @@
 # check
-**check** parancs commands.check.description
+commands.check.description
 
 **Használat:**
 ```

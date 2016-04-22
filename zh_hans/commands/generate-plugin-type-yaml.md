@@ -1,5 +1,5 @@
 # generate:plugin:type:yaml
-**generate:plugin:type:yaml** 命令 生成一个有识别Yaml能力的插件类别
+生成一个有识别Yaml能力的插件类别
 
 **用法:**
 ```

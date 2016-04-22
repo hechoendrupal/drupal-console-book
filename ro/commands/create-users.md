@@ -1,5 +1,5 @@
 # create:users
-**create:users** comanda Create dummy users for your Drupal 8 application.
+Create dummy users for your Drupal 8 application.
 
 **Folosire:**
 ```

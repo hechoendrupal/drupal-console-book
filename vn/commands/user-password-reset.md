@@ -1,5 +1,5 @@
 # user:password:reset
-Câu lệnh **user:password:reset** Đặt lại mật khẩu cho một người dùng cụ thể.
+Đặt lại mật khẩu cho một người dùng cụ thể.
 
 **Usage:**
 ```

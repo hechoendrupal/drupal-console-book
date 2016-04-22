@@ -1,5 +1,5 @@
 # module:download
-Câu lệnh **module:download** Tải module hoặc các modules trong ứng dụng
+Tải module hoặc các modules trong ứng dụng
 
 **Usage:**
 ```

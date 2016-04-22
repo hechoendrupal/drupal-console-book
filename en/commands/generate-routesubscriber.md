@@ -1,5 +1,5 @@
 # generate:routesubscriber
-The **generate:routesubscriber** command Generate a RouteSubscriber
+Generate a RouteSubscriber
 
 **Usage:**
 ```

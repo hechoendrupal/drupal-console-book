@@ -1,5 +1,5 @@
 # translation:sync
-El comando **translation:sync** Sincronizar archivos de traducción
+Sincronizar archivos de traducción
 
 **Uso:**
 ```

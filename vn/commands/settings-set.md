@@ -1,5 +1,5 @@
 # settings:set
-Câu lệnh **settings:set** Change a specific setting value in DrupalConsole config file
+Change a specific setting value in DrupalConsole config file
 
 **Usage:**
 ```

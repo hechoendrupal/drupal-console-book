@@ -1,5 +1,5 @@
 # test:debug
-Câu lệnh **test:debug** Danh sách các đơn vị thử nghiệm có sẵn của ứng dụng.
+Danh sách các đơn vị thử nghiệm có sẵn của ứng dụng.
 
 **Usage:**
 ```

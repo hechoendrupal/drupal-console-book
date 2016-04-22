@@ -1,5 +1,5 @@
 # config:settings:debug
-El comando **config:settings:debug** Muestra el par clave:valor actual en el archivo de configuración.
+Muestra el par clave:valor actual en el archivo de configuración.
 
 **Uso:**
 ```

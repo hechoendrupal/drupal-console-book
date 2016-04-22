@@ -1,5 +1,5 @@
 # views:enable
-El comando **views:enable** Habilita una vista
+Habilita una vista
 
 **Uso:**
 ```

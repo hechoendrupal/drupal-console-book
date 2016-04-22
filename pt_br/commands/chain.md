@@ -1,5 +1,5 @@
 # chain
-O **chain** comando Execução de comandos em sequência
+Execução de comandos em sequência
 
 **Uso:**
 ```

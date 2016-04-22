@@ -1,5 +1,5 @@
 # generate:plugin:field
-Câu lệnh **generate:plugin:field** Tạo field type, widget và formatter plugins.
+Tạo field type, widget và formatter plugins.
 
 **Usage:**
 ```

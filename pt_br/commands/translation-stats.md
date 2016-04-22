@@ -1,5 +1,5 @@
 # translation:stats
-O **translation:stats** comando Generate translate stats
+Generate translate stats
 
 **Uso:**
 ```

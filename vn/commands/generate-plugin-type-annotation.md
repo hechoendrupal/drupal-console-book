@@ -1,5 +1,5 @@
 # generate:plugin:type:annotation
-Câu lệnh **generate:plugin:type:annotation** Tạo một kiểu plugin với annotation discovery
+Tạo một kiểu plugin với annotation discovery
 
 **Usage:**
 ```

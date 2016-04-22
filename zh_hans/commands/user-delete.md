@@ -1,5 +1,5 @@
 # user:delete
-**user:delete** 命令 删除网站用户(s)
+删除网站用户(s)
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # user:login:clear:attempts
-O **user:login:clear:attempts** comando Limpar tentativas falhas de login para um usuário.
+Limpar tentativas falhas de login para um usuário.
 
 **Uso:**
 ```

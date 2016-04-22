@@ -1,5 +1,5 @@
 # locale:translation:status
-**locale:translation:status** 命令 列出可用翻译更新
+列出可用翻译更新
 
 **用法:**
 ```

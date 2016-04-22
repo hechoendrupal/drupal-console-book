@@ -1,5 +1,5 @@
 # init
-Câu lệnh **init** commands.init.description
+commands.init.description
 
 **Usage:**
 ```

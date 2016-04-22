@@ -1,5 +1,5 @@
 # generate:permissions
-Câu lệnh **generate:permissions** Tạo module permissions
+Tạo module permissions
 
 **Usage:**
 ```

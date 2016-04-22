@@ -1,5 +1,5 @@
 # site:maintenance
-**site:maintenance** comanda Activează modul de mentenanţă
+Activează modul de mentenanţă
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # plugin:debug
-**plugin:debug** parancs commands.plugin.debug.description
+commands.plugin.debug.description
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # generate:module
-**generate:module** comanda Generează un modul.
+Generează un modul.
 
 **Folosire:**
 ```

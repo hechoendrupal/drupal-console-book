@@ -1,5 +1,5 @@
 # chain
-Câu lệnh **chain** Thi hành chuỗi câu lệnh
+Thi hành chuỗi câu lệnh
 
 **Usage:**
 ```

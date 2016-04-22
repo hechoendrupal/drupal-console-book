@@ -1,5 +1,5 @@
 # config:override
-O **config:override** comando Sobrescrever valor de configuração ativa.
+Sobrescrever valor de configuração ativa.
 
 **Uso:**
 ```

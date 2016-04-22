@@ -1,5 +1,5 @@
 # site:maintenance
-**site:maintenance** 命令 切换网站到维护模式
+切换网站到维护模式
 
 **用法:**
 ```

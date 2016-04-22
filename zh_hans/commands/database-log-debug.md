@@ -1,5 +1,5 @@
 # database:log:debug
-**database:log:debug** 命令 显示网站日志事件(s)
+显示网站日志事件(s)
 
 **用法:**
 ```

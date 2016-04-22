@@ -1,5 +1,5 @@
 # create:nodes
-O **create:nodes** comando Create dummy nodes for your Drupal 8 application.
+Create dummy nodes for your Drupal 8 application.
 
 **Uso:**
 ```

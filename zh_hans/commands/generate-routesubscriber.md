@@ -1,5 +1,5 @@
 # generate:routesubscriber
-**generate:routesubscriber** 命令 生成一个路径订阅
+生成一个路径订阅
 
 **用法:**
 ```

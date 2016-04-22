@@ -1,5 +1,5 @@
 # generate:doc:data
-**generate:doc:data** parancs commands.generate.doc.data.description
+commands.generate.doc.data.description
 
 **Használat:**
 ```

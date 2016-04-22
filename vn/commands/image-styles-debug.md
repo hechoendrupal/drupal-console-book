@@ -1,5 +1,5 @@
 # image:styles:debug
-Câu lệnh **image:styles:debug** List image styles on the site
+List image styles on the site
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # generate:controller
-The **generate:controller** command Generate & Register a controller
+Generate & Register a controller
 
 **Usage:**
 ```

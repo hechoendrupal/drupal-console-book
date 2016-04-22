@@ -1,5 +1,5 @@
 # theme:debug
-The **theme:debug** command Displays current themes for the application
+Displays current themes for the application
 
 **Usage:**
 ```

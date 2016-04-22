@@ -1,5 +1,5 @@
 # generate:theme
-El comando **generate:theme** Genera un tema.
+Genera un tema.
 
 **Uso:**
 ```

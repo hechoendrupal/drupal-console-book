@@ -1,5 +1,5 @@
 # config:diff
-El comando **config:diff** Muestra los items de configuración que son diferentes en la configuración activa comparada con un directorio.
+Muestra los items de configuración que son diferentes en la configuración activa comparada con un directorio.
 
 **Uso:**
 ```

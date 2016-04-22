@@ -1,5 +1,5 @@
 # generate:form
-**generate:form** 命令 生成新 "FormBase"
+生成新 "FormBase"
 
 **用法:**
 ```

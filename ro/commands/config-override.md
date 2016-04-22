@@ -1,5 +1,5 @@
 # config:override
-**config:override** comanda Suprascrie valoarea de configurare în configurarea activă.
+Suprascrie valoarea de configurare în configurarea activă.
 
 **Folosire:**
 ```

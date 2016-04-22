@@ -1,5 +1,5 @@
 # user:delete
-**user:delete** comanda Delete users for the application
+Delete users for the application
 
 **Folosire:**
 ```

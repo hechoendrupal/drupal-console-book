@@ -1,5 +1,5 @@
 # generate:theme
-**generate:theme** comanda Generează o temă.
+Generează o temă.
 
 **Folosire:**
 ```

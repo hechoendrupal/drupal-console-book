@@ -1,5 +1,5 @@
 # migrate:debug
-**migrate:debug** comanda Afisează migrațiunea curentă accesibilă pentru aplicație
+Afisează migrațiunea curentă accesibilă pentru aplicație
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # test:debug
-El comando **test:debug** Lista los tests unitarios disponibles para la aplicación.
+Lista los tests unitarios disponibles para la aplicación.
 
 **Uso:**
 ```

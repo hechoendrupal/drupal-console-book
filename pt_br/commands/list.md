@@ -1,5 +1,5 @@
 # list
-O **list** comando Lists commands22
+Lists commands22
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # create:users
-**create:users** parancs Tesztfelhasználók létrehozása egy Drupal 8 alkalmazáshoz.
+Tesztfelhasználók létrehozása egy Drupal 8 alkalmazáshoz.
 
 **Használat:**
 ```

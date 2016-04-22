@@ -1,5 +1,5 @@
 # theme:install
-O **theme:install** comando Instalar tema(s) na aplicação
+Instalar tema(s) na aplicação
 
 **Uso:**
 ```

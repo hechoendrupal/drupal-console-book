@@ -1,5 +1,5 @@
 # user:delete
-El comando **user:delete** Eliminar usuarios del sitio
+Eliminar usuarios del sitio
 
 **Uso:**
 ```

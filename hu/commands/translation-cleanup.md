@@ -1,5 +1,5 @@
 # translation:cleanup
-**translation:cleanup** parancs Clean up translation files
+Clean up translation files
 
 **Használat:**
 ```

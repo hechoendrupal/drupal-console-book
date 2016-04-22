@@ -1,5 +1,5 @@
 # site:install
-The **site:install** command Install a Drupal project
+Install a Drupal project
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # generate:service
-O **generate:service** comando Criar serviço
+Criar serviço
 
 **Uso:**
 ```

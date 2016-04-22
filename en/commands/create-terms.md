@@ -1,5 +1,5 @@
 # create:terms
-The **create:terms** command Create dummy terms for your Drupal 8 application.
+Create dummy terms for your Drupal 8 application.
 
 **Usage:**
 ```

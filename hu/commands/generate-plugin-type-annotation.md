@@ -1,5 +1,5 @@
 # generate:plugin:type:annotation
-**generate:plugin:type:annotation** parancs Bővítménytípus létrehozása magyarázatészleléssel
+Bővítménytípus létrehozása magyarázatészleléssel
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # image:styles:flush
-El comando **image:styles:flush** Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
+Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # generate:profile
-**generate:profile** parancs Profil létrehozása.
+Profil létrehozása.
 
 **Használat:**
 ```

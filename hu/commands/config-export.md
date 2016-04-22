@@ -1,5 +1,5 @@
 # config:export
-**config:export** parancs Aktuális alkalmazáskonfiguráció exportálása.
+Aktuális alkalmazáskonfiguráció exportálása.
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # config:settings:debug
-**config:settings:debug** parancs A beállításfájl aktuális kulcs:érték beállításainak megjelenítése.
+A beállításfájl aktuális kulcs:érték beállításainak megjelenítése.
 
 **Használat:**
 ```

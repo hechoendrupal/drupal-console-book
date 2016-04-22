@@ -1,5 +1,5 @@
 # config:edit
-El comando **config:edit** Editar la configuración seleccionada.
+Editar la configuración seleccionada.
 
 **Uso:**
 ```

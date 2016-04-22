@@ -1,5 +1,5 @@
 # translation:stats
-El comando **translation:stats** Genera estadísticas de traducción
+Genera estadísticas de traducción
 
 **Uso:**
 ```

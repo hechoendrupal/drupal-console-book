@@ -1,5 +1,5 @@
 # generate:plugin:views:field
-**generate:plugin:views:field** 命令 生成一个定制的插件视窗域.
+生成一个定制的插件视窗域.
 
 **用法:**
 ```

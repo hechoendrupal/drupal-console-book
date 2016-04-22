@@ -1,5 +1,5 @@
 # create:comments
-**create:comments** parancs Create dummy comments for your Drupal 8 application.
+Create dummy comments for your Drupal 8 application.
 
 **Használat:**
 ```

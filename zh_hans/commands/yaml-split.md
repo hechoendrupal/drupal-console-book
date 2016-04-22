@@ -1,5 +1,5 @@
 # yaml:split
-**yaml:split** 命令 根据缩进分开YAML文件
+根据缩进分开YAML文件
 
 **用法:**
 ```

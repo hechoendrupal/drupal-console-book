@@ -1,5 +1,5 @@
 # translation:sync
-**translation:sync** parancs Sync translation files
+Sync translation files
 
 **Használat:**
 ```

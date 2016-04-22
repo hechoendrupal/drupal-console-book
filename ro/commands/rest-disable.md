@@ -1,5 +1,5 @@
 # rest:disable
-**rest:disable** comanda Dezactiveaza o resursă REST
+Dezactiveaza o resursă REST
 
 **Folosire:**
 ```

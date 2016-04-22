@@ -1,5 +1,5 @@
 # config:delete
-**config:delete** parancs Delete configuration
+Delete configuration
 
 **Használat:**
 ```

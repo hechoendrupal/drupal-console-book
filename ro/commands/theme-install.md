@@ -1,5 +1,5 @@
 # theme:install
-**theme:install** comanda Instalează tema sau temele în aplicație
+Instalează tema sau temele în aplicație
 
 **Folosire:**
 ```

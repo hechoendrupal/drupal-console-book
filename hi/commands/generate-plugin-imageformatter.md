@@ -1,5 +1,5 @@
 # generate:plugin:imageformatter
-**generate:plugin:imageformatter** कमांड छवि formatter प्लगिन उत्पन्न करें
+छवि formatter प्लगिन उत्पन्न करें
 
 **प्रयोग:**
 ```

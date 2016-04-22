@@ -1,5 +1,5 @@
 # create:vocabularies
-**create:vocabularies** 命令 生成词汇表
+生成词汇表
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # list
-**list** parancs A rendelkezésre álló parancsok listázása
+A rendelkezésre álló parancsok listázása
 
 **Használat:**
 ```

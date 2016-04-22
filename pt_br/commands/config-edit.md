@@ -1,5 +1,5 @@
 # config:edit
-O **config:edit** comando Edit the selected configuration.
+Edit the selected configuration.
 
 **Uso:**
 ```

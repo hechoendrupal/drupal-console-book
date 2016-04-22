@@ -1,5 +1,5 @@
 # views:plugins:debug
-O **views:plugins:debug** comando Display current views plugins for the application
+Display current views plugins for the application
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # generate:plugin:fieldformatter
-**generate:plugin:fieldformatter** parancs Mezőformázó bővítmény létrehozása
+Mezőformázó bővítmény létrehozása
 
 **Használat:**
 ```

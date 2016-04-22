@@ -1,5 +1,5 @@
 # update:debug
-**update:debug** parancs Az alkalmazás jelenleg elérhető frissítéseinek megjelenítése
+Az alkalmazás jelenleg elérhető frissítéseinek megjelenítése
 
 **Használat:**
 ```

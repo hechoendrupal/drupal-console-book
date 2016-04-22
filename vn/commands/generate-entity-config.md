@@ -1,5 +1,5 @@
 # generate:entity:config
-Câu lệnh **generate:entity:config** Tạo một config entity mới
+Tạo một config entity mới
 
 **Usage:**
 ```

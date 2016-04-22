@@ -1,5 +1,5 @@
 # test:run
-O **test:run** comando Executar testes unitários disponíveis para a aplicação
+Executar testes unitários disponíveis para a aplicação
 
 **Uso:**
 ```

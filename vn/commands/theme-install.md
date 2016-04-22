@@ -1,5 +1,5 @@
 # theme:install
-Câu lệnh **theme:install** Cài đặt theme hoặc các themes trong ứng dụng
+Cài đặt theme hoặc các themes trong ứng dụng
 
 **Usage:**
 ```

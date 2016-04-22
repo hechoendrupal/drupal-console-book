@@ -1,5 +1,5 @@
 # module:debug
-**module:debug** parancs Az alkalmazáshoz elérhető aktuális modulok megjelenítése
+Az alkalmazáshoz elérhető aktuális modulok megjelenítése
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # user:password:hash
-**user:password:hash** 命令 从文本格式密码中生成哈希码
+从文本格式密码中生成哈希码
 
 **用法:**
 ```

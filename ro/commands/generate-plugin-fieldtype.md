@@ -1,5 +1,5 @@
 # generate:plugin:fieldtype
-**generate:plugin:fieldtype** comanda Generează extensia de tip câmp.
+Generează extensia de tip câmp.
 
 **Folosire:**
 ```

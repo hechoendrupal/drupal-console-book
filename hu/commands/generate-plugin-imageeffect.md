@@ -1,5 +1,5 @@
 # generate:plugin:imageeffect
-**generate:plugin:imageeffect** parancs Képhatás bővítmény létrehozása
+Képhatás bővítmény létrehozása
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # module:debug
-El comando **module:debug** Muestra los módulos actualmente disponibles para la aplicación
+Muestra los módulos actualmente disponibles para la aplicación
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # generate:plugin:fieldformatter
-Câu lệnh **generate:plugin:fieldformatter** Tạo một formatter plugin.
+Tạo một formatter plugin.
 
 **Usage:**
 ```

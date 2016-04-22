@@ -1,5 +1,5 @@
 # database:log:clear
-**database:log:clear** comanda Eliminați evenimentele din tabelul DBLog, sunt disponibile filtre
+Eliminați evenimentele din tabelul DBLog, sunt disponibile filtre
 
 **Folosire:**
 ```

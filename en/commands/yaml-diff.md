@@ -1,5 +1,5 @@
 # yaml:diff
-The **yaml:diff** command Compare two YAML files in order to find differences between them.
+Compare two YAML files in order to find differences between them.
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # generate:authentication:provider
-El comando **generate:authentication:provider** Generar un Proveedor de Autenticación
+Generar un Proveedor de Autenticación
 
 **Uso:**
 ```

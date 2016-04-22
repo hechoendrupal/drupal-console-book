@@ -1,5 +1,5 @@
 # database:dump
-**database:dump** comanda Descărcați structura și conținutul bazei de date MySQL și tabelele acesteia
+Descărcați structura și conținutul bazei de date MySQL și tabelele acesteia
 
 **Folosire:**
 ```

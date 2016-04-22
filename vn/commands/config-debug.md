@@ -1,5 +1,5 @@
 # config:debug
-Câu lệnh **config:debug** Hiển thị cấu hình hiện tại
+Hiển thị cấu hình hiện tại
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # create:vocabularies
-Câu lệnh **create:vocabularies** Tạo dummy vocabularies cho ứng dụng Drupal 8 của bạn.
+Tạo dummy vocabularies cho ứng dụng Drupal 8 của bạn.
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # update:debug
-O **update:debug** comando Exibir atualizações necessários para a aplicação
+Exibir atualizações necessários para a aplicação
 
 **Uso:**
 ```

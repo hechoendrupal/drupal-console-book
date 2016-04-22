@@ -1,5 +1,5 @@
 # generate:plugin:fieldwidget
-O **generate:plugin:fieldwidget** comando Generate field widget plugin.
+Generate field widget plugin.
 
 **Uso:**
 ```

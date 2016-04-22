@@ -1,5 +1,5 @@
 # database:log:debug
-O **database:log:debug** comando Exibir eventos de log atuais do aplicativo
+Exibir eventos de log atuais do aplicativo
 
 **Uso:**
 ```

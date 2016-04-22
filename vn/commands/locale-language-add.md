@@ -1,5 +1,5 @@
 # locale:language:add
-Câu lệnh **locale:language:add** Thêm một ngôn ngữ được hỗ trợ bởi site của bạn
+Thêm một ngôn ngữ được hỗ trợ bởi site của bạn
 
 **Usage:**
 ```

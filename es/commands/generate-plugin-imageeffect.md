@@ -1,5 +1,5 @@
 # generate:plugin:imageeffect
-El comando **generate:plugin:imageeffect** Genera un plugin de efecto de imagen.
+Genera un plugin de efecto de imagen.
 
 **Uso:**
 ```

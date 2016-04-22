@@ -1,5 +1,5 @@
 # config:export
-Câu lệnh **config:export** Xuất cấu hình ứng dụng hiện tại
+Xuất cấu hình ứng dụng hiện tại
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # init
-**init** comanda commands.init.description
+commands.init.description
 
 **Folosire:**
 ```

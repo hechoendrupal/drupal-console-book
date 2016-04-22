@@ -1,5 +1,5 @@
 # translation:pending
-**translation:pending** 命令 未翻译检测
+未翻译检测
 
 **用法:**
 ```

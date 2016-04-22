@@ -1,5 +1,5 @@
 # container:debug
-**container:debug** parancs Egy alkalmazás aktuális szolgáltatásait jeleníti meg.
+Egy alkalmazás aktuális szolgáltatásait jeleníti meg.
 
 **Használat:**
 ```

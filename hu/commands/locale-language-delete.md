@@ -1,5 +1,5 @@
 # locale:language:delete
-**locale:language:delete** parancs A webhely által támogatott nyelv törlése
+A webhely által támogatott nyelv törlése
 
 **Használat:**
 ```

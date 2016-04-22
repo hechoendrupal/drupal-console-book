@@ -1,5 +1,5 @@
 # generate:entity:bundle
-El comando **generate:entity:bundle** Genera un nuevo tipo de contenido (nodo / bundle de entidad)
+Genera un nuevo tipo de contenido (nodo / bundle de entidad)
 
 **Uso:**
 ```

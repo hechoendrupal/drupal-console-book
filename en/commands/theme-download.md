@@ -1,5 +1,5 @@
 # theme:download
-The **theme:download** command Download theme in application
+Download theme in application
 
 **Usage:**
 ```

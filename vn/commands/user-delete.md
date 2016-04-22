@@ -1,5 +1,5 @@
 # user:delete
-Câu lệnh **user:delete** Xóa người dùng cho ứng dụng
+Xóa người dùng cho ứng dụng
 
 **Usage:**
 ```

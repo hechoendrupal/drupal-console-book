@@ -1,5 +1,5 @@
 # yaml:update:value
-**yaml:update:value** comanda Actualizează valoarea unei chei specifice într-un fişier YAML.
+Actualizează valoarea unei chei specifice într-un fişier YAML.
 
 **Folosire:**
 ```

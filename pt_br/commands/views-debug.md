@@ -1,5 +1,5 @@
 # views:debug
-O **views:debug** comando Exibir informações sobre a View atual
+Exibir informações sobre a View atual
 
 **Uso:**
 ```

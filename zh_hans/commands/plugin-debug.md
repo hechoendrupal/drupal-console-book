@@ -1,5 +1,5 @@
 # plugin:debug
-**plugin:debug** 命令 commands.plugin.debug.description
+commands.plugin.debug.description
 
 **用法:**
 ```

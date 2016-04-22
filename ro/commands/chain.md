@@ -1,5 +1,5 @@
 # chain
-**chain** comanda Execuție comandă înlănțuită
+Execuție comandă înlănțuită
 
 **Folosire:**
 ```

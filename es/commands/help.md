@@ -1,5 +1,5 @@
 # help
-El comando **help** Muestra ayuda para un comando dado
+Muestra ayuda para un comando dado
 
 **Uso:**
 ```

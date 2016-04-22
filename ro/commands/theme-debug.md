@@ -1,5 +1,5 @@
 # theme:debug
-**theme:debug** comanda Afișează temele curente pentru aplicație
+Afișează temele curente pentru aplicație
 
 **Folosire:**
 ```

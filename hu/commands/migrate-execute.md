@@ -1,5 +1,5 @@
 # migrate:execute
-**migrate:execute** parancs Az alkalmazáshoz elérhető költöztetés végrehajtása
+Az alkalmazáshoz elérhető költöztetés végrehajtása
 
 **Használat:**
 ```

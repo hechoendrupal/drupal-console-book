@@ -1,5 +1,5 @@
 # module:install
-O **module:install** comando Install module or modules in the application
+Install module or modules in the application
 
 **Uso:**
 ```

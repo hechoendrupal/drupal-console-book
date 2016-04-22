@@ -1,5 +1,5 @@
 # database:client
-El comando **database:client** Lanzar un cliente de base de datos si está disponible
+Lanzar un cliente de base de datos si está disponible
 
 **Uso:**
 ```

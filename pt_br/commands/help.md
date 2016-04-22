@@ -1,5 +1,5 @@
 # help
-O **help** comando Displays help for a command
+Displays help for a command
 
 **Uso:**
 ```

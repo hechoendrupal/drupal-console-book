@@ -1,5 +1,5 @@
 # check
-El comando **check** commands.check.description
+commands.check.description
 
 **Uso:**
 ```

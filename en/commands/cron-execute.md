@@ -1,5 +1,5 @@
 # cron:execute
-The **cron:execute** command Execute cron implementations by module or execute all crons
+Execute cron implementations by module or execute all crons
 
 **Usage:**
 ```

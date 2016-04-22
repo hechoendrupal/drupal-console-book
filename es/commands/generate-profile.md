@@ -1,5 +1,5 @@
 # generate:profile
-El comando **generate:profile** Genera un perfil.
+Genera un perfil.
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # yaml:diff
-**yaml:diff** parancs Két YAML-fájl összehasonlítása a közöttük lévő különbségek megkereséséhez.
+Két YAML-fájl összehasonlítása a közöttük lévő különbségek megkereséséhez.
 
 **Használat:**
 ```

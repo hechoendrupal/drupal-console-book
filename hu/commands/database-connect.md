@@ -1,5 +1,5 @@
 # database:connect
-**database:connect** parancs Megjeleníti az adatbázis-kapcsolatot
+Megjeleníti az adatbázis-kapcsolatot
 
 **Használat:**
 ```

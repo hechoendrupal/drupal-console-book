@@ -1,5 +1,5 @@
 # views:enable
-The **views:enable** command Enable a View
+Enable a View
 
 **Usage:**
 ```

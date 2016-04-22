@@ -1,5 +1,5 @@
 # update:execute
-Câu lệnh **update:execute** Tiến hành một hàm cụ thể cập nhật N trong một module, hoặc tiến hành tất cả
+Tiến hành một hàm cụ thể cập nhật N trong một module, hoặc tiến hành tất cả
 
 **Usage:**
 ```

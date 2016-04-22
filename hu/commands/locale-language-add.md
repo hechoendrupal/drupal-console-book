@@ -1,5 +1,5 @@
 # locale:language:add
-**locale:language:add** parancs A webhely által támogatott nyelv hozzáadása
+A webhely által támogatott nyelv hozzáadása
 
 **Használat:**
 ```

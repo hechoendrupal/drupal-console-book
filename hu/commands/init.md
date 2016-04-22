@@ -1,5 +1,5 @@
 # init
-**init** parancs commands.init.description
+commands.init.description
 
 **Használat:**
 ```

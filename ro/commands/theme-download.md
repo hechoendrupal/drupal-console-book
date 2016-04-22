@@ -1,5 +1,5 @@
 # theme:download
-**theme:download** comanda Descarcă tema în aplicație
+Descarcă tema în aplicație
 
 **Folosire:**
 ```

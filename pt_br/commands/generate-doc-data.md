@@ -1,5 +1,5 @@
 # generate:doc:data
-O **generate:doc:data** comando commands.generate.doc.data.description
+commands.generate.doc.data.description
 
 **Uso:**
 ```

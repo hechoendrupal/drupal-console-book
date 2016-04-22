@@ -1,5 +1,5 @@
 # generate:profile
-Câu lệnh **generate:profile** Tạo một profile.
+Tạo một profile.
 
 **Usage:**
 ```

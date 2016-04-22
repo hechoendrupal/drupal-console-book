@@ -1,5 +1,5 @@
 # locale:language:add
-**locale:language:add** 命令 添加一种语言
+添加一种语言
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # update:execute
-**update:execute** comanda Execută o funcţie specifică Update N dintr-un modul sau execută-le pe toate
+Execută o funcţie specifică Update N dintr-un modul sau execută-le pe toate
 
 **Folosire:**
 ```

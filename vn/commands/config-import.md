@@ -1,5 +1,5 @@
 # config:import
-Câu lệnh **config:import** Nhập cấu hình tới ứng dụng hiện tại
+Nhập cấu hình tới ứng dụng hiện tại
 
 **Usage:**
 ```

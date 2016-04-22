@@ -1,5 +1,5 @@
 # database:connect
-El comando **database:connect** Lanzar un cliente de base de datos si está disponible
+Lanzar un cliente de base de datos si está disponible
 
 **Uso:**
 ```

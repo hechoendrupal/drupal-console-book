@@ -1,5 +1,5 @@
 # check
-**check** comanda commands.check.description
+commands.check.description
 
 **Folosire:**
 ```

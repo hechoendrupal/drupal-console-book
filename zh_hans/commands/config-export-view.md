@@ -1,5 +1,5 @@
 # config:export:view
-**config:export:view** 命令 导出视图
+导出视图
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # cron:execute
-O **cron:execute** comando Executar cron de um módulo específico ou todos para executar todas as implementações
+Executar cron de um módulo específico ou todos para executar todas as implementações
 
 **Uso:**
 ```

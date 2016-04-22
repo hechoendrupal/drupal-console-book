@@ -1,5 +1,5 @@
 # site:import:local
-O **site:import:local** comando Import/Configure an existing local Drupal project
+Import/Configure an existing local Drupal project
 
 **Uso:**
 ```

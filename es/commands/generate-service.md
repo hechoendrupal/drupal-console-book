@@ -1,5 +1,5 @@
 # generate:service
-El comando **generate:service** Genera un servicio
+Genera un servicio
 
 **Uso:**
 ```

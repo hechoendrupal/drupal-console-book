@@ -1,5 +1,5 @@
 # cron:debug
-**cron:debug** comanda Lista modulelor ce implementează un cron
+Lista modulelor ce implementează un cron
 
 **Folosire:**
 ```

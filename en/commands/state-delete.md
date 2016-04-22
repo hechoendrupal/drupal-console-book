@@ -1,5 +1,5 @@
 # state:delete
-The **state:delete** command Delete State
+Delete State
 
 **Usage:**
 ```

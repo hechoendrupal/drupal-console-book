@@ -1,5 +1,5 @@
 # database:drop
-**database:drop** 命令 删除数据库所有表
+删除数据库所有表
 
 **用法:**
 ```

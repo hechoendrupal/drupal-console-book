@@ -1,5 +1,5 @@
 # generate:plugin:rulesaction
-**generate:plugin:rulesaction** 命令 生成一个插件的规则（Rule）行为（action）
+生成一个插件的规则（Rule）行为（action）
 
 **用法:**
 ```

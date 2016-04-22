@@ -1,5 +1,5 @@
 # multisite:debug
-**multisite:debug** कमांड सभी उपलब्ध multisites की सूची|
+सभी उपलब्ध multisites की सूची|
 
 **प्रयोग:**
 ```

@@ -1,5 +1,5 @@
 # site:mode
-**site:mode** parancs Rendszerteljesítmény beállításának átváltása
+Rendszerteljesítmény beállításának átváltása
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # update:execute
-The **update:execute** command Execute a specific Update N function in a module, or execute all
+Execute a specific Update N function in a module, or execute all
 
 **Usage:**
 ```

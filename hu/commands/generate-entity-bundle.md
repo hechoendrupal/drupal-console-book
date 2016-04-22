@@ -1,5 +1,5 @@
 # generate:entity:bundle
-**generate:entity:bundle** parancs Új tartalomtípus létrehozása (tartalom / mezőköteg)
+Új tartalomtípus létrehozása (tartalom / mezőköteg)
 
 **Használat:**
 ```

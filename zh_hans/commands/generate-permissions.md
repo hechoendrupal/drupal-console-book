@@ -1,5 +1,5 @@
 # generate:permissions
-**generate:permissions** 命令 生成模块权限
+生成模块权限
 
 **用法:**
 ```

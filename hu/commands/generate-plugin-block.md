@@ -1,5 +1,5 @@
 # generate:plugin:block
-**generate:plugin:block** parancs Blokk bővítmény létrehozása
+Blokk bővítmény létrehozása
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # router:debug
-**router:debug** 命令 显示路由
+显示路由
 
 **用法:**
 ```

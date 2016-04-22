@@ -1,5 +1,5 @@
 # user:login:url
-**user:login:url** comanda Returneaza un URL de logare care poate fi folosit o singură dată.
+Returneaza un URL de logare care poate fi folosit o singură dată.
 
 **Folosire:**
 ```

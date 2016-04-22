@@ -1,5 +1,5 @@
 # generate:module
-Câu lệnh **generate:module** Tạo một module.
+Tạo một module.
 
 **Usage:**
 ```

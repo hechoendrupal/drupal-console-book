@@ -1,5 +1,5 @@
 # views:enable
-**views:enable** parancs Nézet engedélyezése
+Nézet engedélyezése
 
 **Használat:**
 ```

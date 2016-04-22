@@ -1,5 +1,5 @@
 # site:maintenance
-The **site:maintenance** command Switch site into maintenance mode
+Switch site into maintenance mode
 
 **Usage:**
 ```

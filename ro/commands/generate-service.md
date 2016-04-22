@@ -1,5 +1,5 @@
 # generate:service
-**generate:service** comanda Genereaza un serviciu
+Genereaza un serviciu
 
 **Folosire:**
 ```

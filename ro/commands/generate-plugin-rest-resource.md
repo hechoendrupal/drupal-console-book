@@ -1,5 +1,5 @@
 # generate:plugin:rest:resource
-**generate:plugin:rest:resource** comanda Generează un plugin de tip resursă REST
+Generează un plugin de tip resursă REST
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # database:client
-**database:client** parancs Adatbázisügyfél indítása, ha az elérhető
+Adatbázisügyfél indítása, ha az elérhető
 
 **Használat:**
 ```

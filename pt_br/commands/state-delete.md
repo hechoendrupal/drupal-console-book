@@ -1,5 +1,5 @@
 # state:delete
-O **state:delete** comando Delete State
+Delete State
 
 **Uso:**
 ```

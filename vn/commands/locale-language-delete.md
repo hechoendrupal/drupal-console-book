@@ -1,5 +1,5 @@
 # locale:language:delete
-Câu lệnh **locale:language:delete** Xóa một ngôn ngữ được hỗ trợ bởi site cuuar bạn
+Xóa một ngôn ngữ được hỗ trợ bởi site cuuar bạn
 
 **Usage:**
 ```

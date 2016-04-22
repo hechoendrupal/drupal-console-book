@@ -1,5 +1,5 @@
 # create:users
-**create:users** 命令 生成用户
+生成用户
 
 **用法:**
 ```

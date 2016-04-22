@@ -1,5 +1,5 @@
 # module:download
-The **module:download** command Download module or modules in application
+Download module or modules in application
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # config:import:single
-**config:import:single** 命令 Import the selected configuration.
+Import the selected configuration.
 
 **用法:**
 ```

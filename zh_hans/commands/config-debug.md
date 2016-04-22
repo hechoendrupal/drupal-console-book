@@ -1,5 +1,5 @@
 # config:debug
-**config:debug** 命令 显示当前配置
+显示当前配置
 
 **用法:**
 ```

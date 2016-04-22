@@ -1,5 +1,5 @@
 # generate:module
-**generate:module** 命令 生成新模块
+生成新模块
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # theme:uninstall
-O **theme:uninstall** comando Desinstalar tema(s) da aplicação
+Desinstalar tema(s) da aplicação
 
 **Uso:**
 ```

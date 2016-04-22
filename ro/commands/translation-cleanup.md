@@ -1,5 +1,5 @@
 # translation:cleanup
-**translation:cleanup** comanda Clean up translation files
+Clean up translation files
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # generate:plugin:imageformatter
-**generate:plugin:imageformatter** 命令 生成图像显示插件.
+生成图像显示插件.
 
 **用法:**
 ```

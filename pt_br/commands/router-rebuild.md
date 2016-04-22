@@ -1,5 +1,5 @@
 # router:rebuild
-O **router:rebuild** comando Reconstruir rotas de uma aplicação
+Reconstruir rotas de uma aplicação
 
 **Uso:**
 ```

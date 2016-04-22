@@ -1,5 +1,5 @@
 # user:login:url
-**user:login:url** parancs Egyszer használatos felhasználói bejelentkezési URL-címet ad vissza.
+Egyszer használatos felhasználói bejelentkezési URL-címet ad vissza.
 
 **Használat:**
 ```

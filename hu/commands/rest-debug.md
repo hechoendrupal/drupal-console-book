@@ -1,5 +1,5 @@
 # rest:debug
-**rest:debug** parancs Aktuális REST-erőforrás megjelenítése
+Aktuális REST-erőforrás megjelenítése
 
 **Használat:**
 ```

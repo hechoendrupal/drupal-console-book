@@ -1,5 +1,5 @@
 # generate:form
-O **generate:form** comando Cria um novo "FormBase"
+Cria um novo "FormBase"
 
 **Uso:**
 ```

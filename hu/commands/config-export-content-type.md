@@ -1,5 +1,5 @@
 # config:export:content:type
-**config:export:content:type** parancs Adott tartalomtípus és mezőinek exportálása.
+Adott tartalomtípus és mezőinek exportálása.
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # create:users
-El comando **create:users** Crea usuarios de prueba para tu Drupal 8.
+Crea usuarios de prueba para tu Drupal 8.
 
 **Uso:**
 ```

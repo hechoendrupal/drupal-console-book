@@ -1,5 +1,5 @@
 # generate:plugin:condition
-O **generate:plugin:condition** comando Criar um plugin de condition.
+Criar um plugin de condition.
 
 **Uso:**
 ```

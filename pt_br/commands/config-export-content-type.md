@@ -1,5 +1,5 @@
 # config:export:content:type
-O **config:export:content:type** comando Exportar um content-type específico e todos os seus fields.
+Exportar um content-type específico e todos os seus fields.
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # generate:plugin:field
-**generate:plugin:field** 命令 生成字段类型、Widget和格式化器的插件
+生成字段类型、Widget和格式化器的插件
 
 **用法:**
 ```

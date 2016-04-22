@@ -1,5 +1,5 @@
 # generate:permissions
-**generate:permissions** comanda Generează permisiuni pentru modul
+Generează permisiuni pentru modul
 
 **Folosire:**
 ```

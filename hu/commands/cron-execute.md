@@ -1,5 +1,5 @@
 # cron:execute
-**cron:execute** parancs Cron megvalósítások végrehajtása modul szerint, vagy az összes cron metódus végrehajtása
+Cron megvalósítások végrehajtása modul szerint, vagy az összes cron metódus végrehajtása
 
 **Használat:**
 ```

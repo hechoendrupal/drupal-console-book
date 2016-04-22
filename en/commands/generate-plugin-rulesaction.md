@@ -1,5 +1,5 @@
 # generate:plugin:rulesaction
-The **generate:plugin:rulesaction** command Generate a plugin rule action
+Generate a plugin rule action
 
 **Usage:**
 ```

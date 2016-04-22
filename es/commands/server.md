@@ -1,5 +1,5 @@
 # server
-El comando **server** Lanza el servidor web PHP interno
+Lanza el servidor web PHP interno
 
 **Uso:**
 ```

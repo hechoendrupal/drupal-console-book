@@ -1,5 +1,5 @@
 # create:comments
-Câu lệnh **create:comments** Create dummy comments for your Drupal 8 application.
+Create dummy comments for your Drupal 8 application.
 
 **Usage:**
 ```

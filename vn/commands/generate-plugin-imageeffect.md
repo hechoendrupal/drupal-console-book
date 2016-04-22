@@ -1,5 +1,5 @@
 # generate:plugin:imageeffect
-Câu lệnh **generate:plugin:imageeffect** Tạo plugin hiệu ứng hình ảnh
+Tạo plugin hiệu ứng hình ảnh
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # migrate:setup
-**migrate:setup** parancs Adott örökölt adatbázis fontos költöztetéseinek betöltése és létrehozása
+Adott örökölt adatbázis fontos költöztetéseinek betöltése és létrehozása
 
 **Használat:**
 ```

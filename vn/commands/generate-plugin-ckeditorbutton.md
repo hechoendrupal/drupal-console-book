@@ -1,5 +1,5 @@
 # generate:plugin:ckeditorbutton
-Câu lệnh **generate:plugin:ckeditorbutton** Generate CKEditor button plugin.
+Generate CKEditor button plugin.
 
 **Usage:**
 ```

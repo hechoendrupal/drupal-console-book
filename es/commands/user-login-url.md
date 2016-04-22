@@ -1,5 +1,5 @@
 # user:login:url
-El comando **user:login:url** Crea una url de login de usuario de uso único.
+Crea una url de login de usuario de uso único.
 
 **Uso:**
 ```

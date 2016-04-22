@@ -1,5 +1,5 @@
 # database:dump
-O **database:dump** comando Dump da estrutura e conteúdos da base de dados e tabelas MySQL
+Dump da estrutura e conteúdos da base de dados e tabelas MySQL
 
 **Uso:**
 ```

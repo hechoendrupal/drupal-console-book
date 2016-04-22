@@ -1,5 +1,5 @@
 # generate:command
-**generate:command** parancs Parancsok létrehozása a konzolhoz.
+Parancsok létrehozása a konzolhoz.
 
 **Használat:**
 ```

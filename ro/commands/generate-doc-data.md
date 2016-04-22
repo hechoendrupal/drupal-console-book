@@ -1,5 +1,5 @@
 # generate:doc:data
-**generate:doc:data** comanda commands.generate.doc.data.description
+commands.generate.doc.data.description
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # generate:entity:config
-**generate:entity:config** parancs Új konfigurációs entitás létrehozása
+Új konfigurációs entitás létrehozása
 
 **Használat:**
 ```

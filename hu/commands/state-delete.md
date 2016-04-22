@@ -1,5 +1,5 @@
 # state:delete
-**state:delete** parancs Delete State
+Delete State
 
 **Használat:**
 ```

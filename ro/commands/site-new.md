@@ -1,5 +1,5 @@
 # site:new
-**site:new** comanda Crează un proiect Drupal nou.
+Crează un proiect Drupal nou.
 
 **Folosire:**
 ```

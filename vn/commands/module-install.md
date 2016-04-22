@@ -1,5 +1,5 @@
 # module:install
-Câu lệnh **module:install** Cài đặt module hoặc các module trong ứng dụng
+Cài đặt module hoặc các module trong ứng dụng
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # database:log:debug
-Câu lệnh **database:log:debug** Hiển thị các dấu sự kiện hiện tại cho ứng dụng
+Hiển thị các dấu sự kiện hiện tại cho ứng dụng
 
 **Usage:**
 ```

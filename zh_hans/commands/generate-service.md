@@ -1,5 +1,5 @@
 # generate:service
-**generate:service** 命令 生成服务
+生成服务
 
 **用法:**
 ```

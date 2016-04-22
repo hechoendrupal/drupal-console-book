@@ -1,5 +1,5 @@
 # generate:form
-**generate:form** कमांड एक नया FormBase उत्पन्न करें
+एक नया FormBase उत्पन्न करें
 
 **प्रयोग:**
 ```

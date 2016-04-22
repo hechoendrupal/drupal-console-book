@@ -1,5 +1,5 @@
 # generate:event:subscriber
-Câu lệnh **generate:event:subscriber** Tạo một event subscriber
+Tạo một event subscriber
 
 **Usage:**
 ```

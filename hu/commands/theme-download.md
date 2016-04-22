@@ -1,5 +1,5 @@
 # theme:download
-**theme:download** parancs Smink letöltése az alkalmazásban
+Smink letöltése az alkalmazásban
 
 **Használat:**
 ```

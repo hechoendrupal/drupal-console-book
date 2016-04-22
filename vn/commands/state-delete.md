@@ -1,5 +1,5 @@
 # state:delete
-Câu lệnh **state:delete** Delete State
+Delete State
 
 **Usage:**
 ```

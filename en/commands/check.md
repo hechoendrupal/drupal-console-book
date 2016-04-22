@@ -1,5 +1,5 @@
 # check
-The **check** command System requirement checker
+System requirement checker
 
 **Usage:**
 ```

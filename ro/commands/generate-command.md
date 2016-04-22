@@ -1,5 +1,5 @@
 # generate:command
-**generate:command** comanda Generează comenzi pentru consolă.
+Generează comenzi pentru consolă.
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # user:password:hash
-Câu lệnh **user:password:hash** Tạo một hash từ một mật khẩu thô
+Tạo một hash từ một mật khẩu thô
 
 **Usage:**
 ```

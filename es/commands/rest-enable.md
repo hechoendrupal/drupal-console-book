@@ -1,5 +1,5 @@
 # rest:enable
-El comando **rest:enable** Habilita un recurso rest para la aplicación
+Habilita un recurso rest para la aplicación
 
 **Uso:**
 ```

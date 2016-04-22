@@ -1,5 +1,5 @@
 # site:mode
-El comando **site:mode** Cambiar la configuración de rendimiento del sistema
+Cambiar la configuración de rendimiento del sistema
 
 **Uso:**
 ```

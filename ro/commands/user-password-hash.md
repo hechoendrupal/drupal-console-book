@@ -1,5 +1,5 @@
 # user:password:hash
-**user:password:hash** comanda Generează un hash dintr-o parolă de tip text.
+Generează un hash dintr-o parolă de tip text.
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # yaml:diff
-Câu lệnh **yaml:diff** So sánh hai files YAML để xác định sự khác nhau giữa chúng
+So sánh hai files YAML để xác định sự khác nhau giữa chúng
 
 **Usage:**
 ```

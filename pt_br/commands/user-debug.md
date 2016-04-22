@@ -1,5 +1,5 @@
 # user:debug
-O **user:debug** comando Exibe informações dos usuários da aplicação
+Exibe informações dos usuários da aplicação
 
 **Uso:**
 ```

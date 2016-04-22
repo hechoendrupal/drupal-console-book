@@ -1,5 +1,5 @@
 # state:debug
-Câu lệnh **state:debug** Hiển thị State keys hiện tại.
+Hiển thị State keys hiện tại.
 
 **Usage:**
 ```

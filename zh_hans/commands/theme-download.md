@@ -1,5 +1,5 @@
 # theme:download
-**theme:download** 命令 下载主题
+下载主题
 
 **用法:**
 ```

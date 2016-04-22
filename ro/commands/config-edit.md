@@ -1,5 +1,5 @@
 # config:edit
-**config:edit** comanda Editează configurarea selectată.
+Editează configurarea selectată.
 
 **Folosire:**
 ```

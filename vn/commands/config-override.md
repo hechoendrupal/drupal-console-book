@@ -1,5 +1,5 @@
 # config:override
-Câu lệnh **config:override** Ghi đè giá trị cấu hình trong cấu hình đang hoạt động
+Ghi đè giá trị cấu hình trong cấu hình đang hoạt động
 
 **Usage:**
 ```

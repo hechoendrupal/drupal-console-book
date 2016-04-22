@@ -1,5 +1,5 @@
 # module:uninstall
-**module:uninstall** comanda Dezinstalează un modul sau mai multe din aplicaţie.
+Dezinstalează un modul sau mai multe din aplicaţie.
 
 **Folosire:**
 ```

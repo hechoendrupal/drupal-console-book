@@ -1,5 +1,5 @@
 # update:entities
-**update:entities** कमांड Applying Entity Updates
+Applying Entity Updates
 
 **प्रयोग:**
 ```

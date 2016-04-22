@@ -1,5 +1,5 @@
 # migrate:debug
-Câu lệnh **migrate:debug** Hiển thị phần chuyển đổi dữ liệu hiện có cho ứng dựng
+Hiển thị phần chuyển đổi dữ liệu hiện có cho ứng dựng
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # rest:debug
-**rest:debug** comanda Afişează resursele REST curente.
+Afişează resursele REST curente.
 
 **Folosire:**
 ```

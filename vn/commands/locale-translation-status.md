@@ -1,5 +1,5 @@
 # locale:translation:status
-Câu lệnh **locale:translation:status** Danh sách cập nhật bản dịch có sẵn
+Danh sách cập nhật bản dịch có sẵn
 
 **Usage:**
 ```

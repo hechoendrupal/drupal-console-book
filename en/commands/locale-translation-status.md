@@ -1,5 +1,5 @@
 # locale:translation:status
-The **locale:translation:status** command List available translation updates
+List available translation updates
 
 **Usage:**
 ```

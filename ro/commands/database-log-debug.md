@@ -1,5 +1,5 @@
 # database:log:debug
-**database:log:debug** comanda Afișează evenimentele curente, de intrare în jurnal, pentru aplicație
+Afișează evenimentele curente, de intrare în jurnal, pentru aplicație
 
 **Folosire:**
 ```

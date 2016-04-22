@@ -1,5 +1,5 @@
 # generate:controller
-**generate:controller** comanda Generează și Înregistrează un controller
+Generează și Înregistrează un controller
 
 **Folosire:**
 ```

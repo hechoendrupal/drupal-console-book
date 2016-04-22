@@ -1,5 +1,5 @@
 # config:delete
-El comando **config:delete** Eliminar configuración
+Eliminar configuración
 
 **Uso:**
 ```

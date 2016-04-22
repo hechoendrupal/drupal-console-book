@@ -1,5 +1,5 @@
 # generate:module
-**generate:module** parancs Modul létrehozása.
+Modul létrehozása.
 
 **Használat:**
 ```

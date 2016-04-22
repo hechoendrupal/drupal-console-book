@@ -1,5 +1,5 @@
 # migrate:execute
-**migrate:execute** 命令 执行可用迁移
+执行可用迁移
 
 **用法:**
 ```

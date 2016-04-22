@@ -1,5 +1,5 @@
 # user:debug
-The **user:debug** command Displays current users for the application
+Displays current users for the application
 
 **Usage:**
 ```

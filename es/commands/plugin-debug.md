@@ -1,5 +1,5 @@
 # plugin:debug
-El comando **plugin:debug** commands.plugin.debug.description
+commands.plugin.debug.description
 
 **Uso:**
 ```

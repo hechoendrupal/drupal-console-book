@@ -1,5 +1,5 @@
 # config:import:single
-**config:import:single** कमांड Import the selected configuration.
+Import the selected configuration.
 
 **प्रयोग:**
 ```

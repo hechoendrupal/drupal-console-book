@@ -1,5 +1,5 @@
 # site:status
-Câu lệnh **site:status** Xem trạng thái cài đặt hiện tại
+Xem trạng thái cài đặt hiện tại
 
 **Usage:**
 ```

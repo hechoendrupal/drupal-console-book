@@ -1,5 +1,5 @@
 # module:install
-**module:install** comanda Instaleaza Module
+Instaleaza Module
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # generate:doc:gitbook
-Câu lệnh **generate:doc:gitbook** Tạo documentations cho các lệnh
+Tạo documentations cho các lệnh
 
 **Usage:**
 ```

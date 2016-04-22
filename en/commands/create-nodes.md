@@ -1,5 +1,5 @@
 # create:nodes
-The **create:nodes** command Create dummy nodes for your Drupal 8 application.
+Create dummy nodes for your Drupal 8 application.
 
 **Usage:**
 ```

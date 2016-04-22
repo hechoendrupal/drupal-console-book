@@ -1,5 +1,5 @@
 # module:install
-**module:install** parancs Modul vagy modulok telepítése
+Modul vagy modulok telepítése
 
 **Használat:**
 ```

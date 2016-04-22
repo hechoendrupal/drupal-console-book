@@ -1,5 +1,5 @@
 # cron:release
-**cron:release** comanda Lansează sistemul de blocare pentru a repermite reluarea rulării cron-ului
+Lansează sistemul de blocare pentru a repermite reluarea rulării cron-ului
 
 **Folosire:**
 ```

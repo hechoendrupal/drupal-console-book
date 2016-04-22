@@ -1,5 +1,5 @@
 # config:export:single
-The **config:export:single** command Export single configuration as yml file.
+Export single configuration as yml file.
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # site:new
-**site:new** parancs Új Drupal projekt létrehozása
+Új Drupal projekt létrehozása
 
 **Használat:**
 ```

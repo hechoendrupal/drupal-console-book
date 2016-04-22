@@ -1,5 +1,5 @@
 # generate:plugin:imageformatter
-**generate:plugin:imageformatter** parancs Képformázó bővítmény létrehozása.
+Képformázó bővítmény létrehozása.
 
 **Használat:**
 ```

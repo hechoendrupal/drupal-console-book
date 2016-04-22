@@ -1,5 +1,5 @@
 # generate:plugin:type:yaml
-**generate:plugin:type:yaml** parancs Bővítménytípus létrehozása YAML-észleléssel
+Bővítménytípus létrehozása YAML-észleléssel
 
 **Használat:**
 ```

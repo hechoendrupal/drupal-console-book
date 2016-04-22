@@ -1,5 +1,5 @@
 # create:terms
-El comando **create:terms** Crea términos de relleno para tu Drupal 8.
+Crea términos de relleno para tu Drupal 8.
 
 **Uso:**
 ```

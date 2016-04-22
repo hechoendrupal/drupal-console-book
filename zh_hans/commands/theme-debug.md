@@ -1,5 +1,5 @@
 # theme:debug
-**theme:debug** 命令 显示当前主题
+显示当前主题
 
 **用法:**
 ```

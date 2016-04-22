@@ -1,5 +1,5 @@
 # yaml:merge
-**yaml:merge** comanda Uneşte doua sau mai multe fişiere de tip YAML într-un nou fişier de tip YAML. Ultimele valori sunt păstrate.
+Uneşte doua sau mai multe fişiere de tip YAML într-un nou fişier de tip YAML. Ultimele valori sunt păstrate.
 
 **Folosire:**
 ```

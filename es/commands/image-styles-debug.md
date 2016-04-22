@@ -1,5 +1,5 @@
 # image:styles:debug
-El comando **image:styles:debug** Lista los estilos de imágenes del sitio
+Lista los estilos de imágenes del sitio
 
 **Uso:**
 ```

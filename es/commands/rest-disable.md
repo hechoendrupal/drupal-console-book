@@ -1,5 +1,5 @@
 # rest:disable
-El comando **rest:disable** Deshabilita un recurso rest en la aplicación
+Deshabilita un recurso rest en la aplicación
 
 **Uso:**
 ```

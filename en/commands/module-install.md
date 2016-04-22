@@ -1,5 +1,5 @@
 # module:install
-The **module:install** command Install module or modules in the application
+Install module or modules in the application
 
 **Usage:**
 ```

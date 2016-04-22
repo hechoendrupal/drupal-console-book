@@ -1,5 +1,5 @@
 # settings:debug
-Câu lệnh **settings:debug** List user Drupal Console settings.
+List user Drupal Console settings.
 
 **Usage:**
 ```

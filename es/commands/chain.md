@@ -1,5 +1,5 @@
 # chain
-El comando **chain** Ejecución de comandos en secuencia
+Ejecución de comandos en secuencia
 
 **Uso:**
 ```

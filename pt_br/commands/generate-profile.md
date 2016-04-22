@@ -1,5 +1,5 @@
 # generate:profile
-O **generate:profile** comando Generate a profile.
+Generate a profile.
 
 **Uso:**
 ```

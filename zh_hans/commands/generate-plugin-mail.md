@@ -1,5 +1,5 @@
 # generate:plugin:mail
-**generate:plugin:mail** 命令 Generate a plugin mail
+Generate a plugin mail
 
 **用法:**
 ```

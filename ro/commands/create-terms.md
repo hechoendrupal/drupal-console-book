@@ -1,5 +1,5 @@
 # create:terms
-**create:terms** comanda Create dummy terms for your Drupal 8 application.
+Create dummy terms for your Drupal 8 application.
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # generate:plugin:type:yaml
-O **generate:plugin:type:yaml** comando Generate a plugin type with Yaml discovery
+Generate a plugin type with Yaml discovery
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # user:password:hash
-O **user:password:hash** comando Gerar o hash de uma senha em formato texto.
+Gerar o hash de uma senha em formato texto.
 
 **Uso:**
 ```

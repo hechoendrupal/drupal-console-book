@@ -1,5 +1,5 @@
 # site:install
-**site:install** 命令 安装 Drupal
+安装 Drupal
 
 **用法:**
 ```

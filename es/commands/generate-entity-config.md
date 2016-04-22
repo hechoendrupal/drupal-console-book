@@ -1,5 +1,5 @@
 # generate:entity:config
-El comando **generate:entity:config** Generar una nueva entidad de configuración
+Generar una nueva entidad de configuración
 
 **Uso:**
 ```

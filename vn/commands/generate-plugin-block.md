@@ -1,5 +1,5 @@
 # generate:plugin:block
-Câu lệnh **generate:plugin:block** Tạo một plugin block
+Tạo một plugin block
 
 **Usage:**
 ```

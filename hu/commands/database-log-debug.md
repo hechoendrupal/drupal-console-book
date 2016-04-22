@@ -1,5 +1,5 @@
 # database:log:debug
-**database:log:debug** parancs Az alkalmazás aktuális naplóeseményeinek megjelenítése
+Az alkalmazás aktuális naplóeseményeinek megjelenítése
 
 **Használat:**
 ```

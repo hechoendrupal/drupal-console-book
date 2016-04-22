@@ -1,5 +1,5 @@
 # generate:entity:config
-**generate:entity:config** comanda Generează o entitate de configurare nouă
+Generează o entitate de configurare nouă
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # views:disable
-El comando **views:disable** Deshabilita una vista
+Deshabilita una vista
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # generate:plugin:rulesaction
-**generate:plugin:rulesaction** comanda Generează un plugin care implementează o acţiune de rules
+Generează un plugin care implementează o acţiune de rules
 
 **Folosire:**
 ```

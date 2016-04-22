@@ -1,5 +1,5 @@
 # generate:plugin:rest:resource
-Câu lệnh **generate:plugin:rest:resource** Tạo plugin rest resource
+Tạo plugin rest resource
 
 **Usage:**
 ```

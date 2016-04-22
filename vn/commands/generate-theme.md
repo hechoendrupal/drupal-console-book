@@ -1,5 +1,5 @@
 # generate:theme
-Câu lệnh **generate:theme** Tạo một theme.
+Tạo một theme.
 
 **Usage:**
 ```

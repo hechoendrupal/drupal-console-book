@@ -1,5 +1,5 @@
 # generate:plugin:field
-**generate:plugin:field** comanda Generează extensiile: tipul de câmp, widget-ul si formatare.
+Generează extensiile: tipul de câmp, widget-ul si formatare.
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # generate:plugin:field
-O **generate:plugin:field** comando Gera plugins de widgets, fortmato e tipo de campo
+Gera plugins de widgets, fortmato e tipo de campo
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # create:nodes
-**create:nodes** parancs Teszttartalom létrehozása egy Drupal 8 alkalmazáshoz.
+Teszttartalom létrehozása egy Drupal 8 alkalmazáshoz.
 
 **Használat:**
 ```

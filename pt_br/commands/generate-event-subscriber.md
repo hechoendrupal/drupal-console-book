@@ -1,5 +1,5 @@
 # generate:event:subscriber
-O **generate:event:subscriber** comando Gerar um assinante do evento
+Gerar um assinante do evento
 
 **Uso:**
 ```

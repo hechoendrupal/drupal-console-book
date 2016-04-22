@@ -1,5 +1,5 @@
 # database:drop
-The **database:drop** command Drop all tables in a given database.
+Drop all tables in a given database.
 
 **Usage:**
 ```
