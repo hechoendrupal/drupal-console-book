@@ -1,5 +1,5 @@
 # database:connect
-The **database:connect** command Shows DB connection
+Shows DB connection
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # generate:form:alter
-**generate:form:alter** 命令 生成 hook_form_alter() 或 hook_form_FORM_ID_alter 实现
+生成 hook_form_alter() 或 hook_form_FORM_ID_alter 实现
 
 **用法:**
 ```

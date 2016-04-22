@@ -1,5 +1,5 @@
 # migrate:debug
-O **migrate:debug** comando Display current migration available for the application
+Display current migration available for the application
 
 **Uso:**
 ```

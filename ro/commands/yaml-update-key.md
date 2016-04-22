@@ -1,5 +1,5 @@
 # yaml:update:key
-**yaml:update:key** comanda Înlocuieşte o cheie de tip YAML într-un fişier te tip YAML.
+Înlocuieşte o cheie de tip YAML într-un fişier te tip YAML.
 
 **Folosire:**
 ```

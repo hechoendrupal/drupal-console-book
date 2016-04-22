@@ -1,5 +1,5 @@
 # generate:plugin:fieldtype
-El comando **generate:plugin:fieldtype** Genera plugins de tipo de campo.
+Genera plugins de tipo de campo.
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # theme:download
-O **theme:download** comando Baixar um tema para a aplicação
+Baixar um tema para a aplicação
 
 **Uso:**
 ```

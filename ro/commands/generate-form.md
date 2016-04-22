@@ -1,5 +1,5 @@
 # generate:form
-**generate:form** comanda Generează un "FormBase" nou
+Generează un "FormBase" nou
 
 **Folosire:**
 ```

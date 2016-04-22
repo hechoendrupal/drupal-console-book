@@ -1,5 +1,5 @@
 # generate:plugin:type:annotation
-**generate:plugin:type:annotation** 命令 生成一个有识别注解能力的插件类别
+生成一个有识别注解能力的插件类别
 
 **用法:**
 ```

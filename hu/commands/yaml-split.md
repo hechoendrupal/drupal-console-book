@@ -1,5 +1,5 @@
 # yaml:split
-**yaml:split** parancs YAML-fájl felosztása a behúzást elválasztási feltételként használva
+YAML-fájl felosztása a behúzást elválasztási feltételként használva
 
 **Használat:**
 ```

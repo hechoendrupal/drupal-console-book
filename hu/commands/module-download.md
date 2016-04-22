@@ -1,5 +1,5 @@
 # module:download
-**module:download** parancs Modul vagy modulok letöltése
+Modul vagy modulok letöltése
 
 **Használat:**
 ```

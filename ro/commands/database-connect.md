@@ -1,5 +1,5 @@
 # database:connect
-**database:connect** comanda Lansează un client DB dacă acesta este disponibil
+Lansează un client DB dacă acesta este disponibil
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # yaml:split
-The **yaml:split** command Split a YAML file using indent as separator criteria
+Split a YAML file using indent as separator criteria
 
 **Usage:**
 ```

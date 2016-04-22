@@ -1,5 +1,5 @@
 # site:new
-**site:new** 命令 生成一个新的Drupal项目
+生成一个新的Drupal项目
 
 **用法:**
 ```

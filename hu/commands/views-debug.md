@@ -1,5 +1,5 @@
 # views:debug
-**views:debug** parancs Alkalmazás aktuális views erőforrásainak megjelenítése
+Alkalmazás aktuális views erőforrásainak megjelenítése
 
 **Használat:**
 ```

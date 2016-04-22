@@ -1,5 +1,5 @@
 # test:run
-El comando **test:run** Ejecuta un test unitario de los disponibles en la aplicación
+Ejecuta un test unitario de los disponibles en la aplicación
 
 **Uso:**
 ```

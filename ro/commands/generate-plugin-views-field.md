@@ -1,5 +1,5 @@
 # generate:plugin:views:field
-**generate:plugin:views:field** comanda Generează o extensie custom de views field.
+Generează o extensie custom de views field.
 
 **Folosire:**
 ```

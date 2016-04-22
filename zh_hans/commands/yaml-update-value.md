@@ -1,5 +1,5 @@
 # yaml:update:value
-**yaml:update:value** 命令 更新 YAML 文件中的指定键对应的值
+更新 YAML 文件中的指定键对应的值
 
 **用法:**
 ```

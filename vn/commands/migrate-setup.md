@@ -1,5 +1,5 @@
 # migrate:setup
-Câu lệnh **migrate:setup** Load and create the relevant migrations for a provided legacy database
+Load and create the relevant migrations for a provided legacy database
 
 **Usage:**
 ```

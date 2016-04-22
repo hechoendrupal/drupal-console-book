@@ -1,5 +1,5 @@
 # views:disable
-O **views:disable** comando Desabilitar uma View
+Desabilitar uma View
 
 **Uso:**
 ```

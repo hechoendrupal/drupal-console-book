@@ -1,5 +1,5 @@
 # user:password:reset
-**user:password:reset** comanda Resetează parola pentru un utilizator.
+Resetează parola pentru un utilizator.
 
 **Folosire:**
 ```

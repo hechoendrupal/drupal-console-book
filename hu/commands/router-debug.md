@@ -1,5 +1,5 @@
 # router:debug
-**router:debug** parancs Megjeleníti az alkalmazás aktuális útvonalait
+Megjeleníti az alkalmazás aktuális útvonalait
 
 **Használat:**
 ```

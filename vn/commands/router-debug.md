@@ -1,5 +1,5 @@
 # router:debug
-Câu lệnh **router:debug** Hiển thị các định tuyến hiện tại của ứng dụng
+Hiển thị các định tuyến hiện tại của ứng dụng
 
 **Usage:**
 ```

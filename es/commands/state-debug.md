@@ -1,5 +1,5 @@
 # state:debug
-El comando **state:debug** Muestra las claves de Estado actual.
+Muestra las claves de Estado actual.
 
 **Uso:**
 ```

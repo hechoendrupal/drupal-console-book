@@ -1,5 +1,5 @@
 # state:override
-The **state:override** command Override a State key.
+Override a State key.
 
 **Usage:**
 ```

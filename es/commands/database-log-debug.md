@@ -1,5 +1,5 @@
 # database:log:debug
-El comando **database:log:debug** Desplegar eventos registrados al momento para la aplicación
+Desplegar eventos registrados al momento para la aplicación
 
 **Uso:**
 ```

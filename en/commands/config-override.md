@@ -1,5 +1,5 @@
 # config:override
-The **config:override** command Override config value in active configuration.
+Override config value in active configuration.
 
 **Usage:**
 ```

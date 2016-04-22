@@ -1,5 +1,5 @@
 # yaml:update:value
-O **yaml:update:value** comando Atualize o valor para uma chave específica no arquivo YAML.
+Atualize o valor para uma chave específica no arquivo YAML.
 
 **Uso:**
 ```

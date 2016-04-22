@@ -1,5 +1,5 @@
 # state:debug
-**state:debug** comanda Show the current State keys.
+Show the current State keys.
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # translation:pending
-The **translation:pending** command Determine pending translation string in a language or a specific file in a language
+Determine pending translation string in a language or a specific file in a language
 
 **Usage:**
 ```

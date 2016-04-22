@@ -1,5 +1,5 @@
 # generate:plugin:imageformatter
-Câu lệnh **generate:plugin:imageformatter** Phát sinh một image formatter plugin.
+Phát sinh một image formatter plugin.
 
 **Usage:**
 ```

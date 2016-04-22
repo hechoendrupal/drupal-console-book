@@ -1,5 +1,5 @@
 # generate:plugin:fieldformatter
-**generate:plugin:fieldformatter** 命令 生成字段格式化器插件
+生成字段格式化器插件
 
 **用法:**
 ```

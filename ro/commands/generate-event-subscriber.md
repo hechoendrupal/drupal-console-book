@@ -1,5 +1,5 @@
 # generate:event:subscriber
-**generate:event:subscriber** comanda Generează un abonat la eveniment
+Generează un abonat la eveniment
 
 **Folosire:**
 ```

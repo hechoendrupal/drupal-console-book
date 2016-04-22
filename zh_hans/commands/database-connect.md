@@ -1,5 +1,5 @@
 # database:connect
-**database:connect** 命令 如果有数据库客户端，启动它
+如果有数据库客户端，启动它
 
 **用法:**
 ```

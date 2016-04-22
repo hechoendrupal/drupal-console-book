@@ -1,5 +1,5 @@
 # generate:entity:bundle
-**generate:entity:bundle** comanda Generează un tip de conținut nou (nod / entitate)
+Generează un tip de conținut nou (nod / entitate)
 
 **Folosire:**
 ```

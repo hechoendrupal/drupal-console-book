@@ -1,5 +1,5 @@
 # generate:plugin:fieldtype
-**generate:plugin:fieldtype** parancs Mezőtípus bővítmény létrehozása
+Mezőtípus bővítmény létrehozása
 
 **Használat:**
 ```

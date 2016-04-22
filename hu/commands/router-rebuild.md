@@ -1,5 +1,5 @@
 # router:rebuild
-**router:rebuild** parancs Az alkalmazás útvonalainak újraépítése
+Az alkalmazás útvonalainak újraépítése
 
 **Használat:**
 ```

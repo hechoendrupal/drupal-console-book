@@ -1,5 +1,5 @@
 # rest:debug
-The **rest:debug** command Display current rest resource for the application
+Display current rest resource for the application
 
 **Usage:**
 ```

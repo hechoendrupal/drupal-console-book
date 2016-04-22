@@ -1,5 +1,5 @@
 # views:debug
-The **views:debug** command Display current views resources for the application
+Display current views resources for the application
 
 **Usage:**
 ```

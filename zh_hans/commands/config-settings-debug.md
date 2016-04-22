@@ -1,5 +1,5 @@
 # config:settings:debug
-**config:settings:debug** 命令 配置文件调试
+配置文件调试
 
 **用法:**
 ```

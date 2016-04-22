@@ -1,5 +1,5 @@
 # config:override
-**config:override** parancs Az aktív konfiguráció értékének felülbírálása.
+Az aktív konfiguráció értékének felülbírálása.
 
 **Használat:**
 ```

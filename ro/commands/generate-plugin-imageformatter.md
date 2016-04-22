@@ -1,5 +1,5 @@
 # generate:plugin:imageformatter
-**generate:plugin:imageformatter** comanda Generează un plugin de formatare a imaginii.
+Generează un plugin de formatare a imaginii.
 
 **Folosire:**
 ```

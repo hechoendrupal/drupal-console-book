@@ -1,5 +1,5 @@
 # module:install
-El comando **module:install** Instala un módulo o varios en la aplicación
+Instala un módulo o varios en la aplicación
 
 **Uso:**
 ```

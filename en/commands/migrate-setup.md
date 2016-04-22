@@ -1,5 +1,5 @@
 # migrate:setup
-The **migrate:setup** command Load and create the relevant migrations for a provided legacy database
+Load and create the relevant migrations for a provided legacy database
 
 **Usage:**
 ```

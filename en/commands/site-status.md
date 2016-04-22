@@ -1,5 +1,5 @@
 # site:status
-The **site:status** command View current Drupal Installation status
+View current Drupal Installation status
 
 **Usage:**
 ```

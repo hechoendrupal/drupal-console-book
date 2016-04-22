@@ -1,5 +1,5 @@
 # translation:pending
-El comando **translation:pending** Determina cadenas de traducción pendientes en un idioma o en un archivo específico de un idioma
+Determina cadenas de traducción pendientes en un idioma o en un archivo específico de un idioma
 
 **Uso:**
 ```

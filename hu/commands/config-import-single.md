@@ -1,5 +1,5 @@
 # config:import:single
-**config:import:single** parancs Import the selected configuration.
+Import the selected configuration.
 
 **Használat:**
 ```

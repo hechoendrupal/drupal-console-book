@@ -1,5 +1,5 @@
 # generate:plugin:views:field
-El comando **generate:plugin:views:field** Genera un plugin de campo de vista personalizado.
+Genera un plugin de campo de vista personalizado.
 
 **Uso:**
 ```

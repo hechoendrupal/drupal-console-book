@@ -1,5 +1,5 @@
 # container:debug
-**container:debug** comanda Afișează serviciile curente pentru o aplicație.
+Afișează serviciile curente pentru o aplicație.
 
 **Folosire:**
 ```

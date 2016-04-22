@@ -1,5 +1,5 @@
 # generate:plugin:mail
-El comando **generate:plugin:mail** Genera un plugin de correo
+Genera un plugin de correo
 
 **Uso:**
 ```

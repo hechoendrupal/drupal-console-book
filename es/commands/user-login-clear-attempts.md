@@ -1,5 +1,5 @@
 # user:login:clear:attempts
-El comando **user:login:clear:attempts** Limpia intentos de inicio de sesión fallidos para una cuenta.
+Limpia intentos de inicio de sesión fallidos para una cuenta.
 
 **Uso:**
 ```

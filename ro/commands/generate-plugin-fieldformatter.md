@@ -1,5 +1,5 @@
 # generate:plugin:fieldformatter
-**generate:plugin:fieldformatter** comanda Generează extensia de formatare a câmpului.
+Generează extensia de formatare a câmpului.
 
 **Folosire:**
 ```

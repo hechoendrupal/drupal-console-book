@@ -1,5 +1,5 @@
 # generate:plugin:fieldwidget
-**generate:plugin:fieldwidget** parancs Mező felületi elem bővítmény létrehozása
+Mező felületi elem bővítmény létrehozása
 
 **Használat:**
 ```

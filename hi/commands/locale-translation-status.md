@@ -1,5 +1,5 @@
 # locale:translation:status
-**locale:translation:status** कमांड सूची उपलब्ध अनुवाद अपडेट
+सूची उपलब्ध अनुवाद अपडेट
 
 **प्रयोग:**
 ```

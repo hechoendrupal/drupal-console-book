@@ -1,5 +1,5 @@
 # config:export:view
-**config:export:view** parancs Nézet exportálása YAML-formátumban egy megadott modulba, hogy újra lehessen használni más weboldalon.
+Nézet exportálása YAML-formátumban egy megadott modulba, hogy újra lehessen használni más weboldalon.
 
 **Használat:**
 ```

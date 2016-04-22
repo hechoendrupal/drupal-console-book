@@ -1,5 +1,5 @@
 # generate:plugin:type:annotation
-**generate:plugin:type:annotation** comanda Generează un tip de plugin cu descoperire de adnotaţii
+Generează un tip de plugin cu descoperire de adnotaţii
 
 **Folosire:**
 ```

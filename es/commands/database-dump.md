@@ -1,5 +1,5 @@
 # database:dump
-El comando **database:dump** Volcado de la estructura y contenidos de las bases de datos y tablas MySQL
+Volcado de la estructura y contenidos de las bases de datos y tablas MySQL
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # chain:debug
-**chain:debug** comanda List available chain files.
+List available chain files.
 
 **Folosire:**
 ```

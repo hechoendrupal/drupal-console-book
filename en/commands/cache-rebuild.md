@@ -1,5 +1,5 @@
 # cache:rebuild
-The **cache:rebuild** command Rebuild and clear all site caches.
+Rebuild and clear all site caches.
 
 **Usage:**
 ```

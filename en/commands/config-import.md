@@ -1,5 +1,5 @@
 # config:import
-The **config:import** command Import configuration to current application.
+Import configuration to current application.
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # chain
-The **chain** command Chain command execution
+Chain command execution
 
 **Usage:**
 ```

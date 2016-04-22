@@ -1,5 +1,5 @@
 # update:debug
-El comando **update:debug** Muestra las actualizaciones actualmente disponibles para la aplicación
+Muestra las actualizaciones actualmente disponibles para la aplicación
 
 **Uso:**
 ```

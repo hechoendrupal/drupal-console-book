@@ -1,5 +1,5 @@
 # generate:theme
-The **generate:theme** command Generate a theme.
+Generate a theme.
 
 **Usage:**
 ```

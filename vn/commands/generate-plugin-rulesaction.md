@@ -1,5 +1,5 @@
 # generate:plugin:rulesaction
-Câu lệnh **generate:plugin:rulesaction** Tạo một plugin rule action
+Tạo một plugin rule action
 
 **Usage:**
 ```

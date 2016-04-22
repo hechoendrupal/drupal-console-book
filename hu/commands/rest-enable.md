@@ -1,5 +1,5 @@
 # rest:enable
-**rest:enable** parancs Az alkalmazás REST-erőforrásának engedélyezése
+Az alkalmazás REST-erőforrásának engedélyezése
 
 **Használat:**
 ```

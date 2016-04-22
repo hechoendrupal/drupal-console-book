@@ -1,5 +1,5 @@
 # generate:plugin:views:field
-Câu lệnh **generate:plugin:views:field** Tạo một tùy chỉnh plugin view field.
+Tạo một tùy chỉnh plugin view field.
 
 **Usage:**
 ```

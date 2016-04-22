@@ -1,5 +1,5 @@
 # generate:event:subscriber
-**generate:event:subscriber** कमांड एक घटना ग्राहक उत्पन्न करें
+एक घटना ग्राहक उत्पन्न करें
 
 **प्रयोग:**
 ```

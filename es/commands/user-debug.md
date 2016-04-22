@@ -1,5 +1,5 @@
 # user:debug
-El comando **user:debug** Muestra los usuarios actuales del sitio
+Muestra los usuarios actuales del sitio
 
 **Uso:**
 ```

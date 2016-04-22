@@ -1,5 +1,5 @@
 # module:download
-**module:download** comanda Descarcă modulul sau modulele pentru aplicație
+Descarcă modulul sau modulele pentru aplicație
 
 **Folosire:**
 ```

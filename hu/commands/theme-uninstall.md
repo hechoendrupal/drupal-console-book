@@ -1,5 +1,5 @@
 # theme:uninstall
-**theme:uninstall** parancs Az alkalmazás sminkjének vagy sminkjeinek eltávolítása
+Az alkalmazás sminkjének vagy sminkjeinek eltávolítása
 
 **Használat:**
 ```

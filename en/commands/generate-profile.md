@@ -1,5 +1,5 @@
 # generate:profile
-The **generate:profile** command Generate a profile.
+Generate a profile.
 
 **Usage:**
 ```

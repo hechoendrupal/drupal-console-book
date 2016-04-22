@@ -1,5 +1,5 @@
 # generate:controller
-**generate:controller** parancs Kontroller létrehozása és regisztrálása
+Kontroller létrehozása és regisztrálása
 
 **Használat:**
 ```

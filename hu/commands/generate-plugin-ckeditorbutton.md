@@ -1,5 +1,5 @@
 # generate:plugin:ckeditorbutton
-**generate:plugin:ckeditorbutton** parancs Generate CKEditor button plugin.
+Generate CKEditor button plugin.
 
 **Használat:**
 ```

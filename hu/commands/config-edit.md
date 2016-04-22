@@ -1,5 +1,5 @@
 # config:edit
-**config:edit** parancs Szerkeszteni kell a kiválasztott konfigurációt.
+Szerkeszteni kell a kiválasztott konfigurációt.
 
 **Használat:**
 ```

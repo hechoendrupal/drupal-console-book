@@ -1,5 +1,5 @@
 # generate:event:subscriber
-El comando **generate:event:subscriber** Genera un suscriptor de eventos
+Genera un suscriptor de eventos
 
 **Uso:**
 ```

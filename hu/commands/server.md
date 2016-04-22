@@ -1,5 +1,5 @@
 # server
-**server** parancs A PHP beépített webkiszolgálójának futtatása
+A PHP beépített webkiszolgálójának futtatása
 
 **Használat:**
 ```

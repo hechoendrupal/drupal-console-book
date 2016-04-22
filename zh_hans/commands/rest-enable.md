@@ -1,5 +1,5 @@
 # rest:enable
-**rest:enable** 命令 启用 REST 资源
+启用 REST 资源
 
 **用法:**
 ```

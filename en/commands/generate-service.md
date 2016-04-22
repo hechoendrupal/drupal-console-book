@@ -1,5 +1,5 @@
 # generate:service
-The **generate:service** command Generate service
+Generate service
 
 **Usage:**
 ```

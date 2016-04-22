@@ -1,5 +1,5 @@
 # generate:plugin:imageformatter
-El comando **generate:plugin:imageformatter** Genera plugins de formateador de imagen.
+Genera plugins de formateador de imagen.
 
 **Uso:**
 ```

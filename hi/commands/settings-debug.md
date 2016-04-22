@@ -1,5 +1,5 @@
 # settings:debug
-**settings:debug** कमांड यूजर Drupal कंसोल सेटिंग्स की सूची
+यूजर Drupal कंसोल सेटिंग्स की सूची
 
 **प्रयोग:**
 ```

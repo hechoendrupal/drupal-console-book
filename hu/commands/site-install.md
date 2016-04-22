@@ -1,5 +1,5 @@
 # site:install
-**site:install** parancs Drupal projekt telepítése
+Drupal projekt telepítése
 
 **Használat:**
 ```

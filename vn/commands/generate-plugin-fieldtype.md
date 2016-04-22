@@ -1,5 +1,5 @@
 # generate:plugin:fieldtype
-Câu lệnh **generate:plugin:fieldtype** Tạo field type plugin.
+Tạo field type plugin.
 
 **Usage:**
 ```

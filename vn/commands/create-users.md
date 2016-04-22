@@ -1,5 +1,5 @@
 # create:users
-Câu lệnh **create:users** Tạo dummy users cho ứng dụng Drupal 8 của bạn.
+Tạo dummy users cho ứng dụng Drupal 8 của bạn.
 
 **Usage:**
 ```

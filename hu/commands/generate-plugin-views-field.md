@@ -1,5 +1,5 @@
 # generate:plugin:views:field
-**generate:plugin:views:field** parancs Egyéni nézetmező bővítmény létrehozása.
+Egyéni nézetmező bővítmény létrehozása.
 
 **Használat:**
 ```

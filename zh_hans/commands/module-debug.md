@@ -1,5 +1,5 @@
 # module:debug
-**module:debug** 命令 显示当前可用模块
+显示当前可用模块
 
 **用法:**
 ```

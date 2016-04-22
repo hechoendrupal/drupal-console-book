@@ -1,5 +1,5 @@
 # generate:plugin:mail
-**generate:plugin:mail** parancs Generate a plugin mail
+Generate a plugin mail
 
 **Használat:**
 ```

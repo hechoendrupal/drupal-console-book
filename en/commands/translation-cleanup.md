@@ -1,5 +1,5 @@
 # translation:cleanup
-The **translation:cleanup** command Clean up translation files
+Clean up translation files
 
 **Usage:**
 ```

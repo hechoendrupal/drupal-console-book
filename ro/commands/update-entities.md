@@ -1,5 +1,5 @@
 # update:entities
-**update:entities** comanda Applying Entity Updates
+Applying Entity Updates
 
 **Folosire:**
 ```

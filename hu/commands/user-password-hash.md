@@ -1,5 +1,5 @@
 # user:password:hash
-**user:password:hash** parancs Ellenőrzőösszeg előállítása sima szöveges jelszóból.
+Ellenőrzőösszeg előállítása sima szöveges jelszóból.
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # database:drop
-El comando **database:drop** Muestra todas las tablas de una base de datos datos.
+Muestra todas las tablas de una base de datos datos.
 
 **Uso:**
 ```

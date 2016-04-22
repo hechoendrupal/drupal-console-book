@@ -1,5 +1,5 @@
 # generate:entity:content
-Câu lệnh **generate:entity:content** Tạo một content entity mới
+Tạo một content entity mới
 
 **Usage:**
 ```

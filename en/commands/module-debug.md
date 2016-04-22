@@ -1,5 +1,5 @@
 # module:debug
-The **module:debug** command Display current modules available for application
+Display current modules available for application
 
 **Usage:**
 ```

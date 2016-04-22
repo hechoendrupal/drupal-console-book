@@ -1,5 +1,5 @@
 # theme:uninstall
-**theme:uninstall** comanda Dezinstalează tema sau temele din aplicație
+Dezinstalează tema sau temele din aplicație
 
 **Folosire:**
 ```

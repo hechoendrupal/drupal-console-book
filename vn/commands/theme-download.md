@@ -1,5 +1,5 @@
 # theme:download
-Câu lệnh **theme:download** Tải xuống theme trong ứng dụng
+Tải xuống theme trong ứng dụng
 
 **Usage:**
 ```

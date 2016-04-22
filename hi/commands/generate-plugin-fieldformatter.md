@@ -1,5 +1,5 @@
 # generate:plugin:fieldformatter
-**generate:plugin:fieldformatter** कमांड खाना formatter प्लगिन उत्पन्न करें
+खाना formatter प्लगिन उत्पन्न करें
 
 **प्रयोग:**
 ```

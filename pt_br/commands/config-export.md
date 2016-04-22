@@ -1,5 +1,5 @@
 # config:export
-O **config:export** comando Exportar a configuração atual da aplicação.
+Exportar a configuração atual da aplicação.
 
 **Uso:**
 ```

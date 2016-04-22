@@ -1,5 +1,5 @@
 # self-update
-**self-update** comanda Actualizează Consola la ultima versiune.
+Actualizează Consola la ultima versiune.
 
 **Folosire:**
 ```

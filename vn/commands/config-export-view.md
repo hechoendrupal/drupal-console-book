@@ -1,5 +1,5 @@
 # config:export:view
-Câu lệnh **config:export:view** Export 1 view trong YAML format inside 1 module được cung cấp để sử dụng lại trên các website khác.
+Export 1 view trong YAML format inside 1 module được cung cấp để sử dụng lại trên các website khác.
 
 **Usage:**
 ```

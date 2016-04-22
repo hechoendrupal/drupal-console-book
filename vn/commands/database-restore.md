@@ -1,5 +1,5 @@
 # database:restore
-Câu lệnh **database:restore** Khôi phục cấu trúc và content của một cơ sở dữ liệu
+Khôi phục cấu trúc và content của một cơ sở dữ liệu
 
 **Usage:**
 ```

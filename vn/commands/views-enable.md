@@ -1,5 +1,5 @@
 # views:enable
-Câu lệnh **views:enable** Bật một View
+Bật một View
 
 **Usage:**
 ```

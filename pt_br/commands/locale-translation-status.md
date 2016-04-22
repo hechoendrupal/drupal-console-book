@@ -1,5 +1,5 @@
 # locale:translation:status
-O **locale:translation:status** comando List available translation updates
+List available translation updates
 
 **Uso:**
 ```

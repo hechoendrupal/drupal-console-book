@@ -1,5 +1,5 @@
 # module:debug
-Câu lệnh **module:debug** Hiển thị các module hiện có cho ứng dụng
+Hiển thị các module hiện có cho ứng dụng
 
 **Usage:**
 ```

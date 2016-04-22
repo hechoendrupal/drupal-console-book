@@ -1,5 +1,5 @@
 # generate:module
-O **generate:module** comando Criar um módulo.
+Criar um módulo.
 
 **Uso:**
 ```

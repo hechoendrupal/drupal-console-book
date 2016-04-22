@@ -1,5 +1,5 @@
 # config:export:content:type
-El comando **config:export:content:type** Exporta un tipo de contenido determinado y todos sus campos.
+Exporta un tipo de contenido determinado y todos sus campos.
 
 **Uso:**
 ```

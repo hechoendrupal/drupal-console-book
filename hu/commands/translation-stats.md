@@ -1,5 +1,5 @@
 # translation:stats
-**translation:stats** parancs Generate translate stats
+Generate translate stats
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # theme:uninstall
-The **theme:uninstall** command Uninstall theme or themes in the application
+Uninstall theme or themes in the application
 
 **Usage:**
 ```

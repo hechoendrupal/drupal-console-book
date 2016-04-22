@@ -1,5 +1,5 @@
 # yaml:update:value
-**yaml:update:value** parancs A YAML-fájl adott kulcsához tartozó érték frissítése.
+A YAML-fájl adott kulcsához tartozó érték frissítése.
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # database:table:debug
-The **database:table:debug** command Show all tables in a given database.
+Show all tables in a given database.
 
 **Usage:**
 ```

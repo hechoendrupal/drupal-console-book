@@ -1,5 +1,5 @@
 # database:client
-O **database:client** comando Iniciar um cliente de banco de dados se ele está disponível
+Iniciar um cliente de banco de dados se ele está disponível
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # generate:form:alter
-Câu lệnh **generate:form:alter** Tạo một implementation của hook_form_alter() hoặc hook_form_FORM_ID_alter
+Tạo một implementation của hook_form_alter() hoặc hook_form_FORM_ID_alter
 
 **Usage:**
 ```

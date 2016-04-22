@@ -1,5 +1,5 @@
 # site:import:local
-Câu lệnh **site:import:local** Import/Configure an existing local Drupal project
+Import/Configure an existing local Drupal project
 
 **Usage:**
 ```

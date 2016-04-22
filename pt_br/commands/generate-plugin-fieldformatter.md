@@ -1,5 +1,5 @@
 # generate:plugin:fieldformatter
-O **generate:plugin:fieldformatter** comando Gerar um plugin de formato de campo.
+Gerar um plugin de formato de campo.
 
 **Uso:**
 ```

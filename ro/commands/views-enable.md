@@ -1,5 +1,5 @@
 # views:enable
-**views:enable** comanda Activează un View
+Activează un View
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # generate:controller
-**generate:controller** 命令 生成并注册新控制器
+生成并注册新控制器
 
 **用法:**
 ```

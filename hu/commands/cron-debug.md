@@ -1,5 +1,5 @@
 # cron:debug
-**cron:debug** parancs Cron metódust megvalósító modulok listája
+Cron metódust megvalósító modulok listája
 
 **Használat:**
 ```

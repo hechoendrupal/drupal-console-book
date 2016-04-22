@@ -1,5 +1,5 @@
 # generate:form:config
-**generate:form:config** कमांड एक नया ConfigFormBase उत्पन्न करें
+एक नया ConfigFormBase उत्पन्न करें
 
 **प्रयोग:**
 ```

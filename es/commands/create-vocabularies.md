@@ -1,5 +1,5 @@
 # create:vocabularies
-El comando **create:vocabularies** Crea vocabularios de prueba para tu Drupal 8.
+Crea vocabularios de prueba para tu Drupal 8.
 
 **Uso:**
 ```

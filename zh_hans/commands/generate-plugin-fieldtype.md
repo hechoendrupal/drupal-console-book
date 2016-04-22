@@ -1,5 +1,5 @@
 # generate:plugin:fieldtype
-**generate:plugin:fieldtype** 命令 生成字段类型插件
+生成字段类型插件
 
 **用法:**
 ```

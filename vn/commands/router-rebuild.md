@@ -1,5 +1,5 @@
 # router:rebuild
-Câu lệnh **router:rebuild** Xây dựng lại định tuyến cho ứng dụng
+Xây dựng lại định tuyến cho ứng dụng
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # database:connect
-Câu lệnh **database:connect** Hiển thị DB connection
+Hiển thị DB connection
 
 **Usage:**
 ```

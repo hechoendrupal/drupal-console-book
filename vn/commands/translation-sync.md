@@ -1,5 +1,5 @@
 # translation:sync
-Câu lệnh **translation:sync** Sync translation files
+Sync translation files
 
 **Usage:**
 ```

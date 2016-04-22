@@ -1,5 +1,5 @@
 # image:styles:debug
-O **image:styles:debug** comando List image styles on the site
+List image styles on the site
 
 **Uso:**
 ```

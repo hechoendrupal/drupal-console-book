@@ -1,5 +1,5 @@
 # cache:rebuild
-**cache:rebuild** parancs A webhely összes gyorsítótárának újraépítése és törlése.
+A webhely összes gyorsítótárának újraépítése és törlése.
 
 **Használat:**
 ```

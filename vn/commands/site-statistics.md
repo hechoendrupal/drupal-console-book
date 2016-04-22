@@ -1,5 +1,5 @@
 # site:statistics
-Câu lệnh **site:statistics** Show the current statistics of website.
+Show the current statistics of website.
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # yaml:update:key
-**yaml:update:key** parancs YAML-kulcs lecserélése egy YAML-fájlban.
+YAML-kulcs lecserélése egy YAML-fájlban.
 
 **Használat:**
 ```

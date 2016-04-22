@@ -1,5 +1,5 @@
 # list
-Câu lệnh **list** Các danh sách tất cả các dòng lệnh có sẵn
+Các danh sách tất cả các dòng lệnh có sẵn
 
 **Usage:**
 ```

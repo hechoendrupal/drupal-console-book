@@ -1,5 +1,5 @@
 # config:debug
-**config:debug** comanda Afișează configurarea curentă.
+Afișează configurarea curentă.
 
 **Folosire:**
 ```

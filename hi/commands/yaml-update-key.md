@@ -1,5 +1,5 @@
 # yaml:update:key
-**yaml:update:key** कमांड YAML फाइल में YAML कुंजी को बदले।
+YAML फाइल में YAML कुंजी को बदले।
 
 **प्रयोग:**
 ```

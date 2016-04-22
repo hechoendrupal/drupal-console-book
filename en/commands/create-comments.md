@@ -1,5 +1,5 @@
 # create:comments
-The **create:comments** command Create dummy comments for your Drupal 8 application.
+Create dummy comments for your Drupal 8 application.
 
 **Usage:**
 ```

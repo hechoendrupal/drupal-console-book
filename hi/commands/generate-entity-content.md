@@ -1,5 +1,5 @@
 # generate:entity:content
-**generate:entity:content** कमांड एक नई कंटेंट एंटिटि बनाए
+एक नई कंटेंट एंटिटि बनाए
 
 **प्रयोग:**
 ```

@@ -1,5 +1,5 @@
 # generate:form:alter
-**generate:form:alter** parancs A hook_form_alter() vagy hook_form_FORM_ID_alter megvalósításának létrehozása
+A hook_form_alter() vagy hook_form_FORM_ID_alter megvalósításának létrehozása
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # config:export
-The **config:export** command Export current application configuration.
+Export current application configuration.
 
 **Usage:**
 ```

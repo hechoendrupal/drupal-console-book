@@ -1,5 +1,5 @@
 # help
-**help** comanda Displays help for a command
+Displays help for a command
 
 **Folosire:**
 ```

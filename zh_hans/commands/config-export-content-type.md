@@ -1,5 +1,5 @@
 # config:export:content:type
-**config:export:content:type** 命令 导出内容类型及其字段
+导出内容类型及其字段
 
 **用法:**
 ```

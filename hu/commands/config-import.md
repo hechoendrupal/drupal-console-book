@@ -1,5 +1,5 @@
 # config:import
-**config:import** parancs Konfiguráció importálása az aktuális alkalmazásba.
+Konfiguráció importálása az aktuális alkalmazásba.
 
 **Használat:**
 ```

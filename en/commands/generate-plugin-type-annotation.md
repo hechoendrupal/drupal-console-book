@@ -1,5 +1,5 @@
 # generate:plugin:type:annotation
-The **generate:plugin:type:annotation** command Generate a plugin type with annotation discovery
+Generate a plugin type with annotation discovery
 
 **Usage:**
 ```

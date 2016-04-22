@@ -1,5 +1,5 @@
 # generate:controller
-O **generate:controller** comando Cria e Registra um controller
+Cria e Registra um controller
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # locale:language:delete
-**locale:language:delete** 命令 删除一种语言
+删除一种语言
 
 **用法:**
 ```

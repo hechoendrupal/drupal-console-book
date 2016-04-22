@@ -1,5 +1,5 @@
 # generate:form:alter
-El comando **generate:form:alter** Genera una implementación de hook_form_alter() o hook_form_FORM_ID_alter
+Genera una implementación de hook_form_alter() o hook_form_FORM_ID_alter
 
 **Uso:**
 ```

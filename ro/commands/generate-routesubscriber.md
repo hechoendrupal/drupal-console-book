@@ -1,5 +1,5 @@
 # generate:routesubscriber
-**generate:routesubscriber** comanda Generează un RouteSubscriber
+Generează un RouteSubscriber
 
 **Folosire:**
 ```

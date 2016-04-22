@@ -1,5 +1,5 @@
 # yaml:update:key
-Câu lệnh **yaml:update:key** Thay thế một key YAML trong một file YAML.
+Thay thế một key YAML trong một file YAML.
 
 **Usage:**
 ```

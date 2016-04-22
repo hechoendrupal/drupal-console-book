@@ -1,5 +1,5 @@
 # yaml:split
-Câu lệnh **yaml:split** Tách một file YAML sử dụng indent là tiêu chí phân tách
+Tách một file YAML sử dụng indent là tiêu chí phân tách
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # translation:cleanup
-El comando **translation:cleanup** Ficheros de limpieza de traducción
+Ficheros de limpieza de traducción
 
 **Uso:**
 ```

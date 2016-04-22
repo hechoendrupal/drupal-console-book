@@ -1,5 +1,5 @@
 # theme:debug
-Câu lệnh **theme:debug** Hiển thị các themes hiện tại cho ứng dụng
+Hiển thị các themes hiện tại cho ứng dụng
 
 **Usage:**
 ```

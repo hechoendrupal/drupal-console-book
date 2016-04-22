@@ -1,5 +1,5 @@
 # generate:plugin:fieldtype
-**generate:plugin:fieldtype** कमांड खाना प्रकार प्लगिन उत्पन्न करें
+खाना प्रकार प्लगिन उत्पन्न करें
 
 **प्रयोग:**
 ```

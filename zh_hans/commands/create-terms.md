@@ -1,5 +1,5 @@
 # create:terms
-**create:terms** 命令 生成分类术语
+生成分类术语
 
 **用法:**
 ```

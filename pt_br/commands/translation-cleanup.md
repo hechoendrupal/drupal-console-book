@@ -1,5 +1,5 @@
 # translation:cleanup
-O **translation:cleanup** comando Clean up translation files
+Clean up translation files
 
 **Uso:**
 ```

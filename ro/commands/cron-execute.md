@@ -1,5 +1,5 @@
 # cron:execute
-**cron:execute** comanda Execută cron-ul direct dintr-un modul sau din toate
+Execută cron-ul direct dintr-un modul sau din toate
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # generate:form
-El comando **generate:form** Generar un nuevo "FormBase"
+Generar un nuevo "FormBase"
 
 **Uso:**
 ```

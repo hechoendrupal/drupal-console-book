@@ -1,5 +1,5 @@
 # config:debug
-**config:debug** parancs Aktuális konfiguráció megjelenítése.
+Aktuális konfiguráció megjelenítése.
 
 **Használat:**
 ```

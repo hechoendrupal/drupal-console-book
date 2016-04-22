@@ -1,5 +1,5 @@
 # config:export:single
-El comando **config:export:single** Exportar configuración única como archivo YAML.
+Exportar configuración única como archivo YAML.
 
 **Uso:**
 ```

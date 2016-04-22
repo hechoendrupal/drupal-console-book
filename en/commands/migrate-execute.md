@@ -1,5 +1,5 @@
 # migrate:execute
-The **migrate:execute** command Execute a migration available for application
+Execute a migration available for application
 
 **Usage:**
 ```

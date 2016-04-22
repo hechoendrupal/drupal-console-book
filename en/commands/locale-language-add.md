@@ -1,5 +1,5 @@
 # locale:language:add
-The **locale:language:add** command Add a language to be supported by your site
+Add a language to be supported by your site
 
 **Usage:**
 ```

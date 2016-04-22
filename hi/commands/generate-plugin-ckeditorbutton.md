@@ -1,5 +1,5 @@
 # generate:plugin:ckeditorbutton
-**generate:plugin:ckeditorbutton** कमांड Generate CKEditor button plugin.
+Generate CKEditor button plugin.
 
 **प्रयोग:**
 ```

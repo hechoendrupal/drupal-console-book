@@ -1,5 +1,5 @@
 # create:nodes
-El comando **create:nodes** Crea nodos de relleno para su Drupal 8.
+Crea nodos de relleno para su Drupal 8.
 
 **Uso:**
 ```

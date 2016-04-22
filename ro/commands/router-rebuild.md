@@ -1,5 +1,5 @@
 # router:rebuild
-**router:rebuild** comanda Reconstruieşte o rută
+Reconstruieşte o rută
 
 **Folosire:**
 ```

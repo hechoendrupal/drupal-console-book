@@ -1,5 +1,5 @@
 # user:login:clear:attempts
-**user:login:clear:attempts** 命令 清空一个用户的登录尝试数据。
+清空一个用户的登录尝试数据。
 
 **用法:**
 ```

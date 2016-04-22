@@ -1,5 +1,5 @@
 # cache:rebuild
-**cache:rebuild** comanda Reconstruiți și curățați tot cache-ul.
+Reconstruiți și curățați tot cache-ul.
 
 **Folosire:**
 ```

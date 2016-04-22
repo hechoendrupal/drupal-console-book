@@ -1,5 +1,5 @@
 # generate:event:subscriber
-**generate:event:subscriber** 命令 生成事件订阅者
+生成事件订阅者
 
 **用法:**
 ```

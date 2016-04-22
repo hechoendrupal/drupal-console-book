@@ -1,5 +1,5 @@
 # views:enable
-O **views:enable** comando Habilitar uma View
+Habilitar uma View
 
 **Uso:**
 ```

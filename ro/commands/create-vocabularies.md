@@ -1,5 +1,5 @@
 # create:vocabularies
-**create:vocabularies** comanda Create dummy vocabularies for your Drupal 8 application.
+Create dummy vocabularies for your Drupal 8 application.
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # yaml:merge
-**yaml:merge** parancs YAML-fájlok összevonása egy új YAML-fájlba. A legfrissebb értékek maradnak meg.
+YAML-fájlok összevonása egy új YAML-fájlba. A legfrissebb értékek maradnak meg.
 
 **Használat:**
 ```

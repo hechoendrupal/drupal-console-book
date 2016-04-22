@@ -1,5 +1,5 @@
 # state:override
-**state:override** parancs Állapotkulcs felülbírálása.
+Állapotkulcs felülbírálása.
 
 **Használat:**
 ```

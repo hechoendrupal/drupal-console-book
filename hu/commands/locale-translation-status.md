@@ -1,5 +1,5 @@
 # locale:translation:status
-**locale:translation:status** parancs Rendelkezésre álló fordítási frissítések listázása
+Rendelkezésre álló fordítási frissítések listázása
 
 **Használat:**
 ```

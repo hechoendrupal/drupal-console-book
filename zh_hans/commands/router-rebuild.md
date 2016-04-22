@@ -1,5 +1,5 @@
 # router:rebuild
-**router:rebuild** 命令 重建路由
+重建路由
 
 **用法:**
 ```

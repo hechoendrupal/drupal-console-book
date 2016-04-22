@@ -1,5 +1,5 @@
 # create:terms
-**create:terms** parancs Tesztkifejezések létrehozása egy Drupal 8 alkalmazáshoz.
+Tesztkifejezések létrehozása egy Drupal 8 alkalmazáshoz.
 
 **Használat:**
 ```

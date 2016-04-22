@@ -1,5 +1,5 @@
 # self-update
-O **self-update** comando Update the console to latest version.
+Update the console to latest version.
 
 **Uso:**
 ```

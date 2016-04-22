@@ -1,5 +1,5 @@
 # create:vocabularies
-**create:vocabularies** parancs Tesztszótárak létrehozása egy Drupal 8 alkalmazáshoz.
+Tesztszótárak létrehozása egy Drupal 8 alkalmazáshoz.
 
 **Használat:**
 ```

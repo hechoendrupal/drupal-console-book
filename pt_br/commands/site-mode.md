@@ -1,5 +1,5 @@
 # site:mode
-O **site:mode** comando Atualizar as configurações de desempenho do sistema
+Atualizar as configurações de desempenho do sistema
 
 **Uso:**
 ```

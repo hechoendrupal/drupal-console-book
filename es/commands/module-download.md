@@ -1,5 +1,5 @@
 # module:download
-El comando **module:download** Descarga un módulo o varios en la aplicación
+Descarga un módulo o varios en la aplicación
 
 **Uso:**
 ```

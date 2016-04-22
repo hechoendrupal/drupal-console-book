@@ -1,5 +1,5 @@
 # yaml:diff
-**yaml:diff** comanda Compară două fişiere YAML pentru a determina diferenţele dintre acestea.
+Compară două fişiere YAML pentru a determina diferenţele dintre acestea.
 
 **Folosire:**
 ```

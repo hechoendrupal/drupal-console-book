@@ -1,5 +1,5 @@
 # rest:debug
-El comando **rest:debug** Muestra el actual recurso rest para la aplicación
+Muestra el actual recurso rest para la aplicación
 
 **Uso:**
 ```

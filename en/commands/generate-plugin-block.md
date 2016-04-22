@@ -1,5 +1,5 @@
 # generate:plugin:block
-The **generate:plugin:block** command Generate a plugin block
+Generate a plugin block
 
 **Usage:**
 ```

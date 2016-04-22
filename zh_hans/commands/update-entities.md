@@ -1,5 +1,5 @@
 # update:entities
-**update:entities** 命令 Applying Entity Updates
+Applying Entity Updates
 
 **用法:**
 ```

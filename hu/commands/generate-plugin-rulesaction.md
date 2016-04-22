@@ -1,5 +1,5 @@
 # generate:plugin:rulesaction
-**generate:plugin:rulesaction** parancs Szabályművelet bővítmény létrehozása
+Szabályművelet bővítmény létrehozása
 
 **Használat:**
 ```

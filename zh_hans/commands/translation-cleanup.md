@@ -1,5 +1,5 @@
 # translation:cleanup
-**translation:cleanup** 命令 清理翻译文件
+清理翻译文件
 
 **用法:**
 ```

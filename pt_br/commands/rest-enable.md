@@ -1,5 +1,5 @@
 # rest:enable
-O **rest:enable** comando Enable a rest resource for the application
+Enable a rest resource for the application
 
 **Uso:**
 ```

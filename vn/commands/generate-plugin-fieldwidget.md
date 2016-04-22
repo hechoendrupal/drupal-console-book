@@ -1,5 +1,5 @@
 # generate:plugin:fieldwidget
-Câu lệnh **generate:plugin:fieldwidget** Tạo field widget plugin.
+Tạo field widget plugin.
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # config:export:single
-**config:export:single** parancs Egyetlen konfigurációs fájl exportálása yml-fájlként.
+Egyetlen konfigurációs fájl exportálása yml-fájlként.
 
 **Használat:**
 ```

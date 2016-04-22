@@ -1,5 +1,5 @@
 # help
-**help** parancs Displays help for a command
+Displays help for a command
 
 **Használat:**
 ```

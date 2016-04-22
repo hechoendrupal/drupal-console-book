@@ -1,5 +1,5 @@
 # state:delete
-**state:delete** comanda Delete State
+Delete State
 
 **Folosire:**
 ```

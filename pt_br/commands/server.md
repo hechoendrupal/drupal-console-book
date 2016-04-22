@@ -1,5 +1,5 @@
 # server
-O **server** comando Executar o servidor PHP atual
+Executar o servidor PHP atual
 
 **Uso:**
 ```

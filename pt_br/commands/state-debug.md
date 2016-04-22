@@ -1,5 +1,5 @@
 # state:debug
-O **state:debug** comando Exibir as chaves atuais do Estado.
+Exibir as chaves atuais do Estado.
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # views:plugins:debug
-**views:plugins:debug** 命令 Display current views plugins for the application
+Display current views plugins for the application
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # state:override
-**state:override** 命令 覆写状态键的值
+覆写状态键的值
 
 **用法:**
 ```

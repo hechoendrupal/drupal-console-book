@@ -1,5 +1,5 @@
 # database:drop
-Câu lệnh **database:drop** Drop tất cả các tables trong 1 cơ sở dữ liệu được đưa ra.
+Drop tất cả các tables trong 1 cơ sở dữ liệu được đưa ra.
 
 **Usage:**
 ```

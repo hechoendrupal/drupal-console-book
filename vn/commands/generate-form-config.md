@@ -1,5 +1,5 @@
 # generate:form:config
-Câu lệnh **generate:form:config** Tạo một "ConfigFormBase" mới
+Tạo một "ConfigFormBase" mới
 
 **Usage:**
 ```

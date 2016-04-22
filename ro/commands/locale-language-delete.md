@@ -1,5 +1,5 @@
 # locale:language:delete
-**locale:language:delete** comanda Ștergeți o limbă ce are suport pe situl dvs.
+Ștergeți o limbă ce are suport pe situl dvs.
 
 **Folosire:**
 ```

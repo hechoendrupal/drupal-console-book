@@ -1,5 +1,5 @@
 # node:access:rebuild
-**node:access:rebuild** कमांड Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
+Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 
 **प्रयोग:**
 ```

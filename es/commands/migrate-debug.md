@@ -1,5 +1,5 @@
 # migrate:debug
-El comando **migrate:debug** Muestra la migración actual disponible para la aplicación
+Muestra la migración actual disponible para la aplicación
 
 **Uso:**
 ```

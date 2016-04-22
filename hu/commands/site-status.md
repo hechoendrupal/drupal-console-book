@@ -1,5 +1,5 @@
 # site:status
-**site:status** parancs Aktuális Drupal-telepítés állapotának megtekintése
+Aktuális Drupal-telepítés állapotának megtekintése
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # translation:sync
-**translation:sync** comanda Sync translation files
+Sync translation files
 
 **Folosire:**
 ```

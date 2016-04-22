@@ -1,5 +1,5 @@
 # generate:controller
-Câu lệnh **generate:controller** Tạo và đăng ký một trình điều khiển
+Tạo và đăng ký một trình điều khiển
 
 **Usage:**
 ```

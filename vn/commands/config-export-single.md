@@ -1,5 +1,5 @@
 # config:export:single
-Câu lệnh **config:export:single** Xuất cấu hình đơn giản như yml file
+Xuất cấu hình đơn giản như yml file
 
 **Usage:**
 ```

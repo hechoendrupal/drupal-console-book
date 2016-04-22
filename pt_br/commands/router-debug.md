@@ -1,5 +1,5 @@
 # router:debug
-O **router:debug** comando Exibe as rotas atuais de uma aplicação
+Exibe as rotas atuais de uma aplicação
 
 **Uso:**
 ```

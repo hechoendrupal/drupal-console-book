@@ -1,5 +1,5 @@
 # plugin:debug
-**plugin:debug** comanda commands.plugin.debug.description
+commands.plugin.debug.description
 
 **Folosire:**
 ```

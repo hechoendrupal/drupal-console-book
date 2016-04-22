@@ -1,5 +1,5 @@
 # theme:install
-**theme:install** 命令 安装主题
+安装主题
 
 **用法:**
 ```

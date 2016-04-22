@@ -1,5 +1,5 @@
 # views:plugins:debug
-**views:plugins:debug** parancs Display current views plugins for the application
+Display current views plugins for the application
 
 **Használat:**
 ```

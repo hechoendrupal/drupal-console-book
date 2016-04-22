@@ -1,5 +1,5 @@
 # image:styles:flush
-**image:styles:flush** कमांड Execute flush function by image style or execute all flush images styles
+Execute flush function by image style or execute all flush images styles
 
 **प्रयोग:**
 ```

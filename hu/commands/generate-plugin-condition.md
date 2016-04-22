@@ -1,5 +1,5 @@
 # generate:plugin:condition
-**generate:plugin:condition** parancs Feltételbővítmény létrehozása.
+Feltételbővítmény létrehozása.
 
 **Használat:**
 ```

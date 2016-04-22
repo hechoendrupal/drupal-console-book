@@ -1,5 +1,5 @@
 # database:table:debug
-**database:table:debug** 命令 显示数据库所有表
+显示数据库所有表
 
 **用法:**
 ```

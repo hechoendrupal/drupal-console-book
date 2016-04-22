@@ -1,5 +1,5 @@
 # database:dump
-The **database:dump** command Dump structure and contents of a database
+Dump structure and contents of a database
 
 **Usage:**
 ```

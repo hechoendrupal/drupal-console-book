@@ -1,5 +1,5 @@
 # database:client
-Câu lệnh **database:client** Launch a DB client if it's available
+Launch a DB client if it's available
 
 **Usage:**
 ```

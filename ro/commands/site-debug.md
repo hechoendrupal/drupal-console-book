@@ -1,5 +1,5 @@
 # site:debug
-**site:debug** comanda Listează toate siturile locale sau la distanță.
+Listează toate siturile locale sau la distanță.
 
 **Folosire:**
 ```

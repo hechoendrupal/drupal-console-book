@@ -1,5 +1,5 @@
 # generate:service
-Câu lệnh **generate:service** Tạo dịch vụ
+Tạo dịch vụ
 
 **Usage:**
 ```

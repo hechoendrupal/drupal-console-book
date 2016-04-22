@@ -1,5 +1,5 @@
 # config:delete
-**config:delete** 命令 删除配置
+删除配置
 
 **用法:**
 ```

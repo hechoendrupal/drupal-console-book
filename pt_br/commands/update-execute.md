@@ -1,5 +1,5 @@
 # update:execute
-O **update:execute** comando Executar uma função especifica de atualização (Update N) de um módulo especifico, ou executar todas
+Executar uma função especifica de atualização (Update N) de um módulo especifico, ou executar todas
 
 **Uso:**
 ```

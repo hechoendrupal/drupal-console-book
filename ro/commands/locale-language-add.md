@@ -1,5 +1,5 @@
 # locale:language:add
-**locale:language:add** comanda Adaugă o limbă ce va avea suport pe situl dvs.
+Adaugă o limbă ce va avea suport pe situl dvs.
 
 **Folosire:**
 ```

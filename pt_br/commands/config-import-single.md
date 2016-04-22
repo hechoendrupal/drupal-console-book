@@ -1,5 +1,5 @@
 # config:import:single
-O **config:import:single** comando Import the selected configuration.
+Import the selected configuration.
 
 **Uso:**
 ```

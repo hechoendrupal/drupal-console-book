@@ -1,5 +1,5 @@
 # migrate:setup
-El comando **migrate:setup** Cargar y crear las migraciones pertinentes para una base de datos heredada
+Cargar y crear las migraciones pertinentes para una base de datos heredada
 
 **Uso:**
 ```

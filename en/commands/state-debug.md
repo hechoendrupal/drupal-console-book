@@ -1,5 +1,5 @@
 # state:debug
-The **state:debug** command Show the current State keys.
+Show the current State keys.
 
 **Usage:**
 ```

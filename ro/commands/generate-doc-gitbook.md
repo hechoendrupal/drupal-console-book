@@ -1,5 +1,5 @@
 # generate:doc:gitbook
-**generate:doc:gitbook** comanda Generează documentațiile pentru Comenzi
+Generează documentațiile pentru Comenzi
 
 **Folosire:**
 ```

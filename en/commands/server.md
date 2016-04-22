@@ -1,5 +1,5 @@
 # server
-The **server** command Runs PHP built-in web server
+Runs PHP built-in web server
 
 **Usage:**
 ```

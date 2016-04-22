@@ -1,5 +1,5 @@
 # views:plugins:debug
-**views:plugins:debug** comanda Display current views plugins for the application
+Display current views plugins for the application
 
 **Folosire:**
 ```

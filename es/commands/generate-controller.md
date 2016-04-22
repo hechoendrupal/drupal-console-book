@@ -1,5 +1,5 @@
 # generate:controller
-El comando **generate:controller** Generar y registrar un controlador
+Generar y registrar un controlador
 
 **Uso:**
 ```

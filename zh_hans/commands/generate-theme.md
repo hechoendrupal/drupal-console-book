@@ -1,5 +1,5 @@
 # generate:theme
-**generate:theme** 命令 生成一个外观主题.
+生成一个外观主题.
 
 **用法:**
 ```

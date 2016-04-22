@@ -1,5 +1,5 @@
 # views:disable
-**views:disable** comanda Dezactivează un View
+Dezactivează un View
 
 **Folosire:**
 ```

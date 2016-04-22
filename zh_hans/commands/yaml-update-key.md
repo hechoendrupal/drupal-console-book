@@ -1,5 +1,5 @@
 # yaml:update:key
-**yaml:update:key** 命令 替换 YAML 文件中一个键本身的值
+替换 YAML 文件中一个键本身的值
 
 **用法:**
 ```

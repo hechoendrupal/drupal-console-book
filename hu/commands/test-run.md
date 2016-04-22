@@ -1,5 +1,5 @@
 # test:run
-**test:run** parancs Egységteszt futtatása az alkalmazás számára elérhető tesztek közül
+Egységteszt futtatása az alkalmazás számára elérhető tesztek közül
 
 **Használat:**
 ```

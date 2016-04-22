@@ -1,5 +1,5 @@
 # user:password:reset
-The **user:password:reset** command Reset password for a specific user.
+Reset password for a specific user.
 
 **Usage:**
 ```

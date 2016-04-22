@@ -1,5 +1,5 @@
 # generate:plugin:block
-O **generate:plugin:block** comando Criar plugin de bloco.
+Criar plugin de bloco.
 
 **Uso:**
 ```

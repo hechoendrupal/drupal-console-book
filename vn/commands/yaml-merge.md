@@ -1,5 +1,5 @@
 # yaml:merge
-Câu lệnh **yaml:merge** Merge một hoặc nhiều files YAML vào trong một file YAML mới. Giá trị mới nhất được duy trì.
+Merge một hoặc nhiều files YAML vào trong một file YAML mới. Giá trị mới nhất được duy trì.
 
 **Usage:**
 ```

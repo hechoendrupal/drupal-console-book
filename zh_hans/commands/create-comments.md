@@ -1,5 +1,5 @@
 # create:comments
-**create:comments** 命令 创建评论
+创建评论
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # rest:disable
-O **rest:disable** comando Disable a rest resource for the application
+Disable a rest resource for the application
 
 **Uso:**
 ```

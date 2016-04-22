@@ -1,5 +1,5 @@
 # generate:entity:bundle
-Câu lệnh **generate:entity:bundle** Tạo một loại nội dung mới (node / entity bundle)
+Tạo một loại nội dung mới (node / entity bundle)
 
 **Usage:**
 ```

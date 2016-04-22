@@ -1,5 +1,5 @@
 # database:table:debug
-El comando **database:table:debug** Muestra todas las tablas en una base de datos.
+Muestra todas las tablas en una base de datos.
 
 **Uso:**
 ```

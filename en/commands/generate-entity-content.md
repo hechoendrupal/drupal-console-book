@@ -1,5 +1,5 @@
 # generate:entity:content
-The **generate:entity:content** command Generate a new content entity
+Generate a new content entity
 
 **Usage:**
 ```

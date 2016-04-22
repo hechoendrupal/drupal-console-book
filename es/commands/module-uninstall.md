@@ -1,5 +1,5 @@
 # module:uninstall
-El comando **module:uninstall** Desinstala un módulo o varios en la aplicación
+Desinstala un módulo o varios en la aplicación
 
 **Uso:**
 ```

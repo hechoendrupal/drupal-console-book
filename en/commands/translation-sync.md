@@ -1,5 +1,5 @@
 # translation:sync
-The **translation:sync** command Sync translation files
+Sync translation files
 
 **Usage:**
 ```

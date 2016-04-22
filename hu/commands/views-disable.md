@@ -1,5 +1,5 @@
 # views:disable
-**views:disable** parancs Nézet letiltása
+Nézet letiltása
 
 **Használat:**
 ```

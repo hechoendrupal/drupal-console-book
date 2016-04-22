@@ -1,5 +1,5 @@
 # config:delete
-**config:delete** comanda Delete configuration
+Delete configuration
 
 **Folosire:**
 ```

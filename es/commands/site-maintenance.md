@@ -1,5 +1,5 @@
 # site:maintenance
-El comando **site:maintenance** Poner el sitio en modo mantenimiento
+Poner el sitio en modo mantenimiento
 
 **Uso:**
 ```

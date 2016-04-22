@@ -1,5 +1,5 @@
 # generate:theme
-**generate:theme** parancs Smink létrehozása.
+Smink létrehozása.
 
 **Használat:**
 ```

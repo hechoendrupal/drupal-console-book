@@ -1,5 +1,5 @@
 # user:login:clear:attempts
-Câu lệnh **user:login:clear:attempts** Xóa các đăng nhập thử không thành công cho một tài khoản.
+Xóa các đăng nhập thử không thành công cho một tài khoản.
 
 **Usage:**
 ```

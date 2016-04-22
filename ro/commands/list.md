@@ -1,5 +1,5 @@
 # list
-**list** comanda Listele de comenzi
+Listele de comenzi
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # generate:authentication:provider
-**generate:authentication:provider** parancs Hitelesítésszolgáltató létrehozása
+Hitelesítésszolgáltató létrehozása
 
 **Használat:**
 ```

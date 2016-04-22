@@ -1,5 +1,5 @@
 # generate:plugin:field
-**generate:plugin:field** parancs Mezőtípus, felületi elem és formázó bővítmények létrehozása.
+Mezőtípus, felületi elem és formázó bővítmények létrehozása.
 
 **Használat:**
 ```

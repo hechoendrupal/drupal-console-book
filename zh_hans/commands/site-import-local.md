@@ -1,5 +1,5 @@
 # site:import:local
-**site:import:local** 命令 Import/Configure an existing local Drupal project
+Import/Configure an existing local Drupal project
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # theme:uninstall
-**theme:uninstall** 命令 卸载程序的一个或多个外观主题
+卸载程序的一个或多个外观主题
 
 **用法:**
 ```

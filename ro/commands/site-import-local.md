@@ -1,5 +1,5 @@
 # site:import:local
-**site:import:local** comanda Import/Configure an existing local Drupal project
+Import/Configure an existing local Drupal project
 
 **Folosire:**
 ```

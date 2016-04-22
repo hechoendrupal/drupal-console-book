@@ -1,5 +1,5 @@
 # site:mode
-**site:mode** comanda Schimbă configurarile de performanţă ale sistemului
+Schimbă configurarile de performanţă ale sistemului
 
 **Folosire:**
 ```

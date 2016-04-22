@@ -1,5 +1,5 @@
 # router:rebuild
-The **router:rebuild** command Rebuild routes for the application
+Rebuild routes for the application
 
 **Usage:**
 ```

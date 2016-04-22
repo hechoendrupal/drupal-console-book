@@ -1,5 +1,5 @@
 # generate:plugin:type:yaml
-**generate:plugin:type:yaml** comanda Generează un tip de plugin cu descoperire de YAML.
+Generează un tip de plugin cu descoperire de YAML.
 
 **Folosire:**
 ```

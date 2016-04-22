@@ -1,5 +1,5 @@
 # test:debug
-**test:debug** comanda Afişează testele accesibile
+Afişează testele accesibile
 
 **Folosire:**
 ```

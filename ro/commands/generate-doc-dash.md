@@ -1,5 +1,5 @@
 # generate:doc:dash
-**generate:doc:dash** comanda Generați pachetul DrupalConsole.docset pentru Dash
+Generați pachetul DrupalConsole.docset pentru Dash
 
 **Folosire:**
 ```

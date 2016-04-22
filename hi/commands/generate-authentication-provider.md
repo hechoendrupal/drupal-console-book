@@ -1,5 +1,5 @@
 # generate:authentication:provider
-**generate:authentication:provider** कमांड प्रमाणन प्रदाता उत्पन्न करें
+प्रमाणन प्रदाता उत्पन्न करें
 
 **प्रयोग:**
 ```

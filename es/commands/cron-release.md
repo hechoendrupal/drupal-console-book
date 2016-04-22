@@ -1,5 +1,5 @@
 # cron:release
-El comando **cron:release** Desbloquea al cron para volver a ejecutarlo
+Desbloquea al cron para volver a ejecutarlo
 
 **Uso:**
 ```

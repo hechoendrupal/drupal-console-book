@@ -1,5 +1,5 @@
 # generate:plugin:type:yaml
-**generate:plugin:type:yaml** कमांड प्लगिन प्रकार युक्त YAML प्रकाशन उत्पन्न करें
+प्लगिन प्रकार युक्त YAML प्रकाशन उत्पन्न करें
 
 **प्रयोग:**
 ```

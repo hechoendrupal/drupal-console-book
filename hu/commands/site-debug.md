@@ -1,5 +1,5 @@
 # site:debug
-**site:debug** parancs Minden ismert helyi és távoli webhely listázása.
+Minden ismert helyi és távoli webhely listázása.
 
 **Használat:**
 ```

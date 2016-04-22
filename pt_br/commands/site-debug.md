@@ -1,5 +1,5 @@
 # site:debug
-O **site:debug** comando Listar todos os sites locais e remotos.
+Listar todos os sites locais e remotos.
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # migrate:setup
-**migrate:setup** 命令 导入或创建数据库迁移
+导入或创建数据库迁移
 
 **用法:**
 ```

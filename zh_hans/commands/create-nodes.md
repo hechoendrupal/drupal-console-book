@@ -1,5 +1,5 @@
 # create:nodes
-**create:nodes** 命令 生成节点
+生成节点
 
 **用法:**
 ```

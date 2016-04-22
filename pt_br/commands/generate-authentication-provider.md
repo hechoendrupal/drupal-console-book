@@ -1,5 +1,5 @@
 # generate:authentication:provider
-O **generate:authentication:provider** comando Gerar um provedor de autenticação
+Gerar um provedor de autenticação
 
 **Uso:**
 ```

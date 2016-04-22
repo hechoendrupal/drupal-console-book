@@ -1,5 +1,5 @@
 # rest:disable
-Câu lệnh **rest:disable** Tắt một tài nguyên rest cho ứng dụng
+Tắt một tài nguyên rest cho ứng dụng
 
 **Usage:**
 ```

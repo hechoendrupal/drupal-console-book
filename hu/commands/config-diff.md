@@ -1,5 +1,5 @@
 # config:diff
-**config:diff** parancs Az aktív konfigurációt egy könyvtárral összehasonlítva az eltérő konfigurációs elemek.
+Az aktív konfigurációt egy könyvtárral összehasonlítva az eltérő konfigurációs elemek.
 
 **Használat:**
 ```

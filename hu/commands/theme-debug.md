@@ -1,5 +1,5 @@
 # theme:debug
-**theme:debug** parancs Megjeleníti az alkalmazás aktuális sminkjeit
+Megjeleníti az alkalmazás aktuális sminkjeit
 
 **Használat:**
 ```

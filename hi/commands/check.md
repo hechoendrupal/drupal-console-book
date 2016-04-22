@@ -1,5 +1,5 @@
 # check
-**check** कमांड commands.check.description
+commands.check.description
 
 **प्रयोग:**
 ```

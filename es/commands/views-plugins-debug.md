@@ -1,5 +1,5 @@
 # views:plugins:debug
-El comando **views:plugins:debug** Mostrar los plugins de views en la aplicación
+Mostrar los plugins de views en la aplicación
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # update:entities
-**update:entities** parancs Applying Entity Updates
+Applying Entity Updates
 
 **Használat:**
 ```

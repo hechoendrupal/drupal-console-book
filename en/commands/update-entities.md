@@ -1,5 +1,5 @@
 # update:entities
-The **update:entities** command Applying Entity Updates
+Applying Entity Updates
 
 **Usage:**
 ```

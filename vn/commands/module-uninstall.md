@@ -1,5 +1,5 @@
 # module:uninstall
-Câu lệnh **module:uninstall** Gỡ bỏ module hoặc các module trong ứng dụng
+Gỡ bỏ module hoặc các module trong ứng dụng
 
 **Usage:**
 ```

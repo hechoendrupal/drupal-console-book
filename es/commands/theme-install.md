@@ -1,5 +1,5 @@
 # theme:install
-El comando **theme:install** Instalar tema o temas en la aplicación
+Instalar tema o temas en la aplicación
 
 **Uso:**
 ```

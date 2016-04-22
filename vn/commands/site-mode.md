@@ -1,5 +1,5 @@
 # site:mode
-Câu lệnh **site:mode** Chuyển đổi cấu hình hiệu năng của hệ thống
+Chuyển đổi cấu hình hiệu năng của hệ thống
 
 **Usage:**
 ```

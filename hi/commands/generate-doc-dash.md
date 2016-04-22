@@ -1,5 +1,5 @@
 # generate:doc:dash
-**generate:doc:dash** कमांड डैश के लिए  DrupalConsole.docset पैकेज उत्पन्न करें
+डैश के लिए  DrupalConsole.docset पैकेज उत्पन्न करें
 
 **प्रयोग:**
 ```

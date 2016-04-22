@@ -1,5 +1,5 @@
 # site:maintenance
-Câu lệnh **site:maintenance** Chuyển site sang chế độ bảo trì
+Chuyển site sang chế độ bảo trì
 
 **Usage:**
 ```

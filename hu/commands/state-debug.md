@@ -1,5 +1,5 @@
 # state:debug
-**state:debug** parancs Az aktuális állapotkulcsok megjelenítése.
+Az aktuális állapotkulcsok megjelenítése.
 
 **Használat:**
 ```

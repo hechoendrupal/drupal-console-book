@@ -1,5 +1,5 @@
 # user:delete
-The **user:delete** command Delete users for the application
+Delete users for the application
 
 **Usage:**
 ```

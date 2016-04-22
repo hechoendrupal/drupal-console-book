@@ -1,5 +1,5 @@
 # site:status
-**site:status** comanda Vizualizează statutul de instalare (Drupal Installation status)
+Vizualizează statutul de instalare (Drupal Installation status)
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # generate:command
-Câu lệnh **generate:command** Tạo ra các lệnh cho trình điều khiển.
+Tạo ra các lệnh cho trình điều khiển.
 
 **Usage:**
 ```

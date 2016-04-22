@@ -1,5 +1,5 @@
 # generate:doc:dash
-**generate:doc:dash** 命令 生成 Dash 文档
+生成 Dash 文档
 
 **用法:**
 ```

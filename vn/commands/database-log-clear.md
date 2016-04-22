@@ -1,5 +1,5 @@
 # database:log:clear
-Câu lệnh **database:log:clear** Xóa các sự kiện từ DBLog table, filters là có thể sử dụng được
+Xóa các sự kiện từ DBLog table, filters là có thể sử dụng được
 
 **Usage:**
 ```

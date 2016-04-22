@@ -1,5 +1,5 @@
 # user:login:url
-O **user:login:url** comando Cria uma URL de login de uso único.
+Cria uma URL de login de uso único.
 
 **Uso:**
 ```

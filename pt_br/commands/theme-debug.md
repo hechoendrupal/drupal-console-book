@@ -1,5 +1,5 @@
 # theme:debug
-O **theme:debug** comando Exibir informações sobre os temas da aplicação
+Exibir informações sobre os temas da aplicação
 
 **Uso:**
 ```

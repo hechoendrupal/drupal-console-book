@@ -1,5 +1,5 @@
 # locale:translation:status
-**locale:translation:status** comanda Listează actualizările de traducere disponibile
+Listează actualizările de traducere disponibile
 
 **Folosire:**
 ```

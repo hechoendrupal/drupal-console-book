@@ -1,5 +1,5 @@
 # module:download
-**module:download** 命令 下载模块
+下载模块
 
 **用法:**
 ```

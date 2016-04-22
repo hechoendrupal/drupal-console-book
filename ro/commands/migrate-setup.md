@@ -1,5 +1,5 @@
 # migrate:setup
-**migrate:setup** comanda Încărcați și creați migrațiunile relevante pentru o bază de date furnizată
+Încărcați și creați migrațiunile relevante pentru o bază de date furnizată
 
 **Folosire:**
 ```

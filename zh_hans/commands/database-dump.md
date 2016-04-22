@@ -1,5 +1,5 @@
 # database:dump
-**database:dump** 命令 导出数据库
+导出数据库
 
 **用法:**
 ```

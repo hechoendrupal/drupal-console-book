@@ -1,5 +1,5 @@
 # module:debug
-**module:debug** comanda Afişează Modulele curente pentru aplicaţie
+Afişează Modulele curente pentru aplicaţie
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # site:debug
-Câu lệnh **site:debug** Liệt kê tất cả các sites cục bộ và từ xa đã biết.
+Liệt kê tất cả các sites cục bộ và từ xa đã biết.
 
 **Usage:**
 ```

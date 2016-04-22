@@ -1,5 +1,5 @@
 # user:login:url
-Câu lệnh **user:login:url** Quay lại một url đăng nhập của người dùng một lần.
+Quay lại một url đăng nhập của người dùng một lần.
 
 **Usage:**
 ```

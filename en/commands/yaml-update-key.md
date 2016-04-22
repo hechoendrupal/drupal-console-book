@@ -1,5 +1,5 @@
 # yaml:update:key
-The **yaml:update:key** command Replace a YAML key in a YAML file.
+Replace a YAML key in a YAML file.
 
 **Usage:**
 ```

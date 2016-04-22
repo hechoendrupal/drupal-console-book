@@ -1,5 +1,5 @@
 # translation:sync
-**translation:sync** 命令 同步翻译文件
+同步翻译文件
 
 **用法:**
 ```

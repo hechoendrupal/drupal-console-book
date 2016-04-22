@@ -1,5 +1,5 @@
 # generate:plugin:ckeditorbutton
-**generate:plugin:ckeditorbutton** 命令 Generate CKEditor button plugin.
+Generate CKEditor button plugin.
 
 **用法:**
 ```

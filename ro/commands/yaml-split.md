@@ -1,5 +1,5 @@
 # yaml:split
-**yaml:split** comanda Separă un fişier YAML folosind indentarea ca şi criteriu de separare.
+Separă un fişier YAML folosind indentarea ca şi criteriu de separare.
 
 **Folosire:**
 ```

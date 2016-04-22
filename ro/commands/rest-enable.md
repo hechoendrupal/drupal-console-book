@@ -1,5 +1,5 @@
 # rest:enable
-**rest:enable** comanda Activează o resursă REST pentru aplicaţie.
+Activează o resursă REST pentru aplicaţie.
 
 **Folosire:**
 ```

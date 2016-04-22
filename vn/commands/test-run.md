@@ -1,5 +1,5 @@
 # test:run
-Câu lệnh **test:run** Chạy đơn vị thử nghiệm từ các thử nghiệm có sẵn cho ứng dụng
+Chạy đơn vị thử nghiệm từ các thử nghiệm có sẵn cho ứng dụng
 
 **Usage:**
 ```

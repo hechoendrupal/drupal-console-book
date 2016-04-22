@@ -1,5 +1,5 @@
 # check
-**check** 命令 commands.check.description
+commands.check.description
 
 **用法:**
 ```

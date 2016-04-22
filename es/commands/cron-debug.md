@@ -1,5 +1,5 @@
 # cron:debug
-El comando **cron:debug** Listado de módulos que implementan una llamada al cron
+Listado de módulos que implementan una llamada al cron
 
 **Uso:**
 ```

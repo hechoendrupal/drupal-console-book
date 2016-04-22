@@ -1,5 +1,5 @@
 # translation:stats
-**translation:stats** comanda Generate translate stats
+Generate translate stats
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # generate:module
-El comando **generate:module** Generar un módulo.
+Generar un módulo.
 
 **Uso:**
 ```

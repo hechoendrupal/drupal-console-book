@@ -1,5 +1,5 @@
 # translation:sync
-O **translation:sync** comando Sync translation files
+Sync translation files
 
 **Uso:**
 ```

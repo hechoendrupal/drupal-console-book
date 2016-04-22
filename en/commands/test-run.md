@@ -1,5 +1,5 @@
 # test:run
-The **test:run** command Run Test unit from tests available for application
+Run Test unit from tests available for application
 
 **Usage:**
 ```

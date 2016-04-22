@@ -1,5 +1,5 @@
 # module:debug
-O **module:debug** comando Display current modules available for application
+Display current modules available for application
 
 **Uso:**
 ```

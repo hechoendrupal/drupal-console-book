@@ -1,5 +1,5 @@
 # config:diff
-The **config:diff** command Ouput configuration items that are different in active configuration compared with a directory.
+Ouput configuration items that are different in active configuration compared with a directory.
 
 **Usage:**
 ```

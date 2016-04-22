@@ -1,5 +1,5 @@
 # user:login:clear:attempts
-**user:login:clear:attempts** comanda Şterge autentificările eşuate pentru un cont.
+Şterge autentificările eşuate pentru un cont.
 
 **Folosire:**
 ```

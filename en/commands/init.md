@@ -1,5 +1,5 @@
 # init
-The **init** command Copy configuration files to user home directory.
+Copy configuration files to user home directory.
 
 **Usage:**
 ```

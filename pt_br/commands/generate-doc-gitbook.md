@@ -1,5 +1,5 @@
 # generate:doc:gitbook
-O **generate:doc:gitbook** comando Gerar documentação para os comandos
+Gerar documentação para os comandos
 
 **Uso:**
 ```

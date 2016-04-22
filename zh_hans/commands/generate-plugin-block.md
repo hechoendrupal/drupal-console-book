@@ -1,5 +1,5 @@
 # generate:plugin:block
-**generate:plugin:block** 命令 生成区块插件
+生成区块插件
 
 **用法:**
 ```

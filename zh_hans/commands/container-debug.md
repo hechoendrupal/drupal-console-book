@@ -1,5 +1,5 @@
 # container:debug
-**container:debug** 命令 显示当前服务
+显示当前服务
 
 **用法:**
 ```

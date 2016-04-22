@@ -1,5 +1,5 @@
 # config:export
-**config:export** comanda Exportă configurările curente ale aplicației.
+Exportă configurările curente ale aplicației.
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # config:export
-**config:export** 命令 导出配置
+导出配置
 
 **用法:**
 ```

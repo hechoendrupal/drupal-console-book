@@ -1,5 +1,5 @@
 # test:debug
-**test:debug** parancs Az alkalmazás egységtesztjeinek listázása.
+Az alkalmazás egységtesztjeinek listázása.
 
 **Használat:**
 ```

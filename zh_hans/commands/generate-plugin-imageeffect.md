@@ -1,5 +1,5 @@
 # generate:plugin:imageeffect
-**generate:plugin:imageeffect** 命令 生成图像效果插件
+生成图像效果插件
 
 **用法:**
 ```

@@ -1,5 +1,5 @@
 # generate:form:alter
-**generate:form:alter** कमांड एक hook_form_alter() या hook_form_FORM_ID_alter कार्यान्वयन उत्पन्न करें
+एक hook_form_alter() या hook_form_FORM_ID_alter कार्यान्वयन उत्पन्न करें
 
 **प्रयोग:**
 ```

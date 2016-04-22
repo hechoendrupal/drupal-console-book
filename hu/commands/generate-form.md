@@ -1,5 +1,5 @@
 # generate:form
-**generate:form** parancs Új "FormBase" létrehozása
+Új "FormBase" létrehozása
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # generate:plugin:mail
-Câu lệnh **generate:plugin:mail** Generate a plugin mail
+Generate a plugin mail
 
 **Usage:**
 ```

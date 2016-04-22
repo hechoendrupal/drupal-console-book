@@ -1,5 +1,5 @@
 # user:debug
-**user:debug** parancs Megjeleníti az aktuális felhasználókat
+Megjeleníti az aktuális felhasználókat
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # generate:command
-El comando **generate:command** Genera un comando para la consola.
+Genera un comando para la consola.
 
 **Uso:**
 ```

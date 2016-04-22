@@ -1,5 +1,5 @@
 # yaml:diff
-**yaml:diff** 命令 比较两个YAML文件找出区别
+比较两个YAML文件找出区别
 
 **用法:**
 ```

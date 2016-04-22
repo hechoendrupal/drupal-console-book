@@ -1,5 +1,5 @@
 # config:debug
-The **config:debug** command Show the current configuration.
+Show the current configuration.
 
 **Usage:**
 ```

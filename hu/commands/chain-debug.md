@@ -1,5 +1,5 @@
 # chain:debug
-**chain:debug** parancs Rendelkezésre álló láncolt fájlok felsorolása.
+Rendelkezésre álló láncolt fájlok felsorolása.
 
 **Használat:**
 ```

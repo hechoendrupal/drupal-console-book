@@ -1,5 +1,5 @@
 # generate:form:config
-**generate:form:config** comanda Generează un "ConfigFormBase" nou
+Generează un "ConfigFormBase" nou
 
 **Folosire:**
 ```

@@ -1,5 +1,5 @@
 # cache:rebuild
-El comando **cache:rebuild** Reconstruye y limpia todas las cachés del sitio.
+Reconstruye y limpia todas las cachés del sitio.
 
 **Uso:**
 ```

@@ -1,5 +1,5 @@
 # rest:debug
-**rest:debug** 命令 显示当前 REST 资源
+显示当前 REST 资源
 
 **用法:**
 ```

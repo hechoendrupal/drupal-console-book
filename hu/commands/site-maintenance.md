@@ -1,5 +1,5 @@
 # site:maintenance
-**site:maintenance** parancs Webhely karbantartási módba állítása
+Webhely karbantartási módba állítása
 
 **Használat:**
 ```

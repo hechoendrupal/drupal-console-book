@@ -1,5 +1,5 @@
 # rest:debug
-Câu lệnh **rest:debug** Hiển thị rest resource hiện có cho ứng dụng
+Hiển thị rest resource hiện có cho ứng dụng
 
 **Usage:**
 ```

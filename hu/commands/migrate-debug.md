@@ -1,5 +1,5 @@
 # migrate:debug
-**migrate:debug** parancs Az elérhető aktuális költöztetések megjelenítése
+Az elérhető aktuális költöztetések megjelenítése
 
 **Használat:**
 ```

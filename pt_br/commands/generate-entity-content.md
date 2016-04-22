@@ -1,5 +1,5 @@
 # generate:entity:content
-O **generate:entity:content** comando Gerar uma nova entidade de conteúdo
+Gerar uma nova entidade de conteúdo
 
 **Uso:**
 ```

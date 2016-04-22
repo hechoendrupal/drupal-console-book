@@ -1,5 +1,5 @@
 # image:styles:debug
-**image:styles:debug** parancs List image styles on the site
+List image styles on the site
 
 **Használat:**
 ```

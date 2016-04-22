@@ -1,5 +1,5 @@
 # views:disable
-Câu lệnh **views:disable** Tắt một View
+Tắt một View
 
 **Usage:**
 ```

@@ -1,5 +1,5 @@
 # update:entities
-Câu lệnh **update:entities** Applying Entity Updates
+Applying Entity Updates
 
 **Usage:**
 ```

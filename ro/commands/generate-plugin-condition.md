@@ -1,5 +1,5 @@
 # generate:plugin:condition
-**generate:plugin:condition** comanda Generează o condiție pentru extensie.
+Generează o condiție pentru extensie.
 
 **Folosire:**
 ```

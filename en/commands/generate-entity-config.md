@@ -1,5 +1,5 @@
 # generate:entity:config
-The **generate:entity:config** command Generate a new config entity
+Generate a new config entity
 
 **Usage:**
 ```

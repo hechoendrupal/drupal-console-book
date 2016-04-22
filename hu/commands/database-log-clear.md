@@ -1,5 +1,5 @@
 # database:log:clear
-**database:log:clear** parancs Események eltávolítása a DBLog táblából, rendelkezésre állnak szűrők
+Események eltávolítása a DBLog táblából, rendelkezésre állnak szűrők
 
 **Használat:**
 ```

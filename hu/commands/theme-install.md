@@ -1,5 +1,5 @@
 # theme:install
-**theme:install** parancs Smink vagy sminkek telepítése az alkalmazásba
+Smink vagy sminkek telepítése az alkalmazásba
 
 **Használat:**
 ```

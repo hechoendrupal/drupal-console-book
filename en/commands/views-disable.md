@@ -1,5 +1,5 @@
 # views:disable
-The **views:disable** command Disable a View
+Disable a View
 
 **Usage:**
 ```

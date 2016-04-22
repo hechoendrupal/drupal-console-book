@@ -1,5 +1,5 @@
 # generate:permissions
-O **generate:permissions** comando Gerar permissões ao módulo
+Gerar permissões ao módulo
 
 **Uso:**
 ```

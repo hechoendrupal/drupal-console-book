@@ -1,5 +1,5 @@
 # migrate:execute
-Câu lệnh **migrate:execute** Tiến hành một phần chuyển đổi dữ liệu có sẵn trong ứng dụng
+Tiến hành một phần chuyển đổi dữ liệu có sẵn trong ứng dụng
 
 **Usage:**
 ```

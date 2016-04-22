@@ -1,5 +1,5 @@
 # generate:plugin:rest:resource
-The **generate:plugin:rest:resource** command Generate plugin rest resource
+Generate plugin rest resource
 
 **Usage:**
 ```

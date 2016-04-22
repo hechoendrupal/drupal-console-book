@@ -1,5 +1,5 @@
 # generate:plugin:fieldwidget
-El comando **generate:plugin:fieldwidget** Genera un plugin de widget de campo.
+Genera un plugin de widget de campo.
 
 **Uso:**
 ```

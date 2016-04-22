@@ -1,5 +1,5 @@
 # database:table:debug
-**database:table:debug** parancs Adott adatbázis összes táblájának megjelenítése.
+Adott adatbázis összes táblájának megjelenítése.
 
 **Használat:**
 ```

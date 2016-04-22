@@ -1,5 +1,5 @@
 # generate:plugin:ckeditorbutton
-O **generate:plugin:ckeditorbutton** comando Generate CKEditor button plugin.
+Generate CKEditor button plugin.
 
 **Uso:**
 ```

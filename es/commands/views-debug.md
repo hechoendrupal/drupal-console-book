@@ -1,5 +1,5 @@
 # views:debug
-El comando **views:debug** Muestra los recursos actuales de vistas para la aplicación
+Muestra los recursos actuales de vistas para la aplicación
 
 **Uso:**
 ```

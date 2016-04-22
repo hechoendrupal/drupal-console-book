@@ -1,5 +1,5 @@
 # user:delete
-**user:delete** parancs Felhasználók törlése
+Felhasználók törlése
 
 **Használat:**
 ```

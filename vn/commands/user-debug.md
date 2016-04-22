@@ -1,5 +1,5 @@
 # user:debug
-Câu lệnh **user:debug** Hiển thị các người dùng hiện tại cho ứng dụng
+Hiển thị các người dùng hiện tại cho ứng dụng
 
 **Usage:**
 ```

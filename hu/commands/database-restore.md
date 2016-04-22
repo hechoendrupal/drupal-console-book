@@ -1,5 +1,5 @@
 # database:restore
-**database:restore** parancs Adatbázis szerkezetének és tartalmának visszaállítása.
+Adatbázis szerkezetének és tartalmának visszaállítása.
 
 **Használat:**
 ```

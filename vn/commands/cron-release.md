@@ -1,5 +1,5 @@
 # cron:release
-Câu lệnh **cron:release** Giải phóng khoá cron hệ thống để cho phép chạy lại cron
+Giải phóng khoá cron hệ thống để cho phép chạy lại cron
 
 **Usage:**
 ```

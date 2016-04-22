@@ -1,5 +1,5 @@
 # views:debug
-Câu lệnh **views:debug** Hiển thị các views resources hiện tại cho ứng dụng
+Hiển thị các views resources hiện tại cho ứng dụng
 
 **Usage:**
 ```

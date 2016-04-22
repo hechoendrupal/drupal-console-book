@@ -1,5 +1,5 @@
 # translation:stats
-**translation:stats** 命令 生成翻译统计
+生成翻译统计
 
 **用法:**
 ```

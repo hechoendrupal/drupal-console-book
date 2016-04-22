@@ -1,5 +1,5 @@
 # chain
-**chain** parancs Chain parancs végrehajtása
+Chain parancs végrehajtása
 
 **Használat:**
 ```

@@ -1,5 +1,5 @@
 # generate:plugin:fieldwidget
-**generate:plugin:fieldwidget** comanda Generează extensia de widget pentru câmp.
+Generează extensia de widget pentru câmp.
 
 **Folosire:**
 ```

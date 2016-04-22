@@ -1,5 +1,5 @@
 # locale:language:delete
-El comando **locale:language:delete** Eliminar un idioma soportado en el sitio
+Eliminar un idioma soportado en el sitio
 
 **Uso:**
 ```

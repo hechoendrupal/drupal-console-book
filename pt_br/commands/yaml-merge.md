@@ -1,5 +1,5 @@
 # yaml:merge
-O **yaml:merge** comando Combinar um ou mais arquivos YAML em um único novo arquivo. Os últimos valores serão preservados.
+Combinar um ou mais arquivos YAML em um único novo arquivo. Os últimos valores serão preservados.
 
 **Uso:**
 ```

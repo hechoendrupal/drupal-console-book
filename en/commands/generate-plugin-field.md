@@ -1,5 +1,5 @@
 # generate:plugin:field
-The **generate:plugin:field** command Generate field type, widget and formatter plugins.
+Generate field type, widget and formatter plugins.
 
 **Usage:**
 ```

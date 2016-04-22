@@ -1,5 +1,5 @@
 # generate:plugin:condition
-**generate:plugin:condition** 命令 生成条件插件
+生成条件插件
 
 **用法:**
 ```

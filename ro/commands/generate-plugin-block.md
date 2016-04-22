@@ -1,5 +1,5 @@
 # generate:plugin:block
-**generate:plugin:block** comanda Generează un Plugin de tip bloc
+Generează un Plugin de tip bloc
 
 **Folosire:**
 ```
