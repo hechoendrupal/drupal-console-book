@@ -11,6 +11,7 @@ Usted puede contribuir para mejorar este proyecto en [Github](https://github.com
 ## Contribuir a esta documetación
 
 Usted puede contribuir a esta documentación en [GitHub](https://github.com/hechoendrupal/drupal-console-book).
+Para conocer la información necesaria sobre cómo contribuir a este libro puede leer [Cómo contribuir al proyecto](https://github.com/hechoendrupal/drupal-console-book/blob/master/es/contributing/contributing-to-the-book.md).
 
 ## Organizaciones que apoyan al proyecto 
 [![FFW](https://www.drupal.org/files/ffw-logo.png)](https://ffwagency.com)  

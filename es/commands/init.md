@@ -1,12 +1,13 @@
 # init
-commands.init.description
+El comando **init** copia los archivos de configuración al directorio home del usuario.
+
 
 **Uso:**
 ```
-$ drupal init [options] 
+$ drupal init [opciones]
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---override | commands.init.options.override
+--override | Sobreescribe los archivos de configuración

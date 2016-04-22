@@ -17,6 +17,6 @@ Opción | Detalles
 --core | Versión del core
 --package | Paquete del tema
 --global-library | Nombre de la librería de estilo global
---base-theme | Tema base (por ejemplo: classy, stable)
+--base-theme | Tema base (por ejemplo: classy, seven)
 --regions | Regiones
 --breakpoints | Puntos de ruptura
