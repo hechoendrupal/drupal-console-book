@@ -3,6 +3,6 @@
 
 **用法:**
 ```
-$ drupal container:debug 
+$ drupal container:debug
 $ cod  
 ```

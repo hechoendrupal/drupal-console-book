@@ -3,7 +3,7 @@ Adott adatbázis összes táblájának megjelenítése.
 
 **Használat:**
 ```
-$ drupal database:table:debug [arguments] [options] 
+$ drupal database:table:debug [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

@@ -3,7 +3,7 @@ Enable a rest resource for the application
 
 **Uso:**
 ```
-$ drupal rest:enable [arguments] 
+$ drupal rest:enable [arguments]
 $ ree  
 ```
 

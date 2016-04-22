@@ -3,7 +3,7 @@ Genera un plugin de recurso rest
 
 **Uso:**
 ```
-$ drupal generate:plugin:rest:resource [options] 
+$ drupal generate:plugin:rest:resource [options]
 ```
 
 ## Opciones disponibles

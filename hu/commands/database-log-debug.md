@@ -3,7 +3,7 @@ Az alkalmazás aktuális naplóeseményeinek megjelenítése
 
 **Használat:**
 ```
-$ drupal database:log:debug [arguments] [options] 
+$ drupal database:log:debug [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

@@ -105,6 +105,8 @@ Comando de Drupal Console | Detalles
 [multisite:debug](multisite-debug.md) | Lista todos los sitios múltiples disponibles en el sistema
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Reconstruir los permisos de acceso a nodos. La reconstrucción eliminará todos los privilegios al contenudo y los reemplazará con permisos basado en los módulos y configuración actual,
+**plugin**  |
+[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
 **rest**  |
 [rest:debug](rest-debug.md) | Muestra el actual recurso rest para la aplicación
 [rest:disable](rest-disable.md) | Deshabilita un recurso rest en la aplicación
@@ -117,6 +119,7 @@ Comando de Drupal Console | Detalles
 [settings:set](settings-set.md) | Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole
 **site**  |
 [site:debug](site-debug.md) | Enlista todos los sitios, locales y remotos, conocidos.
+[site:import:local](site-import-local.md) | Import/Configure an existing local Drupal project
 [site:install](site-install.md) | Instala un proyecto Drupal
 [site:maintenance](site-maintenance.md) | Poner el sitio en modo mantenimiento
 [site:mode](site-mode.md) | Cambiar la configuración de rendimiento del sistema

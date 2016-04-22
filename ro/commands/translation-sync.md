@@ -3,7 +3,7 @@ Sync translation files
 
 **Folosire:**
 ```
-$ drupal translation:sync [arguments] [options] 
+$ drupal translation:sync [arguments] [options]
 ```
 
 ## Opțiuni disponibile

@@ -3,7 +3,7 @@ Generează un hash dintr-o parolă de tip text.
 
 **Folosire:**
 ```
-$ drupal user:password:hash [arguments] 
+$ drupal user:password:hash [arguments]
 $ usph  
 ```
 

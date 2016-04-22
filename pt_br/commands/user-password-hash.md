@@ -3,7 +3,7 @@ Gerar o hash de uma senha em formato texto.
 
 **Uso:**
 ```
-$ drupal user:password:hash [arguments] 
+$ drupal user:password:hash [arguments]
 $ usph  
 ```
 

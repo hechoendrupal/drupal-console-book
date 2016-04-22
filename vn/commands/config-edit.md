@@ -3,7 +3,7 @@ Chỉnh sửa cấu hình đã được chọn
 
 **Usage:**
 ```
-$ drupal config:edit [arguments] 
+$ drupal config:edit [arguments]
 $ cdit  
 ```
 

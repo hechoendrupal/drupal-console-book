@@ -3,7 +3,7 @@ Generează și Înregistrează un controller
 
 **Folosire:**
 ```
-$ drupal generate:controller [options] 
+$ drupal generate:controller [options]
 $ gcn  
 ```
 

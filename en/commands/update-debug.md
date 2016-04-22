@@ -3,6 +3,6 @@ Display current updates available for the application
 
 **Usage:**
 ```
-$ drupal update:debug 
+$ drupal update:debug
 $ upd  
 ```

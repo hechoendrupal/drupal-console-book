@@ -3,7 +3,7 @@ Load and create the relevant migrations for a provided legacy database
 
 **Usage:**
 ```
-$ drupal migrate:setup [options] 
+$ drupal migrate:setup [options]
 ```
 
 ## Các tùy chọn có sẵn

@@ -3,7 +3,7 @@ Dump cấu trúc và nội dung của 1 cơ sở dữ liệu
 
 **Usage:**
 ```
-$ drupal database:dump [arguments] [options] 
+$ drupal database:dump [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

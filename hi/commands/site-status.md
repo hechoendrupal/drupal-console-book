@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal site:status [options] 
+$ drupal site:status [options]
 $ ss  
 ```
 

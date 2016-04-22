@@ -3,7 +3,7 @@ Tạo dummy vocabularies cho ứng dụng Drupal 8 của bạn.
 
 **Usage:**
 ```
-$ drupal create:vocabularies [options] 
+$ drupal create:vocabularies [options]
 ```
 
 ## Các tùy chọn có sẵn

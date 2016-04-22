@@ -3,7 +3,7 @@ Tạo một profile.
 
 **Usage:**
 ```
-$ drupal generate:profile [options] 
+$ drupal generate:profile [options]
 ```
 
 ## Các tùy chọn có sẵn

@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal database:table:debug [arguments] [options] 
+$ drupal database:table:debug [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

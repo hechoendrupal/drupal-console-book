@@ -3,7 +3,7 @@ Nhập cấu hình tới ứng dụng hiện tại
 
 **Usage:**
 ```
-$ drupal config:import [options] 
+$ drupal config:import [options]
 $ ci  
 ```
 

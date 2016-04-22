@@ -3,7 +3,7 @@ Listar testes unitários disponíveis para a aplicação.
 
 **Uso:**
 ```
-$ drupal test:debug [arguments] [options] 
+$ drupal test:debug [arguments] [options]
 $ td  
 ```
 

@@ -3,7 +3,7 @@ Képformázó bővítmény létrehozása.
 
 **Használat:**
 ```
-$ drupal generate:plugin:imageformatter [options] 
+$ drupal generate:plugin:imageformatter [options]
 ```
 
 ## Rendelkezésre álló beállítások

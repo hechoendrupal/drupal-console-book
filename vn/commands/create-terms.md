@@ -3,7 +3,7 @@ Tạo dummy terms cho ứng dụng Drupal 8 của bạn.
 
 **Usage:**
 ```
-$ drupal create:terms [arguments] [options] 
+$ drupal create:terms [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

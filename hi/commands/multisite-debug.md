@@ -3,5 +3,5 @@
 
 **प्रयोग:**
 ```
-$ drupal multisite:debug 
+$ drupal multisite:debug
 ```

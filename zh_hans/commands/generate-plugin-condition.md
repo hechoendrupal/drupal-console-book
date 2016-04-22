@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:plugin:condition [options] 
+$ drupal generate:plugin:condition [options]
 ```
 
 ## 可用选项

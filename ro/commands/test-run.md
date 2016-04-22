@@ -3,7 +3,7 @@ Execută un test dintre testele disponibile in aplicaţie.
 
 **Folosire:**
 ```
-$ drupal test:run [arguments] [options] 
+$ drupal test:run [arguments] [options]
 $ tr  
 ```
 

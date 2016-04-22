@@ -3,7 +3,7 @@ Deshabilita un recurso rest en la aplicación
 
 **Uso:**
 ```
-$ drupal rest:disable [arguments] 
+$ drupal rest:disable [arguments]
 $ redi  
 ```
 

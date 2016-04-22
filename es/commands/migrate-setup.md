@@ -3,7 +3,7 @@ Cargar y crear las migraciones pertinentes para una base de datos heredada
 
 **Uso:**
 ```
-$ drupal migrate:setup [options] 
+$ drupal migrate:setup [options]
 ```
 
 ## Opciones disponibles

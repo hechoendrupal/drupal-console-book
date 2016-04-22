@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal list [arguments] [options] 
+$ drupal list [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

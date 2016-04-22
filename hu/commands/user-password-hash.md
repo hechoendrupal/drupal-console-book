@@ -3,7 +3,7 @@ Ellenőrzőösszeg előállítása sima szöveges jelszóból.
 
 **Használat:**
 ```
-$ drupal user:password:hash [arguments] 
+$ drupal user:password:hash [arguments]
 $ usph  
 ```
 

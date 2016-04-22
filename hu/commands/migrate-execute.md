@@ -3,7 +3,7 @@ Az alkalmazáshoz elérhető költöztetés végrehajtása
 
 **Használat:**
 ```
-$ drupal migrate:execute [arguments] [options] 
+$ drupal migrate:execute [arguments] [options]
 $ mie  
 ```
 

@@ -3,5 +3,5 @@ Listează toate multi siturile disponibile în sistem
 
 **Folosire:**
 ```
-$ drupal multisite:debug 
+$ drupal multisite:debug
 ```

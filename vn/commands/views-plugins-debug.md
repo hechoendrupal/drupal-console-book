@@ -3,7 +3,7 @@ Display current views plugins for the application
 
 **Usage:**
 ```
-$ drupal views:plugins:debug [arguments] 
+$ drupal views:plugins:debug [arguments]
 ```
 
 ## Các đối số có sẵn

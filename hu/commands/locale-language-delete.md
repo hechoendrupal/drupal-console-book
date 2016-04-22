@@ -3,7 +3,7 @@ A webhely által támogatott nyelv törlése
 
 **Használat:**
 ```
-$ drupal locale:language:delete [arguments] 
+$ drupal locale:language:delete [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

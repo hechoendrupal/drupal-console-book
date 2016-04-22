@@ -3,7 +3,7 @@ Thêm một ngôn ngữ được hỗ trợ bởi site của bạn
 
 **Usage:**
 ```
-$ drupal locale:language:add [arguments] 
+$ drupal locale:language:add [arguments]
 ```
 
 ## Các đối số có sẵn

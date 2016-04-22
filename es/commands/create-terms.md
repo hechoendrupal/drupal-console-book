@@ -3,7 +3,7 @@ Crea términos de relleno para tu Drupal 8.
 
 **Uso:**
 ```
-$ drupal create:terms [arguments] [options] 
+$ drupal create:terms [arguments] [options]
 ```
 
 ## Opciones disponibles

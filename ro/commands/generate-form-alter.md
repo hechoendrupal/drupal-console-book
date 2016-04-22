@@ -3,7 +3,7 @@ Generează o implementare a hook_form_alter() sau hook_form_FORM_ID_alter()
 
 **Folosire:**
 ```
-$ drupal generate:form:alter [options] 
+$ drupal generate:form:alter [options]
 $ gfa  
 ```
 

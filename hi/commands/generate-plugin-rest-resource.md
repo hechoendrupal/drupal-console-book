@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:plugin:rest:resource [options] 
+$ drupal generate:plugin:rest:resource [options]
 ```
 
 ## उपलब्ध विकल्प

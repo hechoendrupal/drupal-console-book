@@ -3,7 +3,7 @@ Az aktív konfiguráció értékének felülbírálása.
 
 **Használat:**
 ```
-$ drupal config:override [arguments] 
+$ drupal config:override [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

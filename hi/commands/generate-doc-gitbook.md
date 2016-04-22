@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:doc:gitbook [arguments] [options] 
+$ drupal generate:doc:gitbook [arguments] [options]
 $ gdg  
 ```
 

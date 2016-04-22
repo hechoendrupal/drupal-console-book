@@ -3,7 +3,7 @@ Displays current users for the application
 
 **Folosire:**
 ```
-$ drupal user:debug [options] 
+$ drupal user:debug [options]
 ```
 
 ## Opțiuni disponibile

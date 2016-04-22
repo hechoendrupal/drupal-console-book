@@ -3,7 +3,7 @@ Tắt một tài nguyên rest cho ứng dụng
 
 **Usage:**
 ```
-$ drupal rest:disable [arguments] 
+$ drupal rest:disable [arguments]
 $ redi  
 ```
 

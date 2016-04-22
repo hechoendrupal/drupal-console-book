@@ -3,7 +3,7 @@ Liệt kê tất cả các sites cục bộ và từ xa đã biết.
 
 **Usage:**
 ```
-$ drupal site:debug [arguments] 
+$ drupal site:debug [arguments]
 $ sd  
 ```
 

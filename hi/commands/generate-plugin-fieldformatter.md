@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:plugin:fieldformatter [options] 
+$ drupal generate:plugin:fieldformatter [options]
 ```
 
 ## उपलब्ध विकल्प

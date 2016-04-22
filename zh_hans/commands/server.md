@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal server [arguments] 
+$ drupal server [arguments]
 ```
 
 ## 可用参数

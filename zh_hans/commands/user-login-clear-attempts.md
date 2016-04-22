@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal user:login:clear:attempts [arguments] 
+$ drupal user:login:clear:attempts [arguments]
 $ uslca  
 ```
 

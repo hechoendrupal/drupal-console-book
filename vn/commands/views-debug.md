@@ -3,7 +3,7 @@ Hiển thị các views resources hiện tại cho ứng dụng
 
 **Usage:**
 ```
-$ drupal views:debug [arguments] [options] 
+$ drupal views:debug [arguments] [options]
 $ vde  
 ```
 

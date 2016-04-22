@@ -3,7 +3,7 @@ Exportă configurările curente ale aplicației.
 
 **Folosire:**
 ```
-$ drupal config:export [options] 
+$ drupal config:export [options]
 $ ce  
 ```
 

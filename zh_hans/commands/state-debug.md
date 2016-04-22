@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal state:debug [arguments] 
+$ drupal state:debug [arguments]
 ```
 
 ## 可用参数

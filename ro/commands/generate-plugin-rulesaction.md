@@ -3,7 +3,7 @@ Generează un plugin care implementează o acţiune de rules
 
 **Folosire:**
 ```
-$ drupal generate:plugin:rulesaction [options] 
+$ drupal generate:plugin:rulesaction [options]
 ```
 
 ## Opțiuni disponibile

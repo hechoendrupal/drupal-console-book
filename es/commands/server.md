@@ -3,7 +3,7 @@ Lanza el servidor web PHP interno
 
 **Uso:**
 ```
-$ drupal server [arguments] 
+$ drupal server [arguments]
 ```
 
 ## Argumentos disponibles

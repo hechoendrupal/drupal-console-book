@@ -3,7 +3,7 @@ Afişează resursele curente ale views-ului pentru aplicație.
 
 **Folosire:**
 ```
-$ drupal views:debug [arguments] [options] 
+$ drupal views:debug [arguments] [options]
 $ vde  
 ```
 

@@ -3,7 +3,7 @@ Cambiar la configuración de rendimiento del sistema
 
 **Uso:**
 ```
-$ drupal site:mode [arguments] 
+$ drupal site:mode [arguments]
 $ smo  
 ```
 

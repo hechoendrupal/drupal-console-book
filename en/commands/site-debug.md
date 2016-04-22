@@ -3,7 +3,7 @@ List all known local and remote sites.
 
 **Usage:**
 ```
-$ drupal site:debug [arguments] 
+$ drupal site:debug [arguments]
 $ sd  
 ```
 

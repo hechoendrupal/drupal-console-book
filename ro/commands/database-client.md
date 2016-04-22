@@ -3,7 +3,7 @@ Lansează un client DB dacă acesta este disponibil
 
 **Folosire:**
 ```
-$ drupal database:client [arguments] 
+$ drupal database:client [arguments]
 ```
 
 ## Argumente disponibile

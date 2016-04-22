@@ -3,7 +3,7 @@ Determina cadenas de traducción pendientes en un idioma o en un archivo especí
 
 **Uso:**
 ```
-$ drupal translation:pending [arguments] [options] 
+$ drupal translation:pending [arguments] [options]
 ```
 
 ## Opciones disponibles

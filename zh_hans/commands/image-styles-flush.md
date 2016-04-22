@@ -3,7 +3,7 @@ Execute flush function by image style or execute all flush images styles
 
 **用法:**
 ```
-$ drupal image:styles:flush [arguments] 
+$ drupal image:styles:flush [arguments]
 ```
 
 ## 可用参数

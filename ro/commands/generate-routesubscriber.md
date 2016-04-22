@@ -3,7 +3,7 @@ Generează un RouteSubscriber
 
 **Folosire:**
 ```
-$ drupal generate:routesubscriber [options] 
+$ drupal generate:routesubscriber [options]
 ```
 
 ## Opțiuni disponibile

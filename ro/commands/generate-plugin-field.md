@@ -3,7 +3,7 @@ Generează extensiile: tipul de câmp, widget-ul si formatare.
 
 **Folosire:**
 ```
-$ drupal generate:plugin:field [options] 
+$ drupal generate:plugin:field [options]
 ```
 
 ## Opțiuni disponibile

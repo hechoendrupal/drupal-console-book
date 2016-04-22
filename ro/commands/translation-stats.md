@@ -3,7 +3,7 @@ Generate translate stats
 
 **Folosire:**
 ```
-$ drupal translation:stats [arguments] [options] 
+$ drupal translation:stats [arguments] [options]
 ```
 
 ## Opțiuni disponibile

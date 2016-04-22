@@ -3,7 +3,7 @@ A rendelkezésre álló parancsok listázása
 
 **Használat:**
 ```
-$ drupal list [arguments] [options] 
+$ drupal list [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

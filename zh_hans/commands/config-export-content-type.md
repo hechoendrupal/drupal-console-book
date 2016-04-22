@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal config:export:content:type [arguments] [options] 
+$ drupal config:export:content:type [arguments] [options]
 $ cect  
 ```
 

@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal state:debug [arguments] 
+$ drupal state:debug [arguments]
 ```
 
 ## उपलब्ध तर्कों

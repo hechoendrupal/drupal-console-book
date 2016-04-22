@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal theme:install [arguments] [options] 
+$ drupal theme:install [arguments] [options]
 $ ti  
 ```
 

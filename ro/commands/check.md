@@ -3,5 +3,5 @@ commands.check.description
 
 **Folosire:**
 ```
-$ drupal check 
+$ drupal check
 ```

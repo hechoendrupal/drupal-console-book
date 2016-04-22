@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal config:diff [arguments] [options] 
+$ drupal config:diff [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

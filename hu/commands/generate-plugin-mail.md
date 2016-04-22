@@ -3,7 +3,7 @@ Generate a plugin mail
 
 **Használat:**
 ```
-$ drupal generate:plugin:mail [options] 
+$ drupal generate:plugin:mail [options]
 ```
 
 ## Rendelkezésre álló beállítások

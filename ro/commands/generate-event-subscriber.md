@@ -3,7 +3,7 @@ Generează un abonat la eveniment
 
 **Folosire:**
 ```
-$ drupal generate:event:subscriber [options] 
+$ drupal generate:event:subscriber [options]
 $ ges  
 ```
 

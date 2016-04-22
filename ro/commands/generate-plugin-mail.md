@@ -3,7 +3,7 @@ Generate a plugin mail
 
 **Folosire:**
 ```
-$ drupal generate:plugin:mail [options] 
+$ drupal generate:plugin:mail [options]
 ```
 
 ## Opțiuni disponibile

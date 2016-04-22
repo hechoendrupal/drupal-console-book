@@ -3,7 +3,7 @@ YAML फाइल में किसी विशेष कुंजी के 
 
 **प्रयोग:**
 ```
-$ drupal yaml:update:value [arguments] 
+$ drupal yaml:update:value [arguments]
 $ yuv  
 ```
 

@@ -3,7 +3,7 @@ View current Drupal Installation status
 
 **Usage:**
 ```
-$ drupal site:status [options] 
+$ drupal site:status [options]
 $ ss  
 ```
 

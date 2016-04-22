@@ -3,7 +3,7 @@ Generează un modul.
 
 **Folosire:**
 ```
-$ drupal generate:module [options] 
+$ drupal generate:module [options]
 $ gm  
 ```
 

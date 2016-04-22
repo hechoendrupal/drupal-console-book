@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal database:connect [arguments] 
+$ drupal database:connect [arguments]
 ```
 
 ## उपलब्ध तर्कों

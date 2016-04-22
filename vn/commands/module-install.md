@@ -3,7 +3,7 @@ Cài đặt module hoặc các module trong ứng dụng
 
 **Usage:**
 ```
-$ drupal module:install [arguments] [options] 
+$ drupal module:install [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

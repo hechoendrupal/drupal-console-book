@@ -3,7 +3,7 @@ Display current rest resource for the application
 
 **Uso:**
 ```
-$ drupal rest:debug [arguments] [options] 
+$ drupal rest:debug [arguments] [options]
 $ rede  
 ```
 

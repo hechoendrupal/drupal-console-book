@@ -3,5 +3,5 @@
 
 **用法:**
 ```
-$ drupal about 
+$ drupal about
 ```

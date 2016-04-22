@@ -3,7 +3,7 @@ Rebuild node access permissions. Rebuilding will remove all privileges to conten
 
 **用法:**
 ```
-$ drupal node:access:rebuild [options] 
+$ drupal node:access:rebuild [options]
 ```
 
 ## 可用选项

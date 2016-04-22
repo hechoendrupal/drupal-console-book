@@ -3,5 +3,5 @@ Applying Entity Updates
 
 **Uso:**
 ```
-$ drupal update:entities 
+$ drupal update:entities
 ```

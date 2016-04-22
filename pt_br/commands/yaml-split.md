@@ -3,7 +3,7 @@ Dividir o arquivo YAML usando a identação como critério de separação
 
 **Uso:**
 ```
-$ drupal yaml:split [arguments] [options] 
+$ drupal yaml:split [arguments] [options]
 $ ys  
 ```
 

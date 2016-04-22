@@ -3,7 +3,7 @@ Tạo một tùy chỉnh plugin view field.
 
 **Usage:**
 ```
-$ drupal generate:plugin:views:field [options] 
+$ drupal generate:plugin:views:field [options]
 ```
 
 ## Các tùy chọn có sẵn

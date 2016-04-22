@@ -3,7 +3,7 @@ Tạo và đăng ký một trình điều khiển
 
 **Usage:**
 ```
-$ drupal generate:controller [options] 
+$ drupal generate:controller [options]
 $ gcn  
 ```
 

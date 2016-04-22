@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal config:edit [arguments] 
+$ drupal config:edit [arguments]
 $ cdit  
 ```
 

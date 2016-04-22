@@ -3,7 +3,7 @@ Generează o entitate de conținut nouă
 
 **Folosire:**
 ```
-$ drupal generate:entity:content [options] 
+$ drupal generate:entity:content [options]
 $ gect  
 ```
 

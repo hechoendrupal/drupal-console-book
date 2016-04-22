@@ -3,7 +3,7 @@ Ejecuta una migración que esté disponible para la aplicación
 
 **Uso:**
 ```
-$ drupal migrate:execute [arguments] [options] 
+$ drupal migrate:execute [arguments] [options]
 $ mie  
 ```
 

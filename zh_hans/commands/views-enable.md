@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal views:enable [arguments] 
+$ drupal views:enable [arguments]
 $ ve  
 ```
 

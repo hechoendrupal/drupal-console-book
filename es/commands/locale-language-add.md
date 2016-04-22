@@ -3,7 +3,7 @@ Añadir un idioma que sea soportado en el sitio
 
 **Uso:**
 ```
-$ drupal locale:language:add [arguments] 
+$ drupal locale:language:add [arguments]
 ```
 
 ## Argumentos disponibles

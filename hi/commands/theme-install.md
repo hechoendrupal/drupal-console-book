@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal theme:install [arguments] [options] 
+$ drupal theme:install [arguments] [options]
 $ ti  
 ```
 

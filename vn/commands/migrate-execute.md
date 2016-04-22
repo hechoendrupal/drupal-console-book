@@ -3,7 +3,7 @@ Tiến hành một phần chuyển đổi dữ liệu có sẵn trong ứng dụ
 
 **Usage:**
 ```
-$ drupal migrate:execute [arguments] [options] 
+$ drupal migrate:execute [arguments] [options]
 $ mie  
 ```
 

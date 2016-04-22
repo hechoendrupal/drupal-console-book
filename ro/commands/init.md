@@ -3,7 +3,7 @@ commands.init.description
 
 **Folosire:**
 ```
-$ drupal init [options] 
+$ drupal init [options]
 ```
 
 ## Opțiuni disponibile

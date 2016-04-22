@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal module:uninstall [arguments] [options] 
+$ drupal module:uninstall [arguments] [options]
 ```
 
 ## 可用选项

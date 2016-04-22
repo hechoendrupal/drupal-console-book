@@ -3,7 +3,7 @@ Create dummy comments for your Drupal 8 application.
 
 **Uso:**
 ```
-$ drupal create:comments [arguments] [options] 
+$ drupal create:comments [arguments] [options]
 ```
 
 ## Opções disponíveis

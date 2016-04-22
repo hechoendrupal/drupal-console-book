@@ -3,7 +3,7 @@ Thi hành chuỗi câu lệnh
 
 **Usage:**
 ```
-$ drupal chain [options] 
+$ drupal chain [options]
 ```
 
 ## Các tùy chọn có sẵn

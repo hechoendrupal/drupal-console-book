@@ -3,7 +3,7 @@ Hiển thị rest resource hiện có cho ứng dụng
 
 **Usage:**
 ```
-$ drupal rest:debug [arguments] [options] 
+$ drupal rest:debug [arguments] [options]
 $ rede  
 ```
 

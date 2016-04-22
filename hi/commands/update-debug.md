@@ -3,6 +3,6 @@
 
 **प्रयोग:**
 ```
-$ drupal update:debug 
+$ drupal update:debug
 $ upd  
 ```

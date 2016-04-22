@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal locale:language:add [arguments] 
+$ drupal locale:language:add [arguments]
 ```
 
 ## उपलब्ध तर्कों

@@ -3,10 +3,10 @@ commands.generate.doc.data.description
 
 **Usage:**
 ```
-$ drupal generate:doc:data [options] 
+$ drupal generate:doc:data [options]
 ```
 
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---path | commands.generate.doc.data.options.path
+--file | commands.generate.doc.data.options.file

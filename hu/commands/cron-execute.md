@@ -3,7 +3,7 @@ Cron megvalósítások végrehajtása modul szerint, vagy az összes cron metód
 
 **Használat:**
 ```
-$ drupal cron:execute [arguments] 
+$ drupal cron:execute [arguments]
 $ cre  
 ```
 

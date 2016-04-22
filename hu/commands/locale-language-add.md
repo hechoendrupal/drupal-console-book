@@ -3,7 +3,7 @@ A webhely által támogatott nyelv hozzáadása
 
 **Használat:**
 ```
-$ drupal locale:language:add [arguments] 
+$ drupal locale:language:add [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

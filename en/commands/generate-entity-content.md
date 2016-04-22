@@ -3,7 +3,7 @@ Generate a new content entity
 
 **Usage:**
 ```
-$ drupal generate:entity:content [options] 
+$ drupal generate:entity:content [options]
 $ gect  
 ```
 

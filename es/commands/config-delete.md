@@ -3,7 +3,7 @@ Eliminar configuración
 
 **Uso:**
 ```
-$ drupal config:delete [arguments] 
+$ drupal config:delete [arguments]
 ```
 
 ## Argumentos disponibles

@@ -3,7 +3,7 @@ Dezinstalează un modul sau mai multe din aplicaţie.
 
 **Folosire:**
 ```
-$ drupal module:uninstall [arguments] [options] 
+$ drupal module:uninstall [arguments] [options]
 ```
 
 ## Opțiuni disponibile

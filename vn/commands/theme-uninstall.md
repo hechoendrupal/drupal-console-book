@@ -3,7 +3,7 @@ Gỡ cài đặt theme hay các themes trong ứng dụng
 
 **Usage:**
 ```
-$ drupal theme:uninstall [arguments] 
+$ drupal theme:uninstall [arguments]
 $ tu  
 ```
 

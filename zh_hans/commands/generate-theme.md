@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:theme [options] 
+$ drupal generate:theme [options]
 $ gt  
 ```
 

@@ -3,5 +3,5 @@ Lista modulelor ce implementează un cron
 
 **Folosire:**
 ```
-$ drupal cron:debug 
+$ drupal cron:debug
 ```

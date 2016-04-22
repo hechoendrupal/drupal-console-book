@@ -1,12 +1,12 @@
 # image:styles:flush
 Execute flush function by image style or execute all flush images styles
 
-**Uso:**
+**Usage:**
 ```
-$ drupal image:styles:flush [argumentos]
+$ drupal image:styles:flush [arguments]
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## Available arguments
+Argument | Details
 ---------|-------------
-styles | El nombre del estilo de imagen.
+styles | The Images Styles name.

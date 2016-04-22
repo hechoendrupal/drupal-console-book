@@ -3,7 +3,7 @@ Eliminați evenimentele din tabelul DBLog, sunt disponibile filtre
 
 **Folosire:**
 ```
-$ drupal database:log:clear [arguments] [options] 
+$ drupal database:log:clear [arguments] [options]
 ```
 
 ## Opțiuni disponibile

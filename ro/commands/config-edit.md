@@ -3,7 +3,7 @@ Editează configurarea selectată.
 
 **Folosire:**
 ```
-$ drupal config:edit [arguments] 
+$ drupal config:edit [arguments]
 $ cdit  
 ```
 

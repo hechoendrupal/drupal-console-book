@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal config:export [options] 
+$ drupal config:export [options]
 $ ce  
 ```
 

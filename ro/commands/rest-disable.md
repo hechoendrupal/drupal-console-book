@@ -3,7 +3,7 @@ Dezactiveaza o resursă REST
 
 **Folosire:**
 ```
-$ drupal rest:disable [arguments] 
+$ drupal rest:disable [arguments]
 $ redi  
 ```
 

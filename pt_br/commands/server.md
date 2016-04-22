@@ -3,7 +3,7 @@ Executar o servidor PHP atual
 
 **Uso:**
 ```
-$ drupal server [arguments] 
+$ drupal server [arguments]
 ```
 
 ## Argumentos disponíveis

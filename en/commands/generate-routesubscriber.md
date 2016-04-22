@@ -3,7 +3,7 @@ Generate a RouteSubscriber
 
 **Usage:**
 ```
-$ drupal generate:routesubscriber [options] 
+$ drupal generate:routesubscriber [options]
 ```
 
 ## Available options

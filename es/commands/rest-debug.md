@@ -3,7 +3,7 @@ Muestra el actual recurso rest para la aplicación
 
 **Uso:**
 ```
-$ drupal rest:debug [arguments] [options] 
+$ drupal rest:debug [arguments] [options]
 $ rede  
 ```
 

@@ -3,7 +3,7 @@ Nézet letiltása
 
 **Használat:**
 ```
-$ drupal views:disable [arguments] 
+$ drupal views:disable [arguments]
 $ vdi  
 ```
 

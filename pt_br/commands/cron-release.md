@@ -3,6 +3,6 @@ Desbloquear cron para voltar a executar
 
 **Uso:**
 ```
-$ drupal cron:release 
+$ drupal cron:release
 $ crr  
 ```

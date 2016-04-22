@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal test:debug [arguments] [options] 
+$ drupal test:debug [arguments] [options]
 $ td  
 ```
 

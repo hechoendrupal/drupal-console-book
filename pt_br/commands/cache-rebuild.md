@@ -3,7 +3,7 @@ Reconstruir e limpar todos os caches do site.
 
 **Uso:**
 ```
-$ drupal cache:rebuild [arguments] 
+$ drupal cache:rebuild [arguments]
 $ cr  
 ```
 

@@ -3,7 +3,7 @@ Tesztszótárak létrehozása egy Drupal 8 alkalmazáshoz.
 
 **Használat:**
 ```
-$ drupal create:vocabularies [options] 
+$ drupal create:vocabularies [options]
 ```
 
 ## Rendelkezésre álló beállítások

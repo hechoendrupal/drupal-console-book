@@ -3,7 +3,7 @@ Generate a profile.
 
 **Usage:**
 ```
-$ drupal generate:profile [options] 
+$ drupal generate:profile [options]
 ```
 
 ## Available options

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal create:terms [arguments] [options] 
+$ drupal create:terms [arguments] [options]
 ```
 
 ## 可用选项

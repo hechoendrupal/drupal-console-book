@@ -3,7 +3,7 @@ Execută o migraţie disponibilă pentru aplicaţie
 
 **Folosire:**
 ```
-$ drupal migrate:execute [arguments] [options] 
+$ drupal migrate:execute [arguments] [options]
 $ mie  
 ```
 

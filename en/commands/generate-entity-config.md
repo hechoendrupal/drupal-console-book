@@ -3,7 +3,7 @@ Generate a new config entity
 
 **Usage:**
 ```
-$ drupal generate:entity:config [options] 
+$ drupal generate:entity:config [options]
 $ gecg  
 ```
 

@@ -3,7 +3,7 @@ Tạo một plugin condition.
 
 **Usage:**
 ```
-$ drupal generate:plugin:condition [options] 
+$ drupal generate:plugin:condition [options]
 ```
 
 ## Các tùy chọn có sẵn

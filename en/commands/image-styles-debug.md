@@ -3,5 +3,5 @@ List image styles on the site
 
 **Usage:**
 ```
-$ drupal image:styles:debug 
+$ drupal image:styles:debug
 ```

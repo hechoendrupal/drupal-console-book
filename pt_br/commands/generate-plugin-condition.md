@@ -3,7 +3,7 @@ Criar um plugin de condition.
 
 **Uso:**
 ```
-$ drupal generate:plugin:condition [options] 
+$ drupal generate:plugin:condition [options]
 ```
 
 ## Opções disponíveis

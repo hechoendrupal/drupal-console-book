@@ -3,7 +3,7 @@ Cria comandos via console.
 
 **Uso:**
 ```
-$ drupal generate:command [options] 
+$ drupal generate:command [options]
 $ gcm  
 ```
 

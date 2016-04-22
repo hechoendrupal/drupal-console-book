@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:plugin:views:field [options] 
+$ drupal generate:plugin:views:field [options]
 ```
 
 ## उपलब्ध विकल्प

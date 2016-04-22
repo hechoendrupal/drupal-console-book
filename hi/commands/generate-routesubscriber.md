@@ -3,7 +3,7 @@ RouteSubscriber उत्पन्न करे.
 
 **प्रयोग:**
 ```
-$ drupal generate:routesubscriber [options] 
+$ drupal generate:routesubscriber [options]
 ```
 
 ## उपलब्ध विकल्प

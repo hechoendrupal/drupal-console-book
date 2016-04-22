@@ -3,7 +3,7 @@ Egyetlen konfigurációs fájl exportálása yml-fájlként.
 
 **Használat:**
 ```
-$ drupal config:export:single [arguments] [options] 
+$ drupal config:export:single [arguments] [options]
 $ ces  
 ```
 

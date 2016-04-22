@@ -3,6 +3,6 @@ Az alkalmazás jelenleg elérhető frissítéseinek megjelenítése
 
 **Használat:**
 ```
-$ drupal update:debug 
+$ drupal update:debug
 $ upd  
 ```

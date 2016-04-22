@@ -3,7 +3,7 @@ Importă configurarea pentru aplicația curentă.
 
 **Folosire:**
 ```
-$ drupal config:import [options] 
+$ drupal config:import [options]
 $ ci  
 ```
 

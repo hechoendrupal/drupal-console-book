@@ -3,7 +3,7 @@ Kontroller létrehozása és regisztrálása
 
 **Használat:**
 ```
-$ drupal generate:controller [options] 
+$ drupal generate:controller [options]
 $ gcn  
 ```
 

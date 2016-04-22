@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:plugin:fieldwidget [options] 
+$ drupal generate:plugin:fieldwidget [options]
 ```
 
 ## उपलब्ध विकल्प

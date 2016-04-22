@@ -3,7 +3,7 @@ Thay thế một key YAML trong một file YAML.
 
 **Usage:**
 ```
-$ drupal yaml:update:key [arguments] 
+$ drupal yaml:update:key [arguments]
 $ yu  
 ```
 

@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal test:run [arguments] [options] 
+$ drupal test:run [arguments] [options]
 $ tr  
 ```
 

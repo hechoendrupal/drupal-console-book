@@ -3,7 +3,7 @@ Az aktuális állapotkulcsok megjelenítése.
 
 **Használat:**
 ```
-$ drupal state:debug [arguments] 
+$ drupal state:debug [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

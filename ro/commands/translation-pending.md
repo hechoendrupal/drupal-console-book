@@ -3,7 +3,7 @@ Determine pending translation string in a language or a specific file in a langu
 
 **Folosire:**
 ```
-$ drupal translation:pending [arguments] [options] 
+$ drupal translation:pending [arguments] [options]
 ```
 
 ## Opțiuni disponibile

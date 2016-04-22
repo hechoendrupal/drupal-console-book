@@ -3,7 +3,7 @@ Substituir a chave YAML no arquivo YAML.
 
 **Uso:**
 ```
-$ drupal yaml:update:key [arguments] 
+$ drupal yaml:update:key [arguments]
 $ yu  
 ```
 

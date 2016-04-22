@@ -3,7 +3,7 @@ YAML फाइल में YAML कुंजी को बदले।
 
 **प्रयोग:**
 ```
-$ drupal yaml:update:key [arguments] 
+$ drupal yaml:update:key [arguments]
 $ yu  
 ```
 

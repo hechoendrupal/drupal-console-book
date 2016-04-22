@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal list [arguments] [options] 
+$ drupal list [arguments] [options]
 ```
 
 ## 可用选项

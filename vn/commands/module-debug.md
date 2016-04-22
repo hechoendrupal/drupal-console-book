@@ -3,7 +3,7 @@ Hiển thị các module hiện có cho ứng dụng
 
 **Usage:**
 ```
-$ drupal module:debug [options] 
+$ drupal module:debug [options]
 ```
 
 ## Các tùy chọn có sẵn

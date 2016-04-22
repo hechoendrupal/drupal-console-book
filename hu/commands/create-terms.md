@@ -3,7 +3,7 @@ Tesztkifejezések létrehozása egy Drupal 8 alkalmazáshoz.
 
 **Használat:**
 ```
-$ drupal create:terms [arguments] [options] 
+$ drupal create:terms [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

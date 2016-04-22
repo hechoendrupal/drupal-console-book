@@ -3,7 +3,7 @@ Switch system performance configuration
 
 **Usage:**
 ```
-$ drupal site:mode [arguments] 
+$ drupal site:mode [arguments]
 $ smo  
 ```
 

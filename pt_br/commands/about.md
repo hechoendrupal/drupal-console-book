@@ -3,5 +3,5 @@ Exibir informações básicas sobre projeto Drupal Console
 
 **Uso:**
 ```
-$ drupal about 
+$ drupal about
 ```

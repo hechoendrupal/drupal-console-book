@@ -3,7 +3,7 @@ Install a Drupal project
 
 **Usage:**
 ```
-$ drupal site:install [arguments] [options] 
+$ drupal site:install [arguments] [options]
 $ si  
 ```
 

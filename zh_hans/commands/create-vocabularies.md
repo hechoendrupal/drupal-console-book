@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal create:vocabularies [options] 
+$ drupal create:vocabularies [options]
 ```
 
 ## 可用选项

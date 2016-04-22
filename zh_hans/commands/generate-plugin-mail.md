@@ -3,7 +3,7 @@ Generate a plugin mail
 
 **用法:**
 ```
-$ drupal generate:plugin:mail [options] 
+$ drupal generate:plugin:mail [options]
 ```
 
 ## 可用选项

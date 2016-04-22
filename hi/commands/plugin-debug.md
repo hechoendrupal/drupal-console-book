@@ -3,7 +3,7 @@ commands.plugin.debug.description
 
 **प्रयोग:**
 ```
-$ drupal plugin:debug [arguments] 
+$ drupal plugin:debug [arguments]
 ```
 
 ## उपलब्ध तर्कों

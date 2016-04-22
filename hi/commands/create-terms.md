@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal create:terms [arguments] [options] 
+$ drupal create:terms [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

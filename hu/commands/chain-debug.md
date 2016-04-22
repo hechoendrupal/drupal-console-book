@@ -3,5 +3,5 @@ Rendelkezésre álló láncolt fájlok felsorolása.
 
 **Használat:**
 ```
-$ drupal chain:debug 
+$ drupal chain:debug
 ```

@@ -3,7 +3,7 @@ Separă un fişier YAML folosind indentarea ca şi criteriu de separare.
 
 **Folosire:**
 ```
-$ drupal yaml:split [arguments] [options] 
+$ drupal yaml:split [arguments] [options]
 $ ys  
 ```
 

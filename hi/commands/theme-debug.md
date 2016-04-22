@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal theme:debug [arguments] 
+$ drupal theme:debug [arguments]
 $ tde  
 ```
 

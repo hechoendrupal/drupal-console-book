@@ -3,7 +3,7 @@ Dezinstalează tema sau temele din aplicație
 
 **Folosire:**
 ```
-$ drupal theme:uninstall [arguments] 
+$ drupal theme:uninstall [arguments]
 $ tu  
 ```
 

@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal theme:uninstall [arguments] 
+$ drupal theme:uninstall [arguments]
 $ tu  
 ```
 

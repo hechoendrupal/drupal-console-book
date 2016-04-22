@@ -3,7 +3,7 @@ Execuție comandă înlănțuită
 
 **Folosire:**
 ```
-$ drupal chain [options] 
+$ drupal chain [options]
 ```
 
 ## Opțiuni disponibile

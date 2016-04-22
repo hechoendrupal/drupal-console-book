@@ -3,7 +3,7 @@ Edit the selected configuration.
 
 **Usage:**
 ```
-$ drupal config:edit [arguments] 
+$ drupal config:edit [arguments]
 $ cdit  
 ```
 

@@ -3,5 +3,5 @@ Applying Entity Updates
 
 **Folosire:**
 ```
-$ drupal update:entities 
+$ drupal update:entities
 ```

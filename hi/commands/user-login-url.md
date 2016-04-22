@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal user:login:url [arguments] 
+$ drupal user:login:url [arguments]
 $ uslu  
 ```
 

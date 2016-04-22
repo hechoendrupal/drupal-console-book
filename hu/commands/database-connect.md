@@ -3,7 +3,7 @@ Megjeleníti az adatbázis-kapcsolatot
 
 **Használat:**
 ```
-$ drupal database:connect [arguments] 
+$ drupal database:connect [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

@@ -3,7 +3,7 @@ Tạo ra các lệnh cho trình điều khiển.
 
 **Usage:**
 ```
-$ drupal generate:command [options] 
+$ drupal generate:command [options]
 $ gcm  
 ```
 

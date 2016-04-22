@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal test:debug [arguments] [options] 
+$ drupal test:debug [arguments] [options]
 $ td  
 ```
 

@@ -3,7 +3,7 @@ Crea un nuevo proyecto Drupal
 
 **Uso:**
 ```
-$ drupal site:new [arguments] 
+$ drupal site:new [arguments]
 $ sn  
 ```
 

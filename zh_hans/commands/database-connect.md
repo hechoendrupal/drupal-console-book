@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal database:connect [arguments] 
+$ drupal database:connect [arguments]
 ```
 
 ## 可用参数

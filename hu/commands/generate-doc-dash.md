@@ -3,7 +3,7 @@ DrupalConsole.docset csomag létrehozása a Dash számára
 
 **Használat:**
 ```
-$ drupal generate:doc:dash [options] 
+$ drupal generate:doc:dash [options]
 $ gdd  
 ```
 

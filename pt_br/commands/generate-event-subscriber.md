@@ -3,7 +3,7 @@ Gerar um assinante do evento
 
 **Uso:**
 ```
-$ drupal generate:event:subscriber [options] 
+$ drupal generate:event:subscriber [options]
 $ ges  
 ```
 

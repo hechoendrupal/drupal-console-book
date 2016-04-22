@@ -3,7 +3,7 @@ Megjeleníti az aktuális felhasználókat
 
 **Használat:**
 ```
-$ drupal user:debug [options] 
+$ drupal user:debug [options]
 ```
 
 ## Rendelkezésre álló beállítások

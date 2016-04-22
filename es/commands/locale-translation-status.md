@@ -3,7 +3,7 @@ Lista de traducciones disponibles actualizadas
 
 **Uso:**
 ```
-$ drupal locale:translation:status [arguments] 
+$ drupal locale:translation:status [arguments]
 ```
 
 ## Argumentos disponibles

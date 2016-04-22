@@ -3,7 +3,7 @@ Xem trạng thái cài đặt hiện tại
 
 **Usage:**
 ```
-$ drupal site:status [options] 
+$ drupal site:status [options]
 $ ss  
 ```
 

@@ -3,7 +3,7 @@ Webhely karbantartási módba állítása
 
 **Használat:**
 ```
-$ drupal site:maintenance [arguments] 
+$ drupal site:maintenance [arguments]
 $ sma  
 ```
 

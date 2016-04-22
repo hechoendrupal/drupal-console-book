@@ -3,7 +3,7 @@ Események eltávolítása a DBLog táblából, rendelkezésre állnak szűrők
 
 **Használat:**
 ```
-$ drupal database:log:clear [arguments] [options] 
+$ drupal database:log:clear [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

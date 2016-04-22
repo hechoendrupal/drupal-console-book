@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:entity:bundle [options] 
+$ drupal generate:entity:bundle [options]
 $ geb  
 ```
 

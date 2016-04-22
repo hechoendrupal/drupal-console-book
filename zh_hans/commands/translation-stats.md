@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal translation:stats [arguments] [options] 
+$ drupal translation:stats [arguments] [options]
 ```
 
 ## 可用选项

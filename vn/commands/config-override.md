@@ -3,7 +3,7 @@ Ghi đè giá trị cấu hình trong cấu hình đang hoạt động
 
 **Usage:**
 ```
-$ drupal config:override [arguments] 
+$ drupal config:override [arguments]
 ```
 
 ## Các đối số có sẵn

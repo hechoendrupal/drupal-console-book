@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:command [options] 
+$ drupal generate:command [options]
 $ gcm  
 ```
 

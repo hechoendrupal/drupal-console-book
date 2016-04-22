@@ -3,7 +3,7 @@ Parancsok létrehozása a konzolhoz.
 
 **Használat:**
 ```
-$ drupal generate:command [options] 
+$ drupal generate:command [options]
 $ gcm  
 ```
 

@@ -3,7 +3,7 @@ Exibe as rotas atuais de uma aplicação
 
 **Uso:**
 ```
-$ drupal router:debug [arguments] 
+$ drupal router:debug [arguments]
 $ rod  
 ```
 

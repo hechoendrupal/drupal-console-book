@@ -3,7 +3,7 @@ Afişează rutele curente
 
 **Folosire:**
 ```
-$ drupal router:debug [arguments] 
+$ drupal router:debug [arguments]
 $ rod  
 ```
 

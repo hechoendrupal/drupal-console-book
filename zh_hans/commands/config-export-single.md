@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal config:export:single [arguments] [options] 
+$ drupal config:export:single [arguments] [options]
 $ ces  
 ```
 

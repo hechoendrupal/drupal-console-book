@@ -3,7 +3,7 @@ Restabilește structura și conținutul bazei de date MySQL și ale tabelelor ac
 
 **Folosire:**
 ```
-$ drupal database:restore [arguments] [options] 
+$ drupal database:restore [arguments] [options]
 ```
 
 ## Opțiuni disponibile

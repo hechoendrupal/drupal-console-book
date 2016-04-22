@@ -3,7 +3,7 @@ Adatbázis szerkezetének és tartalmának kiíratása
 
 **Használat:**
 ```
-$ drupal database:dump [arguments] [options] 
+$ drupal database:dump [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal locale:translation:status [arguments] 
+$ drupal locale:translation:status [arguments]
 ```
 
 ## 可用参数

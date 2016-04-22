@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:event:subscriber [options] 
+$ drupal generate:event:subscriber [options]
 $ ges  
 ```
 

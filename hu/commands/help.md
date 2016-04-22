@@ -3,7 +3,7 @@ Displays help for a command
 
 **Használat:**
 ```
-$ drupal help [arguments] [options] 
+$ drupal help [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

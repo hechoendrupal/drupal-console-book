@@ -3,7 +3,7 @@ Importar la configuración seleccionada.
 
 **Uso:**
 ```
-$ drupal config:import:single [arguments] 
+$ drupal config:import:single [arguments]
 $ cis  
 ```
 

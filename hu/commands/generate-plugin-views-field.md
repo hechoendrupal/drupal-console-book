@@ -3,7 +3,7 @@ Egyéni nézetmező bővítmény létrehozása.
 
 **Használat:**
 ```
-$ drupal generate:plugin:views:field [options] 
+$ drupal generate:plugin:views:field [options]
 ```
 
 ## Rendelkezésre álló beállítások

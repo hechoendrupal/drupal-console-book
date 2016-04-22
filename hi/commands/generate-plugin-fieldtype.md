@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:plugin:fieldtype [options] 
+$ drupal generate:plugin:fieldtype [options]
 ```
 
 ## उपलब्ध विकल्प

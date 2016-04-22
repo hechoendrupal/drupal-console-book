@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:authentication:provider [options] 
+$ drupal generate:authentication:provider [options]
 $ gap  
 ```
 

@@ -3,7 +3,7 @@ A webhely összes gyorsítótárának újraépítése és törlése.
 
 **Használat:**
 ```
-$ drupal cache:rebuild [arguments] 
+$ drupal cache:rebuild [arguments]
 $ cr  
 ```
 

@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal update:execute [arguments] 
+$ drupal update:execute [arguments]
 $ upe  
 ```
 

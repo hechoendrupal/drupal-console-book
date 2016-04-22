@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:service [options] 
+$ drupal generate:service [options]
 $ gs  
 ```
 

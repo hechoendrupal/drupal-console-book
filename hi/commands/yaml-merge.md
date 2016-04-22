@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal yaml:merge [arguments] 
+$ drupal yaml:merge [arguments]
 $ ym  
 ```
 

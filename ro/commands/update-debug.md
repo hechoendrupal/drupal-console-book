@@ -3,6 +3,6 @@ Afişează actualizările disponibile pentru aplicaţie.
 
 **Folosire:**
 ```
-$ drupal update:debug 
+$ drupal update:debug
 $ upd  
 ```

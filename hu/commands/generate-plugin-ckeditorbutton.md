@@ -3,7 +3,7 @@ Generate CKEditor button plugin.
 
 **Használat:**
 ```
-$ drupal generate:plugin:ckeditorbutton [options] 
+$ drupal generate:plugin:ckeditorbutton [options]
 ```
 
 ## Rendelkezésre álló beállítások

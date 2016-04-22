@@ -3,7 +3,7 @@ Crează un proiect Drupal nou.
 
 **Folosire:**
 ```
-$ drupal site:new [arguments] 
+$ drupal site:new [arguments]
 $ sn  
 ```
 

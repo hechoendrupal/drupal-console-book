@@ -3,7 +3,7 @@ Instalează tema sau temele în aplicație
 
 **Folosire:**
 ```
-$ drupal theme:install [arguments] [options] 
+$ drupal theme:install [arguments] [options]
 $ ti  
 ```
 

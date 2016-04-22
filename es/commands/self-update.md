@@ -3,7 +3,7 @@ Actualiza la consola a la última versión.
 
 **Uso:**
 ```
-$ drupal self-update [options] 
+$ drupal self-update [options]
 ```
 
 ## Opciones disponibles

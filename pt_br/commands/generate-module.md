@@ -3,7 +3,7 @@ Criar um módulo.
 
 **Uso:**
 ```
-$ drupal generate:module [options] 
+$ drupal generate:module [options]
 $ gm  
 ```
 

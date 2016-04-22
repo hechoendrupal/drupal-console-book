@@ -3,7 +3,7 @@ Szabályművelet bővítmény létrehozása
 
 **Használat:**
 ```
-$ drupal generate:plugin:rulesaction [options] 
+$ drupal generate:plugin:rulesaction [options]
 ```
 
 ## Rendelkezésre álló beállítások

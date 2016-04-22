@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal user:delete [options] 
+$ drupal user:delete [options]
 ```
 
 ## उपलब्ध विकल्प

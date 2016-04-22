@@ -3,7 +3,7 @@ Egységteszt futtatása az alkalmazás számára elérhető tesztek közül
 
 **Használat:**
 ```
-$ drupal test:run [arguments] [options] 
+$ drupal test:run [arguments] [options]
 $ tr  
 ```
 

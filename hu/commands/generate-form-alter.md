@@ -3,7 +3,7 @@ A hook_form_alter() vagy hook_form_FORM_ID_alter megvalósításának létrehoz�
 
 **Használat:**
 ```
-$ drupal generate:form:alter [options] 
+$ drupal generate:form:alter [options]
 $ gfa  
 ```
 

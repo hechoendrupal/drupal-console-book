@@ -3,5 +3,5 @@ List user Drupal Console settings.
 
 **Uso:**
 ```
-$ drupal settings:debug 
+$ drupal settings:debug
 ```

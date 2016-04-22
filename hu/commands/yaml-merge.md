@@ -3,7 +3,7 @@ YAML-fájlok összevonása egy új YAML-fájlba. A legfrissebb értékek maradna
 
 **Használat:**
 ```
-$ drupal yaml:merge [arguments] 
+$ drupal yaml:merge [arguments]
 $ ym  
 ```
 

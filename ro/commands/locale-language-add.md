@@ -3,7 +3,7 @@ Adaugă o limbă ce va avea suport pe situl dvs.
 
 **Folosire:**
 ```
-$ drupal locale:language:add [arguments] 
+$ drupal locale:language:add [arguments]
 ```
 
 ## Argumente disponibile

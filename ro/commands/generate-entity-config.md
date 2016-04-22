@@ -3,7 +3,7 @@ Generează o entitate de configurare nouă
 
 **Folosire:**
 ```
-$ drupal generate:entity:config [options] 
+$ drupal generate:entity:config [options]
 $ gecg  
 ```
 

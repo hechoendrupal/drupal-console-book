@@ -3,7 +3,7 @@ Generate a new content type (node / entity bundle)
 
 **Usage:**
 ```
-$ drupal generate:entity:bundle [options] 
+$ drupal generate:entity:bundle [options]
 $ geb  
 ```
 

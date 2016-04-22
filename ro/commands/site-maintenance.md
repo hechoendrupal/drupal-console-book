@@ -3,7 +3,7 @@ Activează modul de mentenanţă
 
 **Folosire:**
 ```
-$ drupal site:maintenance [arguments] 
+$ drupal site:maintenance [arguments]
 $ sma  
 ```
 

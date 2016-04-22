@@ -3,7 +3,7 @@ Exportă un anumit tip de conținut și câmpurile aferente.
 
 **Folosire:**
 ```
-$ drupal config:export:content:type [arguments] [options] 
+$ drupal config:export:content:type [arguments] [options]
 $ cect  
 ```
 

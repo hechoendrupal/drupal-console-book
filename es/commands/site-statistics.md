@@ -3,5 +3,5 @@ Muestra las estadísticas actuales del sitio web.
 
 **Uso:**
 ```
-$ drupal site:statistics 
+$ drupal site:statistics
 ```

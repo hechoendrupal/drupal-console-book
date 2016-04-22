@@ -3,7 +3,7 @@ Restore structure and contents of a database.
 
 **Usage:**
 ```
-$ drupal database:restore [arguments] [options] 
+$ drupal database:restore [arguments] [options]
 ```
 
 ## Available options

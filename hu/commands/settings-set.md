@@ -3,7 +3,7 @@ Change a specific setting value in DrupalConsole config file
 
 **Használat:**
 ```
-$ drupal settings:set [arguments] 
+$ drupal settings:set [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

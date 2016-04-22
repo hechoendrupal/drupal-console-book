@@ -3,7 +3,7 @@
 
 **Használat:**
 ```
-$ drupal state:override [arguments] 
+$ drupal state:override [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

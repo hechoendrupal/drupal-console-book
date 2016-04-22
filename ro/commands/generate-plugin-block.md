@@ -3,7 +3,7 @@ Generează un Plugin de tip bloc
 
 **Folosire:**
 ```
-$ drupal generate:plugin:block [options] 
+$ drupal generate:plugin:block [options]
 $ gpb  
 ```
 

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal database:drop [arguments] 
+$ drupal database:drop [arguments]
 ```
 
 ## 可用参数

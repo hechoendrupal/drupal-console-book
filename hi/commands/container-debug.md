@@ -3,6 +3,6 @@
 
 **प्रयोग:**
 ```
-$ drupal container:debug 
+$ drupal container:debug
 $ cod  
 ```

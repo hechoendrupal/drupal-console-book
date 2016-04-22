@@ -3,7 +3,7 @@ Eliminar un idioma soportado en el sitio
 
 **Uso:**
 ```
-$ drupal locale:language:delete [arguments] 
+$ drupal locale:language:delete [arguments]
 ```
 
 ## Argumentos disponibles

@@ -3,7 +3,7 @@ commands.plugin.debug.description
 
 **用法:**
 ```
-$ drupal plugin:debug [arguments] 
+$ drupal plugin:debug [arguments]
 ```
 
 ## 可用参数

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:controller [options] 
+$ drupal generate:controller [options]
 $ gcn  
 ```
 

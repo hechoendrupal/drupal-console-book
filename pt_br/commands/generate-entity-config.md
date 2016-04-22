@@ -3,7 +3,7 @@ Gerar uma nova entidade de configuração
 
 **Uso:**
 ```
-$ drupal generate:entity:config [options] 
+$ drupal generate:entity:config [options]
 $ gecg  
 ```
 

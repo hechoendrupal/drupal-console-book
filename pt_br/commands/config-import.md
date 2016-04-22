@@ -3,7 +3,7 @@ Importar configuração do estado atual da aplicação.
 
 **Uso:**
 ```
-$ drupal config:import [options] 
+$ drupal config:import [options]
 $ ci  
 ```
 

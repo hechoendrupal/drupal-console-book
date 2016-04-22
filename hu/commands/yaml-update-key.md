@@ -3,7 +3,7 @@ YAML-kulcs lecserélése egy YAML-fájlban.
 
 **Használat:**
 ```
-$ drupal yaml:update:key [arguments] 
+$ drupal yaml:update:key [arguments]
 $ yu  
 ```
 

@@ -3,7 +3,7 @@ Projekt frissítése a legújabb verzióra.
 
 **Használat:**
 ```
-$ drupal self-update [options] 
+$ drupal self-update [options]
 ```
 
 ## Rendelkezésre álló beállítások

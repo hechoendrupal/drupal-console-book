@@ -3,7 +3,7 @@ Modul vagy modulok letöltése
 
 **Használat:**
 ```
-$ drupal module:download [arguments] [options] 
+$ drupal module:download [arguments] [options]
 $ md  
 ```
 

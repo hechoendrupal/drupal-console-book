@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal locale:language:add [arguments] 
+$ drupal locale:language:add [arguments]
 ```
 
 ## 可用参数

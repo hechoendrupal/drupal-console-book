@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal config:export [options] 
+$ drupal config:export [options]
 $ ce  
 ```
 

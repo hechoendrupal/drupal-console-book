@@ -3,7 +3,7 @@ Listează actualizările de traducere disponibile
 
 **Folosire:**
 ```
-$ drupal locale:translation:status [arguments] 
+$ drupal locale:translation:status [arguments]
 ```
 
 ## Argumente disponibile

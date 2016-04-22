@@ -3,7 +3,7 @@ Generează un plugin de formatare a imaginii.
 
 **Folosire:**
 ```
-$ drupal generate:plugin:imageformatter [options] 
+$ drupal generate:plugin:imageformatter [options]
 ```
 
 ## Opțiuni disponibile

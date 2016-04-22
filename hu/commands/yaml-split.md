@@ -3,7 +3,7 @@ YAML-fájl felosztása a behúzást elválasztási feltételként használva
 
 **Használat:**
 ```
-$ drupal yaml:split [arguments] [options] 
+$ drupal yaml:split [arguments] [options]
 $ ys  
 ```
 

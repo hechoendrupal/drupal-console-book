@@ -3,7 +3,7 @@ Exportar uma configuração única como um arquivo YML.
 
 **Uso:**
 ```
-$ drupal config:export:single [arguments] [options] 
+$ drupal config:export:single [arguments] [options]
 $ ces  
 ```
 

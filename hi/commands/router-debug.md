@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal router:debug [arguments] 
+$ drupal router:debug [arguments]
 $ rod  
 ```
 

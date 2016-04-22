@@ -3,7 +3,7 @@ Nézet exportálása YAML-formátumban egy megadott modulba, hogy újra lehessen
 
 **Használat:**
 ```
-$ drupal config:export:view [arguments] [options] 
+$ drupal config:export:view [arguments] [options]
 $ cev  
 ```
 

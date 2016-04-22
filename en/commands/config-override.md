@@ -3,7 +3,7 @@ Override config value in active configuration.
 
 **Usage:**
 ```
-$ drupal config:override [arguments] 
+$ drupal config:override [arguments]
 ```
 
 ## Available arguments

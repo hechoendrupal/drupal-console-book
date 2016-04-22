@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:plugin:fieldwidget [options] 
+$ drupal generate:plugin:fieldwidget [options]
 ```
 
 ## 可用选项

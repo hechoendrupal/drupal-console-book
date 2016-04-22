@@ -3,7 +3,7 @@ Displays help for a command
 
 **Folosire:**
 ```
-$ drupal help [arguments] [options] 
+$ drupal help [arguments] [options]
 ```
 
 ## Opțiuni disponibile

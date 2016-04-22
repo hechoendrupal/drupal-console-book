@@ -3,7 +3,7 @@ Az alkalmazás REST-erőforrásának engedélyezése
 
 **Használat:**
 ```
-$ drupal rest:enable [arguments] 
+$ drupal rest:enable [arguments]
 $ ree  
 ```
 

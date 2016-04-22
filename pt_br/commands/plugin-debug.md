@@ -3,7 +3,7 @@ commands.plugin.debug.description
 
 **Uso:**
 ```
-$ drupal plugin:debug [arguments] 
+$ drupal plugin:debug [arguments]
 ```
 
 ## Argumentos disponíveis

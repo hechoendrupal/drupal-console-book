@@ -3,7 +3,7 @@ Descărcați structura și conținutul bazei de date MySQL și tabelele acesteia
 
 **Folosire:**
 ```
-$ drupal database:dump [arguments] [options] 
+$ drupal database:dump [arguments] [options]
 ```
 
 ## Opțiuni disponibile

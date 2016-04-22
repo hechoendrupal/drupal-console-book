@@ -3,6 +3,6 @@
 
 **प्रयोग:**
 ```
-$ drupal router:rebuild 
+$ drupal router:rebuild
 $ ror  
 ```

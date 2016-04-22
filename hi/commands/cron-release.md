@@ -3,6 +3,6 @@
 
 **प्रयोग:**
 ```
-$ drupal cron:release 
+$ drupal cron:release
 $ crr  
 ```

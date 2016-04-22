@@ -3,7 +3,7 @@ Tạo một kiểu plugin với annotation discovery
 
 **Usage:**
 ```
-$ drupal generate:plugin:type:annotation [options] 
+$ drupal generate:plugin:type:annotation [options]
 ```
 
 ## Các tùy chọn có sẵn

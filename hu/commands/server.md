@@ -3,7 +3,7 @@ A PHP beépített webkiszolgálójának futtatása
 
 **Használat:**
 ```
-$ drupal server [arguments] 
+$ drupal server [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

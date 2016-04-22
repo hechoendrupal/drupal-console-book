@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:plugin:block [options] 
+$ drupal generate:plugin:block [options]
 $ gpb  
 ```
 

@@ -3,7 +3,7 @@ Tạo một RouteSubscriber
 
 **Usage:**
 ```
-$ drupal generate:routesubscriber [options] 
+$ drupal generate:routesubscriber [options]
 ```
 
 ## Các tùy chọn có sẵn

@@ -3,7 +3,7 @@ Modul vagy modulok eltávolítása
 
 **Használat:**
 ```
-$ drupal module:uninstall [arguments] [options] 
+$ drupal module:uninstall [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

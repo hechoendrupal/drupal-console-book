@@ -3,7 +3,7 @@ Remove events from DBLog table, filters are available
 
 **Usage:**
 ```
-$ drupal database:log:clear [arguments] [options] 
+$ drupal database:log:clear [arguments] [options]
 ```
 
 ## Available options

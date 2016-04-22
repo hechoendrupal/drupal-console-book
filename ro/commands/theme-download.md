@@ -3,7 +3,7 @@ Descarcă tema în aplicație
 
 **Folosire:**
 ```
-$ drupal theme:download [arguments] 
+$ drupal theme:download [arguments]
 $ td  
 ```
 

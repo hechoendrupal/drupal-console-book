@@ -3,6 +3,6 @@ Egy alkalmazás aktuális szolgáltatásait jeleníti meg.
 
 **Használat:**
 ```
-$ drupal container:debug 
+$ drupal container:debug
 $ cod  
 ```

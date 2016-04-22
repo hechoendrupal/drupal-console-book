@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal state:override [arguments] 
+$ drupal state:override [arguments]
 ```
 
 ## उपलब्ध तर्कों

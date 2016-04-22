@@ -3,7 +3,7 @@ Create dummy users for your Drupal 8 application.
 
 **Usage:**
 ```
-$ drupal create:users [arguments] [options] 
+$ drupal create:users [arguments] [options]
 ```
 
 ## Available options

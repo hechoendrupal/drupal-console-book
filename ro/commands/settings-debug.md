@@ -3,5 +3,5 @@ List user Drupal Console settings.
 
 **Folosire:**
 ```
-$ drupal settings:debug 
+$ drupal settings:debug
 ```

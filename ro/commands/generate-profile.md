@@ -3,7 +3,7 @@ Generate a profile.
 
 **Folosire:**
 ```
-$ drupal generate:profile [options] 
+$ drupal generate:profile [options]
 ```
 
 ## Opțiuni disponibile

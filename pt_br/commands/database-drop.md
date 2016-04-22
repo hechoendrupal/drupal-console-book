@@ -3,7 +3,7 @@ Drop all tables in a given database.
 
 **Uso:**
 ```
-$ drupal database:drop [arguments] 
+$ drupal database:drop [arguments]
 ```
 
 ## Argumentos disponíveis

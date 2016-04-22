@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:form:alter [options] 
+$ drupal generate:form:alter [options]
 $ gfa  
 ```
 

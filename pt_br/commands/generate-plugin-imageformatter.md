@@ -3,7 +3,7 @@ Generate image formatter plugin.
 
 **Uso:**
 ```
-$ drupal generate:plugin:imageformatter [options] 
+$ drupal generate:plugin:imageformatter [options]
 ```
 
 ## Opções disponíveis

@@ -3,7 +3,7 @@ Nézet engedélyezése
 
 **Használat:**
 ```
-$ drupal views:enable [arguments] 
+$ drupal views:enable [arguments]
 $ ve  
 ```
 

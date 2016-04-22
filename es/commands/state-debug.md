@@ -3,7 +3,7 @@ Muestra las claves de Estado actual.
 
 **Uso:**
 ```
-$ drupal state:debug [arguments] 
+$ drupal state:debug [arguments]
 ```
 
 ## Argumentos disponibles

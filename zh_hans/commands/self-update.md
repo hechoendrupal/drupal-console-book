@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal self-update [options] 
+$ drupal self-update [options]
 ```
 
 ## 可用选项

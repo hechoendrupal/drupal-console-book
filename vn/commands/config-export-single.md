@@ -3,7 +3,7 @@ Xuất cấu hình đơn giản như yml file
 
 **Usage:**
 ```
-$ drupal config:export:single [arguments] [options] 
+$ drupal config:export:single [arguments] [options]
 $ ces  
 ```
 

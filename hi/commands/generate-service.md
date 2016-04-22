@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:service [options] 
+$ drupal generate:service [options]
 $ gs  
 ```
 

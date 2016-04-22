@@ -3,7 +3,7 @@ Install module or modules in the application
 
 **Usage:**
 ```
-$ drupal module:install [arguments] [options] 
+$ drupal module:install [arguments] [options]
 ```
 
 ## Available options

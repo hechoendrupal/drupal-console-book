@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal migrate:setup [options] 
+$ drupal migrate:setup [options]
 ```
 
 ## 可用选项

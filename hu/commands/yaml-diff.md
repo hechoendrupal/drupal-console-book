@@ -3,7 +3,7 @@ Két YAML-fájl összehasonlítása a közöttük lévő különbségek megkeres
 
 **Használat:**
 ```
-$ drupal yaml:diff [arguments] [options] 
+$ drupal yaml:diff [arguments] [options]
 $ yd  
 ```
 

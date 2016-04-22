@@ -3,7 +3,7 @@ Dump structure and contents of a database
 
 **Usage:**
 ```
-$ drupal database:dump [arguments] [options] 
+$ drupal database:dump [arguments] [options]
 ```
 
 ## Available options

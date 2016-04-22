@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal locale:language:delete [arguments] 
+$ drupal locale:language:delete [arguments]
 ```
 
 ## 可用参数

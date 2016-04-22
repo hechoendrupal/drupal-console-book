@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal user:password:hash [arguments] 
+$ drupal user:password:hash [arguments]
 $ usph  
 ```
 

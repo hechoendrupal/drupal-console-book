@@ -3,7 +3,7 @@ Danh sách cập nhật bản dịch có sẵn
 
 **Usage:**
 ```
-$ drupal locale:translation:status [arguments] 
+$ drupal locale:translation:status [arguments]
 ```
 
 ## Các đối số có sẵn

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:plugin:fieldformatter [options] 
+$ drupal generate:plugin:fieldformatter [options]
 ```
 
 ## 可用选项

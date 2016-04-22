@@ -3,7 +3,7 @@ Listele de comenzi
 
 **Folosire:**
 ```
-$ drupal list [arguments] [options] 
+$ drupal list [arguments] [options]
 ```
 
 ## Opțiuni disponibile

@@ -3,7 +3,7 @@ Restaurar a estrutura e conteúdo das bases de dados e tabelas do MySQL
 
 **Uso:**
 ```
-$ drupal database:restore [arguments] [options] 
+$ drupal database:restore [arguments] [options]
 ```
 
 ## Opções disponíveis

@@ -3,7 +3,7 @@ Chạy đơn vị thử nghiệm từ các thử nghiệm có sẵn cho ứng d�
 
 **Usage:**
 ```
-$ drupal test:run [arguments] [options] 
+$ drupal test:run [arguments] [options]
 $ tr  
 ```
 

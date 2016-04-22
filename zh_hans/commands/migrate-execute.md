@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal migrate:execute [arguments] [options] 
+$ drupal migrate:execute [arguments] [options]
 $ mie  
 ```
 

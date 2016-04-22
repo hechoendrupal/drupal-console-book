@@ -3,7 +3,7 @@ Show all tables in a given database.
 
 **Folosire:**
 ```
-$ drupal database:table:debug [arguments] [options] 
+$ drupal database:table:debug [arguments] [options]
 ```
 
 ## Opțiuni disponibile

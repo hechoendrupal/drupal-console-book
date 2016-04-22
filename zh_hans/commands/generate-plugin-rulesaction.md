@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:plugin:rulesaction [options] 
+$ drupal generate:plugin:rulesaction [options]
 ```
 
 ## 可用选项

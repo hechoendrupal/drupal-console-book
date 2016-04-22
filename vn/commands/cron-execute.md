@@ -3,7 +3,7 @@ Thi hành cron implementation từ một module chỉ định hoặc tất cả 
 
 **Usage:**
 ```
-$ drupal cron:execute [arguments] 
+$ drupal cron:execute [arguments]
 $ cre  
 ```
 

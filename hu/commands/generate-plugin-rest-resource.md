@@ -3,7 +3,7 @@ REST-erőforrás bővítmény létrehozása
 
 **Használat:**
 ```
-$ drupal generate:plugin:rest:resource [options] 
+$ drupal generate:plugin:rest:resource [options]
 ```
 
 ## Rendelkezésre álló beállítások

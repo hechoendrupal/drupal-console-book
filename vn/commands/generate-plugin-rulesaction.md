@@ -3,7 +3,7 @@ Tạo một plugin rule action
 
 **Usage:**
 ```
-$ drupal generate:plugin:rulesaction [options] 
+$ drupal generate:plugin:rulesaction [options]
 ```
 
 ## Các tùy chọn có sẵn

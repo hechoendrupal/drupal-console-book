@@ -3,7 +3,7 @@ Atualizar as configurações de desempenho do sistema
 
 **Uso:**
 ```
-$ drupal site:mode [arguments] 
+$ drupal site:mode [arguments]
 $ smo  
 ```
 

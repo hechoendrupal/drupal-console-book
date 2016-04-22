@@ -3,7 +3,7 @@ Gỡ bỏ module hoặc các module trong ứng dụng
 
 **Usage:**
 ```
-$ drupal module:uninstall [arguments] [options] 
+$ drupal module:uninstall [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

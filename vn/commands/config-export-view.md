@@ -3,7 +3,7 @@ Export 1 view trong YAML format inside 1 module được cung cấp để sử d
 
 **Usage:**
 ```
-$ drupal config:export:view [arguments] [options] 
+$ drupal config:export:view [arguments] [options]
 $ cev  
 ```
 

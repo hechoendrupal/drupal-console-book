@@ -3,5 +3,5 @@ Cron metódust megvalósító modulok listája
 
 **Használat:**
 ```
-$ drupal cron:debug 
+$ drupal cron:debug
 ```

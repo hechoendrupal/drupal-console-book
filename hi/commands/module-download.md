@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal module:download [arguments] [options] 
+$ drupal module:download [arguments] [options]
 $ md  
 ```
 

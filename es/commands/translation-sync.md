@@ -3,7 +3,7 @@ Sincronizar archivos de traducción
 
 **Uso:**
 ```
-$ drupal translation:sync [arguments] [options] 
+$ drupal translation:sync [arguments] [options]
 ```
 
 ## Opciones disponibles

@@ -3,7 +3,7 @@ Import/Configure an existing local Drupal project
 
 **प्रयोग:**
 ```
-$ drupal site:import:local [arguments] [options] 
+$ drupal site:import:local [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

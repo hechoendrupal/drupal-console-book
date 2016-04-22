@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal config:export:content:type [arguments] [options] 
+$ drupal config:export:content:type [arguments] [options]
 $ cect  
 ```
 

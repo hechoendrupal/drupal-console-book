@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal database:drop [arguments] 
+$ drupal database:drop [arguments]
 ```
 
 ## उपलब्ध तर्कों

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:plugin:rest:resource [options] 
+$ drupal generate:plugin:rest:resource [options]
 ```
 
 ## 可用选项

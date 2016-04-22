@@ -3,7 +3,7 @@ Rebuild and clear all site caches.
 
 **Usage:**
 ```
-$ drupal cache:rebuild [arguments] 
+$ drupal cache:rebuild [arguments]
 $ cr  
 ```
 

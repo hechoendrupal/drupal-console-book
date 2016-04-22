@@ -3,7 +3,7 @@ Instaleaza Module
 
 **Folosire:**
 ```
-$ drupal module:install [arguments] [options] 
+$ drupal module:install [arguments] [options]
 ```
 
 ## Opțiuni disponibile

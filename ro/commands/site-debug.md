@@ -3,7 +3,7 @@ Listează toate siturile locale sau la distanță.
 
 **Folosire:**
 ```
-$ drupal site:debug [arguments] 
+$ drupal site:debug [arguments]
 $ sd  
 ```
 

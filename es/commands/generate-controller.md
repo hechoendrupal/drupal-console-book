@@ -3,7 +3,7 @@ Generar y registrar un controlador
 
 **Uso:**
 ```
-$ drupal generate:controller [options] 
+$ drupal generate:controller [options]
 $ gcn  
 ```
 

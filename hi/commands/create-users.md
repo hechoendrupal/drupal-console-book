@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal create:users [arguments] [options] 
+$ drupal create:users [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

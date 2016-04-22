@@ -3,7 +3,7 @@ Exporta la configuración actual de la aplicación.
 
 **Uso:**
 ```
-$ drupal config:export [options] 
+$ drupal config:export [options]
 $ ce  
 ```
 

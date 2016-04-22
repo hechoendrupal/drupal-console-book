@@ -3,7 +3,7 @@ Sync translation files
 
 **Usage:**
 ```
-$ drupal translation:sync [arguments] [options] 
+$ drupal translation:sync [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

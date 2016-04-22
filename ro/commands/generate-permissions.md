@@ -3,7 +3,7 @@ Generează permisiuni pentru modul
 
 **Folosire:**
 ```
-$ drupal generate:permissions [options] 
+$ drupal generate:permissions [options]
 $ gp  
 ```
 

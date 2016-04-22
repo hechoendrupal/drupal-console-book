@@ -3,5 +3,5 @@ Aplicar actualizaciones a entidades
 
 **Uso:**
 ```
-$ drupal update:entities 
+$ drupal update:entities
 ```

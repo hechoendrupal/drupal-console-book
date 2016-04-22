@@ -3,7 +3,7 @@ Generate translate stats
 
 **Usage:**
 ```
-$ drupal translation:stats [arguments] [options] 
+$ drupal translation:stats [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

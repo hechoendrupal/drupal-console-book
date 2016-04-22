@@ -3,6 +3,6 @@ Exibir atualizações necessários para a aplicação
 
 **Uso:**
 ```
-$ drupal update:debug 
+$ drupal update:debug
 $ upd  
 ```

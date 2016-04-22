@@ -3,7 +3,7 @@ Gera plugins de widgets, fortmato e tipo de campo
 
 **Uso:**
 ```
-$ drupal generate:plugin:field [options] 
+$ drupal generate:plugin:field [options]
 ```
 
 ## Opções disponíveis

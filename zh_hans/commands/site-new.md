@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal site:new [arguments] 
+$ drupal site:new [arguments]
 $ sn  
 ```
 

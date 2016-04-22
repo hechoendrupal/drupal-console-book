@@ -3,7 +3,7 @@ Hiển thị các dấu sự kiện hiện tại cho ứng dụng
 
 **Usage:**
 ```
-$ drupal database:log:debug [arguments] [options] 
+$ drupal database:log:debug [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

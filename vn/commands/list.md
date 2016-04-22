@@ -3,7 +3,7 @@ Các danh sách tất cả các dòng lệnh có sẵn
 
 **Usage:**
 ```
-$ drupal list [arguments] [options] 
+$ drupal list [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

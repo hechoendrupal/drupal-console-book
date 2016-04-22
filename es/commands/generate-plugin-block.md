@@ -3,7 +3,7 @@ Genera un plugin de bloque
 
 **Uso:**
 ```
-$ drupal generate:plugin:block [options] 
+$ drupal generate:plugin:block [options]
 $ gpb  
 ```
 

@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal translation:stats [arguments] [options] 
+$ drupal translation:stats [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

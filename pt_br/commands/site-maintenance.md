@@ -3,7 +3,7 @@ Habilitar/Desabilitar modo de manutenção
 
 **Uso:**
 ```
-$ drupal site:maintenance [arguments] 
+$ drupal site:maintenance [arguments]
 $ sma  
 ```
 

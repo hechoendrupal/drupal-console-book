@@ -3,7 +3,7 @@ Cài đặt một dự án Drupal
 
 **Usage:**
 ```
-$ drupal site:install [arguments] [options] 
+$ drupal site:install [arguments] [options]
 $ si  
 ```
 

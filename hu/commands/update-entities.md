@@ -3,5 +3,5 @@ Applying Entity Updates
 
 **Használat:**
 ```
-$ drupal update:entities 
+$ drupal update:entities
 ```

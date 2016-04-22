@@ -3,7 +3,7 @@ Display current migration available for the application
 
 **Usage:**
 ```
-$ drupal migrate:debug [arguments] 
+$ drupal migrate:debug [arguments]
 $ mid  
 ```
 

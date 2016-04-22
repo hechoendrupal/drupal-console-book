@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal cron:execute [arguments] 
+$ drupal cron:execute [arguments]
 $ cre  
 ```
 

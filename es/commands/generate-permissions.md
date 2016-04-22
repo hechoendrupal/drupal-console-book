@@ -3,7 +3,7 @@ Genera los permisos del módulo
 
 **Uso:**
 ```
-$ drupal generate:permissions [options] 
+$ drupal generate:permissions [options]
 $ gp  
 ```
 

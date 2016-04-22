@@ -3,7 +3,7 @@ Exportă un view în format YAML în cadrul unui modul pentru a fi reutilizat î
 
 **Folosire:**
 ```
-$ drupal config:export:view [arguments] [options] 
+$ drupal config:export:view [arguments] [options]
 $ cev  
 ```
 

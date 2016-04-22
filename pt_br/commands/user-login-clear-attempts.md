@@ -3,7 +3,7 @@ Limpar tentativas falhas de login para um usuário.
 
 **Uso:**
 ```
-$ drupal user:login:clear:attempts [arguments] 
+$ drupal user:login:clear:attempts [arguments]
 $ uslca  
 ```
 

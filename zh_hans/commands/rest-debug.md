@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal rest:debug [arguments] [options] 
+$ drupal rest:debug [arguments] [options]
 $ rede  
 ```
 

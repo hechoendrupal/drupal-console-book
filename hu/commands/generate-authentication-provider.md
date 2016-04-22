@@ -3,7 +3,7 @@ Hitelesítésszolgáltató létrehozása
 
 **Használat:**
 ```
-$ drupal generate:authentication:provider [options] 
+$ drupal generate:authentication:provider [options]
 $ gap  
 ```
 

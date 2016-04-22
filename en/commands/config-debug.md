@@ -3,7 +3,7 @@ Show the current configuration.
 
 **Usage:**
 ```
-$ drupal config:debug [arguments] 
+$ drupal config:debug [arguments]
 $ cde  
 ```
 

@@ -3,7 +3,7 @@ Konfiguráció importálása az aktuális alkalmazásba.
 
 **Használat:**
 ```
-$ drupal config:import [options] 
+$ drupal config:import [options]
 $ ci  
 ```
 

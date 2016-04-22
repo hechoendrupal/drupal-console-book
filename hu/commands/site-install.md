@@ -3,7 +3,7 @@ Drupal projekt telepítése
 
 **Használat:**
 ```
-$ drupal site:install [arguments] [options] 
+$ drupal site:install [arguments] [options]
 $ si  
 ```
 

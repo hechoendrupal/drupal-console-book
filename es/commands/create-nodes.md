@@ -3,7 +3,7 @@ Crea nodos de relleno para su Drupal 8.
 
 **Uso:**
 ```
-$ drupal create:nodes [arguments] [options] 
+$ drupal create:nodes [arguments] [options]
 ```
 
 ## Opciones disponibles

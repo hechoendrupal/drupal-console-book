@@ -3,7 +3,7 @@ Show all tables in a given database.
 
 **Usage:**
 ```
-$ drupal database:table:debug [arguments] [options] 
+$ drupal database:table:debug [arguments] [options]
 ```
 
 ## Available options

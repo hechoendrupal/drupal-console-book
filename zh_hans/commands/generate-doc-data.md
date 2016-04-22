@@ -3,10 +3,10 @@ commands.generate.doc.data.description
 
 **用法:**
 ```
-$ drupal generate:doc:data [options] 
+$ drupal generate:doc:data [options]
 ```
 
 ## 可用选项
 选项 | 详细
 -------|-------------
---path | commands.generate.doc.data.options.path
+--file | commands.generate.doc.data.options.file

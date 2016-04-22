@@ -3,7 +3,7 @@ Generează o extensie custom de views field.
 
 **Folosire:**
 ```
-$ drupal generate:plugin:views:field [options] 
+$ drupal generate:plugin:views:field [options]
 ```
 
 ## Opțiuni disponibile

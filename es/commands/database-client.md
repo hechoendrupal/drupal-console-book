@@ -3,7 +3,7 @@ Lanzar un cliente de base de datos si está disponible
 
 **Uso:**
 ```
-$ drupal database:client [arguments] 
+$ drupal database:client [arguments]
 ```
 
 ## Argumentos disponibles

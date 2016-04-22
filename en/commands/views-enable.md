@@ -3,7 +3,7 @@ Enable a View
 
 **Usage:**
 ```
-$ drupal views:enable [arguments] 
+$ drupal views:enable [arguments]
 $ ve  
 ```
 

@@ -3,7 +3,7 @@ Ficheros de limpieza de traducción
 
 **Uso:**
 ```
-$ drupal translation:cleanup [arguments] 
+$ drupal translation:cleanup [arguments]
 ```
 
 ## Argumentos disponibles

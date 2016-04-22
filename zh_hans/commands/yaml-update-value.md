@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal yaml:update:value [arguments] 
+$ drupal yaml:update:value [arguments]
 $ yuv  
 ```
 

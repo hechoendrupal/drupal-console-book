@@ -3,7 +3,7 @@ Uneşte doua sau mai multe fişiere de tip YAML într-un nou fişier de tip YAML
 
 **Folosire:**
 ```
-$ drupal yaml:merge [arguments] 
+$ drupal yaml:merge [arguments]
 $ ym  
 ```
 

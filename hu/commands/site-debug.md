@@ -3,7 +3,7 @@ Minden ismert helyi és távoli webhely listázása.
 
 **Használat:**
 ```
-$ drupal site:debug [arguments] 
+$ drupal site:debug [arguments]
 $ sd  
 ```
 

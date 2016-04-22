@@ -3,7 +3,7 @@ Genera un plugin de widget de campo.
 
 **Uso:**
 ```
-$ drupal generate:plugin:fieldwidget [options] 
+$ drupal generate:plugin:fieldwidget [options]
 ```
 
 ## Opciones disponibles

@@ -3,7 +3,7 @@ commands.plugin.debug.description
 
 **Használat:**
 ```
-$ drupal plugin:debug [arguments] 
+$ drupal plugin:debug [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

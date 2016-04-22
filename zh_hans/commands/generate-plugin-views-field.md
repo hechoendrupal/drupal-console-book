@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:plugin:views:field [options] 
+$ drupal generate:plugin:views:field [options]
 ```
 
 ## 可用选项

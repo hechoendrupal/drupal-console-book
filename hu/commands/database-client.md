@@ -3,7 +3,7 @@ Adatbázisügyfél indítása, ha az elérhető
 
 **Használat:**
 ```
-$ drupal database:client [arguments] 
+$ drupal database:client [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

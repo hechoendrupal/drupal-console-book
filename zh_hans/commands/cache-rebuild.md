@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal cache:rebuild [arguments] 
+$ drupal cache:rebuild [arguments]
 $ cr  
 ```
 

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal config:diff [arguments] [options] 
+$ drupal config:diff [arguments] [options]
 ```
 
 ## 可用选项

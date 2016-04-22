@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:profile [options] 
+$ drupal generate:profile [options]
 ```
 
 ## 可用选项

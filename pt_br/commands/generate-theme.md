@@ -3,7 +3,7 @@ Generate a theme.
 
 **Uso:**
 ```
-$ drupal generate:theme [options] 
+$ drupal generate:theme [options]
 $ gt  
 ```
 

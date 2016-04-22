@@ -3,7 +3,7 @@ Exibir informações sobre os temas da aplicação
 
 **Uso:**
 ```
-$ drupal theme:debug [arguments] 
+$ drupal theme:debug [arguments]
 $ tde  
 ```
 

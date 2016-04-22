@@ -3,7 +3,7 @@ RouteSubscriber létrehozása
 
 **Használat:**
 ```
-$ drupal generate:routesubscriber [options] 
+$ drupal generate:routesubscriber [options]
 ```
 
 ## Rendelkezésre álló beállítások

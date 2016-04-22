@@ -3,7 +3,7 @@ Generează un "ConfigFormBase" nou
 
 **Folosire:**
 ```
-$ drupal generate:form:config [options] 
+$ drupal generate:form:config [options]
 ```
 
 ## Opțiuni disponibile

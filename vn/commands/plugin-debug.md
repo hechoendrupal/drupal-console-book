@@ -3,7 +3,7 @@ commands.plugin.debug.description
 
 **Usage:**
 ```
-$ drupal plugin:debug [arguments] 
+$ drupal plugin:debug [arguments]
 ```
 
 ## Các đối số có sẵn

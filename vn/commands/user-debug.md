@@ -3,7 +3,7 @@ Hiển thị các người dùng hiện tại cho ứng dụng
 
 **Usage:**
 ```
-$ drupal user:debug [options] 
+$ drupal user:debug [options]
 ```
 
 ## Các tùy chọn có sẵn

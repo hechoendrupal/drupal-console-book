@@ -3,7 +3,7 @@ Hiển thị các định tuyến hiện tại của ứng dụng
 
 **Usage:**
 ```
-$ drupal router:debug [arguments] 
+$ drupal router:debug [arguments]
 $ rod  
 ```
 

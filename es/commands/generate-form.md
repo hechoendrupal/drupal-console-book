@@ -3,7 +3,7 @@ Generar un nuevo "FormBase"
 
 **Uso:**
 ```
-$ drupal generate:form [options] 
+$ drupal generate:form [options]
 ```
 
 ## Opciones disponibles

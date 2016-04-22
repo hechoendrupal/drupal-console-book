@@ -3,7 +3,7 @@ Exporta un tipo de contenido determinado y todos sus campos.
 
 **Uso:**
 ```
-$ drupal config:export:content:type [arguments] [options] 
+$ drupal config:export:content:type [arguments] [options]
 $ cect  
 ```
 

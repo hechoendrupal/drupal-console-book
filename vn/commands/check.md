@@ -3,5 +3,5 @@ commands.check.description
 
 **Usage:**
 ```
-$ drupal check 
+$ drupal check
 ```

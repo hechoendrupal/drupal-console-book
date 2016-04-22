@@ -3,7 +3,7 @@ Eliminar Estado
 
 **Uso:**
 ```
-$ drupal state:delete [arguments] 
+$ drupal state:delete [arguments]
 ```
 
 ## Argumentos disponibles

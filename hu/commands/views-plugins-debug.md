@@ -3,7 +3,7 @@ Display current views plugins for the application
 
 **Használat:**
 ```
-$ drupal views:plugins:debug [arguments] 
+$ drupal views:plugins:debug [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

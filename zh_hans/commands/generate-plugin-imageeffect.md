@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:plugin:imageeffect [options] 
+$ drupal generate:plugin:imageeffect [options]
 ```
 
 ## 可用选项

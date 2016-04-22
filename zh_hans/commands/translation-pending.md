@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal translation:pending [arguments] [options] 
+$ drupal translation:pending [arguments] [options]
 ```
 
 ## 可用选项

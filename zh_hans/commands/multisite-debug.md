@@ -3,5 +3,5 @@
 
 **用法:**
 ```
-$ drupal multisite:debug 
+$ drupal multisite:debug
 ```

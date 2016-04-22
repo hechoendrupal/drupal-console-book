@@ -3,7 +3,7 @@ Execute a migration available for application
 
 **Uso:**
 ```
-$ drupal migrate:execute [arguments] [options] 
+$ drupal migrate:execute [arguments] [options]
 $ mie  
 ```
 

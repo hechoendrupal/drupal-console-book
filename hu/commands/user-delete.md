@@ -3,7 +3,7 @@ Felhasználók törlése
 
 **Használat:**
 ```
-$ drupal user:delete [options] 
+$ drupal user:delete [options]
 ```
 
 ## Rendelkezésre álló beállítások

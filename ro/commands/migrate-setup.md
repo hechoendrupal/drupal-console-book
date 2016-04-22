@@ -3,7 +3,7 @@
 
 **Folosire:**
 ```
-$ drupal migrate:setup [options] 
+$ drupal migrate:setup [options]
 ```
 
 ## Opțiuni disponibile

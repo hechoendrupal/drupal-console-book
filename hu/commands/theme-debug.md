@@ -3,7 +3,7 @@ Megjeleníti az alkalmazás aktuális sminkjeit
 
 **Használat:**
 ```
-$ drupal theme:debug [arguments] 
+$ drupal theme:debug [arguments]
 $ tde  
 ```
 

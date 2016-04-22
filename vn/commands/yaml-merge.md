@@ -3,7 +3,7 @@ Merge một hoặc nhiều files YAML vào trong một file YAML mới. Giá tr�
 
 **Usage:**
 ```
-$ drupal yaml:merge [arguments] 
+$ drupal yaml:merge [arguments]
 $ ym  
 ```
 

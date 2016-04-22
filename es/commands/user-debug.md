@@ -3,7 +3,7 @@ Muestra los usuarios actuales del sitio
 
 **Uso:**
 ```
-$ drupal user:debug [options] 
+$ drupal user:debug [options]
 ```
 
 ## Opciones disponibles

@@ -3,7 +3,7 @@ Download theme in application
 
 **Usage:**
 ```
-$ drupal theme:download [arguments] 
+$ drupal theme:download [arguments]
 $ td  
 ```
 

@@ -3,7 +3,7 @@ Xuất một kiểu nội dung chỉ định và các field của chúng
 
 **Usage:**
 ```
-$ drupal config:export:content:type [arguments] [options] 
+$ drupal config:export:content:type [arguments] [options]
 $ cect  
 ```
 

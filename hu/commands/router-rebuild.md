@@ -3,6 +3,6 @@ Az alkalmazás útvonalainak újraépítése
 
 **Használat:**
 ```
-$ drupal router:rebuild 
+$ drupal router:rebuild
 $ ror  
 ```

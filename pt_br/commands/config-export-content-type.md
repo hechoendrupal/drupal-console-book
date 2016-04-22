@@ -3,7 +3,7 @@ Exportar um content-type específico e todos os seus fields.
 
 **Uso:**
 ```
-$ drupal config:export:content:type [arguments] [options] 
+$ drupal config:export:content:type [arguments] [options]
 $ cect  
 ```
 

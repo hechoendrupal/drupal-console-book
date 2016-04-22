@@ -3,7 +3,7 @@ Danh sách các đơn vị thử nghiệm có sẵn của ứng dụng.
 
 **Usage:**
 ```
-$ drupal test:debug [arguments] [options] 
+$ drupal test:debug [arguments] [options]
 $ td  
 ```
 

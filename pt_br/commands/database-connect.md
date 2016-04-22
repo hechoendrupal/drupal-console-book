@@ -3,7 +3,7 @@ Iniciar um cliente de banco de dados se ele está disponível
 
 **Uso:**
 ```
-$ drupal database:connect [arguments] 
+$ drupal database:connect [arguments]
 ```
 
 ## Argumentos disponíveis

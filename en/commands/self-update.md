@@ -3,7 +3,7 @@ Update project to the latest version.
 
 **Usage:**
 ```
-$ drupal self-update [options] 
+$ drupal self-update [options]
 ```
 
 ## Available options

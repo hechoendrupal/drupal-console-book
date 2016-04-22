@@ -3,7 +3,7 @@ Generează documentațiile pentru Comenzi
 
 **Folosire:**
 ```
-$ drupal generate:doc:gitbook [arguments] [options] 
+$ drupal generate:doc:gitbook [arguments] [options]
 $ gdg  
 ```
 

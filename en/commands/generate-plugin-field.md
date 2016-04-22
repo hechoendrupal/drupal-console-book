@@ -3,7 +3,7 @@ Generate field type, widget and formatter plugins.
 
 **Usage:**
 ```
-$ drupal generate:plugin:field [options] 
+$ drupal generate:plugin:field [options]
 ```
 
 ## Available options

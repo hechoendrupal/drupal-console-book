@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal module:uninstall [arguments] [options] 
+$ drupal module:uninstall [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

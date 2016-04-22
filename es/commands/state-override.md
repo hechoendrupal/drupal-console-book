@@ -3,7 +3,7 @@ Sobreescribir una clave de Estado.
 
 **Uso:**
 ```
-$ drupal state:override [arguments] 
+$ drupal state:override [arguments]
 ```
 
 ## Argumentos disponibles

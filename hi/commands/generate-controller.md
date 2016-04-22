@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:controller [options] 
+$ drupal generate:controller [options]
 $ gcn  
 ```
 

@@ -3,7 +3,7 @@
 
 **Folosire:**
 ```
-$ drupal user:login:clear:attempts [arguments] 
+$ drupal user:login:clear:attempts [arguments]
 $ uslca  
 ```
 

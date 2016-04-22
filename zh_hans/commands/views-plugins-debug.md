@@ -3,7 +3,7 @@ Display current views plugins for the application
 
 **用法:**
 ```
-$ drupal views:plugins:debug [arguments] 
+$ drupal views:plugins:debug [arguments]
 ```
 
 ## 可用参数

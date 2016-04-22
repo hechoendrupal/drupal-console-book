@@ -3,7 +3,7 @@ Reset password for a specific user.
 
 **Usage:**
 ```
-$ drupal user:password:reset [arguments] 
+$ drupal user:password:reset [arguments]
 $ uspr  
 ```
 

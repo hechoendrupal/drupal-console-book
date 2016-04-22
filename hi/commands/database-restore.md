@@ -3,7 +3,7 @@ MYSQL डाटाबेस और टेबल्स ले कंटेंट 
 
 **प्रयोग:**
 ```
-$ drupal database:restore [arguments] [options] 
+$ drupal database:restore [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

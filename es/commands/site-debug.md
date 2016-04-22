@@ -3,7 +3,7 @@ Enlista todos los sitios, locales y remotos, conocidos.
 
 **Uso:**
 ```
-$ drupal site:debug [arguments] 
+$ drupal site:debug [arguments]
 $ sd  
 ```
 

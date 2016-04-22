@@ -3,7 +3,7 @@ Runs PHP built-in web server
 
 **Usage:**
 ```
-$ drupal server [arguments] 
+$ drupal server [arguments]
 ```
 
 ## Available arguments

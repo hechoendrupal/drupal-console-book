@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal database:restore [arguments] [options] 
+$ drupal database:restore [arguments] [options]
 ```
 
 ## 可用选项

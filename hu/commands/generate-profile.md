@@ -3,7 +3,7 @@ Profil létrehozása.
 
 **Használat:**
 ```
-$ drupal generate:profile [options] 
+$ drupal generate:profile [options]
 ```
 
 ## Rendelkezésre álló beállítások

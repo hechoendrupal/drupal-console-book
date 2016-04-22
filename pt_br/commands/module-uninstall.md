@@ -3,7 +3,7 @@ Uninstall module or modules in the application
 
 **Uso:**
 ```
-$ drupal module:uninstall [arguments] [options] 
+$ drupal module:uninstall [arguments] [options]
 ```
 
 ## Opções disponíveis

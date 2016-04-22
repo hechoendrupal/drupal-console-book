@@ -3,7 +3,7 @@ Hiển thị cấu hình hiện tại
 
 **Usage:**
 ```
-$ drupal config:debug [arguments] 
+$ drupal config:debug [arguments]
 $ cde  
 ```
 

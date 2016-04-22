@@ -3,5 +3,5 @@ A rendszeren elérhető multisite-ok listázása
 
 **Használat:**
 ```
-$ drupal multisite:debug 
+$ drupal multisite:debug
 ```

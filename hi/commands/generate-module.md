@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:module [options] 
+$ drupal generate:module [options]
 $ gm  
 ```
 

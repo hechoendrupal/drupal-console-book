@@ -3,7 +3,7 @@ Descarga un tema para la aplicación
 
 **Uso:**
 ```
-$ drupal theme:download [arguments] 
+$ drupal theme:download [arguments]
 $ td  
 ```
 

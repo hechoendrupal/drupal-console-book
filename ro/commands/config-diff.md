@@ -3,7 +3,7 @@ Ouput configuration items that are different in active configuration compared wi
 
 **Folosire:**
 ```
-$ drupal config:diff [arguments] [options] 
+$ drupal config:diff [arguments] [options]
 ```
 
 ## Opțiuni disponibile

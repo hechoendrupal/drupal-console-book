@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal state:delete [arguments] 
+$ drupal state:delete [arguments]
 ```
 
 ## 可用参数

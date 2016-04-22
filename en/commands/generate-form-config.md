@@ -3,7 +3,7 @@ Generate a new "ConfigFormBase"
 
 **Usage:**
 ```
-$ drupal generate:form:config [options] 
+$ drupal generate:form:config [options]
 ```
 
 ## Available options

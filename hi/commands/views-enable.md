@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal views:enable [arguments] 
+$ drupal views:enable [arguments]
 $ ve  
 ```
 

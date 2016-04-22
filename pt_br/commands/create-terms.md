@@ -3,7 +3,7 @@ Create dummy terms for your Drupal 8 application.
 
 **Uso:**
 ```
-$ drupal create:terms [arguments] [options] 
+$ drupal create:terms [arguments] [options]
 ```
 
 ## Opções disponíveis

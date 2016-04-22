@@ -3,7 +3,7 @@
 
 **Folosire:**
 ```
-$ drupal locale:language:delete [arguments] 
+$ drupal locale:language:delete [arguments]
 ```
 
 ## Argumente disponibile

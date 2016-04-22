@@ -3,7 +3,7 @@ Exportă o singură configurare ca fișier YAML.
 
 **Folosire:**
 ```
-$ drupal config:export:single [arguments] [options] 
+$ drupal config:export:single [arguments] [options]
 $ ces  
 ```
 

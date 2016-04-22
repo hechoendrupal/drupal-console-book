@@ -3,7 +3,7 @@ Displays current users for the application
 
 **Usage:**
 ```
-$ drupal user:debug [options] 
+$ drupal user:debug [options]
 ```
 
 ## Available options

@@ -3,7 +3,7 @@ Rendelkezésre álló fordítási frissítések listázása
 
 **Használat:**
 ```
-$ drupal locale:translation:status [arguments] 
+$ drupal locale:translation:status [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

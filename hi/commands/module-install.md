@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal module:install [arguments] [options] 
+$ drupal module:install [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

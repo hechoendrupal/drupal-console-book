@@ -3,7 +3,7 @@ Tạo một hash từ một mật khẩu thô
 
 **Usage:**
 ```
-$ drupal user:password:hash [arguments] 
+$ drupal user:password:hash [arguments]
 $ usph  
 ```
 

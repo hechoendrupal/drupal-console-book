@@ -3,7 +3,7 @@ Tạo field widget plugin.
 
 **Usage:**
 ```
-$ drupal generate:plugin:fieldwidget [options] 
+$ drupal generate:plugin:fieldwidget [options]
 ```
 
 ## Các tùy chọn có sẵn

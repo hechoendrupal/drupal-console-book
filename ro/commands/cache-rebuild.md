@@ -3,7 +3,7 @@ Reconstruiți și curățați tot cache-ul.
 
 **Folosire:**
 ```
-$ drupal cache:rebuild [arguments] 
+$ drupal cache:rebuild [arguments]
 $ cr  
 ```
 

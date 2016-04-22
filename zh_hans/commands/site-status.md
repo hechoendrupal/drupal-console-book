@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal site:status [options] 
+$ drupal site:status [options]
 $ ss  
 ```
 

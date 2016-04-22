@@ -3,7 +3,7 @@ Generate image effect plugin.
 
 **Usage:**
 ```
-$ drupal generate:plugin:imageeffect [options] 
+$ drupal generate:plugin:imageeffect [options]
 ```
 
 ## Available options

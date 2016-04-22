@@ -3,7 +3,7 @@ Displays help for a command
 
 **Usage:**
 ```
-$ drupal help [arguments] [options] 
+$ drupal help [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

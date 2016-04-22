@@ -3,7 +3,7 @@ Gerar um provedor de autenticação
 
 **Uso:**
 ```
-$ drupal generate:authentication:provider [options] 
+$ drupal generate:authentication:provider [options]
 $ gap  
 ```
 

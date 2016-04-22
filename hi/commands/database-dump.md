@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal database:dump [arguments] [options] 
+$ drupal database:dump [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

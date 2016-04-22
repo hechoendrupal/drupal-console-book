@@ -3,7 +3,7 @@ Genera un tema.
 
 **Uso:**
 ```
-$ drupal generate:theme [options] 
+$ drupal generate:theme [options]
 $ gt  
 ```
 
@@ -17,6 +17,6 @@ Opción | Detalles
 --core | Versión del core
 --package | Paquete del tema
 --global-library | Nombre de la librería de estilo global
---base-theme | Tema base (por ejemplo: classy, seven)
+--base-theme | Tema base (por ejemplo: classy, stable)
 --regions | Regiones
 --breakpoints | Puntos de ruptura

@@ -3,7 +3,7 @@ Xuất cấu hình ứng dụng hiện tại
 
 **Usage:**
 ```
-$ drupal config:export [options] 
+$ drupal config:export [options]
 $ ce  
 ```
 

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:doc:dash [options] 
+$ drupal generate:doc:dash [options]
 $ gdd  
 ```
 

@@ -3,7 +3,7 @@ Disable a rest resource for the application
 
 **Usage:**
 ```
-$ drupal rest:disable [arguments] 
+$ drupal rest:disable [arguments]
 $ redi  
 ```
 

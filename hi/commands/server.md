@@ -3,7 +3,7 @@ PHP निर्मित वेब सर्वर चलायॆ
 
 **प्रयोग:**
 ```
-$ drupal server [arguments] 
+$ drupal server [arguments]
 ```
 
 ## उपलब्ध तर्कों

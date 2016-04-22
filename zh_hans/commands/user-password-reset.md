@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal user:password:reset [arguments] 
+$ drupal user:password:reset [arguments]
 $ uspr  
 ```
 

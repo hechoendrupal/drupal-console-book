@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal cron:execute [arguments] 
+$ drupal cron:execute [arguments]
 $ cre  
 ```
 

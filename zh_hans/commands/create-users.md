@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal create:users [arguments] [options] 
+$ drupal create:users [arguments] [options]
 ```
 
 ## 可用选项

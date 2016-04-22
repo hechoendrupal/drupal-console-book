@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:doc:gitbook [arguments] [options] 
+$ drupal generate:doc:gitbook [arguments] [options]
 $ gdg  
 ```
 

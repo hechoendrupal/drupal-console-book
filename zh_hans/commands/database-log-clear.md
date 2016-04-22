@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal database:log:clear [arguments] [options] 
+$ drupal database:log:clear [arguments] [options]
 ```
 
 ## 可用选项

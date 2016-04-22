@@ -3,7 +3,7 @@ Execução de comandos em sequência
 
 **Uso:**
 ```
-$ drupal chain [options] 
+$ drupal chain [options]
 ```
 
 ## Opções disponíveis

@@ -3,7 +3,7 @@ Delete configuration
 
 **Folosire:**
 ```
-$ drupal config:delete [arguments] 
+$ drupal config:delete [arguments]
 ```
 
 ## Argumente disponibile

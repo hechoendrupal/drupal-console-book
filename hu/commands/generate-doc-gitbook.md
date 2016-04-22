@@ -3,7 +3,7 @@ Dokumentáció létrehozása a parancsokhoz
 
 **Használat:**
 ```
-$ drupal generate:doc:gitbook [arguments] [options] 
+$ drupal generate:doc:gitbook [arguments] [options]
 $ gdg  
 ```
 

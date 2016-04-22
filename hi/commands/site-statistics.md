@@ -3,5 +3,5 @@
 
 **प्रयोग:**
 ```
-$ drupal site:statistics 
+$ drupal site:statistics
 ```

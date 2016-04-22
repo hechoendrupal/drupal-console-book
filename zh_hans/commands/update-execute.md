@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal update:execute [arguments] 
+$ drupal update:execute [arguments]
 $ upe  
 ```
 

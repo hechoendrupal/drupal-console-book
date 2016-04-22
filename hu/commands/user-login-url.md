@@ -3,7 +3,7 @@ Egyszer használatos felhasználói bejelentkezési URL-címet ad vissza.
 
 **Használat:**
 ```
-$ drupal user:login:url [arguments] 
+$ drupal user:login:url [arguments]
 $ uslu  
 ```
 

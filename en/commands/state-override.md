@@ -3,7 +3,7 @@ Override a State key.
 
 **Usage:**
 ```
-$ drupal state:override [arguments] 
+$ drupal state:override [arguments]
 ```
 
 ## Available arguments

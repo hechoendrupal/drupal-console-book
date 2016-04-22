@@ -3,7 +3,7 @@ Crea vocabularios de prueba para tu Drupal 8.
 
 **Uso:**
 ```
-$ drupal create:vocabularies [options] 
+$ drupal create:vocabularies [options]
 ```
 
 ## Opciones disponibles

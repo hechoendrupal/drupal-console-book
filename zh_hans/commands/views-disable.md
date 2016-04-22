@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal views:disable [arguments] 
+$ drupal views:disable [arguments]
 $ vdi  
 ```
 

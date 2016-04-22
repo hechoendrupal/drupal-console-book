@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:plugin:imageformatter [options] 
+$ drupal generate:plugin:imageformatter [options]
 ```
 
 ## 可用选项

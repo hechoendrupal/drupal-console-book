@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:plugin:type:yaml [options] 
+$ drupal generate:plugin:type:yaml [options]
 ```
 
 ## 可用选项

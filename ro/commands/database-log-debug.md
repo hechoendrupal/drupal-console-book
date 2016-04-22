@@ -3,7 +3,7 @@ Afișează evenimentele curente, de intrare în jurnal, pentru aplicație
 
 **Folosire:**
 ```
-$ drupal database:log:debug [arguments] [options] 
+$ drupal database:log:debug [arguments] [options]
 ```
 
 ## Opțiuni disponibile

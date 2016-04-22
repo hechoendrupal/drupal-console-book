@@ -3,7 +3,7 @@ Vizualizează statutul de instalare (Drupal Installation status)
 
 **Folosire:**
 ```
-$ drupal site:status [options] 
+$ drupal site:status [options]
 $ ss  
 ```
 

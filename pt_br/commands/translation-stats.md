@@ -3,7 +3,7 @@ Generate translate stats
 
 **Uso:**
 ```
-$ drupal translation:stats [arguments] [options] 
+$ drupal translation:stats [arguments] [options]
 ```
 
 ## Opções disponíveis

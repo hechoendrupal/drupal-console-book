@@ -3,6 +3,6 @@ Reconstruieşte o rută
 
 **Folosire:**
 ```
-$ drupal router:rebuild 
+$ drupal router:rebuild
 $ ror  
 ```

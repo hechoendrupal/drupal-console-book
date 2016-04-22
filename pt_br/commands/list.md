@@ -3,7 +3,7 @@ Lists commands22
 
 **Uso:**
 ```
-$ drupal list [arguments] [options] 
+$ drupal list [arguments] [options]
 ```
 
 ## Opções disponíveis

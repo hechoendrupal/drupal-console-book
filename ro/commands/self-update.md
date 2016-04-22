@@ -3,7 +3,7 @@ Actualizează Consola la ultima versiune.
 
 **Folosire:**
 ```
-$ drupal self-update [options] 
+$ drupal self-update [options]
 ```
 
 ## Opțiuni disponibile

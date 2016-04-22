@@ -3,7 +3,7 @@ Generează un plugin de tip resursă REST
 
 **Folosire:**
 ```
-$ drupal generate:plugin:rest:resource [options] 
+$ drupal generate:plugin:rest:resource [options]
 ```
 
 ## Opțiuni disponibile

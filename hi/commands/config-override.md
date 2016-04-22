@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal config:override [arguments] 
+$ drupal config:override [arguments]
 ```
 
 ## उपलब्ध तर्कों

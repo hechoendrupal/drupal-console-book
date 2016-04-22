@@ -3,7 +3,7 @@ Generează un tip de plugin cu descoperire de adnotaţii
 
 **Folosire:**
 ```
-$ drupal generate:plugin:type:annotation [options] 
+$ drupal generate:plugin:type:annotation [options]
 ```
 
 ## Opțiuni disponibile

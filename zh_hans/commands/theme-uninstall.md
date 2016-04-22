@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal theme:uninstall [arguments] 
+$ drupal theme:uninstall [arguments]
 $ tu  
 ```
 

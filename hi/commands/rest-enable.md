@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal rest:enable [arguments] 
+$ drupal rest:enable [arguments]
 $ ree  
 ```
 

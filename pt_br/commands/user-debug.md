@@ -3,7 +3,7 @@ Exibe informações dos usuários da aplicação
 
 **Uso:**
 ```
-$ drupal user:debug [options] 
+$ drupal user:debug [options]
 ```
 
 ## Opções disponíveis

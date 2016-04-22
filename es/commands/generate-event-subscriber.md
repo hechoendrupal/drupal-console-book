@@ -3,7 +3,7 @@ Genera un suscriptor de eventos
 
 **Uso:**
 ```
-$ drupal generate:event:subscriber [options] 
+$ drupal generate:event:subscriber [options]
 $ ges  
 ```
 

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal create:nodes [arguments] [options] 
+$ drupal create:nodes [arguments] [options]
 ```
 
 ## 可用选项

@@ -3,7 +3,7 @@ Activează un View
 
 **Folosire:**
 ```
-$ drupal views:enable [arguments] 
+$ drupal views:enable [arguments]
 $ ve  
 ```
 

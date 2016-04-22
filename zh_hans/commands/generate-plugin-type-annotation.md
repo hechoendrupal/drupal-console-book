@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:plugin:type:annotation [options] 
+$ drupal generate:plugin:type:annotation [options]
 ```
 
 ## 可用选项

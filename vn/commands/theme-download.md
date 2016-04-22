@@ -3,7 +3,7 @@ Tải xuống theme trong ứng dụng
 
 **Usage:**
 ```
-$ drupal theme:download [arguments] 
+$ drupal theme:download [arguments]
 $ td  
 ```
 

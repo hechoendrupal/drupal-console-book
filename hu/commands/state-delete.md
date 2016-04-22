@@ -3,7 +3,7 @@ Delete State
 
 **Használat:**
 ```
-$ drupal state:delete [arguments] 
+$ drupal state:delete [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

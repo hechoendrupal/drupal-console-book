@@ -3,7 +3,7 @@ Hiển thị DB connection
 
 **Usage:**
 ```
-$ drupal database:connect [arguments] 
+$ drupal database:connect [arguments]
 ```
 
 ## Các đối số có sẵn

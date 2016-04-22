@@ -3,7 +3,7 @@ Generate CKEditor button plugin.
 
 **प्रयोग:**
 ```
-$ drupal generate:plugin:ckeditorbutton [options] 
+$ drupal generate:plugin:ckeditorbutton [options]
 ```
 
 ## उपलब्ध विकल्प

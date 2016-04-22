@@ -3,7 +3,7 @@ Actualizează valoarea unei chei specifice într-un fişier YAML.
 
 **Folosire:**
 ```
-$ drupal yaml:update:value [arguments] 
+$ drupal yaml:update:value [arguments]
 $ yuv  
 ```
 

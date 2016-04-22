@@ -3,7 +3,7 @@ Desinstalar tema(s) da aplicação
 
 **Uso:**
 ```
-$ drupal theme:uninstall [arguments] 
+$ drupal theme:uninstall [arguments]
 $ tu  
 ```
 

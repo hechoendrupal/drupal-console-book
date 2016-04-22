@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:plugin:fieldtype [options] 
+$ drupal generate:plugin:fieldtype [options]
 ```
 
 ## 可用选项

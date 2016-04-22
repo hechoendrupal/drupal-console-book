@@ -3,7 +3,7 @@ Volcado de la estructura y contenidos de las bases de datos y tablas MySQL
 
 **Uso:**
 ```
-$ drupal database:dump [arguments] [options] 
+$ drupal database:dump [arguments] [options]
 ```
 
 ## Opciones disponibles

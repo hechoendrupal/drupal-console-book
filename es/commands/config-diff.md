@@ -3,7 +3,7 @@ Muestra los items de configuración que son diferentes en la configuración acti
 
 **Uso:**
 ```
-$ drupal config:diff [arguments] [options] 
+$ drupal config:diff [arguments] [options]
 ```
 
 ## Opciones disponibles

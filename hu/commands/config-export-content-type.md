@@ -3,7 +3,7 @@ Adott tartalomtípus és mezőinek exportálása.
 
 **Használat:**
 ```
-$ drupal config:export:content:type [arguments] [options] 
+$ drupal config:export:content:type [arguments] [options]
 $ cect  
 ```
 

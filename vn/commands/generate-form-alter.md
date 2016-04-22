@@ -3,7 +3,7 @@ Tạo một implementation của hook_form_alter() hoặc hook_form_FORM_ID_alte
 
 **Usage:**
 ```
-$ drupal generate:form:alter [options] 
+$ drupal generate:form:alter [options]
 $ gfa  
 ```
 

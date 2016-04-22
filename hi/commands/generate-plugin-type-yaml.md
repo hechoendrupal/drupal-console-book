@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:plugin:type:yaml [options] 
+$ drupal generate:plugin:type:yaml [options]
 ```
 
 ## उपलब्ध विकल्प

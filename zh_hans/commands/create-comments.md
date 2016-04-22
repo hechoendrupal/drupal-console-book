@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal create:comments [arguments] [options] 
+$ drupal create:comments [arguments] [options]
 ```
 
 ## 可用选项

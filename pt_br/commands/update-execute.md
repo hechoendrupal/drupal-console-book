@@ -3,7 +3,7 @@ Executar uma função especifica de atualização (Update N) de um módulo espec
 
 **Uso:**
 ```
-$ drupal update:execute [arguments] 
+$ drupal update:execute [arguments]
 $ upe  
 ```
 

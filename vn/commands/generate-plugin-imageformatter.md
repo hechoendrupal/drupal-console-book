@@ -3,7 +3,7 @@ Phát sinh một image formatter plugin.
 
 **Usage:**
 ```
-$ drupal generate:plugin:imageformatter [options] 
+$ drupal generate:plugin:imageformatter [options]
 ```
 
 ## Các tùy chọn có sẵn

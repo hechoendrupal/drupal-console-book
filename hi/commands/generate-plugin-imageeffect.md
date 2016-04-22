@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:plugin:imageeffect [options] 
+$ drupal generate:plugin:imageeffect [options]
 ```
 
 ## उपलब्ध विकल्प

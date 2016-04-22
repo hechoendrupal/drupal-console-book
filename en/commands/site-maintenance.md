@@ -3,7 +3,7 @@ Switch site into maintenance mode
 
 **Usage:**
 ```
-$ drupal site:maintenance [arguments] 
+$ drupal site:maintenance [arguments]
 $ sma  
 ```
 

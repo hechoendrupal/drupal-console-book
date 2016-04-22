@@ -3,7 +3,7 @@ Egy fiók sikertelen bejelentkezési kísérleteinek törlése.
 
 **Használat:**
 ```
-$ drupal user:login:clear:attempts [arguments] 
+$ drupal user:login:clear:attempts [arguments]
 $ uslca  
 ```
 

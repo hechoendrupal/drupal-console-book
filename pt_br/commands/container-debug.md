@@ -3,6 +3,6 @@ Exibe serviços atuais para um aplicativo.
 
 **Uso:**
 ```
-$ drupal container:debug 
+$ drupal container:debug
 $ cod  
 ```

@@ -3,7 +3,7 @@ Afisează migrațiunea curentă accesibilă pentru aplicație
 
 **Folosire:**
 ```
-$ drupal migrate:debug [arguments] 
+$ drupal migrate:debug [arguments]
 $ mid  
 ```
 

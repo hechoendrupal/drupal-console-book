@@ -3,7 +3,7 @@ Copy configuration files to user home directory.
 
 **Usage:**
 ```
-$ drupal init [options] 
+$ drupal init [options]
 ```
 
 ## Available options

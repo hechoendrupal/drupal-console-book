@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal views:debug [arguments] [options] 
+$ drupal views:debug [arguments] [options]
 $ vde  
 ```
 

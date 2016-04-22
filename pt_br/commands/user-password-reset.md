@@ -3,7 +3,7 @@ Recuperar senha para um usuário específico.
 
 **Uso:**
 ```
-$ drupal user:password:reset [arguments] 
+$ drupal user:password:reset [arguments]
 $ uspr  
 ```
 

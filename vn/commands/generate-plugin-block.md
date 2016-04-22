@@ -3,7 +3,7 @@ Tạo một plugin block
 
 **Usage:**
 ```
-$ drupal generate:plugin:block [options] 
+$ drupal generate:plugin:block [options]
 $ gpb  
 ```
 

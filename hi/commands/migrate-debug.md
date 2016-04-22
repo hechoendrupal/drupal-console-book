@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal migrate:debug [arguments] 
+$ drupal migrate:debug [arguments]
 $ mid  
 ```
 

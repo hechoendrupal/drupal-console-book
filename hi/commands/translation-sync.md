@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal translation:sync [arguments] [options] 
+$ drupal translation:sync [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

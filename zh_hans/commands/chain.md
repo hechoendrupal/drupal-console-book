@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal chain [options] 
+$ drupal chain [options]
 ```
 
 ## 可用选项

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal module:install [arguments] [options] 
+$ drupal module:install [arguments] [options]
 ```
 
 ## 可用选项

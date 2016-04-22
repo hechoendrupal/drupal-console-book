@@ -3,7 +3,7 @@ Disable a View
 
 **Usage:**
 ```
-$ drupal views:disable [arguments] 
+$ drupal views:disable [arguments]
 $ vdi  
 ```
 

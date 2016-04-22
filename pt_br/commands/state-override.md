@@ -3,7 +3,7 @@ Sobrescrever a chave de Estado.
 
 **Uso:**
 ```
-$ drupal state:override [arguments] 
+$ drupal state:override [arguments]
 ```
 
 ## Argumentos disponíveis

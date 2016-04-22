@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal migrate:execute [arguments] [options] 
+$ drupal migrate:execute [arguments] [options]
 $ mie  
 ```
 

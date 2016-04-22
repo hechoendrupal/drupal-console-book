@@ -3,7 +3,7 @@ Generează comenzi pentru consolă.
 
 **Folosire:**
 ```
-$ drupal generate:command [options] 
+$ drupal generate:command [options]
 $ gcm  
 ```
 

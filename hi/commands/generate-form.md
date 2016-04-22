@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:form [options] 
+$ drupal generate:form [options]
 ```
 
 ## उपलब्ध विकल्प

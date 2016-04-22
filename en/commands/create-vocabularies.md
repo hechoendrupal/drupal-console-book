@@ -3,7 +3,7 @@ Create dummy vocabularies for your Drupal 8 application.
 
 **Usage:**
 ```
-$ drupal create:vocabularies [options] 
+$ drupal create:vocabularies [options]
 ```
 
 ## Available options

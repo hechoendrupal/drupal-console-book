@@ -3,7 +3,7 @@ Tạo một loại nội dung mới (node / entity bundle)
 
 **Usage:**
 ```
-$ drupal generate:entity:bundle [options] 
+$ drupal generate:entity:bundle [options]
 $ geb  
 ```
 

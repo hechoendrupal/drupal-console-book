@@ -3,7 +3,7 @@ Display current log events for the application
 
 **Usage:**
 ```
-$ drupal database:log:debug [arguments] [options] 
+$ drupal database:log:debug [arguments] [options]
 ```
 
 ## Available options

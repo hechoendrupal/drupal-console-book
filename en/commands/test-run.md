@@ -3,7 +3,7 @@ Run Test unit from tests available for application
 
 **Usage:**
 ```
-$ drupal test:run [arguments] [options] 
+$ drupal test:run [arguments] [options]
 $ tr  
 ```
 

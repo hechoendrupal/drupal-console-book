@@ -3,7 +3,7 @@ Descarcă modulul sau modulele pentru aplicație
 
 **Folosire:**
 ```
-$ drupal module:download [arguments] [options] 
+$ drupal module:download [arguments] [options]
 $ md  
 ```
 

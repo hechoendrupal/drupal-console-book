@@ -3,5 +3,5 @@ List available chain files.
 
 **Usage:**
 ```
-$ drupal chain:debug 
+$ drupal chain:debug
 ```

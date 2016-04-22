@@ -3,7 +3,7 @@ Import configuration to current application.
 
 **Usage:**
 ```
-$ drupal config:import [options] 
+$ drupal config:import [options]
 $ ci  
 ```
 

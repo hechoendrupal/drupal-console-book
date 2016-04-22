@@ -3,5 +3,5 @@
 
 **प्रयोग:**
 ```
-$ drupal cron:debug 
+$ drupal cron:debug
 ```

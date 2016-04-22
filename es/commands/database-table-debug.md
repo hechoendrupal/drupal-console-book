@@ -3,7 +3,7 @@ Muestra todas las tablas en una base de datos.
 
 **Uso:**
 ```
-$ drupal database:table:debug [arguments] [options] 
+$ drupal database:table:debug [arguments] [options]
 ```
 
 ## Opciones disponibles

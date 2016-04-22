@@ -3,7 +3,7 @@ Change a specific setting value in DrupalConsole config file
 
 **Usage:**
 ```
-$ drupal settings:set [arguments] 
+$ drupal settings:set [arguments]
 ```
 
 ## Các đối số có sẵn

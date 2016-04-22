@@ -3,7 +3,7 @@ Hiển thị phần chuyển đổi dữ liệu hiện có cho ứng dựng
 
 **Usage:**
 ```
-$ drupal migrate:debug [arguments] 
+$ drupal migrate:debug [arguments]
 $ mid  
 ```
 

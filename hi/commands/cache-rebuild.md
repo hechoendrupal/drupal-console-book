@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal cache:rebuild [arguments] 
+$ drupal cache:rebuild [arguments]
 $ cr  
 ```
 

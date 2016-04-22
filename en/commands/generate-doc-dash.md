@@ -3,7 +3,7 @@ Generate the DrupalConsole.docset package for Dash
 
 **Usage:**
 ```
-$ drupal generate:doc:dash [options] 
+$ drupal generate:doc:dash [options]
 $ gdd  
 ```
 

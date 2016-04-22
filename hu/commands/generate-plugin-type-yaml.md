@@ -3,7 +3,7 @@ Bővítménytípus létrehozása YAML-észleléssel
 
 **Használat:**
 ```
-$ drupal generate:plugin:type:yaml [options] 
+$ drupal generate:plugin:type:yaml [options]
 ```
 
 ## Rendelkezésre álló beállítások

@@ -3,7 +3,7 @@ Generează un tip de plugin cu descoperire de YAML.
 
 **Folosire:**
 ```
-$ drupal generate:plugin:type:yaml [options] 
+$ drupal generate:plugin:type:yaml [options]
 ```
 
 ## Opțiuni disponibile

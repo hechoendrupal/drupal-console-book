@@ -3,7 +3,7 @@ Modul vagy modulok telepítése
 
 **Használat:**
 ```
-$ drupal module:install [arguments] [options] 
+$ drupal module:install [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

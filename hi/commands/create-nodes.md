@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal create:nodes [arguments] [options] 
+$ drupal create:nodes [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

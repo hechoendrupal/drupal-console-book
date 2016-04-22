@@ -3,7 +3,7 @@ Display current views plugins for the application
 
 **Folosire:**
 ```
-$ drupal views:plugins:debug [arguments] 
+$ drupal views:plugins:debug [arguments]
 ```
 
 ## Argumente disponibile

@@ -3,7 +3,7 @@ Tesztfelhasználók létrehozása egy Drupal 8 alkalmazáshoz.
 
 **Használat:**
 ```
-$ drupal create:users [arguments] [options] 
+$ drupal create:users [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

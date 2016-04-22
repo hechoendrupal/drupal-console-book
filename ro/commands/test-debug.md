@@ -3,7 +3,7 @@ Afişează testele accesibile
 
 **Folosire:**
 ```
-$ drupal test:debug [arguments] [options] 
+$ drupal test:debug [arguments] [options]
 $ td  
 ```
 

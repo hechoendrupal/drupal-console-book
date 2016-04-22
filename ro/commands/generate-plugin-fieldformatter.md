@@ -3,7 +3,7 @@ Generează extensia de formatare a câmpului.
 
 **Folosire:**
 ```
-$ drupal generate:plugin:fieldformatter [options] 
+$ drupal generate:plugin:fieldformatter [options]
 ```
 
 ## Opțiuni disponibile

@@ -3,7 +3,7 @@ REST-erőforrás letiltása
 
 **Használat:**
 ```
-$ drupal rest:disable [arguments] 
+$ drupal rest:disable [arguments]
 $ redi  
 ```
 

@@ -3,7 +3,7 @@ Xây dựng lại và làm sạch tất cả cache trên trang.
 
 **Usage:**
 ```
-$ drupal cache:rebuild [arguments] 
+$ drupal cache:rebuild [arguments]
 $ cr  
 ```
 

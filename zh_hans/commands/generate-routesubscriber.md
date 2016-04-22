@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:routesubscriber [options] 
+$ drupal generate:routesubscriber [options]
 ```
 
 ## 可用选项

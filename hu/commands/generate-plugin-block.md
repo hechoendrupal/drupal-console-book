@@ -3,7 +3,7 @@ Blokk bővítmény létrehozása
 
 **Használat:**
 ```
-$ drupal generate:plugin:block [options] 
+$ drupal generate:plugin:block [options]
 $ gpb  
 ```
 

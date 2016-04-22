@@ -3,7 +3,7 @@
 
 **Használat:**
 ```
-$ drupal generate:entity:content [options] 
+$ drupal generate:entity:content [options]
 $ gect  
 ```
 

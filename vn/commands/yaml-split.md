@@ -3,7 +3,7 @@ Tách một file YAML sử dụng indent là tiêu chí phân tách
 
 **Usage:**
 ```
-$ drupal yaml:split [arguments] [options] 
+$ drupal yaml:split [arguments] [options]
 $ ys  
 ```
 

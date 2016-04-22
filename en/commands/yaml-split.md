@@ -3,7 +3,7 @@ Split a YAML file using indent as separator criteria
 
 **Usage:**
 ```
-$ drupal yaml:split [arguments] [options] 
+$ drupal yaml:split [arguments] [options]
 $ ys  
 ```
 

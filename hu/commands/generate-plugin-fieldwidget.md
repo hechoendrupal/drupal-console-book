@@ -3,7 +3,7 @@ Mező felületi elem bővítmény létrehozása
 
 **Használat:**
 ```
-$ drupal generate:plugin:fieldwidget [options] 
+$ drupal generate:plugin:fieldwidget [options]
 ```
 
 ## Rendelkezésre álló beállítások

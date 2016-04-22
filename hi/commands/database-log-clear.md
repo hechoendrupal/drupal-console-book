@@ -3,7 +3,7 @@ DBLog टेबल से इवेंट्स निकालें, फिल
 
 **प्रयोग:**
 ```
-$ drupal database:log:clear [arguments] [options] 
+$ drupal database:log:clear [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

@@ -3,7 +3,7 @@ Bật một rest resource cho ứng dụng
 
 **Usage:**
 ```
-$ drupal rest:enable [arguments] 
+$ drupal rest:enable [arguments]
 $ ree  
 ```
 

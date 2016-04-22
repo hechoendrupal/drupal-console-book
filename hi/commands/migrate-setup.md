@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal migrate:setup [options] 
+$ drupal migrate:setup [options]
 ```
 
 ## उपलब्ध विकल्प

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal database:client [arguments] 
+$ drupal database:client [arguments]
 ```
 
 ## 可用参数

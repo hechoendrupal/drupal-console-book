@@ -3,7 +3,7 @@ Gerar documentação para os comandos
 
 **Uso:**
 ```
-$ drupal generate:doc:gitbook [arguments] [options] 
+$ drupal generate:doc:gitbook [arguments] [options]
 $ gdg  
 ```
 

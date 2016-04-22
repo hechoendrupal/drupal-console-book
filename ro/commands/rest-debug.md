@@ -3,7 +3,7 @@ Afişează resursele REST curente.
 
 **Folosire:**
 ```
-$ drupal rest:debug [arguments] [options] 
+$ drupal rest:debug [arguments] [options]
 $ rede  
 ```
 

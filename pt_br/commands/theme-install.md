@@ -3,7 +3,7 @@ Instalar tema(s) na aplicação
 
 **Uso:**
 ```
-$ drupal theme:install [arguments] [options] 
+$ drupal theme:install [arguments] [options]
 $ ti  
 ```
 

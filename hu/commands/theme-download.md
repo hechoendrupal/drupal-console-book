@@ -3,7 +3,7 @@ Smink letöltése az alkalmazásban
 
 **Használat:**
 ```
-$ drupal theme:download [arguments] 
+$ drupal theme:download [arguments]
 $ td  
 ```
 

@@ -3,7 +3,7 @@ Az alkalmazás egységtesztjeinek listázása.
 
 **Használat:**
 ```
-$ drupal test:debug [arguments] [options] 
+$ drupal test:debug [arguments] [options]
 $ td  
 ```
 

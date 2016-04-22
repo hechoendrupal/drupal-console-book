@@ -3,7 +3,7 @@ commands.plugin.debug.description
 
 **Folosire:**
 ```
-$ drupal plugin:debug [arguments] 
+$ drupal plugin:debug [arguments]
 ```
 
 ## Argumente disponibile

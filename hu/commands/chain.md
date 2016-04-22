@@ -3,7 +3,7 @@ Chain parancs végrehajtása
 
 **Használat:**
 ```
-$ drupal chain [options] 
+$ drupal chain [options]
 ```
 
 ## Rendelkezésre álló beállítások

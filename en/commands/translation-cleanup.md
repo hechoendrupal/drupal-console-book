@@ -3,7 +3,7 @@ Clean up translation files
 
 **Usage:**
 ```
-$ drupal translation:cleanup [arguments] 
+$ drupal translation:cleanup [arguments]
 ```
 
 ## Available arguments

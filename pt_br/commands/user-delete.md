@@ -3,7 +3,7 @@ Remover usuários da aplicação
 
 **Uso:**
 ```
-$ drupal user:delete [options] 
+$ drupal user:delete [options]
 ```
 
 ## Opções disponíveis

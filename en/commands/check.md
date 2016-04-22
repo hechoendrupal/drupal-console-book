@@ -3,5 +3,5 @@ System requirement checker
 
 **Usage:**
 ```
-$ drupal check 
+$ drupal check
 ```

@@ -3,7 +3,7 @@ Cài đặt theme hoặc các themes trong ứng dụng
 
 **Usage:**
 ```
-$ drupal theme:install [arguments] [options] 
+$ drupal theme:install [arguments] [options]
 $ ti  
 ```
 

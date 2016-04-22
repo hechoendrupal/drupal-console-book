@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal config:override [arguments] 
+$ drupal config:override [arguments]
 ```
 
 ## 可用参数

@@ -3,5 +3,5 @@
 
 **用法:**
 ```
-$ drupal settings:debug 
+$ drupal settings:debug
 ```

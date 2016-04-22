@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal user:delete [options] 
+$ drupal user:delete [options]
 ```
 
 ## 可用选项

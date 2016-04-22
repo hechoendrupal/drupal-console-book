@@ -3,7 +3,7 @@ Generate a custom plugin view field.
 
 **Usage:**
 ```
-$ drupal generate:plugin:views:field [options] 
+$ drupal generate:plugin:views:field [options]
 ```
 
 ## Available options

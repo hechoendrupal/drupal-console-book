@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal config:import [options] 
+$ drupal config:import [options]
 $ ci  
 ```
 

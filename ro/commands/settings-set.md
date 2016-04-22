@@ -3,7 +3,7 @@ Change a specific setting value in DrupalConsole config file
 
 **Folosire:**
 ```
-$ drupal settings:set [arguments] 
+$ drupal settings:set [arguments]
 ```
 
 ## Argumente disponibile

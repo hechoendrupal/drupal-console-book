@@ -3,7 +3,7 @@ Tạo dummy nodes cho ứng dụng Drupal 8 của bạn.
 
 **Usage:**
 ```
-$ drupal create:nodes [arguments] [options] 
+$ drupal create:nodes [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

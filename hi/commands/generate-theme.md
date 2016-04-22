@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:theme [options] 
+$ drupal generate:theme [options]
 $ gt  
 ```
 

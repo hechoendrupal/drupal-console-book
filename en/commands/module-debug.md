@@ -3,7 +3,7 @@ Display current modules available for application
 
 **Usage:**
 ```
-$ drupal module:debug [options] 
+$ drupal module:debug [options]
 ```
 
 ## Available options

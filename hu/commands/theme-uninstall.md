@@ -3,7 +3,7 @@ Az alkalmazás sminkjének vagy sminkjeinek eltávolítása
 
 **Használat:**
 ```
-$ drupal theme:uninstall [arguments] 
+$ drupal theme:uninstall [arguments]
 $ tu  
 ```
 

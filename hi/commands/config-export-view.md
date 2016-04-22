@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal config:export:view [arguments] [options] 
+$ drupal config:export:view [arguments] [options]
 $ cev  
 ```
 

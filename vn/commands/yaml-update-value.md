@@ -3,7 +3,7 @@ Cập nhật một giá trị cho một key cụ thể trong file YAML.
 
 **Usage:**
 ```
-$ drupal yaml:update:value [arguments] 
+$ drupal yaml:update:value [arguments]
 $ yuv  
 ```
 

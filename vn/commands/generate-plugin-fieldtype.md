@@ -3,7 +3,7 @@ Tạo field type plugin.
 
 **Usage:**
 ```
-$ drupal generate:plugin:fieldtype [options] 
+$ drupal generate:plugin:fieldtype [options]
 ```
 
 ## Các tùy chọn có sẵn

@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal settings:set [arguments] 
+$ drupal settings:set [arguments]
 ```
 
 ## 可用参数

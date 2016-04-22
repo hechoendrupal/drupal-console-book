@@ -3,7 +3,7 @@ Lists all available commands
 
 **Usage:**
 ```
-$ drupal list [arguments] [options] 
+$ drupal list [arguments] [options]
 ```
 
 ## Available options

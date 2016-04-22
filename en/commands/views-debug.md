@@ -3,7 +3,7 @@ Display current views resources for the application
 
 **Usage:**
 ```
-$ drupal views:debug [arguments] [options] 
+$ drupal views:debug [arguments] [options]
 $ vde  
 ```
 

@@ -3,7 +3,7 @@ Gerar um plugin de tipo de campo
 
 **Uso:**
 ```
-$ drupal generate:plugin:fieldtype [options] 
+$ drupal generate:plugin:fieldtype [options]
 ```
 
 ## Opções disponíveis

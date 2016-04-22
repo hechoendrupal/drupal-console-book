@@ -3,7 +3,7 @@ Muestra todas las tablas de una base de datos datos.
 
 **Uso:**
 ```
-$ drupal database:drop [arguments] 
+$ drupal database:drop [arguments]
 ```
 
 ## Argumentos disponibles

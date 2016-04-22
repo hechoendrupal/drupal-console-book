@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal locale:language:delete [arguments] 
+$ drupal locale:language:delete [arguments]
 ```
 
 ## उपलब्ध तर्कों

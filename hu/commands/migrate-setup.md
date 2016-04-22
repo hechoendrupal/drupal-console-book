@@ -3,7 +3,7 @@ Adott örökölt adatbázis fontos költöztetéseinek betöltése és létrehoz
 
 **Használat:**
 ```
-$ drupal migrate:setup [options] 
+$ drupal migrate:setup [options]
 ```
 
 ## Rendelkezésre álló beállítások

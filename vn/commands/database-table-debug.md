@@ -3,7 +3,7 @@ Hiển thị tất cả các bảng trong database đã được cung cấp.
 
 **Usage:**
 ```
-$ drupal database:table:debug [arguments] [options] 
+$ drupal database:table:debug [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

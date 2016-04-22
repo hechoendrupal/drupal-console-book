@@ -3,7 +3,7 @@ Tạo plugin hiệu ứng hình ảnh
 
 **Usage:**
 ```
-$ drupal generate:plugin:imageeffect [options] 
+$ drupal generate:plugin:imageeffect [options]
 ```
 
 ## Các tùy chọn có sẵn

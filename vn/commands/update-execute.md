@@ -3,7 +3,7 @@ Tiến hành một hàm cụ thể cập nhật N trong một module, hoặc ti�
 
 **Usage:**
 ```
-$ drupal update:execute [arguments] 
+$ drupal update:execute [arguments]
 $ upe  
 ```
 

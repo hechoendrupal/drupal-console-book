@@ -3,7 +3,7 @@ Ghi đè một State key.
 
 **Usage:**
 ```
-$ drupal state:override [arguments] 
+$ drupal state:override [arguments]
 ```
 
 ## Các đối số có sẵn

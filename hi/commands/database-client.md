@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal database:client [arguments] 
+$ drupal database:client [arguments]
 ```
 
 ## उपलब्ध तर्कों

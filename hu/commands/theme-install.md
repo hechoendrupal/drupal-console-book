@@ -3,7 +3,7 @@ Smink vagy sminkek telepítése az alkalmazásba
 
 **Használat:**
 ```
-$ drupal theme:install [arguments] [options] 
+$ drupal theme:install [arguments] [options]
 $ ti  
 ```
 

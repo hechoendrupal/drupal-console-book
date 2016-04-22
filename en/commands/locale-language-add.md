@@ -3,7 +3,7 @@ Add a language to be supported by your site
 
 **Usage:**
 ```
-$ drupal locale:language:add [arguments] 
+$ drupal locale:language:add [arguments]
 ```
 
 ## Available arguments

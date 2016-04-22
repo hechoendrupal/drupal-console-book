@@ -3,5 +3,5 @@ commands.check.description
 
 **Használat:**
 ```
-$ drupal check 
+$ drupal check
 ```

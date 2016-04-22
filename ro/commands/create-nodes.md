@@ -3,7 +3,7 @@ Create dummy nodes for your Drupal 8 application.
 
 **Folosire:**
 ```
-$ drupal create:nodes [arguments] [options] 
+$ drupal create:nodes [arguments] [options]
 ```
 
 ## Opțiuni disponibile

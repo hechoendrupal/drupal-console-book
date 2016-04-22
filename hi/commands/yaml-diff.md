@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal yaml:diff [arguments] [options] 
+$ drupal yaml:diff [arguments] [options]
 $ yd  
 ```
 

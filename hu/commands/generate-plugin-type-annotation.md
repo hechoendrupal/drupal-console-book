@@ -3,7 +3,7 @@ Bővítménytípus létrehozása magyarázatészleléssel
 
 **Használat:**
 ```
-$ drupal generate:plugin:type:annotation [options] 
+$ drupal generate:plugin:type:annotation [options]
 ```
 
 ## Rendelkezésre álló beállítások

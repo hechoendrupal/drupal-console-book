@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal translation:cleanup [arguments] 
+$ drupal translation:cleanup [arguments]
 ```
 
 ## 可用参数

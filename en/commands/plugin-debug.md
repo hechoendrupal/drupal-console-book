@@ -3,7 +3,7 @@ Display all plugin types, plugin instances of a specific type, or the definition
 
 **Usage:**
 ```
-$ drupal plugin:debug [arguments] 
+$ drupal plugin:debug [arguments]
 ```
 
 ## Available arguments

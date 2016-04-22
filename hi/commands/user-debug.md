@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal user:debug [options] 
+$ drupal user:debug [options]
 ```
 
 ## उपलब्ध विकल्प

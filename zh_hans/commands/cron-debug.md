@@ -3,5 +3,5 @@
 
 **用法:**
 ```
-$ drupal cron:debug 
+$ drupal cron:debug
 ```

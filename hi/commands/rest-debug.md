@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal rest:debug [arguments] [options] 
+$ drupal rest:debug [arguments] [options]
 $ rede  
 ```
 

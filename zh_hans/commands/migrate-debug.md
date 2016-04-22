@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal migrate:debug [arguments] 
+$ drupal migrate:debug [arguments]
 $ mid  
 ```
 

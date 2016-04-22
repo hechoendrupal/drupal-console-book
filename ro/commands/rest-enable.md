@@ -3,7 +3,7 @@ Activează o resursă REST pentru aplicaţie.
 
 **Folosire:**
 ```
-$ drupal rest:enable [arguments] 
+$ drupal rest:enable [arguments]
 $ ree  
 ```
 

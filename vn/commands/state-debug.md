@@ -3,7 +3,7 @@ Hiển thị State keys hiện tại.
 
 **Usage:**
 ```
-$ drupal state:debug [arguments] 
+$ drupal state:debug [arguments]
 ```
 
 ## Các đối số có sẵn

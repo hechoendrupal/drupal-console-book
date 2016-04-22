@@ -3,7 +3,7 @@ Tạo field type, widget và formatter plugins.
 
 **Usage:**
 ```
-$ drupal generate:plugin:field [options] 
+$ drupal generate:plugin:field [options]
 ```
 
 ## Các tùy chọn có sẵn

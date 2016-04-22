@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal theme:download [arguments] 
+$ drupal theme:download [arguments]
 $ td  
 ```
 

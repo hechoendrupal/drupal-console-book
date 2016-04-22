@@ -3,7 +3,7 @@ Compară două fişiere YAML pentru a determina diferenţele dintre acestea.
 
 **Folosire:**
 ```
-$ drupal yaml:diff [arguments] [options] 
+$ drupal yaml:diff [arguments] [options]
 $ yd  
 ```
 

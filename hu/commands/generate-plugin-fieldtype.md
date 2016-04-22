@@ -3,7 +3,7 @@ Mezőtípus bővítmény létrehozása
 
 **Használat:**
 ```
-$ drupal generate:plugin:fieldtype [options] 
+$ drupal generate:plugin:fieldtype [options]
 ```
 
 ## Rendelkezésre álló beállítások

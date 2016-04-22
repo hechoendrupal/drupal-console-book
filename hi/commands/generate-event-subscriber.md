@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:event:subscriber [options] 
+$ drupal generate:event:subscriber [options]
 $ ges  
 ```
 

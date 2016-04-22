@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal site:maintenance [arguments] 
+$ drupal site:maintenance [arguments]
 $ sma  
 ```
 

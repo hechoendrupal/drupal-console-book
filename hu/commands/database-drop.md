@@ -3,7 +3,7 @@ Egy adatbázis összes táblájának eldobása.
 
 **Használat:**
 ```
-$ drupal database:drop [arguments] 
+$ drupal database:drop [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

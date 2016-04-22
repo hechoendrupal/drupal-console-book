@@ -3,7 +3,7 @@ Reconstruir los permisos de acceso a nodos. La reconstrucción eliminará todos 
 
 **Uso:**
 ```
-$ drupal node:access:rebuild [options] 
+$ drupal node:access:rebuild [options]
 ```
 
 ## Opciones disponibles

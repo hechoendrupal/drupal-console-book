@@ -3,5 +3,5 @@ Alapvető információkat jelenít meg a Drupal Console projektről
 
 **Használat:**
 ```
-$ drupal about 
+$ drupal about
 ```

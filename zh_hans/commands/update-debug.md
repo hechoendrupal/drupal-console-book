@@ -3,6 +3,6 @@
 
 **用法:**
 ```
-$ drupal update:debug 
+$ drupal update:debug
 $ upd  
 ```

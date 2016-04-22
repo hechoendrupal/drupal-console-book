@@ -3,7 +3,7 @@ Display current views plugins for the application
 
 **प्रयोग:**
 ```
-$ drupal views:plugins:debug [arguments] 
+$ drupal views:plugins:debug [arguments]
 ```
 
 ## उपलब्ध तर्कों

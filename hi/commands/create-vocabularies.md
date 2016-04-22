@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal create:vocabularies [options] 
+$ drupal create:vocabularies [options]
 ```
 
 ## उपलब्ध विकल्प

@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal site:mode [arguments] 
+$ drupal site:mode [arguments]
 $ smo  
 ```
 

@@ -3,6 +3,6 @@ Reconstruir rotas de uma aplicação
 
 **Uso:**
 ```
-$ drupal router:rebuild 
+$ drupal router:rebuild
 $ ror  
 ```

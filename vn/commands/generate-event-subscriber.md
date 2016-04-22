@@ -3,7 +3,7 @@ Tạo một event subscriber
 
 **Usage:**
 ```
-$ drupal generate:event:subscriber [options] 
+$ drupal generate:event:subscriber [options]
 $ ges  
 ```
 

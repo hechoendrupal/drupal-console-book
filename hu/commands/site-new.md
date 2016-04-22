@@ -3,7 +3,7 @@
 
 **Használat:**
 ```
-$ drupal site:new [arguments] 
+$ drupal site:new [arguments]
 $ sn  
 ```
 

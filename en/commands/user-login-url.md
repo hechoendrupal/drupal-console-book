@@ -3,7 +3,7 @@ Returns a one-time user login url.
 
 **Usage:**
 ```
-$ drupal user:login:url [arguments] 
+$ drupal user:login:url [arguments]
 $ uslu  
 ```
 

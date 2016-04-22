@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal locale:translation:status [arguments] 
+$ drupal locale:translation:status [arguments]
 ```
 
 ## उपलब्ध तर्कों

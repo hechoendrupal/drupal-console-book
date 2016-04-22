@@ -3,7 +3,7 @@ Tạo một formatter plugin.
 
 **Usage:**
 ```
-$ drupal generate:plugin:fieldformatter [options] 
+$ drupal generate:plugin:fieldformatter [options]
 ```
 
 ## Các tùy chọn có sẵn

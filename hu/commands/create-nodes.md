@@ -3,7 +3,7 @@ Teszttartalom létrehozása egy Drupal 8 alkalmazáshoz.
 
 **Használat:**
 ```
-$ drupal create:nodes [arguments] [options] 
+$ drupal create:nodes [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

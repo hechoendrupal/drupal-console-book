@@ -3,7 +3,7 @@ Executar testes unitários disponíveis para a aplicação
 
 **Uso:**
 ```
-$ drupal test:run [arguments] [options] 
+$ drupal test:run [arguments] [options]
 $ tr  
 ```
 

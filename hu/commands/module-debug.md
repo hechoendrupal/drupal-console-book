@@ -3,7 +3,7 @@ Az alkalmazáshoz elérhető aktuális modulok megjelenítése
 
 **Használat:**
 ```
-$ drupal module:debug [options] 
+$ drupal module:debug [options]
 ```
 
 ## Rendelkezésre álló beállítások

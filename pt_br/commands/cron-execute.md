@@ -3,7 +3,7 @@ Executar cron de um módulo específico ou todos para executar todas as implemen
 
 **Uso:**
 ```
-$ drupal cron:execute [arguments] 
+$ drupal cron:execute [arguments]
 $ cre  
 ```
 

@@ -3,7 +3,7 @@ Delete State
 
 **Folosire:**
 ```
-$ drupal state:delete [arguments] 
+$ drupal state:delete [arguments]
 ```
 
 ## Argumente disponibile

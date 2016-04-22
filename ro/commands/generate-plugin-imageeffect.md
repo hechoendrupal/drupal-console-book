@@ -3,7 +3,7 @@ Generează un plugin pentru efecte de imagini.
 
 **Folosire:**
 ```
-$ drupal generate:plugin:imageeffect [options] 
+$ drupal generate:plugin:imageeffect [options]
 ```
 
 ## Opțiuni disponibile

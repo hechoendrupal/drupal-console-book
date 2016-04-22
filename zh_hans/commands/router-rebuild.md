@@ -3,6 +3,6 @@
 
 **用法:**
 ```
-$ drupal router:rebuild 
+$ drupal router:rebuild
 $ ror  
 ```

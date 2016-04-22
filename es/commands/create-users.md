@@ -3,7 +3,7 @@ Crea usuarios de prueba para tu Drupal 8.
 
 **Uso:**
 ```
-$ drupal create:users [arguments] [options] 
+$ drupal create:users [arguments] [options]
 ```
 
 ## Opciones disponibles

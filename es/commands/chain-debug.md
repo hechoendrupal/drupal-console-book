@@ -3,5 +3,5 @@ Lista las secuencias de comandos disponibles.
 
 **Uso:**
 ```
-$ drupal chain:debug 
+$ drupal chain:debug
 ```

@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal translation:cleanup [arguments] 
+$ drupal translation:cleanup [arguments]
 ```
 
 ## उपलब्ध तर्कों

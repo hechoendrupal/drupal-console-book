@@ -3,7 +3,7 @@ Az aktív konfigurációt egy könyvtárral összehasonlítva az eltérő konfig
 
 **Használat:**
 ```
-$ drupal config:diff [arguments] [options] 
+$ drupal config:diff [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

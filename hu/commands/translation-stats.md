@@ -3,7 +3,7 @@ Generate translate stats
 
 **Használat:**
 ```
-$ drupal translation:stats [arguments] [options] 
+$ drupal translation:stats [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

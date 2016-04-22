@@ -3,7 +3,7 @@ Generar una nueva entidad de contenido
 
 **Uso:**
 ```
-$ drupal generate:entity:content [options] 
+$ drupal generate:entity:content [options]
 $ gect  
 ```
 

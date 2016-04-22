@@ -3,7 +3,7 @@ Crear comentarios de prueba para tu aplicación en Drupal 8.
 
 **Uso:**
 ```
-$ drupal create:comments [arguments] [options] 
+$ drupal create:comments [arguments] [options]
 ```
 
 ## Opciones disponibles

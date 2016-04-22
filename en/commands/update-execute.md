@@ -3,7 +3,7 @@ Execute a specific Update N function in a module, or execute all
 
 **Usage:**
 ```
-$ drupal update:execute [arguments] 
+$ drupal update:execute [arguments]
 $ upe  
 ```
 

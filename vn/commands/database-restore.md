@@ -3,7 +3,7 @@ Khôi phục cấu trúc và content của một cơ sở dữ liệu
 
 **Usage:**
 ```
-$ drupal database:restore [arguments] [options] 
+$ drupal database:restore [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

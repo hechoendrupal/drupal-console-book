@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal database:log:debug [arguments] [options] 
+$ drupal database:log:debug [arguments] [options]
 ```
 
 ## 可用选项

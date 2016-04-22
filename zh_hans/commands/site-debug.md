@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal site:debug [arguments] 
+$ drupal site:debug [arguments]
 $ sd  
 ```
 

@@ -3,7 +3,7 @@ Schimbă configurarile de performanţă ale sistemului
 
 **Folosire:**
 ```
-$ drupal site:mode [arguments] 
+$ drupal site:mode [arguments]
 $ smo  
 ```
 

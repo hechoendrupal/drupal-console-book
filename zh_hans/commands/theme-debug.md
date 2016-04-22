@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal theme:debug [arguments] 
+$ drupal theme:debug [arguments]
 $ tde  
 ```
 

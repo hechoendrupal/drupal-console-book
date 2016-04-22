@@ -3,6 +3,6 @@ Rebuild routes for the application
 
 **Usage:**
 ```
-$ drupal router:rebuild 
+$ drupal router:rebuild
 $ ror  
 ```

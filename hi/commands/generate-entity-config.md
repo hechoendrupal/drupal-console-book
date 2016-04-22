@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal generate:entity:config [options] 
+$ drupal generate:entity:config [options]
 $ gecg  
 ```
 

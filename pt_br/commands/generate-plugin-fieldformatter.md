@@ -3,7 +3,7 @@ Gerar um plugin de formato de campo.
 
 **Uso:**
 ```
-$ drupal generate:plugin:fieldformatter [options] 
+$ drupal generate:plugin:fieldformatter [options]
 ```
 
 ## Opções disponíveis

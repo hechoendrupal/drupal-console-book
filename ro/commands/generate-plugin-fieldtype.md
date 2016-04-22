@@ -3,7 +3,7 @@ Generează extensia de tip câmp.
 
 **Folosire:**
 ```
-$ drupal generate:plugin:fieldtype [options] 
+$ drupal generate:plugin:fieldtype [options]
 ```
 
 ## Opțiuni disponibile

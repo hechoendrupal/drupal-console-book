@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal rest:disable [arguments] 
+$ drupal rest:disable [arguments]
 $ redi  
 ```
 

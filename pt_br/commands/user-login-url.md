@@ -3,7 +3,7 @@ Cria uma URL de login de uso único.
 
 **Uso:**
 ```
-$ drupal user:login:url [arguments] 
+$ drupal user:login:url [arguments]
 $ uslu  
 ```
 

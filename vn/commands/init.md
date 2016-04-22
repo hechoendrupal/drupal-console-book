@@ -3,7 +3,7 @@ commands.init.description
 
 **Usage:**
 ```
-$ drupal init [options] 
+$ drupal init [options]
 ```
 
 ## Các tùy chọn có sẵn

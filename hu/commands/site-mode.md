@@ -3,7 +3,7 @@ Rendszerteljesítmény beállításának átváltása
 
 **Használat:**
 ```
-$ drupal site:mode [arguments] 
+$ drupal site:mode [arguments]
 $ smo  
 ```
 

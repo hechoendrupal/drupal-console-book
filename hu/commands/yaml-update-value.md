@@ -3,7 +3,7 @@ A YAML-fájl adott kulcsához tartozó érték frissítése.
 
 **Használat:**
 ```
-$ drupal yaml:update:value [arguments] 
+$ drupal yaml:update:value [arguments]
 $ yuv  
 ```
 

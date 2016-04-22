@@ -3,7 +3,7 @@ Execută o funcţie specifică Update N dintr-un modul sau execută-le pe toate
 
 **Folosire:**
 ```
-$ drupal update:execute [arguments] 
+$ drupal update:execute [arguments]
 $ upe  
 ```
 

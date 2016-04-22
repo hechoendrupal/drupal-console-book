@@ -3,10 +3,10 @@ commands.generate.doc.data.description
 
 **Folosire:**
 ```
-$ drupal generate:doc:data [options] 
+$ drupal generate:doc:data [options]
 ```
 
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---path | commands.generate.doc.data.options.path
+--file | commands.generate.doc.data.options.file

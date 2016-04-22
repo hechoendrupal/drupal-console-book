@@ -3,7 +3,7 @@ Generate a plugin type with annotation discovery
 
 **Usage:**
 ```
-$ drupal generate:plugin:type:annotation [options] 
+$ drupal generate:plugin:type:annotation [options]
 ```
 
 ## Available options

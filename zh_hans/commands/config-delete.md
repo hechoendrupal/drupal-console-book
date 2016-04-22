@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal config:delete [arguments] 
+$ drupal config:delete [arguments]
 ```
 
 ## 可用参数

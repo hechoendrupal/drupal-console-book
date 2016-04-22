@@ -3,7 +3,7 @@ Képhatás bővítmény létrehozása
 
 **Használat:**
 ```
-$ drupal generate:plugin:imageeffect [options] 
+$ drupal generate:plugin:imageeffect [options]
 ```
 
 ## Rendelkezésre álló beállítások

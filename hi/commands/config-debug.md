@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal config:debug [arguments] 
+$ drupal config:debug [arguments]
 $ cde  
 ```
 

@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal self-update [options] 
+$ drupal self-update [options]
 ```
 
 ## उपलब्ध विकल्प

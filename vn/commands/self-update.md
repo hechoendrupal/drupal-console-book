@@ -3,7 +3,7 @@ Cập nhật dự án lên phiên bản mới nhất.
 
 **Usage:**
 ```
-$ drupal self-update [options] 
+$ drupal self-update [options]
 ```
 
 ## Các tùy chọn có sẵn

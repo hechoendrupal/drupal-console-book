@@ -3,7 +3,7 @@
 
 **Használat:**
 ```
-$ drupal generate:form:config [options] 
+$ drupal generate:form:config [options]
 ```
 
 ## Rendelkezésre álló beállítások

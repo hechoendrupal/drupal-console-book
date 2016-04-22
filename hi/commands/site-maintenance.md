@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal site:maintenance [arguments] 
+$ drupal site:maintenance [arguments]
 $ sma  
 ```
 

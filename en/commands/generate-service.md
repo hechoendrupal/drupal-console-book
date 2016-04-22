@@ -3,7 +3,7 @@ Generate service
 
 **Usage:**
 ```
-$ drupal generate:service [options] 
+$ drupal generate:service [options]
 $ gs  
 ```
 

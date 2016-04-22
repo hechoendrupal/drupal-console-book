@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal site:install [arguments] [options] 
+$ drupal site:install [arguments] [options]
 $ si  
 ```
 

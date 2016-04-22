@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal views:debug [arguments] [options] 
+$ drupal views:debug [arguments] [options]
 $ vde  
 ```
 

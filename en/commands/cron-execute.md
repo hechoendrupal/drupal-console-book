@@ -3,7 +3,7 @@ Execute cron implementations by module or execute all crons
 
 **Usage:**
 ```
-$ drupal cron:execute [arguments] 
+$ drupal cron:execute [arguments]
 $ cre  
 ```
 

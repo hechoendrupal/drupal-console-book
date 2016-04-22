@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal translation:sync [arguments] [options] 
+$ drupal translation:sync [arguments] [options]
 ```
 
 ## 可用选项

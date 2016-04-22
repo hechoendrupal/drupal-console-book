@@ -3,7 +3,7 @@ commands.init.description
 
 **用法:**
 ```
-$ drupal init [options] 
+$ drupal init [options]
 ```
 
 ## 可用选项

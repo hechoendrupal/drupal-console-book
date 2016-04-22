@@ -3,7 +3,7 @@ Egy modul adott Update N függvényének végrehajtása, vagy az összes végreh
 
 **Használat:**
 ```
-$ drupal update:execute [arguments] 
+$ drupal update:execute [arguments]
 $ upe  
 ```
 

@@ -3,5 +3,5 @@
 
 **用法:**
 ```
-$ drupal chain:debug 
+$ drupal chain:debug
 ```

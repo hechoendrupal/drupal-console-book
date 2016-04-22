@@ -3,7 +3,7 @@ Szerkeszteni kell a kiválasztott konfigurációt.
 
 **Használat:**
 ```
-$ drupal config:edit [arguments] 
+$ drupal config:edit [arguments]
 $ cdit  
 ```
 

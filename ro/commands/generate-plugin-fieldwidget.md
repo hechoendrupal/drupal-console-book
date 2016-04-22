@@ -3,7 +3,7 @@ Generează extensia de widget pentru câmp.
 
 **Folosire:**
 ```
-$ drupal generate:plugin:fieldwidget [options] 
+$ drupal generate:plugin:fieldwidget [options]
 ```
 
 ## Opțiuni disponibile

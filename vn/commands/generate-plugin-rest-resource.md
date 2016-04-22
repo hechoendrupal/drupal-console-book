@@ -3,7 +3,7 @@ Tạo plugin rest resource
 
 **Usage:**
 ```
-$ drupal generate:plugin:rest:resource [options] 
+$ drupal generate:plugin:rest:resource [options]
 ```
 
 ## Các tùy chọn có sẵn

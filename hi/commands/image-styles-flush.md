@@ -3,7 +3,7 @@ Execute flush function by image style or execute all flush images styles
 
 **प्रयोग:**
 ```
-$ drupal image:styles:flush [arguments] 
+$ drupal image:styles:flush [arguments]
 ```
 
 ## उपलब्ध तर्कों

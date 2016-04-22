@@ -3,7 +3,7 @@
 
 **Használat:**
 ```
-$ drupal generate:entity:bundle [options] 
+$ drupal generate:entity:bundle [options]
 $ geb  
 ```
 

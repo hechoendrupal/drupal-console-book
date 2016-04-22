@@ -3,7 +3,7 @@ Alkalmazás aktuális views erőforrásainak megjelenítése
 
 **Használat:**
 ```
-$ drupal views:debug [arguments] [options] 
+$ drupal views:debug [arguments] [options]
 $ vde  
 ```
 

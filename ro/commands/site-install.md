@@ -3,7 +3,7 @@ Instalează un proiect Drupal
 
 **Folosire:**
 ```
-$ drupal site:install [arguments] [options] 
+$ drupal site:install [arguments] [options]
 $ si  
 ```
 

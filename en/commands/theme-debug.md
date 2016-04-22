@@ -3,7 +3,7 @@ Displays current themes for the application
 
 **Usage:**
 ```
-$ drupal theme:debug [arguments] 
+$ drupal theme:debug [arguments]
 $ tde  
 ```
 

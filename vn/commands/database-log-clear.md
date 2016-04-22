@@ -3,7 +3,7 @@ Xóa các sự kiện từ DBLog table, filters là có thể sử dụng đư�
 
 **Usage:**
 ```
-$ drupal database:log:clear [arguments] [options] 
+$ drupal database:log:clear [arguments] [options]
 ```
 
 ## Các tùy chọn có sẵn

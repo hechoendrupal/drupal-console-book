@@ -3,7 +3,7 @@ commands.init.description
 
 **Használat:**
 ```
-$ drupal init [options] 
+$ drupal init [options]
 ```
 
 ## Rendelkezésre álló beállítások

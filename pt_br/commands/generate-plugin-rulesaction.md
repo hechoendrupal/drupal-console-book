@@ -3,7 +3,7 @@ Generate a plugin rule action
 
 **Uso:**
 ```
-$ drupal generate:plugin:rulesaction [options] 
+$ drupal generate:plugin:rulesaction [options]
 ```
 
 ## Opções disponíveis

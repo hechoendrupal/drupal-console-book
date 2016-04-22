@@ -3,7 +3,7 @@
 
 **用法:**
 ```
-$ drupal generate:form [options] 
+$ drupal generate:form [options]
 ```
 
 ## 可用选项

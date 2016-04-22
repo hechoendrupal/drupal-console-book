@@ -3,7 +3,7 @@ Delete configuration
 
 **Használat:**
 ```
-$ drupal config:delete [arguments] 
+$ drupal config:delete [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

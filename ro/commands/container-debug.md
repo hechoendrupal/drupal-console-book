@@ -3,6 +3,6 @@ Afișează serviciile curente pentru o aplicație.
 
 **Folosire:**
 ```
-$ drupal container:debug 
+$ drupal container:debug
 $ cod  
 ```

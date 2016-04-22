@@ -3,5 +3,5 @@ Displays current key:value on settings file.
 
 **Folosire:**
 ```
-$ drupal config:settings:debug 
+$ drupal config:settings:debug
 ```

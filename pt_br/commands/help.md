@@ -3,7 +3,7 @@ Displays help for a command
 
 **Uso:**
 ```
-$ drupal help [arguments] [options] 
+$ drupal help [arguments] [options]
 ```
 
 ## Opções disponíveis

@@ -3,7 +3,7 @@ Tạo một plugin với Yaml discovery
 
 **Usage:**
 ```
-$ drupal generate:plugin:type:yaml [options] 
+$ drupal generate:plugin:type:yaml [options]
 ```
 
 ## Các tùy chọn có sẵn

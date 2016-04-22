@@ -3,7 +3,7 @@ Resetează parola pentru un utilizator.
 
 **Folosire:**
 ```
-$ drupal user:password:reset [arguments] 
+$ drupal user:password:reset [arguments]
 $ uspr  
 ```
 

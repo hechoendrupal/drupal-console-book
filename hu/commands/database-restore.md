@@ -3,7 +3,7 @@ Adatbázis szerkezetének és tartalmának visszaállítása.
 
 **Használat:**
 ```
-$ drupal database:restore [arguments] [options] 
+$ drupal database:restore [arguments] [options]
 ```
 
 ## Rendelkezésre álló beállítások

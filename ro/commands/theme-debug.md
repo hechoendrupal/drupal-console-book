@@ -3,7 +3,7 @@ Afișează temele curente pentru aplicație
 
 **Folosire:**
 ```
-$ drupal theme:debug [arguments] 
+$ drupal theme:debug [arguments]
 $ tde  
 ```
 

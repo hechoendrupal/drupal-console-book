@@ -3,7 +3,7 @@ Feltételbővítmény létrehozása.
 
 **Használat:**
 ```
-$ drupal generate:plugin:condition [options] 
+$ drupal generate:plugin:condition [options]
 ```
 
 ## Rendelkezésre álló beállítások

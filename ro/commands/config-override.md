@@ -3,7 +3,7 @@ Suprascrie valoarea de configurare în configurarea activă.
 
 **Folosire:**
 ```
-$ drupal config:override [arguments] 
+$ drupal config:override [arguments]
 ```
 
 ## Argumente disponibile

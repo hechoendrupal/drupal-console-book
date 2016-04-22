@@ -3,7 +3,7 @@ Chain command execution
 
 **Usage:**
 ```
-$ drupal chain [options] 
+$ drupal chain [options]
 ```
 
 ## Available options

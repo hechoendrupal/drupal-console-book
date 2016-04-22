@@ -3,7 +3,7 @@ Hiển thị các themes hiện tại cho ứng dụng
 
 **Usage:**
 ```
-$ drupal theme:debug [arguments] 
+$ drupal theme:debug [arguments]
 $ tde  
 ```
 

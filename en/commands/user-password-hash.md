@@ -3,7 +3,7 @@ Generate a hash from a plaintext password.
 
 **Usage:**
 ```
-$ drupal user:password:hash [arguments] 
+$ drupal user:password:hash [arguments]
 $ usph  
 ```
 

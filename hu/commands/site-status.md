@@ -3,7 +3,7 @@ Aktuális Drupal-telepítés állapotának megtekintése
 
 **Használat:**
 ```
-$ drupal site:status [options] 
+$ drupal site:status [options]
 $ ss  
 ```
 

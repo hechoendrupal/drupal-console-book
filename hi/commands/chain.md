@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal chain [options] 
+$ drupal chain [options]
 ```
 
 ## उपलब्ध विकल्प

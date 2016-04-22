@@ -3,7 +3,7 @@
 
 **प्रयोग:**
 ```
-$ drupal translation:pending [arguments] [options] 
+$ drupal translation:pending [arguments] [options]
 ```
 
 ## उपलब्ध विकल्प

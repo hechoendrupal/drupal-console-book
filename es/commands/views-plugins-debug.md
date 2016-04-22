@@ -3,7 +3,7 @@ Mostrar los plugins de views en la aplicación
 
 **Uso:**
 ```
-$ drupal views:plugins:debug [arguments] 
+$ drupal views:plugins:debug [arguments]
 ```
 
 ## Argumentos disponibles

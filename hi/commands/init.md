@@ -3,7 +3,7 @@ commands.init.description
 
 **प्रयोग:**
 ```
-$ drupal init [options] 
+$ drupal init [options]
 ```
 
 ## उपलब्ध विकल्प

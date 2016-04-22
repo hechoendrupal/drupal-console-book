@@ -3,7 +3,7 @@ Cambia un valor de configuración específico en el archivo de configuración de
 
 **Uso:**
 ```
-$ drupal settings:set [arguments] 
+$ drupal settings:set [arguments]
 ```
 
 ## Argumentos disponibles

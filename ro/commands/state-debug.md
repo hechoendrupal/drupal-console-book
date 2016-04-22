@@ -3,7 +3,7 @@ Show the current State keys.
 
 **Folosire:**
 ```
-$ drupal state:debug [arguments] 
+$ drupal state:debug [arguments]
 ```
 
 ## Argumente disponibile

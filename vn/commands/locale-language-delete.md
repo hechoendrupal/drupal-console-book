@@ -3,7 +3,7 @@ Xóa một ngôn ngữ được hỗ trợ bởi site cuuar bạn
 
 **Usage:**
 ```
-$ drupal locale:language:delete [arguments] 
+$ drupal locale:language:delete [arguments]
 ```
 
 ## Các đối số có sẵn

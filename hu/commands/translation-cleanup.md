@@ -3,7 +3,7 @@ Clean up translation files
 
 **Használat:**
 ```
-$ drupal translation:cleanup [arguments] 
+$ drupal translation:cleanup [arguments]
 ```
 
 ## Rendelkezésre álló argumentumok

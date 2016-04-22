@@ -3,7 +3,7 @@ Download module or modules in application
 
 **Uso:**
 ```
-$ drupal module:download [arguments] [options] 
+$ drupal module:download [arguments] [options]
 $ md  
 ```
 

@@ -3,7 +3,7 @@ Dump da estrutura e conteúdos da base de dados e tabelas MySQL
 
 **Uso:**
 ```
-$ drupal database:dump [arguments] [options] 
+$ drupal database:dump [arguments] [options]
 ```
 
 ## Opções disponíveis

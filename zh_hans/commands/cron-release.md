@@ -3,6 +3,6 @@
 
 **用法:**
 ```
-$ drupal cron:release 
+$ drupal cron:release
 $ crr  
 ```

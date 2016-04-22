@@ -3,7 +3,7 @@ Delete users for the application
 
 **Folosire:**
 ```
-$ drupal user:delete [options] 
+$ drupal user:delete [options]
 ```
 
 ## Opțiuni disponibile

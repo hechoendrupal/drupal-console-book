@@ -3,5 +3,5 @@ List available chain files.
 
 **Folosire:**
 ```
-$ drupal chain:debug 
+$ drupal chain:debug
 ```

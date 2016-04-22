@@ -3,7 +3,7 @@ Afişează Modulele curente pentru aplicaţie
 
 **Folosire:**
 ```
-$ drupal module:debug [options] 
+$ drupal module:debug [options]
 ```
 
 ## Opțiuni disponibile

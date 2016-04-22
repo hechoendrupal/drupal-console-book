@@ -3,7 +3,7 @@ Chuyển site sang chế độ bảo trì
 
 **Usage:**
 ```
-$ drupal site:maintenance [arguments] 
+$ drupal site:maintenance [arguments]
 $ sma  
 ```
 

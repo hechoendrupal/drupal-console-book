@@ -3,7 +3,7 @@ Chuyển đổi cấu hình hiệu năng của hệ thống
 
 **Usage:**
 ```
-$ drupal site:mode [arguments] 
+$ drupal site:mode [arguments]
 $ smo  
 ```
 

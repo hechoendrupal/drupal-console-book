@@ -3,5 +3,5 @@
 
 **प्रयोग:**
 ```
-$ drupal settings:debug 
+$ drupal settings:debug
 ```

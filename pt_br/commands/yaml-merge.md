@@ -3,7 +3,7 @@ Combinar um ou mais arquivos YAML em um único novo arquivo. Os últimos valores
 
 **Uso:**
 ```
-$ drupal yaml:merge [arguments] 
+$ drupal yaml:merge [arguments]
 $ ym  
 ```
 

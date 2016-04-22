@@ -3,7 +3,7 @@ Chạy PHP built-in web server
 
 **Usage:**
 ```
-$ drupal server [arguments] 
+$ drupal server [arguments]
 ```
 
 ## Các đối số có sẵn

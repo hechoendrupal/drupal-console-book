@@ -3,7 +3,7 @@ Aktuális alkalmazáskonfiguráció exportálása.
 
 **Használat:**
 ```
-$ drupal config:export [options] 
+$ drupal config:export [options]
 $ ce  
 ```
 

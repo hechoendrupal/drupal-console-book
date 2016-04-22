@@ -3,7 +3,7 @@ Tải module hoặc các modules trong ứng dụng
 
 **Usage:**
 ```
-$ drupal module:download [arguments] [options] 
+$ drupal module:download [arguments] [options]
 $ md  
 ```
 

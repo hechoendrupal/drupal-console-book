@@ -3,7 +3,7 @@ Mezőtípus, felületi elem és formázó bővítmények létrehozása.
 
 **Használat:**
 ```
-$ drupal generate:plugin:field [options] 
+$ drupal generate:plugin:field [options]
 ```
 
 ## Rendelkezésre álló beállítások

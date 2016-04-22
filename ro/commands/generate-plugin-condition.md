@@ -3,7 +3,7 @@ Generează o condiție pentru extensie.
 
 **Folosire:**
 ```
-$ drupal generate:plugin:condition [options] 
+$ drupal generate:plugin:condition [options]
 ```
 
 ## Opțiuni disponibile
