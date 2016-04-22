@@ -1,12 +1,12 @@
 # init
-The **init** command Copy configuration files to user home directory.
+**init** parancs commands.init.description
 
-**Usage:**
+**Használat:**
 ```
 $ drupal init [options] 
 ```
 
-## Available options
-Option | Details
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
 -------|-------------
---override | Override configurations files
+--override | commands.init.options.override

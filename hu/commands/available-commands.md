@@ -6,9 +6,11 @@ Drupal Console parancs | Részletek
 ------------ | -------------
 [about](about.md) | Alapvető információkat jelenít meg a Drupal Console projektről
 [chain](chain.md) | Chain parancs végrehajtása
+[check](check.md) | commands.check.description
 [help](help.md) | Displays help for a command
-[settings:init](settings-init.md) | Copy configuration files to user home directory.
+[init](init.md) | commands.init.description
 [list](list.md) | A rendelkezésre álló parancsok listázása
+[self-update](self-update.md) | Projekt frissítése a legújabb verzióra.
 [server](server.md) | A PHP beépített webkiszolgálójának futtatása
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | A webhely összes gyorsítótárának újraépítése és törlése.
@@ -53,6 +55,7 @@ Drupal Console parancs | Részletek
 [generate:command](generate-command.md) | Parancsok létrehozása a konzolhoz.
 [generate:controller](generate-controller.md) | Kontroller létrehozása és regisztrálása
 [generate:doc:dash](generate-doc-dash.md) | DrupalConsole.docset csomag létrehozása a Dash számára
+[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | Dokumentáció létrehozása a parancsokhoz
 [generate:entity:bundle](generate-entity-bundle.md) | Új tartalomtípus létrehozása (tartalom / mezőköteg)
 [generate:entity:config](generate-entity-config.md) | Új konfigurációs entitás létrehozása
@@ -112,9 +115,7 @@ Drupal Console parancs | Részletek
 [router:debug](router-debug.md) | Megjeleníti az alkalmazás aktuális útvonalait
 [router:rebuild](router-rebuild.md) | Az alkalmazás útvonalainak újraépítése
 **settings**  |
-[settings:check](settings-check.md) | System requirement checker
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
-[settings:init](settings-init.md) | Copy configuration files to user home directory.
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Minden ismert helyi és távoli webhely listázása.

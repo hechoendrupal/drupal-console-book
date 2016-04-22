@@ -1,14 +1,14 @@
 # self-update
-The **self-update** command Update project to the latest version.
+**self-update** 命令 更新项目到最新版本
 
-**Usage:**
+**用法:**
 ```
 $ drupal self-update [options] 
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细
 -------|-------------
---major | Update to a new major version, if available.
---manifest | Override the manifest file path.
---current-version | Override the version to update from.
+--major | 如果有，更新到最近主版本.
+--manifest | 覆盖清单文件路径
+--current-version | 覆盖更新的开始版本

@@ -6,9 +6,11 @@ Các lệnh điều khiển Drupal | Các chi tiết
 ------------ | -------------
 [about](about.md) | Hiển thị thông tin cơ bản về dự án Drupal Console
 [chain](chain.md) | Thi hành chuỗi câu lệnh
+[check](check.md) | commands.check.description
 [help](help.md) | Displays help for a command
-[settings:init](settings-init.md) | Sao chép các file cấu hình tới thư mục gốc.
+[init](init.md) | commands.init.description
 [list](list.md) | Các danh sách tất cả các dòng lệnh có sẵn
+[self-update](self-update.md) | Cập nhật dự án lên phiên bản mới nhất.
 [server](server.md) | Chạy PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Xây dựng lại và làm sạch tất cả cache trên trang.
@@ -53,6 +55,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [generate:command](generate-command.md) | Tạo ra các lệnh cho trình điều khiển.
 [generate:controller](generate-controller.md) | Tạo và đăng ký một trình điều khiển
 [generate:doc:dash](generate-doc-dash.md) | Tạo gói DrupalConsole.docset cho Dash
+[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | Tạo documentations cho các lệnh
 [generate:entity:bundle](generate-entity-bundle.md) | Tạo một loại nội dung mới (node / entity bundle)
 [generate:entity:config](generate-entity-config.md) | Tạo một config entity mới
@@ -112,9 +115,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [router:debug](router-debug.md) | Hiển thị các định tuyến hiện tại của ứng dụng
 [router:rebuild](router-rebuild.md) | Xây dựng lại định tuyến cho ứng dụng
 **settings**  |
-[settings:check](settings-check.md) | System requirement checker
 [settings:debug](settings-debug.md) | List user Drupal Console settings.
-[settings:init](settings-init.md) | Sao chép các file cấu hình tới thư mục gốc.
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
 [site:debug](site-debug.md) | Liệt kê tất cả các sites cục bộ và từ xa đã biết.

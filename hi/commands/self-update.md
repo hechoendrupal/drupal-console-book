@@ -1,14 +1,14 @@
 # self-update
-The **self-update** command Update project to the latest version.
+**self-update** कमांड कंसोल को नवीनतम संस्करण में अवगत करें
 
-**Usage:**
+**प्रयोग:**
 ```
 $ drupal self-update [options] 
 ```
 
-## Available options
-Option | Details
+## उपलब्ध विकल्प
+विकल्प | विवरण
 -------|-------------
---major | Update to a new major version, if available.
---manifest | Override the manifest file path.
---current-version | Override the version to update from.
+--major | यदि उपलब्ध हो , तो एक नए प्रमुख संस्करण के लिए अद्यतन करे.
+--manifest | प्रकट फ़ाइल पथ को ओवरराइड करे.
+--current-version | अद्यतन करने के लिए संस्करण ओवरराइड करे.

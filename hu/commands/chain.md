@@ -10,3 +10,4 @@ $ drupal chain [options]
 Beállítás | Részletek
 -------|-------------
 --file | A végrehajtandó parancsokat tartalmazó, felhasználó által megadott fájl.
+--placeholder | commands.chain.options.placeholder

@@ -10,3 +10,4 @@ $ drupal chain [options]
 选项 | 详细
 -------|-------------
 --file | 包含一组命令的 YAML 格式文件
+--placeholder | commands.chain.options.placeholder
