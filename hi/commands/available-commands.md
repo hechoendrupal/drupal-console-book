@@ -12,6 +12,8 @@ Drupal Console कमाण्ड | विवरण
 [list](list.md) | कमांड की सूची
 [self-update](self-update.md) | कंसोल को नवीनतम संस्करण में अवगत करें
 [server](server.md) | PHP निर्मित वेब सर्वर चलायॆ
+**breakpoints**  |
+[breakpoints:debug](breakpoints-debug.md) | commands.breakpoints.debug.description
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | सभी साइट caches को पुनर्निर्माण और साफ़ करें।
 **chain**  |
@@ -54,6 +56,7 @@ Drupal Console कमाण्ड | विवरण
 [generate:authentication:provider](generate-authentication-provider.md) | प्रमाणन प्रदाता उत्पन्न करें
 [generate:command](generate-command.md) | कंसोल के लिए कमाण्डो को उत्पन्न करें।
 [generate:controller](generate-controller.md) | एक कंट्रोलर को उत्पन्न और पंजीकृत करें
+[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands
 [generate:doc:dash](generate-doc-dash.md) | डैश के लिए  DrupalConsole.docset पैकेज उत्पन्न करें
 [generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | कमाण्डो के लिए डॉक्युमेंटेशन्स उत्पन्न करें
@@ -88,6 +91,8 @@ Drupal Console कमाण्ड | विवरण
 **image**  |
 [image:styles:debug](image-styles-debug.md) | List image styles on the site
 [image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
+**libraries**  |
+[libraries:debug](libraries-debug.md) | commands.libraries.debug.description
 **locale**  |
 [locale:language:add](locale-language-add.md) | एक भाषा को जोड़े जो आप के साइट द्वारा सपोर्ट होना है
 [locale:language:delete](locale-language-delete.md) | आपकी साइट के द्वारा समर्थित एक भाषा को हटाएँ
@@ -106,7 +111,7 @@ Drupal Console कमाण्ड | विवरण
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 **plugin**  |
-[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
+[plugin:debug](plugin-debug.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 **rest**  |
 [rest:debug](rest-debug.md) | आवेदन के लिए मौजूदा REST संसाधन को प्रदर्शित करें
 [rest:disable](rest-disable.md) | अनुप्रयोग में REST संसाधन अक्षम करें|

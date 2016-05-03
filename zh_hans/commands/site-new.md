@@ -3,9 +3,14 @@
 
 **用法:**
 ```
-$ drupal site:new [arguments]
+$ drupal site:new [arguments] [options]
 $ sn  
 ```
+
+## 可用选项
+选项 | 详细
+-------|-------------
+--latest | commands.site.new.options.latest
 
 ## 可用参数
 参数 | 详细

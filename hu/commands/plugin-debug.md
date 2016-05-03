@@ -1,5 +1,5 @@
 # plugin:debug
-commands.plugin.debug.description
+Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 
 **Használat:**
 ```
@@ -9,5 +9,5 @@ $ drupal plugin:debug [arguments]
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek
 ---------|-------------
-type | commands.plugin.debug.arguments.type
-id | commands.plugin.debug.arguments.id
+type | Plugin type
+id | Plugin ID

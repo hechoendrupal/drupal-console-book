@@ -17,6 +17,6 @@ Opción | Detalles
 --core | Versión del core
 --package | Paquete del módulo
 --module-file | Agregar un archivo .module
---features-bundle | Define module as feature using the given Features bundle name
+--features-bundle | ¿ Definir el módulo como una feature usando el nombre de bundle de Feature dado ?
 --composer | Añadir un archivo composer.json
 --dependencies | Dependencias del módulo (por ejemplo: context, galleria, panels)

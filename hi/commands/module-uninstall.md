@@ -14,4 +14,4 @@ $ drupal module:uninstall [arguments] [options]
 ## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
-module | रद्द किए जाने मॉड्यूल को अल्पवीराम से अलग करें |
+module | commands.module.uninstall.questions.module

@@ -12,6 +12,8 @@ Drupal Console parancs | Részletek
 [list](list.md) | A rendelkezésre álló parancsok listázása
 [self-update](self-update.md) | Projekt frissítése a legújabb verzióra.
 [server](server.md) | A PHP beépített webkiszolgálójának futtatása
+**breakpoints**  |
+[breakpoints:debug](breakpoints-debug.md) | commands.breakpoints.debug.description
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | A webhely összes gyorsítótárának újraépítése és törlése.
 **chain**  |
@@ -54,6 +56,7 @@ Drupal Console parancs | Részletek
 [generate:authentication:provider](generate-authentication-provider.md) | Hitelesítésszolgáltató létrehozása
 [generate:command](generate-command.md) | Parancsok létrehozása a konzolhoz.
 [generate:controller](generate-controller.md) | Kontroller létrehozása és regisztrálása
+[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands
 [generate:doc:dash](generate-doc-dash.md) | DrupalConsole.docset csomag létrehozása a Dash számára
 [generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | Dokumentáció létrehozása a parancsokhoz
@@ -88,6 +91,8 @@ Drupal Console parancs | Részletek
 **image**  |
 [image:styles:debug](image-styles-debug.md) | List image styles on the site
 [image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
+**libraries**  |
+[libraries:debug](libraries-debug.md) | commands.libraries.debug.description
 **locale**  |
 [locale:language:add](locale-language-add.md) | A webhely által támogatott nyelv hozzáadása
 [locale:language:delete](locale-language-delete.md) | A webhely által támogatott nyelv törlése
@@ -106,7 +111,7 @@ Drupal Console parancs | Részletek
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 **plugin**  |
-[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
+[plugin:debug](plugin-debug.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 **rest**  |
 [rest:debug](rest-debug.md) | Aktuális REST-erőforrás megjelenítése
 [rest:disable](rest-disable.md) | REST-erőforrás letiltása

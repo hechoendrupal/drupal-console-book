@@ -9,7 +9,7 @@ $ drupal config:override [arguments]
 ## उपलब्ध तर्कों
 तर्क | विवरण
 ---------|-------------
-config-name | व्यवस्था का नाम।
+name | commands.config.override.arguments.name
 key | कुंजी
 value | निधि
 

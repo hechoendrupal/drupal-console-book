@@ -10,4 +10,4 @@ $ cde
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-config-name | Tên cấu hình
+name | Tên cấu hình

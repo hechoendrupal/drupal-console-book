@@ -10,4 +10,4 @@ $ cde
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-config-name | Nombre de la configuración.
+name | Nombre de la configuración.

@@ -9,9 +9,9 @@ $ drupal module:uninstall [arguments] [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---force | Do you want to ignore dependencies and forcefully uninstall the module?
+--force | ¿ Desea ignorar las dependencias y desinstalar el módulo a la fuerza ?
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-module | Los módulos a ser desinstalado(s) deben ser separados por una coma
+module | commands.module.uninstall.questions.module

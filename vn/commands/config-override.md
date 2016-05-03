@@ -9,7 +9,7 @@ $ drupal config:override [arguments]
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-config-name | Tên cấu hình.
+name | commands.config.override.arguments.name
 key | Khóa
 value | Giá trị
 

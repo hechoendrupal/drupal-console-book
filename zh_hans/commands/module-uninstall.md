@@ -14,4 +14,4 @@ $ drupal module:uninstall [arguments] [options]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-module | 要卸载的模块，模块之间请使用逗号分隔
+module | commands.module.uninstall.questions.module

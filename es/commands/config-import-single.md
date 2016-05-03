@@ -11,4 +11,4 @@ $ cis
 Argumento | Detalles
 ---------|-------------
 name | Nombre de la configuración.
-file | Path to the import file
+file | Ruta al archivo a importar

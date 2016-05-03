@@ -10,6 +10,7 @@ $ md
 ## 可用选项
 选项 | 详细
 -------|-------------
+--path | commands.module.download.options.path
 --latest | 缺省下载最新版本
 
 ## 可用参数

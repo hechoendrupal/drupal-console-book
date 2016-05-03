@@ -14,4 +14,4 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-module | Module or modules to be uninstalled should be separated by a comma
+module | Enter module name

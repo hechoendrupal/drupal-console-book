@@ -10,6 +10,7 @@ $ md
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
+--path | commands.module.download.options.path
 --latest | Az alapértelmezés a legfrissebb verzió letöltése
 
 ## Rendelkezésre álló argumentumok

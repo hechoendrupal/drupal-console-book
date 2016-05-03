@@ -10,4 +10,4 @@ $ tde
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-theme | Tema específico a depurar 
+theme | Tema específico a depurar

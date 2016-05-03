@@ -12,6 +12,8 @@ Comanda Consolei Drupal | Detalii
 [list](list.md) | Listele de comenzi
 [self-update](self-update.md) | Actualizează Consola la ultima versiune.
 [server](server.md) | Runs PHP built-in web server
+**breakpoints**  |
+[breakpoints:debug](breakpoints-debug.md) | commands.breakpoints.debug.description
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruiți și curățați tot cache-ul.
 **chain**  |
@@ -54,6 +56,7 @@ Comanda Consolei Drupal | Detalii
 [generate:authentication:provider](generate-authentication-provider.md) | Generează un "Authentication Provider"
 [generate:command](generate-command.md) | Generează comenzi pentru consolă.
 [generate:controller](generate-controller.md) | Generează și Înregistrează un controller
+[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands
 [generate:doc:dash](generate-doc-dash.md) | Generați pachetul DrupalConsole.docset pentru Dash
 [generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | Generează documentațiile pentru Comenzi
@@ -88,6 +91,8 @@ Comanda Consolei Drupal | Detalii
 **image**  |
 [image:styles:debug](image-styles-debug.md) | List image styles on the site
 [image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
+**libraries**  |
+[libraries:debug](libraries-debug.md) | commands.libraries.debug.description
 **locale**  |
 [locale:language:add](locale-language-add.md) | Adaugă o limbă ce va avea suport pe situl dvs.
 [locale:language:delete](locale-language-delete.md) | Ștergeți o limbă ce are suport pe situl dvs.
@@ -106,7 +111,7 @@ Comanda Consolei Drupal | Detalii
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 **plugin**  |
-[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
+[plugin:debug](plugin-debug.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 **rest**  |
 [rest:debug](rest-debug.md) | Afişează resursele REST curente.
 [rest:disable](rest-disable.md) | Dezactiveaza o resursă REST

@@ -9,7 +9,7 @@ $ drupal config:override [arguments]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-config-name | 配置名称
+name | commands.config.override.arguments.name
 key | 键
 value | 值
 

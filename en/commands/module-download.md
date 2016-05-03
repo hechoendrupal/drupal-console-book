@@ -10,6 +10,7 @@ $ md
 ## Available options
 Option | Details
 -------|-------------
+--path | The path of the contrib project
 --latest | Default to download most recent version
 
 ## Available arguments

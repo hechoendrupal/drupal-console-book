@@ -12,6 +12,8 @@ Drupal Console 命令 | 详细
 [list](list.md) | 列出当前可用命令
 [self-update](self-update.md) | 更新项目到最新版本
 [server](server.md) | 运行PHP内建的网站服务器
+**breakpoints**  |
+[breakpoints:debug](breakpoints-debug.md) | commands.breakpoints.debug.description
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | 重建缓存
 **chain**  |
@@ -54,6 +56,7 @@ Drupal Console 命令 | 详细
 [generate:authentication:provider](generate-authentication-provider.md) | 生成认证提供者
 [generate:command](generate-command.md) | 生成新 Console 命令
 [generate:controller](generate-controller.md) | 生成并注册新控制器
+[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands
 [generate:doc:dash](generate-doc-dash.md) | 生成 Dash 文档
 [generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | 生成命令文档
@@ -88,6 +91,8 @@ Drupal Console 命令 | 详细
 **image**  |
 [image:styles:debug](image-styles-debug.md) | List image styles on the site
 [image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
+**libraries**  |
+[libraries:debug](libraries-debug.md) | commands.libraries.debug.description
 **locale**  |
 [locale:language:add](locale-language-add.md) | 添加一种语言
 [locale:language:delete](locale-language-delete.md) | 删除一种语言
@@ -106,7 +111,7 @@ Drupal Console 命令 | 详细
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 **plugin**  |
-[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
+[plugin:debug](plugin-debug.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 **rest**  |
 [rest:debug](rest-debug.md) | 显示当前 REST 资源
 [rest:disable](rest-disable.md) | 禁用 REST 资源

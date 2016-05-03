@@ -12,6 +12,8 @@ Comando de Drupal Console | Detalles
 [list](list.md) | Enlista comandos
 [self-update](self-update.md) | Actualiza la consola a la última versión.
 [server](server.md) | Lanza el servidor web PHP interno
+**breakpoints**  |
+[breakpoints:debug](breakpoints-debug.md) | commands.breakpoints.debug.description
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
 **chain**  |
@@ -54,6 +56,7 @@ Comando de Drupal Console | Detalles
 [generate:authentication:provider](generate-authentication-provider.md) | Generar un Proveedor de Autenticación
 [generate:command](generate-command.md) | Genera un comando para la consola.
 [generate:controller](generate-controller.md) | Generar y registrar un controlador
+[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Genera un cheatsheet imprimible de los comandos disponibles
 [generate:doc:dash](generate-doc-dash.md) | Generar el paquete DrupalConsole.docset para Dash
 [generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | Generar documentaciones para Comandos
@@ -88,6 +91,8 @@ Comando de Drupal Console | Detalles
 **image**  |
 [image:styles:debug](image-styles-debug.md) | Lista los estilos de imágenes del sitio
 [image:styles:flush](image-styles-flush.md) | Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
+**libraries**  |
+[libraries:debug](libraries-debug.md) | commands.libraries.debug.description
 **locale**  |
 [locale:language:add](locale-language-add.md) | Añadir un idioma que sea soportado en el sitio
 [locale:language:delete](locale-language-delete.md) | Eliminar un idioma soportado en el sitio
@@ -106,7 +111,7 @@ Comando de Drupal Console | Detalles
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Reconstruir los permisos de acceso a nodos. La reconstrucción eliminará todos los privilegios al contenudo y los reemplazará con permisos basado en los módulos y configuración actual,
 **plugin**  |
-[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
+[plugin:debug](plugin-debug.md) | Mostrar todos los tipos de plugin, instancias de plugin de un tipo específico, o la definición para un plugin específico.
 **rest**  |
 [rest:debug](rest-debug.md) | Muestra el actual recurso rest para la aplicación
 [rest:disable](rest-disable.md) | Deshabilita un recurso rest en la aplicación
@@ -119,7 +124,7 @@ Comando de Drupal Console | Detalles
 [settings:set](settings-set.md) | Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole
 **site**  |
 [site:debug](site-debug.md) | Enlista todos los sitios, locales y remotos, conocidos.
-[site:import:local](site-import-local.md) | Import/Configure an existing local Drupal project
+[site:import:local](site-import-local.md) | Importar o configurar un proyecto Drupal existente en local
 [site:install](site-install.md) | Instala un proyecto Drupal
 [site:maintenance](site-maintenance.md) | Poner el sitio en modo mantenimiento
 [site:mode](site-mode.md) | Cambiar la configuración de rendimiento del sistema

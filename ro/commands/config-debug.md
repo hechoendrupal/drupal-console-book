@@ -10,4 +10,4 @@ $ cde
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-config-name | Numele configurării.
+name | Numele configurării.

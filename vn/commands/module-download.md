@@ -10,6 +10,7 @@ $ md
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
+--path | commands.module.download.options.path
 --latest | Default to download most recent version
 
 ## Các đối số có sẵn

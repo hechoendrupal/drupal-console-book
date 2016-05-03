@@ -3,9 +3,14 @@
 
 **प्रयोग:**
 ```
-$ drupal site:new [arguments]
+$ drupal site:new [arguments] [options]
 $ sn  
 ```
+
+## उपलब्ध विकल्प
+विकल्प | विवरण
+-------|-------------
+--latest | commands.site.new.options.latest
 
 ## उपलब्ध तर्कों
 तर्क | विवरण

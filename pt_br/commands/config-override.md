@@ -9,7 +9,7 @@ $ drupal config:override [arguments]
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-config-name | Nome da configuração.
+name | commands.config.override.arguments.name
 key | Chave
 value | Valor
 

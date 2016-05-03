@@ -14,4 +14,4 @@ Opção | Detalhes
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-module | Module or modules to be uninstalled should be separated by a comma
+module | commands.module.uninstall.questions.module

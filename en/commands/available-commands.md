@@ -12,6 +12,8 @@ Drupal Console Command | Details
 [list](list.md) | Lists all available commands
 [self-update](self-update.md) | Update project to the latest version.
 [server](server.md) | Runs PHP built-in web server
+**breakpoints**  |
+[breakpoints:debug](breakpoints-debug.md) | Displays breakpoints available in application
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Rebuild and clear all site caches.
 **chain**  |
@@ -54,8 +56,9 @@ Drupal Console Command | Details
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
 [generate:command](generate-command.md) | Generate commands for the console.
 [generate:controller](generate-controller.md) | Generate & Register a controller
+[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands
 [generate:doc:dash](generate-doc-dash.md) | Generate the DrupalConsole.docset package for Dash
-[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
+[generate:doc:data](generate-doc-data.md) | Generate documentations for Commands.
 [generate:doc:gitbook](generate-doc-gitbook.md) | Generate documentations for Commands
 [generate:entity:bundle](generate-entity-bundle.md) | Generate a new content type (node / entity bundle)
 [generate:entity:config](generate-entity-config.md) | Generate a new config entity
@@ -88,6 +91,8 @@ Drupal Console Command | Details
 **image**  |
 [image:styles:debug](image-styles-debug.md) | List image styles on the site
 [image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
+**libraries**  |
+[libraries:debug](libraries-debug.md) | Displays libraries available in application
 **locale**  |
 [locale:language:add](locale-language-add.md) | Add a language to be supported by your site
 [locale:language:delete](locale-language-delete.md) | Delete a language to be supported by your site

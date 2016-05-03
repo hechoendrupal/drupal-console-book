@@ -9,7 +9,7 @@ $ drupal config:override [arguments]
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek
 ---------|-------------
-config-name | A konfiguráció neve.
+name | commands.config.override.arguments.name
 key | Kulcs
 value | Érték
 

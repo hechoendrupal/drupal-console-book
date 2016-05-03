@@ -14,4 +14,4 @@ Tùy chọn | Các chi tiết
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-module | Module hoặc các module được gỡ bỏ cần được chia ra bằng dấu phẩy
+module | commands.module.uninstall.questions.module

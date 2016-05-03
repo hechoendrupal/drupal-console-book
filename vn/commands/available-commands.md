@@ -12,6 +12,8 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [list](list.md) | Các danh sách tất cả các dòng lệnh có sẵn
 [self-update](self-update.md) | Cập nhật dự án lên phiên bản mới nhất.
 [server](server.md) | Chạy PHP built-in web server
+**breakpoints**  |
+[breakpoints:debug](breakpoints-debug.md) | commands.breakpoints.debug.description
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Xây dựng lại và làm sạch tất cả cache trên trang.
 **chain**  |
@@ -54,6 +56,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [generate:authentication:provider](generate-authentication-provider.md) | Tạo ra một Authentication Provider
 [generate:command](generate-command.md) | Tạo ra các lệnh cho trình điều khiển.
 [generate:controller](generate-controller.md) | Tạo và đăng ký một trình điều khiển
+[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands
 [generate:doc:dash](generate-doc-dash.md) | Tạo gói DrupalConsole.docset cho Dash
 [generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
 [generate:doc:gitbook](generate-doc-gitbook.md) | Tạo documentations cho các lệnh
@@ -88,6 +91,8 @@ Các lệnh điều khiển Drupal | Các chi tiết
 **image**  |
 [image:styles:debug](image-styles-debug.md) | List image styles on the site
 [image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
+**libraries**  |
+[libraries:debug](libraries-debug.md) | commands.libraries.debug.description
 **locale**  |
 [locale:language:add](locale-language-add.md) | Thêm một ngôn ngữ được hỗ trợ bởi site của bạn
 [locale:language:delete](locale-language-delete.md) | Xóa một ngôn ngữ được hỗ trợ bởi site cuuar bạn
@@ -106,7 +111,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 **plugin**  |
-[plugin:debug](plugin-debug.md) | commands.plugin.debug.description
+[plugin:debug](plugin-debug.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 **rest**  |
 [rest:debug](rest-debug.md) | Hiển thị rest resource hiện có cho ứng dụng
 [rest:disable](rest-disable.md) | Tắt một tài nguyên rest cho ứng dụng

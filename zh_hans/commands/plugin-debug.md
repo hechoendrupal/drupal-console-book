@@ -1,5 +1,5 @@
 # plugin:debug
-commands.plugin.debug.description
+Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 
 **用法:**
 ```
@@ -9,5 +9,5 @@ $ drupal plugin:debug [arguments]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-type | commands.plugin.debug.arguments.type
-id | commands.plugin.debug.arguments.id
+type | Plugin type
+id | Plugin ID

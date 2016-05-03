@@ -3,9 +3,14 @@ Create a new Drupal project
 
 **Usage:**
 ```
-$ drupal site:new [arguments]
+$ drupal site:new [arguments] [options]
 $ sn  
 ```
+
+## Available options
+Option | Details
+-------|-------------
+--latest | commands.site.new.options.latest
 
 ## Available arguments
 Argument | Details

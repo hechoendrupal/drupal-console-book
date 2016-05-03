@@ -10,4 +10,4 @@ $ cde
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek
 ---------|-------------
-config-name | A konfiguráció neve.
+name | A konfiguráció neve.

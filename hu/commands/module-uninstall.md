@@ -14,4 +14,4 @@ Beállítás | Részletek
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek
 ---------|-------------
-module | Az eltávolítani kívánt modulokat vesszővel kell elválasztani
+module | commands.module.uninstall.questions.module

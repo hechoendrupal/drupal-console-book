@@ -3,9 +3,14 @@ Crează un proiect Drupal nou.
 
 **Folosire:**
 ```
-$ drupal site:new [arguments]
+$ drupal site:new [arguments] [options]
 $ sn  
 ```
+
+## Opțiuni disponibile
+Opțiune | Detalii
+-------|-------------
+--latest | commands.site.new.options.latest
 
 ## Argumente disponibile
 Argument | Detalii

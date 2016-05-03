@@ -14,4 +14,4 @@ Opțiune | Detalii
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-module | Modulul sau modulele care urmează a fi dezinstalate ar trebui separate de o virgulă
+module | commands.module.uninstall.questions.module

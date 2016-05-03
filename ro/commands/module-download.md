@@ -10,6 +10,7 @@ $ md
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
+--path | commands.module.download.options.path
 --latest | Default to download most recent version
 
 ## Argumente disponibile
