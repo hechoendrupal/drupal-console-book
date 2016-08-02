@@ -1,5 +1,5 @@
 # generate:event:subscriber
-एक घटना ग्राहक उत्पन्न करें
+Generate an event subscriber
 
 **प्रयोग:**
 ```
@@ -10,8 +10,8 @@ $ ges
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
+--module | The Module name.
 --name | commands.generate.service.options.name
---class | क्लास का नाम
---events | सर्विसेज़ को container से लोड करें।
---services | सर्विसेज़ को container से लोड करें।
+--class | Class name
+--events | Load events from the container
+--services | Load services from the container.

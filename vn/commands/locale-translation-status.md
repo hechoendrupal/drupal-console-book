@@ -1,5 +1,5 @@
 # locale:translation:status
-Danh sách cập nhật bản dịch có sẵn
+List available translation updates
 
 **Usage:**
 ```
@@ -9,4 +9,4 @@ $ drupal locale:translation:status [arguments]
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-language | Ngôn ngữ ví sụ như es hoặc Spanish
+language | Language for instance es or Spanish

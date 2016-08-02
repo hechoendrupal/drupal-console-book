@@ -1,18 +1,19 @@
 # generate:plugin:rulesaction
-Generează un plugin care implementează o acţiune de rules
+Generate a plugin rule action
 
 **Folosire:**
 ```
 $ drupal generate:plugin:rulesaction [options]
+$ gpra  
 ```
 
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---class | Numele clasei pluginului
---label | Eticheta pluginului
---plugin-id | ID-ul pluginului
---type | Tip de acţiune (user sau node)
---category | Categoria pluginului
---context | Contextul pluginului
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--type | Action Type (user or node)
+--category | Plugin category
+--context | Plugin context

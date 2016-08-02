@@ -1,5 +1,5 @@
 # generate:entity:config
-Gerar uma nova entidade de configuração
+Generate a new config entity
 
 **Uso:**
 ```
@@ -10,9 +10,9 @@ $ gecg
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---module | O nome do módulo.
---entity-class | Classe da entidade de configuração
---entity-name | Nome da entidade de configuração
+--module | The Module name.
+--entity-class | The config entity class
+--entity-name | The config entity name
 --base-path | The base-path for the config entity routes
---label | O rótulo
---bundle-of | Atua como um bundle de entidades de conteúdo
+--label | The label
+--bundle-of | Acts as bundle for content entities

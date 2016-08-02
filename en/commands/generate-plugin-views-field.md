@@ -4,6 +4,7 @@ Generate a custom plugin view field.
 **Usage:**
 ```
 $ drupal generate:plugin:views:field [options]
+$ gpvf  
 ```
 
 ## Available options

@@ -1,16 +1,16 @@
 # list
-El comandament **list** executa Llista tots els comandaments disponibles
+Llistar tots els comandaments disponibles
 
 **Ús:**
 ```
-$ drupal list [arguments] [options] 
+$ drupal list [arguments] [options]
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
 --xml | Mostrar una llista com a XML
---raw | Mostra una llista de comandaments en brut
+--raw | Mostrar una llista de comandaments en brut
 --format | Format de sortida (txt, xml, json, or md)
 
 ## Arguments disponibles

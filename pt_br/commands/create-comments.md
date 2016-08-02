@@ -1,5 +1,5 @@
 # create:comments
-Create dummy comments for your Drupal 8 application.
+Criar comentários dummy para sua aplicação Drupal 8.
 
 **Uso:**
 ```
@@ -9,11 +9,11 @@ $ drupal create:comments [arguments] [options]
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---limit | commands.create.comments.arguments.limit
---title-words | commands.create.comments.arguments.title-words
---time-range | commands.create.comments.arguments.time-range
+--limit | Quantos comentários você gostaria de criar.
+--title-words | Número máximo de palavras em um título de comentário.
+--time-range | Quão longe no tempo devem ser as datas dos comentários.
 
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-node-id | Node ID where the comments will be created
+node-id | Node ID onde os comentários serão criados

@@ -10,4 +10,4 @@ $ smo
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-environment | Nome do ambiente
+environment | Nome do ambiente [dev, prod]

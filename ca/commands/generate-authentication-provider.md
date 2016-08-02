@@ -1,9 +1,9 @@
 # generate:authentication:provider
-El comandament **generate:authentication:provider** executa Generar un Proveïdor d'Autenticació
+Generar un Proveïdor d'Autenticació
 
 **Ús:**
 ```
-$ drupal generate:authentication:provider [options] 
+$ drupal generate:authentication:provider [options]
 $ gap  
 ```
 
@@ -12,4 +12,4 @@ Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --class | Clase del Proveïdor d'Autenticació
---provider-id | ID del proveïdor
+--provider-id | Identificador del proveïdor

@@ -6,7 +6,7 @@ Execute flush function by image style or execute all flush images styles
 $ drupal image:styles:flush [arguments]
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 styles | The Images Styles name.

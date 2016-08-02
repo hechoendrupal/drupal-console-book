@@ -4,12 +4,13 @@ Generate field widget plugin.
 **Uso:**
 ```
 $ drupal generate:plugin:fieldwidget [options]
+$ gpfw  
 ```
 
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---module | O nome do módulo.
+--module | The Module name.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id

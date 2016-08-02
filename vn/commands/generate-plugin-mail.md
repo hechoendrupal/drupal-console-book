@@ -9,8 +9,8 @@ $ drupal generate:plugin:mail [options]
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
+--module | The Module name.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
---services | Nạp các dịch vụ từ container.
+--services | Load services from the container.

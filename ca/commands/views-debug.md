@@ -1,9 +1,9 @@
 # views:debug
-El comandament **views:debug** executa Mostrar els recursos de vistes actuals de l'aplicació
+Mostrar els recursos de vistes actuals de l'aplicació
 
 **Ús:**
 ```
-$ drupal views:debug [arguments] [options] 
+$ drupal views:debug [arguments] [options]
 $ vde  
 ```
 
@@ -16,4 +16,4 @@ Opció | Detalls
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-view-id | ID de la vista
+view-id | Identificador de la vista

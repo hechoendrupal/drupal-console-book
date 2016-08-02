@@ -1,14 +1,14 @@
 # user:password:reset
-El comandament **user:password:reset** executa Reinicialitza una contrasenya per un usuari determinat.
+Reinicialitzar una contrasenya per un usuari determinat.
 
 **Ús:**
 ```
-$ drupal user:password:reset [arguments] 
+$ drupal user:password:reset [arguments]
 $ uspr  
 ```
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-user | ID d'usuari
+user | Identificador del usuari
 password | Contrasenya en text sense format

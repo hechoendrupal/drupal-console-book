@@ -1,9 +1,9 @@
 # site:debug
-El comandament **site:debug** executa Llista tots els llocs locals i remots coneguts.
+Llistar tots els llocs locals i remots coneguts.
 
 **Ús:**
 ```
-$ drupal site:debug [arguments] 
+$ drupal site:debug [arguments]
 $ sd  
 ```
 

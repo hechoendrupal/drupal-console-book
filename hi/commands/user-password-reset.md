@@ -7,7 +7,7 @@ $ drupal user:password:reset [arguments]
 $ uspr  
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 user | यूजर आईडी

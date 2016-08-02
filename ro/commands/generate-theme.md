@@ -1,5 +1,5 @@
 # generate:theme
-Generează o temă.
+Generate a theme.
 
 **Folosire:**
 ```
@@ -11,12 +11,12 @@ $ gt
 Opțiune | Detalii
 -------|-------------
 --theme | commands.generate.theme.options.module
---machine-name | Numele maşină (doar caracere minuscule şi caracterul "_" sunt suportate)
+--machine-name | The machine name (lowercase and underscore only)
 --theme-path | commands.generate.theme.options.module-path
---description | Descrierea temei
---core | Versiunea nucleului
---package | Pachetul
---global-library | Numele librariei de stilizare globală
---base-theme | Tema de bază (ex.: classy, stable)
---regions | Regiuni
---breakpoints | Puncte de întrerupere
+--description | Theme description
+--core | Core version
+--package | Theme package
+--global-library | Global styling library name
+--base-theme | Base theme (i.e. classy, stable)
+--regions | Regions
+--breakpoints | Breakpoints

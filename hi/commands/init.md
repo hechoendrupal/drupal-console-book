@@ -1,5 +1,5 @@
 # init
-commands.init.description
+उपयोगकर्ता के होम डायरेक्टरी के लिए कॉन्फ़िगरेशन फाइल कॉपी किया है।
 
 **प्रयोग:**
 ```
@@ -9,4 +9,4 @@ $ drupal init [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---override | commands.init.options.override
+--override | ओवरराइड कफगुरशंस फाइल्स

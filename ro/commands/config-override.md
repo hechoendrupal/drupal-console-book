@@ -4,12 +4,13 @@ Suprascrie valoarea de configurare în configurarea activă.
 **Folosire:**
 ```
 $ drupal config:override [arguments]
+$ co  
 ```
 
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-name | commands.config.override.arguments.name
+name | Configuration name
 key | Cheie
 value | Valoare
 

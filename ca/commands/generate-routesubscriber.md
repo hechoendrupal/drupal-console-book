@@ -1,9 +1,9 @@
 # generate:routesubscriber
-El comandament **generate:routesubscriber** executa Generar una ruta de subcriptor (RouteSubscriber)
+Generar una ruta de subcriptor (RouteSubscriber)
 
 **Ús:**
 ```
-$ drupal generate:routesubscriber [options] 
+$ drupal generate:routesubscriber [options]
 ```
 
 ## Opcions disponibles

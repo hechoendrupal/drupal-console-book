@@ -1,7 +1,7 @@
 # config:settings:debug
-El comandament **config:settings:debug** executa Displays current key:value on settings file.
+Mostra l'actual clau:valor del fitxer de configuració.
 
 **Ús:**
 ```
-$ drupal config:settings:debug 
+$ drupal config:settings:debug
 ```

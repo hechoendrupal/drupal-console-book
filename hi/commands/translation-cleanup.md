@@ -1,12 +1,12 @@
 # translation:cleanup
-क्लीनअप ट्रांसलेशन फाइल्स
+Clean up translation files
 
 **प्रयोग:**
 ```
 $ drupal translation:cleanup [arguments]
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
-language | इंग्लिश के खिलाफ क्लीनअप फाइल के लिए भाषा
+language | Language to clean up files against English

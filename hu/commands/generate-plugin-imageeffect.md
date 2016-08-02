@@ -1,16 +1,17 @@
 # generate:plugin:imageeffect
-Képhatás bővítmény létrehozása
+Generate image effect plugin.
 
 **Használat:**
 ```
 $ drupal generate:plugin:imageeffect [options]
+$ gpie  
 ```
 
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---class | Bővítmény osztályneve
---label | Bővítmény felirata
---plugin-id | Bővítmény azonosítója
---description | Bővítmény leírása
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--description | Plugin Description

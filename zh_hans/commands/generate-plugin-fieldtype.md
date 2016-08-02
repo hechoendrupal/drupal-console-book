@@ -1,18 +1,19 @@
 # generate:plugin:fieldtype
-生成字段类型插件
+Generate field type plugin.
 
 **用法:**
 ```
 $ drupal generate:plugin:fieldtype [options]
+$ gpft  
 ```
 
 ## 可用选项
 选项 | 详细
 -------|-------------
---module | 模块名称
---class | 插件类名
---label | 插件标签
---plugin-id | 插件 ID
---description | 插件描述
---default-widget | 该插件的默认字段
---default-formatter | 该插件的默认字段格式化器
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--description | Plugin Description
+--default-widget | Default field widget of this plugin
+--default-formatter | Default field formatter of this plugin

@@ -1,17 +1,17 @@
 # config:diff
-El comandament **config:diff** executa Ouput configuration items that are different in active configuration compared with a directory.
+Sortida dels elements de configuració diferents a la configuració activa comparada amb un directori.
 
 **Ús:**
 ```
-$ drupal config:diff [arguments] [options] 
+$ drupal config:diff [arguments] [options]
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---reverse | See the changes in reverse (i.e diff a directory to the active configuration).
+--reverse | Veure canvis invertits (p.e compara un directori amb la configuració activa).
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-directory | The directory to diff against. If ommitted, choose from Drupal config directories.
+directory | Directori amb el que comparar. Si s'omet, es tria des dels directoris de configuració de Drupal.

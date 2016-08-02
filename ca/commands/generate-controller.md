@@ -1,9 +1,9 @@
 # generate:controller
-El comandament **generate:controller** executa Generar i registrar un controlador
+Generar i registrar un controlador
 
 **Ús:**
 ```
-$ drupal generate:controller [options] 
+$ drupal generate:controller [options]
 $ gcn  
 ```
 
@@ -12,6 +12,6 @@ Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --class | Nom de la classe del controlador
---routes | The routes, must be an array containing [title, method, path]
+--routes | El camins han de ser matrius i contenir [títol, mètode, camí]
 --services | Carregar serveis des del contenidor.
---test | Generar una classe de prova
+--test | Generar una classe de verificació

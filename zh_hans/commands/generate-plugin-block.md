@@ -1,5 +1,5 @@
 # generate:plugin:block
-生成区块插件
+Generate a plugin block
 
 **用法:**
 ```
@@ -10,10 +10,10 @@ $ gpb
 ## 可用选项
 选项 | 详细
 -------|-------------
---module | 模块名称
---class | 插件类名
---label | 插件标签
---plugin-id | 插件 ID
---theme-region | 呈现插件区块的主题区域
---inputs | 创建一个输入表单
---services | 从容器中导入服务
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--theme-region | Theme region to render Plugin Block
+--inputs | Create inputs in a form.
+--services | Load services from the container.

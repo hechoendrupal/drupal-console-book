@@ -1,5 +1,5 @@
 # generate:module
-Generează un modul.
+Generate a module.
 
 **Folosire:**
 ```
@@ -10,13 +10,13 @@ $ gm
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului
---machine-name | Numele mașină (doar minuscule și liniuțe jos)
---module-path | Calea către modul
---description | Descrierea modulului
---core | Versiunea nucleului
---package | Pachetul modulului
+--module | The Module name
+--machine-name | The machine name (lowercase and underscore only)
+--module-path | The path of the module
+--description | Module description
+--core | Core version
+--package | Module package
 --module-file | Add a .module file
 --features-bundle | Define module as feature using the given Features bundle name
---composer | Adaugă un fișier composer.json
---dependencies | Dependințele modulului trebuie să fie separate prin virgulă (ex. context, panels)
+--composer | Add a composer.json file
+--dependencies | Module dependencies separated by commas (i.e. context, panels)

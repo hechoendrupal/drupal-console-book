@@ -1,5 +1,5 @@
 # locale:language:delete
-DElete a language to be supported by your site
+Delete a language to be supported by your site
 
 **Uso:**
 ```

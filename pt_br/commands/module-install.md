@@ -1,17 +1,19 @@
 # module:install
-Install module or modules in the application
+Instala módulo(s) na aplicação
 
 **Uso:**
 ```
 $ drupal module:install [arguments] [options]
+$ moi  
 ```
 
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---latest | Default to download most recent version
+--latest | Padrão para baixar a versão mais recente
+--composer | Uninstalls the module using Composer
 
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-module | Module or modules to be enabled should be separated by a space
+module | Módulo(s) a serem instalados deverão ser separados por um espaço

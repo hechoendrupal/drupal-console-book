@@ -16,7 +16,7 @@ $ ys
 --starting-key | YAML मौलिक जहां से आंशिक तत्वों को निकालने के लिए उपयोगी विभाजन शुरू हे
 --exclude-parents-key | उत्पन्न फ़ाइल नाम में मौलिक को बाहर निकालें
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 yaml-file | commands.yaml.split.value.arguments.yaml-file

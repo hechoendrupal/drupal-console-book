@@ -4,12 +4,13 @@ Sobreescribir valor de la configuración activa.
 **Uso:**
 ```
 $ drupal config:override [arguments]
+$ co  
 ```
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-name | commands.config.override.arguments.name
+name | Nombre de configuración
 key | Clave
 value | Valor
 

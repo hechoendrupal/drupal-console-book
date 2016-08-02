@@ -3,12 +3,17 @@ Tải xuống theme trong ứng dụng
 
 **Usage:**
 ```
-$ drupal theme:download [arguments]
+$ drupal theme:download [arguments] [options]
 $ td  
 ```
+
+## Các tùy chọn có sẵn
+Tùy chọn | Các chi tiết
+-------|-------------
+--composer | Use --composer option for manage the theme download with Composer
 
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-theme | commands.theme.download.options.theme
-version | Phiên bản theme ví dụ 1.x-dev
+theme | the Theme name
+version | Theme version i.e 1.x-dev

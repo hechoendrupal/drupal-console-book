@@ -1,5 +1,5 @@
 # generate:permissions
-Tạo module permissions
+Generate module permissions
 
 **Usage:**
 ```
@@ -10,5 +10,5 @@ $ gp
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
---permissions | Tạo các quyền.
+--module | The Module name.
+--permissions | Create permissions.

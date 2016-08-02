@@ -1,9 +1,10 @@
 # generate:form:config
-El comandament **generate:form:config** executa Generar un nou "ConfigFormBase"
+Generar un nou "ConfigFormBase"
 
 **Ús:**
 ```
-$ drupal generate:form:config [options] 
+$ drupal generate:form:config [options]
+$ gfc  
 ```
 
 ## Opcions disponibles
@@ -11,10 +12,10 @@ Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --class | Nom de la classe del formulari
---form-id | ID del formulari
+--form-id | Identificador del formulari
 --services | Carregar serveis des del contenidor.
 --inputs | Crear camp entrada (input) en un formulari.
---routing | Actualitzant ruta
+--path | Enter the form path
 --menu_link_gen | commands.generate.form.options.menu_link_gen
 --menu_link_title | commands.generate.form.options.menu_link_title
 --menu_parent | commands.generate.form.options.menu_parent

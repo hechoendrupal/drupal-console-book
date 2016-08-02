@@ -3,12 +3,17 @@ Smink letöltése az alkalmazásban
 
 **Használat:**
 ```
-$ drupal theme:download [arguments]
+$ drupal theme:download [arguments] [options]
 $ td  
 ```
+
+## Rendelkezésre álló beállítások
+Beállítás | Részletek
+-------|-------------
+--composer | Use --composer option for manage the theme download with Composer
 
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek
 ---------|-------------
-theme | commands.theme.download.options.theme
-version | Smink verziója, pl. 1.x-dev
+theme | the Theme name
+version | Theme version i.e 1.x-dev

@@ -1,9 +1,9 @@
 # translation:stats
-El comandament **translation:stats** executa Generar estadístiques de traduccions
+Generar estadístiques de traduccions
 
 **Ús:**
 ```
-$ drupal translation:stats [arguments] [options] 
+$ drupal translation:stats [arguments] [options]
 ```
 
 ## Opcions disponibles

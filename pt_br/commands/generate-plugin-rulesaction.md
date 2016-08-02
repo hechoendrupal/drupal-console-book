@@ -4,12 +4,13 @@ Generate a plugin rule action
 **Uso:**
 ```
 $ drupal generate:plugin:rulesaction [options]
+$ gpra  
 ```
 
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---module | O nome do módulo.
+--module | The Module name.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id

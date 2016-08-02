@@ -10,4 +10,4 @@ $ sma
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-mode | Chế độ bảo trì site[on/off]
+mode | commands.site.maintenance.arguments.mode[on/off]

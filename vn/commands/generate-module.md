@@ -1,5 +1,5 @@
 # generate:module
-Tạo một module.
+Generate a module.
 
 **Usage:**
 ```
@@ -10,13 +10,13 @@ $ gm
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên Module
---machine-name | Tên máy (chỉ chữ thường và gạch dưới)
---module-path | Đường dẫn của module
---description | Mô tả module
---core | Phiên bản Core
+--module | The Module name
+--machine-name | The machine name (lowercase and underscore only)
+--module-path | The path of the module
+--description | Module description
+--core | Core version
 --package | Module package
 --module-file | Add a .module file
 --features-bundle | Define module as feature using the given Features bundle name
---composer | Thêm một file composer.json
---dependencies | Sự phụ thuộc của module chia ra bởi dấu phẩy (ví dụ context, panels)
+--composer | Add a composer.json file
+--dependencies | Module dependencies separated by commas (i.e. context, panels)

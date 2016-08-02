@@ -1,8 +1,8 @@
 # router:rebuild
-El comandament **router:rebuild** executa Reconstruir rutes per l'aplicació
+Reconstruir rutes per l'aplicació
 
 **Ús:**
 ```
-$ drupal router:rebuild 
+$ drupal router:rebuild
 $ ror  
 ```

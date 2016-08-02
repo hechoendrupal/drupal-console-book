@@ -4,6 +4,7 @@ Generate field formatter plugin.
 **Usage:**
 ```
 $ drupal generate:plugin:fieldformatter [options]
+$ gpff  
 ```
 
 ## Available options

@@ -1,5 +1,5 @@
 # check
-commands.check.description
+系统需求检测器
 
 **用法:**
 ```

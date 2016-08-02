@@ -4,6 +4,7 @@ Generate field widget plugin.
 **Usage:**
 ```
 $ drupal generate:plugin:fieldwidget [options]
+$ gpfw  
 ```
 
 ## Available options

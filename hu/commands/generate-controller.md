@@ -1,5 +1,5 @@
 # generate:controller
-Kontroller létrehozása és regisztrálása
+Generate & Register a controller
 
 **Használat:**
 ```
@@ -10,8 +10,8 @@ $ gcn
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---class | Kontroller osztályneve
---routes | Az útvonalak, [title, method, path] tartalmú tömbnek kell lennie
---services | Szolgáltatások betöltése a tárolóból.
---test | Tesztosztály létrehozása
+--module | The Module name.
+--class | Controller Class name
+--routes | The routes, must be an array containing [title, method, path]
+--services | Load services from the container.
+--test | Generate a test class

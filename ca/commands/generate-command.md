@@ -1,9 +1,9 @@
 # generate:command
-El comandament **generate:command** executa Generar comandaments per la consola
+Generar comandaments per la consola
 
 **Ús:**
 ```
-$ drupal generate:command [options] 
+$ drupal generate:command [options]
 $ gcm  
 ```
 

@@ -1,12 +1,12 @@
 # breakpoints:debug
-commands.breakpoints.debug.description
+Displays breakpoints available in application
 
 **प्रयोग:**
 ```
 $ drupal breakpoints:debug [arguments]
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
-group | commands.breakpoints.debug.options.group-name
+group | Enter Breakpoint Group Name

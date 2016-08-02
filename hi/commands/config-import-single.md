@@ -7,7 +7,7 @@ $ drupal config:import:single [arguments]
 $ cis  
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 name | Configuration name.

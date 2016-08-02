@@ -1,9 +1,9 @@
 # database:connect
-El comandament **database:connect** executa Llançar un client de base de dades si està disponible
+Llançar un client de base de dades
 
 **Ús:**
 ```
-$ drupal database:connect [arguments] 
+$ drupal database:connect [arguments]
 ```
 
 ## Arguments disponibles

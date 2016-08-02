@@ -1,22 +1,22 @@
 # database:log:debug
-El comandament **database:log:debug** executa Mostrar el registre d'esdeveniments actual de l'aplicació
+Mostrar el registre d'esdeveniments actual de l'aplicació
 
 **Ús:**
 ```
-$ drupal database:log:debug [arguments] [options] 
+$ drupal database:log:debug [arguments] [options]
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
 --type | Filtrar registre d'esdeveniments per tipus
---severity | Filtrar registre d'esdeveniments per nivell de severitat
---user-id | Filtrar registre d'esdeveniments per ID d'usuari
---reverse | Invertir l'ordre dels esdeveniments
+--severity | Filtrar el registre d'esdeveniments per nivell de severitat
+--user-id | Filtrar el registre d'esdeveniments per identificador d'usuari
+--asc | List events in ascending order
 --limit | Limitar el número de resultats
 --offset | Punt inicial del límit
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-event-id | ID de l'esdeveniment DBLog
+event-id | Identificador de l'esdeveniment DBLog

@@ -1,5 +1,5 @@
 # state:delete
-Delete State
+Apagar Estado
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal state:delete [arguments]
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-name | State name.
+name | Nome do estado.

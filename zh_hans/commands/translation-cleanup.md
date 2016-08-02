@@ -1,5 +1,5 @@
 # translation:cleanup
-清理翻译文件
+Clean up translation files
 
 **用法:**
 ```
@@ -9,4 +9,4 @@ $ drupal translation:cleanup [arguments]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-language | 语言代码
+language | Language to clean up files against English

@@ -10,8 +10,10 @@ $ md
 ## 可用选项
 选项 | 详细
 -------|-------------
---path | commands.module.download.options.path
---latest | 缺省下载最新版本
+--path | 贡献项目路径
+--latest | 默认下载最新版本
+--composer | 使用 Composer 下载模块
+--unstable | commands.module.install.options.unstable
 
 ## 可用参数
 参数 | 详细

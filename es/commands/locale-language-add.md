@@ -1,5 +1,5 @@
 # locale:language:add
-Añadir un idioma que sea soportado en el sitio
+Add a language to be supported by your site
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal locale:language:add [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-language | Idioma por ejemplo es o Español
+language | Language for instance es or Spanish

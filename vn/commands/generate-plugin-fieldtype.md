@@ -1,18 +1,19 @@
 # generate:plugin:fieldtype
-Tạo field type plugin.
+Generate field type plugin.
 
 **Usage:**
 ```
 $ drupal generate:plugin:fieldtype [options]
+$ gpft  
 ```
 
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
---class | Tên lớp plugin
---label | Nhãn plugin
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
 --plugin-id | Plugin id
---description | Mô tả plugin
---default-widget | Field widget mặc định của plugin này
---default-formatter | Field formatter mặc định của plugin này
+--description | Plugin Description
+--default-widget | Default field widget of this plugin
+--default-formatter | Default field formatter of this plugin

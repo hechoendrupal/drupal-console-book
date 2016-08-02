@@ -1,5 +1,5 @@
 # generate:entity:content
-Tạo một content entity mới
+Generate a new content entity
 
 **Usage:**
 ```
@@ -10,9 +10,10 @@ $ gect
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
---entity-class | Lớp config entity
---entity-name | Tên config entity
+--module | The Module name.
+--entity-class | The content entity class
+--entity-name | The content entity name
 --base-path | The base-path for the content entity routes
---label | Nhãn
---has-bundles | Entity có các bundles
+--label | The label
+--has-bundles | Entity has bundles
+--is-translatable | Content entity translatable

@@ -1,5 +1,5 @@
 # locale:language:delete
-Ștergeți o limbă ce are suport pe situl dvs.
+Delete a language to be supported by your site
 
 **Folosire:**
 ```
@@ -9,4 +9,4 @@ $ drupal locale:language:delete [arguments]
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-language | Limba, de exemplu, es sau Spanish
+language | Language for instance es or Spanish

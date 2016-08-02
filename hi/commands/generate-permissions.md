@@ -1,5 +1,5 @@
 # generate:permissions
-मोड्यूल अनुमतियां उत्पन्न करें
+Generate module permissions
 
 **प्रयोग:**
 ```
@@ -10,5 +10,5 @@ $ gp
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---permissions | अनुमतियों को बनाएँ।
+--module | The Module name.
+--permissions | Create permissions.

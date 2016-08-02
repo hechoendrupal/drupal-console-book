@@ -16,4 +16,4 @@ $ tr
 参数 | 详细
 ---------|-------------
 test-class | 测试类
-test-methods | Test method(s) to be run
+test-methods | 被运行的测试方法

@@ -1,5 +1,5 @@
 # image:styles:debug
-List image styles on the site
+साइट पर इमेज स्टाइल की सूची
 
 **प्रयोग:**
 ```

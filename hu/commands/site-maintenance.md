@@ -10,4 +10,4 @@ $ sma
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek
 ---------|-------------
-mode | Webhely karbantartási módja[on/off]
+mode | commands.site.maintenance.arguments.mode[on/off]

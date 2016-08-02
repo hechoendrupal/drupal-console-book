@@ -1,15 +1,16 @@
 # generate:plugin:views:field
-El comandament **generate:plugin:views:field** executa Generar un plugin de camp de vista predeterminat.
+Generar un connector de camp de vista predeterminat.
 
 **Ús:**
 ```
-$ drupal generate:plugin:views:field [options] 
+$ drupal generate:plugin:views:field [options]
+$ gpvf  
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
---class | Nom de la classe del plugin del camp de vista
---title | Títol del plugin de camp de vista
---description | Descripció del plugin de camp de vista
+--class | Nom de la classe del connector del camp de vista
+--title | Títol del connector de camp de vista
+--description | Descripció del connector de camp de vista

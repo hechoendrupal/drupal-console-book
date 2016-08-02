@@ -1,9 +1,9 @@
 # site:install
-El comandament **site:install** executa Instal·lar un projecte Drupal
+Instal·lar un projecte Drupal
 
 **Ús:**
 ```
-$ drupal site:install [arguments] [options] 
+$ drupal site:install [arguments] [options]
 $ si  
 ```
 
@@ -13,10 +13,10 @@ Opció | Detalls
 --langcode | Idioma del Drupal
 --db-type | Tipus de base de dades que de l'instal·lació de Drupal
 --db-file | Tipus de fitxer de l'instal·lació de Drupal
---db-host | Nom del host
+--db-host | Nom de l'amfitrió
 --db-name | Nom de la base de dades
 --db-user | Usuari de la base de dades
---db-pass | COntrasenya de la base de dades
+--db-pass | Contrasenya de la base de dades
 --db-prefix | Prefix de la base de dades
 --db-port | Por de la base de dades
 --site-name | Nom del lloc Drupal

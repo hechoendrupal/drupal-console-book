@@ -1,20 +1,21 @@
 # generate:form:config
-Új "ConfigFormBase" létrehozása
+Generate a new "ConfigFormBase"
 
 **Használat:**
 ```
 $ drupal generate:form:config [options]
+$ gfc  
 ```
 
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---class | Az űrlap osztályának neve
---form-id | Az űrlap-azonosító
---services | Szolgáltatások betöltése a tárolóból.
---inputs | Bemenetek létrehozása egy űrlapban.
---routing | Útvonal frissítése
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
+--inputs | Create inputs in a form.
+--path | Enter the form path
 --menu_link_gen | commands.generate.form.options.menu_link_gen
 --menu_link_title | commands.generate.form.options.menu_link_title
 --menu_parent | commands.generate.form.options.menu_parent

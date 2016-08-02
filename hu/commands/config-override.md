@@ -4,12 +4,13 @@ Az aktív konfiguráció értékének felülbírálása.
 **Használat:**
 ```
 $ drupal config:override [arguments]
+$ co  
 ```
 
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek
 ---------|-------------
-name | commands.config.override.arguments.name
+name | Configuration name
 key | Kulcs
 value | Érték
 

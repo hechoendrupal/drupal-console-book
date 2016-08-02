@@ -1,5 +1,5 @@
 # multisite:debug
-List all multisites available in system
+Listar todos os multi-sites disponíveis no sistema
 
 **Uso:**
 ```

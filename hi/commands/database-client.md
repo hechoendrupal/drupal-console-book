@@ -6,7 +6,7 @@
 $ drupal database:client [arguments]
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 database | Settings.php से डाटाबेस कुंजी

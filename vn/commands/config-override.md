@@ -4,12 +4,13 @@ Ghi đè giá trị cấu hình trong cấu hình đang hoạt động
 **Usage:**
 ```
 $ drupal config:override [arguments]
+$ co  
 ```
 
 ## Các đối số có sẵn
 Đối số | Các chi tiết
 ---------|-------------
-name | commands.config.override.arguments.name
+name | Configuration name
 key | Khóa
 value | Giá trị
 

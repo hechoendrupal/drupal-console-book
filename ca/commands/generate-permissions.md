@@ -1,9 +1,9 @@
 # generate:permissions
-El comandament **generate:permissions** executa Generate module permissions
+Generar els permisos del mòdul
 
 **Ús:**
 ```
-$ drupal generate:permissions [options] 
+$ drupal generate:permissions [options]
 $ gp  
 ```
 

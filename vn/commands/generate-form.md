@@ -1,5 +1,5 @@
 # generate:form
-Tạo một "FormBase" mới
+Generate a new "FormBase"
 
 **Usage:**
 ```
@@ -9,12 +9,12 @@ $ drupal generate:form [options]
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
---class | Tên lớp của form
---form-id | ID của form
---services | Nạp các dịch vụ từ container.
---inputs | Tạo các đầu vào trong một form.
---routing | Cập nhật đường dẫn
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
+--inputs | Create inputs in a form.
+--path | Enter the form path
 --menu_link_gen | commands.generate.form.options.menu_link_gen
 --menu_link_title | commands.generate.form.options.menu_link_title
 --menu_parent | commands.generate.form.options.menu_parent

@@ -9,8 +9,8 @@ $ drupal generate:plugin:mail [options]
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---module | O nome do módulo.
+--module | The Module name.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
---services | Carrega serviços do container.
+--services | Load services from the container.

@@ -3,6 +3,11 @@
 
 **用法:**
 ```
-$ drupal container:debug
+$ drupal container:debug [arguments]
 $ cod  
 ```
+
+## 可用参数
+参数 | 详细
+---------|-------------
+service | commands.container.debug.options.cache

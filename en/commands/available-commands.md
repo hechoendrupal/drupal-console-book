@@ -15,6 +15,7 @@ Drupal Console Command | Details
 **breakpoints**  |
 [breakpoints:debug](breakpoints-debug.md) | Displays breakpoints available in application
 **cache**  |
+[cache:context:debug](cache-context-debug.md) | Displays current cache context for the application.
 [cache:rebuild](cache-rebuild.md) | Rebuild and clear all site caches.
 **chain**  |
 [chain:debug](chain-debug.md) | List available chain files.
@@ -25,7 +26,6 @@ Drupal Console Command | Details
 [config:edit](config-edit.md) | Edit the selected configuration.
 [config:export](config-export.md) | Export current application configuration.
 [config:export:content:type](config-export-content-type.md) | Export a specific content type and their fields.
-[config:export:single](config-export-single.md) | Export single configuration as yml file.
 [config:export:view](config-export-view.md) | Export a view in YAML format inside a provided module to reuse in other website.
 [config:import](config-import.md) | Import configuration to current application.
 [config:import:single](config-import-single.md) | Import the selected configuration.
@@ -52,8 +52,13 @@ Drupal Console Command | Details
 [database:log:debug](database-log-debug.md) | Display current log events for the application
 [database:restore](database-restore.md) | Restore structure and contents of a database.
 [database:table:debug](database-table-debug.md) | Show all tables in a given database.
+**devel**  |
+[devel:dumper](devel-dumper.md) | Change the devel dumper plugin
+**event**  |
+[event:debug](event-debug.md) | Display current events 
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
+[generate:breakpoint](generate-breakpoint.md) | Generate breakpoint
 [generate:command](generate-command.md) | Generate commands for the console.
 [generate:controller](generate-controller.md) | Generate & Register a controller
 [generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands
@@ -67,7 +72,9 @@ Drupal Console Command | Details
 [generate:form](generate-form.md) | Generate a new "FormBase"
 [generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
+[generate:help](generate-help.md) | Generate an implementation of hook_help()
 [generate:module](generate-module.md) | Generate a module.
+[generate:module:file](generate-module-file.md) | Generate a .module file
 [generate:permissions](generate-permissions.md) | Generate module permissions
 [generate:plugin:block](generate-plugin-block.md) | Generate a plugin block
 [generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
@@ -81,13 +88,17 @@ Drupal Console Command | Details
 [generate:plugin:mail](generate-plugin-mail.md) | Generate a plugin mail
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Generate plugin rest resource
 [generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Generate a plugin rule action
+[generate:plugin:skeleton](generate-plugin-skeleton.md) | Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Generate a plugin type with Yaml discovery
 [generate:plugin:views:field](generate-plugin-views-field.md) | Generate a custom plugin view field.
+[generate:post:update](generate-post-update.md) | commands.generate.post:update.description
 [generate:profile](generate-profile.md) | Generate a profile.
 [generate:routesubscriber](generate-routesubscriber.md) | Generate a RouteSubscriber
 [generate:service](generate-service.md) | Generate service
 [generate:theme](generate-theme.md) | Generate a theme.
+[generate:twig:extension](generate-twig-extension.md) | Generate a Twig extension.
+[generate:update](generate-update.md) | Generate an implementation of hook_update_N()
 **image**  |
 [image:styles:debug](image-styles-debug.md) | List image styles on the site
 [image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
@@ -100,18 +111,23 @@ Drupal Console Command | Details
 **migrate**  |
 [migrate:debug](migrate-debug.md) | Display current migration available for the application
 [migrate:execute](migrate-execute.md) | Execute a migration available for application
-[migrate:setup](migrate-setup.md) | Load and create the relevant migrations for a provided legacy database
 **module**  |
 [module:debug](module-debug.md) | Display current modules available for application
 [module:download](module-download.md) | Download module or modules in application
 [module:install](module-install.md) | Install module or modules in the application
+[module:path](module-path.md) | Returns the relative path to the module (or absolute path)
 [module:uninstall](module-uninstall.md) | Uninstall module or modules in the application
+[module:update](module-update.md) | Update core, module or modules in the application
 **multisite**  |
 [multisite:debug](multisite-debug.md) | List all multisites available in system
+[multisite:new](multisite-new.md) | Sets up the files for a new multisite install.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 **plugin**  |
 [plugin:debug](plugin-debug.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
+**queue**  |
+[queue:debug](queue-debug.md) | Display the queues of your application
+[queue:run](queue-run.md) | Process the selected queue.
 **rest**  |
 [rest:debug](rest-debug.md) | Display current rest resource for the application
 [rest:disable](rest-disable.md) | Disable a rest resource for the application
@@ -142,6 +158,7 @@ Drupal Console Command | Details
 [theme:debug](theme-debug.md) | Displays current themes for the application
 [theme:download](theme-download.md) | Download theme in application
 [theme:install](theme-install.md) | Install theme or themes in the application
+[theme:path](theme-path.md) | Returns the relative path to the theme (or absolute path)
 [theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application
 **translation**  |
 [translation:cleanup](translation-cleanup.md) | Clean up translation files
@@ -159,6 +176,7 @@ Drupal Console Command | Details
 [user:login:url](user-login-url.md) | Returns a one-time user login url.
 [user:password:hash](user-password-hash.md) | Generate a hash from a plaintext password.
 [user:password:reset](user-password-reset.md) | Reset password for a specific user.
+[user:role](user-role.md) | Adds/removes a role for a given user
 **views**  |
 [views:debug](views-debug.md) | Display current views resources for the application
 [views:disable](views-disable.md) | Disable a View

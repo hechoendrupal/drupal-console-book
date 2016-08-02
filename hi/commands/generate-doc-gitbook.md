@@ -1,5 +1,5 @@
 # generate:doc:gitbook
-कमाण्डो के लिए डॉक्युमेंटेशन्स उत्पन्न करें
+Generate documentations for Commands
 
 **प्रयोग:**
 ```
@@ -10,14 +10,14 @@ $ gdg
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---path | डॉक्युमेंटेशन्स को  प्रस्तुत करने के लिए पाथ
---help | 
---quiet | 
---verbose | 
---version | 
---ansi | 
---no-ansi | 
---no-interaction | 
+--path | The path to render the documentation
+--help | Display this help message
+--quiet | Suppress all output from the command
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output, and 3 for debug
+--version | Display this application version
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
 --env | The Environment name
 --root | Define the Drupal root to be used in command execution
 --no-debug | Switches off debug mode
@@ -29,7 +29,7 @@ $ gdg
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
-command | 
+command | The command to execute

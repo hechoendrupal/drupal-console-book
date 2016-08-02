@@ -1,5 +1,5 @@
 # check
-commands.check.description
+System requirement checker
 
 **Folosire:**
 ```

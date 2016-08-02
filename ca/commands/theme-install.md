@@ -1,9 +1,9 @@
 # theme:install
-El comandament **theme:install** executa Instal·lar temes per l'aplicació
+Instal·lar temes per l'aplicació
 
 **Ús:**
 ```
-$ drupal theme:install [arguments] [options] 
+$ drupal theme:install [arguments] [options]
 $ ti  
 ```
 

@@ -1,15 +1,16 @@
 # generate:plugin:imageformatter
-Generează un plugin de formatare a imaginii.
+Generate image formatter plugin.
 
 **Folosire:**
 ```
 $ drupal generate:plugin:imageformatter [options]
+$ gpif  
 ```
 
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---class | Numele clasei pluginului
---label | Eticheta pluginului
---plugin-id | ID-ul pluginului
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id

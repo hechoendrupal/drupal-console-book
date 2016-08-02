@@ -1,5 +1,5 @@
 # generate:form:alter
-生成 hook_form_alter() 或 hook_form_FORM_ID_alter 实现
+Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
 
 **用法:**
 ```
@@ -10,6 +10,6 @@ $ gfa
 ## 可用选项
 选项 | 详细
 -------|-------------
---module | 模块名称
---form-id | 要修改（Alter）的的表单(Form)ID
---inputs | 创建一个输入表单
+--module | The Module name.
+--form-id | Form ID to alter
+--inputs | Create inputs in a form.

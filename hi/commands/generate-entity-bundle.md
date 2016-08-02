@@ -1,5 +1,5 @@
 # generate:entity:bundle
-एक नया कंटेंट प्रकार उत्पन्न करें (नोड/एंटिटी बंडल)
+Generate a new content type (node / entity bundle)
 
 **प्रयोग:**
 ```
@@ -10,6 +10,6 @@ $ geb
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---bundle-name | कंटेंट प्रकार का यांत्रिक नाम
---bundle-title | कंटेंट प्रकार का मानव पठनीय नाम
+--module | The Module name.
+--bundle-name | The content type's machine name
+--bundle-title | The content type's human-readable name

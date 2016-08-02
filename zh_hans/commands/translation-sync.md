@@ -1,5 +1,5 @@
 # translation:sync
-同步翻译文件
+Sync translation files
 
 **用法:**
 ```
@@ -14,4 +14,4 @@ $ drupal translation:sync [arguments] [options]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-language | 语言代码
+language | Language to syncronize against English source files

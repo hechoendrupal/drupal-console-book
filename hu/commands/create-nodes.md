@@ -9,9 +9,9 @@ $ drupal create:nodes [arguments] [options]
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---limit | commands.create.nodes.arguments.limit
---title-words | commands.create.nodes.arguments.title-words
---time-range | commands.create.nodes.arguments.time-range
+--limit | Hány tartalom jöjjön létre
+--title-words | A tartalom címei által tartalmazott szavak maximális száma
+--time-range | Mennyire legyen visszadátumozva a tartalom?
 
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek

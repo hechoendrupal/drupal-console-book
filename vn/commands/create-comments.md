@@ -9,9 +9,9 @@ $ drupal create:comments [arguments] [options]
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---limit | commands.create.comments.arguments.limit
---title-words | commands.create.comments.arguments.title-words
---time-range | commands.create.comments.arguments.time-range
+--limit | How many comments would you like to create
+--title-words | Maximum number of words in comment titles
+--time-range | How far back in time should the comments be dated
 
 ## Các đối số có sẵn
 Đối số | Các chi tiết

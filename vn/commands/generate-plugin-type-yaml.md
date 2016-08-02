@@ -1,15 +1,16 @@
 # generate:plugin:type:yaml
-Tạo một plugin với Yaml discovery
+Generate a plugin type with Yaml discovery
 
 **Usage:**
 ```
 $ drupal generate:plugin:type:yaml [options]
+$ gpty  
 ```
 
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
---class | Tên lớp kiểu plugin
---plugin-name | Tên máy kiểu plugin
---plugin-file-name | Tên file plugin
+--module | The Module name.
+--class | Plugin type class name
+--plugin-name | Plugin type machine name
+--plugin-file-name | Plugin file name

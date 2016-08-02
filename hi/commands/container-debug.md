@@ -3,6 +3,11 @@
 
 **प्रयोग:**
 ```
-$ drupal container:debug
+$ drupal container:debug [arguments]
 $ cod  
 ```
+
+## उपलब्ध तर्क
+तर्क | विवरण
+---------|-------------
+service | commands.container.debug.options.cache

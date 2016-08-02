@@ -4,6 +4,7 @@ Generate a printable cheatsheet for Commands
 **Usage:**
 ```
 $ drupal generate:doc:cheatsheet [options]
+$ gdc  
 ```
 
 ## Các tùy chọn có sẵn

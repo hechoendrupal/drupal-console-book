@@ -7,7 +7,7 @@ $ drupal theme:uninstall [arguments]
 $ tu  
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 theme | commands.theme.uninstall.options.module

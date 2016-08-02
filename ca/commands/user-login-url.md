@@ -1,13 +1,13 @@
 # user:login:url
-El comandament **user:login:url** executa Retorna la 'one-time login url' d'un usuari.
+Generar la 'one-time login url' del usuari.
 
 **Ús:**
 ```
-$ drupal user:login:url [arguments] 
+$ drupal user:login:url [arguments]
 $ uslu  
 ```
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-user-id | ID d'usuari.
+user-id | Identificador del usuari.

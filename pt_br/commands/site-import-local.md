@@ -1,5 +1,5 @@
 # site:import:local
-Import/Configure an existing local Drupal project
+Importar/Configurar um projeto local existente do Drupal
 
 **Uso:**
 ```
@@ -9,10 +9,10 @@ $ drupal site:import:local [arguments] [options]
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---environment | Name of the environment that is going to be imported
+--environment | Nome do ambiente que será importado
 
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-name | Name that will be used to generate the site config
-directory | Existing Drupal root directory
+name | Nome que será usado para gerar a configuração do site
+directory | Diretório raíz do Drupal existente

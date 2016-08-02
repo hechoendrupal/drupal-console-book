@@ -7,7 +7,7 @@ $ drupal site:debug [arguments]
 $ sd  
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 target | commands.site.debug.options.target

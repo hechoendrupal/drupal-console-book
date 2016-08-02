@@ -10,4 +10,4 @@ $ sma
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-mode | Site em modo de manutenção[on/off]
+mode | commands.site.maintenance.arguments.mode[on/off]

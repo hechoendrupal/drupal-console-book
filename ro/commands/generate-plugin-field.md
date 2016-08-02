@@ -1,25 +1,26 @@
 # generate:plugin:field
-Generează extensiile: tipul de câmp, widget-ul si formatare.
+Generate field type, widget and formatter plugins.
 
 **Folosire:**
 ```
 $ drupal generate:plugin:field [options]
+$ gpf  
 ```
 
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---type-class | Numele clasei extensiei de tip câmp
---type-label | Eticheta extensiei de tip câmp
---type-plugin-id | ID-ul extensiei de tip câmp
+--module | The Module name.
+--type-class | Field type plugin class name
+--type-label | Field type plugin label
+--type-plugin-id | Field type plugin id
 --type-description | commands.generate.plugin.field.options.type-type-description
 --formatter-class | commands.generate.plugin.field.options.class
---formatter-label | Eticheta extensiei de formatare a câmpului
---formatter-plugin-id | ID-ul extensiei de formatare a câmpului
---widget-class | Numele clasei extensiei de formatare a câmpului
---widget-label | Eticheta extensiei de widget pentru câmp
---widget-plugin-id | ID-ul extensiei de widget pentru câmp
---field-type | Tipul de câmp cu, care pot fi folosite formatarea si widgetul
---default-widget | Widget-ul predefinit al extensiei de tip câmp.
---default-formatter | Formatarea predefinită pentru extensia de tip câmp
+--formatter-label | Field formatter plugin label
+--formatter-plugin-id | Field formatter plugin id
+--widget-class | Field formatter plugin class name
+--widget-label | Field widget plugin label
+--widget-plugin-id | Field widget plugin id
+--field-type | Field type the formatter and widget plugin can be used with
+--default-widget | Default field widget of the field type plugin
+--default-formatter | Default field formatter of field type plugin

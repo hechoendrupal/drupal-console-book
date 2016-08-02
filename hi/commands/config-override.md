@@ -4,12 +4,13 @@
 **प्रयोग:**
 ```
 $ drupal config:override [arguments]
+$ co  
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
-name | commands.config.override.arguments.name
+name | Configuration name
 key | कुंजी
 value | निधि
 

@@ -1,9 +1,9 @@
 # database:client
-El comandament **database:client** executa Llançar un client de base de dades si està disponible
+Executar un client de base de dades
 
 **Ús:**
 ```
-$ drupal database:client [arguments] 
+$ drupal database:client [arguments]
 ```
 
 ## Arguments disponibles

@@ -7,7 +7,7 @@ $ drupal site:maintenance [arguments]
 $ sma  
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
-mode | साइट मेंटेनेंस मोड[on/off]
+mode | commands.site.maintenance.arguments.mode[on/off]

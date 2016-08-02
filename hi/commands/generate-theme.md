@@ -1,5 +1,5 @@
 # generate:theme
-एक नया थीम उत्पन्न करें।
+Generate a theme.
 
 **प्रयोग:**
 ```
@@ -11,12 +11,12 @@ $ gt
 विकल्प | विवरण
 -------|-------------
 --theme | commands.generate.theme.options.module
---machine-name | यांत्रिक नाम (लोअरकेस और केवल अंडरस्कोर)
+--machine-name | The machine name (lowercase and underscore only)
 --theme-path | commands.generate.theme.options.module-path
---description | थीम विवरण
---core | मूल संस्करण
---package | थीम पैकेज
---global-library | वैश्विक स्टाइल पुस्तकालय नाम
---base-theme | आधार थीम (i.e. classy, stable)
---regions | क्षेत्र
---breakpoints | ब्रेक पॉइंट्स
+--description | Theme description
+--core | Core version
+--package | Theme package
+--global-library | Global styling library name
+--base-theme | Base theme (i.e. classy, stable)
+--regions | Regions
+--breakpoints | Breakpoints

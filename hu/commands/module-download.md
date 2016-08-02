@@ -10,8 +10,10 @@ $ md
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---path | commands.module.download.options.path
+--path | The path of the contrib project
 --latest | Az alapértelmezés a legfrissebb verzió letöltése
+--composer | Download the module using Composer
+--unstable | commands.module.install.options.unstable
 
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek

@@ -1,15 +1,16 @@
 # generate:plugin:type:annotation
-El comandament **generate:plugin:type:annotation** executa Generar un tipus de plugin amb descobriment d'anotació
+Generar un tipus de connector amb descobriment d'anotació
 
 **Ús:**
 ```
-$ drupal generate:plugin:type:annotation [options] 
+$ drupal generate:plugin:type:annotation [options]
+$ gpta  
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
---class | Nom de la classe del plugin
+--class | Nom de la classe del conenctor
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
---label | Etiqueta del plugin
+--label | Etiqueta del connector

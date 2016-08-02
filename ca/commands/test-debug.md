@@ -1,16 +1,16 @@
 # test:debug
-El comandament **test:debug** executa Llista els Test Units disponibles per l'aplicació.
+Llistar els Test Units disponibles per l'aplicació.
 
 **Ús:**
 ```
-$ drupal test:debug [arguments] [options] 
+$ drupal test:debug [arguments] [options]
 $ td  
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---test-class | Classe test
+--test-class | Classe de verificació
 
 ## Arguments disponibles
 Argument | Detalls

@@ -10,4 +10,4 @@ $ redi
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-resource-id | Rest ID
+resource-id | REST ID

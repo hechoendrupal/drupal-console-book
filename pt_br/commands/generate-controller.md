@@ -1,5 +1,5 @@
 # generate:controller
-Cria e Registra um controller
+Generate & Register a controller
 
 **Uso:**
 ```
@@ -10,8 +10,8 @@ $ gcn
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---module | O nome do módulo.
---class | Nome da classe do Controller
+--module | The Module name.
+--class | Controller Class name
 --routes | The routes, must be an array containing [title, method, path]
---services | Carrega serviços do container.
---test | Criar uma classe de teste
+--services | Load services from the container.
+--test | Generate a test class

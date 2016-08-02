@@ -10,7 +10,9 @@ $ sn
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---latest | commands.site.new.options.latest
+--latest | Use esta opción para seleccionar automáticamente la última versión
+--composer | Instala Drupal con Composer
+--unstable | Use esta opción para descargar versiones de desarrollo. Si no usa esta opción, sólo podrá descargar versiones estables. No use esta opción juntamente con las opciones latest ni version.
 
 ## Argumentos disponibles
 Argumento | Detalles

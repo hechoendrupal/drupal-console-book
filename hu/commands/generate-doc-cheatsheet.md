@@ -4,6 +4,7 @@ Generate a printable cheatsheet for Commands
 **Használat:**
 ```
 $ drupal generate:doc:cheatsheet [options]
+$ gdc  
 ```
 
 ## Rendelkezésre álló beállítások

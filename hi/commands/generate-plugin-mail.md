@@ -9,8 +9,8 @@ $ drupal generate:plugin:mail [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
+--module | The Module name.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
---services | सर्विसेज़ को container से लोड करें।
+--services | Load services from the container.

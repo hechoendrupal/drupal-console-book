@@ -12,7 +12,7 @@ Argumentum | Részletek
 address | A cím:port értékek
 
 ## Példák
-* Futtatás az alapértelmezett cím argumentumértékkel: 127.0.0.1.8088
+* Futtatás az alapértelmezett cím argumentumértékkel: 127.0.0.1:8088
 ```
 $ drupal server
 ```

@@ -1,5 +1,5 @@
 # generate:command
-Parancsok létrehozása a konzolhoz.
+Generate commands for the console.
 
 **Használat:**
 ```
@@ -10,7 +10,7 @@ $ gcm
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---class | A parancsot leíró osztály. (A 'Command' szóra kell végződnie).
---name | A parancs neve.
---container-aware | A parancs ismeri-e a drupal telepítési helyét a végrehajtáskor
+--module | The Module name.
+--class | The Class that describes the command. (Must end with the word 'Command').
+--name | The Command name.
+--container-aware | Is the command aware of the drupal site installation when executed

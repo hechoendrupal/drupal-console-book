@@ -1,5 +1,5 @@
 # generate:service
-Genereaza un serviciu
+Generate service
 
 **Folosire:**
 ```
@@ -10,8 +10,9 @@ $ gs
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
+--module | The Module name.
 --name | commands.generate.service.options.name
---class | Numele Clasei
+--class | Class name
 --interface | commands.common.service.options.interface
---services | Încarcă serviciile din container.
+--services | Load services from the container.
+--path_service | Path

@@ -1,5 +1,5 @@
 # rest:debug
-Display current rest resource for the application
+Exibir o recurso REST atual para a aplicação
 
 **Uso:**
 ```
@@ -10,9 +10,9 @@ $ rede
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---authorization | Rest resource status enabled | disabled
+--authorization | Recurso REST habilitado | desabilitado
 
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-resource-id | Rest ID
+resource-id | REST ID

@@ -9,9 +9,9 @@ $ drupal create:comments [arguments] [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---limit | commands.create.comments.arguments.limit
---title-words | commands.create.comments.arguments.title-words
---time-range | commands.create.comments.arguments.time-range
+--limit | ¿Cuántos comentarios quiere crear?
+--title-words | ¿Cuál es el número máximo de palabras en los títulos de los comentarios?
+--time-range | ¿Cuán atrás en el tiempo se deben crear los comentarios?
 
 ## Argumentos disponibles
 Argumento | Detalles

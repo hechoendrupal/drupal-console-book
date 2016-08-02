@@ -1,5 +1,5 @@
 # translation:pending
-Determina cadenas de traducción pendientes en un idioma o en un archivo específico de un idioma
+Determine pending translation string in a language or a specific file in a language
 
 **Uso:**
 ```
@@ -9,9 +9,9 @@ $ drupal translation:pending [arguments] [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---file | Archivo específico con el que determinar las traducciones pendientes contra el inglés
+--file | Specific file to determine pending translations against English
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-language | Idioma a determinar sus traducciones pendientes contra el inglés
+language | Language to determine pending translations against English

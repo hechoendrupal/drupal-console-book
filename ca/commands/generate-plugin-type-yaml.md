@@ -1,15 +1,16 @@
 # generate:plugin:type:yaml
-El comandament **generate:plugin:type:yaml** executa Genera un tipus de plugin amb descobriment de Yaml
+Generar un tipus de connector amb descobriment de YAML
 
 **Ús:**
 ```
-$ drupal generate:plugin:type:yaml [options] 
+$ drupal generate:plugin:type:yaml [options]
+$ gpty  
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
---class | Nom de classe del tipus de plugin
---plugin-name | Nom màquina de la classe del tipus de plugin
---plugin-file-name | Nom del fitxer del plugin
+--class | Nom de classe del tipus de connector
+--plugin-name | Nom màquina de la classe del tipus de connector
+--plugin-file-name | Nom del fitxer del connector

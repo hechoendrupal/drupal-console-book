@@ -7,7 +7,7 @@ $ drupal rest:disable [arguments]
 $ redi  
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 resource-id | Rest क्रमांक

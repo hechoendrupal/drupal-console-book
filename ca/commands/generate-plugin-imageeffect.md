@@ -1,16 +1,17 @@
 # generate:plugin:imageeffect
-El comandament **generate:plugin:imageeffect** executa Generar plugin d'efecte d'imatge.
+Generar un connector d'efecte d'imatge.
 
 **Ús:**
 ```
-$ drupal generate:plugin:imageeffect [options] 
+$ drupal generate:plugin:imageeffect [options]
+$ gpie  
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
---class | Nom de la classe del plugin
---label | Etiqueta del plugin
---plugin-id | Id del plugin
---description | Descripció del plugin
+--class | Nom de la classe del connector
+--label | Etiqueta del connector
+--plugin-id | Identificador del connector
+--description | Descripció del connector

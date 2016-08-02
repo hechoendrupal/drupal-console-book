@@ -11,7 +11,7 @@ $ drupal database:dump [arguments] [options]
 -------|-------------
 --file | commands.database.dump.option.file
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 database | Settings.php से डाटाबेस कुंजी

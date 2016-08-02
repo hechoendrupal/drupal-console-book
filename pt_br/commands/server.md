@@ -12,7 +12,7 @@ Argumento | Detalhes
 address | Valores de endereço:porta
 
 ## Exemplos
-* Executar com o endereço padrão 127.0.0.1.8088
+* Executar com o endereço padrão 127.0.0.1:8088
 ```
 $ drupal server
 ```

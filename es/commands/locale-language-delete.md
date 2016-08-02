@@ -1,5 +1,5 @@
 # locale:language:delete
-Eliminar un idioma soportado en el sitio
+Delete a language to be supported by your site
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal locale:language:delete [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-language | Idioma por ejemplo es o Español
+language | Language for instance es or Spanish

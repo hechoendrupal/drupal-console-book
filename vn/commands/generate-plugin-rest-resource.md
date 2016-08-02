@@ -1,18 +1,19 @@
 # generate:plugin:rest:resource
-Tạo plugin rest resource
+Generate plugin rest resource
 
 **Usage:**
 ```
 $ drupal generate:plugin:rest:resource [options]
+$ gprr  
 ```
 
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
---class | Lớp plugin rest resource
+--module | The Module name.
+--class | Plugin Rest Resource class
 --name | commands.generate.service.options.name
 --plugin-id | Plugin Rest Resource id
---plugin-label | Nhãn Plugin Rest Resource
+--plugin-label | Plugin Rest Resource Label
 --plugin-url | Plugin Rest Resource URL
---plugin-states | Tình trạng Plugin Rest Resource
+--plugin-states | Plugin Rest Resource States

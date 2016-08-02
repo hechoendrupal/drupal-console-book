@@ -1,14 +1,14 @@
 # config:import:single
-El comandament **config:import:single** executa Importar la configuració seleccionada.
+Import the selected configuration.
 
 **Ús:**
 ```
-$ drupal config:import:single [arguments] 
+$ drupal config:import:single [arguments]
 $ cis  
 ```
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-config-name | Nom de la configuració.
-input-file | Ruta del fitxers d'importació.
+name | Configuration name.
+file | Path to the import file

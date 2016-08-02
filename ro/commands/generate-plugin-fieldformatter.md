@@ -1,16 +1,17 @@
 # generate:plugin:fieldformatter
-Generează extensia de formatare a câmpului.
+Generate field formatter plugin.
 
 **Folosire:**
 ```
 $ drupal generate:plugin:fieldformatter [options]
+$ gpff  
 ```
 
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---class | Numele clasei pentru extensie
---label | Eticheta extensiei
---plugin-id | ID-ul extensiei
---field-type | Tipul câmpului cu, care extensia poate fi folosită
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--field-type | Field type the plugin can be used with

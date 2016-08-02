@@ -12,7 +12,7 @@ Argument | Detalii
 address | The address:port values
 
 ## Exemple
-* Run using default address argument value 127.0.0.1.8088
+* Run using default address argument value 127.0.0.1:8088
 ```
 $ drupal server
 ```

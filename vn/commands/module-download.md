@@ -10,8 +10,10 @@ $ md
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---path | commands.module.download.options.path
+--path | The path of the contrib project
 --latest | Default to download most recent version
+--composer | Download the module using Composer
+--unstable | commands.module.install.options.unstable
 
 ## Các đối số có sẵn
 Đối số | Các chi tiết

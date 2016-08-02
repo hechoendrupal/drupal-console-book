@@ -1,5 +1,5 @@
 # generate:authentication:provider
-Generează un "Authentication Provider"
+Generate an Authentication Provider
 
 **Folosire:**
 ```
@@ -10,6 +10,6 @@ $ gap
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---class | commands.generate.authentication.provider.options.class
---provider-id | commands.generate.authentication.provider.options.provider-id
+--module | The Module name.
+--class | Authentication Provider class
+--provider-id | Provider ID

@@ -1,5 +1,5 @@
 # self-update
-Projekt frissítése a legújabb verzióra.
+Update project to the latest version.
 
 **Használat:**
 ```
@@ -9,6 +9,6 @@ $ drupal self-update [options]
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---major | Frissítés új főverzióra, ha az elérhető.
---manifest | A jegyzékfájl útvonalának felülbírálása.
---current-version | A frissítendő verzió felülbírálása.
+--major | Update to a new major version, if available.
+--manifest | Override the manifest file path.
+--current-version | Override the version to update from.

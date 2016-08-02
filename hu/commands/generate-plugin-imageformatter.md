@@ -1,15 +1,16 @@
 # generate:plugin:imageformatter
-Képformázó bővítmény létrehozása.
+Generate image formatter plugin.
 
 **Használat:**
 ```
 $ drupal generate:plugin:imageformatter [options]
+$ gpif  
 ```
 
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---class | Bővítményosztály neve
---label | Bővítmény felirata
---plugin-id | Bővítmény azonosítója
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id

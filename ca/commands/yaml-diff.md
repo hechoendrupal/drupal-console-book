@@ -1,9 +1,9 @@
 # yaml:diff
-El comandament **yaml:diff** executa Compara dos fitxers YAML amb l'objectiu de trobar diferències.
+Comparar dos fitxers YAML.
 
 **Ús:**
 ```
-$ drupal yaml:diff [arguments] [options] 
+$ drupal yaml:diff [arguments] [options]
 $ yd  
 ```
 

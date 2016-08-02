@@ -4,6 +4,7 @@ Generate image effect plugin.
 **Usage:**
 ```
 $ drupal generate:plugin:imageeffect [options]
+$ gpie  
 ```
 
 ## Available options

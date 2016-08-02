@@ -1,5 +1,5 @@
 # generate:entity:content
-Generează o entitate de conținut nouă
+Generate a new content entity
 
 **Folosire:**
 ```
@@ -10,9 +10,10 @@ $ gect
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---entity-class | Clasa entității de conținut
---entity-name | Numele entității de conținut
+--module | The Module name.
+--entity-class | The content entity class
+--entity-name | The content entity name
 --base-path | The base-path for the content entity routes
---label | Eticheta
+--label | The label
 --has-bundles | Entity has bundles
+--is-translatable | Content entity translatable

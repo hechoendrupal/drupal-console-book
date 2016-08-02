@@ -1,16 +1,17 @@
 # generate:plugin:imageeffect
-Tạo plugin hiệu ứng hình ảnh
+Generate image effect plugin.
 
 **Usage:**
 ```
 $ drupal generate:plugin:imageeffect [options]
+$ gpie  
 ```
 
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
---class | Tên lớp plugin
---label | Nhãn plugin
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
 --plugin-id | Plugin id
---description | Mô tả plugin
+--description | Plugin Description

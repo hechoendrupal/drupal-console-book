@@ -1,9 +1,9 @@
 # update:execute
-El comandament **update:execute** executa Executar una funció Update N en un mòdul, o executar-les totes
+Executar una funció Update N en un mòdul, o executar-les totes
 
 **Ús:**
 ```
-$ drupal update:execute [arguments] 
+$ drupal update:execute [arguments]
 $ upe  
 ```
 

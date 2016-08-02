@@ -1,17 +1,17 @@
 # create:nodes
-El comandament **create:nodes** executa Crear nodes dummy per la teva aplicació Drupal 8.
+Crear nodes 'dummy' per l'aplicació Drupal 8.
 
 **Ús:**
 ```
-$ drupal create:nodes [arguments] [options] 
+$ drupal create:nodes [arguments] [options]
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---limit | commands.create.nodes.arguments.limit
---title-words | commands.create.nodes.arguments.title-words
---time-range | commands.create.nodes.arguments.time-range
+--limit | Quants nodes voldrieu crear
+--title-words | Màxim de pararules dels títols de nodes
+--time-range | Quant de temps enrere ha de ser la data dels nodes
 
 ## Arguments disponibles
 Argument | Detalls

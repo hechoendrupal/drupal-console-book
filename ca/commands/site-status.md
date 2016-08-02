@@ -1,9 +1,9 @@
 # site:status
-El comandament **site:status** executa Veure l'estat actual de l'instal·lació de Drupal
+Veure l'estat actual de l'instal·lació de Drupal
 
 **Ús:**
 ```
-$ drupal site:status [options] 
+$ drupal site:status [options]
 $ ss  
 ```
 

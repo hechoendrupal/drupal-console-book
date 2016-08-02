@@ -1,9 +1,9 @@
 # generate:service
-El comandament **generate:service** executa Generar servei
+Generar un servei
 
 **Ús:**
 ```
-$ drupal generate:service [options] 
+$ drupal generate:service [options]
 $ gs  
 ```
 
@@ -15,3 +15,4 @@ Opció | Detalls
 --class | Nom de la classe
 --interface | commands.common.service.options.interface
 --services | Carregar serveis des del contenidor.
+--path_service | Path

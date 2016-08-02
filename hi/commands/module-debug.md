@@ -3,7 +3,8 @@
 
 **प्रयोग:**
 ```
-$ drupal module:debug [options]
+$ drupal module:debug [arguments] [options]
+$ mod  
 ```
 
 ## उपलब्ध विकल्प
@@ -11,3 +12,8 @@ $ drupal module:debug [options]
 -------|-------------
 --status | मोड्यूल स्थिति [चालू है | बंद है]
 --type | मोड्यूल प्रकार [मूल|मूल नही]
+
+## उपलब्ध तर्क
+तर्क | विवरण
+---------|-------------
+module | commands.module.debug.module

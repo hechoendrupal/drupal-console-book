@@ -1,18 +1,19 @@
 # generate:plugin:fieldtype
-Gerar um plugin de tipo de campo
+Generate field type plugin.
 
 **Uso:**
 ```
 $ drupal generate:plugin:fieldtype [options]
+$ gpft  
 ```
 
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---module | O nome do módulo.
---class | Nome da classe do plugin
---label | Label do plugin
---plugin-id | Id do plugin
---description | Descrição do plugin
---default-widget | Widget de campo padrão deste plugin
---default-formatter | Formatador de campo padrão deste plugin
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--description | Plugin Description
+--default-widget | Default field widget of this plugin
+--default-formatter | Default field formatter of this plugin

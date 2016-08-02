@@ -1,5 +1,5 @@
 # generate:entity:bundle
-Új tartalomtípus létrehozása (tartalom / mezőköteg)
+Generate a new content type (node / entity bundle)
 
 **Használat:**
 ```
@@ -10,6 +10,6 @@ $ geb
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---bundle-name | A tartalomtípus programok által használt neve
---bundle-title | A tartalomtípus felhasználók által olvasható neve
+--module | The Module name.
+--bundle-name | The content type's machine name
+--bundle-title | The content type's human-readable name

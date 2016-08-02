@@ -1,9 +1,9 @@
 # generate:theme
-El comandament **generate:theme** executa Generar un tema.
+Generar un tema.
 
 **Ús:**
 ```
-$ drupal generate:theme [options] 
+$ drupal generate:theme [options]
 $ gt  
 ```
 
@@ -16,7 +16,7 @@ Opció | Detalls
 --description | Descripció del tema
 --core | Versió del Core
 --package | Paquet del tema
---global-library | Nom global de l'estil de la llibrería
+--global-library | Nom global de l'estil de la biblioteca
 --base-theme | Base del tema (p.e. classy, stable)
 --regions | Regions
 --breakpoints | Punts d'interrupció (Breakpoints)

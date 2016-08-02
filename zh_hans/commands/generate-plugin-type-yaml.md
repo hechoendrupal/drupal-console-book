@@ -1,15 +1,16 @@
 # generate:plugin:type:yaml
-生成一个有识别Yaml能力的插件类别
+Generate a plugin type with Yaml discovery
 
 **用法:**
 ```
 $ drupal generate:plugin:type:yaml [options]
+$ gpty  
 ```
 
 ## 可用选项
 选项 | 详细
 -------|-------------
---module | 模块名称
---class | 插件类型类名
---plugin-name | 插件类别内部机器名
---plugin-file-name | 插件文件名
+--module | The Module name.
+--class | Plugin type class name
+--plugin-name | Plugin type machine name
+--plugin-file-name | Plugin file name

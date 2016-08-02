@@ -9,9 +9,9 @@ $ drupal create:nodes [arguments] [options]
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---limit | commands.create.nodes.arguments.limit
---title-words | commands.create.nodes.arguments.title-words
---time-range | commands.create.nodes.arguments.time-range
+--limit | Bạn muốn tạo bao nhiêu node?
+--title-words | Maximum number of words in node titles
+--time-range | How far back in time should the nodes be dated
 
 ## Các đối số có sẵn
 Đối số | Các chi tiết

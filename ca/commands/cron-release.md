@@ -1,8 +1,8 @@
 # cron:release
-El comandament **cron:release** executa Desbloquejar el cron del sistema per tornar a executar-lo
+Desbloquejar el cron del sistema per tornar-lo a executar
 
 **Ús:**
 ```
-$ drupal cron:release 
+$ drupal cron:release
 $ crr  
 ```

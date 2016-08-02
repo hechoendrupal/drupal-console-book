@@ -1,9 +1,9 @@
 # database:restore
-El comandament **database:restore** executa Restaurar l'estructura, continguts i taules de la base de dades MySQL
+Restaurar l'estructura, continguts i taules de la base de dades MySQL
 
 **Ús:**
 ```
-$ drupal database:restore [arguments] [options] 
+$ drupal database:restore [arguments] [options]
 ```
 
 ## Opcions disponibles

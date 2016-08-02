@@ -1,5 +1,5 @@
 # generate:plugin:block
-Generează un Plugin de tip bloc
+Generate a plugin block
 
 **Folosire:**
 ```
@@ -10,10 +10,10 @@ $ gpb
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---class | Numele clasei pluginului
---label | Eticheta pluginului
---plugin-id | ID-ul pluginului
---theme-region | Regiunea temei unde va fi randat Pluginul de tip bloc
---inputs | Creează intrări într-un formular.
---services | Încarcă serviciile din container.
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--theme-region | Theme region to render Plugin Block
+--inputs | Create inputs in a form.
+--services | Load services from the container.

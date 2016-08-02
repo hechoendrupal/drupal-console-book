@@ -10,7 +10,9 @@ $ sn
 ## 可用选项
 选项 | 详细
 -------|-------------
---latest | commands.site.new.options.latest
+--latest | 使用这个选项自动选择最新版本
+--composer | 使用 Composer 安装 Drupal
+--unstable | 使用这个选项下载非稳定版本. 如果不使用,仅可以下载稳定版本。不要和 latest 或版本 一起使用这个选项
 
 ## 可用参数
 参数 | 详细

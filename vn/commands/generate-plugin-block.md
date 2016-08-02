@@ -1,5 +1,5 @@
 # generate:plugin:block
-Tạo một plugin block
+Generate a plugin block
 
 **Usage:**
 ```
@@ -10,10 +10,10 @@ $ gpb
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
---class | Tên lớp plugin
---label | Nhãn plugin
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
 --plugin-id | Plugin id
---theme-region | Theme region để render Plugin Block
---inputs | Tạo các đầu vào trong một form.
---services | Nạp các dịch vụ từ container.
+--theme-region | Theme region to render Plugin Block
+--inputs | Create inputs in a form.
+--services | Load services from the container.

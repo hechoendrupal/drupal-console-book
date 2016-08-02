@@ -1,25 +1,26 @@
 # generate:plugin:field
-खाना प्रकार, विजेट और formatter प्लगिन उत्पन्न करें।
+Generate field type, widget and formatter plugins.
 
 **प्रयोग:**
 ```
 $ drupal generate:plugin:field [options]
+$ gpf  
 ```
 
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---type-class | खाना प्रकार प्लगिन क्लास का नाम
---type-label | खाना प्रकार प्लगिन उप-शीर्षक
---type-plugin-id | खाना प्रकार प्लगिन id
+--module | The Module name.
+--type-class | Field type plugin class name
+--type-label | Field type plugin label
+--type-plugin-id | Field type plugin id
 --type-description | commands.generate.plugin.field.options.type-type-description
 --formatter-class | commands.generate.plugin.field.options.class
---formatter-label | खाना formatter प्लगिन उप-शीर्षक
---formatter-plugin-id | खाना formatter प्लगिन id
---widget-class | खाना formatter प्लगिन क्लास का नाम
---widget-label | खाना विजेट प्लगिन उप-शीर्षक
---widget-plugin-id | खाना विजेट प्लगिन  id
---field-type | खाना प्रकार formatter और विजेट प्लगिन साथ इस्तेमाल किया जा सकता
---default-widget | खाना प्रकार  प्लगिन का डीफाल्ट खाना विजेट
---default-formatter | खाना प्रकार  प्लगिन का डीफाल्ट खाना formatter
+--formatter-label | Field formatter plugin label
+--formatter-plugin-id | Field formatter plugin id
+--widget-class | Field formatter plugin class name
+--widget-label | Field widget plugin label
+--widget-plugin-id | Field widget plugin id
+--field-type | Field type the formatter and widget plugin can be used with
+--default-widget | Default field widget of the field type plugin
+--default-formatter | Default field formatter of field type plugin

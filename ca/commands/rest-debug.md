@@ -1,9 +1,9 @@
 # rest:debug
-El comandament **rest:debug** executa Mostra el recurs Rest actual per l'aplicació
+Mostrar l'actual recurs Rest de l'aplicació
 
 **Ús:**
 ```
-$ drupal rest:debug [arguments] [options] 
+$ drupal rest:debug [arguments] [options]
 $ rede  
 ```
 
@@ -15,4 +15,4 @@ Opció | Detalls
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-resource-id | Rest ID
+resource-id | Identificador Rest

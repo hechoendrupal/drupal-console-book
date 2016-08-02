@@ -1,5 +1,5 @@
 # generate:doc:gitbook
-生成命令文档
+Generate documentations for Commands
 
 **用法:**
 ```
@@ -10,14 +10,14 @@ $ gdg
 ## 可用选项
 选项 | 详细
 -------|-------------
---path | 呈现文档的路径
---help | 
---quiet | 
---verbose | 
---version | 
---ansi | 
---no-ansi | 
---no-interaction | 
+--path | The path to render the documentation
+--help | Display this help message
+--quiet | Suppress all output from the command
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output, and 3 for debug
+--version | Display this application version
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
 --env | The Environment name
 --root | Define the Drupal root to be used in command execution
 --no-debug | Switches off debug mode
@@ -32,4 +32,4 @@ $ gdg
 ## 可用参数
 参数 | 详细
 ---------|-------------
-command | 
+command | The command to execute

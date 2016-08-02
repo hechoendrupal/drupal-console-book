@@ -4,6 +4,7 @@ Generate plugin rest resource
 **Usage:**
 ```
 $ drupal generate:plugin:rest:resource [options]
+$ gprr  
 ```
 
 ## Available options

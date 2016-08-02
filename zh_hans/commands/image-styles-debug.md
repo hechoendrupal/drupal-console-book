@@ -1,5 +1,5 @@
 # image:styles:debug
-List image styles on the site
+列出网站的图像样式
 
 **用法:**
 ```

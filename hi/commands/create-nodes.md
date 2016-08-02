@@ -9,11 +9,11 @@ $ drupal create:nodes [arguments] [options]
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---limit | commands.create.nodes.arguments.limit
---title-words | commands.create.nodes.arguments.title-words
---time-range | commands.create.nodes.arguments.time-range
+--limit | आप कितने भी नोड्स बना सकते है
+--title-words | नोड टाइटल्स में शब्दों की अधिकतम संख्या
+--time-range | नोड्स दिनांकित किया जाना चाहिए की कितनी दूर समय में वापस होगा
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 content-types | कंटेंट टाइप(स) का उपयोग नोड क्रिएशन में किया जाता है।
