@@ -1,5 +1,5 @@
 # generate:event:subscriber
-Tạo một event subscriber
+Generate an event subscriber
 
 **Usage:**
 ```
@@ -10,8 +10,8 @@ $ ges
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
+--module | The Module name.
 --name | commands.generate.service.options.name
---class | Tên Class
---events | Nạp các dịch vụ từ container.
---services | Nạp các dịch vụ từ container.
+--class | Class name
+--events | Load events from the container
+--services | Load services from the container.

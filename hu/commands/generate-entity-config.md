@@ -1,5 +1,5 @@
 # generate:entity:config
-Új konfigurációs entitás létrehozása
+Generate a new config entity
 
 **Használat:**
 ```
@@ -10,9 +10,9 @@ $ gecg
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---entity-class | A konfigurációs entitás osztálya
---entity-name | A konfigurációs entitás neve
---base-path | A konfigurációs entitások útvonalainak alapútvonala
---label | A felirat
---bundle-of | A tartalomentitások mezőkötegeként funkcionál
+--module | The Module name.
+--entity-class | The config entity class
+--entity-name | The config entity name
+--base-path | The base-path for the config entity routes
+--label | The label
+--bundle-of | Acts as bundle for content entities

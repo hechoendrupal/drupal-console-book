@@ -1,5 +1,5 @@
 # self-update
-Actualizează Consola la ultima versiune.
+Update project to the latest version.
 
 **Folosire:**
 ```

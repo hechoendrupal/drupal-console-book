@@ -1,16 +1,17 @@
 # generate:plugin:fieldwidget
-El comandament **generate:plugin:fieldwidget** executa Generar plugin de widget de camp.
+Generar connector de giny de camp.
 
 **Ús:**
 ```
-$ drupal generate:plugin:fieldwidget [options] 
+$ drupal generate:plugin:fieldwidget [options]
+$ gpfw  
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
---class | Nom de la classe del plugin
---label | Etiqueta del plugin
---plugin-id | Id del plugin
---field-type | Tipus de camp amb el que el plugin es pot utilitzar
+--class | Nom de la classe del connector
+--label | Etiqueta del connector
+--plugin-id | Identificador del connector
+--field-type | Tipus de camp amb el que el connector es pot utilitzar

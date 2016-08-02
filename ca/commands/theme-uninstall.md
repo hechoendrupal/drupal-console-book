@@ -1,9 +1,9 @@
 # theme:uninstall
-El comandament **theme:uninstall** executa Desinstal·lar temes de l'alicació
+Desinstal·lar els temes de l'aplicació
 
 **Ús:**
 ```
-$ drupal theme:uninstall [arguments] 
+$ drupal theme:uninstall [arguments]
 $ tu  
 ```
 

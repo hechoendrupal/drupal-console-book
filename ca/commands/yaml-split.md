@@ -1,9 +1,9 @@
 # yaml:split
-El comandament **yaml:split** executa Dividir un fitxer YAML utilitzant una indentació com a criteri de separació
+Dividir un fitxer YAML utilitzant una indentació com a criteri de separació
 
 **Ús:**
 ```
-$ drupal yaml:split [arguments] [options] 
+$ drupal yaml:split [arguments] [options]
 $ ys  
 ```
 

@@ -1,12 +1,13 @@
 # chain
-El comandament **chain** executa Execució de comandaments en secuència
+Execució de comandaments en secuència
 
 **Ús:**
 ```
-$ drupal chain [options] 
+$ drupal chain [options]
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
---file | Arxiu definit per l'usuari que conté el comandaments que s'executaran.
+--file | El fitxer definit per l'usuari que conté el comandaments que s'executaran.
+--placeholder | commands.chain.options.placeholder

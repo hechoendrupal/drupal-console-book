@@ -1,5 +1,5 @@
 # generate:authentication:provider
-Tạo ra một Authentication Provider
+Generate an Authentication Provider
 
 **Usage:**
 ```
@@ -10,6 +10,6 @@ $ gap
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
---class | Lớp Authentication Provider
+--module | The Module name.
+--class | Authentication Provider class
 --provider-id | Provider ID

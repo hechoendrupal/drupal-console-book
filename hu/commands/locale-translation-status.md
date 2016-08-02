@@ -1,5 +1,5 @@
 # locale:translation:status
-Rendelkezésre álló fordítási frissítések listázása
+List available translation updates
 
 **Használat:**
 ```
@@ -9,4 +9,4 @@ $ drupal locale:translation:status [arguments]
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek
 ---------|-------------
-language | Nyelv, például es vagy Spanish
+language | Language for instance es or Spanish

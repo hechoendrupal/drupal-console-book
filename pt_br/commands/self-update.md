@@ -1,5 +1,5 @@
 # self-update
-Update the console to latest version.
+Update project to the latest version.
 
 **Uso:**
 ```

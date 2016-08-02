@@ -7,7 +7,7 @@ $ drupal site:mode [arguments]
 $ smo  
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 environment | एनवायरनमेंट नाम (dev|prod)

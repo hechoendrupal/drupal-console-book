@@ -1,5 +1,5 @@
 # generate:permissions
-生成模块权限
+Generate module permissions
 
 **用法:**
 ```
@@ -10,5 +10,5 @@ $ gp
 ## 可用选项
 选项 | 详细
 -------|-------------
---module | 模块名称
---permissions | 创建权限
+--module | The Module name.
+--permissions | Create permissions.

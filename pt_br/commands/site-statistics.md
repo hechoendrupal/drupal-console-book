@@ -1,5 +1,5 @@
 # site:statistics
-Show the current statistics of website.
+Exibe as estatísticas atuais para o website.
 
 **Uso:**
 ```

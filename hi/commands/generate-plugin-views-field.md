@@ -1,15 +1,16 @@
 # generate:plugin:views:field
-विशेष प्लगिन व्यू खाना उत्पन्न करें
+Generate a custom plugin view field.
 
 **प्रयोग:**
 ```
 $ drupal generate:plugin:views:field [options]
+$ gpvf  
 ```
 
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---class | व्यू प्लगिन खाना क्लास नाम
---title | व्यू प्लगिन खाना शीर्षक
---description | व्यू प्लगिन खाना विवरण
+--module | The Module name.
+--class | Views plugin field class name
+--title | Views plugin field title
+--description | Views plugin field description

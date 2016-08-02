@@ -1,5 +1,5 @@
 # generate:service
-Tạo dịch vụ
+Generate service
 
 **Usage:**
 ```
@@ -10,8 +10,9 @@ $ gs
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
+--module | The Module name.
 --name | commands.generate.service.options.name
---class | Tên Class
+--class | Class name
 --interface | commands.common.service.options.interface
---services | Nạp các dịch vụ từ container.
+--services | Load services from the container.
+--path_service | Path

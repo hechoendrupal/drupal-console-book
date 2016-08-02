@@ -16,3 +16,4 @@ Option | Details
 --base-path | The base-path for the content entity routes
 --label | The label
 --has-bundles | Entity has bundles
+--is-translatable | Content entity translatable

@@ -1,5 +1,5 @@
 # init
-commands.init.description
+Copy configuration files to user home directory.
 
 **Folosire:**
 ```
@@ -9,4 +9,4 @@ $ drupal init [options]
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---override | commands.init.options.override
+--override | Override configurations files

@@ -1,9 +1,9 @@
 # translation:cleanup
-El comandament **translation:cleanup** executa Netejar el fitxer de traduccions
+Netejar el fitxer de traduccions
 
 **Ús:**
 ```
-$ drupal translation:cleanup [arguments] 
+$ drupal translation:cleanup [arguments]
 ```
 
 ## Arguments disponibles

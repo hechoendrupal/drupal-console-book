@@ -1,5 +1,5 @@
 # generate:command
-कंसोल के लिए कमाण्डो को उत्पन्न करें।
+Generate commands for the console.
 
 **प्रयोग:**
 ```
@@ -10,7 +10,7 @@ $ gcm
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---class | कमाण्ड क्लास का नाम
---name | कमाण्ड का नाम।
---container-aware | Drupal साइट स्थापना के बारे में कमांड पता है जब एक्सेक्युट होगा?
+--module | The Module name.
+--class | The Class that describes the command. (Must end with the word 'Command').
+--name | The Command name.
+--container-aware | Is the command aware of the drupal site installation when executed

@@ -1,18 +1,18 @@
 # server
-El comandament **server** executa Executar servidor PHP integrat
+Executar el servidor PHP integrat
 
 **Ús:**
 ```
-$ drupal server [arguments] 
+$ drupal server [arguments]
 ```
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-address | L'adreça:port value
+address | Adreça:port valor
 
 ## Exemples
-* Executar utilitzant l'argument de l'adreça predeterminat 127.0.0.1.8088
+* Executar el servidor utilitzant l'argument de l'adreça predeterminat 127.0.0.1:8088
 ```
 $ drupal server
 ```
@@ -20,7 +20,7 @@ $ drupal server
 ```
 $ drupal server 127.0.0.1:8089
 ```
-* Executant l'argument de l'adreça predeterminat, utilitzant l'opció --root per definir l'arrel de Drupal
+* S'estan executant els valors de l'argument de l'adreça predeterminada, utilitzeu l'opció --root per definir l'arrel de Drupal
 ```
 $ drupal --root=/var/www/drupal8.dev server
 ```

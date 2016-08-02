@@ -1,5 +1,5 @@
 # config:import:single
-Import the selected configuration.
+Importar a configuratição selecionada.
 
 **Uso:**
 ```
@@ -10,5 +10,5 @@ $ cis
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-name | Configuration name.
-file | Path to the import file
+name | Nome da configuração.
+file | Caminho para o arquivo de importação

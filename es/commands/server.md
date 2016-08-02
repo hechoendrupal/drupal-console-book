@@ -12,7 +12,7 @@ Argumento | Detalles
 address | Los valores dirección:puerto
 
 ## Ejemplos
-* Corre usando el valor de dirección por defecto 127.0.0.1.8088
+* Corre usando el valor de dirección por defecto 127.0.0.1:8088
 ```
 $ drupal server
 ```

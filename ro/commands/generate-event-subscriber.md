@@ -1,5 +1,5 @@
 # generate:event:subscriber
-Generează un abonat la eveniment
+Generate an event subscriber
 
 **Folosire:**
 ```
@@ -10,8 +10,8 @@ $ ges
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
+--module | The Module name.
 --name | commands.generate.service.options.name
---class | Numele Clasei
---events | Încarcă serviciile din container.
---services | Încarcă serviciile din container.
+--class | Class name
+--events | Load events from the container
+--services | Load services from the container.

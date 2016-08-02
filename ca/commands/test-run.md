@@ -1,9 +1,9 @@
 # test:run
-El comandament **test:run** executa Executa els Test Units disponibles per l'aplicació
+Executa els Test Units disponibles per l'aplicació
 
 **Ús:**
 ```
-$ drupal test:run [arguments] [options] 
+$ drupal test:run [arguments] [options]
 $ tr  
 ```
 
@@ -15,4 +15,5 @@ Opció | Detalls
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-test-class | Classe Test
+test-class | Classe de verificació
+test-methods | Test method(s) to be run

@@ -4,12 +4,13 @@ Generate plugin rest resource
 **Uso:**
 ```
 $ drupal generate:plugin:rest:resource [options]
+$ gprr  
 ```
 
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---module | O nome do módulo.
+--module | The Module name.
 --class | Plugin Rest Resource class
 --name | commands.generate.service.options.name
 --plugin-id | Plugin Rest Resource id

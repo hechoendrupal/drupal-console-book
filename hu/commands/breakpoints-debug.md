@@ -1,5 +1,5 @@
 # breakpoints:debug
-commands.breakpoints.debug.description
+Displays breakpoints available in application
 
 **Használat:**
 ```
@@ -9,4 +9,4 @@ $ drupal breakpoints:debug [arguments]
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek
 ---------|-------------
-group | commands.breakpoints.debug.options.group-name
+group | Enter Breakpoint Group Name

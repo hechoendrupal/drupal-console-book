@@ -1,5 +1,5 @@
 # rest:enable
-Enable a rest resource for the application
+Habilite um recurso REST para a aplicação
 
 **Uso:**
 ```
@@ -10,4 +10,4 @@ $ ree
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-resource-id | Rest ID
+resource-id | REST ID

@@ -10,8 +10,10 @@ $ md
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---path | commands.module.download.options.path
+--path | The path of the contrib project
 --latest | Default to download most recent version
+--composer | Download the module using Composer
+--unstable | commands.module.install.options.unstable
 
 ## Argumente disponibile
 Argument | Detalii

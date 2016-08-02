@@ -1,13 +1,13 @@
 # views:enable
-El comandament **views:enable** executa Habilitar vistes
+Habilitar les vistes
 
 **Ús:**
 ```
-$ drupal views:enable [arguments] 
+$ drupal views:enable [arguments]
 $ ve  
 ```
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-view-id | ID de la vista
+view-id | Identificador de la vista

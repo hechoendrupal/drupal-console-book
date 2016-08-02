@@ -6,15 +6,16 @@ Các lệnh điều khiển Drupal | Các chi tiết
 ------------ | -------------
 [about](about.md) | Hiển thị thông tin cơ bản về dự án Drupal Console
 [chain](chain.md) | Thi hành chuỗi câu lệnh
-[check](check.md) | commands.check.description
+[check](check.md) | System requirement checker
 [help](help.md) | Displays help for a command
-[init](init.md) | commands.init.description
+[init](init.md) | Copy configuration files to user home directory.
 [list](list.md) | Các danh sách tất cả các dòng lệnh có sẵn
-[self-update](self-update.md) | Cập nhật dự án lên phiên bản mới nhất.
+[self-update](self-update.md) | Update project to the latest version.
 [server](server.md) | Chạy PHP built-in web server
 **breakpoints**  |
-[breakpoints:debug](breakpoints-debug.md) | commands.breakpoints.debug.description
+[breakpoints:debug](breakpoints-debug.md) | Displays breakpoints available in application
 **cache**  |
+[cache:context:debug](cache-context-debug.md) | Displays current cache context for the application.
 [cache:rebuild](cache-rebuild.md) | Xây dựng lại và làm sạch tất cả cache trên trang.
 **chain**  |
 [chain:debug](chain-debug.md) | List available chain files.
@@ -25,7 +26,6 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [config:edit](config-edit.md) | Chỉnh sửa cấu hình đã được chọn
 [config:export](config-export.md) | Xuất cấu hình ứng dụng hiện tại
 [config:export:content:type](config-export-content-type.md) | Xuất một kiểu nội dung chỉ định và các field của chúng
-[config:export:single](config-export-single.md) | Xuất cấu hình đơn giản như yml file
 [config:export:view](config-export-view.md) | Export 1 view trong YAML format inside 1 module được cung cấp để sử dụng lại trên các website khác.
 [config:import](config-import.md) | Nhập cấu hình tới ứng dụng hiện tại
 [config:import:single](config-import-single.md) | Import the selected configuration.
@@ -52,66 +52,82 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [database:log:debug](database-log-debug.md) | Hiển thị các dấu sự kiện hiện tại cho ứng dụng
 [database:restore](database-restore.md) | Khôi phục cấu trúc và content của một cơ sở dữ liệu
 [database:table:debug](database-table-debug.md) | Hiển thị tất cả các bảng trong database đã được cung cấp.
+**devel**  |
+[devel:dumper](devel-dumper.md) | Change the devel dumper plugin
+**event**  |
+[event:debug](event-debug.md) | Display current events 
 **generate**  |
-[generate:authentication:provider](generate-authentication-provider.md) | Tạo ra một Authentication Provider
-[generate:command](generate-command.md) | Tạo ra các lệnh cho trình điều khiển.
-[generate:controller](generate-controller.md) | Tạo và đăng ký một trình điều khiển
+[generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
+[generate:breakpoint](generate-breakpoint.md) | Generate breakpoint
+[generate:command](generate-command.md) | Generate commands for the console.
+[generate:controller](generate-controller.md) | Generate & Register a controller
 [generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands
-[generate:doc:dash](generate-doc-dash.md) | Tạo gói DrupalConsole.docset cho Dash
-[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
-[generate:doc:gitbook](generate-doc-gitbook.md) | Tạo documentations cho các lệnh
-[generate:entity:bundle](generate-entity-bundle.md) | Tạo một loại nội dung mới (node / entity bundle)
-[generate:entity:config](generate-entity-config.md) | Tạo một config entity mới
-[generate:entity:content](generate-entity-content.md) | Tạo một content entity mới
-[generate:event:subscriber](generate-event-subscriber.md) | Tạo một event subscriber
-[generate:form](generate-form.md) | Tạo một "FormBase" mới
-[generate:form:alter](generate-form-alter.md) | Tạo một implementation của hook_form_alter() hoặc hook_form_FORM_ID_alter
-[generate:form:config](generate-form-config.md) | Tạo một "ConfigFormBase" mới
-[generate:module](generate-module.md) | Tạo một module.
-[generate:permissions](generate-permissions.md) | Tạo module permissions
-[generate:plugin:block](generate-plugin-block.md) | Tạo một plugin block
+[generate:doc:dash](generate-doc-dash.md) | Generate the DrupalConsole.docset package for Dash
+[generate:doc:data](generate-doc-data.md) | Generate documentations for Commands.
+[generate:doc:gitbook](generate-doc-gitbook.md) | Generate documentations for Commands
+[generate:entity:bundle](generate-entity-bundle.md) | Generate a new content type (node / entity bundle)
+[generate:entity:config](generate-entity-config.md) | Generate a new config entity
+[generate:entity:content](generate-entity-content.md) | Generate a new content entity
+[generate:event:subscriber](generate-event-subscriber.md) | Generate an event subscriber
+[generate:form](generate-form.md) | Generate a new "FormBase"
+[generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
+[generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
+[generate:help](generate-help.md) | Generate an implementation of hook_help()
+[generate:module](generate-module.md) | Generate a module.
+[generate:module:file](generate-module-file.md) | Generate a .module file
+[generate:permissions](generate-permissions.md) | Generate module permissions
+[generate:plugin:block](generate-plugin-block.md) | Generate a plugin block
 [generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
-[generate:plugin:condition](generate-plugin-condition.md) | Tạo một plugin condition.
-[generate:plugin:field](generate-plugin-field.md) | Tạo field type, widget và formatter plugins.
-[generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Tạo một formatter plugin.
-[generate:plugin:fieldtype](generate-plugin-fieldtype.md) | Tạo field type plugin.
-[generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Tạo field widget plugin.
-[generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Tạo plugin hiệu ứng hình ảnh
-[generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Phát sinh một image formatter plugin.
+[generate:plugin:condition](generate-plugin-condition.md) | Generate a plugin condition.
+[generate:plugin:field](generate-plugin-field.md) | Generate field type, widget and formatter plugins.
+[generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Generate field formatter plugin.
+[generate:plugin:fieldtype](generate-plugin-fieldtype.md) | Generate field type plugin.
+[generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Generate field widget plugin.
+[generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Generate image effect plugin.
+[generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Generate image formatter plugin.
 [generate:plugin:mail](generate-plugin-mail.md) | Generate a plugin mail
-[generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Tạo plugin rest resource
-[generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Tạo một plugin rule action
-[generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Tạo một kiểu plugin với annotation discovery
-[generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Tạo một plugin với Yaml discovery
-[generate:plugin:views:field](generate-plugin-views-field.md) | Tạo một tùy chỉnh plugin view field.
-[generate:profile](generate-profile.md) | Tạo một profile.
-[generate:routesubscriber](generate-routesubscriber.md) | Tạo một RouteSubscriber
-[generate:service](generate-service.md) | Tạo dịch vụ
-[generate:theme](generate-theme.md) | Tạo một theme.
+[generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Generate plugin rest resource
+[generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Generate a plugin rule action
+[generate:plugin:skeleton](generate-plugin-skeleton.md) | Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator
+[generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
+[generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Generate a plugin type with Yaml discovery
+[generate:plugin:views:field](generate-plugin-views-field.md) | Generate a custom plugin view field.
+[generate:post:update](generate-post-update.md) | commands.generate.post:update.description
+[generate:profile](generate-profile.md) | Generate a profile.
+[generate:routesubscriber](generate-routesubscriber.md) | Generate a RouteSubscriber
+[generate:service](generate-service.md) | Generate service
+[generate:theme](generate-theme.md) | Generate a theme.
+[generate:twig:extension](generate-twig-extension.md) | Generate a Twig extension.
+[generate:update](generate-update.md) | Generate an implementation of hook_update_N()
 **image**  |
 [image:styles:debug](image-styles-debug.md) | List image styles on the site
 [image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
 **libraries**  |
-[libraries:debug](libraries-debug.md) | commands.libraries.debug.description
+[libraries:debug](libraries-debug.md) | Displays libraries available in application
 **locale**  |
-[locale:language:add](locale-language-add.md) | Thêm một ngôn ngữ được hỗ trợ bởi site của bạn
-[locale:language:delete](locale-language-delete.md) | Xóa một ngôn ngữ được hỗ trợ bởi site cuuar bạn
-[locale:translation:status](locale-translation-status.md) | Danh sách cập nhật bản dịch có sẵn
+[locale:language:add](locale-language-add.md) | Add a language to be supported by your site
+[locale:language:delete](locale-language-delete.md) | Delete a language to be supported by your site
+[locale:translation:status](locale-translation-status.md) | List available translation updates
 **migrate**  |
 [migrate:debug](migrate-debug.md) | Hiển thị phần chuyển đổi dữ liệu hiện có cho ứng dựng
 [migrate:execute](migrate-execute.md) | Tiến hành một phần chuyển đổi dữ liệu có sẵn trong ứng dụng
-[migrate:setup](migrate-setup.md) | Load and create the relevant migrations for a provided legacy database
 **module**  |
 [module:debug](module-debug.md) | Hiển thị các module hiện có cho ứng dụng
 [module:download](module-download.md) | Tải module hoặc các modules trong ứng dụng
 [module:install](module-install.md) | Cài đặt module hoặc các module trong ứng dụng
+[module:path](module-path.md) | Returns the relative path to the module (or absolute path)
 [module:uninstall](module-uninstall.md) | Gỡ bỏ module hoặc các module trong ứng dụng
+[module:update](module-update.md) | Update core, module or modules in the application
 **multisite**  |
 [multisite:debug](multisite-debug.md) | Liệt kê tất cả các multisites đang có sẵn trong hệ thống
+[multisite:new](multisite-new.md) | Sets up the files for a new multisite install.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 **plugin**  |
 [plugin:debug](plugin-debug.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
+**queue**  |
+[queue:debug](queue-debug.md) | Display the queues of your application
+[queue:run](queue-run.md) | Process the selected queue.
 **rest**  |
 [rest:debug](rest-debug.md) | Hiển thị rest resource hiện có cho ứng dụng
 [rest:disable](rest-disable.md) | Tắt một tài nguyên rest cho ứng dụng
@@ -142,6 +158,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [theme:debug](theme-debug.md) | Hiển thị các themes hiện tại cho ứng dụng
 [theme:download](theme-download.md) | Tải xuống theme trong ứng dụng
 [theme:install](theme-install.md) | Cài đặt theme hoặc các themes trong ứng dụng
+[theme:path](theme-path.md) | Returns the relative path to the theme (or absolute path)
 [theme:uninstall](theme-uninstall.md) | Gỡ cài đặt theme hay các themes trong ứng dụng
 **translation**  |
 [translation:cleanup](translation-cleanup.md) | Clean up translation files
@@ -159,6 +176,7 @@ Các lệnh điều khiển Drupal | Các chi tiết
 [user:login:url](user-login-url.md) | Quay lại một url đăng nhập của người dùng một lần.
 [user:password:hash](user-password-hash.md) | Tạo một hash từ một mật khẩu thô
 [user:password:reset](user-password-reset.md) | Đặt lại mật khẩu cho một người dùng cụ thể.
+[user:role](user-role.md) | Adds/removes a role for a given user
 **views**  |
 [views:debug](views-debug.md) | Hiển thị các views resources hiện tại cho ứng dụng
 [views:disable](views-disable.md) | Tắt một View
@@ -177,7 +195,7 @@ Tùy chọn | Các chi tiết
 --help | Display this help message
 --quiet | Do not output any message
 --verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
---version | <info>%s</info> version <comment>%s</comment>
+--version | <info>"%s"</info> version <comment>"%s"</comment>
 --ansi | Force ANSI output
 --no-ansi | Disable ANSI output
 --no-interaction | Do not ask any interactive question

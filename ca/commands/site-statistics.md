@@ -1,7 +1,7 @@
 # site:statistics
-El comandament **site:statistics** executa Show the current statistics of website.
+Mostrar les estadístiques del lloc web.
 
 **Ús:**
 ```
-$ drupal site:statistics 
+$ drupal site:statistics
 ```

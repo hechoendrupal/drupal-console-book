@@ -1,5 +1,5 @@
 # generate:entity:content
-एक नई कंटेंट एंटिटि बनाए
+Generate a new content entity
 
 **प्रयोग:**
 ```
@@ -10,9 +10,10 @@ $ gect
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---entity-class | कंटेंट एंटिटि कक्षा
---entity-name | कंटेंट एंटिटि नाम
---base-path | कॉन्फिग एंटिटी रुट्स के लिए बेस पथ
---label | लेबल
---has-bundles | एंटिटि मॆ बंडल हे
+--module | The Module name.
+--entity-class | The content entity class
+--entity-name | The content entity name
+--base-path | The base-path for the content entity routes
+--label | The label
+--has-bundles | Entity has bundles
+--is-translatable | Content entity translatable

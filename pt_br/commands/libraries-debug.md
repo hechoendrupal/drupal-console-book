@@ -1,5 +1,5 @@
 # libraries:debug
-commands.libraries.debug.description
+Displays libraries available in application
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal libraries:debug [arguments]
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-group | commands.libraries.debug.options.name
+group | Enter Libraries Name

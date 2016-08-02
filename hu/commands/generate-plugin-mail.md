@@ -9,8 +9,8 @@ $ drupal generate:plugin:mail [options]
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
+--module | The Module name.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
---services | Szolgáltatások betöltése a tárolóból.
+--services | Load services from the container.

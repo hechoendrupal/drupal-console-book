@@ -1,5 +1,5 @@
 # generate:event:subscriber
-Esemény-előfizető létrehozása
+Generate an event subscriber
 
 **Használat:**
 ```
@@ -10,8 +10,8 @@ $ ges
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
+--module | The Module name.
 --name | commands.generate.service.options.name
---class | Osztálynév
---events | Szolgáltatások betöltése a tárolóból.
---services | Szolgáltatások betöltése a tárolóból.
+--class | Class name
+--events | Load events from the container
+--services | Load services from the container.

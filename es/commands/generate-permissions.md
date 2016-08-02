@@ -1,5 +1,5 @@
 # generate:permissions
-Genera los permisos del módulo
+Generate module permissions
 
 **Uso:**
 ```
@@ -10,5 +10,5 @@ $ gp
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | Nombre del módulo.
---permissions | Crear permisos.
+--module | The Module name.
+--permissions | Create permissions.

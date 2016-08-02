@@ -1,5 +1,5 @@
 # generate:doc:data
-commands.generate.doc.data.description
+Generate documentations for Commands.
 
 **Folosire:**
 ```
@@ -9,4 +9,4 @@ $ drupal generate:doc:data [options]
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---file | commands.generate.doc.data.options.file
+--file | The file to render the command data

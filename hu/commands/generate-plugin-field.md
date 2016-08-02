@@ -1,25 +1,26 @@
 # generate:plugin:field
-Mezőtípus, felületi elem és formázó bővítmények létrehozása.
+Generate field type, widget and formatter plugins.
 
 **Használat:**
 ```
 $ drupal generate:plugin:field [options]
+$ gpf  
 ```
 
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---type-class | Mezőtípus bővítmény osztályneve
---type-label | Mezőtípus bővítmény felirata
---type-plugin-id | Mezőtípus bővítmény azonosítója
+--module | The Module name.
+--type-class | Field type plugin class name
+--type-label | Field type plugin label
+--type-plugin-id | Field type plugin id
 --type-description | commands.generate.plugin.field.options.type-type-description
 --formatter-class | commands.generate.plugin.field.options.class
---formatter-label | Mezőformázó bővítmény felirata
---formatter-plugin-id | Mezőformázó bővítmény azonosítója
---widget-class | Mezőformázó bővítmény osztályneve
---widget-label | Mező felületi elem bővítmény felirata
---widget-plugin-id | Mező felületi elem bővítmény azonosítója
---field-type | Mezőtípus, amivel a formázó és a felületi elem bővítmény használható
---default-widget | A mezőtípus bővítmény alapértelmezett mező felületi eleme
---default-formatter | A mezőtípus bővítmény alapértelmezett mezőformázójatype plugin
+--formatter-label | Field formatter plugin label
+--formatter-plugin-id | Field formatter plugin id
+--widget-class | Field formatter plugin class name
+--widget-label | Field widget plugin label
+--widget-plugin-id | Field widget plugin id
+--field-type | Field type the formatter and widget plugin can be used with
+--default-widget | Default field widget of the field type plugin
+--default-formatter | Default field formatter of field type plugin

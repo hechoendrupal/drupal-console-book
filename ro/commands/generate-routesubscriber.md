@@ -1,5 +1,5 @@
 # generate:routesubscriber
-Generează un RouteSubscriber
+Generate a RouteSubscriber
 
 **Folosire:**
 ```
@@ -9,6 +9,6 @@ $ drupal generate:routesubscriber [options]
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---name | Numele serviciului
---class | Numele clasei
+--module | The Module name.
+--name | Service name
+--class | Class name

@@ -1,5 +1,5 @@
 # generate:entity:bundle
-Tạo một loại nội dung mới (node / entity bundle)
+Generate a new content type (node / entity bundle)
 
 **Usage:**
 ```
@@ -10,6 +10,6 @@ $ geb
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
---bundle-name | Tên máy của loại nội dung
---bundle-title | Tên có thể đọc được của loại nội dung
+--module | The Module name.
+--bundle-name | The content type's machine name
+--bundle-title | The content type's human-readable name

@@ -1,5 +1,5 @@
 # update:entities
-Applying Entity Updates
+应用实体更新
 
 **用法:**
 ```

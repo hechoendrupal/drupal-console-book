@@ -1,9 +1,9 @@
 # user:password:hash
-El comandament **user:password:hash** executa Generar un 'hash' a partir d'una contrasenya de text sense format.
+Generar un 'hash' a partir d'una contrasenya de text sense format.
 
 **Ús:**
 ```
-$ drupal user:password:hash [arguments] 
+$ drupal user:password:hash [arguments]
 $ usph  
 ```
 

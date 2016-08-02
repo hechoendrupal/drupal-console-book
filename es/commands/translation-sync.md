@@ -1,5 +1,5 @@
 # translation:sync
-Sincronizar archivos de traducción
+Sync translation files
 
 **Uso:**
 ```
@@ -14,4 +14,4 @@ Opción | Detalles
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-language | Idioma cuyos ficheros se sincronizarán contra el inglés
+language | Language to syncronize against English source files

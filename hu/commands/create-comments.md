@@ -9,9 +9,9 @@ $ drupal create:comments [arguments] [options]
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---limit | commands.create.comments.arguments.limit
---title-words | commands.create.comments.arguments.title-words
---time-range | commands.create.comments.arguments.time-range
+--limit | How many comments would you like to create
+--title-words | Maximum number of words in comment titles
+--time-range | How far back in time should the comments be dated
 
 ## Rendelkezésre álló argumentumok
 Argumentum | Részletek

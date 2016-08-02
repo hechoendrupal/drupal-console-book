@@ -1,9 +1,9 @@
 # theme:debug
-El comandament **theme:debug** executa Mostra els temes actuals per l'aplicació
+Mostrar els temes actuals per l'aplicació
 
 **Ús:**
 ```
-$ drupal theme:debug [arguments] 
+$ drupal theme:debug [arguments]
 $ tde  
 ```
 

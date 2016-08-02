@@ -1,13 +1,13 @@
 # settings:set
-El comandament **settings:set** executa Change a specific setting value in DrupalConsole config file
+Canviar un valor especific al fitxer de configuració de Drupal Console
 
 **Ús:**
 ```
-$ drupal settings:set [arguments] 
+$ drupal settings:set [arguments]
 ```
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-setting-name | Setting name in yaml flatten format to set a value in Drupal Console config file
-setting-value | Setting value to set in Drupal Console config file
+setting-name | Nom de la configuració en text sense format del fitxer YAML amb el valor del fitxer de configuració
+setting-value | El valor a establir al fitxer de configuració

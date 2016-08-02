@@ -1,9 +1,9 @@
 # translation:pending
-El comandament **translation:pending** executa Determinar cadena de traduccions pendent en un idioma o en un fitxer especific d'un idioma
+Determinar cadena de traduccions pendent en un idioma o en un fitxer especific d'un idioma
 
 **Ús:**
 ```
-$ drupal translation:pending [arguments] [options] 
+$ drupal translation:pending [arguments] [options]
 ```
 
 ## Opcions disponibles

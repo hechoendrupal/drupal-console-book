@@ -1,5 +1,5 @@
 # generate:profile
-Profil létrehozása.
+Generate a profile.
 
 **Használat:**
 ```
@@ -9,9 +9,9 @@ $ drupal generate:profile [options]
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---profile | A profil neve
---machine-name | A programok által használt név (csak kisbetűk és aláhúzás)
---description | Profil leírása
---core | Drupal alaprendszer verziója
---dependencies | Modulfüggőségek vesszővel elválasztva (pl. context, panels)
---distribution | A disztribúció neve
+--profile | The profile name
+--machine-name | The machine name (lowercase and underscore only)
+--description | Profile description
+--core | Core version
+--dependencies | Module dependencies separated by commas (i.e. context, panels)
+--distribution | The distribution name

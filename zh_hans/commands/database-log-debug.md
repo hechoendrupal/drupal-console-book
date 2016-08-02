@@ -12,7 +12,7 @@ $ drupal database:log:debug [arguments] [options]
 --type | 根据类型过滤事件
 --severity | 根据严重等级过滤事件
 --user-id | 根据用户 ID 过滤事件
---reverse | 反序输出事件
+--asc | 按升序列出事件
 --limit | 限制显示结果的数量
 --offset | 偏移量
 

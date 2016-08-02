@@ -1,16 +1,17 @@
 # generate:plugin:fieldformatter
-El comandament **generate:plugin:fieldformatter** executa Genera un  plugin formatador de camp.
+Generar un connector formatador de camp.
 
 **Ús:**
 ```
-$ drupal generate:plugin:fieldformatter [options] 
+$ drupal generate:plugin:fieldformatter [options]
+$ gpff  
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
---class | Nom de la classe del plugin
---label | Etiqueta del plugin
---plugin-id | Id del plugin
---field-type | Tipus de camp amb el qual el plugin pot ser utilitzat
+--class | Nom de la classe del connector
+--label | Etiqueta del connector
+--plugin-id | Identificador del connector
+--field-type | Tipus de camp amb el que el connector es pot utilitzar

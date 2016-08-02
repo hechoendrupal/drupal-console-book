@@ -1,5 +1,5 @@
 # generate:form:alter
-A hook_form_alter() vagy hook_form_FORM_ID_alter megvalósításának létrehozása
+Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
 
 **Használat:**
 ```
@@ -10,6 +10,6 @@ $ gfa
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---form-id | A módosítandó formazonosító
---inputs | Bemenetek létrehozása egy űrlapban.
+--module | The Module name.
+--form-id | Form ID to alter
+--inputs | Create inputs in a form.

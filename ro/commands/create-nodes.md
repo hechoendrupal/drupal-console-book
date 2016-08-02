@@ -9,9 +9,9 @@ $ drupal create:nodes [arguments] [options]
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---limit | commands.create.nodes.arguments.limit
---title-words | commands.create.nodes.arguments.title-words
---time-range | commands.create.nodes.arguments.time-range
+--limit | How many nodes would you like to create
+--title-words | Maximum number of words in node titles
+--time-range | How far back in time should the nodes be dated
 
 ## Argumente disponibile
 Argument | Detalii

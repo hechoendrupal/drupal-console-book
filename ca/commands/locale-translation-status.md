@@ -1,12 +1,12 @@
 # locale:translation:status
-El comandament **locale:translation:status** executa LLista les actualitzacions de traduccions disponibles
+LListar les actualitzacions de les traduccions disponibles
 
 **Ús:**
 ```
-$ drupal locale:translation:status [arguments] 
+$ drupal locale:translation:status [arguments]
 ```
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-language | Idioma per exemple ca o Català
+language | Idioma (p.e. ca o Català)

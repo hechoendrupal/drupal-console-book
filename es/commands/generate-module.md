@@ -1,5 +1,5 @@
 # generate:module
-Generar un módulo.
+Generate a module.
 
 **Uso:**
 ```
@@ -10,13 +10,13 @@ $ gm
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | El nombre del módulo
---machine-name | El nombre máquina (sólo minúsculas y guión bajo)
---module-path | El directorio del módulo
---description | Descripción del módulo
---core | Versión del core
---package | Paquete del módulo
---module-file | Agregar un archivo .module
---features-bundle | ¿ Definir el módulo como una feature usando el nombre de bundle de Feature dado ?
---composer | Añadir un archivo composer.json
---dependencies | Dependencias del módulo (por ejemplo: context, galleria, panels)
+--module | The Module name
+--machine-name | The machine name (lowercase and underscore only)
+--module-path | The path of the module
+--description | Module description
+--core | Core version
+--package | Module package
+--module-file | Add a .module file
+--features-bundle | Define module as feature using the given Features bundle name
+--composer | Add a composer.json file
+--dependencies | Module dependencies separated by commas (i.e. context, panels)

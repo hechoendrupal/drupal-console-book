@@ -1,5 +1,5 @@
 # generate:module
-Modul létrehozása.
+Generate a module.
 
 **Használat:**
 ```
@@ -10,13 +10,13 @@ $ gm
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve
---machine-name | A programok által használt név (csak kisbetűk és aláhúzás)
---module-path | A modul útvonala
---description | A modul leírása
---core | Drupal alaprendszer verziója
---package | Modulcsomag
---module-file | .module fájl hozzáadása
+--module | The Module name
+--machine-name | The machine name (lowercase and underscore only)
+--module-path | The path of the module
+--description | Module description
+--core | Core version
+--package | Module package
+--module-file | Add a .module file
 --features-bundle | Define module as feature using the given Features bundle name
---composer | composer.json fájl hozzáadása
---dependencies | Modulfüggőségek vesszővel elválasztva (pl. context, panels)
+--composer | Add a composer.json file
+--dependencies | Module dependencies separated by commas (i.e. context, panels)

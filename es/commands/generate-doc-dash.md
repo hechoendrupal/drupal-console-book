@@ -1,5 +1,5 @@
 # generate:doc:dash
-Generar el paquete DrupalConsole.docset para Dash
+Generate the DrupalConsole.docset package for Dash
 
 **Uso:**
 ```
@@ -10,4 +10,4 @@ $ gdd
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---path | Ruta al directorio donde se guardará el docset.
+--path | The path to the directory where the docset will be saved.

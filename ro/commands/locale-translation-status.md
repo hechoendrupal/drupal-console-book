@@ -1,5 +1,5 @@
 # locale:translation:status
-Listează actualizările de traducere disponibile
+List available translation updates
 
 **Folosire:**
 ```
@@ -9,4 +9,4 @@ $ drupal locale:translation:status [arguments]
 ## Argumente disponibile
 Argument | Detalii
 ---------|-------------
-language | Limba, de exemplu, es sau Spanish
+language | Language for instance es or Spanish

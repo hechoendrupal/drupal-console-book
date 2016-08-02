@@ -1,9 +1,9 @@
 # yaml:merge
-El comandament **yaml:merge** executa Combinar un o més fitxers YAML en un nou fitxer YAML. Es conserven els últims valors.
+Combinar un o més fitxers YAML en un nou fitxer YAML. Es conserven els últims valors.
 
 **Ús:**
 ```
-$ drupal yaml:merge [arguments] 
+$ drupal yaml:merge [arguments]
 $ ym  
 ```
 

@@ -6,7 +6,7 @@ Display all plugin types, plugin instances of a specific type, or the definition
 $ drupal plugin:debug [arguments]
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 type | Plugin type

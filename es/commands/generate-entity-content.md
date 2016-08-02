@@ -1,5 +1,5 @@
 # generate:entity:content
-Generar una nueva entidad de contenido
+Generate a new content entity
 
 **Uso:**
 ```
@@ -10,9 +10,10 @@ $ gect
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | Nombre del módulo.
---entity-class | Clase de la entidad de contenido
---entity-name | Nombre de la entidad de contenido
---base-path | El directorio raíz para las rutas de la entidad de contenido
---label | Etiqueta
---has-bundles | La entidad tiene bundles
+--module | The Module name.
+--entity-class | The content entity class
+--entity-name | The content entity name
+--base-path | The base-path for the content entity routes
+--label | The label
+--has-bundles | Entity has bundles
+--is-translatable | Content entity translatable

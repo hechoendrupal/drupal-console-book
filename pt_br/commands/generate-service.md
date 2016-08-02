@@ -1,5 +1,5 @@
 # generate:service
-Criar serviço
+Generate service
 
 **Uso:**
 ```
@@ -10,8 +10,9 @@ $ gs
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---module | O nome do módulo.
+--module | The Module name.
 --name | commands.generate.service.options.name
---class | Nome da classe
+--class | Class name
 --interface | commands.common.service.options.interface
---services | Carrega serviços do container.
+--services | Load services from the container.
+--path_service | Path

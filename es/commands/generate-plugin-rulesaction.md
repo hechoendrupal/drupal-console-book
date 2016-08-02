@@ -1,18 +1,19 @@
 # generate:plugin:rulesaction
-Genera un plugin de acción de rules
+Generate a plugin rule action
 
 **Uso:**
 ```
 $ drupal generate:plugin:rulesaction [options]
+$ gpra  
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | Nombre del módulo.
---class | Nombre de clase del plugin
---label | Etiqueta del plugin
---plugin-id | ID del plugin
---type | Tipo de acción (usuario o nodo)
---category | Categoría del plugin
---context | Contexto del plugin
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--type | Action Type (user or node)
+--category | Plugin category
+--context | Plugin context

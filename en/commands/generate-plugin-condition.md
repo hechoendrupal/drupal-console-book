@@ -4,6 +4,7 @@ Generate a plugin condition.
 **Usage:**
 ```
 $ drupal generate:plugin:condition [options]
+$ gpc  
 ```
 
 ## Available options

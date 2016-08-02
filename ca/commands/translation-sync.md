@@ -1,9 +1,9 @@
 # translation:sync
-El comandament **translation:sync** executa Sincronitzar fitxer de traduccions
+Sincronitzar fitxer de traduccions
 
 **Ús:**
 ```
-$ drupal translation:sync [arguments] [options] 
+$ drupal translation:sync [arguments] [options]
 ```
 
 ## Opcions disponibles

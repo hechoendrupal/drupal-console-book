@@ -4,6 +4,7 @@ Generate a plugin rule action
 **Usage:**
 ```
 $ drupal generate:plugin:rulesaction [options]
+$ gpra  
 ```
 
 ## Available options

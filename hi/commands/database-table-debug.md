@@ -11,7 +11,7 @@ $ drupal database:table:debug [arguments] [options]
 -------|-------------
 --database | Database key from settings.php
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 table | Table to debug

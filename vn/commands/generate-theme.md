@@ -1,5 +1,5 @@
 # generate:theme
-Tạo một theme.
+Generate a theme.
 
 **Usage:**
 ```
@@ -11,12 +11,12 @@ $ gt
 Tùy chọn | Các chi tiết
 -------|-------------
 --theme | commands.generate.theme.options.module
---machine-name | Tên máy (chỉ sử dụng chữ thường và dấu gạch dưới)
+--machine-name | The machine name (lowercase and underscore only)
 --theme-path | commands.generate.theme.options.module-path
---description | Mô tả của theme
---core | Phiên bản Core
---package | Gói theme
---global-library | Tên thư viện style chung
---base-theme | Theme cơ sở (i.e. classy, stable)
+--description | Theme description
+--core | Core version
+--package | Theme package
+--global-library | Global styling library name
+--base-theme | Base theme (i.e. classy, stable)
 --regions | Regions
 --breakpoints | Breakpoints

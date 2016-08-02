@@ -1,15 +1,16 @@
 # generate:plugin:imageformatter
-छवि formatter प्लगिन उत्पन्न करें
+Generate image formatter plugin.
 
 **प्रयोग:**
 ```
 $ drupal generate:plugin:imageformatter [options]
+$ gpif  
 ```
 
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---class | प्लगिन का क्लास नाम
---label | प्लगिन उप-शीर्षक
---plugin-id | प्लगिन id
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id

@@ -1,16 +1,17 @@
 # generate:plugin:imageeffect
-छवि प्रभाव प्लगिन उत्पन्न करें
+Generate image effect plugin.
 
 **प्रयोग:**
 ```
 $ drupal generate:plugin:imageeffect [options]
+$ gpie  
 ```
 
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---class | प्लगिन का क्लास नाम
---label | प्लगिन उप-शीर्षक
---plugin-id | प्लगिन id
---description | प्लगिन विवरण
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--description | Plugin Description

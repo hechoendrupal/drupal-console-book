@@ -1,9 +1,9 @@
 # config:export:content:type
-El comandament **config:export:content:type** executa Exporta un tipus de contingut i els seus camps.
+Exportar un tipus de contingut i els seus camps.
 
 **Ús:**
 ```
-$ drupal config:export:content:type [arguments] [options] 
+$ drupal config:export:content:type [arguments] [options]
 $ cect  
 ```
 

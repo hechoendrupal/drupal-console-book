@@ -1,18 +1,19 @@
 # generate:plugin:rest:resource
-生成 REST资源插件
+Generate plugin rest resource
 
 **用法:**
 ```
 $ drupal generate:plugin:rest:resource [options]
+$ gprr  
 ```
 
 ## 可用选项
 选项 | 详细
 -------|-------------
---module | 模块名称
---class | 插件REST资源类
+--module | The Module name.
+--class | Plugin Rest Resource class
 --name | commands.generate.service.options.name
---plugin-id | 插件REST资源id
---plugin-label | 插件REST资源标签
---plugin-url | 插件REST资源URL链接
---plugin-states | 插件REST资源状态
+--plugin-id | Plugin Rest Resource id
+--plugin-label | Plugin Rest Resource Label
+--plugin-url | Plugin Rest Resource URL
+--plugin-states | Plugin Rest Resource States

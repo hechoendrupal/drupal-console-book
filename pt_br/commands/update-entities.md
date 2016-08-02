@@ -1,5 +1,5 @@
 # update:entities
-Applying Entity Updates
+Aplicando atualização de entidades
 
 **Uso:**
 ```

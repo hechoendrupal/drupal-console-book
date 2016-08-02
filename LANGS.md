@@ -3,6 +3,7 @@
 * [Català](ca)
 * [Hindi](hi)
 * [Magyar](hu)
+* [日本語](ja)
 * [Portuguese](pt_br)
 * [Romanian](ro)
 * [Vietnamese](vn)

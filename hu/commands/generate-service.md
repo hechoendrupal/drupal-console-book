@@ -1,5 +1,5 @@
 # generate:service
-Szolgáltatás létrehozása
+Generate service
 
 **Használat:**
 ```
@@ -10,8 +10,9 @@ $ gs
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
+--module | The Module name.
 --name | commands.generate.service.options.name
---class | Osztálynév
+--class | Class name
 --interface | commands.common.service.options.interface
---services | Szolgáltatások betöltése a tárolóból.
+--services | Load services from the container.
+--path_service | Path

@@ -1,5 +1,5 @@
 # check
-commands.check.description
+Verificador de requisitos do sistema
 
 **Uso:**
 ```

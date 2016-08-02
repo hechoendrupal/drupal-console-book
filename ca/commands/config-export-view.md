@@ -1,9 +1,9 @@
 # config:export:view
-El comandament **config:export:view** executa Exporta un vista amb el format YAML en un mòdul per reutilitzar-ho en un altre lloc web.
+Exportar una vista amb el format YAML en un mòdul per reutilitzar-lo en un altre lloc web.
 
 **Ús:**
 ```
-$ drupal config:export:view [arguments] [options] 
+$ drupal config:export:view [arguments] [options]
 $ cev  
 ```
 
@@ -17,4 +17,4 @@ Opció | Detalls
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-view-id | ID de la vista
+view-id | Identificador de la vista

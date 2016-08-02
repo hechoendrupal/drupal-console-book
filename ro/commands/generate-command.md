@@ -1,5 +1,5 @@
 # generate:command
-Generează comenzi pentru consolă.
+Generate commands for the console.
 
 **Folosire:**
 ```
@@ -10,7 +10,7 @@ $ gcm
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---class | Numele Clasei "Command"
---name | Numele comenzii.
---container-aware | Când este executată comanda este conștientă de instalarea de drupal a sitului
+--module | The Module name.
+--class | The Class that describes the command. (Must end with the word 'Command').
+--name | The Command name.
+--container-aware | Is the command aware of the drupal site installation when executed

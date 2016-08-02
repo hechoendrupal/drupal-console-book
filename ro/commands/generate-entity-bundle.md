@@ -1,5 +1,5 @@
 # generate:entity:bundle
-Generează un tip de conținut nou (nod / entitate)
+Generate a new content type (node / entity bundle)
 
 **Folosire:**
 ```
@@ -10,6 +10,6 @@ $ geb
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---bundle-name | Numele mașină pentru tipul de conținut
---bundle-title | Numele lizibil pentru tipul de conținut
+--module | The Module name.
+--bundle-name | The content type's machine name
+--bundle-title | The content type's human-readable name

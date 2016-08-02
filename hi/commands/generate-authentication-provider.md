@@ -1,5 +1,5 @@
 # generate:authentication:provider
-प्रमाणन प्रदाता उत्पन्न करें
+Generate an Authentication Provider
 
 **प्रयोग:**
 ```
@@ -10,6 +10,6 @@ $ gap
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---class | ऑथेंटिकेशन प्रोवाइडर क्लास
---provider-id | प्रदाता क्रमांक
+--module | The Module name.
+--class | Authentication Provider class
+--provider-id | Provider ID

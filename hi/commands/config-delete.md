@@ -6,7 +6,8 @@ Delete configuration
 $ drupal config:delete [arguments]
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
+type | Configuration type.
 name | Configuration name.

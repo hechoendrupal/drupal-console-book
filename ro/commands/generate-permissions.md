@@ -1,5 +1,5 @@
 # generate:permissions
-Generează permisiuni pentru modul
+Generate module permissions
 
 **Folosire:**
 ```
@@ -10,5 +10,5 @@ $ gp
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---permissions | Creează permisiuni.
+--module | The Module name.
+--permissions | Create permissions.

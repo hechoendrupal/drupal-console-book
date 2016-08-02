@@ -1,12 +1,12 @@
 # init
-The **init** command Copy configuration files to user home directory.
+Copy configuration files to user home directory.
 
-**Usage:**
+**Ús:**
 ```
-$ drupal init [options] 
+$ drupal init [options]
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --override | Override configurations files

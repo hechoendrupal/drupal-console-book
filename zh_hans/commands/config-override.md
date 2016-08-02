@@ -4,12 +4,13 @@
 **用法:**
 ```
 $ drupal config:override [arguments]
+$ co  
 ```
 
 ## 可用参数
 参数 | 详细
 ---------|-------------
-name | commands.config.override.arguments.name
+name | 配置名称
 key | 键
 value | 值
 

@@ -1,18 +1,19 @@
 # generate:plugin:rest:resource
-REST-erőforrás bővítmény létrehozása
+Generate plugin rest resource
 
 **Használat:**
 ```
 $ drupal generate:plugin:rest:resource [options]
+$ gprr  
 ```
 
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---class | REST-erőforrás bővítményosztály
+--module | The Module name.
+--class | Plugin Rest Resource class
 --name | commands.generate.service.options.name
---plugin-id | REST-erőforrás bővítmény azonosítója
---plugin-label | REST-erőforrás bővítmény címkéje
---plugin-url | REST-erőforrás bővítmény URL-címe
---plugin-states | REST-erőforrás bővítmény állapotok
+--plugin-id | Plugin Rest Resource id
+--plugin-label | Plugin Rest Resource Label
+--plugin-url | Plugin Rest Resource URL
+--plugin-states | Plugin Rest Resource States

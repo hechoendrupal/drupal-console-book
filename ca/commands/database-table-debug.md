@@ -1,12 +1,17 @@
 # database:table:debug
-El comandament **database:table:debug** executa Mostra les taules d'una base de dades.
+Mostrar les taules d'una base de dades.
 
 **Ús:**
 ```
-$ drupal database:table:debug [arguments] 
+$ drupal database:table:debug [arguments] [options]
 ```
+
+## Opcions disponibles
+Opció | Detalls
+-------|-------------
+--database | Database key from settings.php
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-database | Clau de la base de dades de settings.php
+table | Table to debug

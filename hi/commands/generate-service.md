@@ -1,5 +1,5 @@
 # generate:service
-सर्विस उत्पन्न करें
+Generate service
 
 **प्रयोग:**
 ```
@@ -10,8 +10,9 @@ $ gs
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
+--module | The Module name.
 --name | commands.generate.service.options.name
---class | क्लास का नाम
+--class | Class name
 --interface | commands.common.service.options.interface
---services | सर्विसेज़ को container से लोड करें।
+--services | Load services from the container.
+--path_service | Path

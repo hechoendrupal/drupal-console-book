@@ -1,5 +1,5 @@
 # breakpoints:debug
-commands.breakpoints.debug.description
+Exibe breakpoints disponíveis na aplicação
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal breakpoints:debug [arguments]
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-group | commands.breakpoints.debug.options.group-name
+group | Digite o Breakpoint Group Name

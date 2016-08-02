@@ -1,18 +1,19 @@
 # generate:plugin:fieldtype
-El comandament **generate:plugin:fieldtype** executa Generar plugin de tipus de camp.
+Generar connector de tipus de camp.
 
 **Ús:**
 ```
-$ drupal generate:plugin:fieldtype [options] 
+$ drupal generate:plugin:fieldtype [options]
+$ gpft  
 ```
 
 ## Opcions disponibles
 Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
---class | Nom de la classe del plugin
---label | Etiqueta del plugin
---plugin-id | Id del plugin
---description | Descripció del plugin
---default-widget | Widget de camp predeterminat d'aquest plugin
---default-formatter | Formatador de camp predeterminat d'aquest plugin
+--class | Nom de la classe del connector
+--label | Etiqueta del connector
+--plugin-id | Identificador del connector
+--description | Descripció del connector
+--default-widget | Giny de camp predeterminat d'aquest connector
+--default-formatter | Formatador de camp predeterminat d'aquest connector

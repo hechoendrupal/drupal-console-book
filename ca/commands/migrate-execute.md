@@ -1,9 +1,9 @@
 # migrate:execute
-El comandament **migrate:execute** executa Executar la migració disponible per l'aplicació
+Executar les migracions disponibles per l'aplicació
 
 **Ús:**
 ```
-$ drupal migrate:execute [arguments] [options] 
+$ drupal migrate:execute [arguments] [options]
 $ mie  
 ```
 
@@ -12,15 +12,15 @@ Opció | Detalls
 -------|-------------
 --site-url | URL de lloc d'origen
 --db-type | commands.migrate.setup.migrations.options.db-type
---db-host | Nom del host
+--db-host | Nom de l'amfitrió
 --db-name | Nom de la base de dades
 --db-user | Usuari de la base de dades
---db-pass | COntrasenya de la base de dades
+--db-pass | Contrasenya de la base de dades
 --db-prefix | Prefix de la base de dades
 --db-port | Por de la base de dades
---exclude | Id(s) a excluir de la migració
+--exclude | Identificadors(s) a excluir de la migració
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-migration-ids | Id(s) de la migració
+migration-ids | Identificador(s) de la migració

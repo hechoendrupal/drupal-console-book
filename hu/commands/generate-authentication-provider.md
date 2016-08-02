@@ -1,5 +1,5 @@
 # generate:authentication:provider
-Hitelesítésszolgáltató létrehozása
+Generate an Authentication Provider
 
 **Használat:**
 ```
@@ -10,6 +10,6 @@ $ gap
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---class | Hitelesítésszolgáltató osztály
---provider-id | Szolgáltató azonosítója
+--module | The Module name.
+--class | Authentication Provider class
+--provider-id | Provider ID

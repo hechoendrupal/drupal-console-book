@@ -1,5 +1,5 @@
 # translation:sync
-सींक ट्रांसलेशन फाइल्स
+Sync translation files
 
 **प्रयोग:**
 ```
@@ -11,7 +11,7 @@ $ drupal translation:sync [arguments] [options]
 -------|-------------
 --file | commands.translation.stats.options.file
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
-language | अंग्रेजी स्रोत फ़ाइलों के खिलाफ भाषा सिंक्रनाइज़ करने के लिए
+language | Language to syncronize against English source files

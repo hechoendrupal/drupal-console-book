@@ -10,8 +10,10 @@ $ md
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---path | commands.module.download.options.path
+--path | La ruta de contrib del proyecto
 --latest | Valor por defecto que descarga la versión más reciente
+--composer | Descarga el módulo usando Composer
+--unstable | commands.module.install.options.unstable
 
 ## Argumentos disponibles
 Argumento | Detalles

@@ -1,5 +1,5 @@
 # generate:command
-Cria comandos via console.
+Generate commands for the console.
 
 **Uso:**
 ```
@@ -10,7 +10,7 @@ $ gcm
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---module | O nome do módulo.
---class | Nome da classe do comando
---name | Nome do comando.
---container-aware | Conhece o comando ciente da instalação do site Drupal quando executado
+--module | The Module name.
+--class | The Class that describes the command. (Must end with the word 'Command').
+--name | The Command name.
+--container-aware | Is the command aware of the drupal site installation when executed

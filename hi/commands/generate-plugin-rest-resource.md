@@ -1,18 +1,19 @@
 # generate:plugin:rest:resource
-प्लगिन रेस्ट साधन उत्पन्न करें
+Generate plugin rest resource
 
 **प्रयोग:**
 ```
 $ drupal generate:plugin:rest:resource [options]
+$ gprr  
 ```
 
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---class | प्लगिन रेस्ट साधन क्लास
+--module | The Module name.
+--class | Plugin Rest Resource class
 --name | commands.generate.service.options.name
---plugin-id | प्लगिन रेस्ट साधन
---plugin-label | प्लगिन रेस्ट साधन उप-शीर्षक
---plugin-url | प्लगिन रेस्ट साधन URL
---plugin-states | प्लगिन रेस्ट साधन स्थिति
+--plugin-id | Plugin Rest Resource id
+--plugin-label | Plugin Rest Resource Label
+--plugin-url | Plugin Rest Resource URL
+--plugin-states | Plugin Rest Resource States

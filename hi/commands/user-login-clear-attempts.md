@@ -7,7 +7,7 @@ $ drupal user:login:clear:attempts [arguments]
 $ uslca  
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 uid | यूजर आईडी।

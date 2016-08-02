@@ -1,18 +1,19 @@
 # generate:plugin:condition
-प्लगिन नियम उत्पन्न करें।
+Generate a plugin condition.
 
 **प्रयोग:**
 ```
 $ drupal generate:plugin:condition [options]
+$ gpc  
 ```
 
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---class | प्लगिन नियम क्लास नाम
---label | प्लगइन नियम उप-शीर्षक
---plugin-id | प्लगइन नियम id
---context-definition-id | प्रसंग परिभाषा id
---context-definition-label | प्रसंग परिभाषा उप-शीर्षक
---context-definition-required | प्रसंग परिभाषा आवश्यक है (सही/गलत)
+--module | The Module name.
+--class | Plugin condition class name
+--label | Plugin condition label
+--plugin-id | Plugin condition id
+--context-definition-id | Context definition ID
+--context-definition-label | Context definition label
+--context-definition-required | Context definition is required (TRUE/FALSE)

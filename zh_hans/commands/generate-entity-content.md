@@ -1,5 +1,5 @@
 # generate:entity:content
-生成新内容实体
+Generate a new content entity
 
 **用法:**
 ```
@@ -10,9 +10,10 @@ $ gect
 ## 可用选项
 选项 | 详细
 -------|-------------
---module | 模块名称
---entity-class | 内容实体类名
---entity-name | 内容实体名称
---base-path | 内容实体路由的基本路径
---label | 标签
---has-bundles | 实体包含 Bundles
+--module | The Module name.
+--entity-class | The content entity class
+--entity-name | The content entity name
+--base-path | The base-path for the content entity routes
+--label | The label
+--has-bundles | Entity has bundles
+--is-translatable | Content entity translatable

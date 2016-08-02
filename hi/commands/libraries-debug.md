@@ -1,12 +1,12 @@
 # libraries:debug
-commands.libraries.debug.description
+Displays libraries available in application
 
 **प्रयोग:**
 ```
 $ drupal libraries:debug [arguments]
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
-group | commands.libraries.debug.options.name
+group | Enter Libraries Name

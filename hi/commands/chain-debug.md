@@ -1,5 +1,5 @@
 # chain:debug
-List available chain files.
+श्रृंखला फ़ाइलें की सूचि उपलब्द।
 
 **प्रयोग:**
 ```

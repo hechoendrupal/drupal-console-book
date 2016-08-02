@@ -1,5 +1,5 @@
 # views:plugins:debug
-Display current views plugins for the application
+Mostrar os plugins de views atuais para a aplicação
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal views:plugins:debug [arguments]
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-type | Filter views plugins by type
+type | Filtrar plugins de views por tipo

@@ -3,12 +3,17 @@ Descarga un tema para la aplicación
 
 **Uso:**
 ```
-$ drupal theme:download [arguments]
+$ drupal theme:download [arguments] [options]
 $ td  
 ```
+
+## Opciones disponibles
+Opción | Detalles
+-------|-------------
+--composer | Use --composer option for manage the theme download with Composer
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-theme | commands.theme.download.options.theme
-version | Versión del tema, por ejemplo, 1.x-dev
+theme | the Theme name
+version | Theme version i.e 1.x-dev

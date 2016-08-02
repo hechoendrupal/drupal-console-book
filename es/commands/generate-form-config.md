@@ -1,20 +1,21 @@
 # generate:form:config
-Generar un nuevo "ConfigFormBase"
+Generate a new "ConfigFormBase"
 
 **Uso:**
 ```
 $ drupal generate:form:config [options]
+$ gfc  
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | Nombre del módulo.
---class | El nombre de la clase del formulario
---form-id | El id del formulario
---services | Cargar servicios desde el contenedor.
---inputs | Crear campos de entrada en un formulario.
---routing | Actualizar la ruta
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
+--inputs | Create inputs in a form.
+--path | Enter the form path
 --menu_link_gen | commands.generate.form.options.menu_link_gen
 --menu_link_title | commands.generate.form.options.menu_link_title
 --menu_parent | commands.generate.form.options.menu_parent

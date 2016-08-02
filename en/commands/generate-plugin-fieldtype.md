@@ -4,6 +4,7 @@ Generate field type plugin.
 **Usage:**
 ```
 $ drupal generate:plugin:fieldtype [options]
+$ gpft  
 ```
 
 ## Available options

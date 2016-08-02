@@ -1,16 +1,16 @@
 # cache:rebuild
-El comandament **cache:rebuild** executa Reconstrueix i esborra tota la memòria cau (cache) del lloc web.
+Reconstruir i esborrar la memòria cau del lloc web.
 
 **Ús:**
 ```
-$ drupal cache:rebuild [arguments] 
+$ drupal cache:rebuild [arguments]
 $ cr  
 ```
 
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-cache | Esborrar una memòria cau (cache) específica.
+cache | Esborrar una memòria cau específica.
 
 ## Exemples
 * Reconstruir tota la memòria cau.

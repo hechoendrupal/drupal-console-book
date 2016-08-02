@@ -1,5 +1,5 @@
 # config:delete
-Delete configuration
+Remove Configuração
 
 **Uso:**
 ```
@@ -9,4 +9,5 @@ $ drupal config:delete [arguments]
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-name | Configuration name.
+type | Configuration type.
+name | Nome de configuração.

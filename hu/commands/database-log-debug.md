@@ -12,7 +12,7 @@ Beállítás | Részletek
 --type | Események szűrése típus alapján
 --severity | Események szűrése súlyossági szintjük alapján
 --user-id | Események szűrése felhasználói azonosító alapján
---reverse | Események sorrendjének megfordítása
+--asc | List events in ascending order
 --limit | Egy adott számra korlátozza a találatok számát
 --offset | Egy korlát kezdőpontja
 

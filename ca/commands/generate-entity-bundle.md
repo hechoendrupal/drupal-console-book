@@ -1,9 +1,9 @@
 # generate:entity:bundle
-El comandament **generate:entity:bundle** executa Generar un nou tipus de contingut (node / entity bundle)
+Generar un nou tipus de contingut (node / entity bundle)
 
 **Ús:**
 ```
-$ drupal generate:entity:bundle [options] 
+$ drupal generate:entity:bundle [options]
 $ geb  
 ```
 

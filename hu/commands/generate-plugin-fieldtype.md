@@ -1,18 +1,19 @@
 # generate:plugin:fieldtype
-Mezőtípus bővítmény létrehozása
+Generate field type plugin.
 
 **Használat:**
 ```
 $ drupal generate:plugin:fieldtype [options]
+$ gpft  
 ```
 
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---class | Bővítmény osztályneve
---label | Bővítmény felirata
---plugin-id | Bővítmény azonosítója
---description | Bővítmény leírása
---default-widget | A bővítmény alapértelmezett mező felületi eleme
---default-formatter | A bővítmény alapértelmezett mezőformázója
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--description | Plugin Description
+--default-widget | Default field widget of this plugin
+--default-formatter | Default field formatter of this plugin

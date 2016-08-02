@@ -1,5 +1,5 @@
 # generate:doc:dash
-生成 Dash 文档
+Generate the DrupalConsole.docset package for Dash
 
 **用法:**
 ```
@@ -10,4 +10,4 @@ $ gdd
 ## 可用选项
 选项 | 详细
 -------|-------------
---path | 保存 Docset 的文件夹路径
+--path | The path to the directory where the docset will be saved.

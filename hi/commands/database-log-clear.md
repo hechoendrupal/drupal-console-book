@@ -13,7 +13,7 @@ $ drupal database:log:clear [arguments] [options]
 --severity | Filter events by a specific level of severity
 --user-id | Filter events by a specific user id
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 event-id | DBLog event ID

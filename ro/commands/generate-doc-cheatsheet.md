@@ -4,6 +4,7 @@ Generate a printable cheatsheet for Commands
 **Folosire:**
 ```
 $ drupal generate:doc:cheatsheet [options]
+$ gdc  
 ```
 
 ## Opțiuni disponibile

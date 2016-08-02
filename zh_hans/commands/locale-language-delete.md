@@ -1,5 +1,5 @@
 # locale:language:delete
-删除一种语言
+Delete a language to be supported by your site
 
 **用法:**
 ```
@@ -9,4 +9,4 @@ $ drupal locale:language:delete [arguments]
 ## 可用参数
 参数 | 详细
 ---------|-------------
-language | 语言，如 zh-hans
+language | Language for instance es or Spanish

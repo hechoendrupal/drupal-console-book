@@ -1,5 +1,5 @@
 # generate:permissions
-Modul engedélyeinek létrehozása
+Generate module permissions
 
 **Használat:**
 ```
@@ -10,5 +10,5 @@ $ gp
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---permissions | Engedélyek létrehozása.
+--module | The Module name.
+--permissions | Create permissions.

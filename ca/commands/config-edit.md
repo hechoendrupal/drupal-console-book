@@ -1,9 +1,9 @@
 # config:edit
-El comandament **config:edit** executa Editar la configuració seleccionada
+Editar la configuració seleccionada
 
 **Ús:**
 ```
-$ drupal config:edit [arguments] 
+$ drupal config:edit [arguments]
 $ cdit  
 ```
 

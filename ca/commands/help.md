@@ -1,9 +1,9 @@
 # help
-El comandament **help** executa Mostra l'ajuda per un comandament
+Mostrar l'ajuda per un comandament
 
 **Ús:**
 ```
-$ drupal help [arguments] [options] 
+$ drupal help [arguments] [options]
 ```
 
 ## Opcions disponibles
@@ -16,4 +16,4 @@ Opció | Detalls
 ## Arguments disponibles
 Argument | Detalls
 ---------|-------------
-command_name | Nom el comandament
+command_name | Nom del comandament

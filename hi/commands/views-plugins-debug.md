@@ -6,7 +6,7 @@ Display current views plugins for the application
 $ drupal views:plugins:debug [arguments]
 ```
 
-## उपलब्ध तर्कों
+## उपलब्ध तर्क
 तर्क | विवरण
 ---------|-------------
 type | Filter views plugins by type

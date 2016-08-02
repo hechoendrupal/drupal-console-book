@@ -1,14 +1,14 @@
 # self-update
-The **self-update** command Update project to the latest version.
+Actualitzar el projecte a l'última versió.
 
-**Usage:**
+**Ús:**
 ```
-$ drupal self-update [options] 
+$ drupal self-update [options]
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
---major | Update to a new major version, if available.
---manifest | Override the manifest file path.
---current-version | Override the version to update from.
+--major | Actualitzar el projecte a l'última versió, si està disponible.
+--manifest | Anul·lar el camí del fitxer manifest.
+--current-version | Anul·lar la versió a actualitzar des de.

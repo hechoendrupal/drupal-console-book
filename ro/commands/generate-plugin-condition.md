@@ -1,18 +1,19 @@
 # generate:plugin:condition
-Generează o condiție pentru extensie.
+Generate a plugin condition.
 
 **Folosire:**
 ```
 $ drupal generate:plugin:condition [options]
+$ gpc  
 ```
 
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---class | Numele clasei pentru condiția extensiei
---label | Eticheta pentru condiția extensiei
---plugin-id | ID-ul condiției extensiei
---context-definition-id | ID-ul definirii contextului
---context-definition-label | Eticheta definirii contextului
---context-definition-required | Definirea contextului este obligatorie (ADEVĂRAT/FALS)
+--module | The Module name.
+--class | Plugin condition class name
+--label | Plugin condition label
+--plugin-id | Plugin condition id
+--context-definition-id | Context definition ID
+--context-definition-label | Context definition label
+--context-definition-required | Context definition is required (TRUE/FALSE)

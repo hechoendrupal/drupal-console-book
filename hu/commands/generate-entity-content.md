@@ -1,5 +1,5 @@
 # generate:entity:content
-Új tartalom entitás létrehozása
+Generate a new content entity
 
 **Használat:**
 ```
@@ -10,9 +10,10 @@ $ gect
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---module | A modul neve.
---entity-class | A tartalom entitás osztály
---entity-name | A tartalom entitás neve
---base-path | A tartalom entitás útvonalak alapútvonala
---label | A felirat
---has-bundles | Az entitás nem rendelkezik mezőcsoportokkal
+--module | The Module name.
+--entity-class | The content entity class
+--entity-name | The content entity name
+--base-path | The base-path for the content entity routes
+--label | The label
+--has-bundles | Entity has bundles
+--is-translatable | Content entity translatable

@@ -1,9 +1,9 @@
 # site:mode
-El comandament **site:mode** executa Canviar la configuració de rendiment del sistema
+Canviar la configuració de rendiment del sistema
 
 **Ús:**
 ```
-$ drupal site:mode [arguments] 
+$ drupal site:mode [arguments]
 $ smo  
 ```
 

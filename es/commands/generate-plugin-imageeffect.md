@@ -1,16 +1,17 @@
 # generate:plugin:imageeffect
-Genera un plugin de efecto de imagen.
+Generate image effect plugin.
 
 **Uso:**
 ```
 $ drupal generate:plugin:imageeffect [options]
+$ gpie  
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | Nombre del módulo.
---class | Nombre de la clase del plugin
---label | Etiqueta del plugin
---plugin-id | ID del plugin
---description | Descripción del plugin
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--description | Plugin Description

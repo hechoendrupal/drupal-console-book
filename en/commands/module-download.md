@@ -12,6 +12,8 @@ Option | Details
 -------|-------------
 --path | The path of the contrib project
 --latest | Default to download most recent version
+--composer | Download the module using Composer
+--unstable | commands.module.install.options.unstable
 
 ## Available arguments
 Argument | Details

@@ -1,5 +1,5 @@
 # generate:entity:config
-Generează o entitate de configurare nouă
+Generate a new config entity
 
 **Folosire:**
 ```
@@ -10,9 +10,9 @@ $ gecg
 ## Opțiuni disponibile
 Opțiune | Detalii
 -------|-------------
---module | Numele Modulului.
---entity-class | Clasa entității de configurare
---entity-name | Numele entității de configurare
+--module | The Module name.
+--entity-class | The config entity class
+--entity-name | The config entity name
 --base-path | The base-path for the config entity routes
---label | Eticheta
+--label | The label
 --bundle-of | Acts as bundle for content entities

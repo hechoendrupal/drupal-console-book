@@ -1,5 +1,5 @@
 # plugin:debug
-Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
+Mostra todos os tipos de plugins, instâncias de um tipo específico de plugin ou a definição para um plugin específico.
 
 **Uso:**
 ```
@@ -9,5 +9,5 @@ $ drupal plugin:debug [arguments]
 ## Argumentos disponíveis
 Argumento | Detalhes
 ---------|-------------
-type | Plugin type
+type | Tipo de plugin
 id | Plugin ID

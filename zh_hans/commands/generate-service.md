@@ -1,5 +1,5 @@
 # generate:service
-生成服务
+Generate service
 
 **用法:**
 ```
@@ -10,8 +10,9 @@ $ gs
 ## 可用选项
 选项 | 详细
 -------|-------------
---module | 模块名称
+--module | The Module name.
 --name | commands.generate.service.options.name
---class | 类名
+--class | Class name
 --interface | commands.common.service.options.interface
---services | 从容器中导入服务
+--services | Load services from the container.
+--path_service | Path

@@ -1,18 +1,19 @@
 # generate:plugin:condition
-Criar um plugin de condition.
+Generate a plugin condition.
 
 **Uso:**
 ```
 $ drupal generate:plugin:condition [options]
+$ gpc  
 ```
 
 ## Opções disponíveis
 Opção | Detalhes
 -------|-------------
---module | O nome do módulo.
---class | Nome da classe do plugin
---label | Label do plugin
---plugin-id | Id do plugin
---context-definition-id | ID da definição de contexto
---context-definition-label | Label da definição de contexto
---context-definition-required | A definição de contexto é obrigatória (TRUE/FALSE)
+--module | The Module name.
+--class | Plugin condition class name
+--label | Plugin condition label
+--plugin-id | Plugin condition id
+--context-definition-id | Context definition ID
+--context-definition-label | Context definition label
+--context-definition-required | Context definition is required (TRUE/FALSE)

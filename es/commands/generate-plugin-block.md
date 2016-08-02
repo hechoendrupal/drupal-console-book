@@ -1,5 +1,5 @@
 # generate:plugin:block
-Genera un plugin de bloque
+Generate a plugin block
 
 **Uso:**
 ```
@@ -10,10 +10,10 @@ $ gpb
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | Nombre del módulo.
---class | Nombre de la clase del plugin
---label | Etiqueta del plugin
---plugin-id | ID del plugin
---theme-region | Región del tema para renderizar el plugin de bloque
---inputs | Crear campos de entrada en un formulario.
---services | Cargar servicios desde el contenedor.
+--module | The Module name.
+--class | Plugin class name
+--label | Plugin label
+--plugin-id | Plugin id
+--theme-region | Theme region to render Plugin Block
+--inputs | Create inputs in a form.
+--services | Load services from the container.

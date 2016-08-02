@@ -6,15 +6,16 @@ Comando de Drupal Console | Detalles
 ------------ | -------------
 [about](about.md) | Muestra información básica sobre el proyecto Drupal Console
 [chain](chain.md) | Ejecución de comandos en secuencia
-[check](check.md) | commands.check.description
+[check](check.md) | Comprobador de requisitos del sistema
 [help](help.md) | Muestra ayuda para un comando dado
-[init](init.md) | commands.init.description
+[init](init.md) | Copiar los archivos de configuración al directorio home del usuario.
 [list](list.md) | Enlista comandos
-[self-update](self-update.md) | Actualiza la consola a la última versión.
+[self-update](self-update.md) | Update project to the latest version.
 [server](server.md) | Lanza el servidor web PHP interno
 **breakpoints**  |
-[breakpoints:debug](breakpoints-debug.md) | commands.breakpoints.debug.description
+[breakpoints:debug](breakpoints-debug.md) | Muestra los breakpoints disponibles en la aplicación
 **cache**  |
+[cache:context:debug](cache-context-debug.md) | Muestra el contexto de caché actual para la aplicación.
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
 **chain**  |
 [chain:debug](chain-debug.md) | Lista las secuencias de comandos disponibles.
@@ -25,7 +26,6 @@ Comando de Drupal Console | Detalles
 [config:edit](config-edit.md) | Editar la configuración seleccionada.
 [config:export](config-export.md) | Exporta la configuración actual de la aplicación.
 [config:export:content:type](config-export-content-type.md) | Exporta un tipo de contenido determinado y todos sus campos.
-[config:export:single](config-export-single.md) | Exportar configuración única como archivo YAML.
 [config:export:view](config-export-view.md) | Exporta una vista en formato YAML dentro de un módulo para ser reutilizado en otro sitio.
 [config:import](config-import.md) | Importa la configuración del estado actual de la aplicación.
 [config:import:single](config-import-single.md) | Importar la configuración seleccionada.
@@ -52,66 +52,82 @@ Comando de Drupal Console | Detalles
 [database:log:debug](database-log-debug.md) | Desplegar eventos registrados al momento para la aplicación
 [database:restore](database-restore.md) | Restaurar la estructura y los contenidos de bases de datos y tablas MySQL
 [database:table:debug](database-table-debug.md) | Muestra todas las tablas en una base de datos.
+**devel**  |
+[devel:dumper](devel-dumper.md) | Change the devel dumper plugin
+**event**  |
+[event:debug](event-debug.md) | Mostrar los eventos actuales 
 **generate**  |
-[generate:authentication:provider](generate-authentication-provider.md) | Generar un Proveedor de Autenticación
-[generate:command](generate-command.md) | Genera un comando para la consola.
-[generate:controller](generate-controller.md) | Generar y registrar un controlador
-[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Genera un cheatsheet imprimible de los comandos disponibles
-[generate:doc:dash](generate-doc-dash.md) | Generar el paquete DrupalConsole.docset para Dash
-[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
-[generate:doc:gitbook](generate-doc-gitbook.md) | Generar documentaciones para Comandos
-[generate:entity:bundle](generate-entity-bundle.md) | Genera un nuevo tipo de contenido (nodo / bundle de entidad)
-[generate:entity:config](generate-entity-config.md) | Generar una nueva entidad de configuración
-[generate:entity:content](generate-entity-content.md) | Generar una nueva entidad de contenido
-[generate:event:subscriber](generate-event-subscriber.md) | Genera un suscriptor de eventos
-[generate:form](generate-form.md) | Generar un nuevo "FormBase"
-[generate:form:alter](generate-form-alter.md) | Genera una implementación de hook_form_alter() o hook_form_FORM_ID_alter
-[generate:form:config](generate-form-config.md) | Generar un nuevo "ConfigFormBase"
-[generate:module](generate-module.md) | Generar un módulo.
-[generate:permissions](generate-permissions.md) | Genera los permisos del módulo
-[generate:plugin:block](generate-plugin-block.md) | Genera un plugin de bloque
-[generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Genera un plugin de botón para CKEditor.
-[generate:plugin:condition](generate-plugin-condition.md) | Genera un plugin de condición.
-[generate:plugin:field](generate-plugin-field.md) | Genera plugins de widget, formateador y tipo de campo.
-[generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Genera un plugin de formateador de campo.
-[generate:plugin:fieldtype](generate-plugin-fieldtype.md) | Genera plugins de tipo de campo.
-[generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Genera un plugin de widget de campo.
-[generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Genera un plugin de efecto de imagen.
-[generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Genera plugins de formateador de imagen.
-[generate:plugin:mail](generate-plugin-mail.md) | Genera un plugin de correo
-[generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Genera un plugin de recurso rest
-[generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Genera un plugin de acción de rules
-[generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Genera un tipo de plugin con descubrimiento de anotaciones
-[generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Genera un tipo de plugin con descubrimiento YAML
-[generate:plugin:views:field](generate-plugin-views-field.md) | Genera un plugin de campo de vista personalizado.
-[generate:profile](generate-profile.md) | Genera un perfil.
-[generate:routesubscriber](generate-routesubscriber.md) | Generar un RouteSubscriber
-[generate:service](generate-service.md) | Genera un servicio
-[generate:theme](generate-theme.md) | Genera un tema.
+[generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
+[generate:breakpoint](generate-breakpoint.md) | Generate breakpoint
+[generate:command](generate-command.md) | Generate commands for the console.
+[generate:controller](generate-controller.md) | Generate & Register a controller
+[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands
+[generate:doc:dash](generate-doc-dash.md) | Generate the DrupalConsole.docset package for Dash
+[generate:doc:data](generate-doc-data.md) | Generate documentations for Commands.
+[generate:doc:gitbook](generate-doc-gitbook.md) | Generate documentations for Commands
+[generate:entity:bundle](generate-entity-bundle.md) | Generate a new content type (node / entity bundle)
+[generate:entity:config](generate-entity-config.md) | Generate a new config entity
+[generate:entity:content](generate-entity-content.md) | Generate a new content entity
+[generate:event:subscriber](generate-event-subscriber.md) | Generate an event subscriber
+[generate:form](generate-form.md) | Generate a new "FormBase"
+[generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
+[generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
+[generate:help](generate-help.md) | Generate an implementation of hook_help()
+[generate:module](generate-module.md) | Generate a module.
+[generate:module:file](generate-module-file.md) | Generate a .module file
+[generate:permissions](generate-permissions.md) | Generate module permissions
+[generate:plugin:block](generate-plugin-block.md) | Generate a plugin block
+[generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
+[generate:plugin:condition](generate-plugin-condition.md) | Generate a plugin condition.
+[generate:plugin:field](generate-plugin-field.md) | Generate field type, widget and formatter plugins.
+[generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Generate field formatter plugin.
+[generate:plugin:fieldtype](generate-plugin-fieldtype.md) | Generate field type plugin.
+[generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Generate field widget plugin.
+[generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Generate image effect plugin.
+[generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Generate image formatter plugin.
+[generate:plugin:mail](generate-plugin-mail.md) | Generate a plugin mail
+[generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Generate plugin rest resource
+[generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Generate a plugin rule action
+[generate:plugin:skeleton](generate-plugin-skeleton.md) | Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator
+[generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
+[generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Generate a plugin type with Yaml discovery
+[generate:plugin:views:field](generate-plugin-views-field.md) | Generate a custom plugin view field.
+[generate:post:update](generate-post-update.md) | commands.generate.post:update.description
+[generate:profile](generate-profile.md) | Generate a profile.
+[generate:routesubscriber](generate-routesubscriber.md) | Generate a RouteSubscriber
+[generate:service](generate-service.md) | Generate service
+[generate:theme](generate-theme.md) | Generate a theme.
+[generate:twig:extension](generate-twig-extension.md) | Generate a Twig extension.
+[generate:update](generate-update.md) | Generate an implementation of hook_update_N()
 **image**  |
 [image:styles:debug](image-styles-debug.md) | Lista los estilos de imágenes del sitio
 [image:styles:flush](image-styles-flush.md) | Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
 **libraries**  |
-[libraries:debug](libraries-debug.md) | commands.libraries.debug.description
+[libraries:debug](libraries-debug.md) | Muestra las librerías disponibles en la aplicación
 **locale**  |
-[locale:language:add](locale-language-add.md) | Añadir un idioma que sea soportado en el sitio
-[locale:language:delete](locale-language-delete.md) | Eliminar un idioma soportado en el sitio
-[locale:translation:status](locale-translation-status.md) | Lista de traducciones disponibles actualizadas
+[locale:language:add](locale-language-add.md) | Add a language to be supported by your site
+[locale:language:delete](locale-language-delete.md) | Delete a language to be supported by your site
+[locale:translation:status](locale-translation-status.md) | List available translation updates
 **migrate**  |
 [migrate:debug](migrate-debug.md) | Muestra la migración actual disponible para la aplicación
 [migrate:execute](migrate-execute.md) | Ejecuta una migración que esté disponible para la aplicación
-[migrate:setup](migrate-setup.md) | Cargar y crear las migraciones pertinentes para una base de datos heredada
 **module**  |
 [module:debug](module-debug.md) | Muestra los módulos actualmente disponibles para la aplicación
 [module:download](module-download.md) | Descarga un módulo o varios en la aplicación
 [module:install](module-install.md) | Instala un módulo o varios en la aplicación
+[module:path](module-path.md) | Indicar la ruta relativa a un módulo (o su ruta absoluta)
 [module:uninstall](module-uninstall.md) | Desinstala un módulo o varios en la aplicación
+[module:update](module-update.md) | Actualizar el core, un módulo o varios en la aplicación
 **multisite**  |
 [multisite:debug](multisite-debug.md) | Lista todos los sitios múltiples disponibles en el sistema
+[multisite:new](multisite-new.md) | Prepara los archivos para una nueva instalación multisitio.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Reconstruir los permisos de acceso a nodos. La reconstrucción eliminará todos los privilegios al contenudo y los reemplazará con permisos basado en los módulos y configuración actual,
 **plugin**  |
 [plugin:debug](plugin-debug.md) | Mostrar todos los tipos de plugin, instancias de plugin de un tipo específico, o la definición para un plugin específico.
+**queue**  |
+[queue:debug](queue-debug.md) | Display the queues of your application
+[queue:run](queue-run.md) | Process the selected queue.
 **rest**  |
 [rest:debug](rest-debug.md) | Muestra el actual recurso rest para la aplicación
 [rest:disable](rest-disable.md) | Deshabilita un recurso rest en la aplicación
@@ -142,12 +158,13 @@ Comando de Drupal Console | Detalles
 [theme:debug](theme-debug.md) | Despliega los temas actuales para la aplicación
 [theme:download](theme-download.md) | Descarga un tema para la aplicación
 [theme:install](theme-install.md) | Instalar tema o temas en la aplicación
+[theme:path](theme-path.md) | Devuelve la ruta relativa al theme (o ruta absoluta)
 [theme:uninstall](theme-uninstall.md) | Desinstalar tema o temas en la aplicación
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Ficheros de limpieza de traducción
-[translation:pending](translation-pending.md) | Determina cadenas de traducción pendientes en un idioma o en un archivo específico de un idioma
-[translation:stats](translation-stats.md) | Genera estadísticas de traducción
-[translation:sync](translation-sync.md) | Sincronizar archivos de traducción
+[translation:cleanup](translation-cleanup.md) | Clean up translation files
+[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
+[translation:stats](translation-stats.md) | Generate translate stats
+[translation:sync](translation-sync.md) | Sync translation files
 **update**  |
 [update:debug](update-debug.md) | Muestra las actualizaciones actualmente disponibles para la aplicación
 [update:entities](update-entities.md) | Aplicar actualizaciones a entidades
@@ -159,6 +176,7 @@ Comando de Drupal Console | Detalles
 [user:login:url](user-login-url.md) | Crea una url de login de usuario de uso único.
 [user:password:hash](user-password-hash.md) | Crea un hash a partir de una contraseña en texto plano.
 [user:password:reset](user-password-reset.md) | Restablece la contraseña de un usuario específico.
+[user:role](user-role.md) | Añadir/eliminar un rol de un usuario dado
 **views**  |
 [views:debug](views-debug.md) | Muestra los recursos actuales de vistas para la aplicación
 [views:disable](views-disable.md) | Deshabilita una vista
@@ -177,7 +195,7 @@ Opción | Detalles
 --help | Muestra este mensaje de ayuda
 --quiet | No mostrar ningún mensaje
 --verbose | Aumenta la verbosidad de los mensajes: 1 para la salida normal, 2 para mayor verbosidad y 3 para depurar
---version | <info>%s</info> versión <comment>%s</comment>
+--version | <info>"%s"</info> versión <comment>"%s"</comment>
 --ansi | Forzar salida ANSI
 --no-ansi | Deshabilitar salida ANSI
 --no-interaction | No hacer ningura pregunta interactiva

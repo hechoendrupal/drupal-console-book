@@ -1,5 +1,5 @@
 # generate:doc:dash
-DrupalConsole.docset csomag létrehozása a Dash számára
+Generate the DrupalConsole.docset package for Dash
 
 **Használat:**
 ```
@@ -10,4 +10,4 @@ $ gdd
 ## Rendelkezésre álló beállítások
 Beállítás | Részletek
 -------|-------------
---path | A docset mentési könyvtárának útvonala.
+--path | The path to the directory where the docset will be saved.

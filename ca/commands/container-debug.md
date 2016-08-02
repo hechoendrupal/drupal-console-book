@@ -1,8 +1,13 @@
 # container:debug
-El comandament **container:debug** executa Mostra el serveis actuals de l'aplicació.
+Mostrar els serveis actuals de l'aplicació.
 
 **Ús:**
 ```
-$ drupal container:debug 
+$ drupal container:debug [arguments]
 $ cod  
 ```
+
+## Arguments disponibles
+Argument | Detalls
+---------|-------------
+service | commands.container.debug.options.cache

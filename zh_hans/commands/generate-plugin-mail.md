@@ -9,8 +9,8 @@ $ drupal generate:plugin:mail [options]
 ## 可用选项
 选项 | 详细
 -------|-------------
---module | 模块名称
+--module | The Module name.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
---services | 从容器中导入服务
+--services | Load services from the container.

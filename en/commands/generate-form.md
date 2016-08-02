@@ -14,7 +14,7 @@ Option | Details
 --form-id | The Form id
 --services | Load services from the container.
 --inputs | Create inputs in a form.
---routing | Update routing
+--path | Enter the form path
 --menu_link_gen | commands.generate.form.options.menu_link_gen
 --menu_link_title | commands.generate.form.options.menu_link_title
 --menu_parent | commands.generate.form.options.menu_parent

@@ -1,5 +1,5 @@
 # generate:theme
-Smink létrehozása.
+Generate a theme.
 
 **Használat:**
 ```
@@ -11,12 +11,12 @@ $ gt
 Beállítás | Részletek
 -------|-------------
 --theme | commands.generate.theme.options.module
---machine-name | A programok által használt név (csak kisbetűk és aláhúzás)
+--machine-name | The machine name (lowercase and underscore only)
 --theme-path | commands.generate.theme.options.module-path
---description | A smink leírása
---core | Drupal alaprendszer verziója
---package | Smink csomagja
---global-library | Globális stíluskönyvtár neve
---base-theme | Alapsmink (pl. classy, stable)
---regions | Régiók
---breakpoints | Töréspontok
+--description | Theme description
+--core | Core version
+--package | Theme package
+--global-library | Global styling library name
+--base-theme | Base theme (i.e. classy, stable)
+--regions | Regions
+--breakpoints | Breakpoints

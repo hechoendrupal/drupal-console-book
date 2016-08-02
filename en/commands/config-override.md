@@ -4,6 +4,7 @@ Override config value in active configuration.
 **Usage:**
 ```
 $ drupal config:override [arguments]
+$ co  
 ```
 
 ## Available arguments

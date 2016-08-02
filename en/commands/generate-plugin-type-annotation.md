@@ -4,6 +4,7 @@ Generate a plugin type with annotation discovery
 **Usage:**
 ```
 $ drupal generate:plugin:type:annotation [options]
+$ gpta  
 ```
 
 ## Available options

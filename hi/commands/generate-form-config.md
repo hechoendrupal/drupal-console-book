@@ -1,20 +1,21 @@
 # generate:form:config
-एक नया ConfigFormBase उत्पन्न करें
+Generate a new "ConfigFormBase"
 
 **प्रयोग:**
 ```
 $ drupal generate:form:config [options]
+$ gfc  
 ```
 
 ## उपलब्ध विकल्प
 विकल्प | विवरण
 -------|-------------
---module | मोड्यूल का नाम।
---class | फॉर्म क्लास का नाम
---form-id | फॉर्म आईडी
---services | सर्विसेज़ को container से लोड करें।
---inputs | एक फॉर्म के लिए आदानो को बनाएँ।
---routing | राउटिंग अवगत करें
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
+--inputs | Create inputs in a form.
+--path | Enter the form path
 --menu_link_gen | commands.generate.form.options.menu_link_gen
 --menu_link_title | commands.generate.form.options.menu_link_title
 --menu_parent | commands.generate.form.options.menu_parent

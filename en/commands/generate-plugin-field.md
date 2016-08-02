@@ -4,6 +4,7 @@ Generate field type, widget and formatter plugins.
 **Usage:**
 ```
 $ drupal generate:plugin:field [options]
+$ gpf  
 ```
 
 ## Available options

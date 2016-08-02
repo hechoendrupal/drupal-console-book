@@ -1,5 +1,5 @@
 # generate:controller
-Tạo và đăng ký một trình điều khiển
+Generate & Register a controller
 
 **Usage:**
 ```
@@ -10,8 +10,8 @@ $ gcn
 ## Các tùy chọn có sẵn
 Tùy chọn | Các chi tiết
 -------|-------------
---module | Tên module.
---class | Tên lớp của trình điều khiển
+--module | The Module name.
+--class | Controller Class name
 --routes | The routes, must be an array containing [title, method, path]
---services | Nạp các dịch vụ từ container.
---test | Tạo một lớp thử nghiệm
+--services | Load services from the container.
+--test | Generate a test class

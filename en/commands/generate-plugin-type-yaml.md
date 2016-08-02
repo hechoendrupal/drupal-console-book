@@ -4,6 +4,7 @@ Generate a plugin type with Yaml discovery
 **Usage:**
 ```
 $ drupal generate:plugin:type:yaml [options]
+$ gpty  
 ```
 
 ## Available options

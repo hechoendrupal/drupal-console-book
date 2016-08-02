@@ -1,5 +1,5 @@
 # generate:event:subscriber
-Genera un suscriptor de eventos
+Generate an event subscriber
 
 **Uso:**
 ```
@@ -10,8 +10,8 @@ $ ges
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | Nombre del módulo.
+--module | The Module name.
 --name | commands.generate.service.options.name
---class | Nombre de la clase
---events | Cargar servicios desde el contenedor.
---services | Cargar servicios desde el contenedor.
+--class | Class name
+--events | Load events from the container
+--services | Load services from the container.
