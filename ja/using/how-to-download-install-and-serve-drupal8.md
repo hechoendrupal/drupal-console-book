@@ -1,15 +1,16 @@
-# How to download, install and serve Drupal 8
+# Drupal 8をダウンロード、インストールして起動する
 
-The easiest way to try Drupal 8 in your local machine is by executing the `chain` command and pass the option `--file=~/.console/chain/quick-start.yml` as shown on the following example.
+ローカルマシン上でDrupal 8を試す最も簡単な方法は、以下の例のように `--file=~/.console/chain/quick-start.yml` オプションと一緒に `chain` コマンドを使う方法です。
 
 ```
 $ drupal chain --file=~/.console/chain/quick-start.yml
 ```
-> NOTE: You must execute `drupal init` before in order to copy the `~/.console/chain/quick-start.yml` on your system.
+> 備考: あなたのシステムに `~/.console/chain/quick-start.yml` をコピーするために、事前に `drupal init` を実行しておく必要があります。
 
-The `chain` command helps you to automate command execution, allowing you to define an external YAML file containing the definition name, option and arguments of several commands and execute that list based on the sequence defined in the file.
 
-The content of the provided `~/.console/chain/quick-start.yml` file is:
+`chain` コマンドは、実行したいコマンドやそのオプション、引数などを外部のYAMLファイルに記載し、そのファイルの定義を元にコマンドを順次実行することで、コマンドの実行を自動化します。
+
+`~/.console/chain/quick-start.yml` の内容は以下になります。:
 ```
 commands:
   - command: site:new
@@ -32,6 +33,6 @@ commands:
   - command: server
 ```
 
-The previous configuration will execute several commands, in this case commands that will download and install Drupal using SQLite, and finally start the PHP's built in server, now you only need to open your browser and point it to 127.0.0.1:8088.
+前述した例だと、いくつかのコマンドが実行されます。今回のケースでは、Drupalをダウンロードした後、SQliteを使ってインストールし、最後にPHPのビルドインサーバーが起動します。あとは単にブラウザを開き、127.0.0.1:8088 にアクセスするだけです。
 
-You can duplicate or make changes on the provided YAML file, to add commands for download modules `module:download`, install modules `module:install` , import configurations `config:import` and restore your database `database:restore` or any other command provided by DrupalConsole or a custom command by your own module.
+あなたはYMLファイルをコピーもしくは上書きし、モジュールをダウンロードする `module:download`、モジュールをインストールする `module:install`、設定をインポートする `config:import`、データベースをリストアする `database:restore`、その他のDrupal Consoleで提供されているコマンドや、あなた自身のモジュールのカスタムコマンドを追加することができます。

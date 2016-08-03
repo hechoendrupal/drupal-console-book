@@ -1,8 +1,8 @@
-# How to use Drupal Console in a multi-site installation
+# Drupal Consoleをマルチサイト環境で使う
 
-Drupal Console provides support for Drupal multi-site installations. This project provides the `multisite:debug` command to debug multi-site installations and the `--uri` option to interact with multi-site installations.
+Drupal Consoleはマルチサイト環境をサポートします。`multisite:debug` コマンドでマルチサイトのデバッグを行うことができ、`--uri` オプションを使うと特定のサイトと対話することができます。
 
-### How to list all known multi sites
+### マルチサイトの一覧を表示する方法
 ```
 $ drupal multisite:debug
 
@@ -13,10 +13,10 @@ $ drupal multisite:debug
 | drupal8.multi.dev   | /var/www/drupal8.dev/multi.dev |
 +---------------------+--------------------------------+
 
- Sites are written using the format: <port>.<domain>.<path>
+ サイトの情報は次のフォーマットで表示されます: <port>.<domain>.<path>
 ```
 
-### How to execute a command against a multi-site installation
+### 特定のサイトに対してコマンドを実行する方法
 ```
 $ drupal --uri=http://drupal8.multi.dev cr all
 $ drupal --uri=drupal8.multi.dev cr all

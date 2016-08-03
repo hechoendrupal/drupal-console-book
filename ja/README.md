@@ -1,18 +1,18 @@
-# Drupal Console Documentation
+# Drupal Console ドキュメント
 
-> **Note: This project is a work-in-progress.**
+> **備考: このプロジェクトは開発中です。**
 
-This book documents the [Drupal Console](http://drupalconsole.com/) project.
+これは [Drupal Console](http://drupalconsole.com/) プロジェクトのドキュメントです。
 
-## Contribute to the project
+## プロジェクトに貢献するには
 
-You can contribute to improve this project on [Github](https://github.com/hechoendrupal/DrupalConsole)
+[Github](https://github.com/hechoendrupal/DrupalConsole) を通してプロジェクトに貢献することができます。
 
-## Contribute to this documentation
+## このドキュメントに貢献するには
 
-You can contribute to improve this documentation on [GitHub](https://github.com/hechoendrupal/drupal-console-book).
+[GitHub](https://github.com/hechoendrupal/drupal-console-book) を通してドキュメントの改善に貢献することができます。
 
-## Supporting organizations
+## このプロジェクトをサポートしている組織
 [![weKnow](https://www.drupal.org/files/weKnow-logo.png)](https://weknowinc.com)
 [![Anexus](https://www.drupal.org/files/anexus-logo.png)](http://www.anexusit.com/)
 [![Indava](https://www.drupal.org/files/indava-logo.png)](http://www.indava.com/)
