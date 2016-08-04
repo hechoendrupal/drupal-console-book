@@ -14,8 +14,11 @@ You can contribute to improve this documentation on [GitHub](https://github.com/
 
 ## Supporting organizations
 [![weKnow](https://www.drupal.org/files/weKnow-logo.png)](https://weknowinc.com)
+
 [![Anexus](https://www.drupal.org/files/anexus-logo.png)](http://www.anexusit.com/)
+
 [![Indava](https://www.drupal.org/files/indava-logo.png)](http://www.indava.com/)
+
 [![FFW](https://www.drupal.org/files/ffw-logo.png)](https://ffwagency.com)
 
 > Drupal is a registered trademark of Dries Buytaert.
