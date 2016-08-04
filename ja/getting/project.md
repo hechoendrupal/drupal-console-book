@@ -1,4 +1,4 @@
-# Getting the project
-There are different ways to get the project on your local machine.
+# プロジェクトを取得する
+ローカルマシン上でプロジェクトを取得する方法はいくつかあります。
 
-Our recommendation for getting the project on your local machine is by using the installer.
+私達は、インストーラーを使ってローカルマシン上でプロジェクトを取得する方法を推奨します。

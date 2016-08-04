@@ -1,16 +1,18 @@
-# How to use Drupal Console in a remote site installation
+# Drupal Consoleでリモートサイトに接続する
 
-Drupal Console allows you to run commands on your local server but actually execute them on a remote server.
+Drupal Consoleはローカルサーバー上だけでなく、リモートサーバーに対してもコマンドを実行できます。
 
-You can take advantage of this feature, using the `--target` option and passing the remote site name you want to interact with.  
+この機能を利用するためには、接続したいリモートサイトの名前を `--target` オプションを指定します。
+
 ```
 $ drupal --target=sample.dev cr all
 ```
 
-Setting up your local computer to use a remote site requires a little configuration.
+ローカルマシンからリモートサイトへ接続するためには、少しだけ設定が必要です。
 
-### Edit global configuration 
-You can provide global configuration to remote connections at the copied file `~/.console/config.yml`. This information is grouped within the `remote` key.
+### グローバル設定の編集
+
+`~/.console/config.yml` でリモート接続するためのグローバル設定を提供できます。この情報は `remote` キーでグルーピングされています。
 ```
 application:
   ...
@@ -26,8 +28,8 @@ application:
       passphrase: ~/.ssh/passphrase.txt
 ```
 
-### Edit specific site configuration
-You can provide specific site configuration by duplicating the copied site file at `~/.console/sites/sample.yml` with a new same at `~/.console/sites/`.
+### 特定のサイト向けの設定
+`~/.console/sites/sample.yml` を複製して `~/.console/sites/` にコピーすることで、特定のサイト向けの設定を提供する事ができます。
 
 ```
 local:
@@ -44,8 +46,8 @@ prod:
   console: /var/www/html/docroot/console.phar
 ```
 
-### Debug sites.
-You can list all known local and remote sites by executing the `site:debug` command.
+### サイトのデバッグ
+`site:debug` コマンドで、全てのローカル及びリモート上のサイトを取得することができます。
 ```
 $ drupal site:debug
 
@@ -58,7 +60,7 @@ $ drupal site:debug
 +--------------------+-----------------+------------------------+
 ```
 
-You can show the site configuration details by passing the site name as argument to the `site:debug` command. 
+`site:debug` コマンドの引数にサイト名を渡すと、サイトの詳細情報が表示されます。
 ```
 $ drupal site:debug sample.dev
 
@@ -66,7 +68,7 @@ user: drupal
 port: 22
 console: /usr/local/bin/drupal
 options:
-arguments: 
+arguments:
 keys:
     public: ~/.ssh/id_rsa.pub
     private: ~/.ssh/id_rsa
@@ -76,4 +78,4 @@ host: 140.211.10.62
 remote: true
 ```
 
-**NOTE:** As you may notice the global configuration and the specific site configuration are merged when debugging a site. You can override any global configuration by adding those keys on the site specific configuration.  
+**備考:** サイトをデバッグするときに、グローバル設定と特定のサイト向けの設定がマージされていることに気づいたかもしれません。これらのキーを特定のサイト向けの設定に追加することで、全てのグローバル設定は上書きすることができます。

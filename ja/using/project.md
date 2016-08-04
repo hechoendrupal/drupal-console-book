@@ -1,23 +1,24 @@
-# Using the project
+# プロジェクトを使う
 
-Drupal Console provides two types of commands, `stand alone` and `container aware` commands.
+Drupal Consoleは `stand alone` コマンドと `container aware` コマンドの2種類のコマンドを提供します。
 
-**Stand alone commands:**
-These commands can run outside of a Drupal 8 site root.
- 
-**Container aware commands:**
-These commands must be run within a Drupal 8 site root.
+**Stand alone コマンド:**
+これらのコマンドはDrupalサイトのルートディレクトリの外側でも実行できます。
 
-### Executing Drupal Console outside a Drupal site root 
-You can run Drupal Console from any directory on your system by using the `--root` option to define the Drupal root to be use in the command execution. 
+**Container aware コマンド:**
+これらのコマンドはDrupalサイトのルートディレクトリの中で実行する必要があります。
+
+### Drupalサイトのルートディレクトリの外側でDrupal Consoleを実行する
+`--root` オプションを使ってコマンドで利用するDrupalのルートディレクトリを指定すれば、システム上のどこからでもDrupal Consoleを実行できます。
+
 ```
 $ drupal --root=/var/www/drupal8.dev cr all
 ```
 
-**NOTE:** Possible messages when executing Drupal Console outside a Drupal site root and no `--root` option provided.
+**備考:** `--root` オプションを指定せずにDrupalサイトのルートディレクトリの外側でDrupal Consoleを実行した場合は、メッセージを受け取ることができます。
 
-When running the project outside of a Drupal 8 site root, the following message will be shown.  
+Drupalサイトのルートディレクトリの外側でDrupal Consoleを実行した場合、以下のメッセージが表示されます。
 > In order to list all of the available commands, you should run this inside a drupal root directory.
 
-When running the project within of a Drupal 8 site root, but site is not yet installed, the following message will be shown.
+Drupalサイトのルートディレクトリの中でDrupal Consoleを実行したが、サイトがまだインストールされていない場合は、以下のメッセージが表示されます。
 > In order to list all of the available commands you should install drupal first.

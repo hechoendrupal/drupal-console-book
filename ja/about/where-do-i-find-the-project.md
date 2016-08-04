@@ -1,16 +1,16 @@
-# Where do I find the project?
+# どこでプロジェクトを見つけることができますか？
 
-## Project landing page
+## プロジェクトのランディングページ
 http://drupalconsole.com
 
-## Github repository
+## Github レポジトリ
 https://github.com/hechoendrupal/DrupalConsole
 
-## Documentation
+## ドキュメント
 http://hechoendrupal.gitbooks.io/drupal-console
 
-## Support chat
+## サポートチャット
 https://gitter.im/hechoendrupal/DrupalConsole
 
-## More information on Drupal.org project page
+## Drupal.org上のプロジェクトページ
 https://drupal.org/project/console

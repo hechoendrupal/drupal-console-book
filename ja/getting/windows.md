@@ -1,28 +1,28 @@
-# Installing Drupal Console on Windows
-On Windows there are two ways to install drupal console. One uses Git Bash, the other uses a Windows command prompt. I recommend using the Git Bash utility from the Git for Windows (previously msysgit) program package, since this is the only way you can use drupal console without prefixing it with php.
+# Drupal ConsoleをWindows上にインストール
+Drupal ConsoleをWindows上にインストールする方法は2つあります。Git Bashを使う方法とコマンドプロンプトを使う方法です。私達はGit for Windows (以前は msysgit と呼ばれていました)に含まれる Git Bashを使うことを推奨します。これは、phpコマンドを省略してDrupal Consoleを使うことができる唯一の方法だからです。
 
-## Using curl from the Git Bash prompt:
+## Git Bash プロンプトでcurlを使用する:
 ```
 $ curl https://drupalconsole.com/installer -L -o drupal.phar
 ```
-## OR run the following from a Windows command prompt:
+## もしくは、コマンドプロンプトで以下のコマンドを実行する:
 ```
 $ php -r "readfile('https://drupalconsole.com/installer');" > drupal.phar
 ```
 
-You can now execute it, supposing php.exe is in your PATH environment variable.
+php.exeがPATH環境変数で設定されたパス上にあれば、これで実行することができます。
 
-## Run:
+## Drupal Consoleを実行する:
 
 ```
 $ php drupal.phar
 ```
 
-If you rename the drupal.phar file to drupal, and copy it next to php.exe, then from the Git Bash window you can run it without prefixing with php.
+drupal.pharをdrupalにリネームし、php.exeと同じディレクトリにコピーすれば、Git Bash上からphpコマンドを省略して実行する事ができます。
 
-#### You can now execute using:
+#### Drupal Consoleを実行する:
 ```
 $ drupal
 ```
 
-**NOTE:** The name `drupal` is just an alias you can name it anything you like.
+**備考:** `drupal` という名前は単なるエイリアスなので、別の名前にすることもできます。
