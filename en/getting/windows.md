@@ -1,28 +1,45 @@
 # Installing Drupal Console on Windows
 On Windows there are two ways to install drupal console. One uses Git Bash, the other uses a Windows command prompt. I recommend using the Git Bash utility from the Git for Windows (previously msysgit) program package, since this is the only way you can use drupal console without prefixing it with php.
 
-## Using curl from the Git Bash prompt:
+## Using on Git Bash:
+
+If you use Drupal Console on Git Bash, please install packages below:
+
+* [Git for Windows](https://git-for-windows.github.io/)
+* [Composer](https://github.com/composer/windows-setup)
+* [PHP For Windows](http://windows.php.net/download/)
+* [sqlite-tools-win32-x86](https://www.sqlite.org/download.html)
+
+After installation, you have to include php.exe and sqlite3.exe in your PATH environment variable.
+
+### Setup php.ini
+
+Drupal Console require some extensions. please enable these extensions in your php.ini.
+
 ```
-$ curl https://drupalconsole.com/installer -L -o drupal.phar
-```
-## OR run the following from a Windows command prompt:
-```
-$ php -r "readfile('https://drupalconsole.com/installer');" > drupal.phar
+extension=php_gd2.dll
+extension=php_pdo_sqlite.dll
 ```
 
-You can now execute it, supposing php.exe is in your PATH environment variable.
-
-## Run:
-
+And we recommend to enable another several extensions to use your local language.
 ```
-$ php drupal.phar
+extension=php_intl.dll
+extension=php_mbstring.dll
 ```
 
-If you rename the drupal.phar file to drupal, and copy it next to php.exe, then from the Git Bash window you can run it without prefixing with php.
-
-#### You can now execute using:
+Finally, put cert information.
 ```
-$ drupal
+curl.cainfo = C:\Program Files\Git\usr\ssl\certs\ca-bundle.crt;
 ```
 
-**NOTE:** The name `drupal` is just an alias you can name it anything you like.
+### Install Drupal Console globally using composer:
+```
+$ composer global require drupal/console:@stable
+```
+
+### You can now execute console using:
+```
+$ drupal chain --file="C:\Users\username\.console\chain\quick-start.yml"
+```
+
+**NOTE:** You have to provide "Windows-style" path for `file` option.
