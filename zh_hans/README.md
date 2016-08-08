@@ -10,7 +10,7 @@
 - 你可以在[这里](https://github.com/hechoendrupal/drupal-console-book)参与本文档的贡献
 
 ## 提供支持
-[![weKnow](https://www.drupal.org/files/weKnow-logo_5.png)](https://weknowinc.com)
+[![weKnow](https://www.drupal.org/files/weKnow-logo_5.png)](http://weknowinc.com)
 
 [![Anexus](https://www.drupal.org/files/anexus-logo.png)](http://www.anexusit.com/)
 
