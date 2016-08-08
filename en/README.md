@@ -13,7 +13,7 @@ You can contribute to improve this project on [Github](https://github.com/hechoe
 You can contribute to improve this documentation on [GitHub](https://github.com/hechoendrupal/drupal-console-book).
 
 ## Supporting organizations
-[![weKnow](https://www.drupal.org/files/weKnow-logo.png)](https://weknowinc.com)
+[![weKnow](https://www.drupal.org/files/weKnow-logo_5.png](https://weknowinc.com)
 
 [![Anexus](https://www.drupal.org/files/anexus-logo.png)](http://www.anexusit.com/)
 
