@@ -13,7 +13,7 @@
 [GitHub](https://github.com/hechoendrupal/drupal-console-book) を通してドキュメントの改善に貢献することができます。
 
 ## このプロジェクトをサポートしている組織
-[![weKnow](https://www.drupal.org/files/weKnow-logo.png)](https://weknowinc.com)
+[![weKnow](https://www.drupal.org/files/weKnow-logo_5.png)](https://weknowinc.com)
 
 [![Anexus](https://www.drupal.org/files/anexus-logo.png)](http://www.anexusit.com/)
 
