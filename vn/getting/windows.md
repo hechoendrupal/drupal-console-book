@@ -26,6 +26,8 @@ Drupal Console require some extensions. please enable these extensions in your p
 ```
 extension=php_gd2.dll
 extension=php_pdo_sqlite.dll
+extension=php_curl.dll
+extension=php_openssl.dll
 ```
 
 We recommend to enable the following extensions to enable you to use your own language.
