@@ -1,18 +1,17 @@
 # generate:service
-Generate service
+Genera un servicio
 
 **Uso:**
 ```
 $ drupal generate:service [options]
-$ gs  
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | The Module name.
+--module | Nombre del módulo.
 --name | commands.generate.service.options.name
---class | Class name
+--class | Nombre de la clase
 --interface | commands.common.service.options.interface
---services | Load services from the container.
+--services | Cargar servicios desde el contenedor.
 --path_service | Path

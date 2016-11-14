@@ -1,5 +1,5 @@
 # generate:twig:extension
-Generate a Twig extension.
+Generar una extensión de Twig.
 
 **Uso:**
 ```
@@ -9,7 +9,7 @@ $ drupal generate:twig:extension [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | The Module name.
---name | Twig Extension name
---class | Class name
---services | Load services from the container.
+--module | Nombre del módulo.
+--name | Nombre de la extensión Twig
+--class | Nombre de la clase
+--services | Cargar servicios desde el contenedor.

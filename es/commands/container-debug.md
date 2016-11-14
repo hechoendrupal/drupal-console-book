@@ -3,11 +3,15 @@ Muestra los servicios actuales de la aplicación.
 
 **Uso:**
 ```
-$ drupal container:debug [arguments]
-$ cod  
+$ drupal container:debug [arguments] [options]
 ```
+
+## Opciones disponibles
+Opción | Detalles
+-------|-------------
+--parameters | Nombre del servicio.
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-service | commands.container.debug.options.cache
+service | Nombre del servicio.

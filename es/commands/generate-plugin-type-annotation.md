@@ -1,16 +1,15 @@
 # generate:plugin:type:annotation
-Generate a plugin type with annotation discovery
+Genera un tipo de plugin con descubrimiento de anotaciones
 
 **Uso:**
 ```
 $ drupal generate:plugin:type:annotation [options]
-$ gpta  
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | The Module name.
---class | Plugin type class name
+--module | Nombre del módulo.
+--class | Nombre de la clase del tipo de plugin
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
---label | Plugin type label
+--label | Etiqueta del tipo de plugin

@@ -1,17 +1,16 @@
 # generate:plugin:fieldwidget
-Generate field widget plugin.
+Genera un plugin de widget de campo.
 
 **Uso:**
 ```
 $ drupal generate:plugin:fieldwidget [options]
-$ gpfw  
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---field-type | Field type the plugin can be used with
+--module | Nombre del módulo.
+--class | Nombre de la clase del plugin
+--label | Etiqueta del plugin
+--plugin-id | ID del plugin
+--field-type | Tipo de campo con el que puede ser usado el plugin

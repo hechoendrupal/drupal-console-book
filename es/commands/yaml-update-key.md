@@ -4,7 +4,6 @@ Reemplaza una clave en un archivo YAML.
 **Uso:**
 ```
 $ drupal yaml:update:key [arguments]
-$ yu  
 ```
 
 ## Argumentos disponibles

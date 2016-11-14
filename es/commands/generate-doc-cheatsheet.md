@@ -1,14 +1,13 @@
 # generate:doc:cheatsheet
-Generate a printable cheatsheet for Commands
+Genera un cheatsheet imprimible de los comandos disponibles
 
 **Uso:**
 ```
 $ drupal generate:doc:cheatsheet [options]
-$ gdc  
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---path | The path to generate the pdf for the documentation
---wkhtmltopdf | The path for the wkhtmltopdf binary in your system
+--path | La ruta dónde generar el pdf
+--wkhtmltopdf | La ruta donde reside el binario de wkhtmltopdf en su sistema

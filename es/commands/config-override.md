@@ -4,7 +4,6 @@ Sobreescribir valor de la configuración activa.
 **Uso:**
 ```
 $ drupal config:override [arguments]
-$ co  
 ```
 
 ## Argumentos disponibles

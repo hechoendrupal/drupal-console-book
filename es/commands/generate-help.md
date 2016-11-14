@@ -1,5 +1,5 @@
 # generate:help
-Generate an implementation of hook_help()
+Genera una implementación de hook_help()
 
 **Uso:**
 ```
@@ -9,5 +9,5 @@ $ drupal generate:help [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | The Module name.
---description | Module description
+--module | Nombre del módulo.
+--description | Descripción del módulo

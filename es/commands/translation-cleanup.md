@@ -1,5 +1,5 @@
 # translation:cleanup
-Clean up translation files
+Ficheros de limpieza de traducción
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal translation:cleanup [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-language | Language to clean up files against English
+language | Idioma al que hacer limpieza de sus ficheros contra el inglés

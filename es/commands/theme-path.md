@@ -14,4 +14,4 @@ Opción | Detalles
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-module | El nombre del theme (nombre máquina)
+theme | El nombre del theme (nombre máquina)

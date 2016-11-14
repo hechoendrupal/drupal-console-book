@@ -4,7 +4,6 @@ Restablece la contraseña de un usuario específico.
 **Uso:**
 ```
 $ drupal user:password:reset [arguments]
-$ uspr  
 ```
 
 ## Argumentos disponibles

@@ -1,5 +1,5 @@
 # generate:plugin:mail
-Generate a plugin mail
+Genera un plugin de correo
 
 **Uso:**
 ```
@@ -9,8 +9,8 @@ $ drupal generate:plugin:mail [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---services | Load services from the container.
+--module | Nombre del módulo.
+--class | Nombre de la clase para el plugin
+--label | Etiqueta del plugin
+--plugin-id | ID del plugin
+--services | Cargar servicios desde el contenedor.

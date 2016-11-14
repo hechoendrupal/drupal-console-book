@@ -4,7 +4,6 @@ Actualiza un valor de una clave específica en un archivo YAML.
 **Uso:**
 ```
 $ drupal yaml:update:value [arguments]
-$ yuv  
 ```
 
 ## Argumentos disponibles

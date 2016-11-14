@@ -1,5 +1,5 @@
 # init
-Copiar los archivos de configuración al directorio home del usuario.
+Copia los archivos de configuración al directorio home del usuario.
 
 **Uso:**
 ```
@@ -10,3 +10,4 @@ $ drupal init [options]
 Opción | Detalles
 -------|-------------
 --override | Sobreescribir los archivos de configuración
+--local | Copiar config.yml en el directorio actual

@@ -1,5 +1,5 @@
 # generate:profile
-Generate a profile.
+Genera un perfil.
 
 **Uso:**
 ```
@@ -9,9 +9,9 @@ $ drupal generate:profile [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---profile | The profile name
---machine-name | The machine name (lowercase and underscore only)
---description | Profile description
---core | Core version
---dependencies | Module dependencies separated by commas (i.e. context, panels)
---distribution | The distribution name
+--profile | Nombre del perfil
+--machine-name | Nombre-máquina (sólo minúsculas y guiones bajos)
+--description | Descripción del perfil
+--core | Versión del core
+--dependencies | Dependencias de módulos separadas por comas (p. ej. context, panels)
+--distribution | Nombre de la distribución

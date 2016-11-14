@@ -1,5 +1,5 @@
 # queue:run
-Process the selected queue.
+Procesa la cola seleccionada.
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal queue:run [arguments]
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-name | Queue name.
+name | Nombre de la cola.

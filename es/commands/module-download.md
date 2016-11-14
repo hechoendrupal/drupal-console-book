@@ -4,7 +4,6 @@ Descarga un módulo o varios en la aplicación
 **Uso:**
 ```
 $ drupal module:download [arguments] [options]
-$ md  
 ```
 
 ## Opciones disponibles

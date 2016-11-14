@@ -4,7 +4,6 @@ Compara dos archivos YAML para encontrar las diferencias entre ambos
 **Uso:**
 ```
 $ drupal yaml:diff [arguments] [options]
-$ yd  
 ```
 
 ## Opciones disponibles

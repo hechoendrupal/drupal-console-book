@@ -1,5 +1,5 @@
 # generate:module:file
-Generate a .module file
+Generar un archivo .module
 
 **Uso:**
 ```
@@ -9,4 +9,4 @@ $ drupal generate:module:file [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | The Module name.
+--module | Nombre del módulo.

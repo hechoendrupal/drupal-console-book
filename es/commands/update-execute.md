@@ -4,7 +4,6 @@ Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecuta
 **Uso:**
 ```
 $ drupal update:execute [arguments]
-$ upe  
 ```
 
 ## Argumentos disponibles

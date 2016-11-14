@@ -9,5 +9,5 @@ $ drupal generate:post:update [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | The Module name.
---post-update-name | Post Update Name
+--module | Nombre del módulo.
+--post-update-name | Nombre Post Actualización

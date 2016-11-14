@@ -4,7 +4,6 @@ Desinstalar tema o temas en la aplicación
 **Uso:**
 ```
 $ drupal theme:uninstall [arguments]
-$ tu  
 ```
 
 ## Argumentos disponibles

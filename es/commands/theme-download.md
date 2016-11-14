@@ -4,16 +4,15 @@ Descarga un tema para la aplicación
 **Uso:**
 ```
 $ drupal theme:download [arguments] [options]
-$ td  
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---composer | Use --composer option for manage the theme download with Composer
+--composer | Use la opción --composer para llevar a cabo la descarga del tema con Composer
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-theme | the Theme name
-version | Theme version i.e 1.x-dev
+theme | El nombre del tema
+version | Versión del tema, por ejemplo, 1.x-dev

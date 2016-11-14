@@ -4,7 +4,6 @@ Importar la configuración seleccionada.
 **Uso:**
 ```
 $ drupal config:import:single [arguments]
-$ cis  
 ```
 
 ## Argumentos disponibles

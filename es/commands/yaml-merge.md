@@ -4,7 +4,6 @@ Combinar uno o más archivos de YAML en un nuevo archivo YAML. Se conservarán l
 **Uso:**
 ```
 $ drupal yaml:merge [arguments]
-$ ym  
 ```
 
 ## Argumentos disponibles

@@ -1,17 +1,16 @@
 # generate:controller
-Generate & Register a controller
+Generar y registrar un controlador
 
 **Uso:**
 ```
 $ drupal generate:controller [options]
-$ gcn  
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | The Module name.
---class | Controller Class name
---routes | The routes, must be an array containing [title, method, path]
---services | Load services from the container.
---test | Generate a test class
+--module | Nombre del módulo.
+--class | Nombre de la clase del controlador
+--routes | Las rutas, debe ser un array conteniendo [título, método, path]
+--services | Cargar servicios desde el contenedor.
+--test | Generar una clase de prueba

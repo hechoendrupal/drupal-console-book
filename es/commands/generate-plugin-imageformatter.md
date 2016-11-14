@@ -1,16 +1,15 @@
 # generate:plugin:imageformatter
-Generate image formatter plugin.
+Genera plugins de formateador de imagen.
 
 **Uso:**
 ```
 $ drupal generate:plugin:imageformatter [options]
-$ gpif  
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
+--module | Nombre del módulo.
+--class | Nombre de clase del plugin
+--label | Etiqueta del plugin
+--plugin-id | ID del plugin

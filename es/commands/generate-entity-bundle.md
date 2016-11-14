@@ -1,15 +1,14 @@
 # generate:entity:bundle
-Generate a new content type (node / entity bundle)
+Genera un nuevo tipo de contenido (nodo / bundle de entidad)
 
 **Uso:**
 ```
 $ drupal generate:entity:bundle [options]
-$ geb  
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---module | The Module name.
---bundle-name | The content type's machine name
---bundle-title | The content type's human-readable name
+--module | Nombre del módulo.
+--bundle-name | El nombre máquina del tipo de contenido
+--bundle-title | El nombre amigable del tipo de contenido

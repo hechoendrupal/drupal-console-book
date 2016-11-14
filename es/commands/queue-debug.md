@@ -1,5 +1,5 @@
 # queue:debug
-Display the queues of your application
+Muestra las colas de su aplicación
 
 **Uso:**
 ```
