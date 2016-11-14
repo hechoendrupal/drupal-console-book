@@ -24,6 +24,8 @@ Drupal Consoleはいくつかの拡張機能を要求します。php.iniを編�
 ```
 extension=php_gd2.dll
 extension=php_pdo_sqlite.dll
+extension=php_curl.dll
+extension=php_openssl.dll
 ```
 
 あなたの言語を使用できるように、次の拡張機能を有効にすることをお勧めします。
