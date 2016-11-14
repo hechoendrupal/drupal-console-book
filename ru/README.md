@@ -2,13 +2,13 @@
 
 > **Внимание: Этот проект находится в стадии разработки.**
 
-Эта книга документирует проект [Drupal Console](http://drupalconsole.com/).
+Эта книга содержит документацию проекта [Drupal Console](http://drupalconsole.com/).
 
-## Внести свой вклад в проект
+## Помочь проекту
 
 Вы можете внести свой вклад в улучшение этого проекта на [Github](https://github.com/hechoendrupal/DrupalConsole)
 
-## Внести свой вклад в документацию
+## Помочь улучшить документацию
 
 Вы можете внести свой вклад в улучшение этой документации на [GitHub](https://github.com/hechoendrupal/drupal-console-book).
 
@@ -21,4 +21,4 @@
 
 [![FFW](https://www.drupal.org/files/ffw-logo.png)](https://ffwagency.com)
 
-> Drupal is a registered trademark of Dries Buytaert.
+> Drupal является зарегистрированной торговой маркой Дриса Бьютарта (Dries Buytaert).

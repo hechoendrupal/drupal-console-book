@@ -1,4 +1,4 @@
-# Getting the project
-There are different ways to get the project on your local machine.
+# Установка
+Существует несколько вариантов установки проекта.
 
-Our recommendation for getting the project on your local machine is by using the installer.
+Мы рекомендуем [стандартную инсталляцию](./installer.md) для установки проекта на компьютере.

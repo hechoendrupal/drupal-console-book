@@ -1,4 +1,4 @@
-# Где мне найти проект?
+# Где найти Drupal Console?
 
 ## Страница проекта
 http://drupalconsole.com

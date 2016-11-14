@@ -1,27 +1,35 @@
-# Installing Drupal Console on Windows
-On Windows there are two ways to install drupal console. One uses Git Bash, the other uses a Windows command prompt. I recommend using the Git Bash utility from the Git for Windows (previously msysgit) program package, since this is the only way you can use drupal console without prefixing it with php.
+# Установка на Windows ОС
 
-## Using on Git Bash:
+Существует два варианта установки Drupal Console на Windows ОС: 
+используя приложение Git Bash или используя коммандную строку Windows ОС. 
+Мы рекомендуем приложение Git Bash из пакета приложений Git for Windows 
+(ранее msysgit), так как это единственный вариант для запуска Drupal Console 
+без префикса `php`.
 
-If you use Drupal Console on Git Bash, please install packages below:
+## В окне команадной строки приложения Git Bash:
 
-* [Git for Windows](https://git-for-windows.github.io/)
+Для работы с Drupal Console в окне команадной строки приложения Git Bash установите следующие приложения:
+
+* [Git для Windows](https://git-for-windows.github.io/)
 * [Composer](https://github.com/composer/windows-setup)
-* [PHP For Windows](http://windows.php.net/download/)
+* [PHP для Windows](http://windows.php.net/download/)
 * [sqlite-tools-win32-x86](https://www.sqlite.org/download.html)
 
-### Update PATH environment
+### Обновите переменную `PATH` операционной системы:
 
-After installation, you have to include php.exe and sqlite3.exe in your PATH environment variable.
-For example, if you extracted "PHP For Windows" into "C:\php", and extracted "sqlite-tools-win32-x86" into "C:\sqlite", you can set PATH environment variable as below from command prompt.
+Добавьте php.exe и sqlite3.exe в переменную `PATH` операционной системы.
+Например, если вы установили "PHP For Windows" в папку "C:\php", 
+а приложение "sqlite-tools-win32-x86" в папку "C:\sqlite", 
+переменная `PATH` операционной системы может быть обновлена следующим образом
+в командной строке:
 
 ```
 SETX /M PATH "%PATH%;C:\php;C:\sqlite"
 ```
 
-### Setup php.ini
+### Конфигурация php.ini
 
-Drupal Console require some extensions. please enable these extensions in your php.ini.
+Drupal Console зависит от следующих PHP-расширений. Убедитесь, что они подключены в файле `php.ini`.
 
 ```
 extension=php_gd2.dll
@@ -30,34 +38,38 @@ extension=php_curl.dll
 extension=php_openssl.dll
 ```
 
-We recommend to enable the following extensions to enable you to use your own language.
+Мы также рекомендуем подключить PHP-расширения для поддержки языков:
+
 ```
 extension=php_intl.dll
 extension=php_mbstring.dll
 ```
 
-#### Define certificate
+#### Конфигурация сертификатов
 
-put certificate information provided by Git for Windows.
+Обновите информацию о сертификатах, предоставленных приложением by Git для Windows.
+
 ```
 curl.cainfo = C:\Program Files\Git\usr\ssl\certs\ca-bundle.crt;
 ```
 
-### Install Drupal Console globally using composer:
+### Глобальная установка Drupal Console с помощью приложения composer:
+
 ```
 $ composer global require drupal/console:@stable
 ```
 
-### You can now execute console using:
+### Теперь Drupal Console можно запускать:
 
 ```
 $ drupal
 ```
 
-or execute one of the chain available, to execute a quick install execute the following command
+или запустите одну из цепных (chain) комманд. 
+К примеру, для быстой установки Drupal используйте следующую команду
 
 ```
 $ drupal chain --file="C:\Users\username\.console\chain\quick-start.yml"
 ```
 
-**NOTE:** You have to provide "Windows-style" path for `file` option.
+**ВНИМАНИЕ:** Все пути к папкам для опции `file` должны быть в формате "Windows ОС".
