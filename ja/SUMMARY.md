@@ -9,7 +9,7 @@
 
 * [プロジェクトを取得する](getting/project.md)
   * [インストーラーを使う](getting/installer.md)
-  * [Windows上にインストール](getting/windows.md)
+  * [Windows上にインストールする](getting/windows.md)
   * [Composerを使う](getting/composer.md)
   * [pharファイルをダウンロードする](getting/download.md)
   * [プロジェクトを更新する](getting/update.md)
