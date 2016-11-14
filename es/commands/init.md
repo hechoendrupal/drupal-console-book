@@ -9,5 +9,6 @@ $ drupal init [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
+--destination | Directorio de destino para copiar los archivos
 --override | Sobreescribir los archivos de configuración
---local | Copiar config.yml en el directorio actual
+--autocomplete | Flag para herramienta de autocompletado.

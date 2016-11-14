@@ -4,6 +4,7 @@ Genera un nuevo tipo de contenido (nodo / bundle de entidad)
 **Uso:**
 ```
 $ drupal generate:entity:bundle [options]
+$ geb  
 ```
 
 ## Opciones disponibles

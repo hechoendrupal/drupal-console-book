@@ -4,6 +4,7 @@ Generar una nueva entidad de configuración
 **Uso:**
 ```
 $ drupal generate:entity:config [options]
+$ gecg  
 ```
 
 ## Opciones disponibles

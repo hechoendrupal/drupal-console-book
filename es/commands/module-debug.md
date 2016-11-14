@@ -4,6 +4,7 @@ Muestra los módulos actualmente disponibles para la aplicación
 **Uso:**
 ```
 $ drupal module:debug [arguments] [options]
+$ mod  
 ```
 
 ## Opciones disponibles

@@ -4,6 +4,7 @@ Exporta una vista en formato YAML dentro de un módulo para ser reutilizado en o
 **Uso:**
 ```
 $ drupal config:export:view [arguments] [options]
+$ cev  
 ```
 
 ## Opciones disponibles

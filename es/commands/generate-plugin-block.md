@@ -4,6 +4,7 @@ Genera un plugin de bloque
 **Uso:**
 ```
 $ drupal generate:plugin:block [options]
+$ gpb  
 ```
 
 ## Opciones disponibles

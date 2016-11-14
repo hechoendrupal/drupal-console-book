@@ -1,5 +1,5 @@
 # taxonomy:term:delete
-commands.taxonomy.term.delete.description
+Elimina términos de taxonomía de un vocabulario, este comando toma el VID como argumento o, si no se pasa ninguno, serán eliminados todos los términos de todos los vocabularios
 
 **Uso:**
 ```

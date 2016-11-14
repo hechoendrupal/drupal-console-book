@@ -4,6 +4,7 @@ Reconstruye y limpia todas las cachés del sitio.
 **Uso:**
 ```
 $ drupal cache:rebuild [arguments]
+$ cr  
 ```
 
 ## Argumentos disponibles

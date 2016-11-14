@@ -4,6 +4,7 @@ Exporta un tipo de contenido específico y sus campos.
 **Uso:**
 ```
 $ drupal config:export:content:type [arguments] [options]
+$ cect  
 ```
 
 ## Opciones disponibles

@@ -4,6 +4,7 @@ Generar documentaciones para Comandos
 **Uso:**
 ```
 $ drupal generate:doc:gitbook [arguments] [options]
+$ gdg  
 ```
 
 ## Opciones disponibles

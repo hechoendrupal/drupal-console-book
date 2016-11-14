@@ -13,8 +13,6 @@ Comando de Drupal Console | Detalles
 [init](init.md) | Copia los archivos de configuración al directorio home del usuario.
 [list](list.md) | Enlista comandos
 [server](server.md) | Lanza el servidor web PHP interno
-**breakpoints**  |
-[breakpoints:debug](breakpoints-debug.md) | Muestra los breakpoints disponibles en la aplicación
 **cache**  |
 [cache:context:debug](cache-context-debug.md) | Muestra el contexto de caché actual para la aplicación.
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
@@ -38,7 +36,6 @@ Comando de Drupal Console | Detalles
 **create**  |
 [create:comments](create-comments.md) | Crear comentarios de prueba para tu aplicación en Drupal 8.
 [create:nodes](create-nodes.md) | Crea nodos de relleno para su Drupal 8.
-[create:terms](create-terms.md) | Crea términos de relleno para tu Drupal 8.
 [create:users](create-users.md) | Crea usuarios de prueba para tu Drupal 8.
 [create:vocabularies](create-vocabularies.md) | Crea vocabularios de prueba para tu Drupal 8.
 **cron**  |
@@ -73,6 +70,7 @@ Comando de Drupal Console | Detalles
 [generate:entity:config](generate-entity-config.md) | Generar una nueva entidad de configuración
 [generate:entity:content](generate-entity-content.md) | Generar una nueva entidad de contenido
 [generate:event:subscriber](generate-event-subscriber.md) | Genera un suscriptor de eventos
+[generate:form](generate-form.md) | Genera un nuevo "%s"
 [generate:form:alter](generate-form-alter.md) | Genera una implementación de hook_form_alter() o hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | commands.generate.form.description
 [generate:help](generate-help.md) | Genera una implementación de hook_help()
@@ -124,6 +122,8 @@ Comando de Drupal Console | Detalles
 [multisite:new](multisite-new.md) | Prepara los archivos para una nueva instalación multisitio.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Reconstruir los permisos de acceso a nodos. La reconstrucción eliminará todos los privilegios al contenudo y los reemplazará con permisos basado en los módulos y configuración actual,
+**permission**  |
+[permission:debug](permission-debug.md) | Muestra todos los permisos y además lista todos los permisos de un especifico rol de usuario.
 **plugin**  |
 [plugin:debug](plugin-debug.md) | Mostrar todos los tipos de plugin, instancias de plugin de un tipo específico, o la definición para un plugin específico.
 **queue**  |
@@ -148,7 +148,7 @@ Comando de Drupal Console | Detalles
 [state:delete](state-delete.md) | Eliminar Estado
 [state:override](state-override.md) | Sobreescribir una clave de Estado.
 **taxonomy**  |
-[taxonomy:term:delete](taxonomy-term-delete.md) | commands.taxonomy.term.delete.description
+[taxonomy:term:delete](taxonomy-term-delete.md) | Elimina términos de taxonomía de un vocabulario, este comando toma el VID como argumento o, si no se pasa ninguno, serán eliminados todos los términos de todos los vocabularios
 **theme**  |
 [theme:debug](theme-debug.md) | Despliega los temas actuales para la aplicación
 [theme:download](theme-download.md) | Descarga un tema para la aplicación
@@ -165,6 +165,7 @@ Comando de Drupal Console | Detalles
 [update:entities](update-entities.md) | Aplicar actualizaciones a entidades
 [update:execute](update-execute.md) | Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos
 **user**  |
+[user:create](user-create.md) | Crea usuarios para la aplicación
 [user:debug](user-debug.md) | Muestra los usuarios actuales del sitio
 [user:delete](user-delete.md) | Eliminar usuarios del sitio
 [user:login:clear:attempts](user-login-clear-attempts.md) | Limpia intentos de inicio de sesión fallidos para una cuenta.
@@ -182,6 +183,7 @@ Comando de Drupal Console | Detalles
 [yaml:get:value](yaml-get-value.md) | Obtiene un valor para una clave específica en un archivo YAML.
 [yaml:merge](yaml-merge.md) | Combinar uno o más archivos de YAML en un nuevo archivo YAML. Se conservarán los valores del archivo más a la izquierda del merge.
 [yaml:split](yaml-split.md) | Divide un archivo YAML usando la indentación como criterio de separación
+[yaml:unset:key](yaml-unset-key.md) | Elimina una clave YAML en un archivo YAML.
 [yaml:update:key](yaml-update-key.md) | Reemplaza una clave en un archivo YAML.
 [yaml:update:value](yaml-update-value.md) | Actualiza un valor de una clave específica en un archivo YAML.
 

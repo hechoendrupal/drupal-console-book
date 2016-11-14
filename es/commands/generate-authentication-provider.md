@@ -4,6 +4,7 @@ Generar un Proveedor de Autenticación
 **Uso:**
 ```
 $ drupal generate:authentication:provider [options]
+$ gap  
 ```
 
 ## Opciones disponibles

@@ -4,6 +4,7 @@ Genera un plugin de campo de vista personalizado.
 **Uso:**
 ```
 $ drupal generate:plugin:views:field [options]
+$ gpvf  
 ```
 
 ## Opciones disponibles

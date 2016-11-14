@@ -4,6 +4,7 @@ Muestra la configuración actual.
 **Uso:**
 ```
 $ drupal config:debug [arguments]
+$ cde  
 ```
 
 ## Argumentos disponibles

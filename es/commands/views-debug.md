@@ -4,6 +4,7 @@ Muestra los recursos actuales de vistas para la aplicación
 **Uso:**
 ```
 $ drupal views:debug [arguments] [options]
+$ vde  
 ```
 
 ## Opciones disponibles

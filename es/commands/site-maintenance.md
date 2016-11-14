@@ -4,6 +4,7 @@ Poner el sitio en modo mantenimiento
 **Uso:**
 ```
 $ drupal site:maintenance [arguments]
+$ sma  
 ```
 
 ## Argumentos disponibles

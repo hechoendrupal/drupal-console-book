@@ -4,6 +4,7 @@ Generar el paquete DrupalConsole.docset para Dash
 **Uso:**
 ```
 $ drupal generate:doc:dash [options]
+$ gdd  
 ```
 
 ## Opciones disponibles

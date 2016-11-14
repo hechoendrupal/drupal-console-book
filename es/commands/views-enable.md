@@ -4,6 +4,7 @@ Habilita una vista
 **Uso:**
 ```
 $ drupal views:enable [arguments]
+$ ve  
 ```
 
 ## Argumentos disponibles

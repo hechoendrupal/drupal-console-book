@@ -4,6 +4,7 @@ Generar un módulo.
 **Uso:**
 ```
 $ drupal generate:module [options]
+$ gm  
 ```
 
 ## Opciones disponibles

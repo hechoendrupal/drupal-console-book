@@ -4,6 +4,7 @@ Instala un módulo o varios en la aplicación
 **Uso:**
 ```
 $ drupal module:install [arguments] [options]
+$ moi  
 ```
 
 ## Opciones disponibles

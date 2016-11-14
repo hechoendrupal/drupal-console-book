@@ -4,6 +4,7 @@ Genera plugins de formateador de imagen.
 **Uso:**
 ```
 $ drupal generate:plugin:imageformatter [options]
+$ gpif  
 ```
 
 ## Opciones disponibles

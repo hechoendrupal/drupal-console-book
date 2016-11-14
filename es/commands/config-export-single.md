@@ -4,6 +4,7 @@ Exportar configuración única como archivo YAML.
 **Uso:**
 ```
 $ drupal config:export:single [arguments] [options]
+$ ces  
 ```
 
 ## Opciones disponibles

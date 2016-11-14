@@ -4,6 +4,7 @@ Muestra los servicios actuales de la aplicación.
 **Uso:**
 ```
 $ drupal container:debug [arguments] [options]
+$ cod  
 ```
 
 ## Opciones disponibles

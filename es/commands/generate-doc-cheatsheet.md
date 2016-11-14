@@ -4,6 +4,7 @@ Genera un cheatsheet imprimible de los comandos disponibles
 **Uso:**
 ```
 $ drupal generate:doc:cheatsheet [options]
+$ gdc  
 ```
 
 ## Opciones disponibles

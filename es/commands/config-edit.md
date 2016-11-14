@@ -4,6 +4,7 @@ Editar la configuración seleccionada.
 **Uso:**
 ```
 $ drupal config:edit [arguments]
+$ cdit  
 ```
 
 ## Argumentos disponibles

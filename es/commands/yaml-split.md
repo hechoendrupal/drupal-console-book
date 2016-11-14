@@ -4,6 +4,7 @@ Divide un archivo YAML usando la indentación como criterio de separación
 **Uso:**
 ```
 $ drupal yaml:split [arguments] [options]
+$ ys  
 ```
 
 ## Opciones disponibles

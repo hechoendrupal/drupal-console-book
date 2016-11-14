@@ -4,6 +4,7 @@ commands.generate.form.description
 **Uso:**
 ```
 $ drupal generate:form:config [options]
+$ gfc  
 ```
 
 ## Opciones disponibles

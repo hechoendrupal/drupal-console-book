@@ -4,6 +4,7 @@ Desinstala un módulo o varios en la aplicación
 **Uso:**
 ```
 $ drupal module:uninstall [arguments] [options]
+$ mou  
 ```
 
 ## Opciones disponibles

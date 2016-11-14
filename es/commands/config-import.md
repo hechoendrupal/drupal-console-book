@@ -4,6 +4,7 @@ Importa la configuración del estado actual de la aplicación.
 **Uso:**
 ```
 $ drupal config:import [options]
+$ ci  
 ```
 
 ## Opciones disponibles

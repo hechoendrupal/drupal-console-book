@@ -10,6 +10,7 @@ $ drupal database:dump [arguments] [options]
 Opción | Detalles
 -------|-------------
 --file | commands.database.dump.option.file
+--gz | commands.database.dump.option.gz
 
 ## Argumentos disponibles
 Argumento | Detalles

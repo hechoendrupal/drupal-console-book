@@ -4,6 +4,7 @@ commands.generate.permission.description
 **Uso:**
 ```
 $ drupal generate:permissions [options]
+$ gp  
 ```
 
 ## Opciones disponibles
