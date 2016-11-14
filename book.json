@@ -1,3 +1,16 @@
 {
-  "gitbook": "2.6.7"
+  "gitbook": "2.6.7",
+  "plugins": [
+    "edit-link",
+    "github"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/hechoendrupal/drupal-console-book/edit/master",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/hechoendrupal/drupal-console-book"
+    }
+  }
 }
