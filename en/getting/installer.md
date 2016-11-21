@@ -31,5 +31,13 @@ $ chmod +x /usr/local/bin/drupal
 ```
 $ drupal
 ```
+#### Adding to an existing site
+You can add Drupal Console at any stage of development of a Drupal 8 site but if you have already installed Drupal and have the site running then, after following the instructions above, you will still need to add the project to your site in addition to being added globally.
+
+The easiest way to do this is using composer from the root of the site:
+```
+composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader
+```
+
 
 **NOTE:** The name `drupal` is just an alias you can name it anything you like.
