@@ -15,6 +15,7 @@ Opción | Detalles
 --module | Nombre del módulo.
 --optional-config | Exportar la configuración como una configuración YAML opcional in su módulo
 --remove-uuid | commands.config.export.single.options.remove-uuid
+--remove-config-hash | commands.config.export.single.options.remove-config-hash
 
 ## Argumentos disponibles
 Argumento | Detalles

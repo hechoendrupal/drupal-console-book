@@ -13,6 +13,8 @@ Comando de Drupal Console | Detalles
 [init](init.md) | Copia los archivos de configuración al directorio home del usuario.
 [list](list.md) | Enlista comandos
 [server](server.md) | Lanza el servidor web PHP interno
+**breakpoints**  |
+[breakpoints:debug](breakpoints-debug.md) | Muestra los breakpoints disponibles en la aplicación
 **cache**  |
 [cache:context:debug](cache-context-debug.md) | Muestra el contexto de caché actual para la aplicación.
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
@@ -36,6 +38,7 @@ Comando de Drupal Console | Detalles
 **create**  |
 [create:comments](create-comments.md) | Crear comentarios de prueba para tu aplicación en Drupal 8.
 [create:nodes](create-nodes.md) | Crea nodos de relleno para su Drupal 8.
+[create:terms](create-terms.md) | Crea términos de relleno para tu Drupal 8.
 [create:users](create-users.md) | Crea usuarios de prueba para tu Drupal 8.
 [create:vocabularies](create-vocabularies.md) | Crea vocabularios de prueba para tu Drupal 8.
 **cron**  |
@@ -49,9 +52,13 @@ Comando de Drupal Console | Detalles
 [database:dump](database-dump.md) | Volcado de la estructura y contenidos de las bases de datos y tablas MySQL
 [database:log:clear](database-log-clear.md) | Eliminar eventos de la tabla DBLog, filtros disponibles
 [database:log:debug](database-log-debug.md) | Desplegar eventos registrados al momento para la aplicación
+[database:query](database-query.md) | commands.database.query.description
 [database:restore](database-restore.md) | Restaurar la estructura y los contenidos de bases de datos y tablas MySQL
 [database:table:debug](database-table-debug.md) | Muestra todas las tablas en una base de datos.
+**devel**  |
+[devel:dumper](devel-dumper.md) | Change the devel dumper plugin
 **entity**  |
+[entity:debug](entity-debug.md) | Debug entities available in the system
 [entity:delete](entity-delete.md) | Elimina una entidad específica
 **event**  |
 [event:debug](event-debug.md) | Mostrar los eventos actuales 
