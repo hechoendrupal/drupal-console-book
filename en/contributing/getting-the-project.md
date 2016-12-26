@@ -6,7 +6,7 @@ Fork your own copy of the [Console](https://github.com/hechoendrupal/DrupalConso
 ## Clone
 Get a copy of your recently cloned version of console in your machine.
 ```
-$ git clone git@github.com:[your-git-user-here]/DrupalConsole.git
+$ git clone git@github.com:[your-github-user-here]/DrupalConsole.git
 ```
 
 ## Install dependencies
