@@ -9,8 +9,8 @@ $ drupal database:dump [arguments] [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---file | commands.database.dump.option.file
---gz | commands.database.dump.option.gz
+--file |  Nombre del archivo para el respaldo de la base de datos
+--gz | Pase esta opción si desea que el archivo sql resultante sea compimido en formato gz
 
 ## Argumentos disponibles
 Argumento | Detalles

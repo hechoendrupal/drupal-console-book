@@ -12,5 +12,5 @@ Opción | Detalles
 -------|-------------
 --directory | Define el directorio de exportación para guardar la configuración.
 --tar | Indique esta opción para exportar la configuración a un archivo.
---remove-uuid | commands.config.export.single.options.remove-uuid
---remove-config-hash | commands.config.export.single.options.remove-config-hash
+--remove-uuid | Si se utiliza, la configuración será exportada sin clave uuid.
+--remove-config-hash | Si se utiliza, la configuración será exportada sin la clave hash por defecto del sitio.

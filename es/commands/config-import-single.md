@@ -3,12 +3,13 @@ Importar la configuración seleccionada.
 
 **Uso:**
 ```
-$ drupal config:import:single [arguments]
+$ drupal config:import:single [options]
 $ cis  
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
----------|-------------
-name | Nombre de la configuración.
-file | Ruta al archivo a importar
+## Opciones disponibles
+Opción | Detalles
+-------|-------------
+--name | commands.config.import.single.options.name
+--file | commands.config.import.single.options.file
+--directory | Ruta al directorio de configuración a importar.

@@ -9,10 +9,10 @@ $ drupal multisite:new [arguments] [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---site-uri | URI del sitio a añadir al sites.php.
---copy-install | Copia el sitio existente desde la instalación por defecto.
+--copy-default | Copies existing site from the default install.
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-sites-subdir | Nombre del directorio bajo 'sites' que será creado.
+directory | Nombre del directorio bajo 'sites' que será creado.
+uri | URI del sitio que se añadirá al sites.php.

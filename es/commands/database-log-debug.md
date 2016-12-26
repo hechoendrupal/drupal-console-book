@@ -15,6 +15,7 @@ Opción | Detalles
 --asc | Listar eventos en orden ascendiente
 --limit | Limitar los resultados a un número específico
 --offset | Punto inicial de un límite
+--yml | Imprimir en formato YAML
 
 ## Argumentos disponibles
 Argumento | Detalles

@@ -21,3 +21,4 @@ Opción | Detalles
 --composer | Añadir un archivo composer.json
 --dependencies | Dependencias del módulo (por ejemplo: context, galleria, panels)
 --test | Generar una clase de test
+--twigtemplate | Generar plantilla de theme

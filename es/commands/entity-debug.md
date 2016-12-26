@@ -1,5 +1,5 @@
 # entity:debug
-Debug entities available in the system
+Debugea entidades disponibles en el sistema
 
 **Uso:**
 ```

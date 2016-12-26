@@ -33,6 +33,8 @@ Comando de Drupal Console | Detalles
 [config:import:single](config-import-single.md) | Importar la configuración seleccionada.
 [config:override](config-override.md) | Sobreescribir valor de la configuración activa.
 [config:settings:debug](config-settings-debug.md) | Muestra el par clave:valor actual en el archivo de configuración.
+[config:validate](config-validate.md) | commands.config.default.description
+[config:validate:debug](config-validate-debug.md) | Función helper para validar una implementación de schema antes de que sea instalado un módulo. Especifique las rutas de archivos de la configuración y el schema como argumentos y se lanzará la validación contra ellos, haciendo el schema más fácil de debugear ahorrando tiempo haciendo instalaciones
 **container**  |
 [container:debug](container-debug.md) | Muestra los servicios actuales de la aplicación.
 **create**  |
@@ -52,13 +54,13 @@ Comando de Drupal Console | Detalles
 [database:dump](database-dump.md) | Volcado de la estructura y contenidos de las bases de datos y tablas MySQL
 [database:log:clear](database-log-clear.md) | Eliminar eventos de la tabla DBLog, filtros disponibles
 [database:log:debug](database-log-debug.md) | Desplegar eventos registrados al momento para la aplicación
-[database:query](database-query.md) | commands.database.query.description
+[database:query](database-query.md) | Ejecuta una sentencia SQL directamente como argumento
 [database:restore](database-restore.md) | Restaurar la estructura y los contenidos de bases de datos y tablas MySQL
 [database:table:debug](database-table-debug.md) | Muestra todas las tablas en una base de datos.
 **devel**  |
 [devel:dumper](devel-dumper.md) | Change the devel dumper plugin
 **entity**  |
-[entity:debug](entity-debug.md) | Debug entities available in the system
+[entity:debug](entity-debug.md) | Debugea entidades disponibles en el sistema
 [entity:delete](entity-delete.md) | Elimina una entidad específica
 **event**  |
 [event:debug](event-debug.md) | Mostrar los eventos actuales 
@@ -147,7 +149,6 @@ Comando de Drupal Console | Detalles
 [site:import:local](site-import-local.md) | Importar o configurar un proyecto Drupal existente en local
 [site:install](site-install.md) | Instala un proyecto Drupal
 [site:maintenance](site-maintenance.md) | Poner el sitio en modo mantenimiento
-[site:mode](site-mode.md) | Cambiar la configuración de rendimiento del sistema
 [site:statistics](site-statistics.md) | Muestra las estadísticas actuales del sitio web.
 [site:status](site-status.md) | Ver el estatus de la instalación actual de Drupal
 **state**  |
