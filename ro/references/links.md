@@ -1,7 +1,7 @@
 # References
 
 ## Drupal Console code repository
-https://github.com/hechoendrupal/DrupalConsole
+https://github.com/hechoendrupal/drupal-console
 
 ## Documentation repository
 https://github.com/hechoendrupal/drupal-console-book

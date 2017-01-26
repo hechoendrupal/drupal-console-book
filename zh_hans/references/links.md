@@ -1,7 +1,7 @@
 # 参考资料
 
 ## Drupal Console 代码 repository 
-[https://github.com/hechoendrupal/DrupalConsole]()
+[https://github.com/hechoendrupal/drupal-console]()
 
 ## 文档 repository
 [https://github.com/hechoendrupal/drupal-console-book](https://github.com/hechoendrupal/drupal-console-book)

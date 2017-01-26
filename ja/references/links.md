@@ -1,7 +1,7 @@
 # リファレンス
 
 ## Drupal Console のレポジトリ
-https://github.com/hechoendrupal/DrupalConsole
+https://github.com/hechoendrupal/drupal-console
 
 ## ドキュメントのレポジトリ
 https://github.com/hechoendrupal/drupal-console-book

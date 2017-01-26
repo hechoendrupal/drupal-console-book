@@ -6,7 +6,7 @@
 
 ## プロジェクトに貢献するには
 
-[Github](https://github.com/hechoendrupal/DrupalConsole) を通してプロジェクトに貢献することができます。
+[Github](https://github.com/hechoendrupal/drupal-console) を通してプロジェクトに貢献することができます。
 
 ## このドキュメントに貢献するには
 

@@ -6,7 +6,7 @@
 
 ## Помочь проекту
 
-Вы можете внести свой вклад в улучшение этого проекта на [Github](https://github.com/hechoendrupal/DrupalConsole)
+Вы можете внести свой вклад в улучшение этого проекта на [Github](https://github.com/hechoendrupal/drupal-console)
 
 ## Помочь улучшить документацию
 

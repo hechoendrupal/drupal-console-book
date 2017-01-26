@@ -1,11 +1,11 @@
 # Creating an Issue
 If you found an issue or maybe you like to propose a new feature to the project, you need to access the following link:
 
-https://github.com/hechoendrupal/DrupalConsole/issues/new
+https://github.com/hechoendrupal/drupal-console/issues/new
 
 Please review the guidelines for contributing to Drupal Console at:
 
-https://github.com/hechoendrupal/DrupalConsole/blob/master/CONTRIBUTING.md
+https://github.com/hechoendrupal/drupal-console/blob/master/CONTRIBUTING.md
 
 ## Creating a Pull Request
 Remember to create a branch before start developing! It's name should contain the issue id and a slug to tell what the thing you're working on is about, for example: `1337-lorem-ipsum`

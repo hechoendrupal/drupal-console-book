@@ -2,6 +2,6 @@
 
 You can download the latest version of Console from the repository releases page at:
 
-https://github.com/hechoendrupal/DrupalConsole
+https://github.com/hechoendrupal/drupal-console
 
 Make sure you download the console.phar file from the most current release.

@@ -4,7 +4,7 @@
 http://drupalconsole.com
 
 ## Github repository
-https://github.com/hechoendrupal/DrupalConsole
+https://github.com/hechoendrupal/drupal-console
 
 ## Documentation
 http://hechoendrupal.gitbooks.io/drupal-console

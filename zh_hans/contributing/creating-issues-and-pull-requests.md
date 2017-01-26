@@ -1,11 +1,11 @@
 # 创建一个 Issue
 如果你发现了一个问题，或者你想提议一个新功能，请访问下面这个链接，创建一个 Issue：
 
-[https://github.com/hechoendrupal/DrupalConsole/issues/new](https://github.com/hechoendrupal/DrupalConsole/issues/new)
+[https://github.com/hechoendrupal/drupal-console/issues/new](https://github.com/hechoendrupal/drupal-console/issues/new)
 
 同时请查看 Drupal Console 项目的贡献指南：
 
-[https://github.com/hechoendrupal/DrupalConsole/blob/master/CONTRIBUTING.md](https://github.com/hechoendrupal/DrupalConsole/blob/master/CONTRIBUTING.md)
+[https://github.com/hechoendrupal/drupal-console/blob/master/CONTRIBUTING.md](https://github.com/hechoendrupal/drupal-console/blob/master/CONTRIBUTING.md)
 
 ## 创建一个 Pull 请求
 请记住在开发之前创建一个新分支！分支名称需要包含 Issue ID 以及一个 slug，说明你正在做的工作，例如: `1337-lorem-ipsum`

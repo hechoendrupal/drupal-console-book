@@ -10,7 +10,7 @@ $ bin/drupal
 You can run this command to easily access the Drupal Console from anywhere on your system:
 
 ```
-$ sudo ln -s /path/to/DrupalConsole/bin/drupal /usr/local/bin/drupal
+$ sudo ln -s /path/to/drupal-console/bin/drupal /usr/local/bin/drupal
 ```
 
 **NOTE:** The name `drupal` is just an alias you can name it anything you like.

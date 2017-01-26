@@ -6,7 +6,7 @@ Este libro documenta el proyecto [Drupal Console](http://drupalconsole.com/).
 
 ## Contribuir al proyecto
 
-Usted puede contribuir para mejorar este proyecto en [Github](https://github.com/hechoendrupal/DrupalConsole)
+Usted puede contribuir para mejorar este proyecto en [Github](https://github.com/hechoendrupal/drupal-console)
 
 ## Contribuir a esta documetación
 

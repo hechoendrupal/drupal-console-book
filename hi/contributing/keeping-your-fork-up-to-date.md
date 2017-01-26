@@ -7,7 +7,7 @@ To sync changes you make in a fork with the original repository, you should:
 ## Configuring a remote fork:
 Specify and configure a new remote upstream repository that points to the upstream repository in Git.
 ```
-git remote add upstream https://github.com/hechoendrupal/DrupalConsole.git
+git remote add upstream https://github.com/hechoendrupal/drupal-console.git
 ```
 For detailed information please visit Github's guide [Configuring a remote fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)  
 

@@ -2,6 +2,6 @@
 
 रिपोजिटरी विज्ञप्ति पेज पर आप कंसोल के नवीनतम संस्करण को डाउनलोड कर सकते हैं:
 
-https://github.com/hechoendrupal/DrupalConsole
+https://github.com/hechoendrupal/drupal-console
 
 सबसे मौजूदा रिलीज से आप console.phar फ़ाइल कि डाउनलोड सुनिश्चित करें|

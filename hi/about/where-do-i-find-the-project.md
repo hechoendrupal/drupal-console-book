@@ -4,7 +4,7 @@
 http://drupalconsole.com
 
 ## Github रिपोजिटरी
-https://github.com/hechoendrupal/DrupalConsole
+https://github.com/hechoendrupal/drupal-console
 
 ## प्रलेखीकरण
 http://hechoendrupal.gitbooks.io/drupal-console

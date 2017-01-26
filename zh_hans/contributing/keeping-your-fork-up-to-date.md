@@ -7,7 +7,7 @@
 ## 配置 remote fork:
 指定并配置一个新的 remote upstream repository 指向 upstream repository
 ```
-git remote add upstream https://github.com/hechoendrupal/DrupalConsole.git
+git remote add upstream https://github.com/hechoendrupal/drupal-console.git
 ```
 更多细节，请访问 Github 提供的文档[Configuring a remote fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)  
 

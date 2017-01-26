@@ -4,7 +4,7 @@
 [http://drupalconsole.com](http://drupalconsole.com)
 
 ## Github
-[https://github.com/hechoendrupal/DrupalConsole](https://github.com/hechoendrupal/DrupalConsole)
+[https://github.com/hechoendrupal/drupal-console](https://github.com/hechoendrupal/drupal-console)
 
 ## 文档
 [http://hechoendrupal.gitbooks.io/drupal-console](http://hechoendrupal.gitbooks.io/drupal-console)

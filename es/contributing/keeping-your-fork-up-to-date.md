@@ -7,7 +7,7 @@ Para sincronizar los cambios que haya hecho en un fork local con el repositorio 
 ## Configurar un fork remoto:
 Especifique y configure un nuevo repositorio remoto upstream que apunte al repositorio upstream en Git.
 ```
-git remote add upstream https://github.com/hechoendrupal/DrupalConsole.git
+git remote add upstream https://github.com/hechoendrupal/drupal-console.git
 ```
 Para información más detallada, por favor visite la guía de Github
 [Configurar un fork remoto](https://help.github.com/articles/configuring-a-remote-for-a-fork/)  

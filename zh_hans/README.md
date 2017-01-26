@@ -6,7 +6,7 @@
 
 ## 参与贡献
 
-- 你可以在[这里](https://github.com/hechoendrupal/DrupalConsole)参与项目的贡献
+- 你可以在[这里](https://github.com/hechoendrupal/drupal-console)参与项目的贡献
 - 你可以在[这里](https://github.com/hechoendrupal/drupal-console-book)参与本文档的贡献
 
 ## 提供支持
