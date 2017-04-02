@@ -7,7 +7,7 @@ http://drupalconsole.com
 https://github.com/hechoendrupal/drupal-console
 
 ## Documentation
-http://hechoendrupal.gitbooks.io/drupal-console
+https://docs.drupalconsole.com/
 
 ## Support chat
 https://gitter.im/hechoendrupal/DrupalConsole
