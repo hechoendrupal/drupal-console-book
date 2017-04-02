@@ -8,11 +8,9 @@
   * [Where do I find the project?](about/where-do-i-find-the-project.md)
 
 * [Getting the project](getting/project.md)
-  * [Using the Installer](getting/installer.md)
-  * [Installing on Windows](getting/windows.md)
   * [Using Composer](getting/composer.md)
-  * [Download phar file](getting/download.md)
-  * [Update project](getting/update.md)
+  * [Global executable aka Launcher](getting/launcher.md)
+  * [Installing on Windows](getting/windows.md)
   
 * [Using the project](using/project.md)
   * [How to copy configuration files](using/how-to-copy-configuration-files.md)
