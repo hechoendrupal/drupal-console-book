@@ -27,7 +27,7 @@ application:
 ```
 
 ### Edit specific site configuration
-You can provide specific site configuration by duplicating the copied site file at `~/.console/sites/sample.yml` with a new same at `~/.console/sites/`.
+You can provide specific site configuration by duplicating the copied site file at `~/.console/sites/sample.yml` with a new name at `~/.console/sites/`.
 
 ```
 local:
