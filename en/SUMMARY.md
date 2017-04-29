@@ -35,7 +35,7 @@
 * [Available commands](commands/available-commands.md)
   {% include "./commands/available-commands-list.md" %}
 
-* FAQ (Frequently Asked Questions) about Drupal Console
+* [FAQ (Frequently Asked Questions) about Drupal Console](drupal_console_faq/faq.md)
    * [Installation problems](drupal_console_faq/installation-problems.md)
    * [Permissions](drupal_console_faq/permissions.md)
    * [Commands not listed](drupal_console_faq/commands-not-listed.md)
