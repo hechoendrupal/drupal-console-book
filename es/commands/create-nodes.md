@@ -12,6 +12,7 @@ Opción | Detalles
 --limit | ¿Cuántos nodos le gustaría crear?
 --title-words | Número máximo de palabras en el título de los nodos
 --time-range | Desde cuándo deberían ser fechados los nodos
+--language | commands.create.nodes.options.language
 
 ## Argumentos disponibles
 Argumento | Detalles

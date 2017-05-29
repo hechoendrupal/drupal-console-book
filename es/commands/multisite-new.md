@@ -9,7 +9,7 @@ $ drupal multisite:new [arguments] [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---copy-default | Copies existing site from the default install.
+--copy-default | Copia un sitio existente desde la instalación por defecto.
 
 ## Argumentos disponibles
 Argumento | Detalles

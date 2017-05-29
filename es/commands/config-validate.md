@@ -1,5 +1,5 @@
 # config:validate
-commands.config.default.description
+Validar una configuración de Drupal según su schema
 
 **Uso:**
 ```

@@ -16,3 +16,5 @@ Opción | Detalles
 Argumento | Detalles
 ---------|-------------
 service | Nombre del servicio.
+method | Nombre de método.
+arguments | Array de argumentos en formato CSV o JSON.

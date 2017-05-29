@@ -11,3 +11,4 @@ $ sd
 Argumento | Detalles
 ---------|-------------
 target | commands.site.debug.options.target
+property | commands.site.debug.options.property

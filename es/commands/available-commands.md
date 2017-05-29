@@ -12,9 +12,8 @@ Comando de Drupal Console | Detalles
 [help](help.md) | Muestra ayuda para un comando dado
 [init](init.md) | Copia los archivos de configuración al directorio home del usuario.
 [list](list.md) | Enlista comandos
+[shell](shell.md) | Abre una shell que provee un REPL (Read–Eval–Print-Loop) interactiv0.
 [server](server.md) | Lanza el servidor web PHP interno
-**breakpoints**  |
-[breakpoints:debug](breakpoints-debug.md) | Muestra los breakpoints disponibles en la aplicación
 **cache**  |
 [cache:context:debug](cache-context-debug.md) | Muestra el contexto de caché actual para la aplicación.
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
@@ -33,14 +32,13 @@ Comando de Drupal Console | Detalles
 [config:import:single](config-import-single.md) | Importar la configuración seleccionada.
 [config:override](config-override.md) | Sobreescribir valor de la configuración activa.
 [config:settings:debug](config-settings-debug.md) | Muestra el par clave:valor actual en el archivo de configuración.
-[config:validate](config-validate.md) | commands.config.default.description
+[config:validate](config-validate.md) | Validar una configuración de Drupal según su schema
 [config:validate:debug](config-validate-debug.md) | Función helper para validar una implementación de schema antes de que sea instalado un módulo. Especifique las rutas de archivos de la configuración y el schema como argumentos y se lanzará la validación contra ellos, haciendo el schema más fácil de debugear ahorrando tiempo haciendo instalaciones
 **container**  |
 [container:debug](container-debug.md) | Muestra los servicios actuales de la aplicación.
 **create**  |
 [create:comments](create-comments.md) | Crear comentarios de prueba para tu aplicación en Drupal 8.
 [create:nodes](create-nodes.md) | Crea nodos de relleno para su Drupal 8.
-[create:terms](create-terms.md) | Crea términos de relleno para tu Drupal 8.
 [create:users](create-users.md) | Crea usuarios de prueba para tu Drupal 8.
 [create:vocabularies](create-vocabularies.md) | Crea vocabularios de prueba para tu Drupal 8.
 **cron**  |
@@ -48,12 +46,14 @@ Comando de Drupal Console | Detalles
 [cron:execute](cron-execute.md) | Ejecutar implementación de cron desde un módulo específico o todos para ejecutar todas las implementaciones
 [cron:release](cron-release.md) | Desbloquea al cron para volver a ejecutarlo
 **database**  |
+[database:add](database-add.md) | Añade una base de datos al settings.php
 [database:client](database-client.md) | Lanzar un cliente de base de datos si está disponible
 [database:connect](database-connect.md) | Lanzar un cliente de base de datos si está disponible
 [database:drop](database-drop.md) | Muestra todas las tablas de una base de datos datos.
 [database:dump](database-dump.md) | Volcado de la estructura y contenidos de las bases de datos y tablas MySQL
 [database:log:clear](database-log-clear.md) | Eliminar eventos de la tabla DBLog, filtros disponibles
 [database:log:debug](database-log-debug.md) | Desplegar eventos registrados al momento para la aplicación
+[database:log:poll](database-log-poll.md) | Observar el watchdog e imprimir nuevas entradas en el log cada x segundos
 [database:query](database-query.md) | Ejecuta una sentencia SQL directamente como argumento
 [database:restore](database-restore.md) | Restaurar la estructura y los contenidos de bases de datos y tablas MySQL
 [database:table:debug](database-table-debug.md) | Muestra todas las tablas en una base de datos.
@@ -69,6 +69,7 @@ Comando de Drupal Console | Detalles
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generar un Proveedor de Autenticación
 [generate:breakpoint](generate-breakpoint.md) | Genera un breakpoint
+[generate:cache:context](generate-cache-context.md) | Generata un contexto de caché
 [generate:command](generate-command.md) | Genera un comando para la consola.
 [generate:controller](generate-controller.md) | Generar y registrar un controlador
 [generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Genera un cheatsheet imprimible de los comandos disponibles
@@ -96,6 +97,8 @@ Comando de Drupal Console | Detalles
 [generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Genera un plugin de efecto de imagen.
 [generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Genera plugins de formateador de imagen.
 [generate:plugin:mail](generate-plugin-mail.md) | Genera un plugin de correo
+[generate:plugin:migrate:process](generate-plugin-migrate-process.md) | Generate a migrate process plugin
+[generate:plugin:migrate:source](generate-plugin-migrate-source.md) | Generate a migrate source plugin
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Genera un plugin de recurso rest
 [generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Genera un plugin de acción de rules
 [generate:plugin:skeleton](generate-plugin-skeleton.md) | Generar una implementación de un esqueleto de plugin para esos plugins de Drupal Console que no tienen un generador específico
@@ -207,7 +210,7 @@ Opción | Detalles
 --no-interaction | No hacer ningura pregunta interactiva
 --env | Nombre del ambiente.
 --root | Define la raíz de Drupal que se utilizará en la ejecución de los comandos
---no-debug | Desactivar el modo de depuración.
+--debug | application.options.debug
 --learning | Generar código con explicaciones.
 --generate-chain | Imprimir opciones y argumentos como YAML para ser usado el comando chain
 --generate-inline | Imprimir opciones y argumentos de ejecución como llamada inline para ser usados en el futuro

@@ -20,7 +20,7 @@ Opción | Detalles
 --no-interaction | Do not ask any interactive question
 --env | Nombre del ambiente.
 --root | Define la raíz de Drupal que se utilizará en la ejecución de los comandos
---no-debug | Desactivar el modo de depuración.
+--debug | application.options.debug
 --learning | Generar código con explicaciones.
 --generate-chain | Imprimir opciones y argumentos como YAML para ser usado el comando chain
 --generate-inline | Imprimir opciones y argumentos de ejecución como llamada inline para ser usados en el futuro

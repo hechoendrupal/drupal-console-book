@@ -13,6 +13,7 @@ Opción | Detalles
 --class | El nombre de la clase del formulario
 --form-id | El id del formulario
 --services | Cargar servicios desde el contenedor.
+--config-file | Añadir un fichero de configuración
 --inputs | Crear campos de entrada en un formulario.
 --path | Introduzca la ruta del formulario
 --menu_link_gen | commands.generate.form.options.menu_link_gen
