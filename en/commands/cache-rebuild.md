@@ -1,18 +1,18 @@
 # cache:rebuild
 Rebuild and clear all site caches.
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal cache:rebuild [arguments]
 $ cr  
 ```
 
-## Available arguments
-Argument | Details
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 cache | Only clear a specific cache.
 
-## Examples
+## commands.generate.doc.gitbook.messages.examples
 * Rebuild all caches
 ```
 $ drupal cr all

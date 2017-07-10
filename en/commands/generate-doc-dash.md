@@ -1,13 +1,13 @@
 # generate:doc:dash
-Generate the DrupalConsole.docset package for Dash
+commands.generate.doc.dash.description
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:doc:dash [options]
 $ gdd  
 ```
 
-## Available options
-Option | Details
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---path | The path to the directory where the docset will be saved.
+--path | commands.generate.doc.dash.options.path

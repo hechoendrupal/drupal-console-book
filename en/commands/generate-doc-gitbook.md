@@ -1,26 +1,26 @@
 # generate:doc:gitbook
-Generate documentations for Commands
+commands.generate.doc.gitbook.description
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:doc:gitbook [arguments] [options]
 $ gdg  
 ```
 
-## Available options
-Option | Details
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---path | The path to render the documentation
+--path | commands.generate.doc.gitbook.options.path
 --help | Display this help message
---quiet | Suppress all output from the command
---verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output, and 3 for debug
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
 --version | Display this application version
 --ansi | Force ANSI output
 --no-ansi | Disable ANSI output
 --no-interaction | Do not ask any interactive question
 --env | The Environment name
 --root | Define the Drupal root to be used in command execution
---no-debug | Switches off debug mode
+--debug | application.options.debug
 --learning | Generate a verbose code output
 --generate-chain | Shows command options and arguments as yaml output to be used in chain command
 --generate-inline | Shows command options and arguments as inline command
@@ -29,7 +29,7 @@ Option | Details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## Available arguments
-Argument | Details
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 command | The command to execute

@@ -1,14 +1,14 @@
 # generate:plugin:type:annotation
 Generate a plugin type with annotation discovery
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:type:annotation [options]
 $ gpta  
 ```
 
-## Available options
-Option | Details
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --class | Plugin type class name

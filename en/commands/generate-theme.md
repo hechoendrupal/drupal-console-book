@@ -1,14 +1,14 @@
 # generate:theme
 Generate a theme.
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:theme [options]
 $ gt  
 ```
 
-## Available options
-Option | Details
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --theme | commands.generate.theme.options.module
 --machine-name | The machine name (lowercase and underscore only)
@@ -17,6 +17,7 @@ Option | Details
 --core | Core version
 --package | Theme package
 --global-library | Global styling library name
+--libraries | commands.generate.theme.options.libraries
 --base-theme | Base theme (i.e. classy, stable)
 --regions | Regions
 --breakpoints | Breakpoints

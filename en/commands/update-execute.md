@@ -1,14 +1,14 @@
 # update:execute
 Execute a specific Update N function in a module, or execute all
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal update:execute [arguments]
 $ upe  
 ```
 
-## Available arguments
-Argument | Details
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 module | The Module name.
 update-n | Specific Update N function to be executed

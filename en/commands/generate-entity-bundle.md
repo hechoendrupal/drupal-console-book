@@ -1,14 +1,14 @@
 # generate:entity:bundle
 Generate a new content type (node / entity bundle)
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:bundle [options]
 $ geb  
 ```
 
-## Available options
-Option | Details
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --bundle-name | The content type's machine name

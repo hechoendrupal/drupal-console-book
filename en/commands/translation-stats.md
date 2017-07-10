@@ -1,17 +1,17 @@
 # translation:stats
-Generate translate stats
+commands.translation.stats.description
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal translation:stats [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---format | Define output format table|markdown
+--format | commands.translation.stats.options.format
 
-## Available arguments
-Argument | Details
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-language | Language to generate translation stats against English
+language | commands.translation.stats.arguments.language

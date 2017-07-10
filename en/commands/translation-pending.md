@@ -1,17 +1,17 @@
 # translation:pending
-Determine pending translation string in a language or a specific file in a language
+commands.translation.pending.description
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal translation:pending [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---file | Specific file to determine pending translations against English
+--file | commands.translation.pending.options.file
 
-## Available arguments
-Argument | Details
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-language | Language to determine pending translations against English
+language | commands.translation.pending.arguments.language

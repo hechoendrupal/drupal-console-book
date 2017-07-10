@@ -1,13 +1,13 @@
 # generate:plugin:skeleton
-Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator
+Generate an implementation of a skeleton plugin
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:skeleton [options]
 ```
 
-## Available options
-Option | Details
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --plugin-id | commands.generate.plugin.options.plugin-id

@@ -1,14 +1,14 @@
 # generate:entity:content
 Generate a new content entity
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:content [options]
 $ gect  
 ```
 
-## Available options
-Option | Details
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --entity-class | The content entity class
@@ -17,3 +17,4 @@ Option | Details
 --label | The label
 --has-bundles | Entity has bundles
 --is-translatable | Content entity translatable
+--revisionable | commands.generate.entity.content.options.revisionable

@@ -1,17 +1,17 @@
 # translation:sync
-Sync translation files
+commands.translation.sync.description
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal translation:sync [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --file | commands.translation.stats.options.file
 
-## Available arguments
-Argument | Details
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-language | Language to syncronize against English source files
+language | commands.translation.sync.arguments.language
