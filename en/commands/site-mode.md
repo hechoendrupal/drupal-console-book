@@ -11,3 +11,14 @@ $ smo
 commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 environment | Environment name [dev, prod]
+
+## commands.generate.doc.gitbook.messages.examples
+* Switch system to prod
+```
+$ drupal site:mode  prod
+```
+* Switch system to dev
+```
+$ drupal site:mode  dev
+
+```

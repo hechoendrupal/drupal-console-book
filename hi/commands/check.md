@@ -1,7 +1,7 @@
 # check
 System requirement checker
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal check
 ```

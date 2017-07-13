@@ -1,18 +1,19 @@
 # generate:service
-Generate service
+Genereaza un serviciu
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:service [options]
 $ gs  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | Numele Modulului.
 --name | commands.generate.service.options.name
---class | Class name
+--class | Numele Clasei
 --interface | commands.common.service.options.interface
---services | Load services from the container.
---path_service | Path
+--interface-name | commands.common.service.options.interface-name
+--services | Încarcă serviciile din container.
+--path-service | Path

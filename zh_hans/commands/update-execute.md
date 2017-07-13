@@ -1,14 +1,22 @@
 # update:execute
-执行的给出的某个模块的更新程序或者执行所有的更新程序
+Execute a specific Update N function in a module, or execute all
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal update:execute [arguments]
+$ upex  
 $ upe  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-module | 模块名称
-update-n | 所需执行的更新程序号
+module | The Module name.
+update-n | Specific Update N function to be executed
+
+## commands.generate.doc.gitbook.messages.examples
+* Update all entities
+```
+$ drupal update:execute
+
+```

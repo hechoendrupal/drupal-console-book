@@ -14,3 +14,14 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --label | Plugin label
 --plugin-id | Plugin id
 --services | Load services from the container.
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate an email plugin specifying the module name, the class, its label and the plugin id
+```
+$ drupal generate:plugin:mail  \
+  --module="modulename"  \
+  --class="HtmlFormatterMail"  \
+  --label="Html formatter mail"  \
+  --plugin-id="html_formatter_mail"
+
+```

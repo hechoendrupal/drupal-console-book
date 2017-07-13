@@ -1,19 +1,19 @@
 # module:uninstall
 Modul vagy modulok eltávolítása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal module:uninstall [arguments] [options]
 $ mou  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --force | Do you want to ignore dependencies and forcefully uninstall the module?
 --composer | Uninstalls the module using Composer
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 module | Enter module name

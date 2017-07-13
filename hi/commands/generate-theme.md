@@ -1,22 +1,23 @@
 # generate:theme
-Generate a theme.
+एक नया थीम उत्पन्न करें।
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:theme [options]
 $ gt  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --theme | commands.generate.theme.options.module
---machine-name | The machine name (lowercase and underscore only)
+--machine-name | यांत्रिक नाम (लोअरकेस और केवल अंडरस्कोर)
 --theme-path | commands.generate.theme.options.module-path
---description | Theme description
---core | Core version
---package | Theme package
---global-library | Global styling library name
---base-theme | Base theme (i.e. classy, stable)
---regions | Regions
---breakpoints | Breakpoints
+--description | थीम विवरण
+--core | मूल संस्करण
+--package | थीम पैकेज
+--global-library | वैश्विक स्टाइल पुस्तकालय नाम
+--libraries | commands.generate.theme.options.libraries
+--base-theme | आधार थीम (i.e. classy, stable)
+--regions | क्षेत्र
+--breakpoints | ब्रेक पॉइंट्स

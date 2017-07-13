@@ -1,8 +1,15 @@
 # router:rebuild
-重建路由
+Rebuild routes for the application
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal router:rebuild
+$ rr  
 $ ror  
+```
+
+## commands.generate.doc.gitbook.messages.examples
+* Rebuild routes
+```
+$ drupal router:rebuild
 ```

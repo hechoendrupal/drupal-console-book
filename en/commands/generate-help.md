@@ -11,3 +11,11 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 -------|-------------
 --module | The Module name.
 --description | Module description
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate a hook help specifying the module name and the description
+```
+$ drupal generate:help  \
+  --module="modulename"  \
+  --description="My Awesome Module"
+```

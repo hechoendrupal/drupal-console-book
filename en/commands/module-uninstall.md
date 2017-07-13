@@ -17,3 +17,10 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 module | Module name (press <return> to stop adding modules)
+
+## commands.generate.doc.gitbook.messages.examples
+* Uninstall the module specifying the module name
+```
+$ drupal module:uninstall  modulename
+
+```

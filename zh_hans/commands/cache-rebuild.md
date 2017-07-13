@@ -1,23 +1,23 @@
 # cache:rebuild
-重建缓存
+Rebuild and clear all site caches.
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal cache:rebuild [arguments]
 $ cr  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-cache | 仅清除一个特定的缓存
+cache | Only clear a specific cache.
 
-## 例子
-* 重建所有缓存
+## commands.generate.doc.gitbook.messages.examples
+* Rebuild all caches
 ```
 $ drupal cr all
 ```
-* 重建 discovery 缓存
+* Rebuild discovery cache
 ```
 $ drupal cr discovery
 ```

@@ -1,17 +1,17 @@
 # generate:event:subscriber
-Generate an event subscriber
+Generează un abonat la eveniment
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:event:subscriber [options]
 $ ges  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | Numele Modulului.
 --name | commands.generate.service.options.name
---class | Class name
---events | Load events from the container
---services | Load services from the container.
+--class | Numele Clasei
+--events | Încarcă evenimente din container
+--services | Încarcă serviciile din container.

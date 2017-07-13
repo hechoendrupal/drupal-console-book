@@ -1,13 +1,21 @@
 # user:password:hash
-Gerar o hash de uma senha em formato texto.
+Generate a hash from a plaintext password.
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:password:hash [arguments]
+$ uph  
 $ usph  
 ```
 
-## Argumentos disponíveis
-Argumento | Detalhes
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-password | Senha(s) em formato texto
+password | Password(s) in text format
+
+## commands.generate.doc.gitbook.messages.examples
+* Get hash of the word "p455w0rd"
+```
+$ drupal user:password:hash  p455w0rd
+
+```

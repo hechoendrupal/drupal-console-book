@@ -1,13 +1,13 @@
 # site:maintenance
 Chuyển site sang chế độ bảo trì
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:maintenance [arguments]
 $ sma  
 ```
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 mode | commands.site.maintenance.arguments.mode[on/off]

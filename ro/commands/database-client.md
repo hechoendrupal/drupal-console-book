@@ -1,12 +1,20 @@
 # database:client
 Lansează un client DB dacă acesta este disponibil
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:client [arguments]
+$ dbc  
 ```
 
-## Argumente disponibile
-Argument | Detalii
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 database | Cheia bazei de date din fișierul settings.php
+
+## commands.generate.doc.gitbook.messages.examples
+* Launch the default client or could launch another regarding the specification on the argument
+```
+$ drupal database:client <database>
+
+```

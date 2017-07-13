@@ -1,16 +1,16 @@
 # generate:plugin:mail
 Generate a plugin mail
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:mail [options]
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | Tên module.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
---services | Load services from the container.
+--services | Nạp các dịch vụ từ container.

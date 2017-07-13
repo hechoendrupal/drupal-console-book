@@ -1,18 +1,19 @@
 # theme:install
 Smink vagy sminkek telepítése az alkalmazásba
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal theme:install [arguments] [options]
+$ thi  
 $ ti  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --set-default | Smink beállítása alapértelmezettként
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 theme | commands.theme.install.options.module

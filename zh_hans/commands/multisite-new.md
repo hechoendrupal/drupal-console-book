@@ -1,18 +1,26 @@
 # multisite:new
-建立一个新的多站点安装文件(s)
+Sets up the files for a new multisite install.
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal multisite:new [arguments] [options]
+$ mun  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---site-uri | 添加到 sites.php 文件中的站点 URI
---copy-install | 从默认安装拷贝已存在的站点
+--copy-default | Copies existing site from the default install.
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-sites-subdir | 'sites' 文件夹下应该被创建的文件夹名称
+directory | Name of directory under 'sites' which should be created.
+uri | Site URI to add to sites.php.
+
+## commands.generate.doc.gitbook.messages.examples
+* Set up files for a multisite install specifying destination path and uri
+```
+$ drupal multisite:new  vendor/newsite http://mysite.example.com
+
+```

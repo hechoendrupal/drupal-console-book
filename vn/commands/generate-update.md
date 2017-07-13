@@ -1,13 +1,13 @@
 # generate:update
 Generate an implementation of hook_update_N()
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:update [options]
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | Tên module.
 --update-n | Update Number

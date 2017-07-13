@@ -1,22 +1,24 @@
 # generate:module
-Generate a module.
+Generează un modul.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:module [options]
 $ gm  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name
---machine-name | The machine name (lowercase and underscore only)
---module-path | The path of the module
---description | Module description
---core | Core version
---package | Module package
+--module | Numele Modulului
+--machine-name | Numele mașină (doar minuscule și liniuțe jos)
+--module-path | Calea către modul
+--description | Descrierea modulului
+--core | Versiunea nucleului
+--package | Pachetul modulului
 --module-file | Add a .module file
 --features-bundle | Define module as feature using the given Features bundle name
---composer | Add a composer.json file
---dependencies | Module dependencies separated by commas (i.e. context, panels)
+--composer | Adaugă un fișier composer.json
+--dependencies | Dependințele modulului trebuie să fie separate prin virgulă (ex. context, panels)
+--test | Generează o clasă pentru testare
+--twigtemplate | Generate theme template

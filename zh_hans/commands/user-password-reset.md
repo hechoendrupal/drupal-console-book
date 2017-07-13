@@ -1,14 +1,22 @@
 # user:password:reset
-为指定用户重设密码.
+Reset password for a specific user.
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:password:reset [arguments]
+$ upr  
 $ uspr  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-user | 用户ID
-password | 文本格式的密码
+user | User ID
+password | Password in text format
+
+## commands.generate.doc.gitbook.messages.examples
+* Update password specifying the user id and the new password
+```
+$ drupal user:password:reset  2 p455w0rd
+
+```

@@ -1,17 +1,25 @@
 # theme:path
-返回主题的相对路径 (或绝对路径)
+Returns the relative path to the theme (or absolute path)
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal theme:path [arguments] [options]
+$ thp  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---absolute | 返回主题绝对路径
+--absolute | Return theme absolute path
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-module | 主题名称(机读名称)
+theme | Theme name
+
+## commands.generate.doc.gitbook.messages.examples
+* Get the path of mytheme
+```
+$ drupal theme:path  mytheme
+
+```

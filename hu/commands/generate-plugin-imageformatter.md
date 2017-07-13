@@ -1,16 +1,16 @@
 # generate:plugin:imageformatter
-Generate image formatter plugin.
+Képformázó bővítmény létrehozása.
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:imageformatter [options]
 $ gpif  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
+--module | A modul neve.
+--class | Bővítményosztály neve
+--label | Bővítmény felirata
+--plugin-id | Bővítmény azonosítója

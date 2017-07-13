@@ -1,19 +1,20 @@
 # test:run
-Executar testes unitários disponíveis para a aplicação
+Run Test unit from tests available for application
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal test:run [arguments] [options]
+$ ter  
 $ tr  
 ```
 
-## Opções disponíveis
-Opção | Detalhes
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --url | commands.test.run.arguments.url
 
-## Argumentos disponíveis
-Argumento | Detalhes
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-test-class | Classe de teste
-test-methods | Método(s) de teste para ser executado
+test-class | Test Class
+test-methods | Test method(s) to be run

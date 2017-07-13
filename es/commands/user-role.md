@@ -4,6 +4,7 @@ Añadir/eliminar un rol de un usuario dado
 **Uso:**
 ```
 $ drupal user:role [arguments]
+$ ur  
 ```
 
 ## Argumentos disponibles

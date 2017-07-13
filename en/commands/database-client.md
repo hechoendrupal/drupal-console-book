@@ -4,6 +4,7 @@ Launch a DB client if it's available
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:client [arguments]
+$ dbc  
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

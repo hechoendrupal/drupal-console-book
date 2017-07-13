@@ -4,6 +4,7 @@ Reconstruir los permisos de acceso a nodos. La reconstrucción eliminará todos 
 **Uso:**
 ```
 $ drupal node:access:rebuild [options]
+$ nar  
 ```
 
 ## Opciones disponibles

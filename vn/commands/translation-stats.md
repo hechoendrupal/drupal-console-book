@@ -1,17 +1,19 @@
 # translation:stats
-Generate translate stats
+commands.translation.stats.description
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal translation:stats [arguments] [options]
+$ ts  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---format | Define output format table|markdown
+--format | commands.translation.stats.options.format
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-language | Language to generate translation stats against English
+language | commands.translation.stats.arguments.language
+library | commands.translation.stats.arguments.library

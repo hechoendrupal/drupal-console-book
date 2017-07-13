@@ -1,15 +1,15 @@
 # generate:authentication:provider
-Generate an Authentication Provider
+Tạo ra một Authentication Provider
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:authentication:provider [options]
 $ gap  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Authentication Provider class
+--module | Tên module.
+--class | Lớp Authentication Provider
 --provider-id | Provider ID

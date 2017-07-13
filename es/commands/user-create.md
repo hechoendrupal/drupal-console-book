@@ -4,6 +4,7 @@ Crea usuarios para la aplicación
 **Uso:**
 ```
 $ drupal user:create [arguments] [options]
+$ uc  
 ```
 
 ## Opciones disponibles

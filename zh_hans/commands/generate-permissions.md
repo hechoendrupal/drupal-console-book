@@ -1,14 +1,14 @@
 # generate:permissions
-Generate module permissions
+commands.generate.permission.description
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:permissions [options]
 $ gp  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --permissions | Create permissions.

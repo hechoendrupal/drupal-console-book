@@ -4,6 +4,7 @@ Genera documentación para los comandos.
 **Uso:**
 ```
 $ drupal generate:doc:data [options]
+$ gdda  
 ```
 
 ## Opciones disponibles

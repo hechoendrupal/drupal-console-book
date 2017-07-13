@@ -1,13 +1,13 @@
 # site:maintenance
 Activează modul de mentenanţă
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:maintenance [arguments]
 $ sma  
 ```
 
-## Argumente disponibile
-Argument | Detalii
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 mode | commands.site.maintenance.arguments.mode[on/off]

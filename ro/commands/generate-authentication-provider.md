@@ -1,15 +1,15 @@
 # generate:authentication:provider
-Generate an Authentication Provider
+Generează un "Authentication Provider"
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:authentication:provider [options]
 $ gap  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Authentication Provider class
---provider-id | Provider ID
+--module | Numele Modulului.
+--class | commands.generate.authentication.provider.options.class
+--provider-id | commands.generate.authentication.provider.options.provider-id

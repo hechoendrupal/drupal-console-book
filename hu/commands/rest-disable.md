@@ -1,13 +1,14 @@
 # rest:disable
 REST-erőforrás letiltása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal rest:disable [arguments]
+$ red  
 $ redi  
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-resource-id | REST-azonosító
+resource-id | Rest ID

@@ -1,13 +1,13 @@
 # generate:breakpoint
 Generate breakpoint
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:breakpoint [options]
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --theme | Theme name
 --breakpoints | Breakpoints

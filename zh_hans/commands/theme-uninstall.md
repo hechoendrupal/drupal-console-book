@@ -1,13 +1,21 @@
 # theme:uninstall
-卸载程序的一个或多个外观主题
+Uninstall theme or themes in the application
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal theme:uninstall [arguments]
+$ thu  
 $ tu  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 theme | commands.theme.uninstall.options.module
+
+## commands.generate.doc.gitbook.messages.examples
+* Uninstall theme specifying the name
+```
+$ drupal theme:uninstall  mytheme
+
+```

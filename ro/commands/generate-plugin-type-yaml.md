@@ -1,16 +1,16 @@
 # generate:plugin:type:yaml
-Generate a plugin type with Yaml discovery
+Generează un tip de plugin cu descoperire de YAML.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:type:yaml [options]
 $ gpty  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin type class name
---plugin-name | Plugin type machine name
---plugin-file-name | Plugin file name
+--module | Numele Modulului.
+--class | Numele clasei tipului de plugin.
+--plugin-name | Numele maşină al tipului de plugin
+--plugin-file-name | Numele fişierului tipului de plugin

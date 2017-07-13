@@ -4,6 +4,7 @@ Devuelve la ruta relativa al theme (o ruta absoluta)
 **Uso:**
 ```
 $ drupal theme:path [arguments] [options]
+$ thp  
 ```
 
 ## Opciones disponibles
@@ -14,4 +15,4 @@ Opción | Detalles
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-theme | El nombre del theme (nombre máquina)
+theme | commands.theme.path.arguments.theme

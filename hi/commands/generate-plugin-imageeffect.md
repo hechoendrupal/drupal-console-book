@@ -1,17 +1,17 @@
 # generate:plugin:imageeffect
-Generate image effect plugin.
+छवि प्रभाव प्लगिन उत्पन्न करें
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:imageeffect [options]
 $ gpie  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---description | Plugin Description
+--module | मोड्यूल का नाम।
+--class | प्लगिन का क्लास नाम
+--label | प्लगिन उप-शीर्षक
+--plugin-id | प्लगिन id
+--description | प्लगिन विवरण

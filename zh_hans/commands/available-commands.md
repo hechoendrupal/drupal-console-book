@@ -1,81 +1,121 @@
-# 可用 Drupal Console 命令
+# commands.generate.doc.gitbook.messages.title
 
-**备注:** Drupal Console 命令*必须*在 Drupal 8 安装目录里运行.
+**commands.generate.doc.gitbook.messages.note:** commands.generate.doc.gitbook.messages.note-description.
 
-Drupal Console 命令 | 详细
+commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.messages.details
 ------------ | -------------
-[about](about.md) | 显示 Drupal Console 项目基本信息
-[chain](chain.md) | 链式执行一组命令
-[check](check.md) | 系统需求检测器
-[help](help.md) | 显示帮助
-[init](init.md) | 拷贝配置文件到用户的 home 目录
-[list](list.md) | 列出当前可用命令
-[self-update](self-update.md) | Update project to the latest version.
-[server](server.md) | 运行PHP内建的网站服务器
-**breakpoints**  |
-[breakpoints:debug](breakpoints-debug.md) | 显示可用的断点
+**misc**  |
+[about](about.md) | Displays basic information about Drupal Console project
+[chain](chain.md) | Chain command execution
+[check](check.md) | System requirement checker
+[exec](exec.md) | Execute an external command.
+[help](help.md) | Displays help for a command
+[init](init.md) | Copy configuration files.
+[list](list.md) | Lists all available commands
+[shell](shell.md) | Open a shell providing an interactive REPL (Read–Eval–Print-Loop).
+[server](server.md) | Runs PHP built-in web server
 **cache**  |
-[cache:context:debug](cache-context-debug.md) | 为应用显示当前缓存上下文
-[cache:rebuild](cache-rebuild.md) | 重建缓存
-**chain**  |
-[chain:debug](chain-debug.md) | 列出可用链式命令文件
+[cache:rebuild](cache-rebuild.md) | Rebuild and clear all site caches.
 **config**  |
-[config:debug](config-debug.md) | 显示当前配置
-[config:delete](config-delete.md) | 删除配置
-[config:diff](config-diff.md) | 输出选取目录中和使用中不同的配置项目.
-[config:edit](config-edit.md) | 编辑配置
-[config:export](config-export.md) | 导出配置
-[config:export:content:type](config-export-content-type.md) | 导出内容类型及其字段
-[config:export:view](config-export-view.md) | 导出视图
-[config:import](config-import.md) | 导入配置
-[config:import:single](config-import-single.md) | 导入选择的配置
-[config:override](config-override.md) | 覆写活动配置
-[config:settings:debug](config-settings-debug.md) | 配置文件调试
-**container**  |
-[container:debug](container-debug.md) | 显示当前服务
+[config:delete](config-delete.md) | Delete configuration
+[config:diff](config-diff.md) | Output configuration items that are different in active configuration compared with a directory.
+[config:edit](config-edit.md) | Change a configuration object with a text editor.
+[config:export](config-export.md) | Export current application configuration.
+[config:export:content:type](config-export-content-type.md) | Export a specific content type and their fields.
+[config:export:single](config-export-single.md) | Export a single configuration or a list of configurations as yml file(s).
+[config:export:view](config-export-view.md) | Export a view in YAML format inside a provided module to reuse in other website.
+[config:import](config-import.md) | Import configuration to current application.
+[config:import:single](config-import-single.md) | Import a single configuration or a list of configurations.
+[config:override](config-override.md) | Override config value in active configuration.
+[config:validate](config-validate.md) | Validate a drupal config against its schema
 **create**  |
-[create:comments](create-comments.md) | 创建评论
-[create:nodes](create-nodes.md) | 生成节点
-[create:terms](create-terms.md) | 生成分类术语
-[create:users](create-users.md) | 生成用户
-[create:vocabularies](create-vocabularies.md) | 生成词汇表
+[create:comments](create-comments.md) | Create dummy comments for your Drupal 8 application.
+[create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
+[create:terms](create-terms.md) | Create dummy terms for your Drupal 8 application.
+[create:users](create-users.md) | Create dummy users for your Drupal 8 application.
+[create:vocabularies](create-vocabularies.md) | Create dummy vocabularies for your Drupal 8 application.
 **cron**  |
-[cron:debug](cron-debug.md) | 列出实现定时任务的模块
-[cron:execute](cron-execute.md) | 执行模块中的或所有的定时任务（cron）
-[cron:release](cron-release.md) | 释放定时任务锁
+[cron:execute](cron-execute.md) | Execute cron implementations by module or execute all crons
+[cron:release](cron-release.md) | Release cron system lock to run cron again
 **database**  |
-[database:client](database-client.md) | 运行数据库客户端
-[database:connect](database-connect.md) | 如果有数据库客户端，启动它
-[database:drop](database-drop.md) | 删除数据库所有表
-[database:dump](database-dump.md) | 导出数据库
-[database:log:clear](database-log-clear.md) | 清除事件日志
-[database:log:debug](database-log-debug.md) | 显示网站日志事件(s)
-[database:restore](database-restore.md) | 还原数据库
-[database:table:debug](database-table-debug.md) | 显示数据库所有表
+[database:add](database-add.md) | Add a database to settings.php
+[database:client](database-client.md) | Launch a DB client if it's available
+[database:connect](database-connect.md) | Shows DB connection
+[database:drop](database-drop.md) | Drop all tables in a given database.
+[database:dump](database-dump.md) | Dump structure and contents of a database
+[database:log:clear](database-log-clear.md) | Remove events from DBLog table, filters are available
+[database:log:poll](database-log-poll.md) | Poll the watchdog and print new log entries every x seconds
+[database:query](database-query.md) | Executes a SQL statement directly as argument
+[database:restore](database-restore.md) | Restore structure and contents of a database.
+**debug**  |
+[debug:breakpoints](debug-breakpoints.md) | Displays breakpoints available in application
+[debug:cache:context](debug-cache-context.md) | Displays current cache context for the application.
+[debug:chain](debug-chain.md) | List available chain files.
+[debug:config](debug-config.md) | List configuration objects names and single configuration object.
+[debug:config:settings](debug-config-settings.md) | Displays current key:value on settings file.
+[debug:config:validate](debug-config-validate.md) | Validate a schema implementation before a module is installed.
+[debug:container](debug-container.md) | Displays current services for an application.
+[debug:cron](debug-cron.md) | List of modules implementing a cron
+[debug:database:log](debug-database-log.md) | Displays current log events for the application
+[debug:database:table](debug-database-table.md) | Show all tables in a given database.
+[debug:entity](debug-entity.md) | Debug entities available in the system
+[debug:event](debug-event.md) | Displays current events 
+[debug:image:styles](debug-image-styles.md) | List image styles on the site
+[debug:libraries](debug-libraries.md) | Displays libraries available in application
+[debug:migrate](debug-migrate.md) | Display current migration available for the application
+[debug:module](debug-module.md) | Displays current modules available for application
+[debug:multisite](debug-multisite.md) | List all multisites available in system
+[debug:permission](debug-permission.md) | Displays all user permissions.
+[debug:plugin](debug-plugin.md) | Displays all plugin types.
+[debug:queue](debug-queue.md) | Displays the queues of your application
+[debug:rest](debug-rest.md) | Display current rest resource for the application
+[debug:router](debug-router.md) | Displays current routes for the application or information for a particular route
+[debug:settings](debug-settings.md) | List user Drupal Console settings.
+[debug:site](debug-site.md) | List all known local and remote sites.
+[debug:state](debug-state.md) | Show the current State keys.
+[debug:test](debug-test.md) | List Test Units available for the application.
+[debug:theme](debug-theme.md) | Displays current themes for the application
+[debug:update](debug-update.md) | Displays current updates available for the application
+[debug:user](debug-user.md) | Displays current users for the application
+[debug:views](debug-views.md) | Displays current views resources for the application
+[debug:views:plugins](debug-views-plugins.md) | Displays current views plugins for the application
 **devel**  |
 [devel:dumper](devel-dumper.md) | Change the devel dumper plugin
-**event**  |
-[event:debug](event-debug.md) | 显示当前事件
+**develop**  |
+[develop:contribute](develop-contribute.md) | 
+[develop:example](develop-example.md) | 
+[develop:example:container:aware](develop-example-container-aware.md) | 
+**dotenv**  |
+[dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
+[dotenv:init](dotenv-init.md) | Dotenv initializer.
+**entity**  |
+[entity:delete](entity-delete.md) | Delete an specific entity
+**extend**  |
+[extend:example:one](extend-example-one.md) | Drupal Console extend example
+[extend:example:two](extend-example-two.md) | Drupal Console extend example
+**field**  |
+[field:info](field-info.md) | View information about fields.
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
 [generate:breakpoint](generate-breakpoint.md) | Generate breakpoint
+[generate:cache:context](generate-cache-context.md) | Generate a cache context
 [generate:command](generate-command.md) | Generate commands for the console.
 [generate:controller](generate-controller.md) | Generate & Register a controller
-[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands
-[generate:doc:dash](generate-doc-dash.md) | Generate the DrupalConsole.docset package for Dash
-[generate:doc:data](generate-doc-data.md) | Generate documentations for Commands.
-[generate:doc:gitbook](generate-doc-gitbook.md) | Generate documentations for Commands
+[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | commands.generate.doc.cheatsheet.description
+[generate:doc:dash](generate-doc-dash.md) | commands.generate.doc.dash.description
+[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
+[generate:doc:gitbook](generate-doc-gitbook.md) | commands.generate.doc.gitbook.description
 [generate:entity:bundle](generate-entity-bundle.md) | Generate a new content type (node / entity bundle)
 [generate:entity:config](generate-entity-config.md) | Generate a new config entity
 [generate:entity:content](generate-entity-content.md) | Generate a new content entity
 [generate:event:subscriber](generate-event-subscriber.md) | Generate an event subscriber
-[generate:form](generate-form.md) | Generate a new "FormBase"
+[generate:form](generate-form.md) | Generate a new "%s"
 [generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
-[generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
+[generate:form:config](generate-form-config.md) | commands.generate.form.description
 [generate:help](generate-help.md) | Generate an implementation of hook_help()
 [generate:module](generate-module.md) | Generate a module.
 [generate:module:file](generate-module-file.md) | Generate a .module file
-[generate:permissions](generate-permissions.md) | Generate module permissions
+[generate:permissions](generate-permissions.md) | commands.generate.permission.description
 [generate:plugin:block](generate-plugin-block.md) | Generate a plugin block
 [generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
 [generate:plugin:condition](generate-plugin-condition.md) | Generate a plugin condition.
@@ -86,9 +126,11 @@ Drupal Console 命令 | 详细
 [generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Generate image effect plugin.
 [generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Generate image formatter plugin.
 [generate:plugin:mail](generate-plugin-mail.md) | Generate a plugin mail
+[generate:plugin:migrate:process](generate-plugin-migrate-process.md) | Generate a migrate process plugin
+[generate:plugin:migrate:source](generate-plugin-migrate-source.md) | Generate a migrate source plugin
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Generate plugin rest resource
 [generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Generate a plugin rule action
-[generate:plugin:skeleton](generate-plugin-skeleton.md) | Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator
+[generate:plugin:skeleton](generate-plugin-skeleton.md) | Generate an implementation of a skeleton plugin
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Generate a plugin type with Yaml discovery
 [generate:plugin:views:field](generate-plugin-views-field.md) | Generate a custom plugin view field.
@@ -100,117 +142,101 @@ Drupal Console 命令 | 详细
 [generate:twig:extension](generate-twig-extension.md) | Generate a Twig extension.
 [generate:update](generate-update.md) | Generate an implementation of hook_update_N()
 **image**  |
-[image:styles:debug](image-styles-debug.md) | 列出网站的图像样式
-[image:styles:flush](image-styles-flush.md) | 按图像样式执行 flush 函数或对所有图像样式执行 flush 函数
-**libraries**  |
-[libraries:debug](libraries-debug.md) | 显示应用中可用的 Libraries
+[image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
 **locale**  |
 [locale:language:add](locale-language-add.md) | Add a language to be supported by your site
 [locale:language:delete](locale-language-delete.md) | Delete a language to be supported by your site
 [locale:translation:status](locale-translation-status.md) | List available translation updates
 **migrate**  |
-[migrate:debug](migrate-debug.md) | 显示当前可用迁移
-[migrate:execute](migrate-execute.md) | 执行可用迁移
+[migrate:execute](migrate-execute.md) | Execute a migration available for application
+[migrate:rollback](migrate-rollback.md) | Rollback one or multiple migrations
+[migrate:setup](migrate-setup.md) | Load and create the relevant migrations for a provided legacy database
 **module**  |
-[module:debug](module-debug.md) | 显示当前可用模块
-[module:download](module-download.md) | 下载模块
-[module:install](module-install.md) | 安装模块
-[module:path](module-path.md) | 返回模块的相对路径(或绝对路径)
-[module:uninstall](module-uninstall.md) | 卸载模块
-[module:update](module-update.md) | 更新核心,模块
+[module:dependency:install](module-dependency-install.md) | commands.module.install.dependencies.description
+[module:download](module-download.md) | Download module or modules in application
+[module:install](module-install.md) | Install module or modules in the application
+[module:path](module-path.md) | Returns the relative path to the module (or absolute path)
+[module:uninstall](module-uninstall.md) | Uninstall module or modules in the application
+[module:update](module-update.md) | Update core, module or modules in the application
 **multisite**  |
-[multisite:debug](multisite-debug.md) | 列出所有可用多站点
-[multisite:new](multisite-new.md) | 建立一个新的多站点安装文件(s)
+[multisite:new](multisite-new.md) | Sets up the files for a new multisite install.
 **node**  |
-[node:access:rebuild](node-access-rebuild.md) | 创建节点访问权限. 重建会移除所有内容上的使用权限并替换为当前模块或当前设置里的权限
-**plugin**  |
-[plugin:debug](plugin-debug.md) | 显示所有插件类型,指定类型的插件实例,或指定插件的定义
+[node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions.
 **queue**  |
-[queue:debug](queue-debug.md) | 显示应用中的队列(s)
-[queue:run](queue-run.md) | 处理选中的队列
+[queue:run](queue-run.md) | Process the selected queue.
+**quick**  |
+[quick:start](quick-start.md) | Download, install and serve a new Drupal project
 **rest**  |
-[rest:debug](rest-debug.md) | 显示当前 REST 资源
-[rest:disable](rest-disable.md) | 禁用 REST 资源
-[rest:enable](rest-enable.md) | 启用 REST 资源
+[rest:disable](rest-disable.md) | Disable a rest resource for the application
+[rest:enable](rest-enable.md) | Enable a rest resource for the application
 **router**  |
-[router:debug](router-debug.md) | 显示路由
-[router:rebuild](router-rebuild.md) | 重建路由
+[router:rebuild](router-rebuild.md) | Rebuild routes for the application
+**sample**  |
+[sample:default](sample-default.md) | commands.sample.default.description
 **settings**  |
-[settings:debug](settings-debug.md) | 列出用户Drupal控制台设置.
-[settings:set](settings-set.md) | 改变 DrupalConsole 配置文件中的配置
+[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
-[site:debug](site-debug.md) | 列出已知当地和远程网站.
-[site:import:local](site-import-local.md) | 导入/配置一个已经存在的 Drupal 项目
-[site:install](site-install.md) | 安装 Drupal
-[site:maintenance](site-maintenance.md) | 切换网站到维护模式
-[site:mode](site-mode.md) | 转换系统性能配置
-[site:new](site-new.md) | 生成一个新的Drupal项目
-[site:statistics](site-statistics.md) | 显示网站的当前统计
-[site:status](site-status.md) | 当前Drupal安装状态
+[site:import:local](site-import-local.md) | Import/Configure an existing local Drupal project
+[site:install](site-install.md) | Install a Drupal project
+[site:maintenance](site-maintenance.md) | Switch site into maintenance mode
+[site:mode](site-mode.md) | Switch system performance configuration
+[site:new](site-new.md) | Download a new Drupal project
+[site:statistics](site-statistics.md) | Show the current statistics of website.
+[site:status](site-status.md) | View current Drupal Installation status
 **state**  |
-[state:debug](state-debug.md) | 显示当前状态的键(s)
-[state:delete](state-delete.md) | 删除状态
-[state:override](state-override.md) | 覆写状态键的值
+[state:delete](state-delete.md) | Delete State
+[state:override](state-override.md) | Override a State key.
+**taxonomy**  |
+[taxonomy:term:delete](taxonomy-term-delete.md) | Delete taxonomy terms from a vocabulary
 **test**  |
-[test:debug](test-debug.md) | 列出可用的程序测试.
-[test:run](test-run.md) | 运行这个程序有的测试单元
+[test:run](test-run.md) | Run Test unit from tests available for application
 **theme**  |
-[theme:debug](theme-debug.md) | 显示当前主题
-[theme:download](theme-download.md) | 下载主题
-[theme:install](theme-install.md) | 安装主题
-[theme:path](theme-path.md) | 返回主题的相对路径 (或绝对路径)
-[theme:uninstall](theme-uninstall.md) | 卸载程序的一个或多个外观主题
+[theme:download](theme-download.md) | Download theme in application
+[theme:install](theme-install.md) | Install theme or themes in the application
+[theme:path](theme-path.md) | Returns the relative path to the theme (or absolute path)
+[theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Clean up translation files
-[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
-[translation:stats](translation-stats.md) | Generate translate stats
-[translation:sync](translation-sync.md) | Sync translation files
+[translation:cleanup](translation-cleanup.md) | commands.translation.cleanup.description
+[translation:pending](translation-pending.md) | commands.translation.pending.description
+[translation:stats](translation-stats.md) | commands.translation.stats.description
+[translation:sync](translation-sync.md) | commands.translation.sync.description
 **update**  |
-[update:debug](update-debug.md) | 显示目前有的程序更新
-[update:entities](update-entities.md) | 应用实体更新
-[update:execute](update-execute.md) | 执行的给出的某个模块的更新程序或者执行所有的更新程序
+[update:entities](update-entities.md) | Applying Entity Updates
+[update:execute](update-execute.md) | Execute a specific Update N function in a module, or execute all
 **user**  |
-[user:debug](user-debug.md) | 显示网站的当前用户(s)
-[user:delete](user-delete.md) | 删除网站用户(s)
-[user:login:clear:attempts](user-login-clear-attempts.md) | 清空一个用户的登录尝试数据。
-[user:login:url](user-login-url.md) | 返回一次性登录链接.
-[user:password:hash](user-password-hash.md) | 从文本格式密码中生成哈希码
-[user:password:reset](user-password-reset.md) | 为指定用户重设密码.
-[user:role](user-role.md) | 添加/移除给定用户的角色
+[user:create](user-create.md) | Create users for the application
+[user:delete](user-delete.md) | Delete users for the application
+[user:login:clear:attempts](user-login-clear-attempts.md) | Clear failed login attempts for an account.
+[user:login:url](user-login-url.md) | Returns a one-time user login url.
+[user:password:hash](user-password-hash.md) | Generate a hash from a plaintext password.
+[user:password:reset](user-password-reset.md) | Reset password for a specific user.
+[user:role](user-role.md) | Adds/removes a role for a given user
 **views**  |
-[views:debug](views-debug.md) | 显示网站当前视图资源
-[views:disable](views-disable.md) | 停启视图
-[views:enable](views-enable.md) | 启用一个视图
-[views:plugins:debug](views-plugins-debug.md) | 显示当前应用的视图插件
-**yaml**  |
-[yaml:diff](yaml-diff.md) | 比较两个YAML文件找出区别
-[yaml:merge](yaml-merge.md) | 合并一个或多个YAML文件. 如键值有冲突，取最新值.
-[yaml:split](yaml-split.md) | 根据缩进分开YAML文件
-[yaml:update:key](yaml-update-key.md) | 替换 YAML 文件中一个键本身的值
-[yaml:update:value](yaml-update-value.md) | 更新 YAML 文件中的指定键对应的值
+[views:disable](views-disable.md) | Disable a View
+[views:enable](views-enable.md) | Enable a View
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---help | 显示这个帮助信息
---quiet | 不显示任何帮助信息
---verbose | 输出信息控制: 1 普通输出, 2 详细输出 and 3 调试信息输出
---version | <info>"%s"</info> 版本 <comment>"%s"</comment>
---ansi | 强制 ANSI 输出
---no-ansi | 禁用 ANSI 输出
---no-interaction | 非交互式
---env | 环境名称
---root | 定义 Drupal 根目录，命令执行时使用
---no-debug | 禁用调试
---learning | 生成详细的代码输出用于学习
---generate-chain | 以 YAML 格式显示命令执行时的选项和参数，用于链式执行一组命令
---generate-inline | 将命令执行时的选项和参数显示成一行，以便后续使用
---generate-doc | 显示命令选项和参数为 markdown 格式
---target | 与之交互的站点名字（本地或远程网站）
---uri | Drupal 网站的 URI( 用于多站点环境或运行在不同的端口)
---yes | 跳过确认并继续
+--help | Display this help message
+--quiet | Suppress all output from the command
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output, and 3 for debug
+--version | Display this application version
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
+--env | The Environment name
+--root | Define the Drupal root to be used in command execution
+--debug | application.options.debug
+--learning | Generate a verbose code output
+--generate-chain | Shows command options and arguments as yaml output to be used in chain command
+--generate-inline | Shows command options and arguments as inline command
+--generate-doc | Shows command options and arguments as markdown
+--target | Site name you want to interact with (for local or remote sites)
+--uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
+--yes | Skip confirmation and proceed
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-command | 要执行的命令
+command | The command to execute

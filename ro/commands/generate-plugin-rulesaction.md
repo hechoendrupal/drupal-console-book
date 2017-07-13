@@ -1,19 +1,19 @@
 # generate:plugin:rulesaction
-Generate a plugin rule action
+Generează un plugin care implementează o acţiune de rules
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:rulesaction [options]
 $ gpra  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---type | Action Type (user or node)
---category | Plugin category
---context | Plugin context
+--module | Numele Modulului.
+--class | Numele clasei pluginului
+--label | Eticheta pluginului
+--plugin-id | ID-ul pluginului
+--type | Tip de acţiune (user sau node)
+--category | Categoria pluginului
+--context | Contextul pluginului

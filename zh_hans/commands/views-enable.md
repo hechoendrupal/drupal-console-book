@@ -1,13 +1,25 @@
 # views:enable
-启用一个视图
+Enable a View
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal views:enable [arguments]
 $ ve  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-view-id | 视图ID
+view-id | commands.views.debug.arguments.view-id
+
+## commands.generate.doc.gitbook.messages.examples
+* Enable content view
+```
+$ drupal views:enable  content
+
+```
+* Enable frontpage view
+```
+$ drupal views:enable  frontpage
+
+```

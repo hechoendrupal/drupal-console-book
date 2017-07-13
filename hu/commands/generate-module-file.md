@@ -1,12 +1,12 @@
 # generate:module:file
 Generate a .module file
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:module:file [options]
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | A modul neve.

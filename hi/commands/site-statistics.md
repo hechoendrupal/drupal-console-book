@@ -1,7 +1,8 @@
 # site:statistics
 वेबसाइट के मौजूदा आंकड़े बताते हैं।
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:statistics
+$ sst  
 ```

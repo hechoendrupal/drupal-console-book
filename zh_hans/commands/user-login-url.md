@@ -1,13 +1,21 @@
 # user:login:url
-返回一次性登录链接.
+Returns a one-time user login url.
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:login:url [arguments]
+$ ulu  
 $ uslu  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-user-id | 用户ID
+user-id | User ID.
+
+## commands.generate.doc.gitbook.messages.examples
+* Get one time login url for user id 1
+```
+$ drupal user:login:url  1
+
+```

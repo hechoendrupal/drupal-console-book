@@ -1,15 +1,28 @@
 # config:import
 Importă configurarea pentru aplicația curentă.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:import [options]
 $ ci  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---file | Calea către fișierul de configurare.
+--file | Path to an archive file of configuration to import.
 --directory | Path to a directory of configuration to import.
---remove-files | Eliminați fișierele după sincronizare.
+--remove-files | Remove files after synchronization.
+
+## commands.generate.doc.gitbook.messages.examples
+* Provide a configuration file
+```
+$ drupal config:import \
+  --file=/path/to/config/file
+```
+* Provide a configuration directory
+```
+$ drupal config:import  \
+  --directory=/path/to/config/dir
+
+```

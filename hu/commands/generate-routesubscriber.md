@@ -1,14 +1,14 @@
 # generate:routesubscriber
-Generate a RouteSubscriber
+RouteSubscriber létrehozása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:routesubscriber [options]
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---name | Service name
---class | Class name
+--module | A modul neve.
+--name | Szolgáltatásnév
+--class | Osztálynév

@@ -1,18 +1,19 @@
 # module:update
 Update core, module or modules in the application
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal module:update [arguments] [options]
+$ mou  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --composer | Update the module using Composer
 --simulate | Simulate the update process with Composer
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 module | Module or modules to be updated should be separated by a space. Leave empty for updating the core and all your modules managed by Composer.

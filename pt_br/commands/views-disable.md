@@ -1,13 +1,26 @@
 # views:disable
-Desabilitar uma View
+Disable a View
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal views:disable [arguments]
+$ vd  
 $ vdi  
 ```
 
-## Argumentos disponíveis
-Argumento | Detalhes
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-view-id | ID da View
+view-id | commands.views.debug.arguments.view-id
+
+## commands.generate.doc.gitbook.messages.examples
+* Disable content view
+```
+$ drupal views:disable  content
+
+```
+* Disable frontpage view
+```
+$ drupal views:disable  frontpage
+
+```

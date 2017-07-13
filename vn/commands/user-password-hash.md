@@ -1,13 +1,14 @@
 # user:password:hash
 Tạo một hash từ một mật khẩu thô
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:password:hash [arguments]
+$ uph  
 $ usph  
 ```
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 password | Mật khẩu có định dạng text

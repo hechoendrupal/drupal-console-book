@@ -4,6 +4,7 @@ Muestra información sobre los campos.
 **Uso:**
 ```
 $ drupal field:info [options]
+$ fii  
 ```
 
 ## Opciones disponibles

@@ -4,6 +4,7 @@ Ejecuta un test unitario de los disponibles en la aplicación
 **Uso:**
 ```
 $ drupal test:run [arguments] [options]
+$ ter  
 $ tr  
 ```
 

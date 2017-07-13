@@ -4,6 +4,7 @@ Instalar tema o temas en la aplicación
 **Uso:**
 ```
 $ drupal theme:install [arguments] [options]
+$ thi  
 $ ti  
 ```
 

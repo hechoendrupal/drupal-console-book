@@ -1,16 +1,16 @@
 # generate:plugin:type:yaml
-Generate a plugin type with Yaml discovery
+Bővítménytípus létrehozása YAML-észleléssel
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:type:yaml [options]
 $ gpty  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin type class name
---plugin-name | Plugin type machine name
---plugin-file-name | Plugin file name
+--module | A modul neve.
+--class | Bővítménytípus osztályneve
+--plugin-name | Bővítménytípus programok által használt neve
+--plugin-file-name | Bővítmény fájlneve

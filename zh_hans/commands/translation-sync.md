@@ -1,17 +1,19 @@
 # translation:sync
-Sync translation files
+commands.translation.sync.description
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal translation:sync [arguments] [options]
+$ tsy  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --file | commands.translation.stats.options.file
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-language | Language to syncronize against English source files
+language | commands.translation.sync.arguments.language
+library | commands.translation.sync.arguments.library

@@ -1,16 +1,16 @@
 # generate:plugin:type:annotation
-Generate a plugin type with annotation discovery
+Bővítménytípus létrehozása magyarázatészleléssel
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:type:annotation [options]
 $ gpta  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin type class name
+--module | A modul neve.
+--class | Bővítménytípus osztályneve
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
---label | Plugin type label
+--label | Bővítménytípus felirata

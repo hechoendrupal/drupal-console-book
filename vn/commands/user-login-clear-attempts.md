@@ -1,13 +1,14 @@
 # user:login:clear:attempts
 Xóa các đăng nhập thử không thành công cho một tài khoản.
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:login:clear:attempts [arguments]
+$ ulca  
 $ uslca  
 ```
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 uid | ID người dùng.

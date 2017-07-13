@@ -1,7 +1,15 @@
 # update:entities
-应用实体更新
+Applying Entity Updates
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal update:entities
+$ upe  
+```
+
+## commands.generate.doc.gitbook.messages.examples
+* Update entities
+```
+$ drupal update:entities
+
 ```

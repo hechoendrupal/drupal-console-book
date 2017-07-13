@@ -1,16 +1,18 @@
 # generate:command
-Generate commands for the console.
+Generează comenzi pentru consolă.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:command [options]
 $ gcm  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | The Class that describes the command. (Must end with the word 'Command').
---name | The Command name.
---container-aware | Is the command aware of the drupal site installation when executed
+--extension | The extension name.
+--extension-type | The extension type.
+--class | Numele Clasei "Command"
+--name | Numele comenzii.
+--container-aware | Când este executată comanda este conștientă de instalarea de drupal a sitului
+--services | Încarcă serviciile din container.

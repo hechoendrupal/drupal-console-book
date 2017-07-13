@@ -1,12 +1,14 @@
 # translation:cleanup
-Clean up translation files
+commands.translation.cleanup.description
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal translation:cleanup [arguments]
+$ tc  
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-language | Language to clean up files against English
+language | commands.translation.cleanup.arguments.language
+library | commands.translation.cleanup.arguments.library

@@ -1,12 +1,14 @@
 # init
-拷贝配置文件到用户的 home 目录
+Copy configuration files.
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal init [options]
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---override | 覆盖配置文件
+--destination | Destination directory to copy files
+--override | Override configurations files flag
+--autocomplete | Autocomplete tool files flag.

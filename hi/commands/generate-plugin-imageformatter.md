@@ -1,16 +1,16 @@
 # generate:plugin:imageformatter
-Generate image formatter plugin.
+छवि formatter प्लगिन उत्पन्न करें
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:imageformatter [options]
 $ gpif  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
+--module | मोड्यूल का नाम।
+--class | प्लगिन का क्लास नाम
+--label | प्लगिन उप-शीर्षक
+--plugin-id | प्लगिन id

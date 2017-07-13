@@ -4,6 +4,7 @@ Procesa la cola seleccionada.
 **Uso:**
 ```
 $ drupal queue:run [arguments]
+$ qr  
 ```
 
 ## Argumentos disponibles

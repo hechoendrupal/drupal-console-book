@@ -1,13 +1,13 @@
 # site:status
 Xem trạng thái cài đặt hiện tại
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:status [options]
 $ ss  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --format | commands.site.status.options.format

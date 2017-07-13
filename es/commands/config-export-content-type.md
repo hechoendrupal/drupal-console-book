@@ -17,3 +17,17 @@ Opción | Detalles
 Argumento | Detalles
 ---------|-------------
 content-type | Tipo de contenido a exportar
+
+## Ejemplos
+* Provide a content type  and module name
+```
+$ drupal config:export:content:type page \
+  --module="demo"
+```
+* If you want export content type provide the optional config
+```
+$ drupal config:export:content:type page \
+  --module="demo" \
+  --optional-config 
+
+```

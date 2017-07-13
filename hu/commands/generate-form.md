@@ -1,21 +1,22 @@
 # generate:form
-Generate a new "FormBase"
+Új "%s" létrehozása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:form [options]
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | The form class name
---form-id | The Form id
---services | Load services from the container.
---inputs | Create inputs in a form.
+--module | A modul neve.
+--class | Az űrlap osztályának neve
+--form-id | Az űrlap-azonosító
+--services | Szolgáltatások betöltése a tárolóból.
+--config-file | Add a config file
+--inputs | Bemenetek létrehozása egy űrlapban.
 --path | Enter the form path
---menu_link_gen | commands.generate.form.options.menu_link_gen
---menu_link_title | commands.generate.form.options.menu_link_title
---menu_parent | commands.generate.form.options.menu_parent
---menu_link_desc | commands.generate.form.options.menu_link_desc
+--menu-link-gen | Generate a menu link
+--menu-link-title | A title for the menu link
+--menu-parent | Menu parent
+--menu-link-desc | A description for the menu link

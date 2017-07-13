@@ -1,13 +1,14 @@
 # migrate:setup
 विरासत डेटाबेस के लिए प्रासंगिक माइग्रेशन बनायें और लोड करें
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal migrate:setup [options]
+$ mis  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --db-type | Drupal डेटाबेस प्रकार
 --db-host | मेजबान डेटाबेस
@@ -16,4 +17,4 @@ $ drupal migrate:setup [options]
 --db-pass | डेटाबेस पासवर्ड
 --db-prefix | डेटाबेस उपसर्ग
 --db-port | डेटाबेस पोर्ट
---files-directory | फाइल्स डायरेक्टरी
+--source-base_path | commands.migrate.setup.options.source-base-path

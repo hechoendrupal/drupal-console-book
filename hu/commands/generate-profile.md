@@ -1,17 +1,18 @@
 # generate:profile
-Generate a profile.
+Profil létrehozása.
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:profile [options]
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---profile | The profile name
---machine-name | The machine name (lowercase and underscore only)
---description | Profile description
---core | Core version
---dependencies | Module dependencies separated by commas (i.e. context, panels)
---distribution | The distribution name
+--profile | A profil neve
+--machine-name | A programok által használt név (csak kisbetűk és aláhúzás)
+--description | Profil leírása
+--core | Drupal alaprendszer verziója
+--dependencies | Modulfüggőségek vesszővel elválasztva (pl. context, panels)
+--themes | commands.generate.profile.options.themes
+--distribution | A disztribúció neve

@@ -1,7 +1,8 @@
 # site:statistics
-Exibe as estatísticas atuais para o website.
+Show the current statistics of website.
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:statistics
+$ sst  
 ```

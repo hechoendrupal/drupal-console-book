@@ -14,6 +14,6 @@ Opción | Detalles
 --name | commands.generate.service.options.name
 --class | Nombre de la clase
 --interface | commands.common.service.options.interface
---interface_name | commands.common.service.options.interface_name
+--interface-name | commands.common.service.options.interface-name
 --services | Cargar servicios desde el contenedor.
---path_service | Path
+--path-service | Path

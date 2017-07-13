@@ -16,7 +16,7 @@ Opción | Detalles
 --config-file | Añadir un fichero de configuración
 --inputs | Crear campos de entrada en un formulario.
 --path | Introduzca la ruta del formulario
---menu_link_gen | commands.generate.form.options.menu_link_gen
---menu_link_title | commands.generate.form.options.menu_link_title
---menu_parent | commands.generate.form.options.menu_parent
---menu_link_desc | commands.generate.form.options.menu_link_desc
+--menu-link-gen | Generate a menu link
+--menu-link-title | A title for the menu link
+--menu-parent | Menu parent
+--menu-link-desc | A description for the menu link

@@ -1,18 +1,26 @@
 # theme:install
-安装主题
+Install theme or themes in the application
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal theme:install [arguments] [options]
+$ thi  
 $ ti  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---set-default | 设置主题为默认主题
+--set-default | Set theme as default theme
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 theme | commands.theme.install.options.module
+
+## commands.generate.doc.gitbook.messages.examples
+* Install theme specifying the name
+```
+$ drupal theme:install  mytheme
+
+```

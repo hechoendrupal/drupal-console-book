@@ -1,17 +1,17 @@
 # generate:event:subscriber
-Generate an event subscriber
+Tạo một event subscriber
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:event:subscriber [options]
 $ ges  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | Tên module.
 --name | commands.generate.service.options.name
---class | Class name
---events | Load events from the container
---services | Load services from the container.
+--class | Tên Class
+--events | Nạp các sự kiện từ container
+--services | Nạp các dịch vụ từ container.

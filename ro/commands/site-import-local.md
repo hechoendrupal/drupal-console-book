@@ -1,18 +1,19 @@
 # site:import:local
 Import/Configure an existing local Drupal project
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:import:local [arguments] [options]
+$ sil  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --environment | Name of the environment that is going to be imported
 
-## Argumente disponibile
-Argument | Detalii
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 name | Name that will be used to generate the site config
 directory | Existing Drupal root directory

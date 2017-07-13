@@ -1,18 +1,18 @@
 # generate:entity:config
-Generate a new config entity
+Generează o entitate de configurare nouă
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:config [options]
 $ gecg  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---entity-class | The config entity class
---entity-name | The config entity name
+--module | Numele Modulului.
+--entity-class | Clasa entității de configurare
+--entity-name | Numele entității de configurare
 --base-path | The base-path for the config entity routes
---label | The label
+--label | Eticheta
 --bundle-of | Acts as bundle for content entities

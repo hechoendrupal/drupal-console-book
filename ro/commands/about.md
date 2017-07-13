@@ -1,7 +1,7 @@
 # about
 Afișează informațiile de bază despre proiectul Drupal Console
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal about
 ```

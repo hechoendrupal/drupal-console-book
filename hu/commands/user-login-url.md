@@ -1,13 +1,14 @@
 # user:login:url
 Egyszer használatos felhasználói bejelentkezési URL-címet ad vissza.
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:login:url [arguments]
+$ ulu  
 $ uslu  
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 user-id | Felhasználói azonosító.

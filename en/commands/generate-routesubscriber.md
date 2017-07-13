@@ -12,3 +12,13 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --module | The Module name.
 --name | Service name
 --class | Class name
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate a route subscriber specifying the module name, the route name and its class
+```
+$ drupal generate:routesubscriber  \
+  --module="modulename"  \
+  --name="modulename.route_subscriber"  \
+  --class="RouteSubscriber"
+
+```

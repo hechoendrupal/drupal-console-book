@@ -1,16 +1,16 @@
 # generate:plugin:imageformatter
-Generate image formatter plugin.
+Generează un plugin de formatare a imaginii.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:imageformatter [options]
 $ gpif  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
+--module | Numele Modulului.
+--class | Numele clasei pluginului
+--label | Eticheta pluginului
+--plugin-id | ID-ul pluginului

@@ -1,19 +1,20 @@
 # test:run
 Execută un test dintre testele disponibile in aplicaţie.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal test:run [arguments] [options]
+$ ter  
 $ tr  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --url | commands.test.run.arguments.url
 
-## Argumente disponibile
-Argument | Detalii
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 test-class | Clasa de test
 test-methods | Test method(s) to be run

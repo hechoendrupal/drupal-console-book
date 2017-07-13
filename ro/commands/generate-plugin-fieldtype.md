@@ -1,19 +1,19 @@
 # generate:plugin:fieldtype
-Generate field type plugin.
+Generează extensia de tip câmp.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:fieldtype [options]
 $ gpft  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---description | Plugin Description
---default-widget | Default field widget of this plugin
---default-formatter | Default field formatter of this plugin
+--module | Numele Modulului.
+--class | Numele clasei pentru extensie
+--label | Eticheta extensiei
+--plugin-id | ID-ul extensiei
+--description | Descrierea extensiei
+--default-widget | Valoarea implicită a acestei extensii pentru widgetul câmpului
+--default-formatter | Valoarea implicită a acestei extensii pentru formatarea câmpului

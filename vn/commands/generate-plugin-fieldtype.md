@@ -1,19 +1,19 @@
 # generate:plugin:fieldtype
-Generate field type plugin.
+Tạo field type plugin.
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:fieldtype [options]
 $ gpft  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
+--module | Tên module.
+--class | Tên lớp plugin
+--label | Nhãn plugin
 --plugin-id | Plugin id
---description | Plugin Description
---default-widget | Default field widget of this plugin
---default-formatter | Default field formatter of this plugin
+--description | Mô tả plugin
+--default-widget | Field widget mặc định của plugin này
+--default-formatter | Field formatter mặc định của plugin này

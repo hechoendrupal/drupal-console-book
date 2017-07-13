@@ -1,19 +1,20 @@
 # test:run
-运行这个程序有的测试单元
+Run Test unit from tests available for application
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal test:run [arguments] [options]
+$ ter  
 $ tr  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --url | commands.test.run.arguments.url
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-test-class | 测试类
-test-methods | 被运行的测试方法
+test-class | Test Class
+test-methods | Test method(s) to be run

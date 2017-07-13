@@ -1,13 +1,24 @@
 # site:maintenance
-切换网站到维护模式
+Switch site into maintenance mode
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:maintenance [arguments]
 $ sma  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 mode | commands.site.maintenance.arguments.mode[on/off]
+
+## commands.generate.doc.gitbook.messages.examples
+* Switch on maintenance
+```
+$ drupal site:maintenance  on
+```
+* Switch off maintenance
+```
+$ drupal site:maintenance  off
+
+```

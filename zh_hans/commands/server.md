@@ -1,26 +1,26 @@
 # server
-运行PHP内建的网站服务器
+Runs PHP built-in web server
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal server [arguments]
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-address | IP地址:端口号
+address | The address:port values
 
-## 例子
-* 用缺省地址和端口127.0.0.1:8088
+## commands.generate.doc.gitbook.messages.examples
+* Run using default address argument value 127.0.0.1:8088
 ```
-$ Drupal服务器
+$ drupal server
 ```
-* 用其他端口的地址
+* Passing address argument to use a different port number
 ```
-$ Drupal服务器127.0.0.1:8089
+$ drupal server 127.0.0.1:8089
 ```
-* 运行缺省地址参数，用--root选项来定义Drupal的root
+* Running default address argument values, using --root option to define the Drupal root
 ```
-$ Drupal --root=/var/www/drupal8.dev server
+$ drupal --root=/var/www/drupal8.dev server
 ```

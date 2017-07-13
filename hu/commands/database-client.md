@@ -1,12 +1,20 @@
 # database:client
 Adatbázisügyfél indítása, ha az elérhető
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:client [arguments]
+$ dbc  
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 database | Adatbáziskulcs a settings.php fájlból
+
+## commands.generate.doc.gitbook.messages.examples
+* Launch the default client or could launch another regarding the specification on the argument
+```
+$ drupal database:client <database>
+
+```

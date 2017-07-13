@@ -30,3 +30,22 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 profile | Drupal Profile to be installed
+
+## commands.generate.doc.gitbook.messages.examples
+* Install a drupal project specifying installation type, language code, database configuration, site name, site email and admin credential settings
+```
+$ drupal site:install  standard  \
+  --langcode="en"  \
+  --db-type="mysql"  \
+  --db-host="127.0.0.1"  \
+  --db-name="drupal8"  \
+  --db-user="u53rn4m3"  \
+  --db-pass="dbp455"  \
+  --db-port="3306"  \
+  --site-name="Drupal 8"  \
+  --site-mail="admin@example.com"  \
+  --account-name="admin"  \
+  --account-mail="admin@example.com"  \
+  --account-pass="p455w0rd"
+
+```

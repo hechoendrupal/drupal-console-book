@@ -4,6 +4,7 @@ Clear failed login attempts for an account.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:login:clear:attempts [arguments]
+$ ulca  
 $ uslca  
 ```
 

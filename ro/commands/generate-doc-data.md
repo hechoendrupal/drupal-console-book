@@ -1,12 +1,13 @@
 # generate:doc:data
-Generate documentations for Commands.
+commands.generate.doc.data.description
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:doc:data [options]
+$ gdda  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---file | The file to render the command data
+--file | commands.generate.doc.data.options.file

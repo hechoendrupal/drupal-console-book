@@ -1,13 +1,13 @@
 # site:maintenance
 साइट को मेंटेनेंस मोड में बदले
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:maintenance [arguments]
 $ sma  
 ```
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 mode | commands.site.maintenance.arguments.mode[on/off]

@@ -1,17 +1,18 @@
 # generate:profile
-Generate a profile.
+प्रोफाइल उत्पन्न करे.
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:profile [options]
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---profile | The profile name
---machine-name | The machine name (lowercase and underscore only)
---description | Profile description
---core | Core version
---dependencies | Module dependencies separated by commas (i.e. context, panels)
---distribution | The distribution name
+--profile | प्रोफाइल नाम
+--machine-name | मशीन का नाम (लोअरकेस और अंडरस्कोर केवल)
+--description | प्रोफाइल विवरण
+--core | कोर संस्करण
+--dependencies | मॉड्यूल निर्भरता अल्पविराम से अलग किया जाता है (जेसे context, panels)
+--themes | commands.generate.profile.options.themes
+--distribution | वितरण नाम

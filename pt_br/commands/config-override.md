@@ -1,21 +1,21 @@
 # config:override
-Sobrescrever valor de configuração ativa.
+Override config value in active configuration.
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:override [arguments]
 $ co  
 ```
 
-## Argumentos disponíveis
-Argumento | Detalhes
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 name | Configuration name
-key | Chave
-value | Valor
+key | Key
+value | Value
 
-## Exemplos
-* Définir la valeur de "flood" du module Contact à 10.
+## commands.generate.doc.gitbook.messages.examples
+* Set the Contact module flood limit to 10.
 ```
 $ drupal config:override contact.settings flood.limit 10
 ```

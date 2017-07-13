@@ -1,18 +1,19 @@
 # multisite:new
 Sets up the files for a new multisite install.
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal multisite:new [arguments] [options]
+$ mun  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---site-uri | Site URI to add to sites.php.
---copy-install | Copies existing site from the default install.
+--copy-default | Copies existing site from the default install.
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-sites-subdir | Name of directory under 'sites' which should be created.
+directory | Name of directory under 'sites' which should be created.
+uri | Site URI to add to sites.php.

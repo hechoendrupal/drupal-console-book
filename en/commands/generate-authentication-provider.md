@@ -13,3 +13,13 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --module | The Module name.
 --class | Authentication Provider class
 --provider-id | Provider ID
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate an authentication provider specifying the module, the class and the provider id
+```
+$ drupal generate:authentication:provider  \
+  --module="modulename"  \
+  --class="DefaultAuthenticationProvider"  \
+  --provider-id="default_authentication_provider"
+
+```

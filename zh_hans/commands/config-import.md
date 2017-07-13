@@ -1,15 +1,28 @@
 # config:import
-导入配置
+Import configuration to current application.
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:import [options]
 $ ci  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---file | 配置文件路径
---directory | 要导入的配置文件的目录路径.
---remove-files | 同步后删除文件.
+--file | Path to an archive file of configuration to import.
+--directory | Path to a directory of configuration to import.
+--remove-files | Remove files after synchronization.
+
+## commands.generate.doc.gitbook.messages.examples
+* Provide a configuration file
+```
+$ drupal config:import \
+  --file=/path/to/config/file
+```
+* Provide a configuration directory
+```
+$ drupal config:import  \
+  --directory=/path/to/config/dir
+
+```

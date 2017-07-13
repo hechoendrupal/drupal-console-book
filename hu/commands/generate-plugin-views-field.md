@@ -1,16 +1,16 @@
 # generate:plugin:views:field
-Generate a custom plugin view field.
+Egyéni nézetmező bővítmény létrehozása.
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:views:field [options]
 $ gpvf  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Views plugin field class name
---title | Views plugin field title
---description | Views plugin field description
+--module | A modul neve.
+--class | Nézetmező bővítmény osztályneve
+--title | Nézetmező bővítmény címe
+--description | Nézetmező bővítmény leírása

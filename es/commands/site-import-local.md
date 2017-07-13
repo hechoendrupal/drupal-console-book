@@ -4,6 +4,7 @@ Importar o configurar un proyecto Drupal existente en local
 **Uso:**
 ```
 $ drupal site:import:local [arguments] [options]
+$ sil  
 ```
 
 ## Opciones disponibles

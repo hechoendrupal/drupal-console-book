@@ -1,16 +1,16 @@
 # generate:plugin:views:field
-Generate a custom plugin view field.
+Generează o extensie custom de views field.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:views:field [options]
 $ gpvf  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Views plugin field class name
---title | Views plugin field title
---description | Views plugin field description
+--module | Numele Modulului.
+--class | Clasa extensiei de views field
+--title | Titlul extensiei de views field
+--description | Descrierea extensiei de views field

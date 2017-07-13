@@ -1,13 +1,14 @@
 # user:login:clear:attempts
 Egy fiók sikertelen bejelentkezési kísérleteinek törlése.
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:login:clear:attempts [arguments]
+$ ulca  
 $ uslca  
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 uid | Felhasználói azonosító.

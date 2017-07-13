@@ -1,12 +1,13 @@
 # state:delete
 Delete State
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal state:delete [arguments]
+$ std  
 ```
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 name | State name.

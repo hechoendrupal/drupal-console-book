@@ -1,12 +1,12 @@
 # locale:language:add
-Add a language to be supported by your site
+A webhely által támogatott nyelv hozzáadása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal locale:language:add [arguments]
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-language | Language for instance es or Spanish
+language | Nyelv, például es vagy Spanish

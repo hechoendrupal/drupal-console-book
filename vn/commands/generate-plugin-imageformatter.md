@@ -1,16 +1,16 @@
 # generate:plugin:imageformatter
-Generate image formatter plugin.
+Phát sinh một image formatter plugin.
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:imageformatter [options]
 $ gpif  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
+--module | Tên module.
+--class | Tên plugin class
+--label | Nhãn plugin
 --plugin-id | Plugin id

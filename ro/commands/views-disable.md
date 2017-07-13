@@ -1,13 +1,14 @@
 # views:disable
 Dezactivează un View
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal views:disable [arguments]
+$ vd  
 $ vdi  
 ```
 
-## Argumente disponibile
-Argument | Detalii
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-view-id | ID-ul view-ului
+view-id | commands.views.debug.arguments.view-id

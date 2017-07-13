@@ -4,6 +4,7 @@ Sobreescribir una clave de Estado.
 **Uso:**
 ```
 $ drupal state:override [arguments]
+$ sto  
 ```
 
 ## Argumentos disponibles

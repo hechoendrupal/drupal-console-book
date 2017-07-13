@@ -10,3 +10,10 @@ $ drupal generate:module:file [options]
 commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | The Module name.
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate the .module file specifying the module name
+```
+$ drupal generate:module:file  \
+  --module="modulename"
+```

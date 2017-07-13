@@ -1,15 +1,15 @@
 # generate:entity:bundle
-Generate a new content type (node / entity bundle)
+Tạo một loại nội dung mới (node / entity bundle)
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:bundle [options]
 $ geb  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---bundle-name | The content type's machine name
---bundle-title | The content type's human-readable name
+--module | Tên module.
+--bundle-name | Tên máy của loại nội dung
+--bundle-title | Tên có thể đọc được của loại nội dung

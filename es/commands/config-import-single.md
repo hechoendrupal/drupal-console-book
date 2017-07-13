@@ -10,6 +10,19 @@ $ cis
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---name | commands.config.import.single.options.name
---file | commands.config.import.single.options.file
---directory | Ruta al directorio de configuración a importar.
+--file | The file(s) name or file(s) absolute path to import
+--directory | commands.config.import.arguments.directory
+
+## Ejemplos
+* Providing a file option using full path.
+```
+$ drupal config:import:single \
+  --file="/path/to/file/block.block.default_block.yml"
+```
+* Providing file and directory options
+```
+$ drupal config:import:single  \
+  --file="block.block.default_block.yml" \
+  --directory="/path/to/directory"
+
+```

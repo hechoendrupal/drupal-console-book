@@ -1,18 +1,18 @@
 # cache:rebuild
 सभी साइट caches को पुनर्निर्माण और साफ़ करें।
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal cache:rebuild [arguments]
 $ cr  
 ```
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 cache | केवल एक विशेष caches साफ़ करें।
 
-## उदाहरण
+## commands.generate.doc.gitbook.messages.examples
 * सभी caches के पुनर्निर्माण 
 ```
 $ Drupal cr all

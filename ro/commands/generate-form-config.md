@@ -1,22 +1,23 @@
 # generate:form:config
-Generate a new "ConfigFormBase"
+commands.generate.form.description
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:form:config [options]
 $ gfc  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | The form class name
---form-id | The Form id
---services | Load services from the container.
---inputs | Create inputs in a form.
+--module | Numele Modulului.
+--class | Numele clasei formularului
+--form-id | ID-ul formularului
+--services | Încarcă serviciile din container.
+--config-file | Add a config file
+--inputs | Creează intrări într-un formular.
 --path | Enter the form path
---menu_link_gen | commands.generate.form.options.menu_link_gen
---menu_link_title | commands.generate.form.options.menu_link_title
---menu_parent | commands.generate.form.options.menu_parent
---menu_link_desc | commands.generate.form.options.menu_link_desc
+--menu-link-gen | Generate a menu link
+--menu-link-title | A title for the menu link
+--menu-parent | Menu parent
+--menu-link-desc | A description for the menu link

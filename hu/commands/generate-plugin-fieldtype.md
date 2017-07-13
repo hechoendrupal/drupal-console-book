@@ -1,19 +1,19 @@
 # generate:plugin:fieldtype
-Generate field type plugin.
+Mezőtípus bővítmény létrehozása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:fieldtype [options]
 $ gpft  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---description | Plugin Description
---default-widget | Default field widget of this plugin
---default-formatter | Default field formatter of this plugin
+--module | A modul neve.
+--class | Bővítmény osztályneve
+--label | Bővítmény felirata
+--plugin-id | Bővítmény azonosítója
+--description | Bővítmény leírása
+--default-widget | A bővítmény alapértelmezett mező felületi eleme
+--default-formatter | A bővítmény alapértelmezett mezőformázója

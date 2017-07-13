@@ -1,17 +1,17 @@
 # generate:plugin:ckeditorbutton
-Generate CKEditor button plugin.
+CKEditor बटन प्लगइन उत्पन्न करें।
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:ckeditorbutton [options]
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin ID. NOTE: This corresponds to the CKEditor plugin name. It is the first argument of the CKEDITOR.plugins.add() function in the plugin.js file.
---button-name | Button name. NOTE: This corresponds to the CKEditor button name. They are the first argument of the editor.ui.addButton() or editor.ui.addRichCombo() functions in the plugin.js file.
---button-icon-path | Button icon path. This is the path to the icon/image of the button.
+--module | मोड्यूल का नाम।
+--class | प्लगइन क्लास नाम
+--label | प्लगइन लेबल
+--plugin-id | प्लगइन आईडी। नोट: यह CKEditor प्लगइन नाम से मेल खाती है। यह plugin.js फ़ाइल में CKEDITOR.plugins.add() फंक्शन के पहले आर्गुमेंट है।
+--button-name | बटन नाम। नोट: यह CKEditor बटन नाम से मेल खाती है। वे plugin.js फ़ाइल में editor.ui.addButton() या editor.ui.addRichCombo() फ़ंक्शंस का पहला आर्गुमेंट हैं।
+--button-icon-path | बटन आइकन पथ। इस बटन के आइकन/इमेज के लिए मार्ग है।

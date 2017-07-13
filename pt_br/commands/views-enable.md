@@ -1,13 +1,25 @@
 # views:enable
-Habilitar uma View
+Enable a View
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal views:enable [arguments]
 $ ve  
 ```
 
-## Argumentos disponíveis
-Argumento | Detalhes
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-view-id | ID da View
+view-id | commands.views.debug.arguments.view-id
+
+## commands.generate.doc.gitbook.messages.examples
+* Enable content view
+```
+$ drupal views:enable  content
+
+```
+* Enable frontpage view
+```
+$ drupal views:enable  frontpage
+
+```

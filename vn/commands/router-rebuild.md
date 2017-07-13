@@ -1,8 +1,9 @@
 # router:rebuild
 Xây dựng lại định tuyến cho ứng dụng
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal router:rebuild
+$ rr  
 $ ror  
 ```

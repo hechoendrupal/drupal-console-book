@@ -1,13 +1,14 @@
 # state:override
 स्थिति की मौलिक को ओवरराइड करे
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal state:override [arguments]
+$ sto  
 ```
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 key | स्थिति की मौलिक को ओवरराइड करे
 value | स्थिति की मूल्य को ओवरराइड करे

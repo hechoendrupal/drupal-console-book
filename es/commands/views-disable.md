@@ -4,10 +4,11 @@ Deshabilita una vista
 **Uso:**
 ```
 $ drupal views:disable [arguments]
+$ vd  
 $ vdi  
 ```
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-view-id | ID de la vista
+view-id | commands.views.debug.arguments.view-id

@@ -1,13 +1,28 @@
 # user:delete
-Remover usuários da aplicação
+Delete users for the application
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:delete [options]
+$ ud  
 ```
 
-## Opções disponíveis
-Opção | Detalhes
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---user-id | ID do usuário a ser deletado
---roles | Papéis associados ao usuários que serão deletados
+--user-id | User id to be deleted
+--roles | Roles associated to users to be deleted
+
+## commands.generate.doc.gitbook.messages.examples
+* Delete user specifying the id and the user role
+```
+$ drupal user:delete  \
+  --user-id="2"
+  --roles='authenticated'
+```
+* Delete user specifying its id
+```
+$ drupal user:delete  \
+  --user-id="3"
+
+```

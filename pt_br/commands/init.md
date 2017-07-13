@@ -1,12 +1,14 @@
 # init
-Copy configuration files to user home directory.
+Copy configuration files.
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal init [options]
 ```
 
-## Opções disponíveis
-Opção | Detalhes
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---override | Override configurations files
+--destination | Destination directory to copy files
+--override | Override configurations files flag
+--autocomplete | Autocomplete tool files flag.

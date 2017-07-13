@@ -1,21 +1,22 @@
 # generate:form
-Generate a new "FormBase"
+एक नया "%s" उत्पन्न करें
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:form [options]
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | The form class name
---form-id | The Form id
---services | Load services from the container.
---inputs | Create inputs in a form.
+--module | मोड्यूल का नाम।
+--class | फॉर्म क्लास का नाम
+--form-id | फॉर्म आईडी
+--services | सर्विसेज़ को container से लोड करें।
+--config-file | Add a config file
+--inputs | एक फॉर्म के लिए आदानो को बनाएँ।
 --path | Enter the form path
---menu_link_gen | commands.generate.form.options.menu_link_gen
---menu_link_title | commands.generate.form.options.menu_link_title
---menu_parent | commands.generate.form.options.menu_parent
---menu_link_desc | commands.generate.form.options.menu_link_desc
+--menu-link-gen | Generate a menu link
+--menu-link-title | A title for the menu link
+--menu-parent | Menu parent
+--menu-link-desc | A description for the menu link

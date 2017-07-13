@@ -1,13 +1,13 @@
 # site:mode
 Rendszerteljesítmény beállításának átváltása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:mode [arguments]
 $ smo  
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 environment | Környezet neve [dev, prod]

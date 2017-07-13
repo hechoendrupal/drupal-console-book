@@ -1,13 +1,14 @@
 # theme:uninstall
 Gỡ cài đặt theme hay các themes trong ứng dụng
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal theme:uninstall [arguments]
+$ thu  
 $ tu  
 ```
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 theme | commands.theme.uninstall.options.module

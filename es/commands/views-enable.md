@@ -10,4 +10,4 @@ $ ve
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-view-id | ID de la vista
+view-id | commands.views.debug.arguments.view-id

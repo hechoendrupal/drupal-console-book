@@ -1,15 +1,15 @@
 # generate:plugin:skeleton
 Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:skeleton [options]
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | Tên module.
 --plugin-id | commands.generate.plugin.options.plugin-id
---class | Plugin class name
---services | Load services from the container.
+--class | Tên lớp plugin
+--services | Nạp các dịch vụ từ container.

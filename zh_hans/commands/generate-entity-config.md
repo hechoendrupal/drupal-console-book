@@ -1,14 +1,14 @@
 # generate:entity:config
 Generate a new config entity
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:config [options]
 $ gecg  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --entity-class | The config entity class
@@ -16,3 +16,14 @@ $ gecg
 --base-path | The base-path for the config entity routes
 --label | The label
 --bundle-of | Acts as bundle for content entities
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate config entity specifying the module, the entity class, the entity name, its path and label
+```
+$ drupal generate:entity:config  \
+  --module="modulename"  \
+  --entity-class="DefaultEntity"  \
+  --entity-name="default_entity"  \
+  --base-path="/admin/structure"  \
+  --label="Default entity"
+```

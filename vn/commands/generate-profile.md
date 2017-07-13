@@ -1,17 +1,18 @@
 # generate:profile
-Generate a profile.
+Tạo một profile.
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:profile [options]
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---profile | The profile name
---machine-name | The machine name (lowercase and underscore only)
---description | Profile description
---core | Core version
---dependencies | Module dependencies separated by commas (i.e. context, panels)
---distribution | The distribution name
+--profile | Tên profile
+--machine-name | Tên máy (chỉ chữ thường và gạch dưới)
+--description | Mô tả profile
+--core | Phiên bản core
+--dependencies | Sự phụ thuộc của module chia ra bởi dấu phẩy (ví dụ context, panels)
+--themes | commands.generate.profile.options.themes
+--distribution | Tên distribution

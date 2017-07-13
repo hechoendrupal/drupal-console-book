@@ -1,19 +1,34 @@
 # create:users
 Tạo dummy users cho ứng dụng Drupal 8 của bạn.
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal create:users [arguments] [options]
+$ cru  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --limit | Bạn muốn tạo bao nhiêu user?
 --password | Password to be set to users created
 --time-range | How far back in time should the users be dated
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 roles | Role(s) được sử dụng trong user creation
+
+## commands.generate.doc.gitbook.messages.examples
+* Provide the user role.
+```
+$ drupal create:users role
+```
+* Provide the number of users to create, password and time range to create.
+```
+$ drupal create:users role \
+  --limit="5" \
+  --password="usersnewpassword" \
+  --time-range="1"
+
+```

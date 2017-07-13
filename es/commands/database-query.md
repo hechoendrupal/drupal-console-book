@@ -4,6 +4,7 @@ Ejecuta una sentencia SQL directamente como argumento
 **Uso:**
 ```
 $ drupal database:query [arguments] [options]
+$ dbq  
 ```
 
 ## Opciones disponibles
@@ -22,3 +23,10 @@ Argumento | Detalles
 ---------|-------------
 query | La sentencia SQL que será ejecutada
 database | Base de datos en el settings.php
+
+## Ejemplos
+* Send a database query
+```
+$ drupal database:query 'select * from node limit 0,1'
+
+```

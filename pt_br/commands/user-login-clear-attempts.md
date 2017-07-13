@@ -1,13 +1,14 @@
 # user:login:clear:attempts
-Limpar tentativas falhas de login para um usuário.
+Clear failed login attempts for an account.
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:login:clear:attempts [arguments]
+$ ulca  
 $ uslca  
 ```
 
-## Argumentos disponíveis
-Argumento | Detalhes
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-uid | ID do usuário.
+uid | User ID.

@@ -1,17 +1,31 @@
 # database:dump
 डंप संरचना और MYSQL का कंटेंट डेटाबेसेस और टेबल्स
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:dump [arguments] [options]
+$ dbdu  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---file | commands.database.dump.option.file
+--file | अपने डेटाबेस बैकअप के लिए फ़ाइल नाम
+--gz | Pass this option if you want the sql result file gzipped
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 database | Settings.php से डाटाबेस कुंजी
+
+## commands.generate.doc.gitbook.messages.examples
+* Dump default database or the one specified on the argument
+```
+$ drupal database:dump \
+  <database>
+```
+* Dump in gz compressed format
+```
+$ drupal database:dump \
+  --gz
+```

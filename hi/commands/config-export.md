@@ -1,14 +1,32 @@
 # config:export
 मौजूदा एप्लीकेशन कॉन्फ़िगरेशन एक्सपोर्ट करे।
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:export [options]
 $ ce  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---directory | कॉन्फ़िगरेशन उत्पादन को सेव करने के लिए एक्सपोर्ट डायरेक्टरी को परिभाषित करें।
---tar | अगर सेट है, तो कॉन्फ़िगरेशन एक संग्रह फ़ाइल को एक्सपोर्ट किया जाएगा।
+--directory | Define the export directory to save the configuration output.
+--tar | If set, the configuration will be exported to an archive file.
+--remove-uuid | If set, the configuration will be exported without uuid key.
+--remove-config-hash | If set, the configuration will be exported without the default site hash key.
+
+## commands.generate.doc.gitbook.messages.examples
+* Optional you can add the path to export
+```
+$ drupal config:export  \
+  --directory="path/to/export"
+```
+* If export will be in a compressed file and/or if uuid and config hashes will be removed.
+```
+$ drupal config:export  \
+  --directory="path/to/export" \
+  --tar \
+  --remove-uuid \
+  --remove-config-hash
+
+```

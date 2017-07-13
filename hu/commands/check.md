@@ -1,7 +1,7 @@
 # check
 System requirement checker
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal check
 ```

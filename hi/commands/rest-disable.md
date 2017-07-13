@@ -1,13 +1,14 @@
 # rest:disable
 अनुप्रयोग में REST संसाधन अक्षम करें|
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal rest:disable [arguments]
+$ red  
 $ redi  
 ```
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-resource-id | Rest क्रमांक
+resource-id | Rest ID

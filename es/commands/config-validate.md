@@ -4,9 +4,16 @@ Validar una configuración de Drupal según su schema
 **Uso:**
 ```
 $ drupal config:validate [arguments]
+$ cv  
 ```
 
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-config.name | 
+name | 
+
+## Ejemplos
+* Provide the configuration name.
+```
+$ drupal config:validate configuration.name
+```

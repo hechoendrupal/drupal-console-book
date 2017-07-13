@@ -11,3 +11,12 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 -------|-------------
 --module | The Module name.
 --update-n | Update Number
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate an update N hook implementation specifying the module name and the N value
+```
+$ drupal generate:update  \
+  --module="modulename"  \
+  --update-n="8001"
+
+```

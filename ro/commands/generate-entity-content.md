@@ -1,19 +1,20 @@
 # generate:entity:content
-Generate a new content entity
+Generează o entitate de conținut nouă
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:content [options]
 $ gect  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---entity-class | The content entity class
---entity-name | The content entity name
+--module | Numele Modulului.
+--entity-class | Clasa entității de conținut
+--entity-name | Numele entității de conținut
 --base-path | The base-path for the content entity routes
---label | The label
+--label | Eticheta
 --has-bundles | Entity has bundles
 --is-translatable | Content entity translatable
+--revisionable | commands.generate.entity.content.options.revisionable

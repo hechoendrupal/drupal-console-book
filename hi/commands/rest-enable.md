@@ -1,13 +1,13 @@
 # rest:enable
 अनुप्रयोग के रेस्ट साधन को चालू करे
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal rest:enable [arguments]
 $ ree  
 ```
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-resource-id | Rest क्रमांक
+resource-id | Rest ID

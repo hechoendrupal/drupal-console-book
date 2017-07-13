@@ -1,14 +1,15 @@
 # user:password:reset
 Adott felhasználó jelszavának alaphelyzetbe állítása.
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:password:reset [arguments]
+$ upr  
 $ uspr  
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 user | Felhasználói azonosító
 password | Szövegformátumú jelszó

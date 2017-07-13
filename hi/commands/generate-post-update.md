@@ -1,13 +1,13 @@
 # generate:post:update
 commands.generate.post:update.description
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:post:update [options]
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | मोड्यूल का नाम।
 --post-update-name | Post Update Name

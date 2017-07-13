@@ -1,16 +1,16 @@
 # generate:plugin:type:yaml
-Generate a plugin type with Yaml discovery
+Tạo một plugin với Yaml discovery
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:type:yaml [options]
 $ gpty  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin type class name
---plugin-name | Plugin type machine name
---plugin-file-name | Plugin file name
+--module | Tên module.
+--class | Tên lớp kiểu plugin
+--plugin-name | Tên máy kiểu plugin
+--plugin-file-name | Tên file plugin

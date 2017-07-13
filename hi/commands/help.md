@@ -1,19 +1,19 @@
 # help
 एक कमांड के लिए मदद प्रदर्शित करता है
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal help [arguments] [options]
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --xml | XML के रूप में उत्पादन सूची
 --raw | रॉ कमांड सूची उत्पादन करने के लिए
 --format | फॉर्मेट आउटपुट (txt, xml, json, or md)
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-command_name | कमांड का नाम
+command_name | commands.help.arguments.command-name

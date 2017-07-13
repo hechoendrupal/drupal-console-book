@@ -1,13 +1,14 @@
 # rest:disable
 Dezactiveaza o resursă REST
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal rest:disable [arguments]
+$ red  
 $ redi  
 ```
 
-## Argumente disponibile
-Argument | Detalii
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-resource-id | ID-ul resursei
+resource-id | Rest ID

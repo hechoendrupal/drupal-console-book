@@ -1,13 +1,26 @@
 # views:disable
-停启视图
+Disable a View
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal views:disable [arguments]
+$ vd  
 $ vdi  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-view-id | 视图ID
+view-id | commands.views.debug.arguments.view-id
+
+## commands.generate.doc.gitbook.messages.examples
+* Disable content view
+```
+$ drupal views:disable  content
+
+```
+* Disable frontpage view
+```
+$ drupal views:disable  frontpage
+
+```

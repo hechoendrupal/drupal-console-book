@@ -1,19 +1,34 @@
 # create:comments
-创建评论
+Create dummy comments for your Drupal 8 application.
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal create:comments [arguments] [options]
+$ crc  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---limit | 创建评论数量
---title-words | 评论标题中的最大单词数量
---time-range | 评论的创建时间区间
+--limit | How many comments would you like to create
+--title-words | Maximum number of words in comment titles
+--time-range | How far back in time should the comments be dated
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-node-id | 创建评论的节点 ID
+node-id | Node ID where the comments will be created
+
+## commands.generate.doc.gitbook.messages.examples
+* Provide the node id where the comments will be generated.
+```
+$ drupal create:comments  node-id
+```
+* Provide number of comments to generate, max title words and time range.
+```
+$ drupal create:comments  node-id \
+  --limit="2" \
+  --title-words="5" \
+  --time-range="1"
+
+```

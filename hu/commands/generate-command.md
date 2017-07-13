@@ -1,16 +1,18 @@
 # generate:command
-Generate commands for the console.
+Parancsok létrehozása a konzolhoz.
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:command [options]
 $ gcm  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | The Class that describes the command. (Must end with the word 'Command').
---name | The Command name.
---container-aware | Is the command aware of the drupal site installation when executed
+--extension | The extension name.
+--extension-type | The extension type.
+--class | A parancsot leíró osztály. (A 'Command' szóra kell végződnie).
+--name | A parancs neve.
+--container-aware | A parancs ismeri-e a drupal telepítési helyét a végrehajtáskor
+--services | Szolgáltatások betöltése a tárolóból.

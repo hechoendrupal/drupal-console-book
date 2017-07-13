@@ -4,6 +4,7 @@ Actualizar el core, un módulo o varios en la aplicación
 **Uso:**
 ```
 $ drupal module:update [arguments] [options]
+$ mou  
 ```
 
 ## Opciones disponibles

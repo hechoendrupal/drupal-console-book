@@ -1,7 +1,7 @@
 # check
-系统需求检测器
+System requirement checker
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal check
 ```

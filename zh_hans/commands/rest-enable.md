@@ -1,13 +1,13 @@
 # rest:enable
-启用 REST 资源
+Enable a rest resource for the application
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal rest:enable [arguments]
 $ ree  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-resource-id | REST 资源 ID
+resource-id | Rest ID

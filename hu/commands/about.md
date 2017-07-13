@@ -1,7 +1,7 @@
 # about
 Alapvető információkat jelenít meg a Drupal Console projektről
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal about
 ```

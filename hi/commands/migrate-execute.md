@@ -1,14 +1,14 @@
 # migrate:execute
 अनुप्रयोग के उपलब्ध माइग्रेशन को चलाएं
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal migrate:execute [arguments] [options]
 $ mie  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --site-url | साइट स्रोत URL
 --db-type | commands.migrate.setup.migrations.options.db-type
@@ -19,8 +19,9 @@ $ mie
 --db-prefix | डेटाबेस उपसर्ग
 --db-port | डेटाबेस पोर्ट
 --exclude | वर्जित किये गए माइग्रेशन क्रमांक
+--source-base_path | commands.migrate.execute.options.source-base-path
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 migration-ids | माइग्रेशन क्रमांक

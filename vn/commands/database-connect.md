@@ -1,12 +1,21 @@
 # database:connect
 Hiển thị DB connection
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:connect [arguments]
+$ dbco  
 ```
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 database | Database key từ settings.php
+
+## commands.generate.doc.gitbook.messages.examples
+* Connects to an specified database, or the default if not arguments passed
+```
+$ drupal database:connect \
+  <database>
+
+```

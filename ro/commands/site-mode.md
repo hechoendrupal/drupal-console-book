@@ -1,13 +1,13 @@
 # site:mode
 Schimbă configurarile de performanţă ale sistemului
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:mode [arguments]
 $ smo  
 ```
 
-## Argumente disponibile
-Argument | Detalii
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 environment | Numele mediului

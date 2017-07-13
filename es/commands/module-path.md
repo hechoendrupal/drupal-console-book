@@ -4,6 +4,7 @@ Indicar la ruta relativa a un módulo (o su ruta absoluta)
 **Uso:**
 ```
 $ drupal module:path [arguments] [options]
+$ mop  
 ```
 
 ## Opciones disponibles

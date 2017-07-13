@@ -1,13 +1,14 @@
 # theme:uninstall
 विषय की स्थापना रद्द करें या विषयों के आवेदन में
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal theme:uninstall [arguments]
+$ thu  
 $ tu  
 ```
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 theme | commands.theme.uninstall.options.module

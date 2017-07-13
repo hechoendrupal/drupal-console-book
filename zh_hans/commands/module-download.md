@@ -1,21 +1,30 @@
 # module:download
-下载模块
+Download module or modules in application
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal module:download [arguments] [options]
+$ mod  
 $ md  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---path | 贡献项目路径
---latest | 默认下载最新版本
---composer | 使用 Composer 下载模块
+--path | The path of the contrib project
+--latest | Default to download most recent version
+--composer | Download the module using Composer
 --unstable | commands.module.install.options.unstable
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-module | 要启用的模块之间用空格隔开
+module | Module or modules to be enabled should be separated by a space
+
+## commands.generate.doc.gitbook.messages.examples
+* Download module specifying module name and its path
+```
+$ drupal module:download  modulename  \
+  --path="modules/contrib"
+
+```

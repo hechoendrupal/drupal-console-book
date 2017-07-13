@@ -1,12 +1,21 @@
 # database:connect
 Lansează un client DB dacă acesta este disponibil
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:connect [arguments]
+$ dbco  
 ```
 
-## Argumente disponibile
-Argument | Detalii
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 database | Cheia bazei de date din fișierul settings.php
+
+## commands.generate.doc.gitbook.messages.examples
+* Connects to an specified database, or the default if not arguments passed
+```
+$ drupal database:connect \
+  <database>
+
+```

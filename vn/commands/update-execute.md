@@ -1,14 +1,15 @@
 # update:execute
 Tiến hành một hàm cụ thể cập nhật N trong một module, hoặc tiến hành tất cả
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal update:execute [arguments]
+$ upex  
 $ upe  
 ```
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 module | Tên module.
 update-n | Hàm cập nhật N cụ thể để được tiến hành

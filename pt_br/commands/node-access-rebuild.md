@@ -1,18 +1,19 @@
 # node:access:rebuild
-Permissões de acesso ao node reconstruídas. A reconstrução irá remover todos os privilégios do conteúdo e substituí-los com permissões baseadas nos módulos e configurações atuais.
+Rebuild node access permissions.
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal node:access:rebuild [options]
+$ nar  
 ```
 
-## Opções disponíveis
-Opção | Detalhes
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---batch | Processo em modo de lotes.
+--batch | Process in batch mode.
 
-## Exemplos
-* Reconstruir permissões de acesso a nodes
+## commands.generate.doc.gitbook.messages.examples
+* Rebuild node access permissions
 ```
 $ drupal node:access:rebuild --batch
 ```

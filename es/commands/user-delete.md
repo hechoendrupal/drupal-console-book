@@ -4,6 +4,7 @@ Eliminar usuarios del sitio
 **Uso:**
 ```
 $ drupal user:delete [options]
+$ ud  
 ```
 
 ## Opciones disponibles

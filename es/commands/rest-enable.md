@@ -10,4 +10,4 @@ $ ree
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-resource-id | ID de recurso rest
+resource-id | Rest ID

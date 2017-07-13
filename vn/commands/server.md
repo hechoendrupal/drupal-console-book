@@ -1,17 +1,17 @@
 # server
 Chạy PHP built-in web server
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal server [arguments]
 ```
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 address | The address:port values
 
-## Ví dụ
+## commands.generate.doc.gitbook.messages.examples
 * Run using default address argument value 127.0.0.1:8088
 ```
 $ drupal server

@@ -16,3 +16,15 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --dependencies | Module dependencies separated by commas (i.e. context, panels)
 --themes | commands.generate.profile.options.themes
 --distribution | The distribution name
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies
+```
+$ drupal generate:profile  \
+  --profile="NewProfileName"  \
+  --machine-name="newprofilename"  \
+  --description="My Useful Profile"  \
+  --core="8.x"  \
+  --dependencies="modulename"
+
+```

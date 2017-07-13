@@ -1,17 +1,17 @@
 # generate:event:subscriber
-Generate an event subscriber
+Esemény-előfizető létrehozása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:event:subscriber [options]
 $ ges  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | A modul neve.
 --name | commands.generate.service.options.name
---class | Class name
---events | Load events from the container
---services | Load services from the container.
+--class | Osztálynév
+--events | Események betöltése a tárolóból
+--services | Szolgáltatások betöltése a tárolóból.

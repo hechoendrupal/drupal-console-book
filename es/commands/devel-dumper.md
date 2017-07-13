@@ -4,6 +4,7 @@ Change the devel dumper plugin
 **Uso:**
 ```
 $ drupal devel:dumper [arguments]
+$ dd  
 ```
 
 ## Argumentos disponibles

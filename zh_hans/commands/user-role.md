@@ -1,14 +1,26 @@
 # user:role
-添加/移除给定用户的角色
+Adds/removes a role for a given user
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:role [arguments]
+$ ur  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 operation | commands.user.role.operation
 user | commands.user.role.user
 role | commands.user.role.role
+
+## commands.generate.doc.gitbook.messages.examples
+* Add administrator role to the user admin specifying the username and the role
+```
+$ drupal user:role  add admin administrator
+```
+* Remove administrator role from the user admin specifying the username and the role
+```
+$ drupal user:role  remove admin administrator
+
+```

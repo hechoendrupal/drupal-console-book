@@ -1,12 +1,12 @@
 # locale:translation:status
 List available translation updates
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal locale:translation:status [arguments]
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 language | Language for instance es or Spanish

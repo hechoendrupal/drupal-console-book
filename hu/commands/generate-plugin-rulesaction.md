@@ -1,19 +1,19 @@
 # generate:plugin:rulesaction
-Generate a plugin rule action
+Szabályművelet bővítmény létrehozása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:rulesaction [options]
 $ gpra  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---type | Action Type (user or node)
---category | Plugin category
---context | Plugin context
+--module | A modul neve.
+--class | Bővítményosztály neve
+--label | Bővítmény felirata
+--plugin-id | Bővítmény azonosítója
+--type | Művelet típusa (felhasználó vagy tartalom)
+--category | Bővítmény kategóriája
+--context | Bővítmény kontextusa

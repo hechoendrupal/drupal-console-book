@@ -1,18 +1,25 @@
 # site:import:local
-导入/配置一个已经存在的 Drupal 项目
+Import/Configure an existing local Drupal project
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:import:local [arguments] [options]
+$ sil  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---environment | 将要导入的环境名称
+--environment | Name of the environment that is going to be imported
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-name | 用于生成站点配置的名称
-directory | 已存在网站 Drupal 根文件夹
+name | Name that will be used to generate the site config
+directory | Existing Drupal root directory
+
+## commands.generate.doc.gitbook.messages.examples
+* Import local drupal project specifying the site name and the path
+```
+$ drupal site:import:local  SiteName /private/var/www/vhost/anexusit/drupal8.dev/web
+```

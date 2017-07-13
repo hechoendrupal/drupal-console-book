@@ -1,13 +1,27 @@
 # cron:execute
-Executar cron de um módulo específico ou todos para executar todas as implementações
+Execute cron implementations by module or execute all crons
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal cron:execute [arguments]
+$ croe  
 $ cre  
 ```
 
-## Argumentos disponíveis
-Argumento | Detalhes
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-module | O nome do módulo.
+module | The Module name.
+
+## commands.generate.doc.gitbook.messages.examples
+* Execute the cron globally
+```
+$ drupal cron:execute
+
+```
+* Execute the cron on the specified module
+```
+$ drupal cron:execute \
+  <module>
+
+```

@@ -4,6 +4,7 @@ commands.module.install.dependencies.description
 **Uso:**
 ```
 $ drupal module:dependency:install [arguments]
+$ modi  
 ```
 
 ## Argumentos disponibles

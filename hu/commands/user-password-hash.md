@@ -1,13 +1,14 @@
 # user:password:hash
 Ellenőrzőösszeg előállítása sima szöveges jelszóból.
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:password:hash [arguments]
+$ uph  
 $ usph  
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 password | Szövegformátumú jelszó/jelszavak

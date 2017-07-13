@@ -1,14 +1,14 @@
 # generate:routesubscriber
-Generate a RouteSubscriber
+RouteSubscriber उत्पन्न करे.
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:routesubscriber [options]
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---name | Service name
---class | Class name
+--module | मोड्यूल का नाम।
+--name | सेवा का नाम
+--class | कक्षा का नाम

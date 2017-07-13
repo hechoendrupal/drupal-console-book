@@ -1,19 +1,19 @@
 # generate:plugin:rest:resource
-Generate plugin rest resource
+Generează un plugin de tip resursă REST
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:rest:resource [options]
 $ gprr  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin Rest Resource class
+--module | Numele Modulului.
+--class | Clasa pluginului de tip resursă REST
 --name | commands.generate.service.options.name
---plugin-id | Plugin Rest Resource id
---plugin-label | Plugin Rest Resource Label
---plugin-url | Plugin Rest Resource URL
---plugin-states | Plugin Rest Resource States
+--plugin-id | Id-ul pluginului de tip resursă REST
+--plugin-label | Eticheta pluginului de tip resursă REST
+--plugin-url | URL-ul pluginului de tip resursă REST
+--plugin-states | Stările pluginului de tip resursă REST

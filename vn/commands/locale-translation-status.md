@@ -1,12 +1,12 @@
 # locale:translation:status
-List available translation updates
+Danh sách cập nhật bản dịch có sẵn
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal locale:translation:status [arguments]
 ```
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-language | Language for instance es or Spanish
+language | Ngôn ngữ ví sụ như es hoặc Spanish

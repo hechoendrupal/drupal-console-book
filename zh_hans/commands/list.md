@@ -1,19 +1,19 @@
 # list
-列出当前可用命令
+Lists all available commands
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal list [arguments] [options]
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---xml | 输出命令清单为 XML 格式
---raw | 输出命令清单为原生格式
---format | 输出格式（txt, xml, json, or md）
+--xml | To output list as XML
+--raw | To output raw command list
+--format | The output format (txt, xml, json, or md)
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-namespace | 命名空间名称
+namespace | The namespace name

@@ -14,3 +14,14 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --class | Plugin type class name
 --plugin-name | Plugin type machine name
 --plugin-file-name | Plugin file name
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate a plugin with Yaml discovery specifying module name, class name, plugin name and plugin file name
+```
+$ drupal generate:plugin:type:yaml  \
+  --module="modulename"  \
+  --class="ExamplePlugin"  \
+  --plugin-name="example_plugin"  \
+  --plugin-file-name="example.plugin"
+
+```

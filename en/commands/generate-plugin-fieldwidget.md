@@ -15,3 +15,15 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --label | Plugin label
 --plugin-id | Plugin id
 --field-type | Field type the plugin can be used with
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate a text type field widget plugin specifying the module name, the class, its label, the plugin id and the field type
+```
+$ drupal generate:plugin:fieldwidget  \
+  --module="modulename"  \
+  --class="ExampleFieldWidget"  \
+  --label="Example field widget"  \
+  --plugin-id="example_field_widget"  \
+  --field-type="text"
+
+```

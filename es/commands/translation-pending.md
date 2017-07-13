@@ -4,6 +4,7 @@ Determina cadenas de traducción pendientes en un idioma o en un archivo especí
 **Uso:**
 ```
 $ drupal translation:pending [arguments] [options]
+$ tp  
 ```
 
 ## Opciones disponibles
@@ -15,3 +16,4 @@ Opción | Detalles
 Argumento | Detalles
 ---------|-------------
 language | Idioma a determinar sus traducciones pendientes contra el inglés
+library | commands.translation.pending.arguments.library

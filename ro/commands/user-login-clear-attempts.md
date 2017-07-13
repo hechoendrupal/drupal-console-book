@@ -1,13 +1,14 @@
 # user:login:clear:attempts
 Şterge autentificările eşuate pentru un cont.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:login:clear:attempts [arguments]
+$ ulca  
 $ uslca  
 ```
 
-## Argumente disponibile
-Argument | Detalii
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 uid | ID utilizator.

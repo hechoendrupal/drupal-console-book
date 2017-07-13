@@ -1,15 +1,15 @@
 # generate:authentication:provider
-Generate an Authentication Provider
+Hitelesítésszolgáltató létrehozása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:authentication:provider [options]
 $ gap  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Authentication Provider class
---provider-id | Provider ID
+--module | A modul neve.
+--class | Hitelesítésszolgáltató osztály
+--provider-id | Szolgáltató azonosítója

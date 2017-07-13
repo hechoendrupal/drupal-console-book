@@ -1,19 +1,34 @@
 # config:export:single
 Exportă o singură configurare ca fișier YAML.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:export:single [arguments] [options]
+$ drupal config:export:single [options]
 $ ces  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
+--name | commands.config.export.single.options.name
 --directory | Indică calea de salvare pentru configurările exportate.
+--module | Numele Modulului.
 --include-dependencies | Export dependencies of the configuration as well.
+--optional | Export config as an optional YAML configuration in your module
+--remove-uuid | If set, the configuration will be exported without uuid key.
+--remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
-## Argumente disponibile
-Argument | Detalii
----------|-------------
-config-name | Numele configurării.
+## commands.generate.doc.gitbook.messages.examples
+* Provide config settings name to be exported
+```
+$ drupal config:export:single \
+  --name=config.settings.name
+```
+* if uuid and/or config hashes will be removed.
+```
+$ drupal config:export:single \
+  --name=config.settings.name \
+  --remove-uuid \
+  --remove-config-hash
+
+```

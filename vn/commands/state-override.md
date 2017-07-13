@@ -1,13 +1,14 @@
 # state:override
 Ghi đè một State key.
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal state:override [arguments]
+$ sto  
 ```
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 key | State key được ghi đè.
 value | Giá trị State để thiết lập.

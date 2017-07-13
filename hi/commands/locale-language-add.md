@@ -1,12 +1,12 @@
 # locale:language:add
-Add a language to be supported by your site
+एक भाषा को जोड़े जो आप के साइट द्वारा सपोर्ट होना है
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal locale:language:add [arguments]
 ```
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-language | Language for instance es or Spanish
+language | भाषा उदाहरण es या Spanish

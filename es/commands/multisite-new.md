@@ -4,6 +4,7 @@ Prepara los archivos para una nueva instalación multisitio.
 **Uso:**
 ```
 $ drupal multisite:new [arguments] [options]
+$ mun  
 ```
 
 ## Opciones disponibles

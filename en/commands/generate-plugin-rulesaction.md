@@ -17,3 +17,28 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --type | Action Type (user or node)
 --category | Plugin category
 --context | Plugin context
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate a user rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
+```
+$ drupal generate:plugin:rulesaction  \
+  --module="modulename"  \
+  --class="DefaultAction"  \
+  --label="Default action"  \
+  --plugin-id="default_action"  \
+  --type="user"  \
+  --category="default_action"  \
+  --context="default_action"
+```
+* Generate a node rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
+```
+$ drupal generate:plugin:rulesaction  \
+  --module="modulename"  \
+  --class="DefaultAction"  \
+  --label="Default action"  \
+  --plugin-id="default_action"  \
+  --type="node"  \
+  --category="default_action" \
+  --context="default_action"
+
+```

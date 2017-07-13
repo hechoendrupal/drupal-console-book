@@ -13,3 +13,13 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --plugin-id | commands.generate.plugin.options.plugin-id
 --class | Plugin class name
 --services | Load services from the container.
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate a plugin skeleton specifying module name, the plugin id and the class
+```
+$ drupal generate:plugin:skeleton  \
+  --module="modulename"  \
+  --plugin-id="link_relation_type"  \
+  --class="DefaultLinkRelationType"
+
+```

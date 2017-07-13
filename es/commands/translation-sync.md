@@ -4,6 +4,7 @@ Sincronizar archivos de traducción
 **Uso:**
 ```
 $ drupal translation:sync [arguments] [options]
+$ tsy  
 ```
 
 ## Opciones disponibles
@@ -15,3 +16,4 @@ Opción | Detalles
 Argumento | Detalles
 ---------|-------------
 language | Idioma cuyos ficheros se sincronizarán contra el inglés
+library | commands.translation.sync.arguments.library

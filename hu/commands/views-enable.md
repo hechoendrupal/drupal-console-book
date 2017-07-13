@@ -1,13 +1,13 @@
 # views:enable
 Nézet engedélyezése
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal views:enable [arguments]
 $ ve  
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-view-id | Nézet azonosítója
+view-id | commands.views.debug.arguments.view-id

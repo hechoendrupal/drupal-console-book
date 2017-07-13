@@ -4,6 +4,7 @@ Elimina una entidad específica
 **Uso:**
 ```
 $ drupal entity:delete [arguments]
+$ ed  
 ```
 
 ## Argumentos disponibles

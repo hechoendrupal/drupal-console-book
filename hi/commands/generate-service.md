@@ -1,18 +1,19 @@
 # generate:service
-Generate service
+सर्विस उत्पन्न करें
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:service [options]
 $ gs  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | मोड्यूल का नाम।
 --name | commands.generate.service.options.name
---class | Class name
+--class | क्लास का नाम
 --interface | commands.common.service.options.interface
---services | Load services from the container.
---path_service | Path
+--interface-name | commands.common.service.options.interface-name
+--services | सर्विसेज़ को container से लोड करें।
+--path-service | Path

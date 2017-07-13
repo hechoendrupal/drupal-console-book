@@ -1,13 +1,21 @@
 # site:status
-当前Drupal安装状态
+View current Drupal Installation status
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:status [options]
 $ ss  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --format | commands.site.status.options.format
+
+## commands.generate.doc.gitbook.messages.examples
+* Get drupal installation status specifying the output format as table
+```
+$ drupal site:status  \
+  --format="table"
+
+```

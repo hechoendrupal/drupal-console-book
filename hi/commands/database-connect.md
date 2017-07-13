@@ -1,12 +1,21 @@
 # database:connect
 लॉन्च एक DB क्लाइंट अगर यह उपलब्ध है
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:connect [arguments]
+$ dbco  
 ```
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 database | Settings.php से डाटाबेस कुंज
+
+## commands.generate.doc.gitbook.messages.examples
+* Connects to an specified database, or the default if not arguments passed
+```
+$ drupal database:connect \
+  <database>
+
+```

@@ -1,17 +1,25 @@
 # module:path
-返回模块的相对路径(或绝对路径)
+Returns the relative path to the module (or absolute path)
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal module:path [arguments] [options]
+$ mop  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---absolute | 返回模块绝对路径
+--absolute | Return module absolute path
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-module | 模块名称 (机读名称)
+module | The Module name (machine name)
+
+## commands.generate.doc.gitbook.messages.examples
+* Get the relative path of the module specifying the module name
+```
+$ drupal module:path  modulename
+
+```

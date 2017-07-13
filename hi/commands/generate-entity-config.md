@@ -1,18 +1,18 @@
 # generate:entity:config
-Generate a new config entity
+एक नया कॉन्फिग एंटिटि उत्पन्न करे
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:config [options]
 $ gecg  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---entity-class | The config entity class
---entity-name | The config entity name
---base-path | The base-path for the config entity routes
---label | The label
---bundle-of | Acts as bundle for content entities
+--module | मोड्यूल का नाम।
+--entity-class | कॉन्फिग इकाई वर्ग
+--entity-name | कॉन्फिग इकाई नाम
+--base-path | कॉन्फिग एंटिटी रुट्स के लिए बेस पथ
+--label | लेबल
+--bundle-of | कंटेंट एंटिटि के लिए बंडल के रूप में कार्य करता है    

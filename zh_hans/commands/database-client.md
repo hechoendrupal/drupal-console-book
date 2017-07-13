@@ -1,12 +1,20 @@
 # database:client
-运行数据库客户端
+Launch a DB client if it's available
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:client [arguments]
+$ dbc  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-database | settings.php 文件中 Database 的键
+database | Database key from settings.php
+
+## commands.generate.doc.gitbook.messages.examples
+* Launch the default client or could launch another regarding the specification on the argument
+```
+$ drupal database:client <database>
+
+```

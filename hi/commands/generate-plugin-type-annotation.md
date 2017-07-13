@@ -1,16 +1,16 @@
 # generate:plugin:type:annotation
-Generate a plugin type with annotation discovery
+प्लगिन प्रकार युक्त अननोटेशन प्रकाशन उत्पन्न करें
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:type:annotation [options]
 $ gpta  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin type class name
+--module | मोड्यूल का नाम।
+--class | प्लगिन प्रकार क्लास नाम
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
---label | Plugin type label
+--label | प्लगिन प्रकार उप-शीर्षक

@@ -1,8 +1,9 @@
 # router:rebuild
 अनुप्रयोग के मार्ग पथ को पुनर्निर्माण करें
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal router:rebuild
+$ rr  
 $ ror  
 ```

@@ -16,4 +16,4 @@ Opción | Detalles
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-command_name | El nombre del comando
+command_name | commands.help.arguments.command-name

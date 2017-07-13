@@ -1,16 +1,16 @@
 # generate:plugin:mail
-Generate a plugin mail
+एक प्लगइन मेल उत्पन्न करें
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:mail [options]
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---services | Load services from the container.
+--module | मोड्यूल का नाम।
+--class | प्लगइन क्लास नाम
+--label | प्लगइन लेबल
+--plugin-id | प्लगइन आईडी
+--services | सर्विसेज़ को container से लोड करें।

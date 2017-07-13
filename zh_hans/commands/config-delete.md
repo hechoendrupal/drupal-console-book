@@ -1,13 +1,20 @@
 # config:delete
-删除配置
+Delete configuration
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:delete [arguments]
+$ cd  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-type | 配置类型
-name | 配置名称
+type | Configuration type.
+name | Configuration name.
+
+## commands.generate.doc.gitbook.messages.examples
+* Provide a config type and a config name
+```
+$ drupal config:delete active all
+```

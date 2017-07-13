@@ -60,17 +60,21 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [debug:database:table](debug-database-table.md) | Show all tables in a given database.
 [debug:entity](debug-entity.md) | Debug entities available in the system
 [debug:event](debug-event.md) | Displays current events 
+[debug:features](debug-features.md) | List registered features.
 [debug:image:styles](debug-image-styles.md) | List image styles on the site
 [debug:libraries](debug-libraries.md) | Displays libraries available in application
+[debug:migrate](debug-migrate.md) | Display current migration available for the application
 [debug:module](debug-module.md) | Displays current modules available for application
 [debug:multisite](debug-multisite.md) | List all multisites available in system
 [debug:permission](debug-permission.md) | Displays all user permissions.
 [debug:plugin](debug-plugin.md) | Displays all plugin types.
 [debug:queue](debug-queue.md) | Displays the queues of your application
+[debug:rest](debug-rest.md) | Display current rest resource for the application
 [debug:router](debug-router.md) | Displays current routes for the application or information for a particular route
 [debug:settings](debug-settings.md) | List user Drupal Console settings.
 [debug:site](debug-site.md) | List all known local and remote sites.
 [debug:state](debug-state.md) | Show the current State keys.
+[debug:test](debug-test.md) | List Test Units available for the application.
 [debug:theme](debug-theme.md) | Displays current themes for the application
 [debug:update](debug-update.md) | Displays current updates available for the application
 [debug:user](debug-user.md) | Displays current users for the application
@@ -79,6 +83,7 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 **devel**  |
 [devel:dumper](devel-dumper.md) | Change the devel dumper plugin
 **develop**  |
+[develop:contribute](develop-contribute.md) | 
 [develop:example](develop-example.md) | 
 [develop:example:container:aware](develop-example-container-aware.md) | 
 **dotenv**  |
@@ -87,7 +92,10 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 **entity**  |
 [entity:delete](entity-delete.md) | Delete an specific entity
 **extend**  |
-[extend:global](extend-global.md) | Drupal Console global example
+[extend:example:one](extend-example-one.md) | Drupal Console extend example
+[extend:example:two](extend-example-two.md) | Drupal Console extend example
+**features**  |
+[features:import](features-import.md) | Import module config.
 **field**  |
 [field:info](field-info.md) | View information about fields.
 **generate**  |
@@ -138,6 +146,14 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [generate:update](generate-update.md) | Generate an implementation of hook_update_N()
 **image**  |
 [image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
+**locale**  |
+[locale:language:add](locale-language-add.md) | Add a language to be supported by your site
+[locale:language:delete](locale-language-delete.md) | Delete a language to be supported by your site
+[locale:translation:status](locale-translation-status.md) | List available translation updates
+**migrate**  |
+[migrate:execute](migrate-execute.md) | Execute a migration available for application
+[migrate:rollback](migrate-rollback.md) | Rollback one or multiple migrations
+[migrate:setup](migrate-setup.md) | Load and create the relevant migrations for a provided legacy database
 **module**  |
 [module:dependency:install](module-dependency-install.md) | commands.module.install.dependencies.description
 [module:download](module-download.md) | Download module or modules in application
@@ -153,8 +169,13 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [queue:run](queue-run.md) | Process the selected queue.
 **quick**  |
 [quick:start](quick-start.md) | Download, install and serve a new Drupal project
+**rest**  |
+[rest:disable](rest-disable.md) | Disable a rest resource for the application
+[rest:enable](rest-enable.md) | Enable a rest resource for the application
 **router**  |
 [router:rebuild](router-rebuild.md) | Rebuild routes for the application
+**sample**  |
+[sample:default](sample-default.md) | commands.sample.default.description
 **settings**  |
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
@@ -170,6 +191,8 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [state:override](state-override.md) | Override a State key.
 **taxonomy**  |
 [taxonomy:term:delete](taxonomy-term-delete.md) | Delete taxonomy terms from a vocabulary
+**test**  |
+[test:run](test-run.md) | Run Test unit from tests available for application
 **theme**  |
 [theme:download](theme-download.md) | Download theme in application
 [theme:install](theme-install.md) | Install theme or themes in the application

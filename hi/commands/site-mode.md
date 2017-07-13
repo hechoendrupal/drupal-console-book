@@ -1,13 +1,13 @@
 # site:mode
 प्रणाली की कार्य-निष्पादन व्यवस्था को बदलें
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:mode [arguments]
 $ smo  
 ```
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 environment | एनवायरनमेंट नाम (dev|prod)

@@ -1,19 +1,19 @@
 # generate:plugin:condition
-Generate a plugin condition.
+प्लगिन नियम उत्पन्न करें।
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:condition [options]
 $ gpc  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin condition class name
---label | Plugin condition label
---plugin-id | Plugin condition id
---context-definition-id | Context definition ID
---context-definition-label | Context definition label
---context-definition-required | Context definition is required (TRUE/FALSE)
+--module | मोड्यूल का नाम।
+--class | प्लगिन नियम क्लास नाम
+--label | प्लगइन नियम उप-शीर्षक
+--plugin-id | प्लगइन नियम id
+--context-definition-id | प्रसंग परिभाषा id
+--context-definition-label | प्रसंग परिभाषा उप-शीर्षक
+--context-definition-required | प्रसंग परिभाषा आवश्यक है (सही/गलत)

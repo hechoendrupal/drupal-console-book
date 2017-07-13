@@ -1,7 +1,7 @@
 # about
 Drupal कंसोल परियोजना के बारे मे प्रारंभिक जानकारी दिखाएँ
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal about
 ```

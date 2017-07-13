@@ -1,13 +1,13 @@
 # generate:help
 Generate an implementation of hook_help()
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:help [options]
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---description | Module description
+--module | मोड्यूल का नाम।
+--description | मोड्यूल का विवरण

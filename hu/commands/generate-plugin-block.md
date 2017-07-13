@@ -1,19 +1,19 @@
 # generate:plugin:block
-Generate a plugin block
+Blokk bővítmény létrehozása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:block [options]
 $ gpb  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---theme-region | Theme region to render Plugin Block
---inputs | Create inputs in a form.
---services | Load services from the container.
+--module | A modul neve.
+--class | Bővítmény osztályneve
+--label | Bővítmény felirata
+--plugin-id | Bővítmény azonosítója
+--theme-region | Smink azon régiója, ahol a blokk bővítménynek meg kell jelennie
+--inputs | Bemenetek létrehozása egy űrlapban.
+--services | Szolgáltatások betöltése a tárolóból.

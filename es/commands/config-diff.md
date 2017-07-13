@@ -4,6 +4,7 @@ Muestra los items de configuración que son diferentes en la configuración acti
 **Uso:**
 ```
 $ drupal config:diff [arguments] [options]
+$ cdi  
 ```
 
 ## Opciones disponibles
@@ -15,3 +16,9 @@ Opción | Detalles
 Argumento | Detalles
 ---------|-------------
 directory | El directorio con el que comparar. Si se omite, se elige uno de los directorios de configuración de Drupal.
+
+## Ejemplos
+* Provide a config directory
+```
+$ drupal config:diff ../config/path
+```

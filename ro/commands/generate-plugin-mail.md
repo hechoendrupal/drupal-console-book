@@ -1,16 +1,16 @@
 # generate:plugin:mail
 Generate a plugin mail
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:mail [options]
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | Numele Modulului.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
---services | Load services from the container.
+--services | Încarcă serviciile din container.

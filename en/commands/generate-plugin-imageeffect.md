@@ -15,3 +15,15 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --label | Plugin label
 --plugin-id | Plugin id
 --description | Plugin Description
+
+## commands.generate.doc.gitbook.messages.examples
+* Generate a image effect plugin specifying the module name, the class, its label, the plugin id and a description
+```
+$ drupal generate:plugin:imageeffect  \
+  --module="modulename"  \
+  --class="DefaultImageEffect"  \
+  --label="Default image effect"  \
+  --plugin-id="default_image_effect"  \
+  --description="My Image Effect"
+
+```

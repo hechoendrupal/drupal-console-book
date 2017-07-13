@@ -1,14 +1,28 @@
 # config:import:single
-Importar a configuratição selecionada.
+Import a single configuration or a list of configurations.
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:import:single [arguments]
+$ drupal config:import:single [options]
 $ cis  
 ```
 
-## Argumentos disponíveis
-Argumento | Detalhes
----------|-------------
-name | Nome da configuração.
-file | Caminho para o arquivo de importação
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+-------|-------------
+--file | The file(s) name or file(s) absolute path to import
+--directory | commands.config.import.arguments.directory
+
+## commands.generate.doc.gitbook.messages.examples
+* Providing a file option using full path.
+```
+$ drupal config:import:single \
+  --file="/path/to/file/block.block.default_block.yml"
+```
+* Providing file and directory options
+```
+$ drupal config:import:single  \
+  --file="block.block.default_block.yml" \
+  --directory="/path/to/directory"
+
+```

@@ -1,17 +1,31 @@
 # database:dump
-导出数据库
+Dump structure and contents of a database
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:dump [arguments] [options]
+$ dbdu  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---file | commands.database.dump.option.file
+--file | The filename for your database backup
+--gz | Pass this option if you want the sql result file gzipped
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-database | settings.php 文件中 Database 的键
+database | Database key from settings.php
+
+## commands.generate.doc.gitbook.messages.examples
+* Dump default database or the one specified on the argument
+```
+$ drupal database:dump \
+  <database>
+```
+* Dump in gz compressed format
+```
+$ drupal database:dump \
+  --gz
+```

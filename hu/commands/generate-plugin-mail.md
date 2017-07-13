@@ -1,16 +1,16 @@
 # generate:plugin:mail
 Generate a plugin mail
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:mail [options]
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | A modul neve.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
---services | Load services from the container.
+--services | Szolgáltatások betöltése a tárolóból.

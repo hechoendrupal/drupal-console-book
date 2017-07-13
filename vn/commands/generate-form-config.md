@@ -1,22 +1,23 @@
 # generate:form:config
-Generate a new "ConfigFormBase"
+commands.generate.form.description
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:form:config [options]
 $ gfc  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | The form class name
---form-id | The Form id
---services | Load services from the container.
---inputs | Create inputs in a form.
+--module | Tên module.
+--class | Tên lớp của form
+--form-id | ID của form
+--services | Nạp các dịch vụ từ container.
+--config-file | Add a config file
+--inputs | Tạo các đầu vào trong một form.
 --path | Enter the form path
---menu_link_gen | commands.generate.form.options.menu_link_gen
---menu_link_title | commands.generate.form.options.menu_link_title
---menu_parent | commands.generate.form.options.menu_parent
---menu_link_desc | commands.generate.form.options.menu_link_desc
+--menu-link-gen | Generate a menu link
+--menu-link-title | A title for the menu link
+--menu-parent | Menu parent
+--menu-link-desc | A description for the menu link

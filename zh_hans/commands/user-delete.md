@@ -1,13 +1,28 @@
 # user:delete
-删除网站用户(s)
+Delete users for the application
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:delete [options]
+$ ud  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---user-id | 要删除的用户ID
---roles | 要删除用户的角色
+--user-id | User id to be deleted
+--roles | Roles associated to users to be deleted
+
+## commands.generate.doc.gitbook.messages.examples
+* Delete user specifying the id and the user role
+```
+$ drupal user:delete  \
+  --user-id="2"
+  --roles='authenticated'
+```
+* Delete user specifying its id
+```
+$ drupal user:delete  \
+  --user-id="3"
+
+```

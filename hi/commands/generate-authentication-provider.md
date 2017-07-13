@@ -1,15 +1,15 @@
 # generate:authentication:provider
-Generate an Authentication Provider
+प्रमाणन प्रदाता उत्पन्न करें
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:authentication:provider [options]
 $ gap  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Authentication Provider class
---provider-id | Provider ID
+--module | मोड्यूल का नाम।
+--class | ऑथेंटिकेशन प्रोवाइडर क्लास
+--provider-id | प्रदाता क्रमांक

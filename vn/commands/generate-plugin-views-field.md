@@ -1,16 +1,16 @@
 # generate:plugin:views:field
-Generate a custom plugin view field.
+Tạo một tùy chỉnh plugin view field.
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:views:field [options]
 $ gpvf  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Views plugin field class name
---title | Views plugin field title
---description | Views plugin field description
+--module | Tên module.
+--class | Tên lớp views plugin field
+--title | Tiêu đề views plugin field
+--description | Mô tả views plugin field

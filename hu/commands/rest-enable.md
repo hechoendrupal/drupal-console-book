@@ -1,13 +1,13 @@
 # rest:enable
 Az alkalmazás REST-erőforrásának engedélyezése
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal rest:enable [arguments]
 $ ree  
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-resource-id | REST-azonosító
+resource-id | Rest ID

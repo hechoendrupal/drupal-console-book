@@ -1,15 +1,15 @@
 # generate:twig:extension
 Generate a Twig extension.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:twig:extension [options]
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | Numele Modulului.
 --name | Twig Extension name
 --class | Class name
---services | Load services from the container.
+--services | Încarcă serviciile din container.

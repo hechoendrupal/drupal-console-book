@@ -1,31 +1,32 @@
 # site:install
 Cài đặt một dự án Drupal
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:install [arguments] [options]
 $ si  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---langcode | Ngôn ngữDrupal
---db-type | Loại Drupal Database sẽ được sử dụng trong quá trình cài đặt
---db-file | Drupal Database file sẽ được sử dụng trong quá trình cài đặt
+--langcode | commands.site.install.options.langcode
+--db-type | commands.site.install.options.db-type
+--db-file | commands.site.install.options.db-file
 --db-host | Máy chủ cơ sở dữ liệu
 --db-name | Tên cơ sở dữ liệu
 --db-user | Người dùng cơ sở dữ liệu
 --db-pass | Mật khẩu cơ sở dữ liệu
 --db-prefix | Tiền tố cơ sở dữ liệu
 --db-port | Cổng vào cơ sở dữ liệu
---site-name | Tên Drupal site
---site-mail | Drupal site mail
---account-name | Tên tài khoản quản trị Drupal
---account-mail | Mail tài khoản quản trị Drupal
---account-pass | Mật khẩu tài khoản quản trị Drupal
+--site-name | commands.site.install.options.site-name
+--site-mail | commands.site.install.options.site-mail
+--account-name | commands.site.install.options.account-name
+--account-mail | commands.site.install.options.account-mail
+--account-pass | commands.site.install.options.account-pass
+--force | commands.site.install.options.force
 
-## Các đối số có sẵn
-Đối số | Các chi tiết
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 profile | Drupal Profile sẽ được cài đặt

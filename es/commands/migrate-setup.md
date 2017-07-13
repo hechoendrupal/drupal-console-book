@@ -4,6 +4,7 @@ Cargar y crear las migraciones pertinentes para una base de datos heredada
 **Uso:**
 ```
 $ drupal migrate:setup [options]
+$ mis  
 ```
 
 ## Opciones disponibles
@@ -16,4 +17,4 @@ Opción | Detalles
 --db-pass | Contraseña de base de datos
 --db-prefix | Prefijo de base de datos
 --db-port | Puerto
---files-directory | Directorio de archivos
+--source-base_path | commands.migrate.setup.options.source-base-path

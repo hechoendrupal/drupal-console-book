@@ -1,7 +1,7 @@
 # check
-Verificador de requisitos do sistema
+System requirement checker
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal check
 ```

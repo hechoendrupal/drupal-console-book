@@ -1,19 +1,19 @@
 # generate:plugin:condition
-Generate a plugin condition.
+Generează o condiție pentru extensie.
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:condition [options]
 $ gpc  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin condition class name
---label | Plugin condition label
---plugin-id | Plugin condition id
---context-definition-id | Context definition ID
---context-definition-label | Context definition label
---context-definition-required | Context definition is required (TRUE/FALSE)
+--module | Numele Modulului.
+--class | Numele clasei pentru condiția extensiei
+--label | Eticheta pentru condiția extensiei
+--plugin-id | ID-ul condiției extensiei
+--context-definition-id | ID-ul definirii contextului
+--context-definition-label | Eticheta definirii contextului
+--context-definition-required | Definirea contextului este obligatorie (ADEVĂRAT/FALS)

@@ -1,15 +1,28 @@
 # config:import
 Konfiguráció importálása az aktuális alkalmazásba.
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:import [options]
 $ ci  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---file | Az importálni kívánt archívumfájl útvonala.
---directory | Az importálni kívánt konfiguráció könyvtárának útvonala.
---remove-files | Fájlok eltávolítása a szinkronizáció után.
+--file | Path to an archive file of configuration to import.
+--directory | Path to a directory of configuration to import.
+--remove-files | Remove files after synchronization.
+
+## commands.generate.doc.gitbook.messages.examples
+* Provide a configuration file
+```
+$ drupal config:import \
+  --file=/path/to/config/file
+```
+* Provide a configuration directory
+```
+$ drupal config:import  \
+  --directory=/path/to/config/dir
+
+```

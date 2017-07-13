@@ -1,17 +1,17 @@
 # server
 A PHP beépített webkiszolgálójának futtatása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal server [arguments]
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 address | A cím:port értékek
 
-## Példák
+## commands.generate.doc.gitbook.messages.examples
 * Futtatás az alapértelmezett cím argumentumértékkel: 127.0.0.1:8088
 ```
 $ drupal server

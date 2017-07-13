@@ -1,19 +1,20 @@
 # generate:entity:content
-Generate a new content entity
+Tạo một content entity mới
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:content [options]
 $ gect  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---entity-class | The content entity class
---entity-name | The content entity name
+--module | Tên module.
+--entity-class | Lớp config entity
+--entity-name | Tên config entity
 --base-path | The base-path for the content entity routes
---label | The label
---has-bundles | Entity has bundles
+--label | Nhãn
+--has-bundles | Entity có các bundles
 --is-translatable | Content entity translatable
+--revisionable | commands.generate.entity.content.options.revisionable

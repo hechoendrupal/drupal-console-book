@@ -1,15 +1,15 @@
 # generate:twig:extension
 Generate a Twig extension.
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:twig:extension [options]
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | A modul neve.
 --name | Twig Extension name
 --class | Class name
---services | Load services from the container.
+--services | Szolgáltatások betöltése a tárolóból.

@@ -1,19 +1,20 @@
 # generate:entity:content
-Generate a new content entity
+Új tartalom entitás létrehozása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:content [options]
 $ gect  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---entity-class | The content entity class
---entity-name | The content entity name
---base-path | The base-path for the content entity routes
---label | The label
---has-bundles | Entity has bundles
+--module | A modul neve.
+--entity-class | A tartalom entitás osztály
+--entity-name | A tartalom entitás neve
+--base-path | A tartalom entitás útvonalak alapútvonala
+--label | A felirat
+--has-bundles | Az entitás nem rendelkezik mezőcsoportokkal
 --is-translatable | Content entity translatable
+--revisionable | commands.generate.entity.content.options.revisionable

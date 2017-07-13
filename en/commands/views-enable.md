@@ -11,3 +11,15 @@ $ ve
 commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 view-id | commands.views.debug.arguments.view-id
+
+## commands.generate.doc.gitbook.messages.examples
+* Enable content view
+```
+$ drupal views:enable  content
+
+```
+* Enable frontpage view
+```
+$ drupal views:enable  frontpage
+
+```

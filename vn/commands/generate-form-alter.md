@@ -1,15 +1,15 @@
 # generate:form:alter
-Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
+Tạo một implementation của hook_form_alter() hoặc hook_form_FORM_ID_alter
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:form:alter [options]
 $ gfa  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---form-id | Form ID to alter
---inputs | Create inputs in a form.
+--module | Tên module.
+--form-id | Từ ID đến alter
+--inputs | Tạo các đầu vào trong một form.

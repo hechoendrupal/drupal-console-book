@@ -1,19 +1,26 @@
 # module:uninstall
-卸载模块
+Uninstall module or modules in the application
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal module:uninstall [arguments] [options]
 $ mou  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---force | 忽略依赖并强制卸载这个模块?
---composer | 使用 Composer卸载模块
+--force | Do you want to ignore dependencies and forcefully uninstall the module?
+--composer | Uninstalls the module using Composer
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-module | 输入模块名称
+module | Module name (press <return> to stop adding modules)
+
+## commands.generate.doc.gitbook.messages.examples
+* Uninstall the module specifying the module name
+```
+$ drupal module:uninstall  modulename
+
+```

@@ -1,12 +1,20 @@
 # database:client
-Iniciar um cliente de banco de dados se ele está disponível
+Launch a DB client if it's available
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:client [arguments]
+$ dbc  
 ```
 
-## Argumentos disponíveis
-Argumento | Detalhes
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-database | Senha do banco de dados em settings.php
+database | Database key from settings.php
+
+## commands.generate.doc.gitbook.messages.examples
+* Launch the default client or could launch another regarding the specification on the argument
+```
+$ drupal database:client <database>
+
+```

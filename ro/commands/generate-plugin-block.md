@@ -1,19 +1,19 @@
 # generate:plugin:block
-Generate a plugin block
+Generează un Plugin de tip bloc
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:block [options]
 $ gpb  
 ```
 
-## Opțiuni disponibile
-Opțiune | Detalii
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---theme-region | Theme region to render Plugin Block
---inputs | Create inputs in a form.
---services | Load services from the container.
+--module | Numele Modulului.
+--class | Numele clasei pluginului
+--label | Eticheta pluginului
+--plugin-id | ID-ul pluginului
+--theme-region | Regiunea temei unde va fi randat Pluginul de tip bloc
+--inputs | Creează intrări într-un formular.
+--services | Încarcă serviciile din container.

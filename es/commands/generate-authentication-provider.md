@@ -11,5 +11,5 @@ $ gap
 Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---class | commands.generate.authentication.provider.options.class
---provider-id | commands.generate.authentication.provider.options.provider-id
+--class | Authentication Provider class
+--provider-id | Provider ID

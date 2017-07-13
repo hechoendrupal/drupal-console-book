@@ -1,13 +1,21 @@
 # state:override
-覆写状态键的值
+Override a State key.
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal state:override [arguments]
+$ sto  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-key | 覆写的键
-value | 赋的新值
+key | The State key to override.
+value | The State value to set.
+
+## commands.generate.doc.gitbook.messages.examples
+* Override state value specifying the state name and the new value
+```
+$ drupal state:override  comment.node_comment_statistics_scale "!!float 1"
+
+```

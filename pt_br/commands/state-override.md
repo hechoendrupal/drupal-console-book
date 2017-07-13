@@ -1,13 +1,21 @@
 # state:override
-Sobrescrever a chave de Estado.
+Override a State key.
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal state:override [arguments]
+$ sto  
 ```
 
-## Argumentos disponíveis
-Argumento | Detalhes
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-key | A chave de Estado a ser sobrescrita.
-value | O valor do Estado a ser definido.
+key | The State key to override.
+value | The State value to set.
+
+## commands.generate.doc.gitbook.messages.examples
+* Override state value specifying the state name and the new value
+```
+$ drupal state:override  comment.node_comment_statistics_scale "!!float 1"
+
+```

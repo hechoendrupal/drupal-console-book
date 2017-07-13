@@ -4,6 +4,7 @@ Crea términos de relleno para tu Drupal 8.
 **Uso:**
 ```
 $ drupal create:terms [arguments] [options]
+$ crt  
 ```
 
 ## Opciones disponibles
@@ -16,3 +17,16 @@ Opción | Detalles
 Argumento | Detalles
 ---------|-------------
 vocabularies | Vocabulario(s) que serán usados en la generación de términos
+
+## Ejemplos
+* Provide the vocabulary term name.
+```
+$ drupal create:terms vocabulary
+```
+* Provide the limit of terms to add and limit of title words.
+```
+$ drupal create:terms tags \
+  --limit="10" \
+  --name-words="5"
+
+```

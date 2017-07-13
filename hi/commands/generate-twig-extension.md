@@ -1,15 +1,15 @@
 # generate:twig:extension
 Generate a Twig extension.
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:twig:extension [options]
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
+--module | मोड्यूल का नाम।
 --name | Twig Extension name
 --class | Class name
---services | Load services from the container.
+--services | सर्विसेज़ को container से लोड करें।

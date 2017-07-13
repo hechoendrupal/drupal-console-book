@@ -1,17 +1,17 @@
 # generate:plugin:fieldwidget
-Generate field widget plugin.
+खाना विजेट प्लगिन उत्पन्न करें
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:fieldwidget [options]
 $ gpfw  
 ```
 
-## उपलब्ध विकल्प
-विकल्प | विवरण
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---field-type | Field type the plugin can be used with
+--module | मोड्यूल का नाम।
+--class | प्लगिन का क्लास नाम
+--label | प्लगिन का उप-शीर्षक
+--plugin-id | प्लगिन id
+--field-type | खाना प्रकार प्लगिन इस्तेमाल किया जा सकता

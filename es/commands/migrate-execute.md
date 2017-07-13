@@ -19,6 +19,7 @@ Opción | Detalles
 --db-prefix | Prefijo de la base de datos
 --db-port | Puerto de la base de datos
 --exclude | Excluir los siguientes IDs de migración
+--source-base_path | commands.migrate.execute.options.source-base-path
 
 ## Argumentos disponibles
 Argumento | Detalles

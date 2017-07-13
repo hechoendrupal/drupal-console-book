@@ -1,13 +1,24 @@
 # site:mode
-转换系统性能配置
+Switch system performance configuration
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:mode [arguments]
 $ smo  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-environment | 环境名字(开发|应用)
+environment | Environment name [dev, prod]
+
+## commands.generate.doc.gitbook.messages.examples
+* Switch system to prod
+```
+$ drupal site:mode  prod
+```
+* Switch system to dev
+```
+$ drupal site:mode  dev
+
+```

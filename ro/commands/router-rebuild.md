@@ -1,8 +1,9 @@
 # router:rebuild
 Reconstruieşte o rută
 
-**Folosire:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal router:rebuild
+$ rr  
 $ ror  
 ```

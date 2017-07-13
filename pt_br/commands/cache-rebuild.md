@@ -1,23 +1,23 @@
 # cache:rebuild
-Reconstruir e limpar todos os caches do site.
+Rebuild and clear all site caches.
 
-**Uso:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal cache:rebuild [arguments]
 $ cr  
 ```
 
-## Argumentos disponíveis
-Argumento | Detalhes
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-cache | Apenas limpar um cache específico.
+cache | Only clear a specific cache.
 
-## Exemplos
-* Reconstruir todos os caches
+## commands.generate.doc.gitbook.messages.examples
+* Rebuild all caches
 ```
 $ drupal cr all
 ```
-* Reconstruir cache de discovery
+* Rebuild discovery cache
 ```
 $ drupal cr discovery
 ```

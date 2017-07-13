@@ -1,19 +1,34 @@
 # config:export:single
 Egyetlen konfigurációs fájl exportálása yml-fájlként.
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:export:single [arguments] [options]
+$ drupal config:export:single [options]
 $ ces  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
+--name | commands.config.export.single.options.name
 --directory | Meg kell adni az exportálási könyvtárt a konfigurációs kimenet mentéséhez.
+--module | A modul neve.
 --include-dependencies | A konfiguráció függőségei is legyenek exportálva.
+--optional | Export config as an optional YAML configuration in your module
+--remove-uuid | If set, the configuration will be exported without uuid key.
+--remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
----------|-------------
-config-name | A konfiguráció neve.
+## commands.generate.doc.gitbook.messages.examples
+* Provide config settings name to be exported
+```
+$ drupal config:export:single \
+  --name=config.settings.name
+```
+* if uuid and/or config hashes will be removed.
+```
+$ drupal config:export:single \
+  --name=config.settings.name \
+  --remove-uuid \
+  --remove-config-hash
+
+```

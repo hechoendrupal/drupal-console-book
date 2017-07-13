@@ -1,13 +1,14 @@
 # migrate:setup
 Adott örökölt adatbázis fontos költöztetéseinek betöltése és létrehozása
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal migrate:setup [options]
+$ mis  
 ```
 
-## Rendelkezésre álló beállítások
-Beállítás | Részletek
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
 --db-type | Drupal adatbázis típusa
 --db-host | Adatbázis-gazdagép
@@ -16,4 +17,4 @@ Beállítás | Részletek
 --db-pass | Adatbázis jelszó
 --db-prefix | Adatbázis előtag
 --db-port | Adatbázis port
---files-directory | Fájlok könyvtára
+--source-base_path | commands.migrate.setup.options.source-base-path

@@ -1,17 +1,17 @@
 # server
 PHP निर्मित वेब सर्वर चलायॆ
 
-**प्रयोग:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal server [arguments]
 ```
 
-## उपलब्ध तर्क
-तर्क | विवरण
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 address | पता: पोर्ट मान
 
-## उदाहरण
+## commands.generate.doc.gitbook.messages.examples
 * डिफ़ॉल्ट पता तर्क मूल्य का उपयोग करे 127.0.0.1:8088
 ```
 $ Drupal सर्वर

@@ -1,16 +1,16 @@
 # generate:plugin:type:annotation
-Generate a plugin type with annotation discovery
+Tạo một kiểu plugin với annotation discovery
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:type:annotation [options]
 $ gpta  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin type class name
+--module | Tên module.
+--class | Nhập tên lớp kiểu plugin
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
---label | Plugin type label
+--label | Nhập nhãn kiểu plugin

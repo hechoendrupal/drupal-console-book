@@ -1,12 +1,13 @@
 # devel:dumper
 Change the devel dumper plugin
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal devel:dumper [arguments]
+$ dd  
 ```
 
-## 可用参数
-参数 | 详细
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 dumper | Name of the devel dumper plugin

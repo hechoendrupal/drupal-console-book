@@ -1,19 +1,19 @@
 # generate:plugin:rulesaction
-Generate a plugin rule action
+Tạo một plugin rule action
 
-**Usage:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:rulesaction [options]
 $ gpra  
 ```
 
-## Các tùy chọn có sẵn
-Tùy chọn | Các chi tiết
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
+--module | Tên module.
+--class | Tên lớp plugin
+--label | Nhãn plugin
 --plugin-id | Plugin id
---type | Action Type (user or node)
---category | Plugin category
---context | Plugin context
+--type | Kiểu hành vi (user or node)
+--category | Danh mục plugin
+--context | Ngữ cảnh plugin

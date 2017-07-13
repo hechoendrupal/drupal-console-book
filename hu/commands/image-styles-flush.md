@@ -1,12 +1,13 @@
 # image:styles:flush
 Execute flush function by image style or execute all flush images styles
 
-**Használat:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal image:styles:flush [arguments]
+$ isf  
 ```
 
-## Rendelkezésre álló argumentumok
-Argumentum | Részletek
+## commands.generate.doc.gitbook.messages.arguments
+commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
 styles | The Images Styles name.

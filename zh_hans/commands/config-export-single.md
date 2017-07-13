@@ -1,19 +1,34 @@
 # config:export:single
-导出单个配置
+Export a single configuration or a list of configurations as yml file(s).
 
-**用法:**
+**commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:export:single [arguments] [options]
+$ drupal config:export:single [options]
 $ ces  
 ```
 
-## 可用选项
-选项 | 详细
+## commands.generate.doc.gitbook.messages.options
+commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
 -------|-------------
---directory | 导出配置存放目录
---include-dependencies | 同时输出其他相关配置.
+--name | commands.config.export.single.options.name
+--directory | commands.config.export.arguments.directory
+--module | The Module name.
+--include-dependencies | Export dependencies of the configuration as well.
+--optional | Export config as an optional YAML configuration in your module
+--remove-uuid | If set, the configuration will be exported without uuid key.
+--remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
-## 可用参数
-参数 | 详细
----------|-------------
-config-name | 配置名称
+## commands.generate.doc.gitbook.messages.examples
+* Provide config settings name to be exported
+```
+$ drupal config:export:single \
+  --name=config.settings.name
+```
+* if uuid and/or config hashes will be removed.
+```
+$ drupal config:export:single \
+  --name=config.settings.name \
+  --remove-uuid \
+  --remove-config-hash
+
+```
