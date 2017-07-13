@@ -4,7 +4,7 @@ Generate commands for the console.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:command [options]
-$ gcm  
+$ gco  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

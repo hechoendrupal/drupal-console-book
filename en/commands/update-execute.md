@@ -5,7 +5,6 @@ Execute a specific Update N function in a module, or execute all
 ```
 $ drupal update:execute [arguments]
 $ upex  
-$ upe  
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

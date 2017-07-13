@@ -4,6 +4,7 @@ Generate a .module file
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:module:file [options]
+$ gmf  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -5,7 +5,6 @@ Generate a hash from a plaintext password.
 ```
 $ drupal user:password:hash [arguments]
 $ uph  
-$ usph  
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

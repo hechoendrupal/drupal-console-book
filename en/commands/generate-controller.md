@@ -4,7 +4,7 @@ Generate & Register a controller
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:controller [options]
-$ gcn  
+$ gcon  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

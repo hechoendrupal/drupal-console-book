@@ -5,6 +5,7 @@ Displays current services for an application.
 ```
 $ drupal debug:container [arguments] [options]
 $ dco  
+$ cod  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

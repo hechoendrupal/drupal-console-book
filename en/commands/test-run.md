@@ -5,7 +5,6 @@ Run Test unit from tests available for application
 ```
 $ drupal test:run [arguments] [options]
 $ ter  
-$ tr  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

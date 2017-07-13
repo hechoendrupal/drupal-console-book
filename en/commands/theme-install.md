@@ -5,7 +5,6 @@ Install theme or themes in the application
 ```
 $ drupal theme:install [arguments] [options]
 $ thi  
-$ ti  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

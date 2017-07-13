@@ -5,7 +5,6 @@ Uninstall theme or themes in the application
 ```
 $ drupal theme:uninstall [arguments]
 $ thu  
-$ tu  
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

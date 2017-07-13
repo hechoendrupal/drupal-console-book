@@ -5,7 +5,6 @@ Download module or modules in application
 ```
 $ drupal module:download [arguments] [options]
 $ mod  
-$ md  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

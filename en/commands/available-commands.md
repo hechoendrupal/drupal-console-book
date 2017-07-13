@@ -86,14 +86,14 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [develop:contribute](develop-contribute.md) | 
 [develop:example](develop-example.md) | 
 [develop:example:container:aware](develop-example-container-aware.md) | 
+[develop:gitbook](develop-gitbook.md) | Update gitbook'
 **dotenv**  |
 [dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.
 **entity**  |
 [entity:delete](entity-delete.md) | Delete an specific entity
 **extend**  |
-[extend:example:one](extend-example-one.md) | Drupal Console extend example
-[extend:example:two](extend-example-two.md) | Drupal Console extend example
+[extend:global](extend-global.md) | Drupal Console global example
 **features**  |
 [features:import](features-import.md) | Import module config.
 **field**  |
@@ -165,6 +165,8 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [multisite:new](multisite-new.md) | Sets up the files for a new multisite install.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions.
+**project**  |
+[project:new](project-new.md) | Create multisite new Drupal project
 **queue**  |
 [queue:run](queue-run.md) | Process the selected queue.
 **quick**  |
@@ -174,8 +176,6 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [rest:enable](rest-enable.md) | Enable a rest resource for the application
 **router**  |
 [router:rebuild](router-rebuild.md) | Rebuild routes for the application
-**sample**  |
-[sample:default](sample-default.md) | commands.sample.default.description
 **settings**  |
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |

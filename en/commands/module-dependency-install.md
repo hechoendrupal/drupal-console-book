@@ -10,4 +10,11 @@ $ modi
 ## commands.generate.doc.gitbook.messages.arguments
 commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
 ---------|-------------
-module | Module or modules to be enabled should be separated by a space
+module | commands.module.install.dependencies.arguments.module
+
+## commands.generate.doc.gitbook.messages.examples
+* Install the dependencies of the specfied module
+```
+$ drupal module:dependency:install  modulename
+
+```

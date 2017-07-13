@@ -4,6 +4,7 @@ Generate an implementation of a skeleton plugin
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:skeleton [options]
+$ gps  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

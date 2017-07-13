@@ -5,7 +5,6 @@ Change a configuration object with a text editor.
 ```
 $ drupal config:edit [arguments]
 $ ced  
-$ cdit  
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

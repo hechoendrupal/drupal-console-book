@@ -4,6 +4,7 @@ Generate a plugin mail
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:mail [options]
+$ gpm  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

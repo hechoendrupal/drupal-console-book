@@ -4,6 +4,7 @@ Generate a profile.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:profile [options]
+$ gpr  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

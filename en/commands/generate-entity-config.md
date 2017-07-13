@@ -4,7 +4,7 @@ Generate a new config entity
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:config [options]
-$ gecg  
+$ gec  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

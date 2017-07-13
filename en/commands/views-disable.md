@@ -5,7 +5,6 @@ Disable a View
 ```
 $ drupal views:disable [arguments]
 $ vd  
-$ vdi  
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

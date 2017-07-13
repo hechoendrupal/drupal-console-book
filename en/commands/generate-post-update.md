@@ -4,6 +4,7 @@ commands.generate.post:update.description
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:post:update [options]
+$ gpu  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

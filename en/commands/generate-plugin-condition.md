@@ -4,7 +4,7 @@ Generate a plugin condition.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:condition [options]
-$ gpc  
+$ gpco  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

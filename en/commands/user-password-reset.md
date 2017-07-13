@@ -5,7 +5,6 @@ Reset password for a specific user.
 ```
 $ drupal user:password:reset [arguments]
 $ upr  
-$ uspr  
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

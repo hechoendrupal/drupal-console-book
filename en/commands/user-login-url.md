@@ -5,7 +5,6 @@ Returns a one-time user login url.
 ```
 $ drupal user:login:url [arguments]
 $ ulu  
-$ uslu  
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

@@ -4,7 +4,7 @@ commands.generate.form.description
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:form:config [options]
-$ gfc  
+$ gf  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

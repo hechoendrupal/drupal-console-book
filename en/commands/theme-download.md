@@ -5,7 +5,6 @@ Download theme in application
 ```
 $ drupal theme:download [arguments] [options]
 $ thd  
-$ td  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

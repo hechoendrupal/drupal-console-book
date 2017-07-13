@@ -4,6 +4,7 @@ Generate a Twig extension.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:twig:extension [options]
+$ gte  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

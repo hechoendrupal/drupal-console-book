@@ -5,7 +5,6 @@ Rebuild routes for the application
 ```
 $ drupal router:rebuild
 $ rr  
-$ ror  
 ```
 
 ## commands.generate.doc.gitbook.messages.examples

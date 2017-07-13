@@ -4,6 +4,7 @@ Generate a RouteSubscriber
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:routesubscriber [options]
+$ gr  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

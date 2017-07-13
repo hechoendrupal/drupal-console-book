@@ -4,6 +4,7 @@ Generate an implementation of hook_help()
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:help [options]
+$ gh  
 ```
 
 ## commands.generate.doc.gitbook.messages.options

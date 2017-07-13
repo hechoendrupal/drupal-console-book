@@ -4,6 +4,7 @@ Generate a new "%s"
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:form [options]
+$ gf  
 ```
 
 ## commands.generate.doc.gitbook.messages.options
