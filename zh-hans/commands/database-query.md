@@ -21,5 +21,16 @@ application.gitbook.messages.option | application.gitbook.messages.details
 ## application.gitbook.messages.arguments
 application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
+<<<<<<< HEAD
+query | The SQL statement to execute
+database | Database key from settings.php
+
+## application.gitbook.messages.examples
+* Send a database query
+```
+drupal database:query 'select * from node limit 0,1'
+```
+=======
 query | commands.database.query.arguments.query
 database | commands.database.query.arguments.database
+>>>>>>> upstream/master

@@ -17,4 +17,15 @@ application.gitbook.messages.option | application.gitbook.messages.details
 ## application.gitbook.messages.arguments
 application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
+<<<<<<< HEAD
+duration | Duration in seconds which to sleep between database reads
+
+## application.gitbook.messages.examples
+* Print the log entries on screen every x seconds
+```
+drupal database:log:poll \
+  100
+```
+=======
 duration | commands.database.log.poll.arguments.duration
+>>>>>>> upstream/master

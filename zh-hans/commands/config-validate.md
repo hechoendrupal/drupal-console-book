@@ -11,3 +11,12 @@ cv
 application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 name | 
+<<<<<<< HEAD
+
+## application.gitbook.messages.examples
+* Provide the configuration name.
+```
+drupal config:validate configuration.name
+```
+=======
+>>>>>>> upstream/master

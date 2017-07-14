@@ -15,7 +15,11 @@ key | Key
 value | Value
 
 ## application.gitbook.messages.examples
+<<<<<<< HEAD
+* 设置 Contact 模块 flood limit 为 10.
+=======
 * Set the Contact module flood limit to 10.
+>>>>>>> upstream/master
 ```
 drupal config:override contact.settings flood.limit 10
 ```
