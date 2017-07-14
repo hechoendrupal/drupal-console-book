@@ -1,8 +1,8 @@
-# Available Drupal Console Commands
+# application.gitbook.messages.title
 
-**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
+**application.gitbook.messages.note:** application.gitbook.messages.note-description.
 
-Drupal Console Command | Details
+application.gitbook.messages.command | application.gitbook.messages.details
 ------------ | -------------
 **misc**  |
 [about](about.md) | Displays basic information about Drupal Console project
@@ -93,7 +93,8 @@ Drupal Console Command | Details
 **entity**  |
 [entity:delete](entity-delete.md) | Delete an specific entity
 **extend**  |
-[extend:global](extend-global.md) | Drupal Console global example
+[extend:example:one](extend-example-one.md) | Drupal Console extend example
+[extend:example:two](extend-example-two.md) | Drupal Console extend example
 **features**  |
 [features:import](features-import.md) | Import module config.
 **field**  |
@@ -165,8 +166,6 @@ Drupal Console Command | Details
 [multisite:new](multisite-new.md) | Sets up the files for a new multisite install.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions.
-**project**  |
-[project:new](project-new.md) | Create multisite new Drupal project
 **queue**  |
 [queue:run](queue-run.md) | Process the selected queue.
 **quick**  |
@@ -176,6 +175,8 @@ Drupal Console Command | Details
 [rest:enable](rest-enable.md) | Enable a rest resource for the application
 **router**  |
 [router:rebuild](router-rebuild.md) | Rebuild routes for the application
+**sample**  |
+[sample:default](sample-default.md) | commands.sample.default.description
 **settings**  |
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
@@ -218,8 +219,8 @@ Drupal Console Command | Details
 [views:disable](views-disable.md) | Disable a View
 [views:enable](views-enable.md) | Enable a View
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --help | Display this help message
 --quiet | Suppress all output from the command
@@ -239,7 +240,7 @@ Option | Details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 command | The command to execute

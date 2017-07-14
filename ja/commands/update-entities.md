@@ -1,7 +1,8 @@
 # update:entities
 エンティティの更新を適用する
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal update:entities
+drupal update:entities
+upe
 ```

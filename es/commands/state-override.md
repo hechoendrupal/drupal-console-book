@@ -1,14 +1,14 @@
 # state:override
 Sobreescribir una clave de Estado.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal state:override [arguments]
-$ sto  
+drupal state:override [arguments]
+sto
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 key | La clave de Estado que será sobreescrita.
 value | El valor de Estado a establecer.

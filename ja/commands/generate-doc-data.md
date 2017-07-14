@@ -1,12 +1,13 @@
 # generate:doc:data
-コマンドのためのドキュメントを生成する
+commands.generate.doc.data.description
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:doc:data [options]
+drupal generate:doc:data [options]
+gdda
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---file | コマンドデータを出力するファイル名
+--file | commands.generate.doc.data.options.file

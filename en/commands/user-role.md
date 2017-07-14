@@ -1,20 +1,20 @@
 # user:role
 Adds/removes a role for a given user
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal user:role [arguments]
 ur
 ```
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 operation | commands.user.role.operation
 user | commands.user.role.user
 role | commands.user.role.role
 
-## Examples
+## application.gitbook.messages.examples
 * Add administrator role to the user admin specifying the username and the role
 ```
 drupal user:role  add admin administrator

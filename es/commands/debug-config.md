@@ -1,27 +1,27 @@
 # debug:config
 Muestra la configuración actual.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:config [arguments]
-$ dc  
+drupal debug:config [arguments]
+dc
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 name | Nombre de la configuración.
 
-## Ejemplos
+## application.gitbook.messages.examples
 * List all configuration object names.
 ```
-$ drupal config:debug
+drupal config:debug
 ```
 * Display system site configurations values.
 ```
-$ drupal config:debug system.site
+drupal config:debug system.site
 ```
 * List all system configuration names.
 ```
-$ drupal config:debug | grep system
+drupal config:debug | grep system
 ```

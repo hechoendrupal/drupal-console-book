@@ -1,14 +1,14 @@
 # database:add
 Añade una base de datos al settings.php
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:add [options]
-$ dba  
+drupal database:add [options]
+dba
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --database | El nombre de la base de datos
 --username | El nombre de usuario de la base de datos
@@ -18,12 +18,11 @@ Opción | Detalles
 --port | El puerto del servidor de la base de datos
 --driver | El driver de la base de datos
 
-## Ejemplos
+## application.gitbook.messages.examples
 * Add a database to the settings.php
 ```
-$ drupal database:add \
+drupal database:add \
   --database=DATABASE \
   --username=USERNAME \
   --password=PASSWORD
-
 ```

@@ -1,7 +1,7 @@
 # sample:default
 commands.sample.default.description
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal sample:default
+drupal sample:default
 ```

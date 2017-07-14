@@ -1,14 +1,14 @@
 # generate:plugin:fieldtype
 Generate field type plugin.
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:plugin:fieldtype [options]
 gpft
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
@@ -18,7 +18,7 @@ Option | Details
 --default-widget | Default field widget of this plugin
 --default-formatter | Default field formatter of this plugin
 
-## Examples
+## application.gitbook.messages.examples
 * Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description
 ```
 drupal generate:plugin:fieldtype  \

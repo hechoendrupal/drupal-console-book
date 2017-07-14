@@ -1,29 +1,29 @@
 # debug:module
 Muestra los módulos actualmente disponibles para la aplicación
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:module [arguments] [options]
-$ dm  
+drupal debug:module [arguments] [options]
+dm
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --status | Estado del módulo [installed|uninstalled]
 --type | Tipo de módulo [core|no-core]
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 module | Module name
 
-## Ejemplos
+## application.gitbook.messages.examples
 * Muestra todos los módulos habilitados
 ```
-$ drupal mod --status=installed
+drupal mod --status=installed
 ```
 * Muestra todos los módulos habilitados y que no son del core (contrib + custom)
 ```
-$ drupal mod --status=installed --type=no-core
+drupal mod --status=installed --type=no-core
 ```

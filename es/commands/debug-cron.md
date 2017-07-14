@@ -1,8 +1,8 @@
 # debug:cron
 Listado de módulos que implementan una llamada al cron
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:cron
-$ dcr  
+drupal debug:cron
+dcr
 ```

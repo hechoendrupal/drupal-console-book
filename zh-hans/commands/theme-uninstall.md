@@ -1,14 +1,14 @@
 # theme:uninstall
-卸载程序的一个或多个外观主题
+解除安裝網站應用中，一或多個版型
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal theme:uninstall [arguments]
-$ thu  
-$ tu  
+drupal theme:uninstall [arguments]
+thu
+tu
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 theme | commands.theme.uninstall.options.module

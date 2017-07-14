@@ -1,14 +1,14 @@
 # state:override
-覆写状态键的值
+覆寫系統狀態的鍵名。
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal state:override [arguments]
-$ sto  
+drupal state:override [arguments]
+sto
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-key | 覆写的键
-value | 赋的新值
+key | 要覆寫的系統狀態鍵名
+value | 要寫入的系統狀態值

@@ -1,26 +1,26 @@
 # user:create
 Create users for the application
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal user:create [arguments] [options]
 uc
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --roles | User roles
 --email | User email
 --status | User status
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 username | User name to be created
 password | User password
 
-## Examples
+## application.gitbook.messages.examples
 * Create user specifying username, password, role, email and status
 ```
 drupal user:create  john p455w0rd  \

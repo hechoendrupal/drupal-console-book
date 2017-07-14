@@ -1,14 +1,14 @@
 # user:password:hash
-从文本格式密码中生成哈希码
+從純文字密碼產生雜湊值（Hash）
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:password:hash [arguments]
-$ uph  
-$ usph  
+drupal user:password:hash [arguments]
+uph
+usph
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-password | 文本格式的密码
+password | 一組以上的純文字密碼

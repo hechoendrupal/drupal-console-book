@@ -1,14 +1,15 @@
 # update:execute
-The **update:execute** command Выполнить конкретный update_N хук в модуле или выполнить все
+Выполнить конкретный update_N хук в модуле или выполнить все
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal update:execute [arguments] 
-$ upe  
+drupal update:execute [arguments]
+upex
+upe
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 module | Имя модуля.
 update-n | Конкретный update_N хук будет выполнен

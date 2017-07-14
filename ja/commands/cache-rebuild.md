@@ -1,23 +1,23 @@
 # cache:rebuild
 キャッシュのクリアと再生成
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal cache:rebuild [arguments]
-$ cr  
+drupal cache:rebuild [arguments]
+cr
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 cache | クリアするキャッシュ名
 
-## 例
+## application.gitbook.messages.examples
 * 全てのキャッシュを再生成
 ```
-$ drupal cr all
+drupal cr all
 ```
 * discovery キャッシュを再生成
 ```
-$ drupal cr discovery
+drupal cr discovery
 ```

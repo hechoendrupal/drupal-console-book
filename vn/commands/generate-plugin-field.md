@@ -1,14 +1,14 @@
 # generate:plugin:field
 Tạo field type, widget và formatter plugins.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:field [options]
-$ gpf  
+drupal generate:plugin:field [options]
+gpf
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Tên module.
 --type-class | Tên lớp field type plugin

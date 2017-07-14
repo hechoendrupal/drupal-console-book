@@ -1,14 +1,14 @@
 # user:login:url
-返回一次性登录链接.
+為使用者取得一次性登入網址。
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:login:url [arguments]
-$ ulu  
-$ uslu  
+drupal user:login:url [arguments]
+ulu
+uslu
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-user-id | 用户ID
+user-id | 使用者 ID

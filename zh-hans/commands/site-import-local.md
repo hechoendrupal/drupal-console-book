@@ -1,19 +1,19 @@
 # site:import:local
-导入/配置一个已经存在的 Drupal 项目
+匯入或設定本地現存的 Drupal 專案
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:import:local [arguments] [options]
-$ sil  
+drupal site:import:local [arguments] [options]
+sil
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---environment | 将要导入的环境名称
+--environment | 要匯入的環境模式名稱
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-name | 用于生成站点配置的名称
-directory | 已存在网站 Drupal 根文件夹
+name | 指派名稱給建立的網站設定
+directory | 現存的 Drupal 根目錄

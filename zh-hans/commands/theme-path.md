@@ -1,18 +1,18 @@
 # theme:path
-返回主题的相对路径 (或绝对路径)
+取得版型所在相關或絕對路徑
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal theme:path [arguments] [options]
-$ thp  
+drupal theme:path [arguments] [options]
+thp
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---absolute | 返回主题绝对路径
+--absolute | 回傳絕對路徑
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 theme | commands.theme.path.arguments.theme

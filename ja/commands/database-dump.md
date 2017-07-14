@@ -1,17 +1,31 @@
 # database:dump
 データベースの構造とコンテンツをダンプ
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:dump [arguments] [options]
+drupal database:dump [arguments] [options]
+dbdu
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---file | commands.database.dump.option.file
+--file | データベースをバックアップするファイル名
+--gz | Pass this option if you want the sql result file gzipped
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 database | settings.phpのデータベースのキー
+
+## application.gitbook.messages.examples
+* Dump default database or the one specified on the argument
+```
+drupal database:dump \
+  <database>
+```
+* Dump in gz compressed format
+```
+drupal database:dump \
+  --gz
+```

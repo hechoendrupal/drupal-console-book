@@ -1,13 +1,13 @@
 # site:maintenance
-The **site:maintenance** command Switch site into maintenance mode
+Переключить сайт в режим обслуживания
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:maintenance [arguments] 
-$ sma  
+drupal site:maintenance [arguments]
+sma
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-mode | Site maintenance mode[on/off]
+mode | commands.site.maintenance.arguments.mode[on/off]

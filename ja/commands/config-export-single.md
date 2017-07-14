@@ -1,21 +1,33 @@
 # config:export:single
-commands.config.export.single.description
+単一のコンフィグレーションをymlファイルとしてエクスポート
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:export:single [arguments] [options]
-$ ces  
+drupal config:export:single [options]
+ces
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---directory | commands.config.export.arguments.directory
---include-dependencies | commands.config.export.single.options.include-dependencies
---module | commands.common.options.module
---optional-config | commands.config.export.single.options.optional-config
+--name | commands.config.export.single.options.name
+--directory | 設定をエクスポートするエクスポートするディレクトリ
+--module | モジュール名
+--include-dependencies | Export dependencies of the configuration as well.
+--optional | Export config as an optional YAML configuration in your module
+--remove-uuid | If set, the configuration will be exported without uuid key.
+--remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
-## Available arguments
-Argument | Details
----------|-------------
-config-name | commands.config.export.single.arguments.config-name
+## application.gitbook.messages.examples
+* Provide config settings name to be exported
+```
+drupal config:export:single \
+  --name=config.settings.name
+```
+* if uuid and/or config hashes will be removed.
+```
+drupal config:export:single \
+  --name=config.settings.name \
+  --remove-uuid \
+  --remove-config-hash
+```

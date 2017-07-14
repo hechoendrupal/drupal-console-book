@@ -1,14 +1,14 @@
 # generate:module
-The **generate:module** command Generate a module.
+Generate a module.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:module [options] 
-$ gm  
+drupal generate:module [options]
+gm
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name
 --machine-name | The machine name (lowercase and underscore only)
@@ -17,6 +17,8 @@ $ gm
 --core | Core version
 --package | Module package
 --module-file | Add a .module file
---feature | Set module compatible with Features module
+--features-bundle | Define module as feature using the given Features bundle name
 --composer | Add a composer.json file
 --dependencies | Module dependencies separated by commas (i.e. context, panels)
+--test | Generate a test class
+--twigtemplate | Generate theme template

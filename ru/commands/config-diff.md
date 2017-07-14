@@ -1,17 +1,24 @@
 # config:diff
-The **config:diff** command Ouput configuration items that are different in active configuration compared with a directory.
+Выводит элементы активной конфигурации, которые отличаются в сравнении с каталогом.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:diff [arguments] [options]
+drupal config:diff [arguments] [options]
+cdi
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---reverse | See the changes in reverse (i.e diff a directory to the active configuration).
+--reverse | Посмотреть обратные изменения (т.е. сравнение каталога с активной конфигурацией).
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-directory | The directory to diff against. If ommitted, choose from Drupal config directories.
+directory | Каталог для сравнения. Если не выбрано, будет выбран каталог конфигураций Drupal.
+
+## application.gitbook.messages.examples
+* Provide a config directory
+```
+drupal config:diff ../config/path
+```

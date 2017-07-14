@@ -1,13 +1,13 @@
 # views:enable
-The **views:enable** command Включить представление
+Включить представление
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal views:enable [arguments] 
-$ ve  
+drupal views:enable [arguments]
+ve
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-view-id | ID Представления
+view-id | commands.views.debug.arguments.view-id

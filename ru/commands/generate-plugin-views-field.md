@@ -1,13 +1,14 @@
 # generate:plugin:views:field
-The **generate:plugin:views:field** command Generate a custom plugin view field.
+Generate a custom plugin view field.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:views:field [options] 
+drupal generate:plugin:views:field [options]
+gpvf
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --class | Views plugin field class name

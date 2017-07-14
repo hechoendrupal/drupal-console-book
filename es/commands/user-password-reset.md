@@ -1,15 +1,15 @@
 # user:password:reset
 Restablece la contraseña de un usuario específico.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:password:reset [arguments]
-$ upr  
-$ uspr  
+drupal user:password:reset [arguments]
+upr
+uspr
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 user | ID de usuario
 password | Contraseña en formato de texto

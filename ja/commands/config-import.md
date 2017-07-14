@@ -1,15 +1,27 @@
 # config:import
 Import configuration to current application.
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:import [options]
-$ ci  
+drupal config:import [options]
+ci
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---file | Configuration file path.
+--file | Path to an archive file of configuration to import.
 --directory | Path to a directory of configuration to import.
---remove-files | Remove files after syncronization.
+--remove-files | Remove files after synchronization.
+
+## application.gitbook.messages.examples
+* Provide a configuration file
+```
+drupal config:import \
+  --file=/path/to/config/file
+```
+* Provide a configuration directory
+```
+drupal config:import  \
+  --directory=/path/to/config/dir
+```

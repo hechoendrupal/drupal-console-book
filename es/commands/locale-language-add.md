@@ -1,12 +1,12 @@
 # locale:language:add
 Añadir un idioma que sea soportado en el sitio
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal locale:language:add [arguments]
+drupal locale:language:add [arguments]
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 language | Idioma por ejemplo es o Español

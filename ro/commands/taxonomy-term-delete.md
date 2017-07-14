@@ -1,13 +1,13 @@
 # taxonomy:term:delete
 Delete taxonomy terms from a vocabulary
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal taxonomy:term:delete [arguments]
-$ ttd  
+drupal taxonomy:term:delete [arguments]
+ttd
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 vid | 

@@ -1,14 +1,15 @@
 # generate:entity:config
 Generar una nueva entidad de configuración
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:entity:config [options]
-$ gecg  
+drupal generate:entity:config [options]
+gec
+gecg
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --entity-class | Clase de la entidad de configuración

@@ -1,19 +1,20 @@
 # theme:download
 テーマをダウンロード
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal theme:download [arguments] [options]
-$ td  
+drupal theme:download [arguments] [options]
+thd
+td
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --composer | composerを使用してテーマを管理する
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 theme | テーマの名前
 version | テーマのバージョン (例: 1.x-dev)

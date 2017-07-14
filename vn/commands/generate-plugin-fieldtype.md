@@ -1,14 +1,14 @@
 # generate:plugin:fieldtype
 Tạo field type plugin.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:fieldtype [options]
-$ gpft  
+drupal generate:plugin:fieldtype [options]
+gpft
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Tên module.
 --class | Tên lớp plugin

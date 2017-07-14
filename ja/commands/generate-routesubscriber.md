@@ -1,13 +1,14 @@
 # generate:routesubscriber
 Generate a RouteSubscriber
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:routesubscriber [options]
+drupal generate:routesubscriber [options]
+gr
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --name | Service name

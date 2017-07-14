@@ -1,14 +1,14 @@
 # debug:site
-列出已知当地和远程网站.
+列出所有已知的本地端與遠端網站資訊。
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:site [arguments]
-$ dsi  
+drupal debug:site [arguments]
+dsi
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 target | Target
 property | Property

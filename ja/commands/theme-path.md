@@ -1,17 +1,18 @@
 # theme:path
 テーマの相対パスまたは絶対パスを返す
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal theme:path [arguments] [options]
+drupal theme:path [arguments] [options]
+thp
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --absolute | 絶対パスを返す
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-module | テーマ名 (システム内部名称)
+theme | commands.theme.path.arguments.theme

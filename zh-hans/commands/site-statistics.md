@@ -1,8 +1,8 @@
 # site:statistics
-显示网站的当前统计
+顯示目前網站統計資訊。
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:statistics
-$ sst  
+drupal site:statistics
+sst
 ```

@@ -1,7 +1,7 @@
 # check
 Comprobador de requisitos del sistema
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal check
+drupal check
 ```

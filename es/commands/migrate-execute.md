@@ -1,14 +1,14 @@
 # migrate:execute
 Ejecuta una migración que esté disponible para la aplicación
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal migrate:execute [arguments] [options]
-$ mie  
+drupal migrate:execute [arguments] [options]
+mie
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --site-url | URL fuente del sitio
 --db-type | commands.migrate.setup.migrations.options.db-type
@@ -21,7 +21,7 @@ Opción | Detalles
 --exclude | Excluir los siguientes IDs de migración
 --source-base_path | commands.migrate.execute.options.source-base-path
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 migration-ids | ID de migración

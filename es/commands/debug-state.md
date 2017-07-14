@@ -1,12 +1,13 @@
 # debug:state
 Muestra las claves de Estado actual.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:state [arguments]
+drupal debug:state [arguments]
+dst
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 key | La clave de Estado para depurar.

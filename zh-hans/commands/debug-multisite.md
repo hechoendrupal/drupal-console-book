@@ -1,8 +1,8 @@
 # debug:multisite
-列出所有可用多站点
+列出系統中可用的多站設置
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:multisite
-$ dmu  
+drupal debug:multisite
+dmu
 ```

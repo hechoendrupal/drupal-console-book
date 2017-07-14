@@ -1,19 +1,19 @@
 # theme:install
-安装主题
+安裝一或多個版型至網站應用中
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal theme:install [arguments] [options]
-$ thi  
-$ ti  
+drupal theme:install [arguments] [options]
+thi
+ti
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---set-default | 设置主题为默认主题
+--set-default | 設定為預設版型
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 theme | commands.theme.install.options.module

@@ -1,12 +1,20 @@
 # database:connect
-The **database:connect** command Запуск клиента БД, если он доступен
+Показывает соединение с базой данных
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:connect [arguments] 
+drupal database:connect [arguments]
+dbco
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-database | Ключ БД из settings.php
+database | Ключ базы данных из settings.php
+
+## application.gitbook.messages.examples
+* Connects to an specified database, or the default if not arguments passed
+```
+drupal database:connect \
+  <database>
+```

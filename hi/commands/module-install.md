@@ -1,14 +1,14 @@
 # module:install
 मोड्यूल या मोड्यूलो को अनुप्रयोग में स्थापित करें
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal module:install [arguments] [options]
-$ moi  
+drupal module:install [arguments] [options]
+moi
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --latest | डिफ़ॉल्ट नवीनतम संस्करण डाउनलोड करने के लिए
 --composer | Uninstalls the module using Composer
@@ -30,8 +30,8 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 command | The command to execute
 module | मॉड्यूल या मॉड्यूलस सक्षम होने के लिए एक स्पेस से सेपरेट किया जाना चाहिए

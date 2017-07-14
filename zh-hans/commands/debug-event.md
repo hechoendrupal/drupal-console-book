@@ -1,13 +1,13 @@
 # debug:event
-显示当前事件
+Display current events 
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:event [arguments]
-$ dev  
+drupal debug:event [arguments]
+dev
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-event | 调试的事件
+event | Event to debug

@@ -1,14 +1,14 @@
 # generate:plugin:block
-The **generate:plugin:block** command Generate a plugin block
+Generate a plugin block
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:block [options] 
-$ gpb  
+drupal generate:plugin:block [options]
+gpb
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

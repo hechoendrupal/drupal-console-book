@@ -1,13 +1,14 @@
 # user:delete
-The **user:delete** command Delete users for the application
+Delete users for the application
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:delete [options] 
+drupal user:delete [options]
+ud
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --user-id | User id to be deleted
 --roles | Roles associated to users to be deleted

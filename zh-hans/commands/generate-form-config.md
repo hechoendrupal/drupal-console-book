@@ -1,22 +1,23 @@
 # generate:form:config
 commands.generate.form.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:form:config [options]
-$ gfc  
+drupal generate:form:config [options]
+gf
+gfc
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---module | 模块名称
---class | 表单 类名
---form-id | 表单 ID
---services | 从容器中导入服务
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
 --config-file | Add a config file
---inputs | 创建一个输入表单
---path | 输入表单路径
+--inputs | Create inputs in a form.
+--path | Enter the form path
 --menu-link-gen | Generate a menu link
 --menu-link-title | A title for the menu link
 --menu-parent | Menu parent

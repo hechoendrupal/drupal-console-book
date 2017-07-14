@@ -1,13 +1,14 @@
 # generate:update
 Generate an implementation of hook_update_N()
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:update [options]
+drupal generate:update [options]
+gu
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --update-n | Update Number

@@ -1,14 +1,14 @@
 # migrate:execute
 Execute a migration available for application
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal migrate:execute [arguments] [options]
 mie
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --site-url | Site Source URL
 --db-type | commands.migrate.setup.migrations.options.db-type
@@ -21,7 +21,7 @@ Option | Details
 --exclude | Migration id(s) to exclude
 --source-base_path | Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 migration-ids | Migration id(s)

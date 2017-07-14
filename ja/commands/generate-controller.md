@@ -1,14 +1,15 @@
 # generate:controller
 Generate & Register a controller
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:controller [options]
-$ gcn  
+drupal generate:controller [options]
+gcon
+gcn
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --class | Controller Class name

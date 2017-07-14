@@ -1,13 +1,14 @@
 # user:login:url
 ワンタイムログインURLを生成する
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:login:url [arguments]
-$ uslu  
+drupal user:login:url [arguments]
+ulu
+uslu
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 user-id | ユーザーID

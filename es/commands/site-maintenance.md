@@ -1,13 +1,13 @@
 # site:maintenance
 Poner el sitio en modo mantenimiento
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:maintenance [arguments]
-$ sma  
+drupal site:maintenance [arguments]
+sma
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 mode | commands.site.maintenance.arguments.mode[on/off]

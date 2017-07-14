@@ -1,7 +1,7 @@
 # check
 動作環境をチェックする
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal check
+drupal check
 ```

@@ -1,19 +1,19 @@
 # debug:views
-显示网站当前视图资源
+顯示目前網站應用中的 Views 資源
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:views [arguments] [options]
-$ vde  
+drupal debug:views [arguments] [options]
+vde
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---tag | 视图标签
---status | 视图状态(已启用|已禁用)
+--tag | View 所屬標籤
+--status | View 的狀態（啟用、停用）
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-view-id | 视图ID
+view-id | View ID

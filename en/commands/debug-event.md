@@ -1,18 +1,18 @@
 # debug:event
 Displays current events 
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal debug:event [arguments]
 dev
 ```
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 event | Event to debug
 
-## Examples
+## application.gitbook.messages.examples
 * List all the events that could be debugged
 ```
 drupal debug:evet

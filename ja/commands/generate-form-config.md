@@ -1,22 +1,24 @@
 # generate:form:config
-Generate a new "ConfigFormBase"
+commands.generate.form.description
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:form:config [options]
-$ gfc  
+drupal generate:form:config [options]
+gf
+gfc
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --class | The form class name
 --form-id | The Form id
 --services | コンテナからサービスを読み込む
+--config-file | Add a config file
 --inputs | フォームへの入力を作成する
 --path | Enter the form path
---menu_link_gen | commands.generate.form.options.menu_link_gen
---menu_link_title | commands.generate.form.options.menu_link_title
---menu_parent | commands.generate.form.options.menu_parent
---menu_link_desc | commands.generate.form.options.menu_link_desc
+--menu-link-gen | Generate a menu link
+--menu-link-title | A title for the menu link
+--menu-parent | Menu parent
+--menu-link-desc | A description for the menu link

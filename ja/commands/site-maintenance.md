@@ -1,13 +1,13 @@
 # site:maintenance
 サイトをメンテナンスモードに切り替える
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:maintenance [arguments]
-$ sma  
+drupal site:maintenance [arguments]
+sma
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 mode | commands.site.maintenance.arguments.mode[on/off]

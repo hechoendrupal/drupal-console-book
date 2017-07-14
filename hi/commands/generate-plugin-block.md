@@ -1,14 +1,14 @@
 # generate:plugin:block
 प्लगिन खंड उत्पन्न करें
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:block [options]
-$ gpb  
+drupal generate:plugin:block [options]
+gpb
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | प्लगिन का क्लास नाम

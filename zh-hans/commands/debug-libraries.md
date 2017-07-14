@@ -1,13 +1,13 @@
 # debug:libraries
-显示应用中可用的 Libraries
+顯示可用的 libraries
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:libraries [arguments]
-$ dl  
+drupal debug:libraries [arguments]
+dl
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-group | 输入 Libraries 名称
+group | 輸入 Libraries 名稱

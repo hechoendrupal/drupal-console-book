@@ -1,13 +1,14 @@
 # generate:plugin:imageformatter
-The **generate:plugin:imageformatter** command Generate image formatter plugin.
+Generate image formatter plugin.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:imageformatter [options] 
+drupal generate:plugin:imageformatter [options]
+gpif
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

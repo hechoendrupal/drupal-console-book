@@ -1,15 +1,15 @@
 # chain
-链式执行一组命令
+Chain command execution
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal chain [arguments] [options]
+drupal chain [arguments] [options]
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---file | 包含一组命令的 YAML 格式文件
+--file | User defined file containing commands to get executed.
 --placeholder | commands.chain.options.placeholder
 --help | Display this help message
 --quiet | Do not output any message
@@ -29,15 +29,14 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 command | The command to execute
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Providing a file option using full path.
 ```
-$ drupal chain \
+drupal chain \
   --file="/path/to/file/chain-file.yml"
-
 ```

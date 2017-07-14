@@ -1,19 +1,20 @@
 # update:execute
 Execute a specific Update N function in a module, or execute all
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal update:execute [arguments]
 upex
+upe
 ```
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 module | The Module name.
 update-n | Specific Update N function to be executed
 
-## Examples
+## application.gitbook.messages.examples
 * Update all entities
 ```
 drupal update:execute

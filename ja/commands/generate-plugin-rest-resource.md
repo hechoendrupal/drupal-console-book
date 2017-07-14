@@ -1,14 +1,14 @@
 # generate:plugin:rest:resource
 Generate plugin rest resource
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:rest:resource [options]
-$ gprr  
+drupal generate:plugin:rest:resource [options]
+gprr
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --class | Plugin Rest Resource class

@@ -1,13 +1,14 @@
 # theme:uninstall
 テーマをアンインストールする
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal theme:uninstall [arguments]
-$ tu  
+drupal theme:uninstall [arguments]
+thu
+tu
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 theme | commands.theme.uninstall.options.module

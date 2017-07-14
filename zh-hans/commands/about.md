@@ -1,7 +1,7 @@
 # about
-显示 Drupal Console 项目基本信息
+顯示 Drupal Console 專案的基本資訊
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal about
+drupal about
 ```

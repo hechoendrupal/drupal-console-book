@@ -1,13 +1,13 @@
 # devel:dumper
 Change the devel dumper plugin
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal devel:dumper [arguments]
-$ dd  
+drupal devel:dumper [arguments]
+dd
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 dumper | Name of the devel dumper plugin

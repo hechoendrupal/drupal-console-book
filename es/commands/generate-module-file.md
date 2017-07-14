@@ -1,12 +1,13 @@
 # generate:module:file
 Generar un archivo .module
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:module:file [options]
+drupal generate:module:file [options]
+gmf
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.

@@ -1,14 +1,14 @@
 # generate:authentication:provider
-The **generate:authentication:provider** command Generate an Authentication Provider
+Generate an Authentication Provider
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:authentication:provider [options] 
-$ gap  
+drupal generate:authentication:provider [options]
+gap
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --class | Authentication Provider class

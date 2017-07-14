@@ -1,8 +1,8 @@
 # debug:image:styles
 Lista los estilos de imágenes del sitio
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:image:styles
-$ dis  
+drupal debug:image:styles
+dis
 ```

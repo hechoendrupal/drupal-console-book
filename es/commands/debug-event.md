@@ -1,13 +1,13 @@
 # debug:event
 Mostrar los eventos actuales 
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:event [arguments]
-$ dev  
+drupal debug:event [arguments]
+dev
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 event | El evento a depurar

@@ -1,14 +1,15 @@
 # generate:plugin:condition
 प्लगिन नियम उत्पन्न करें।
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:condition [options]
-$ gpc  
+drupal generate:plugin:condition [options]
+gpco
+gpc
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | प्लगिन नियम क्लास नाम

@@ -1,14 +1,14 @@
 # views:disable
-停启视图
+關閉這個 View
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal views:disable [arguments]
-$ vd  
-$ vdi  
+drupal views:disable [arguments]
+vd
+vdi
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 view-id | commands.views.debug.arguments.view-id

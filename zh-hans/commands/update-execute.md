@@ -1,15 +1,15 @@
 # update:execute
-执行的给出的某个模块的更新程序或者执行所有的更新程序
+執行模組中指定編號的更新，或執行全部更新
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal update:execute [arguments]
-$ upex  
-$ upe  
+drupal update:execute [arguments]
+upex
+upe
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-module | 模块名称
-update-n | 所需执行的更新程序号
+module | The Module name.
+update-n | 要更新的編號

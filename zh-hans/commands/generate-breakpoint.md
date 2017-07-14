@@ -1,13 +1,14 @@
 # generate:breakpoint
-生成断点
+Generate breakpoint
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:breakpoint [options]
+drupal generate:breakpoint [options]
+gb
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---theme | 主题名称
---breakpoints | 断点
+--theme | Theme name
+--breakpoints | Breakpoints

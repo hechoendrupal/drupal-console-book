@@ -1,14 +1,14 @@
 # user:login:clear:attempts
-清空一个用户的登录尝试数据。
+清除使用者錯誤嘗試登入記錄
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:login:clear:attempts [arguments]
-$ ulca  
-$ uslca  
+drupal user:login:clear:attempts [arguments]
+ulca
+uslca
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-uid | 用户ID.
+uid | 使用者 ID

@@ -1,19 +1,19 @@
 # module:uninstall
 モジュールをアンインストール
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal module:uninstall [arguments] [options]
-$ mou  
+drupal module:uninstall [arguments] [options]
+mou
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --force | 依存関係を無視してモジュールを強制的にアンインストールしますか？
 --composer | Composerを利用してモジュールをアンインストールする
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 module | モジュール名を入力してください

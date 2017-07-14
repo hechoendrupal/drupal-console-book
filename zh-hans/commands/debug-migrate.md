@@ -1,13 +1,13 @@
 # debug:migrate
-显示当前可用迁移
+Display current migration available for the application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:migrate [arguments]
-$ mid  
+drupal debug:migrate [arguments]
+mid
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-tag | 迁移标签
+tag | Migrate tag

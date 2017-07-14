@@ -1,14 +1,15 @@
 # user:password:reset
 指定したユーザーのパスワードをリセットする
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:password:reset [arguments]
-$ uspr  
+drupal user:password:reset [arguments]
+upr
+uspr
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 user | ユーザーID
 password | プレーンテキストのパスワード

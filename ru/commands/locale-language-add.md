@@ -1,12 +1,12 @@
 # locale:language:add
-The **locale:language:add** command Add a language to be supported by your site
+Добавить поддержку языка вашим сайтом
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal locale:language:add [arguments] 
+drupal locale:language:add [arguments]
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-language | Language for instance es or Spanish
+language | Язык, например: es или Spanish

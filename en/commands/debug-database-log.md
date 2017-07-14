@@ -1,14 +1,14 @@
 # debug:database:log
 Displays current log events for the application
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal debug:database:log [arguments] [options]
 dbb
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --type | Filter events by a specific type
 --severity | Filter events by a specific level of severity
@@ -18,12 +18,12 @@ Option | Details
 --offset | Starting point of a limit
 --yml | Print in a yml style
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 event-id | DBLog event ID
 
-## Examples
+## application.gitbook.messages.examples
 * List all the entries on the log
 ```
 drupal debug:database:log

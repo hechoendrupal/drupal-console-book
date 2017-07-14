@@ -1,13 +1,14 @@
 # user:password:hash
-The **user:password:hash** command Сгенерировать хеш для пароля.
+Сгенерировать хеш для пароля.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:password:hash [arguments] 
-$ usph  
+drupal user:password:hash [arguments]
+uph
+usph
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 password | Пароль(и) в текстовом формате

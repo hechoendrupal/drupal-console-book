@@ -1,13 +1,14 @@
 # generate:plugin:rest:resource
-The **generate:plugin:rest:resource** command Generate plugin rest resource
+Generate plugin rest resource
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:rest:resource [options] 
+drupal generate:plugin:rest:resource [options]
+gprr
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --class | Plugin Rest Resource class

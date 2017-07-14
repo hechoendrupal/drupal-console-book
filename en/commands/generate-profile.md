@@ -1,14 +1,14 @@
 # generate:profile
 Generate a profile.
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:profile [options]
 gpr
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --profile | The profile name
 --machine-name | The machine name (lowercase and underscore only)
@@ -18,7 +18,7 @@ Option | Details
 --themes | commands.generate.profile.options.themes
 --distribution | The distribution name
 
-## Examples
+## application.gitbook.messages.examples
 * Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies
 ```
 drupal generate:profile  \

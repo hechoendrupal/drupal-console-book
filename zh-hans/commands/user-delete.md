@@ -1,14 +1,14 @@
 # user:delete
-删除网站用户(s)
+刪除網站應用中的使用者
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:delete [options]
-$ ud  
+drupal user:delete [options]
+ud
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---user-id | 要删除的用户ID
---roles | 要删除用户的角色
+--user-id | 要刪除的使用者 ID
+--roles | 刪除與指定角色關聯的多位使用者

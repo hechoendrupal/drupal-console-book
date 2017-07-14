@@ -1,26 +1,27 @@
 # migrate:execute
-The **migrate:execute** command Execute a migration available for application
+Выполнить миграцию доступную для приложения
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal migrate:execute [arguments] [options] 
-$ mie  
+drupal migrate:execute [arguments] [options]
+mie
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---site-url | Site Source URL
+--site-url | URL-адрес сайта
 --db-type | commands.migrate.setup.migrations.options.db-type
---db-host | Database Host
---db-name | Database Name
---db-user | Database User
---db-pass | Database Pass
---db-prefix | Database Prefix
---db-port | Database Port
---exclude | Migration id(s) to exclude
+--db-host | Хост базы данных
+--db-name | Имя базы данных
+--db-user | Пользователь базы данных
+--db-pass | Пароль базы данных
+--db-prefix | Префикс базы данных
+--db-port | Порт базы данных
+--exclude | Идентификатор(ы) миграций для исключения
+--source-base_path | commands.migrate.execute.options.source-base-path
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-migration-ids | Migration id(s)
+migration-ids | Идентификатор(ы) миграции

@@ -1,19 +1,34 @@
 # database:log:clear
-The **database:log:clear** command Удалить события из таблицы DBLog, фильтры доступны
+Удалить события из таблицы DBLog, фильтры доступны
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:log:clear [arguments] [options] 
+drupal database:log:clear [arguments] [options]
+dblc
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---type | commands.database.log.clear.options.type
---severity | commands.database.log.clear.options.severity
---user-id | commands.database.log.clear.options.user-id
+--type | Отфильтровать события по указанному типу
+--severity | Отфильтровать события по указанному уровню важности
+--user-id | Отфильтровать события по указанному идентификатору пользователя
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-event-id | commands.database.log.clear.arguments.event-id
+event-id | DBLog event ID
+
+## application.gitbook.messages.examples
+* Clear the database log from DBLog table
+```
+drupal database:log:clear \
+  <database>
+```
+* Clear the database log from DBLog table using filters
+```
+drupal database:log:clear \
+  <database> \
+  --type=TYPE \
+  --severity=SEVERITY
+```

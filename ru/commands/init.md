@@ -1,12 +1,14 @@
 # init
-The **init** command Copy configuration files to user home directory.
+Copy configuration files to user home directory.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal init [options] 
+drupal init [options]
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
+--destination | Destination directory to copy files
 --override | Override configurations files
+--autocomplete | Autocomplete tool files flag.

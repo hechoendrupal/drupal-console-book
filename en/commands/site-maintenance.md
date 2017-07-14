@@ -1,18 +1,18 @@
 # site:maintenance
 Switch site into maintenance mode
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal site:maintenance [arguments]
 sma
 ```
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 mode | commands.site.maintenance.arguments.mode[on/off]
 
-## Examples
+## application.gitbook.messages.examples
 * Switch on maintenance
 ```
 drupal site:maintenance  on

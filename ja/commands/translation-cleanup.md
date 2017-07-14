@@ -1,12 +1,14 @@
 # translation:cleanup
-翻訳ファイルをクリーンアップする
+commands.translation.cleanup.description
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal translation:cleanup [arguments]
+drupal translation:cleanup [arguments]
+tc
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-language | 英語に対してクリーンアップする言語
+language | commands.translation.cleanup.arguments.language
+library | commands.translation.cleanup.arguments.library

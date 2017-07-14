@@ -1,13 +1,14 @@
 # generate:breakpoint
 Generate breakpoint
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:breakpoint [options]
+drupal generate:breakpoint [options]
+gb
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --theme | Theme name
 --breakpoints | Breakpoints

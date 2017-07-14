@@ -1,24 +1,25 @@
 # theme:download
 Download theme in application
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal theme:download [arguments] [options]
 thd
+td
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --composer | Use --composer option for manage the theme download with Composer
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 theme | the Theme name
 version | Theme version i.e 1.x-dev
 
-## Examples
+## application.gitbook.messages.examples
 * Download theme specifying name and version
 ```
 drupal theme:download  Alina 7.x-1.2

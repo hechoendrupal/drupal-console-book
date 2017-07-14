@@ -1,13 +1,14 @@
 # user:password:hash
 プレーンテキストのパスワードからハッシュ値を生成
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:password:hash [arguments]
-$ usph  
+drupal user:password:hash [arguments]
+uph
+usph
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 password | プレーンテキストのパスワード (複数指定する場合は空白区切り)

@@ -1,14 +1,14 @@
 # generate:event:subscriber
 Generate an event subscriber
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:event:subscriber [options]
-$ ges  
+drupal generate:event:subscriber [options]
+ges
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --name | commands.generate.service.options.name

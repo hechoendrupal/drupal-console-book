@@ -1,18 +1,19 @@
 # views:disable
 Disable a View
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal views:disable [arguments]
 vd
+vdi
 ```
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 view-id | commands.views.debug.arguments.view-id
 
-## Examples
+## application.gitbook.messages.examples
 * Disable content view
 ```
 drupal views:disable  content

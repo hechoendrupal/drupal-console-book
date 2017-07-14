@@ -1,8 +1,8 @@
 # debug:chain
-列出可用链式命令文件
+列出可用的連續命令檔案
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:chain
-$ dch  
+drupal debug:chain
+dch
 ```

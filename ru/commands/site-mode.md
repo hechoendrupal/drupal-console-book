@@ -1,13 +1,13 @@
 # site:mode
-The **site:mode** command Switch system performance configuration
+Switch system performance configuration
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:mode [arguments] 
-$ smo  
+drupal site:mode [arguments]
+smo
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 environment | Environment name (dev|prod)

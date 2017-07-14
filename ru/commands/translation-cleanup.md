@@ -1,12 +1,14 @@
 # translation:cleanup
-The **translation:cleanup** command Clenaup translation files
+commands.translation.cleanup.description
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal translation:cleanup [arguments] 
+drupal translation:cleanup [arguments]
+tc
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-language | Language to cleanup files against English
+language | commands.translation.cleanup.arguments.language
+library | commands.translation.cleanup.arguments.library

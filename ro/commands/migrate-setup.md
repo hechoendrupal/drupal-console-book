@@ -1,14 +1,14 @@
 # migrate:setup
 Încărcați și creați migrațiunile relevante pentru o bază de date furnizată
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal migrate:setup [options]
-$ mis  
+drupal migrate:setup [options]
+mis
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --db-type | Tipul bazei de date Drupal
 --db-host | Gazda bazei de date

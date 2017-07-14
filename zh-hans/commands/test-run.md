@@ -1,20 +1,20 @@
 # test:run
-运行这个程序有的测试单元
+執行網站應用中可用的單元測試
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal test:run [arguments] [options]
-$ ter  
-$ tr  
+drupal test:run [arguments] [options]
+ter
+tr
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --url | commands.test.run.arguments.url
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-test-class | 测试类
-test-methods | 被运行的测试方法
+test-class | 要測試的類別 （Class）
+test-methods | 要測試的類別方法 （Method）

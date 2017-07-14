@@ -1,13 +1,13 @@
 # state:delete
-删除状态
+清除系統狀態
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal state:delete [arguments]
-$ std  
+drupal state:delete [arguments]
+std
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-name | 状态名称
+name | 系統狀態名稱。

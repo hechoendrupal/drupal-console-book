@@ -1,13 +1,14 @@
 # views:disable
 Viewsを無効化する
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal views:disable [arguments]
-$ vdi  
+drupal views:disable [arguments]
+vd
+vdi
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-view-id | ビューのID
+view-id | commands.views.debug.arguments.view-id

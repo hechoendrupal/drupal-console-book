@@ -1,18 +1,19 @@
 # generate:plugin:migrate:source
-Generate a migrate source plugin
+commands.generate.plugin.migrate.source.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:migrate:source [options]
+drupal generate:plugin:migrate:source [options]
+gpms
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---module | 模块名称
---class | Plugin class name
---plugin-id | Plugin id
---table | Table to query
---alias | Short alias to refer to the table as
---group-by | Field to group results by
---fields | Fields to export
+--module | The Module name.
+--class | commands.generate.plugin.migrate.source.options.class
+--plugin-id | commands.generate.plugin.migrate.source.options.plugin-id
+--table | commands.generate.plugin.migrate.source.options.table
+--alias | commands.generate.plugin.migrate.source.options.alias
+--group-by | commands.generate.plugin.migrate.source.options.group-by
+--fields | commands.generate.plugin.migrate.source.options.fields

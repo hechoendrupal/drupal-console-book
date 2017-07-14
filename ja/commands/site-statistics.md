@@ -1,7 +1,8 @@
 # site:statistics
 サイトの統計情報を表示する
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:statistics
+drupal site:statistics
+sst
 ```

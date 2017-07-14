@@ -1,14 +1,14 @@
 # generate:doc:cheatsheet
-コマンドのチートシートを生成する
+commands.generate.doc.cheatsheet.description
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:doc:cheatsheet [options]
-$ gdc  
+drupal generate:doc:cheatsheet [options]
+gdc
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---path | PDFドキュメントを生成するパス
---wkhtmltopdf | wkhtmltopdfのバイナリがあるシステム上のパス
+--path | commands.generate.doc.cheatsheet.options.path
+--wkhtmltopdf | commands.generate.doc.cheatsheet.options.wkhtmltopdf

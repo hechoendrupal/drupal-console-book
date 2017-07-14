@@ -1,14 +1,14 @@
 # site:install
 Instala un proyecto Drupal
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:install [arguments] [options]
-$ si  
+drupal site:install [arguments] [options]
+si
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --langcode | commands.site.install.options.langcode
 --db-type | commands.site.install.options.db-type
@@ -26,7 +26,7 @@ Opción | Detalles
 --account-pass | commands.site.install.options.account-pass
 --force | commands.site.install.options.force
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 profile | Perfil de Drupal que será instalado

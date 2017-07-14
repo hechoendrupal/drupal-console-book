@@ -1,8 +1,8 @@
 # update:entities
-应用实体更新
+執行實體更新
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal update:entities
-$ upe  
+drupal update:entities
+upe
 ```

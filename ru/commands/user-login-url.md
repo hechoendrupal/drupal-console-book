@@ -1,13 +1,14 @@
 # user:login:url
-The **user:login:url** command Возвращает одноразовый url для входа.
+Возвращает одноразовый url для входа.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:login:url [arguments] 
-$ uslu  
+drupal user:login:url [arguments]
+ulu
+uslu
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-user-id | ID пользователя.
+user-id | Идентификатор пользователя.

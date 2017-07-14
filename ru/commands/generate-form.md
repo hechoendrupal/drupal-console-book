@@ -1,21 +1,23 @@
 # generate:form
-The **generate:form** command Generate a new "FormBase"
+Генерировать новую "%s"
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:form [options] 
+drupal generate:form [options]
+gf
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
---class | The form class name
---form-id | The Form id
+--class | Название класса формы
+--form-id | Идентификатор формы
 --services | Загрузка сервисов из контейнера.
+--config-file | Add a config file
 --inputs | Создание полей ввода в форме.
---routing | Update routing
---menu_link_gen | commands.generate.form.options.menu_link_gen
---menu_link_title | commands.generate.form.options.menu_link_title
---menu_parent | commands.generate.form.options.menu_parent
---menu_link_desc | commands.generate.form.options.menu_link_desc
+--path | Enter the form path
+--menu-link-gen | Generate a menu link
+--menu-link-title | A title for the menu link
+--menu-parent | Menu parent
+--menu-link-desc | A description for the menu link

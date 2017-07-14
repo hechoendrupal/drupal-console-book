@@ -1,13 +1,13 @@
 # views:enable
 Activează un View
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal views:enable [arguments]
-$ ve  
+drupal views:enable [arguments]
+ve
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 view-id | commands.views.debug.arguments.view-id

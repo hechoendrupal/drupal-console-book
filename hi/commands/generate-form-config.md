@@ -1,14 +1,15 @@
 # generate:form:config
 commands.generate.form.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:form:config [options]
-$ gfc  
+drupal generate:form:config [options]
+gf
+gfc
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | फॉर्म क्लास का नाम

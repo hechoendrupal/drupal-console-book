@@ -1,13 +1,13 @@
 # image:styles:flush
 Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal image:styles:flush [arguments]
-$ isf  
+drupal image:styles:flush [arguments]
+isf
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 styles | Nombre del estilo de imagen.

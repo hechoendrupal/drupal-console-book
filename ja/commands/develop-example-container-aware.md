@@ -1,7 +1,7 @@
 # develop:example:container:aware
 
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal develop:example:container:aware
+drupal develop:example:container:aware
 ```

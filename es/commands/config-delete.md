@@ -1,20 +1,20 @@
 # config:delete
 Eliminar configuración
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:delete [arguments]
-$ cd  
+drupal config:delete [arguments]
+cd
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 type | Type de configuration.
 name | Nombre de la configuración.
 
-## Ejemplos
+## application.gitbook.messages.examples
 * Provide a config type and a config name
 ```
-$ drupal config:delete active all
+drupal config:delete active all
 ```

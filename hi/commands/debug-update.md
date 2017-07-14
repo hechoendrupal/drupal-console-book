@@ -1,8 +1,8 @@
 # debug:update
 अनुप्रयोग के उपलब्ध नवीनीकरणो को दिखाएँ
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:update
-$ du  
+drupal debug:update
+du
 ```

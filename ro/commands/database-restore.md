@@ -1,26 +1,25 @@
 # database:restore
 Restabilește structura și conținutul bazei de date MySQL și ale tabelelor acesteia
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:restore [arguments] [options]
-$ dbr  
+drupal database:restore [arguments] [options]
+dbr
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --file | Numele fișierului pentru backup-ul bazei dvs. de date
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 database | Cheia bazei de date din fișierul settings.php
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Restore the database file dump to the database default or another one specified
 ```
-$ drupal database:restore \
+drupal database:restore \
   --file='/srv/dump/db.sql'
-
 ```

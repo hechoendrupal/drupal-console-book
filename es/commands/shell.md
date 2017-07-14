@@ -1,7 +1,7 @@
 # shell
 Abre una shell que provee un REPL (Read–Eval–Print-Loop) interactiv0.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal shell
+drupal shell
 ```

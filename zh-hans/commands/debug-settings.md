@@ -1,8 +1,8 @@
 # debug:settings
-列出用户Drupal控制台设置.
+列出使用者的 Drupal Console 設置
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:settings
-$ dse  
+drupal debug:settings
+dse
 ```

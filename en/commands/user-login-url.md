@@ -1,18 +1,19 @@
 # user:login:url
 Returns a one-time user login url.
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal user:login:url [arguments]
 ulu
+uslu
 ```
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 user-id | User ID.
 
-## Examples
+## application.gitbook.messages.examples
 * Get one time login url for user id 1
 ```
 drupal user:login:url  1

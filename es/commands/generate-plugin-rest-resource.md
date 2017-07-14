@@ -1,14 +1,14 @@
 # generate:plugin:rest:resource
 Genera un plugin de recurso rest
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:rest:resource [options]
-$ gprr  
+drupal generate:plugin:rest:resource [options]
+gprr
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase del plugin de recurso rest

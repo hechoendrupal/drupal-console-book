@@ -1,14 +1,14 @@
 # user:password:hash
 सरल पासवर्ड से हैश उत्पन्न करें।
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:password:hash [arguments]
-$ uph  
-$ usph  
+drupal user:password:hash [arguments]
+uph
+usph
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 password | पासवर्ड(स) टेक्स्ट फॉर्मेट में

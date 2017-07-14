@@ -1,14 +1,14 @@
 # generate:plugin:type:yaml
 Tạo một plugin với Yaml discovery
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:type:yaml [options]
-$ gpty  
+drupal generate:plugin:type:yaml [options]
+gpty
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Tên module.
 --class | Tên lớp kiểu plugin

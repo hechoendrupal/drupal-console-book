@@ -1,14 +1,14 @@
 # config:export:single
 Exporta configuración como fichero yml.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:export:single [options]
-$ ces  
+drupal config:export:single [options]
+ces
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --name | commands.config.export.single.options.name
 --directory | commands.config.export.arguments.directory
@@ -18,17 +18,16 @@ Opción | Detalles
 --remove-uuid | Si se utiliza, la configuración será exportada sin clave uuid.
 --remove-config-hash | Si se utiliza, la configuración será exportada sin la clave hash por defecto del sitio.
 
-## Ejemplos
+## application.gitbook.messages.examples
 * Provide config settings name to be exported
 ```
-$ drupal config:export:single \
+drupal config:export:single \
   --name=config.settings.name
 ```
 * if uuid and/or config hashes will be removed.
 ```
-$ drupal config:export:single \
+drupal config:export:single \
   --name=config.settings.name \
   --remove-uuid \
   --remove-config-hash
-
 ```

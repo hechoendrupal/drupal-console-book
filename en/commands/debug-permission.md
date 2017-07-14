@@ -1,18 +1,18 @@
 # debug:permission
 Displays all user permissions.
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal debug:permission [arguments]
 dp
 ```
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 role | User role
 
-## Examples
+## application.gitbook.messages.examples
 * Displays all the permissions availables on the site
 ```
 drupal debug:permission

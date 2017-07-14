@@ -1,14 +1,25 @@
 # config:edit
-The **config:edit** command Редактирование выбранной конфигурации.
+Редактирование выбранной конфигурации.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:edit [arguments] 
-$ cdit  
+drupal config:edit [arguments]
+ced
+cdit
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 config-name | Имя конфигурации.
 editor | Редактор.
+
+## application.gitbook.messages.examples
+* Edit system cron configurations with "vim" (default editor).
+```
+drupal config:edit system.cron
+```
+* Edit system cron configurations with "gedit".
+```
+drupal config:edit system.cron gedit
+```

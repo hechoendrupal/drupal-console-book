@@ -1,8 +1,8 @@
 # debug:update
 Exibir atualizações necessários para a aplicação
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:update
-$ du  
+drupal debug:update
+du
 ```

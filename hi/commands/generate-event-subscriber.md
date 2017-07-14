@@ -1,14 +1,14 @@
 # generate:event:subscriber
 एक घटना ग्राहक उत्पन्न करें
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:event:subscriber [options]
-$ ges  
+drupal generate:event:subscriber [options]
+ges
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | मोड्यूल का नाम।
 --name | commands.generate.service.options.name

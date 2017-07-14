@@ -1,13 +1,13 @@
 # debug:permission
 Muestra todos los permisos y además lista todos los permisos de un especifico rol de usuario.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:permission [arguments]
-$ dp  
+drupal debug:permission [arguments]
+dp
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 role | Rol de usuario

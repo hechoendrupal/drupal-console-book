@@ -1,14 +1,14 @@
 # generate:plugin:type:annotation
 Genera un tipo de plugin con descubrimiento de anotaciones
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:type:annotation [options]
-$ gpta  
+drupal generate:plugin:type:annotation [options]
+gpta
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase del tipo de plugin

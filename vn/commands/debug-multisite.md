@@ -1,8 +1,8 @@
 # debug:multisite
 Liệt kê tất cả các multisites đang có sẵn trong hệ thống
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:multisite
-$ dmu  
+drupal debug:multisite
+dmu
 ```

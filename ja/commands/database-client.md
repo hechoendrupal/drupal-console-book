@@ -1,12 +1,19 @@
 # database:client
 データベースクライアントを起動
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:client [arguments]
+drupal database:client [arguments]
+dbc
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 database | settings.phpのデータベースのキー
+
+## application.gitbook.messages.examples
+* Launch the default client or could launch another regarding the specification on the argument
+```
+drupal database:client <database>
+```

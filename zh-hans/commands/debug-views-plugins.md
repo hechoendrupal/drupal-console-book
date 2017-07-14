@@ -1,13 +1,13 @@
 # debug:views:plugins
-显示当前应用的视图插件
+顯示目前網站應用的 Views 外掛
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:views:plugins [arguments]
-$ dvp  
+drupal debug:views:plugins [arguments]
+dvp
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-type | 通过类型过滤视图插件
+type | 依類型篩選 Views 外掛

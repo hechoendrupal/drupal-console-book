@@ -1,7 +1,7 @@
 # extend:example:two
 Drupal Console extend example
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal extend:example:two
+drupal extend:example:two
 ```

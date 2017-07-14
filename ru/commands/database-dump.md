@@ -1,17 +1,31 @@
 # database:dump
-The **database:dump** command Дамп структуры и контента MySQL БД и таблиц
+Дамп структуры и содержимого базы данных
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:dump [arguments] [options] 
+drupal database:dump [arguments] [options]
+dbdu
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---file | commands.database.dump.option.file
+--file | Имя файла резервной копии базы данных
+--gz | Pass this option if you want the sql result file gzipped
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-database | Ключ БД из settings.php
+database | Ключ базы данных из settings.php
+
+## application.gitbook.messages.examples
+* Dump default database or the one specified on the argument
+```
+drupal database:dump \
+  <database>
+```
+* Dump in gz compressed format
+```
+drupal database:dump \
+  --gz
+```

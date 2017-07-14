@@ -1,19 +1,19 @@
 # help
 コマンドのヘルプを表示する
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal help [arguments] [options]
+drupal help [arguments] [options]
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --xml | XMLとして出力する
 --raw | Rawレベルのコマンドとして出力する
 --format | 出力フォーマット (txt, xml, json, or md)
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-command_name | コマンド名
+command_name | commands.help.arguments.command-name

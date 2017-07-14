@@ -1,13 +1,13 @@
 # debug:migrate
 Muestra la migración actual disponible para la aplicación
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:migrate [arguments]
-$ mid  
+drupal debug:migrate [arguments]
+mid
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 tag | Etiqueta de migración

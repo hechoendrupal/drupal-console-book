@@ -1,14 +1,14 @@
 # generate:plugin:fieldtype
 Generate field type plugin.
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:fieldtype [options]
-$ gpft  
+drupal generate:plugin:fieldtype [options]
+gpft
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --class | Plugin class name

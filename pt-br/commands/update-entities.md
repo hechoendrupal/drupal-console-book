@@ -1,8 +1,8 @@
 # update:entities
 Aplicando atualização de entidades
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal update:entities
-$ upe  
+drupal update:entities
+upe
 ```

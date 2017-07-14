@@ -1,14 +1,14 @@
 # generate:plugin:rulesaction
 Generate a plugin rule action
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:plugin:rulesaction [options]
 gpra
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
@@ -18,7 +18,7 @@ Option | Details
 --category | Plugin category
 --context | Plugin context
 
-## Examples
+## application.gitbook.messages.examples
 * Generate a user rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
 ```
 drupal generate:plugin:rulesaction  \

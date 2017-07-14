@@ -1,12 +1,20 @@
 # database:connect
 データベースクライアントを起動
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:connect [arguments]
+drupal database:connect [arguments]
+dbco
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 database | settings.phpのデータベースのキー
+
+## application.gitbook.messages.examples
+* Connects to an specified database, or the default if not arguments passed
+```
+drupal database:connect \
+  <database>
+```

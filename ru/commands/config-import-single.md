@@ -1,14 +1,27 @@
 # config:import:single
-The **config:import:single** command Импорт выбранной конфигурации.
+Импорт выбранной конфигурации.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:import:single [arguments] 
-$ cis  
+drupal config:import:single [options]
+cis
 ```
 
-## Доступные параметры
-Параметр | Описание
----------|-------------
-config-name | Имя конфигурации.
-input-file | Путь к импортируемым файлам.
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
+-------|-------------
+--file | The file(s) name or file(s) absolute path to import
+--directory | Путь к директории для импорта конфигурации.
+
+## application.gitbook.messages.examples
+* Providing a file option using full path.
+```
+drupal config:import:single \
+  --file="/path/to/file/block.block.default_block.yml"
+```
+* Providing file and directory options
+```
+drupal config:import:single  \
+  --file="block.block.default_block.yml" \
+  --directory="/path/to/directory"
+```

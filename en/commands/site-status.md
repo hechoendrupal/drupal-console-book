@@ -1,18 +1,18 @@
 # site:status
 View current Drupal Installation status
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal site:status [options]
 ss
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --format | commands.site.status.options.format
 
-## Examples
+## application.gitbook.messages.examples
 * Get drupal installation status specifying the output format as table
 ```
 drupal site:status  \

@@ -1,23 +1,23 @@
 # debug:router
 Muestra las rutas actuales de la aplicación o la información detallada de una ruta en particular
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:router [arguments]
-$ dr  
+drupal debug:router [arguments]
+dr
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 route-name | Nombres de ruta
 
-## Ejemplos
+## application.gitbook.messages.examples
 * Muestra todas las rutas disponibles en la aplicación
 ```
-$ drupal rod
+drupal rod
 ```
 * Muestra la información detallada de la ruta user.page (/user)
 ```
-$ drupal rod user.page
+drupal rod user.page
 ```

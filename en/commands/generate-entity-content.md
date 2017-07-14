@@ -1,14 +1,15 @@
 # generate:entity:content
 Generate a new content entity
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:entity:content [options]
 geco
+gect
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --entity-class | The content entity class
@@ -19,7 +20,7 @@ Option | Details
 --is-translatable | Content entity translatable
 --revisionable | commands.generate.entity.content.options.revisionable
 
-## Examples
+## application.gitbook.messages.examples
 * Generate a content entity specifying the module, the entity class, the entity name, its path and label
 ```
 drupal generate:entity:content  \

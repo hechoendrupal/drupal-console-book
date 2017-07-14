@@ -1,8 +1,8 @@
 # debug:queue
 Muestra las colas de su aplicación
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:queue
-$ dq  
+drupal debug:queue
+dq
 ```

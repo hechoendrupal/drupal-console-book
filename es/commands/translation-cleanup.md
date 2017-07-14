@@ -1,14 +1,14 @@
 # translation:cleanup
 Ficheros de limpieza de traducción
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal translation:cleanup [arguments]
-$ tc  
+drupal translation:cleanup [arguments]
+tc
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 language | Idioma al que hacer limpieza de sus ficheros contra el inglés
 library | commands.translation.cleanup.arguments.library

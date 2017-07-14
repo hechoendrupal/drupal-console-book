@@ -1,18 +1,18 @@
 # debug:rest
-显示当前 REST 资源
+列出網站應用中的 REST 資源
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:rest [arguments] [options]
-$ rede  
+drupal debug:rest [arguments] [options]
+rede
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---authorization | REST 资源状态 启用 | 禁用
+--authorization | 指定 REST 資源狀態：enabled | disabled
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-resource-id | REST 资源 ID
+resource-id | REST ID

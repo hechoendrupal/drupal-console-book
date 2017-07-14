@@ -1,13 +1,14 @@
 # generate:plugin:fieldwidget
-The **generate:plugin:fieldwidget** command Generate field widget plugin.
+Generate field widget plugin.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:fieldwidget [options] 
+drupal generate:plugin:fieldwidget [options]
+gpfw
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

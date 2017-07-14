@@ -1,14 +1,13 @@
 # site:new
-The **site:new** command Create a new Drupal project
+Download a new Drupal project
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:new [arguments] 
-$ sn  
+drupal site:new [options]
 ```
 
-## Доступные параметры
-Параметр | Описание
----------|-------------
-directory | Directory when downloading Drupal
-version | Specific Drupal version to download
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
+-------|-------------
+--repository | repository
+--directory | directory

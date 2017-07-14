@@ -1,14 +1,15 @@
 # generate:entity:content
 Generate a new content entity
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:entity:content [options]
-$ gect  
+drupal generate:entity:content [options]
+geco
+gect
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --entity-class | The content entity class
@@ -17,3 +18,4 @@ $ gect
 --label | The label
 --has-bundles | Entity has bundles
 --is-translatable | Content entity translatable
+--revisionable | commands.generate.entity.content.options.revisionable

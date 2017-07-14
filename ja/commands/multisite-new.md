@@ -1,18 +1,19 @@
 # multisite:new
 Sets up the files for a new multisite install.
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal multisite:new [arguments] [options]
+drupal multisite:new [arguments] [options]
+mun
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---site-uri | Site URI to add to sites.php.
---copy-install | Copies existing site from the default install.
+--copy-default | Copies existing site from the default install.
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-sites-subdir | Name of directory under 'sites' which should be created.
+directory | Name of directory under 'sites' which should be created.
+uri | Site URI to add to sites.php.

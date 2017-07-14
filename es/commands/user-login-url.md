@@ -1,14 +1,14 @@
 # user:login:url
 Crea una url de login de usuario de uso único.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:login:url [arguments]
-$ ulu  
-$ uslu  
+drupal user:login:url [arguments]
+ulu
+uslu
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 user-id | Id de usuario.

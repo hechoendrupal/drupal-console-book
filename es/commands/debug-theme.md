@@ -1,13 +1,13 @@
 # debug:theme
 Despliega los temas actuales para la aplicación
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:theme [arguments]
-$ dt  
+drupal debug:theme [arguments]
+dt
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 theme | Tema específico a depurar

@@ -1,13 +1,14 @@
 # user:delete
 ユーザーを削除
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:delete [options]
+drupal user:delete [options]
+ud
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --user-id | 削除するユーザーID
 --roles | 削除するユーザーに関連付けられたロール

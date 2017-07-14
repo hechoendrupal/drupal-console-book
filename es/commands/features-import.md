@@ -1,18 +1,18 @@
 # features:import
 Importar módulo de configuración.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal features:import [arguments] [options]
-$ fei  
+drupal features:import [arguments] [options]
+fei
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --bundle | Nombre del bundle
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 packages | Nombre del paquete

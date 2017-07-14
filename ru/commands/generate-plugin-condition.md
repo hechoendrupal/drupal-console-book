@@ -1,13 +1,15 @@
 # generate:plugin:condition
-The **generate:plugin:condition** command Generate a plugin condition.
+Generate a plugin condition.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:condition [options] 
+drupal generate:plugin:condition [options]
+gpco
+gpc
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --class | Plugin condition class name

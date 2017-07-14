@@ -1,13 +1,14 @@
 # generate:plugin:migrate:source
 Genera un plugin de migración de fuentes
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:migrate:source [options]
+drupal generate:plugin:migrate:source [options]
+gpms
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase del plugin

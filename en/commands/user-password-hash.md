@@ -1,18 +1,19 @@
 # user:password:hash
 Generate a hash from a plaintext password.
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal user:password:hash [arguments]
 uph
+usph
 ```
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 password | Password(s) in text format
 
-## Examples
+## application.gitbook.messages.examples
 * Get hash of the word "p455w0rd"
 ```
 drupal user:password:hash  p455w0rd

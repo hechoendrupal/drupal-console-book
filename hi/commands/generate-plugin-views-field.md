@@ -1,14 +1,14 @@
 # generate:plugin:views:field
 विशेष प्लगिन व्यू खाना उत्पन्न करें
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:views:field [options]
-$ gpvf  
+drupal generate:plugin:views:field [options]
+gpvf
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | व्यू प्लगिन खाना क्लास नाम

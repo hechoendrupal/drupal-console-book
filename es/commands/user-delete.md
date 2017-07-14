@@ -1,14 +1,14 @@
 # user:delete
 Eliminar usuarios del sitio
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:delete [options]
-$ ud  
+drupal user:delete [options]
+ud
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --user-id | Id de usuario que será eliminado
 --roles | Roles asociados a los usuarios que serán eliminados

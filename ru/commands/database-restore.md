@@ -1,17 +1,25 @@
 # database:restore
-The **database:restore** command Восстановление структуры и контента MySQL БД и таблиц
+Восстановление структуры и содержимого базы данных
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:restore [arguments] [options] 
+drupal database:restore [arguments] [options]
+dbr
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---file | Имя файла бекапа вашей БД
+--file | Имя файла резервной копии базы данных
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-database | Ключ БД из settings.php
+database | Ключ базы данных из settings.php
+
+## application.gitbook.messages.examples
+* Restore the database file dump to the database default or another one specified
+```
+drupal database:restore \
+  --file='/srv/dump/db.sql'
+```

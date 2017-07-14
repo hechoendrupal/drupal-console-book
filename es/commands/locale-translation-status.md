@@ -1,12 +1,12 @@
 # locale:translation:status
 Lista de traducciones disponibles actualizadas
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal locale:translation:status [arguments]
+drupal locale:translation:status [arguments]
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 language | Idioma por ejemplo es o Español

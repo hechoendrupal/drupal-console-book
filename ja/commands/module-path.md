@@ -1,17 +1,18 @@
 # module:path
 モジュールの相対パスまたは絶対パスを返す
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal module:path [arguments] [options]
+drupal module:path [arguments] [options]
+mop
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --absolute | 絶対パスを返す
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 module | モジュール名 (システム内部名称)

@@ -1,14 +1,14 @@
 # database:query
 Ejecuta una sentencia SQL directamente como argumento
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:query [arguments] [options]
-$ dbq  
+drupal database:query [arguments] [options]
+dbq
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --quick | No cachear cada resultado de query, imprimir cada fila como se recive
 --debug | Imprime información de debug, memoria y estaísticas de uso de CPU
@@ -18,15 +18,14 @@ Opción | Detalles
 --vertical | Imprimir el las filas del resultado de la query verticalmente
 --batch | Imprimir los resultados usando el tabulador como separador de columnas, con cada fila en una nueva línea. Con esta opción mysql no usa el archivo de historia
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 query | La sentencia SQL que será ejecutada
 database | Base de datos en el settings.php
 
-## Ejemplos
+## application.gitbook.messages.examples
 * Send a database query
 ```
-$ drupal database:query 'select * from node limit 0,1'
-
+drupal database:query 'select * from node limit 0,1'
 ```

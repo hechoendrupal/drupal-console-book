@@ -1,8 +1,9 @@
 # router:rebuild
 ルートを再構築する
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal router:rebuild
-$ ror  
+drupal router:rebuild
+rr
+ror
 ```

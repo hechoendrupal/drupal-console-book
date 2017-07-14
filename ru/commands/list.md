@@ -1,19 +1,19 @@
 # list
-The **list** command Список команд
+Списки всех доступных команд
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal list [arguments] [options] 
+drupal list [arguments] [options]
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---xml | Вывести список в XML формате
---raw | Вывести список в исходном формате
+--xml | Для вывода списка в формате XML
+--raw | Для вывода списка команд в исходном формате
 --format | Формат вывода (txt, xml, json, или md)
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 namespace | Пространство имен

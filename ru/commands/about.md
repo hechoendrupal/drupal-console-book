@@ -1,7 +1,7 @@
 # about
-Команда **about** отображает базовую информацию о Drupal Console
+Отображение основных сведений о проекте Drupal Console
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal about
+drupal about
 ```

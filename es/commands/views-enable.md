@@ -1,13 +1,13 @@
 # views:enable
 Habilita una vista
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal views:enable [arguments]
-$ ve  
+drupal views:enable [arguments]
+ve
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 view-id | commands.views.debug.arguments.view-id

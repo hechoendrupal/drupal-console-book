@@ -1,14 +1,14 @@
 # debug:database:log
 Hiển thị các dấu sự kiện hiện tại cho ứng dụng
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:database:log [arguments] [options]
-$ dbb  
+drupal debug:database:log [arguments] [options]
+dbb
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --type | Filter events by a specific type
 --severity | Filter events by a specific level of severity
@@ -18,7 +18,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --offset | Điểm bắt đầu của một giới hạn
 --yml | Print in a yml style
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 event-id | DBlog sự kiện ID

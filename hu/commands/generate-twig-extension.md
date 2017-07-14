@@ -1,13 +1,14 @@
 # generate:twig:extension
 Generate a Twig extension.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:twig:extension [options]
+drupal generate:twig:extension [options]
+gte
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | A modul neve.
 --name | Twig Extension name

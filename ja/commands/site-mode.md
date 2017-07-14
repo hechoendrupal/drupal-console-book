@@ -1,13 +1,13 @@
 # site:mode
 システムのパフォーマンス設定を切り替える
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:mode [arguments]
-$ smo  
+drupal site:mode [arguments]
+smo
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 environment | Environment name [dev, prod]

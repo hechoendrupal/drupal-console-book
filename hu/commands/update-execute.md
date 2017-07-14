@@ -1,15 +1,15 @@
 # update:execute
 Egy modul adott Update N függvényének végrehajtása, vagy az összes végrehajtása
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal update:execute [arguments]
-$ upex  
-$ upe  
+drupal update:execute [arguments]
+upex
+upe
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 module | A modul neve.
 update-n | Végrehajtandó adott Update N függvény

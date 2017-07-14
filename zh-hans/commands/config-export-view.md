@@ -1,34 +1,33 @@
 # config:export:view
-导出视图
+Export a view in YAML format inside a provided module to reuse in other website.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:export:view [arguments] [options]
-$ cev  
+drupal config:export:view [arguments] [options]
+cev
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---module | 模块名称
---optional-config | 导出视图作为模块的可选配置
---include-module-dependencies | 在模块的 info 文件中包含相关依赖模块
+--module | The Module name.
+--optional-config | Export view as an optional YAML configuration in your module
+--include-module-dependencies | Include module dependencies in module info YAML file
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-view-id | 视图 ID
+view-id | View ID
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Provide a view id
 ```
-$ drupal config:export:view viewid
+drupal config:export:view viewid
 ```
 * You can provide the interactive values like parameter.
 ```
-$ drupal config:export:view viewid \
+drupal config:export:view viewid \
   --module="modulename" \
   --optional-config \
   --include-module-dependencies
-
 ```

@@ -1,14 +1,14 @@
 # generate:theme
 Genera un tema.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:theme [options]
-$ gt  
+drupal generate:theme [options]
+gt
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --theme | commands.generate.theme.options.module
 --machine-name | Nombre máquina (sólo minúsculas y guión bajo)

@@ -1,8 +1,9 @@
 # router:rebuild
-The **router:rebuild** command Rebuild routes for the application
+Отображает маршруты для приложения
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal router:rebuild 
-$ ror  
+drupal router:rebuild
+rr
+ror
 ```

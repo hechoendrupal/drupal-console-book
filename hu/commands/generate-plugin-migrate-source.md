@@ -1,13 +1,14 @@
 # generate:plugin:migrate:source
 Generate a migrate source plugin
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:migrate:source [options]
+drupal generate:plugin:migrate:source [options]
+gpms
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | A modul neve.
 --class | Plugin class name

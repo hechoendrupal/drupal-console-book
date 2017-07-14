@@ -1,17 +1,19 @@
 # translation:sync
-翻訳ファイルを同期する
+commands.translation.sync.description
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal translation:sync [arguments] [options]
+drupal translation:sync [arguments] [options]
+tsy
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --file | commands.translation.stats.options.file
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-language | 英語のソースファイルに対して同期する言語
+language | commands.translation.sync.arguments.language
+library | commands.translation.sync.arguments.library

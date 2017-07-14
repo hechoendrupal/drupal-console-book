@@ -1,7 +1,7 @@
 # about
 Displays basic information about Drupal Console project
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal about
 ```

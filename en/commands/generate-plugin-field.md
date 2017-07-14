@@ -1,14 +1,14 @@
 # generate:plugin:field
 Generate field type, widget and formatter plugins.
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:plugin:field [options]
 gpf
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --type-class | Field type plugin class name
@@ -25,7 +25,7 @@ Option | Details
 --default-widget | Default field widget of the field type plugin
 --default-formatter | Default field formatter of field type plugin
 
-## Examples
+## application.gitbook.messages.examples
 * Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)
 ```
 drupal generate:plugin:field  \

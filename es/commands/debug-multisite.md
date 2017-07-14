@@ -1,8 +1,8 @@
 # debug:multisite
 Lista todos los sitios múltiples disponibles en el sistema
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:multisite
-$ dmu  
+drupal debug:multisite
+dmu
 ```

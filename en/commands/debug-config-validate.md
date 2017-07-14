@@ -1,24 +1,24 @@
 # debug:config:validate
 Validate a schema implementation before a module is installed.
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal debug:config:validate [arguments] [options]
 dcv
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --schema-name | 
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 filepath | 
 schema-filepath | 
 
-## Examples
+## application.gitbook.messages.examples
 * Validates a schema
 ```
 drupal debug:config:validate \

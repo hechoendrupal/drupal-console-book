@@ -1,31 +1,32 @@
 # site:install
 Drupalプロジェクトをインストールする
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:install [arguments] [options]
-$ si  
+drupal site:install [arguments] [options]
+si
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---langcode | Drupalの言語
---db-type | インストールに使用するデータベースのタイプ
---db-file | インストールに使用するデータベースのファイル
+--langcode | commands.site.install.options.langcode
+--db-type | commands.site.install.options.db-type
+--db-file | commands.site.install.options.db-file
 --db-host | Database Host
 --db-name | Database Name
 --db-user | Database User
 --db-pass | Database Pass
 --db-prefix | Database Prefix
 --db-port | Database Port
---site-name | Drupalのサイト名
---site-mail | Drupalサイトのメールアドレス
---account-name | 管理者アカウントの名前
---account-mail | 管理者アカウントのメールアドレス
---account-pass | 管理者アカウントのパスワード
+--site-name | commands.site.install.options.site-name
+--site-mail | commands.site.install.options.site-mail
+--account-name | commands.site.install.options.account-name
+--account-mail | commands.site.install.options.account-mail
+--account-pass | commands.site.install.options.account-pass
+--force | commands.site.install.options.force
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 profile | Drupalのプロファイル

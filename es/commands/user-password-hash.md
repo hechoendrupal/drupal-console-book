@@ -1,14 +1,14 @@
 # user:password:hash
 Crea un hash a partir de una contraseña en texto plano.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:password:hash [arguments]
-$ uph  
-$ usph  
+drupal user:password:hash [arguments]
+uph
+usph
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 password | Contraseña(s) en formato texto

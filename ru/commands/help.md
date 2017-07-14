@@ -1,19 +1,19 @@
 # help
-The **help** command Displays help for a command
+Показывает справку для команды
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal help [arguments] [options] 
+drupal help [arguments] [options]
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---xml | To output list as XML
---raw | To output raw command list
---format | The output format (txt, xml, json, or md)
+--xml | Для вывода списка в формате XML
+--raw | Для вывода списка команд в исходном формате
+--format | Формат вывода (txt, xml, json, или md)
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-command_name | The command name
+command_name | commands.help.arguments.command-name

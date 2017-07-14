@@ -1,20 +1,20 @@
 # generate:authentication:provider
 Generate an Authentication Provider
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:authentication:provider [options]
 gap
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --class | Authentication Provider class
 --provider-id | Provider ID
 
-## Examples
+## application.gitbook.messages.examples
 * Generate an authentication provider specifying the module, the class and the provider id
 ```
 drupal generate:authentication:provider  \

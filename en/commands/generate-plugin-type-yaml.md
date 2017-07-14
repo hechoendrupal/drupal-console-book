@@ -1,21 +1,21 @@
 # generate:plugin:type:yaml
 Generate a plugin type with Yaml discovery
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:plugin:type:yaml [options]
 gpty
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --class | Plugin type class name
 --plugin-name | Plugin type machine name
 --plugin-file-name | Plugin file name
 
-## Examples
+## application.gitbook.messages.examples
 * Generate a plugin with Yaml discovery specifying module name, class name, plugin name and plugin file name
 ```
 drupal generate:plugin:type:yaml  \

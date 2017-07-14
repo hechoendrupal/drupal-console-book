@@ -1,7 +1,7 @@
 # develop:example
 
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal develop:example
+drupal develop:example
 ```

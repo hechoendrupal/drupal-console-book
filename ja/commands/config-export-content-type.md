@@ -1,19 +1,32 @@
 # config:export:content:type
 コンテンツタイプとフィールドをエクスポート
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:export:content:type [arguments] [options]
-$ cect  
+drupal config:export:content:type [arguments] [options]
+cect
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --optional-config | Export content type as an optional YAML configuration in your module
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 content-type | エクスポートするコンテンツタイプ
+
+## application.gitbook.messages.examples
+* Provide a content type  and module name
+```
+drupal config:export:content:type page \
+  --module="demo"
+```
+* If you want export content type provide the optional config
+```
+drupal config:export:content:type page \
+  --module="demo" \
+  --optional-config
+```

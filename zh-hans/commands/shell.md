@@ -1,7 +1,7 @@
 # shell
-Open a shell providing an interactive REPL (Read–Eval–Print-Loop).
+commands.shell.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal shell
+drupal shell
 ```

@@ -1,17 +1,19 @@
 # translation:pending
-翻訳されていない文字列を検出する
+commands.translation.pending.description
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal translation:pending [arguments] [options]
+drupal translation:pending [arguments] [options]
+tp
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---file | 翻訳されていない文字列を検出する対象のファイル名
+--file | commands.translation.pending.options.file
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-language | 翻訳されていない文字列を検出する対象の言語
+language | commands.translation.pending.arguments.language
+library | commands.translation.pending.arguments.library

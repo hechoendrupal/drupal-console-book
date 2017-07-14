@@ -1,13 +1,14 @@
 # generate:help
 Generate an implementation of hook_help()
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:help [options]
+drupal generate:help [options]
+gh
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --description | Module description

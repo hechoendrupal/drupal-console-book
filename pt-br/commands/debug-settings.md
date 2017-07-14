@@ -1,8 +1,8 @@
 # debug:settings
 Lista configurações do Drupal Console do usuário
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:settings
-$ dse  
+drupal debug:settings
+dse
 ```

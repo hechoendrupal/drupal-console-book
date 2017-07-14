@@ -1,7 +1,8 @@
 # site:statistics
-The **site:statistics** command Show the current statistics of website.
+Отобразить текущую статистику сайта.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:statistics 
+drupal site:statistics
+sst
 ```

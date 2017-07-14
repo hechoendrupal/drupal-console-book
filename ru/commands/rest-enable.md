@@ -1,13 +1,13 @@
 # rest:enable
-The **rest:enable** command Enable a rest resource for the application
+Enable a rest resource for the application
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal rest:enable [arguments] 
-$ ree  
+drupal rest:enable [arguments]
+ree
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 resource-id | Rest ID

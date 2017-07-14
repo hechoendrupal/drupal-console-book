@@ -1,14 +1,14 @@
 # generate:module
 Tạo một module.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:module [options]
-$ gm  
+drupal generate:module [options]
+gm
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Tên Module
 --machine-name | Tên máy (chỉ chữ thường và gạch dưới)

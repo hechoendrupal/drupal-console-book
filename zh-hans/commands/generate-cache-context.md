@@ -1,15 +1,16 @@
 # generate:cache:context
-Generate a cache context
+commands.generate.cache.context.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:cache:context [options]
+drupal generate:cache:context [options]
+gcc
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---module | 模块名称
---cache-context | Enter the cache context name
---class | Cache context class name
---services | 从容器中导入服务
+--module | The Module name.
+--cache-context | commands.generate.cache.context.questions.name
+--class | commands.generate.cache.context.questions.class
+--services | Load services from the container.

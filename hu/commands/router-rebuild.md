@@ -1,9 +1,9 @@
 # router:rebuild
 Az alkalmazás útvonalainak újraépítése
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal router:rebuild
-$ rr  
-$ ror  
+drupal router:rebuild
+rr
+ror
 ```

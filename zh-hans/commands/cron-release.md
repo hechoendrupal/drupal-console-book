@@ -1,16 +1,15 @@
 # cron:release
-释放定时任务锁
+Release cron system lock to run cron again
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal cron:release
-$ cror  
-$ crr  
+drupal cron:release
+cror
+crr
 ```
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Execute the cron globally
 ```
-$ drupal cron:execute
-
+drupal cron:execute
 ```

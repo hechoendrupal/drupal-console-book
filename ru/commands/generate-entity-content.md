@@ -1,14 +1,15 @@
 # generate:entity:content
-The **generate:entity:content** command Generate a new content entity
+Generate a new content entity
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:entity:content [options] 
-$ gect  
+drupal generate:entity:content [options]
+geco
+gect
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --entity-class | The content entity class
@@ -16,3 +17,5 @@ $ gect
 --base-path | The base-path for the content entity routes
 --label | The label
 --has-bundles | Entity has bundles
+--is-translatable | Content entity translatable
+--revisionable | commands.generate.entity.content.options.revisionable

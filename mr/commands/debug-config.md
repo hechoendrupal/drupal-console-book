@@ -1,0 +1,27 @@
+# debug:config
+चालू संरचना दाखवा.
+
+**application.gitbook.messages.usage:**
+```
+drupal debug:config [arguments]
+dc
+```
+
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
+---------|-------------
+name | संरचने नाव.
+
+## application.gitbook.messages.examples
+* सर्व कॉन्फिगरेशन ऑब्जेक्ट नावांची यादी करा.
+```
+drupal config:debug
+```
+* सिस्टम साइट कॉन्फिगरेशन मूल्य प्रदर्शित करा.
+```
+drupal config:debug system.site
+```
+* सर्व सिस्टम कॉन्फिगरेशन नावांची यादी करा.
+```
+drupal config:debug | grep system
+```

@@ -1,14 +1,14 @@
 # generate:plugin:block
 Generează un Plugin de tip bloc
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:block [options]
-$ gpb  
+drupal generate:plugin:block [options]
+gpb
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Numele Modulului.
 --class | Numele clasei pluginului

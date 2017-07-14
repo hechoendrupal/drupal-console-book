@@ -1,35 +1,35 @@
 # generate:doc:gitbook
-The **generate:doc:gitbook** command Generate documentations for Commands
+commands.generate.doc.gitbook.description
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:doc:gitbook [arguments] [options] 
-$ gdg  
+drupal generate:doc:gitbook [arguments] [options]
+gdg
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---path | The path to render the documentation
---learning | Генерация подробного вывода
---help | Показать эту подсказку
---quiet | Не показывать никаких сообщений
---verbose | Увеличение подробности вывода: 1 - стандартный вывод, 2 - более подробный вывод и 3 - отладочный вывод
---version | Показать версию этого приложения
---ansi | Принудительный ANSI вывод
---no-ansi | Отключить ANSI вывод
---no-interaction | Не задавать никакие интерактивные вопросы
---env | Имя среды окружения
---root | Указать корневую директорию Drupal для выполнения команд
---no-debug | Выключение режима отладки
---generate-chain | Показывает парамметры и аргументы выполняемой команды как yaml вывод для передачи по цепочке
---generate-inline | Показывает парамметры и аргументы выполняемой команды одной строкой
---generate-doc | Показывает парамметры и аргументы выполняемой команды как markdown
---target | Имя сайта, с которым вы хотите взаимодействовать (для локального или удаленного сайтов)
---uri | URI сайта Drupal (в случае мультисайтингового окружения или запуска на альтернативном порту)
---yes | Пропустить подтверждение и продолжить
+--path | commands.generate.doc.gitbook.options.path
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | Display this application version
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
+--env | The Environment name
+--root | Define the Drupal root to be used in command execution
+--debug | application.options.debug
+--learning | Generate a verbose code output
+--generate-chain | Shows command options and arguments as yaml output to be used in chain command
+--generate-inline | Shows command options and arguments as inline command
+--generate-doc | Shows command options and arguments as markdown
+--target | Site name you want to interact with (for local or remote sites)
+--uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
+--yes | Skip confirmation and proceed
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-command | Команда на выполнение
+command | The command to execute

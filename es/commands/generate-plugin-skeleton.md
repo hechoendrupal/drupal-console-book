@@ -1,13 +1,14 @@
 # generate:plugin:skeleton
 Generar una implementación de un esqueleto de plugin para esos plugins de Drupal Console que no tienen un generador específico
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:skeleton [options]
+drupal generate:plugin:skeleton [options]
+gps
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --plugin-id | commands.generate.plugin.options.plugin-id

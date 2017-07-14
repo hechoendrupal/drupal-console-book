@@ -1,23 +1,22 @@
 # create:vocabularies
-生成词汇表
+Create dummy vocabularies for your Drupal 8 application.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal create:vocabularies [options]
-$ crv  
+drupal create:vocabularies [options]
+crv
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---limit | 生成多少个词汇表
---name-words | 词汇表名称允许的最多单词数量
+--limit | How many vocabularies would you like to create
+--name-words | Maximum number of words in vocabulary names
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Provide the number of vocabularies to create and maximum number of words in vocabulary names
 ```
-$ drupal create:vocabularies \
+drupal create:vocabularies \
   --limit="5" \
   --name-words="5"
-
 ```

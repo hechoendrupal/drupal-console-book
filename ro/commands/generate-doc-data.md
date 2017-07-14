@@ -1,13 +1,13 @@
 # generate:doc:data
 commands.generate.doc.data.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:doc:data [options]
-$ gdda  
+drupal generate:doc:data [options]
+gdda
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --file | commands.generate.doc.data.options.file

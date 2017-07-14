@@ -1,33 +1,33 @@
 # database:log:clear
-清除事件日志
+Remove events from DBLog table, filters are available
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:log:clear [arguments] [options]
-$ dblc  
+drupal database:log:clear [arguments] [options]
+dblc
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---type | 用指定类型过滤事件
---severity | 用指定的严重等级过滤事件
---user-id | 用指定的用户ID过滤事件
+--type | Filter events by a specific type
+--severity | Filter events by a specific level of severity
+--user-id | Filter events by a specific user id
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-event-id | DBLog 事件 ID
+event-id | DBLog event ID
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Clear the database log from DBLog table
 ```
-$ drupal database:log:clear \
+drupal database:log:clear \
   <database>
 ```
 * Clear the database log from DBLog table using filters
 ```
-$ drupal database:log:clear \
+drupal database:log:clear \
   <database> \
   --type=TYPE \
   --severity=SEVERITY

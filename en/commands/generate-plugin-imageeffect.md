@@ -1,14 +1,14 @@
 # generate:plugin:imageeffect
 Generate image effect plugin.
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:plugin:imageeffect [options]
 gpie
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
@@ -16,7 +16,7 @@ Option | Details
 --plugin-id | Plugin id
 --description | Plugin Description
 
-## Examples
+## application.gitbook.messages.examples
 * Generate a image effect plugin specifying the module name, the class, its label, the plugin id and a description
 ```
 drupal generate:plugin:imageeffect  \

@@ -1,13 +1,13 @@
 # debug:update
 Displays current updates available for the application
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal debug:update
 du
 ```
 
-## Examples
+## application.gitbook.messages.examples
 * List of pending updates
 ```
 drupal debug:update

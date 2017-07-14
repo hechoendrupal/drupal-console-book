@@ -1,14 +1,14 @@
 # debug:user
 Muestra los usuarios actuales del sitio
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:user [options]
-$ dus  
+drupal debug:user [options]
+dus
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --uid | Filtra la lista resultante por uids [entre comillas separados por espacios]
 --username | Filtra la lista resultante por nombres de usuario [entre comillas separados por espacios]

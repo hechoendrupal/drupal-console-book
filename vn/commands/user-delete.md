@@ -1,14 +1,14 @@
 # user:delete
 Xóa người dùng cho ứng dụng
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:delete [options]
-$ ud  
+drupal user:delete [options]
+ud
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --user-id | User id to be deleted
 --roles | Roles associated to users to be deleted

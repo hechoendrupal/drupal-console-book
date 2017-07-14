@@ -1,21 +1,21 @@
 # user:create
-Create users for the application
+commands.user.create.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:create [arguments] [options]
-$ uc  
+drupal user:create [arguments] [options]
+uc
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---roles | User roles
---email | User email
---status | User status
+--roles | commands.user.create.options.roles
+--email | commands.user.create.options.email
+--status | commands.user.create.options.status
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-username | User name to be created
-password | User password
+username | commands.user.create.options.username
+password | commands.user.create.options.password

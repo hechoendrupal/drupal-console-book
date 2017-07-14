@@ -1,13 +1,14 @@
 # generate:cache:context
 Generate a cache context
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:cache:context [options]
+drupal generate:cache:context [options]
+gcc
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Numele Modulului.
 --cache-context | Enter the cache context name

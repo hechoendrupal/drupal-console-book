@@ -1,13 +1,14 @@
 # generate:post:update
 commands.generate.post:update.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:post:update [options]
+drupal generate:post:update [options]
+gpu
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | O nome do módulo.
 --post-update-name | Post Update Name

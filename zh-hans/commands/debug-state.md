@@ -1,12 +1,13 @@
 # debug:state
-显示当前状态的键(s)
+列出現有系統狀態鍵名
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:state [arguments]
+drupal debug:state [arguments]
+dst
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-key | 状态的键
+key | 要查詢的系統狀態鍵名。

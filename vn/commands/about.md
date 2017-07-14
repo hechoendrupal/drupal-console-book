@@ -1,7 +1,7 @@
 # about
 Hiển thị thông tin cơ bản về dự án Drupal Console
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal about
+drupal about
 ```

@@ -1,13 +1,13 @@
 # module:dependency:install
 commands.module.install.dependencies.description
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal module:dependency:install [arguments]
-$ modi  
+drupal module:dependency:install [arguments]
+modi
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 module | El módulo o los módulos que serán habilitados deben estar separados por un espacio

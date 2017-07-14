@@ -1,14 +1,14 @@
 # generate:plugin:rulesaction
 Szabályművelet bővítmény létrehozása
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:rulesaction [options]
-$ gpra  
+drupal generate:plugin:rulesaction [options]
+gpra
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | A modul neve.
 --class | Bővítményosztály neve

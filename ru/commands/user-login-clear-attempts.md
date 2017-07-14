@@ -1,13 +1,14 @@
 # user:login:clear:attempts
-The **user:login:clear:attempts** command Сброс неудачных попыток входа в аккаунт.
+Сброс неудачных попыток входа в аккаунт.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:login:clear:attempts [arguments] 
-$ uslca  
+drupal user:login:clear:attempts [arguments]
+ulca
+uslca
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-uid | ID пользователя.
+uid | Идентификатор пользователя.

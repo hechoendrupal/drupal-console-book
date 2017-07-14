@@ -1,23 +1,23 @@
 # cache:rebuild
-**cache:rebuild** команда очищает и пересобирает все кэши сайта.
+Перестроить и очистить весь кеш сайта.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal cache:rebuild [arguments]
-$ cr  
+drupal cache:rebuild [arguments]
+cr
 ```
 
-## Доступные аргументы
-Аргумент | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-cache | Очистить только указанный кэш
+cache | Очистить только конкретный кеш.
 
-## Примеры
-* Очистить все кэши
+## application.gitbook.messages.examples
+* Перестроить все кеши
 ```
-$ drupal cr all
+drupal cr all
 ```
-* Очистить кэш discovery
+* Перестроить кеш отображения
 ```
-$ drupal cr discovery
+drupal cr discovery
 ```

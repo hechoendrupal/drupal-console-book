@@ -1,14 +1,14 @@
 # generate:plugin:fieldformatter
 Generează extensia de formatare a câmpului.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:fieldformatter [options]
-$ gpff  
+drupal generate:plugin:fieldformatter [options]
+gpff
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Numele Modulului.
 --class | Numele clasei pentru extensie

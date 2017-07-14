@@ -1,14 +1,14 @@
 # theme:uninstall
 Desinstalar tema o temas en la aplicación
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal theme:uninstall [arguments]
-$ thu  
-$ tu  
+drupal theme:uninstall [arguments]
+thu
+tu
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 theme | commands.theme.uninstall.options.module

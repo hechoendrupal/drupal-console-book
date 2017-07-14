@@ -1,14 +1,14 @@
 # generate:module
 Generar un módulo.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:module [options]
-$ gm  
+drupal generate:module [options]
+gm
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | El nombre del módulo
 --machine-name | El nombre máquina (sólo minúsculas y guión bajo)

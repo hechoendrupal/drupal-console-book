@@ -1,13 +1,14 @@
 # views:disable
-The **views:disable** command Отключить представление
+Отключить представление
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal views:disable [arguments] 
-$ vdi  
+drupal views:disable [arguments]
+vd
+vdi
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-view-id | ID Представления
+view-id | commands.views.debug.arguments.view-id

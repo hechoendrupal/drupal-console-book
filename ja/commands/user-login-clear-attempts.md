@@ -1,13 +1,14 @@
 # user:login:clear:attempts
 アカウントのログイン試行履歴をクリア
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:login:clear:attempts [arguments]
-$ uslca  
+drupal user:login:clear:attempts [arguments]
+ulca
+uslca
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 uid | ユーザーID

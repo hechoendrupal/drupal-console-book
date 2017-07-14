@@ -1,8 +1,8 @@
 # debug:queue
-显示应用中的队列(s)
+顯示網站應用中的排程隊列
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:queue
-$ dq  
+drupal debug:queue
+dq
 ```

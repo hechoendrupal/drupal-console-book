@@ -1,21 +1,21 @@
 # config:override
 Suprascrie valoarea de configurare în configurarea activă.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:override [arguments]
-$ co  
+drupal config:override [arguments]
+co
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 name | Configuration name
 key | Cheie
 value | Valoare
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Définir la valeur de "flood" du module Contact à 10.
 ```
-$ drupal config:override contact.settings flood.limit 10
+drupal config:override contact.settings flood.limit 10
 ```

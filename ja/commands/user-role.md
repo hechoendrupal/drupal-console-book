@@ -1,13 +1,14 @@
 # user:role
 ユーザーの役割を追加・削除する
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:role [arguments]
+drupal user:role [arguments]
+ur
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 operation | commands.user.role.operation
 user | commands.user.role.user

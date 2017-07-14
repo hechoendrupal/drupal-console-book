@@ -1,14 +1,14 @@
 # site:install
 Cài đặt một dự án Drupal
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal site:install [arguments] [options]
-$ si  
+drupal site:install [arguments] [options]
+si
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --langcode | commands.site.install.options.langcode
 --db-type | commands.site.install.options.db-type
@@ -26,7 +26,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --account-pass | commands.site.install.options.account-pass
 --force | commands.site.install.options.force
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 profile | Drupal Profile sẽ được cài đặt

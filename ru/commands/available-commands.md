@@ -1,169 +1,246 @@
-# Доступные команды Drupal Console
+# application.gitbook.messages.title
 
-**Внимание:** Drupal Console команды *должны* запускаться из корневого каталога инсталляции Drupal 8.
+**application.gitbook.messages.note:** application.gitbook.messages.note-description.
 
-Drupal Console команды | Подробнее
+application.gitbook.messages.command | application.gitbook.messages.details
 ------------ | -------------
-[about](about.md) | Отображает базовую информацию о Drupal Console.
-[chain](chain.md) | Выполнение команды chain.
-[help](help.md) | Отображение помощи по командам.
-[init](init.md) | Копирование конфигурационных файлов в домашнюю папку пользователя.
-[list](list.md) | Список всех доступных команд.
-[server](server.md) | Запуск встроенного PHP веб-сервера.
+**misc**  |
+[about](about.md) | Отображение основных сведений о проекте Drupal Console
+[chain](chain.md) | Последовательное выполнение команд
+[check](check.md) | Проверка системных требований
+[exec](exec.md) | Execute an external command.
+[help](help.md) | Показывает справку для команды
+[init](init.md) | Copy configuration files to user home directory.
+[list](list.md) | Списки всех доступных команд
+[shell](shell.md) | Open a shell providing an interactive REPL (Read–Eval–Print-Loop).
+[server](server.md) | Runs PHP built-in web server
 **cache**  |
-[cache:rebuild](cache-rebuild.md) | Очистка и пересборка всех кэшей сайта.
+[cache:rebuild](cache-rebuild.md) | Перестроить и очистить весь кеш сайта.
 **config**  |
-[config:debug](config-debug.md) | Отобразить текущую конфигурацию.
-[config:edit](config-edit.md) | Редактировать указанную конфигурацию.
-[config:export](config-export.md) | Экспорт текущей конфигурации.
-[config:export:content:type](config-export-content-type.md) | Экспорт определенного типа материала и его полей.
-[config:export:single](config-export-single.md) | Экспорт единичной конфигурации в yml файл.
-[config:export:view](config-export-view.md) | Экспорт представления в YAML формат в отдельный модуль для переиспользования на других проектах.
-[config:import](config-import.md) | Импорт конфигурации в текущий сайт.
-[config:import:single](config-import-single.md) | Импорт единичной конфигурации.
-[config:override](config-override.md) | Перезаписать значение в активной конфигурации.
-**container**  |
-[container:debug](container-debug.md) | Отображение текущих сервисов сайта.
+[config:delete](config-delete.md) | Удалить конфигурацию
+[config:diff](config-diff.md) | Выводит элементы активной конфигурации, которые отличаются в сравнении с каталогом.
+[config:edit](config-edit.md) | Редактирование выбранной конфигурации.
+[config:export](config-export.md) | Экспорт текущей конфигурации приложения.
+[config:export:content:type](config-export-content-type.md) | Экспорт выбранного типа материала и его полей.
+[config:export:single](config-export-single.md) | Экспорт конфигурации в yml файл.
+[config:export:view](config-export-view.md) | Экспорт представления в YAML формат внутри модуля для повторного использования на другом сайте.
+[config:import](config-import.md) | Импорт конфигурации в текущее приложение.
+[config:import:single](config-import-single.md) | Импорт выбранной конфигурации.
+[config:override](config-override.md) | Переопределить значение конфигурации в активной конфигурации.
+[config:validate](config-validate.md) | Validate a drupal config against its schema
 **create**  |
-[create:nodes](create-nodes.md) | Создание материалов с демо-содержимым для текущего Drupal 8 сайта.
-[create:terms](create-terms.md) | Создание демо-терминов для текущего Drupal 8 сайта.
-[create:users](create-users.md) | Создание демо-пользователей для текущего Drupal 8 сайта.
-[create:vocabularies](create-vocabularies.md) | Создание демо-словарей для текущего Drupal 8 сайта.
+[create:comments](create-comments.md) | Создание фиктивных комментариев для Drupal 8.
+[create:nodes](create-nodes.md) | Создание фиктивных материалов для Drupal 8.
+[create:terms](create-terms.md) | Создание фиктивных терминов для Drupal 8.
+[create:users](create-users.md) | Создание фиктивных пользователей для Drupal 8.
+[create:vocabularies](create-vocabularies.md) | Создание фиктивных словарей для Drupal 8.
 **cron**  |
-[cron:debug](cron-debug.md) | Список всех модулей, использующих cron.
-[cron:execute](cron-execute.md) | Запуск cron-задач помодульно или для всех модулей.
-[cron:release](cron-release.md) | Снять cron-блокировку для очередного запуска сron.
+[cron:execute](cron-execute.md) | Выполнить cron реализацию для модуля иои выполнить все cron-задачи
+[cron:release](cron-release.md) | Снимает блокировку с cron-а для повторного запуска
 **database**  |
-[database:client](database-client.md) | Запуск клиента базы данных, если это возможно.
-[database:connect](database-connect.md) | Отображение соединения с базой данных.
-[database:dump](database-dump.md) | Экспорт копии структуры и содержимого базы данных в файл.
-[database:log:clear](database-log-clear.md) | Удаление события из таблицы DBLog, доступны фильтры.
-[database:log:debug](database-log-debug.md) | Отобразить текущие события из журнала.
-[database:restore](database-restore.md) | Восстановление структуры и содержимого базы данных из файла.
-[database:table:debug](database-table-debug.md) | Отображение всех таблиц из указанной базы.
-[database:table:drop](database-table-drop.md) | Удаление всех таблиц из указанной базы.
+[database:add](database-add.md) | Add a database to settings.php
+[database:client](database-client.md) | Запуск клиента базы данных, если он доступен
+[database:connect](database-connect.md) | Показывает соединение с базой данных
+[database:drop](database-drop.md) | Удалить все таблицы в данной базе данных.
+[database:dump](database-dump.md) | Дамп структуры и содержимого базы данных
+[database:log:clear](database-log-clear.md) | Удалить события из таблицы DBLog, фильтры доступны
+[database:log:poll](database-log-poll.md) | Poll the watchdog and print new log entries every x seconds
+[database:query](database-query.md) | Executes a SQL statement directly as argument
+[database:restore](database-restore.md) | Восстановление структуры и содержимого базы данных
+**debug**  |
+[debug:breakpoints](debug-breakpoints.md) | Displays breakpoints available in application
+[debug:cache:context](debug-cache-context.md) | Displays current cache context for the application.
+[debug:chain](debug-chain.md) | List available chain files.
+[debug:config](debug-config.md) | Показывает текущую конфигурацию.
+[debug:config:settings](debug-config-settings.md) | Отображает текущий Ключ:значение в файле настроек.
+[debug:config:validate](debug-config-validate.md) | Validate a schema implementation before a module is installed.
+[debug:container](debug-container.md) | Отображает текущие сервисы для приложения.
+[debug:cron](debug-cron.md) | Список модулей реализующих cron
+[debug:database:log](debug-database-log.md) | Показать текущий журнал событий приложения
+[debug:database:table](debug-database-table.md) | Показать все таблицы в данной базе данных.
+[debug:entity](debug-entity.md) | Debug entities available in the system
+[debug:event](debug-event.md) | Display current events 
+[debug:features](debug-features.md) | List registered features.
+[debug:image:styles](debug-image-styles.md) | List image styles on the site
+[debug:libraries](debug-libraries.md) | Displays libraries available in application
+[debug:migrate](debug-migrate.md) | Отображение текущей миграции, доступной для приложения
+[debug:module](debug-module.md) | Отображение текущих модулей доступных для приложения
+[debug:multisite](debug-multisite.md) | Список всех мультисайтов доступных в системе
+[debug:permission](debug-permission.md) | Displays all user permissions.
+[debug:plugin](debug-plugin.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
+[debug:queue](debug-queue.md) | Display the queues of your application
+[debug:rest](debug-rest.md) | Display current rest resource for the application
+[debug:router](debug-router.md) | Displays current routes for the application
+[debug:settings](debug-settings.md) | List user Drupal Console settings.
+[debug:site](debug-site.md) | List all known local and remote sites.
+[debug:state](debug-state.md) | Show the current State keys.
+[debug:test](debug-test.md) | List Test Units available for the application.
+[debug:theme](debug-theme.md) | Отображает текущие темы для приложения
+[debug:update](debug-update.md) | Отобразить обновления доступные для приложения
+[debug:user](debug-user.md) | Displays current users for the application
+[debug:views](debug-views.md) | Отображение текущих ресурсов представлений приложения
+[debug:views:plugins](debug-views-plugins.md) | Отображает существующие плагины Представлений для приложения
+**devel**  |
+[devel:dumper](devel-dumper.md) | Change the devel dumper plugin
+**develop**  |
+[develop:contribute](develop-contribute.md) | 
+[develop:example](develop-example.md) | 
+[develop:example:container:aware](develop-example-container-aware.md) | 
+[develop:gitbook](develop-gitbook.md) | Update gitbook
+**dotenv**  |
+[dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
+[dotenv:init](dotenv-init.md) | Dotenv initializer.
+**entity**  |
+[entity:delete](entity-delete.md) | Delete an specific entity
+**extend**  |
+[extend:example:one](extend-example-one.md) | Drupal Console extend example
+[extend:example:two](extend-example-two.md) | Drupal Console extend example
+**features**  |
+[features:import](features-import.md) | Import module config.
+**field**  |
+[field:info](field-info.md) | View information about fields.
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
-[generate:command](generate-command.md) | Генерация команды для консоли.
-[generate:controller](generate-controller.md) | Генерация и регистрация контроллера.
-[generate:doc:dash](generate-doc-dash.md) | Генерация DrupalConsole.docset пакета для Dash.
-[generate:doc:gitbook](generate-doc-gitbook.md) | Генерация документации для команд.
-[generate:entity:bundle](generate-entity-bundle.md) | Генерация нового типа материала (node / entity bundle)
+[generate:breakpoint](generate-breakpoint.md) | Generate breakpoint
+[generate:cache:context](generate-cache-context.md) | Generate a cache context
+[generate:command](generate-command.md) | Generate commands for the console.
+[generate:controller](generate-controller.md) | Generate & Register a controller
+[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | commands.generate.doc.cheatsheet.description
+[generate:doc:dash](generate-doc-dash.md) | commands.generate.doc.dash.description
+[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
+[generate:doc:gitbook](generate-doc-gitbook.md) | commands.generate.doc.gitbook.description
+[generate:entity:bundle](generate-entity-bundle.md) | Generate a new content type (node / entity bundle)
 [generate:entity:config](generate-entity-config.md) | Generate a new config entity
 [generate:entity:content](generate-entity-content.md) | Generate a new content entity
 [generate:event:subscriber](generate-event-subscriber.md) | Generate an event subscriber
-[generate:form](generate-form.md) | Генерация нового "FormBase"
-[generate:form:alter](generate-form-alter.md) | Генерация имплементации hook_form_alter() или hook_form_FORM_ID_alter
-[generate:form:config](generate-form-config.md) | Генерация нового "ConfigFormBase"
-[generate:module](generate-module.md) | Генерация модуля.
-[generate:permissions](generate-permissions.md) | Генерация прав доступа.
+[generate:form](generate-form.md) | Генерировать новую "%s"
+[generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
+[generate:form:config](generate-form-config.md) | commands.generate.form.description
+[generate:help](generate-help.md) | Generate an implementation of hook_help()
+[generate:module](generate-module.md) | Generate a module.
+[generate:module:file](generate-module-file.md) | Generate a .module file
+[generate:permissions](generate-permissions.md) | commands.generate.permission.description
 [generate:plugin:block](generate-plugin-block.md) | Generate a plugin block
+[generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
 [generate:plugin:condition](generate-plugin-condition.md) | Generate a plugin condition.
-[generate:plugin:field](generate-plugin-field.md) | Генерация типа поля, виджета и форматтера поля.
-[generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Генерация форматтера поля.
+[generate:plugin:field](generate-plugin-field.md) | Generate field type, widget and formatter plugins.
+[generate:plugin:fieldformatter](generate-plugin-fieldformatter.md) | Generate field formatter plugin.
 [generate:plugin:fieldtype](generate-plugin-fieldtype.md) | Generate field type plugin.
 [generate:plugin:fieldwidget](generate-plugin-fieldwidget.md) | Generate field widget plugin.
-[generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Генерация стиля обработки изображения.
+[generate:plugin:imageeffect](generate-plugin-imageeffect.md) | Generate image effect plugin.
 [generate:plugin:imageformatter](generate-plugin-imageformatter.md) | Generate image formatter plugin.
+[generate:plugin:mail](generate-plugin-mail.md) | Generate a plugin mail
+[generate:plugin:migrate:process](generate-plugin-migrate-process.md) | Generate a migrate process plugin
+[generate:plugin:migrate:source](generate-plugin-migrate-source.md) | Generate a migrate source plugin
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Generate plugin rest resource
 [generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Generate a plugin rule action
+[generate:plugin:skeleton](generate-plugin-skeleton.md) | Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Generate a plugin type with Yaml discovery
 [generate:plugin:views:field](generate-plugin-views-field.md) | Generate a custom plugin view field.
-[generate:profile](generate-profile.md) | Генерация профиля.
+[generate:post:update](generate-post-update.md) | commands.generate.post:update.description
+[generate:profile](generate-profile.md) | Generate a profile.
 [generate:routesubscriber](generate-routesubscriber.md) | Generate a RouteSubscriber
-[generate:service](generate-service.md) | Генерация сервиса.
-[generate:theme](generate-theme.md) | Генерация темы оформления.
+[generate:service](generate-service.md) | Генерирует сервис
+[generate:theme](generate-theme.md) | Generate a theme.
+[generate:twig:extension](generate-twig-extension.md) | Generate a Twig extension.
+[generate:update](generate-update.md) | Generate an implementation of hook_update_N()
+**image**  |
+[image:styles:flush](image-styles-flush.md) | Execute flush function by image style or execute all flush images styles
 **locale**  |
-[locale:language:add](locale-language-add.md) | Добавить язык в список поддерживаемых вашим сайтом языков.
-[locale:language:delete](locale-language-delete.md) | Удалить язык из списка поддерживаемых языков.
-[locale:translation:status](locale-translation-status.md) | Список доступных обновлений переводов.
+[locale:language:add](locale-language-add.md) | Добавить поддержку языка вашим сайтом
+[locale:language:delete](locale-language-delete.md) | Удалить поддержку языка с вашего сайта
+[locale:translation:status](locale-translation-status.md) | Список доступных обновлений переводов
 **migrate**  |
-[migrate:debug](migrate-debug.md) | Отображение текущих доступных миграций.
-[migrate:execute](migrate-execute.md) | Запуск доступной миграции.
-[migrate:setup](migrate-setup.md) | Load and create the relevant migrations for a provided legacy database
+[migrate:execute](migrate-execute.md) | Выполнить миграцию доступную для приложения
+[migrate:rollback](migrate-rollback.md) | Rollback one or multiple migrations
+[migrate:setup](migrate-setup.md) | Загрузить и создать соответствующие миграции для предоставленной устаревшой базы данных
 **module**  |
-[module:debug](module-debug.md) | Отображение списка доступных модулей.
-[module:download](module-download.md) | Скачать модуль или модули.
-[module:install](module-install.md) | Установить модуль или модули.
-[module:uninstall](module-uninstall.md) | Деинсталлировать модуль или модули.
+[module:dependency:install](module-dependency-install.md) | commands.module.install.dependencies.description
+[module:download](module-download.md) | Скачать модуль или модули в приложение
+[module:install](module-install.md) | Install module or modules in the application
+[module:path](module-path.md) | Returns the relative path to the module (or absolute path)
+[module:uninstall](module-uninstall.md) | Uninstall module or modules in the application
+[module:update](module-update.md) | Update core, module or modules in the application
 **multisite**  |
-[multisite:debug](multisite-debug.md) | Список всех сайтов в мультисайтинге.
+[multisite:new](multisite-new.md) | Sets up the files for a new multisite install.
+**node**  |
+[node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
+**queue**  |
+[queue:run](queue-run.md) | Process the selected queue.
+**quick**  |
+[quick:start](quick-start.md) | Download, install and serve a new Drupal project
 **rest**  |
-[rest:debug](rest-debug.md) | Display current rest resource for the application
 [rest:disable](rest-disable.md) | Disable a rest resource for the application
 [rest:enable](rest-enable.md) | Enable a rest resource for the application
 **router**  |
-[router:debug](router-debug.md) | Displays current routes for the application
-[router:rebuild](router-rebuild.md) | Rebuild routes for the application
+[router:rebuild](router-rebuild.md) | Отображает маршруты для приложения
+**sample**  |
+[sample:default](sample-default.md) | commands.sample.default.description
 **settings**  |
-[settings:debug](settings-debug.md) | Displays current key:value on settings file.
+[settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
-[site:debug](site-debug.md) | Список всех известных локальных и удаленных сайтов.
-[site:install](site-install.md) | Установить Drupal.
-[site:maintenance](site-maintenance.md) | Переключить сайт в режим разработки.
-[site:mode](site-mode.md) | Переключение режима быстродействия сайта (development/production)
-[site:new](site-new.md) | Создание нового Drupal проект.
-[site:status](site-status.md) | Просмотр текущего статуса Drupal сайта.
+[site:import:local](site-import-local.md) | Import/Configure an existing local Drupal project
+[site:install](site-install.md) | Install a Drupal project
+[site:maintenance](site-maintenance.md) | Переключить сайт в режим обслуживания
+[site:mode](site-mode.md) | Switch system performance configuration
+[site:new](site-new.md) | Download a new Drupal project
+[site:statistics](site-statistics.md) | Отобразить текущую статистику сайта.
+[site:status](site-status.md) | View current Drupal Installation status
 **state**  |
-[state:debug](state-debug.md) | Show the current State keys.
-[state:override](state-override.md) | Show the current State keys.
+[state:delete](state-delete.md) | Delete State
+[state:override](state-override.md) | Override a State key.
+**taxonomy**  |
+[taxonomy:term:delete](taxonomy-term-delete.md) | Delete taxonomy terms from a vocabulary
 **test**  |
-[test:debug](test-debug.md) | List Test Units available for the application.
 [test:run](test-run.md) | Run Test unit from tests available for application
 **theme**  |
-[theme:debug](theme-debug.md) | Отображение списка доступных тем оформления.
-[theme:download](theme-download.md) | Загрузка темы или тем оформления.
-[theme:install](theme-install.md) | Установка темы или тем оформления.
-[theme:uninstall](theme-uninstall.md) | Деинсталляция темы или тем оформления.
+[theme:download](theme-download.md) | Download theme in application
+[theme:install](theme-install.md) | Установить тему или темы в приложение
+[theme:path](theme-path.md) | Returns the relative path to the theme (or absolute path)
+[theme:uninstall](theme-uninstall.md) | Uninstall theme or themes in the application
 **translation**  |
-[translation:cleanup](translation-cleanup.md) | Очистка файлов переводов.
-[translation:pending](translation-pending.md) | Determine pending translation string in a language or a specific file in a language
-[translation:stats](translation-stats.md) | Сгенерировать статистику по переводам.
-[translation:sync](translation-sync.md) | Синхронизация файлов переводов.
+[translation:cleanup](translation-cleanup.md) | commands.translation.cleanup.description
+[translation:pending](translation-pending.md) | commands.translation.pending.description
+[translation:stats](translation-stats.md) | commands.translation.stats.description
+[translation:sync](translation-sync.md) | commands.translation.sync.description
 **update**  |
-[update:debug](update-debug.md) | Display current updates available for the application
-[update:execute](update-execute.md) | Execute a specific Update N function in a module, or execute all
+[update:entities](update-entities.md) | Applying Entity Updates
+[update:execute](update-execute.md) | Выполнить конкретный update_N хук в модуле или выполнить все
 **user**  |
-[user:debug](user-debug.md) | Отображение списка текущих пользователей.
-[user:delete](user-delete.md) | Удаление пользователей.
-[user:login:clear:attempts](user-login-clear-attempts.md) | Очистка неверных попыток входа в аккаунт.
-[user:login:url](user-login-url.md) | Возврат ссылки для одноразового входа.
-[user:password:hash](user-password-hash.md) | Генерация хэш-ключа из введенного пароля.
-[user:password:reset](user-password-reset.md) | Сброс пароля указанному пользователю.
+[user:create](user-create.md) | Create users for the application
+[user:delete](user-delete.md) | Delete users for the application
+[user:login:clear:attempts](user-login-clear-attempts.md) | Сброс неудачных попыток входа в аккаунт.
+[user:login:url](user-login-url.md) | Возвращает одноразовый url для входа.
+[user:password:hash](user-password-hash.md) | Сгенерировать хеш для пароля.
+[user:password:reset](user-password-reset.md) | Сброс пароля указанного пользователя.
+[user:role](user-role.md) | Adds/removes a role for a given user
 **views**  |
-[views:debug](views-debug.md) | Отобразить список доступных представлений.
-[views:disable](views-disable.md) | Отключить представление.
-[views:enable](views-enable.md) | Активировать представление.
-**yaml**  |
-[yaml:diff](yaml-diff.md) | Сравнение двух YAML файлов.
-[yaml:merge](yaml-merge.md) | Слияние двух или более YAML файлов в новый YAML файл. Сохраняются последние значения.
-[yaml:split](yaml-split.md) | Разделение YAML файла по указанному критерию.
-[yaml:update:key](yaml-update-key.md) | Переписать YAML ключ в YAML файле.
-[yaml:update:value](yaml-update-value.md) | Обновление значения указанного ключа в YAML файле.
+[views:disable](views-disable.md) | Отключить представление
+[views:enable](views-enable.md) | Включить представление
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---help | Отображение данного сообщения о помощи.
---quiet | Не выводить никаких сообщений.
---verbose | Повысить информативность сообщений: 1 для обычного вывода, 2 для более подробного вывода и 3 для отладки.
---version | Отображение версии Drupal Console.
---ansi | Использование ANSI вывода.
---no-ansi | Отключение ANSI вывода.
---no-interaction | Не запрашивать подтверждений в процессе выполнения.
---env | Имя окружения.
---root | Указать корневой каталог Drupal для использования в запуске команд.
---no-debug | Выключение режима отладки.
---learning | Генерировать подробный вывод кода
---generate-chain | Отображение опций и аргументов команд в yaml для использования в последовательности (chain) команд.
---generate-inline | Отображение опций и аргументов команд как inline-команды.
---generate-doc | Отобразить опции и аргументы кманды в виде markdown.
---target | Имя сайта, с которым вы хотите взаимодействовать (для локальных или удаленных сайтов).
---uri | URI Drupal сайта для использования (для использования в мультисайтинге или для нестандартного порта).
---yes | Пропустить запрос подтверждения и продолжить выполнение команды.
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | <info>"%s"</info> версия <comment>"%s"</comment>
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
+--env | Имя среды окружения
+--root | Указать корневую директорию Drupal для выполнения команд
+--debug | application.options.debug
+--learning | Генерация подробного вывода
+--generate-chain | Показывает парамметры и аргументы выполняемой команды как yaml вывод для передачи по цепочке
+--generate-inline | Показывает парамметры и аргументы выполняемой команды одной строкой
+--generate-doc | Показывает парамметры и аргументы выполняемой команды как markdown
+--target | Имя сайта, с которым вы хотите взаимодействовать (для локального или удаленного сайтов)
+--uri | URI сайта Drupal (в случае мультисайтингового окружения или запуска на альтернативном порту)
+--yes | Пропустить подтверждение и продолжить
 
-## Доступные аргументы
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-command | Команда для запуска
+command | The command to execute

@@ -1,14 +1,14 @@
 # generate:plugin:rest:resource
 Generate plugin rest resource
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:plugin:rest:resource [options]
 gprr
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --class | Plugin Rest Resource class
@@ -18,7 +18,7 @@ Option | Details
 --plugin-url | Plugin Rest Resource URL
 --plugin-states | Plugin Rest Resource States
 
-## Examples
+## application.gitbook.messages.examples
 * Generate a rest resource plugin using GET specifying the module name, the class, the plugin id, its label, the target url and the request type
 ```
 drupal generate:plugin:rest:resource  \

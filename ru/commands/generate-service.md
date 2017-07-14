@@ -1,17 +1,19 @@
 # generate:service
-The **generate:service** command Generate service
+Генерирует сервис
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:service [options] 
-$ gs  
+drupal generate:service [options]
+gs
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --name | commands.generate.service.options.name
---class | Class name
+--class | Имя класса
 --interface | commands.common.service.options.interface
+--interface-name | commands.common.service.options.interface-name
 --services | Загрузка сервисов из контейнера.
+--path-service | Path

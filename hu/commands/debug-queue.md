@@ -1,8 +1,8 @@
 # debug:queue
 Display the queues of your application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:queue
-$ dq  
+drupal debug:queue
+dq
 ```

@@ -1,19 +1,19 @@
 # node:access:rebuild
-创建节点访问权限. 重建会移除所有内容上的使用权限并替换为当前模块或当前设置里的权限
+重建內容存取權限。重建過程將移除現有權限並依照目前模組與設定取代成為新權限。
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal node:access:rebuild [options]
-$ nar  
+drupal node:access:rebuild [options]
+nar
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---batch | 批量模式处理
+--batch | 以批次方式執行
 
-## commands.generate.doc.gitbook.messages.examples
-* 创建节点访问权限
+## application.gitbook.messages.examples
+* 重建內容存取權限
 ```
-$ drupal node:access:rebuild --batch
+drupal node:access:rebuild --batch
 ```

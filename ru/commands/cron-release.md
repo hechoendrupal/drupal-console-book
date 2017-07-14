@@ -1,8 +1,15 @@
 # cron:release
-The **cron:release** command Снимает блокировку с крона для повторного запуска
+Снимает блокировку с cron-а для повторного запуска
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal cron:release 
-$ crr  
+drupal cron:release
+cror
+crr
+```
+
+## application.gitbook.messages.examples
+* Execute the cron globally
+```
+drupal cron:execute
 ```

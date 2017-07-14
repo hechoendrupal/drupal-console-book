@@ -1,14 +1,14 @@
 # generate:plugin:rest:resource
 प्लगिन रेस्ट साधन उत्पन्न करें
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:rest:resource [options]
-$ gprr  
+drupal generate:plugin:rest:resource [options]
+gprr
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | प्लगिन रेस्ट साधन क्लास

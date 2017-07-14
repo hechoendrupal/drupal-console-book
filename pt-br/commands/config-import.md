@@ -1,28 +1,27 @@
 # config:import
 Importar configuração do estado atual da aplicação.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:import [options]
-$ ci  
+drupal config:import [options]
+ci
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --file | Path to an archive file of configuration to import.
 --directory | Path to a directory of configuration to import.
 --remove-files | Remove files after synchronization.
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Provide a configuration file
 ```
-$ drupal config:import \
+drupal config:import \
   --file=/path/to/config/file
 ```
 * Provide a configuration directory
 ```
-$ drupal config:import  \
+drupal config:import  \
   --directory=/path/to/config/dir
-
 ```

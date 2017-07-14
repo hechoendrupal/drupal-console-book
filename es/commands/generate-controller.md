@@ -1,14 +1,15 @@
 # generate:controller
 Generar y registrar un controlador
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:controller [options]
-$ gcn  
+drupal generate:controller [options]
+gcon
+gcn
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase del controlador

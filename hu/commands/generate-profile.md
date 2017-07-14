@@ -1,13 +1,14 @@
 # generate:profile
 Profil létrehozása.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:profile [options]
+drupal generate:profile [options]
+gpr
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --profile | A profil neve
 --machine-name | A programok által használt név (csak kisbetűk és aláhúzás)

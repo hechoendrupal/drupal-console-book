@@ -1,12 +1,12 @@
 # locale:language:delete
 サイトでサポートする言語を削除
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal locale:language:delete [arguments]
+drupal locale:language:delete [arguments]
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 language | es や Spanish のような言語名

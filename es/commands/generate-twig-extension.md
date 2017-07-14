@@ -1,13 +1,14 @@
 # generate:twig:extension
 Generar una extensión de Twig.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:twig:extension [options]
+drupal generate:twig:extension [options]
+gte
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --name | Nombre de la extensión Twig

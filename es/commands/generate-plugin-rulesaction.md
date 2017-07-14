@@ -1,14 +1,14 @@
 # generate:plugin:rulesaction
 Genera un plugin de acción de rules
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:rulesaction [options]
-$ gpra  
+drupal generate:plugin:rulesaction [options]
+gpra
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de clase del plugin

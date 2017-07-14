@@ -1,13 +1,13 @@
 # debug:theme
-显示当前主题
+顯示預設的版型
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:theme [arguments]
-$ dt  
+drupal debug:theme [arguments]
+dt
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-theme | 指定主题进行调试
+theme | 除錯特定的版型

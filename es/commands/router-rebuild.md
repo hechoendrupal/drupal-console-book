@@ -1,9 +1,9 @@
 # router:rebuild
 Reconstruye las rutas de la aplicación
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal router:rebuild
-$ rr  
-$ ror  
+drupal router:rebuild
+rr
+ror
 ```

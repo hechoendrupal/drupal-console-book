@@ -1,21 +1,21 @@
 # generate:plugin:skeleton
 Generate an implementation of a skeleton plugin
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:plugin:skeleton [options]
 gps
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --plugin-id | commands.generate.plugin.options.plugin-id
 --class | Plugin class name
 --services | Load services from the container.
 
-## Examples
+## application.gitbook.messages.examples
 * Generate a plugin skeleton specifying module name, the plugin id and the class
 ```
 drupal generate:plugin:skeleton  \

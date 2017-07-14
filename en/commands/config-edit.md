@@ -1,19 +1,20 @@
 # config:edit
 Change a configuration object with a text editor.
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal config:edit [arguments]
 ced
+cdit
 ```
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 config-name | Configuration object name, for example "user.settings".
 editor | Editor, for example "vim" or "gedit".
 
-## Examples
+## application.gitbook.messages.examples
 * Edit system cron configurations with "vim" (default editor).
 ```
 drupal config:edit system.cron

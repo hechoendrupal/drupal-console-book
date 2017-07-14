@@ -1,24 +1,24 @@
 # debug:database:log
-显示网站日志事件(s)
+Display current log events for the application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:database:log [arguments] [options]
-$ dbb  
+drupal debug:database:log [arguments] [options]
+dbb
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---type | Filter events by a specific type
---severity | Filter events by a specific level of severity
---user-id | Filter events by a specific user id
---asc | 按升序列出事件
---limit | 限制显示结果的数量
---offset | 偏移量
+--type | commands.database.log.common.options.type
+--severity | commands.database.log.common.options.severity
+--user-id | commands.database.log.common.options.user-id
+--asc | List events in ascending order
+--limit | Limit results to a specific number
+--offset | Starting point of a limit
 --yml | Print in a yml style
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-event-id | DBLog 事件 ID
+event-id | DBLog event ID

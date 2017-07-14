@@ -1,13 +1,14 @@
 # generate:plugin:migrate:process
 Genera un plugin de proceso para migración
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:migrate:process [options]
+drupal generate:plugin:migrate:process [options]
+gpmp
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase del plugin

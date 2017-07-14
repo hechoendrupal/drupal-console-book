@@ -1,18 +1,18 @@
 # debug:database:table
-显示数据库所有表
+Show all tables in a given database.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:database:table [arguments] [options]
-$ ddt  
+drupal debug:database:table [arguments] [options]
+ddt
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---database | settings.php 文件中 Database 的键
+--database | Database key from settings.php
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-table | 调试的数据库表
+table | Table to debug

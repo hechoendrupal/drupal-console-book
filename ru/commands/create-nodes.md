@@ -1,19 +1,35 @@
 # create:nodes
-The **create:nodes** command Create dummy nodes for your Drupal 8 application.
+Создание фиктивных материалов для Drupal 8.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal create:nodes [arguments] [options] 
+drupal create:nodes [arguments] [options]
+crn
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---limit | commands.create.nodes.arguments.limit
---title-words | commands.create.nodes.arguments.title-words
---time-range | commands.create.nodes.arguments.time-range
+--limit | Сколько материалов вы хотите создать
+--title-words | Максимальное количество слов в заголовках материалов
+--time-range | Как далеко назад во времени материалы должны быть датированы
+--language | commands.create.nodes.options.language
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-content-types | Content type(s) to be used in node creation
+content-types | Тип(ы) содержимого, которые будут использованы при создании материалов
+
+## application.gitbook.messages.examples
+* Provide the content type name.
+```
+drupal create:nodes content-name
+```
+* Provide the limit of publications, limit of title words, time range and language.
+```
+drupal create:nodes content-name \
+  --limit="5" \
+  --title-words="5" \
+  --time-range="1" \
+  --language="und"
+```

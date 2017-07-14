@@ -1,23 +1,23 @@
 # theme:path
 Returns the relative path to the theme (or absolute path)
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal theme:path [arguments] [options]
 thp
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --absolute | Return theme absolute path
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 theme | Theme name
 
-## Examples
+## application.gitbook.messages.examples
 * Get the path of mytheme
 ```
 drupal theme:path  mytheme

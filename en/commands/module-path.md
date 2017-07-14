@@ -1,23 +1,23 @@
 # module:path
 Returns the relative path to the module (or absolute path)
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal module:path [arguments] [options]
 mop
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --absolute | Return module absolute path
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 module | The Module name (machine name)
 
-## Examples
+## application.gitbook.messages.examples
 * Get the relative path of the module specifying the module name
 ```
 drupal module:path  modulename

@@ -1,14 +1,14 @@
 # generate:doc:gitbook
 Generar documentaciones para Comandos
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:doc:gitbook [arguments] [options]
-$ gdg  
+drupal generate:doc:gitbook [arguments] [options]
+gdg
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --path | La ruta donde exportar la documentación
 --help | Display this help message
@@ -29,7 +29,7 @@ Opción | Detalles
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 command | The command to execute

@@ -1,14 +1,14 @@
 # generate:plugin:imageeffect
 Generate image effect plugin.
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:imageeffect [options]
-$ gpie  
+drupal generate:plugin:imageeffect [options]
+gpie
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --class | Plugin class name

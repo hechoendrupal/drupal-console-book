@@ -1,13 +1,25 @@
 # cron:execute
 モジュール単位、もしくは全てのcronを実行
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal cron:execute [arguments]
-$ cre  
+drupal cron:execute [arguments]
+croe
+cre
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 module | モジュール名
+
+## application.gitbook.messages.examples
+* Execute the cron globally
+```
+drupal cron:execute
+```
+* Execute the cron on the specified module
+```
+drupal cron:execute \
+  <module>
+```

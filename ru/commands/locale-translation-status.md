@@ -1,12 +1,12 @@
 # locale:translation:status
-The **locale:translation:status** command List available translation updates
+Список доступных обновлений переводов
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal locale:translation:status [arguments] 
+drupal locale:translation:status [arguments]
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-language | Language for instance es or Spanish
+language | Язык, например: es или Spanish

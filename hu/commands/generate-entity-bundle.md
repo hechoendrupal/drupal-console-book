@@ -1,14 +1,14 @@
 # generate:entity:bundle
 Új tartalomtípus létrehozása (tartalom / mezőköteg)
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:entity:bundle [options]
-$ geb  
+drupal generate:entity:bundle [options]
+geb
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | A modul neve.
 --bundle-name | A tartalomtípus programok által használt neve

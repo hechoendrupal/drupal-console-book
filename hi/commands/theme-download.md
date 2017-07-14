@@ -1,20 +1,20 @@
 # theme:download
 आवेदन में विषय डाउनलोड करे
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal theme:download [arguments] [options]
-$ thd  
-$ td  
+drupal theme:download [arguments] [options]
+thd
+td
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --composer | Use --composer option for manage the theme download with Composer
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 theme | the Theme name
 version | Theme version i.e 1.x-dev

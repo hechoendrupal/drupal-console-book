@@ -1,35 +1,35 @@
 # generate:doc:gitbook
-コマンドのためのドキュメントを生成する
+commands.generate.doc.gitbook.description
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:doc:gitbook [arguments] [options]
-$ gdg  
+drupal generate:doc:gitbook [arguments] [options]
+gdg
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---path | ドキュメントを生成するパス
---help | このヘルプメッセージを表示する
---quiet | コマンドからの全ての出力を抑制する
---verbose | メッセージの冗長性を上げる: 1は通常の出力、2はより冗長な出力、3はデバッグ用
---version | アプリケーションのバージョンを表示する
---ansi | ANSI出力を強制する
---no-ansi | ANSI出力を無効化する
---no-interaction | 対話的な質問を行わない
---env | 環境の名前
---root | コマンドを実行するDrupalのルートディレクトリを定義する
---no-debug | デバッグモードを無効にする
---learning | 冗長なコードの出力を行う
---generate-chain | コマンドのオプションと引数をチェーンコマンドとして表示する
---generate-inline | コマンドのオプションと引数をインラインコマンドとして表示する
---generate-doc | コマンドのオプションと引数をMarkdownとして表示する
---target | サイト名 (ローカルもしくはリモートサイト向け)
---uri | DrupalサイトのURI (マルチサイトやデフォルト以外のポートを利用している場合に使用する)
---yes | 確認プロセスをスキップする
+--path | commands.generate.doc.gitbook.options.path
+--help | Display this help message
+--quiet | Do not output any message
+--verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+--version | Display this application version
+--ansi | Force ANSI output
+--no-ansi | Disable ANSI output
+--no-interaction | Do not ask any interactive question
+--env | The Environment name
+--root | Define the Drupal root to be used in command execution
+--debug | application.options.debug
+--learning | Generate a verbose code output
+--generate-chain | Shows command options and arguments as yaml output to be used in chain command
+--generate-inline | Shows command options and arguments as inline command
+--generate-doc | Shows command options and arguments as markdown
+--target | Site name you want to interact with (for local or remote sites)
+--uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
+--yes | Skip confirmation and proceed
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-command | 実行するコマンド
+command | The command to execute

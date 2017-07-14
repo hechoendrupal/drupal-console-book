@@ -1,13 +1,13 @@
 # debug:migrate
 Hiển thị phần chuyển đổi dữ liệu hiện có cho ứng dựng
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:migrate [arguments]
-$ mid  
+drupal debug:migrate [arguments]
+mid
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 tag | Migrate tag

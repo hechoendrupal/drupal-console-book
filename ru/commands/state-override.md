@@ -1,13 +1,14 @@
 # state:override
-The **state:override** command Override a State key.
+Override a State key.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal state:override [arguments] 
+drupal state:override [arguments]
+sto
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 key | The State key to override.
 value | The State value to set.

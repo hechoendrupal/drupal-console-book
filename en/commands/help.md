@@ -1,19 +1,19 @@
 # help
 Displays help for a command
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal help [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --xml | To output list as XML
 --raw | To output raw command list
 --format | The output format (txt, xml, json, or md)
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 command_name | The command name

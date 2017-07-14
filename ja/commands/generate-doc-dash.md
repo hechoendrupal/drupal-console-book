@@ -1,13 +1,13 @@
 # generate:doc:dash
-DashのためのDrupal Consoleのdocsetパッケージを生成する
+commands.generate.doc.dash.description
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:doc:dash [options]
-$ gdd  
+drupal generate:doc:dash [options]
+gdd
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---path | docsetを保存するディレクトリのパス
+--path | commands.generate.doc.dash.options.path

@@ -1,13 +1,13 @@
 # rest:enable
 Habilita un recurso rest para la aplicación
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal rest:enable [arguments]
-$ ree  
+drupal rest:enable [arguments]
+ree
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 resource-id | Rest ID

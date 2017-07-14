@@ -1,18 +1,18 @@
 # features:import
-Import module config.
+commands.features.import.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal features:import [arguments] [options]
-$ fei  
+drupal features:import [arguments] [options]
+fei
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---bundle | Bundle name
+--bundle | commands.features.import.options.bundle
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-packages | Package name
+packages | commands.features.import.arguments.packages

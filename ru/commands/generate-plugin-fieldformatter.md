@@ -1,13 +1,14 @@
 # generate:plugin:fieldformatter
-The **generate:plugin:fieldformatter** command Generate field formatter plugin.
+Generate field formatter plugin.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:fieldformatter [options] 
+drupal generate:plugin:fieldformatter [options]
+gpff
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

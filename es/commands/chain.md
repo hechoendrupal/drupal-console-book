@@ -1,13 +1,13 @@
 # chain
 Ejecución de comandos en secuencia
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal chain [arguments] [options]
+drupal chain [arguments] [options]
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --file | Archivo definido por el usuario que contiene comandos para ser ejecutados en secuencia.
 --placeholder | commands.chain.options.placeholder
@@ -29,15 +29,14 @@ Opción | Detalles
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 command | The command to execute
 
-## Ejemplos
+## application.gitbook.messages.examples
 * Providing a file option using full path.
 ```
-$ drupal chain \
+drupal chain \
   --file="/path/to/file/chain-file.yml"
-
 ```

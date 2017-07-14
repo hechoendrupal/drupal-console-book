@@ -1,19 +1,19 @@
 # generate:breakpoint
 Generate breakpoint
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:breakpoint [options]
 gb
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --theme | Theme name
 --breakpoints | Breakpoints
 
-## Examples
+## application.gitbook.messages.examples
 * Generate a breakpoint specifying the theme, a breakpoint name, its label, the media query, its weight and multipliers
 ```
 drupal generate:breakpoint  \

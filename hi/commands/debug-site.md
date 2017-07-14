@@ -1,14 +1,14 @@
 # debug:site
 सभी ज्ञात स्थानीय और दूरस्थ साइटों की सूची दें।
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:site [arguments]
-$ dsi  
+drupal debug:site [arguments]
+dsi
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 target | Target
 property | Property

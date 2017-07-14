@@ -1,14 +1,14 @@
 # generate:plugin:type:yaml
 प्लगिन प्रकार युक्त YAML प्रकाशन उत्पन्न करें
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:type:yaml [options]
-$ gpty  
+drupal generate:plugin:type:yaml [options]
+gpty
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | प्लगिन प्रकार क्लास नाम

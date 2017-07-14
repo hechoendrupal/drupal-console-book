@@ -1,14 +1,14 @@
 # generate:form:alter
 Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:form:alter [options]
-$ gfa  
+drupal generate:form:alter [options]
+gfa
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --form-id | Form ID to alter

@@ -1,8 +1,8 @@
-# commands.generate.doc.gitbook.messages.title
+# application.gitbook.messages.title
 
-**commands.generate.doc.gitbook.messages.note:** commands.generate.doc.gitbook.messages.note-description.
+**application.gitbook.messages.note:** application.gitbook.messages.note-description.
 
-commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.messages.details
+application.gitbook.messages.command | application.gitbook.messages.details
 ------------ | -------------
 **misc**  |
 [about](about.md) | Drupal कंसोल परियोजना के बारे मे प्रारंभिक जानकारी दिखाएँ
@@ -86,6 +86,7 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [develop:contribute](develop-contribute.md) | 
 [develop:example](develop-example.md) | 
 [develop:example:container:aware](develop-example-container-aware.md) | 
+[develop:gitbook](develop-gitbook.md) | Update gitbook
 **dotenv**  |
 [dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.
@@ -218,8 +219,8 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [views:disable](views-disable.md) | एक व्यू बंद करें
 [views:enable](views-enable.md) | एक व्यू चालू करें
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -239,7 +240,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --uri | Drupal यूआरआई साइट का(एकाधिक वातावरण के लिए या एक वैकल्पिक port पर चलते समय ) का उपयोग करे
 --yes | स्किप कन्फर्मेशन और आगे बढ़ें
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 command | The command to execute

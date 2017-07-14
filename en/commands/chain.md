@@ -1,13 +1,13 @@
 # chain
 Chain command execution
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal chain [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --file | User defined file containing commands to get executed.
 --placeholder | commands.chain.options.placeholder
@@ -29,12 +29,12 @@ Option | Details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## Available arguments
-Argument | Details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 command | The command to execute
 
-## Examples
+## application.gitbook.messages.examples
 * Providing a file option using full path.
 ```
 drupal chain \

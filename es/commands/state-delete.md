@@ -1,13 +1,13 @@
 # state:delete
 Eliminar Estado
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal state:delete [arguments]
-$ std  
+drupal state:delete [arguments]
+std
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 name | Nombre del Estado.

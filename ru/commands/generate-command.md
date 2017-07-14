@@ -1,16 +1,19 @@
 # generate:command
-The **generate:command** command Generate commands for the console.
+Generate commands for the console.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:command [options] 
-$ gcm  
+drupal generate:command [options]
+gco
+gcm
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---module | Имя модуля.
+--extension | The extension name.
+--extension-type | The extension type.
 --class | The Class that describes the command. (Must end with the word 'Commmand').
 --name | The Command name.
 --container-aware | Is the command aware of the drupal site installation when executed
+--services | Загрузка сервисов из контейнера.

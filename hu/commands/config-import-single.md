@@ -1,28 +1,27 @@
 # config:import:single
 Import the selected configuration.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:import:single [options]
-$ cis  
+drupal config:import:single [options]
+cis
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --file | The file(s) name or file(s) absolute path to import
 --directory | Az importálni kívánt konfiguráció könyvtárának útvonala.
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Providing a file option using full path.
 ```
-$ drupal config:import:single \
+drupal config:import:single \
   --file="/path/to/file/block.block.default_block.yml"
 ```
 * Providing file and directory options
 ```
-$ drupal config:import:single  \
+drupal config:import:single  \
   --file="block.block.default_block.yml" \
   --directory="/path/to/directory"
-
 ```

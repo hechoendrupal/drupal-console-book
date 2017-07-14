@@ -1,19 +1,19 @@
 # module:update
 Actualizar el core, un módulo o varios en la aplicación
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal module:update [arguments] [options]
-$ mou  
+drupal module:update [arguments] [options]
+moup
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --composer | Actualizar el módulo usando Composer
 --simulate | Simular el proceso de actualización con Composer
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 module | El módulo o módulos que vayan a ser actualizados deberían estar separados por un espacio. Déjelo vacío para actualizar el core y todos los módulos gestionados por Composer.

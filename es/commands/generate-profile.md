@@ -1,13 +1,14 @@
 # generate:profile
 Genera un perfil.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:profile [options]
+drupal generate:profile [options]
+gpr
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --profile | Nombre del perfil
 --machine-name | Nombre-máquina (sólo minúsculas y guiones bajos)

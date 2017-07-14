@@ -1,33 +1,32 @@
 # config:export:content:type
-导出内容类型及其字段
+Export a specific content type and their fields.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:export:content:type [arguments] [options]
-$ cect  
+drupal config:export:content:type [arguments] [options]
+cect
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---module | 模块名称
---optional-config | 导出内容类型作为模块中的可选配置
+--module | The Module name.
+--optional-config | Export content type as an optional YAML configuration in your module
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-content-type | 内容类型
+content-type | Content Type to be exported
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Provide a content type  and module name
 ```
-$ drupal config:export:content:type page \
+drupal config:export:content:type page \
   --module="demo"
 ```
 * If you want export content type provide the optional config
 ```
-$ drupal config:export:content:type page \
+drupal config:export:content:type page \
   --module="demo" \
-  --optional-config 
-
+  --optional-config
 ```

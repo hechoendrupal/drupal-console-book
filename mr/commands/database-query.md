@@ -1,0 +1,31 @@
+# database:query
+एक SQL विधान थेट वितर्क म्हणून चालवा.
+
+**application.gitbook.messages.usage:**
+```
+drupal database:query [arguments] [options]
+dbq
+```
+
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
+-------|-------------
+--quick | प्रत्येक क्वेरी परिणाम कॅश करू नका, प्रत्येक पंक्ती ज्याप्रमाणे प्राप्त होते ती प्रिंट करा.
+--debug | कार्यक्रम बाहेर पडल्यावर डीबगिंग माहिती आणि मेमरी आणि CPU उपयोग आकडेवारी मुद्रित करते.
+--html | HTML आउटपुट तयार करा.
+--xml | XML आउटपुट तयार करा.
+--raw | विशेष वर्ण आउटपुटमध्ये सोडणार नाहीत.
+--vertical | क्वेरी आउटपुट ओळी अनुलंबरुपात प्रिंट करा.
+--batch | नवीन पंक्तीवरील प्रत्येक पंक्तीसह, स्तंभ विभाजक म्हणून टॅब वापरून परिणाम प्रिंट करा. या पर्यायाद्वारे, mysql इतिहासाची फाईल वापरत नाही.
+
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
+---------|-------------
+query | अंमलबजावणी करण्यासाठी एस क्यू एल स्टेटमेंट.
+database | Settings.php पासून डेटाबेस की.
+
+## application.gitbook.messages.examples
+* एक डेटाबेस क्वेरी पाठवा.
+```
+drupal database:query 'select * from node limit 0,1'
+```

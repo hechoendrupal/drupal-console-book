@@ -1,14 +1,14 @@
 # generate:theme
-The **generate:theme** command Generate a theme.
+Generate a theme.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:theme [options] 
-$ gt  
+drupal generate:theme [options]
+gt
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --theme | commands.generate.theme.options.module
 --machine-name | The machine name (lowercase and underscore only)
@@ -17,6 +17,7 @@ $ gt
 --core | Core version
 --package | Theme package
 --global-library | Global styling library name
+--libraries | commands.generate.theme.options.libraries
 --base-theme | Base theme (i.e. classy, stable)
 --regions | Regions
 --breakpoints | Breakpoints

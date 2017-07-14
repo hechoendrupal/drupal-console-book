@@ -1,13 +1,14 @@
 # generate:breakpoint
 Genera un breakpoint
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:breakpoint [options]
+drupal generate:breakpoint [options]
+gb
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --theme | Nombre del tema
 --breakpoints | Breakpoints

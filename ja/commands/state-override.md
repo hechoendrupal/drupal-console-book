@@ -1,13 +1,14 @@
 # state:override
 ステートキーをオーバーライドする
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal state:override [arguments]
+drupal state:override [arguments]
+sto
 ```
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 key | オーバーライドするステートキー
 value | セットする値

@@ -1,15 +1,15 @@
 # user:password:reset
 Resetează parola pentru un utilizator.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:password:reset [arguments]
-$ upr  
-$ uspr  
+drupal user:password:reset [arguments]
+upr
+uspr
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 user | ID Utilizator.
 password | Parola sub formă de text.

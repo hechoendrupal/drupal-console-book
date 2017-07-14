@@ -1,14 +1,14 @@
 # config:export:single
 Xuất cấu hình đơn giản như yml file
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal config:export:single [options]
-$ ces  
+drupal config:export:single [options]
+ces
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --name | commands.config.export.single.options.name
 --directory | Định nghĩa xuất thư mục để lưu cấu hình đầu ra
@@ -18,17 +18,16 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --remove-uuid | If set, the configuration will be exported without uuid key.
 --remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Provide config settings name to be exported
 ```
-$ drupal config:export:single \
+drupal config:export:single \
   --name=config.settings.name
 ```
 * if uuid and/or config hashes will be removed.
 ```
-$ drupal config:export:single \
+drupal config:export:single \
   --name=config.settings.name \
   --remove-uuid \
   --remove-config-hash
-
 ```

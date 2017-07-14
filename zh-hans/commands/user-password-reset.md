@@ -1,15 +1,15 @@
 # user:password:reset
-为指定用户重设密码.
+重設指定使用者帳號的密碼。
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:password:reset [arguments]
-$ upr  
-$ uspr  
+drupal user:password:reset [arguments]
+upr
+uspr
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-user | 用户ID
-password | 文本格式的密码
+user | 使用者 ID
+password | 密碼字串

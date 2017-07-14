@@ -1,13 +1,14 @@
 # generate:plugin:ckeditorbutton
 Gerar um Plugin de botão CKEditor.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:ckeditorbutton [options]
+drupal generate:plugin:ckeditorbutton [options]
+gpc
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | O nome do módulo.
 --class | Nome da classe do Plugin

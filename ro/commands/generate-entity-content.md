@@ -1,14 +1,15 @@
 # generate:entity:content
 Generează o entitate de conținut nouă
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:entity:content [options]
-$ gect  
+drupal generate:entity:content [options]
+geco
+gect
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Numele Modulului.
 --entity-class | Clasa entității de conținut

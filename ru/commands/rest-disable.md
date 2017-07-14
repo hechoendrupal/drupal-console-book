@@ -1,13 +1,14 @@
 # rest:disable
-The **rest:disable** command Disable a rest resource for the application
+Disable a rest resource for the application
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal rest:disable [arguments] 
-$ redi  
+drupal rest:disable [arguments]
+red
+redi
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 resource-id | Rest ID

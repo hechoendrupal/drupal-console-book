@@ -1,14 +1,15 @@
 # user:password:reset
-The **user:password:reset** command Сброс пароля указанного пользователя.
+Сброс пароля указанного пользователя.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:password:reset [arguments] 
-$ uspr  
+drupal user:password:reset [arguments]
+upr
+uspr
 ```
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-user | ID пользователя
+user | Идентификатор пользователя
 password | Пароль в текстовом формате

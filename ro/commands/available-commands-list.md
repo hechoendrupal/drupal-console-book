@@ -71,6 +71,7 @@
   * [develop:contribute](commands/develop-contribute.md)
   * [develop:example](commands/develop-example.md)
   * [develop:example:container:aware](commands/develop-example-container-aware.md)
+  * [develop:gitbook](commands/develop-gitbook.md)
   * [dotenv:debug](commands/dotenv-debug.md)
   * [dotenv:init](commands/dotenv-init.md)
   * [entity:delete](commands/entity-delete.md)

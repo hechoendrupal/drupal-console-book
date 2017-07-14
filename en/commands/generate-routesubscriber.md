@@ -1,20 +1,20 @@
 # generate:routesubscriber
 Generate a RouteSubscriber
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:routesubscriber [options]
 gr
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --name | Service name
 --class | Class name
 
-## Examples
+## application.gitbook.messages.examples
 * Generate a route subscriber specifying the module name, the route name and its class
 ```
 drupal generate:routesubscriber  \

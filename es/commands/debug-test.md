@@ -1,18 +1,18 @@
 # debug:test
 Lista los tests unitarios disponibles para la aplicación.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:test [arguments] [options]
-$ td  
+drupal debug:test [arguments] [options]
+td
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --test-class | Clase del test
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 group | Grupo

@@ -1,14 +1,14 @@
 # user:role
 Adds/removes a role for a given user
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal user:role [arguments]
-$ ur  
+drupal user:role [arguments]
+ur
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 operation | commands.user.role.operation
 user | commands.user.role.user

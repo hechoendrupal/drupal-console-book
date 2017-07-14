@@ -1,14 +1,15 @@
 # generate:controller
-The **generate:controller** command Generate & Register a controller
+Generate & Register a controller
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:controller [options] 
-$ gcn  
+drupal generate:controller [options]
+gcon
+gcn
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --class | Controller Class name

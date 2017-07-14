@@ -1,19 +1,20 @@
 # migrate:setup
-The **migrate:setup** command Load and create the relevant migrations for a provided legacy database
+Загрузить и создать соответствующие миграции для предоставленной устаревшой базы данных
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal migrate:setup [options] 
+drupal migrate:setup [options]
+mis
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---db-type | Drupal Database type
---db-host | Database Host
---db-name | Database Name
---db-user | Database User
---db-pass | Database Pass
---db-prefix | Database Prefix
---db-port | Database Port
---files-directory | Files Directory
+--db-type | Тип базы данных Drupal
+--db-host | Хост базы данных
+--db-name | Имя базы данных
+--db-user | Пользователь базы данных
+--db-pass | Пароль базы данных
+--db-prefix | Префикс базы данных
+--db-port | Порт базы данных
+--source-base_path | commands.migrate.setup.options.source-base-path

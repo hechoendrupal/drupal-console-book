@@ -1,16 +1,15 @@
 # cron:release
 Cron rendszerzár feloldása a cron újbóli futtatásához
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal cron:release
-$ cror  
-$ crr  
+drupal cron:release
+cror
+crr
 ```
 
-## commands.generate.doc.gitbook.messages.examples
+## application.gitbook.messages.examples
 * Execute the cron globally
 ```
-$ drupal cron:execute
-
+drupal cron:execute
 ```

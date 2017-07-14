@@ -1,13 +1,14 @@
 # generate:plugin:fieldtype
-The **generate:plugin:fieldtype** command Generate field type plugin.
+Generate field type plugin.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:fieldtype [options] 
+drupal generate:plugin:fieldtype [options]
+gpft
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

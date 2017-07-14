@@ -1,17 +1,19 @@
 # translation:stats
-翻訳の統計を生成する
+commands.translation.stats.description
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal translation:stats [arguments] [options]
+drupal translation:stats [arguments] [options]
+ts
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---format | 出力フォーマットの定義 table|markdown
+--format | commands.translation.stats.options.format
 
-## 利用可能な引数
-引数 | 詳細
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-language | 英語に対しての翻訳の統計を生成する言語
+language | commands.translation.stats.arguments.language
+library | commands.translation.stats.arguments.library

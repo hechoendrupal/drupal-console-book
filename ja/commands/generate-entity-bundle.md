@@ -1,14 +1,14 @@
 # generate:entity:bundle
 Generate a new content type (node / entity bundle)
 
-**使い方:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:entity:bundle [options]
-$ geb  
+drupal generate:entity:bundle [options]
+geb
 ```
 
-## 利用可能なオプション
-オプション | 詳細
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | モジュール名
 --bundle-name | The content type's machine name

@@ -1,18 +1,22 @@
 # module:download
-The **module:download** command Download module or modules in application
+Скачать модуль или модули в приложение
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal module:download [arguments] [options] 
-$ md  
+drupal module:download [arguments] [options]
+mod
+md
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
---latest | Default to download most recent version
+--path | The path of the contrib project
+--latest | По умолчанию загружать самую последнюю версию
+--composer | Download the module using Composer
+--unstable | commands.module.install.options.unstable
 
-## Доступные параметры
-Параметр | Описание
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
-module | Module or modules to be enabled should be separated by a space
+module | Модуль или модули, которые будут включены должны быть разделены пробелом

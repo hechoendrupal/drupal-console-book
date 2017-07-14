@@ -1,13 +1,13 @@
 # queue:run
 Procesa la cola seleccionada.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal queue:run [arguments]
-$ qr  
+drupal queue:run [arguments]
+qr
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 name | Nombre de la cola.

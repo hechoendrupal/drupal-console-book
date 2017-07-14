@@ -1,8 +1,8 @@
-# Comandos Drupal Console disponibles
+# application.gitbook.messages.title
 
-**Nota:** Comandos de Drupal Console que *deben* ser ejecutados desde una instalación de Drupal 8.
+**application.gitbook.messages.note:** application.gitbook.messages.note-description.
 
-Comando de Drupal Console | Detalles
+application.gitbook.messages.command | application.gitbook.messages.details
 ------------ | -------------
 **misc**  |
 [about](about.md) | Muestra información básica sobre el proyecto Drupal Console
@@ -86,6 +86,7 @@ Comando de Drupal Console | Detalles
 [develop:contribute](develop-contribute.md) | 
 [develop:example](develop-example.md) | 
 [develop:example:container:aware](develop-example-container-aware.md) | 
+[develop:gitbook](develop-gitbook.md) | Update gitbook
 **dotenv**  |
 [dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.
@@ -218,8 +219,8 @@ Comando de Drupal Console | Detalles
 [views:disable](views-disable.md) | Deshabilita una vista
 [views:enable](views-enable.md) | Habilita una vista
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --help | Muestra este mensaje de ayuda
 --quiet | No mostrar ningún mensaje
@@ -239,7 +240,7 @@ Opción | Detalles
 --uri | URI del sitio en Drupal que se usará (para ambientes en multi-site o cuando esta usando un puerto alternativo)
 --yes | Saltar confirmación y ejecutar directamente
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 command | El comando a ejecutar

@@ -1,13 +1,13 @@
 # settings:set
 Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal settings:set [arguments] [options]
+drupal settings:set [arguments] [options]
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -27,8 +27,8 @@ Opción | Detalles
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 command | The command to execute
 name | Indique un nombre en formato YAML plano para establecer un valor en el archivo de configuración de Drupal Console

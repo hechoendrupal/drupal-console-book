@@ -1,7 +1,7 @@
 # dotenv:debug
 Debug Dotenv debug values.
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal dotenv:debug
+drupal dotenv:debug
 ```

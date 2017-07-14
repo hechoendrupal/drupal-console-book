@@ -1,28 +1,27 @@
 # database:log:poll
 Observar el watchdog e imprimir nuevas entradas en el log cada x segundos
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal database:log:poll [arguments] [options]
-$ dblp  
+drupal database:log:poll [arguments] [options]
+dblp
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --type | Filtrar eventos por un tipo específico
 --severity | Filtrar eventos por un nivel de severidad específico
 --user-id | Filtrar eventos por un id de usuario específico
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 duration | Intervalo en segundos para lectura en la base de datos
 
-## Ejemplos
+## application.gitbook.messages.examples
 * Print the log entries on screen every x seconds
 ```
-$ drupal database:log:poll \
+drupal database:log:poll \
   100
-
 ```

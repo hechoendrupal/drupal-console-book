@@ -1,21 +1,21 @@
 # generate:twig:extension
 Generate a Twig extension.
 
-**Usage:**
+**application.gitbook.messages.usage:**
 ```
 drupal generate:twig:extension [options]
 gte
 ```
 
-## Available options
-Option | Details
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | The Module name.
 --name | Twig Extension name
 --class | Class name
 --services | Load services from the container.
 
-## Examples
+## application.gitbook.messages.examples
 * Generate a twig extension specifying the module name, the extension name and its class
 ```
 drupal generate:twig:extension  \

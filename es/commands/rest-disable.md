@@ -1,14 +1,14 @@
 # rest:disable
 Deshabilita un recurso rest en la aplicación
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal rest:disable [arguments]
-$ red  
-$ redi  
+drupal rest:disable [arguments]
+red
+redi
 ```
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 resource-id | Rest ID

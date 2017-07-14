@@ -1,9 +1,9 @@
 # router:rebuild
-重建路由
+重建網站應用途徑
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal router:rebuild
-$ rr  
-$ ror  
+drupal router:rebuild
+rr
+ror
 ```

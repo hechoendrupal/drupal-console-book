@@ -1,13 +1,14 @@
 # generate:plugin:imageeffect
-The **generate:plugin:imageeffect** command Generate image effect plugin.
+Generate image effect plugin.
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:imageeffect [options] 
+drupal generate:plugin:imageeffect [options]
+gpie
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --class | Plugin class name

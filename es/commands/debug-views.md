@@ -1,19 +1,19 @@
 # debug:views
 Muestra los recursos actuales de vistas para la aplicación
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:views [arguments] [options]
-$ vde  
+drupal debug:views [arguments] [options]
+vde
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --tag | Etiqueta de la vista
 --status | Estado de la vista (Habilitado|Deshabilitado)
 
-## Argumentos disponibles
-Argumento | Detalles
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 view-id | ID de la vista

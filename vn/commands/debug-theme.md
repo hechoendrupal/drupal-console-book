@@ -1,13 +1,13 @@
 # debug:theme
 Hiển thị các themes hiện tại cho ứng dụng
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:theme [arguments]
-$ dt  
+drupal debug:theme [arguments]
+dt
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## application.gitbook.messages.arguments
+application.gitbook.messages.argument | application.gitbook.messages.details
 ---------|-------------
 theme | Theme nhất định để chỉnh lỗi

@@ -1,14 +1,15 @@
 # generate:entity:config
-The **generate:entity:config** command Generate a new config entity
+Generate a new config entity
 
-**Использование:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:entity:config [options] 
-$ gecg  
+drupal generate:entity:config [options]
+gec
+gecg
 ```
 
-## Доступные опции
-Опция | Описание
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Имя модуля.
 --entity-class | The config entity class

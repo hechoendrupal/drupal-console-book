@@ -1,8 +1,8 @@
 # debug:update
-显示目前有的程序更新
+顯示目前網站應用中所有可用的更新項目
 
-**commands.generate.doc.gitbook.messages.usage:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal debug:update
-$ du  
+drupal debug:update
+du
 ```

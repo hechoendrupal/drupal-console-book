@@ -1,13 +1,14 @@
 # generate:form
 Genera un nuevo "%s"
 
-**Uso:**
+**application.gitbook.messages.usage:**
 ```
-$ drupal generate:form [options]
+drupal generate:form [options]
+gf
 ```
 
-## Opciones disponibles
-Opción | Detalles
+## application.gitbook.messages.options
+application.gitbook.messages.option | application.gitbook.messages.details
 -------|-------------
 --module | Nombre del módulo.
 --class | El nombre de la clase del formulario
