@@ -1,18 +1,24 @@
 # debug:test
-列出網站應用中可用的單元測試
+列出可用的程序测试.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:test [arguments] [options]
 td
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---test-class | 測試類別（Class）
+--test-class | 测试类
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-group | 群組
+group | 组
+
+## Examples
+* 
+```
+drupal debug:test
+```

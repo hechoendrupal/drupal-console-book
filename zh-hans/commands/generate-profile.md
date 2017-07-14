@@ -1,19 +1,30 @@
 # generate:profile
-Generate a profile.
+生成一个方案.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:profile [options]
 gpr
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---profile | The profile name
---machine-name | The machine name (lowercase and underscore only)
---description | Profile description
---core | Core version
---dependencies | Module dependencies separated by commas (i.e. context, panels)
+--profile | 方案名
+--machine-name | 机读名称(只允许下划线和小写英文字母)
+--description | 方案介绍
+--core | Drupal内核版本
+--dependencies | 依赖模块用逗号隔开(例如： context, panels)
 --themes | commands.generate.profile.options.themes
---distribution | The distribution name
+--distribution | Drupal安装套餐名
+
+## Examples
+* Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies
+```
+drupal generate:profile  \
+  --profile="NewProfileName"  \
+  --machine-name="newprofilename"  \
+  --description="My Useful Profile"  \
+  --core="8.x"  \
+  --dependencies="modulename"
+```

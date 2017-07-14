@@ -1,18 +1,24 @@
 # debug:rest
 Exibir o recurso REST atual para a aplicação
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:rest [arguments] [options]
 rede
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --authorization | Recurso REST habilitado | desabilitado
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 resource-id | REST ID
+
+## Examples
+* Displays rest hooks
+```
+drupal debug:rest
+```

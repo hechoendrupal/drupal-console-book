@@ -1,14 +1,14 @@
 # generate:profile
 प्रोफाइल उत्पन्न करा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:profile [options]
 gpr
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --profile | प्रोफाइल नाव.
 --machine-name | मशीनचे नाव (केवळ लोअरकेस आणि अंडरस्कोर)
@@ -17,3 +17,14 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --dependencies | स्वल्पविरामाने विभक्त केलेले मॉड्यूल अवलंबन (i.ई संदर्भ, पॅनेल)
 --themes | commands.generate.profile.options.themes
 --distribution | वितरण नाव.
+
+## Examples
+* Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies
+```
+drupal generate:profile  \
+  --profile="NewProfileName"  \
+  --machine-name="newprofilename"  \
+  --description="My Useful Profile"  \
+  --core="8.x"  \
+  --dependencies="modulename"
+```

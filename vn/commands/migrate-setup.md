@@ -1,14 +1,14 @@
 # migrate:setup
 Load and create the relevant migrations for a provided legacy database
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:setup [options]
 mis
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --db-type | Drupal Database type
 --db-host | Máy chủ cơ sở dữ liệu

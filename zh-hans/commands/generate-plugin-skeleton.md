@@ -1,16 +1,25 @@
 # generate:plugin:skeleton
-Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator
+为没有特定生成器的生成一个基本插件的实现
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:skeleton [options]
 gps
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---module | The Module name.
+--module | 模块名称
 --plugin-id | commands.generate.plugin.options.plugin-id
---class | Plugin class name
---services | Load services from the container.
+--class | 插件类名
+--services | 从容器中导入服务
+
+## Examples
+* Generate a plugin skeleton specifying module name, the plugin id and the class
+```
+drupal generate:plugin:skeleton  \
+  --module="modulename"  \
+  --plugin-id="link_relation_type"  \
+  --class="DefaultLinkRelationType"
+```

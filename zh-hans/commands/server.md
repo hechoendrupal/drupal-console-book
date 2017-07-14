@@ -1,40 +1,26 @@
 # server
-運行內建的 PHP 網頁伺服器
+运行PHP内建的网站服务器
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal server [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-address | 伺服器位址:連接埠（address:port）參數
+address | IP地址:端口号
 
-## application.gitbook.messages.examples
-<<<<<<< HEAD
+## Examples
 * 用缺省地址和端口127.0.0.1:8088
 ```
 Drupal服务器
-=======
-* 以預設伺服器位址（127.0.0.1:8088）啟動伺服器
 ```
-drupal server
->>>>>>> upstream/master
+* 用其他端口的地址
 ```
-* 以指定的伺服器位址參數啟動伺服器
-```
-<<<<<<< HEAD
 Drupal服务器127.0.0.1:8089
-=======
-drupal server 127.0.0.1:8089
->>>>>>> upstream/master
 ```
-* 以預設伺服器位址啟動伺服器，加上 --root 參數以指定 Drupal 所在路徑
+* 运行缺省地址参数，用--root选项来定义Drupal的root
 ```
-<<<<<<< HEAD
 Drupal --root=/var/www/drupal8.dev server
-=======
-drupal --root=/var/www/drupal8.dev server
->>>>>>> upstream/master
 ```

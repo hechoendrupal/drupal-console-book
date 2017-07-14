@@ -1,15 +1,15 @@
 # generate:entity:config
 एक नया कॉन्फिग एंटिटि उत्पन्न करे
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:entity:config [options]
 gec
 gecg
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | मोड्यूल का नाम।
 --entity-class | कॉन्फिग इकाई वर्ग
@@ -17,3 +17,14 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --base-path | कॉन्फिग एंटिटी रुट्स के लिए बेस पथ
 --label | लेबल
 --bundle-of | कंटेंट एंटिटि के लिए बंडल के रूप में कार्य करता है    
+
+## Examples
+* Generate config entity specifying the module, the entity class, the entity name, its path and label
+```
+drupal generate:entity:config  \
+  --module="modulename"  \
+  --entity-class="DefaultEntity"  \
+  --entity-name="default_entity"  \
+  --base-path="/admin/structure"  \
+  --label="Default entity"
+```

@@ -1,15 +1,15 @@
 # generate:command
 कंसोल के लिए कमाण्डो को उत्पन्न करें।
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:command [options]
 gco
 gcm
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --extension | The extension name.
 --extension-type | The extension type.
@@ -17,3 +17,13 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --name | कमाण्ड का नाम।
 --container-aware | Drupal साइट स्थापना के बारे में कमांड पता है जब एक्सेक्युट होगा?
 --services | सर्विसेज़ को container से लोड करें।
+
+## Examples
+* Generate a command specifying the extension name and type, its class and the name.
+```
+drupal generate:command  \
+  --extension="ExtensionName"  \
+  --extension-type="module"  \
+  --class="DefaultCommand"  \
+  --name="CommandName"
+```

@@ -1,14 +1,14 @@
 # migrate:execute
 Az alkalmazáshoz elérhető költöztetés végrehajtása
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:execute [arguments] [options]
 mie
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --site-url | Webhely forrás URL-címe
 --db-type | commands.migrate.setup.migrations.options.db-type
@@ -19,9 +19,9 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --db-prefix | Adatbázis előtag
 --db-port | Adatbázis port
 --exclude | Kizárandó költöztetési azonosító(k)
---source-base_path | commands.migrate.execute.options.source-base-path
+--source-base_path | Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 migration-ids | Költöztetési azonosító(k)

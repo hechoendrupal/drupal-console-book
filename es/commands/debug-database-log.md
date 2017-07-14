@@ -1,14 +1,14 @@
 # debug:database:log
 Desplegar eventos registrados al momento para la aplicación
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:database:log [arguments] [options]
 dbb
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --type | Filtrar eventos por un tipo específico
 --severity | Filtrar eventos por un nivel de severidad específico
@@ -18,7 +18,17 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --offset | Punto inicial de un límite
 --yml | Imprimir en formato YAML
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 event-id | ID del evento DBLog
+
+## Examples
+* List all the entries on the log
+```
+drupal debug:database:log
+```
+* List specific log entry by Event ID
+```
+drupal debug:database:log 21228
+```

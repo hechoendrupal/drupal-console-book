@@ -1,12 +1,12 @@
 # develop:contribute
 
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal develop:contribute [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --code-directory | commands.develop.contribute.options.code-directory

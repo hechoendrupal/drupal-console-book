@@ -1,14 +1,20 @@
 # debug:site
 Listează toate siturile locale sau la distanță.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:site [arguments]
 dsi
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 target | Target
 property | Property
+
+## Examples
+* 
+```
+drupal debug:site
+```

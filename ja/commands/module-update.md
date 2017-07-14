@@ -1,19 +1,26 @@
 # module:update
 コアやモジュールを更新
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:update [arguments] [options]
 moup
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --composer | Composerを使用してモジュールを更新
 --simulate | Composerを使用して更新をシミュレーション
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | アップデートするモジュール名 (複数指定する場合はスペース区切り)。空の場合はComposerで管理されているコアおよび全てのモジュールが対象になります。
+
+## Examples
+* Update module specifying module name and composer parameter
+```
+drupal module:update  modulename  \
+  --composer
+```

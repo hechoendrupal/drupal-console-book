@@ -1,24 +1,24 @@
 # create:terms
 Tạo dummy terms cho ứng dụng Drupal 8 của bạn.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:terms [arguments] [options]
 crt
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Bao nhiêu terms bạn muốn tạo?
 --name-words | Maximum number of words in term names
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 vocabularies | Vocabularie(s) được sử dụng trong terms creation
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the vocabulary term name.
 ```
 drupal create:terms vocabulary

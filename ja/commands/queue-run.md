@@ -1,13 +1,13 @@
 # queue:run
 選択したキューを処理する
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal queue:run [arguments]
 qr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 name | キューの名前

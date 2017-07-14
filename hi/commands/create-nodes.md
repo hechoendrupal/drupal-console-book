@@ -1,26 +1,26 @@
 # create:nodes
 अपने Drupal 8 एप्लीकेशन के लिए डमी नोड्स बनाएँ।
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:nodes [arguments] [options]
 crn
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | आप कितने भी नोड्स बना सकते है
 --title-words | नोड टाइटल्स में शब्दों की अधिकतम संख्या
 --time-range | नोड्स दिनांकित किया जाना चाहिए की कितनी दूर समय में वापस होगा
 --language | commands.create.nodes.options.language
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 content-types | कंटेंट टाइप(स) का उपयोग नोड क्रिएशन में किया जाता है।
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the content type name.
 ```
 drupal create:nodes content-name

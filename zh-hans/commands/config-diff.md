@@ -1,23 +1,23 @@
 # config:diff
-Ouput configuration items that are different in active configuration compared with a directory.
+输出选取目录中和使用中不同的配置项目.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:diff [arguments] [options]
 cdi
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---reverse | See the changes in reverse (i.e diff a directory to the active configuration).
+--reverse | 反向显示差异(就是说：从一个目录到使用配置的比较).
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-directory | The directory to diff against. If omitted, choose from Drupal config directories.
+directory | 要对比的目录. 缺省使用配置目录.
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a config directory
 ```
 drupal config:diff ../config/path

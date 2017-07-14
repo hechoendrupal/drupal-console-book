@@ -1,15 +1,15 @@
 # generate:form:config
 commands.generate.form.description
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:form:config [options]
 gf
 gfc
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | Nombre del módulo.
 --class | El nombre de la clase del formulario

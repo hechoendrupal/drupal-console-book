@@ -1,13 +1,13 @@
 # init
 उपयोगकर्ता के होम डायरेक्टरी के लिए कॉन्फ़िगरेशन फाइल कॉपी किया है।
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal init [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --destination | Destination directory to copy files
 --override | ओवरराइड कफगुरशंस फाइल्स

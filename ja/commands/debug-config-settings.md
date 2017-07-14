@@ -1,13 +1,13 @@
 # debug:config:settings
 設定ファイル内のKey-Valueペアを表示する
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:config:settings
 dcs
 ```
 
-## application.gitbook.messages.examples
+## Examples
 * Displays key:value as per the settings file
 ```
 drupal debug:config:settings

@@ -1,18 +1,18 @@
 # cache:rebuild
 Bangun ulang dan bersihkan semua cache situs.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cache:rebuild [arguments]
 cr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 cache | Hanya hapus cache tertentu.
 
-## application.gitbook.messages.examples
+## Examples
 * Bangun ulang semua cache
 ```
 drupal cr all

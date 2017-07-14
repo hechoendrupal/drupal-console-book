@@ -1,8 +1,14 @@
 # debug:queue
 Affiche la queue de votre application
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:queue
 dq
+```
+
+## Examples
+* Displays the queues of the application
+```
+drupal debug:queue
 ```

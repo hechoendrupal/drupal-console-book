@@ -1,14 +1,14 @@
 # migrate:setup
 विरासत डेटाबेस के लिए प्रासंगिक माइग्रेशन बनायें और लोड करें
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:setup [options]
 mis
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --db-type | Drupal डेटाबेस प्रकार
 --db-host | मेजबान डेटाबेस

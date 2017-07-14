@@ -1,14 +1,20 @@
 # user:password:hash
 Gerar o hash de uma senha em formato texto.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal user:password:hash [arguments]
 uph
 usph
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 password | Senha(s) em formato texto
+
+## Examples
+* Get hash of the word "p455w0rd"
+```
+drupal user:password:hash  p455w0rd
+```

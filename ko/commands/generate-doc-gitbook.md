@@ -1,14 +1,14 @@
 # generate:doc:gitbook
 명령어에 대한 문서 생성
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:doc:gitbook [arguments] [options]
 gdg
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --path | 문서를 생성하려는 경로
 --help | Display this help message
@@ -29,7 +29,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute

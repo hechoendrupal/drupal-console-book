@@ -1,9 +1,15 @@
 # router:rebuild
 Xây dựng lại định tuyến cho ứng dụng
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal router:rebuild
 rr
 ror
+```
+
+## Examples
+* Rebuild routes
+```
+drupal router:rebuild
 ```

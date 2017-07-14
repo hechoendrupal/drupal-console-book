@@ -1,14 +1,14 @@
 # generate:plugin:field
 Hasilkan tipe, widget, dan plugin pemformat untuk field.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:field [options]
 gpf
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | Nama modul.
 --type-class | Nama kelas plugin tipe field
@@ -24,3 +24,23 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --field-type | Tipe field yang dapat digunakan dengan plugin pemformat dan widget
 --default-widget | field widget bawaan dari plugin tipe field
 --default-formatter | Formatter field bawaan dari plugin tipe field
+
+## Examples
+* Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)
+```
+drupal generate:plugin:field  \
+  --module="modulename"  \
+  --type-class="ExampleFieldType"  \
+  --type-label="Example field type"  \
+  --type-plugin-id="example_field_type"  \
+  --type-description="My Field Type"  \
+  --formatter-class="ExampleFormatterType"  \
+  --formatter-label="Example formatter type"  \
+  --formatter-plugin-id="example_formatter_type"  \
+  --widget-class="ExampleWidgetType"  \
+  --widget-label="Example widget type"  \
+  --widget-plugin-id="example_widget_type"  \
+  --field-type="example_field_type"  \
+  --default-widget="example_widget_type"  \
+  --default-formatter="example_formatter_type"
+```

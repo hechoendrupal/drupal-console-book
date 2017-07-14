@@ -1,7 +1,7 @@
 # site:statistics
 Отобразить текущую статистику сайта.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal site:statistics
 sst

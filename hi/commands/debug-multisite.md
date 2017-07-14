@@ -1,8 +1,14 @@
 # debug:multisite
 सभी उपलब्ध multisites की सूची|
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:multisite
 dmu
+```
+
+## Examples
+* Displays multisite information
+```
+drupal debug:multisite
 ```

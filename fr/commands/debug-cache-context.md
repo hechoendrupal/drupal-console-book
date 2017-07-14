@@ -1,13 +1,13 @@
 # debug:cache:context
 Affiche le contexte de cache courant pour l'application.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:cache:context
 dcc
 ```
 
-## application.gitbook.messages.examples
+## Examples
 * Displays cache context
 ```
 drupal debug:cache:context

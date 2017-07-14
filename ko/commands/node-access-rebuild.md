@@ -1,18 +1,18 @@
 # node:access:rebuild
 Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal node:access:rebuild [options]
 nar
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --batch | Process in batch mode.
 
-## application.gitbook.messages.examples
+## Examples
 * Rebuild node access permissions
 ```
 drupal node:access:rebuild --batch

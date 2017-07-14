@@ -1,20 +1,20 @@
 # config:override
 Az aktív konfiguráció értékének felülbírálása.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:override [arguments]
 co
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 name | Configuration name
 key | Kulcs
 value | Érték
 
-## application.gitbook.messages.examples
+## Examples
 * A Contact modul elárasztási korlátjának beállítása 10 értékre.
 ```
 drupal config:override contact.settings flood.limit 10

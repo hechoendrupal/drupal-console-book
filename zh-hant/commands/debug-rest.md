@@ -1,18 +1,24 @@
 # debug:rest
 列出網站應用中的 REST 資源
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:rest [arguments] [options]
 rede
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --authorization | 指定 REST 資源狀態：enabled | disabled
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 resource-id | REST ID
+
+## Examples
+* Displays rest hooks
+```
+drupal debug:rest
+```

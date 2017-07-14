@@ -1,7 +1,7 @@
 # debug:chain
 Lista las secuencias de comandos disponibles.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:chain
 dch

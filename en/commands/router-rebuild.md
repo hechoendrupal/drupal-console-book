@@ -1,14 +1,14 @@
 # router:rebuild
 Rebuild routes for the application
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal router:rebuild
 rr
 ror
 ```
 
-## application.gitbook.messages.examples
+## Examples
 * Rebuild routes
 ```
 drupal router:rebuild

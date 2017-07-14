@@ -1,23 +1,23 @@
 # database:restore
 Restore structure and contents of a database.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:restore [arguments] [options]
 dbr
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | The filename for your database backup file
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 database | Database key from settings.php
 
-## application.gitbook.messages.examples
+## Examples
 * Restore the database file dump to the database default or another one specified
 ```
 drupal database:restore \

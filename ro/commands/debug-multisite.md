@@ -1,8 +1,14 @@
 # debug:multisite
 Listează toate multi siturile disponibile în sistem
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:multisite
 dmu
+```
+
+## Examples
+* Displays multisite information
+```
+drupal debug:multisite
 ```

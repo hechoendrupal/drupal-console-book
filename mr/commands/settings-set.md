@@ -1,13 +1,13 @@
 # settings:set
 Drupal Console कॉन्फिग फाइलमध्ये विशिष्ट सेटिंग मूल्य बदला.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal settings:set [arguments] [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -27,9 +27,15 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute
 name | Drupal Console कॉन्फिग फाइलमध्ये मूल्य सेट करण्यासाठी YAML मध्ये नाव सेट करणे फॅंटन स्वरूप.
 value | मूल्य Drupal Console कॉन्फिग फाइलमध्ये सेट करणे.
+
+## Examples
+* Set application language setting value to "es"
+```
+drupal settings:set  application.language es
+```

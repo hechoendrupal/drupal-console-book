@@ -1,19 +1,25 @@
 # debug:views
 Affiche des informations à propos des vues de l'application
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:views [arguments] [options]
 vde
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --tag | Tags de la vue
 --status | Statut de la vue (Activé|Désactivé)
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 view-id | Identifiant de la vue
+
+## Examples
+* List of views on the site
+```
+drupal debug:views
+```

@@ -1,14 +1,14 @@
 # module:install
 Installe un ou plusieurs modules dans l'application
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:install [arguments] [options]
 moi
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --latest | Télécharge par défaut la version la plus récente
 --composer | Désinstalle le module via Composer
@@ -30,8 +30,14 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute
 module | Le ou les modules à activer doivent être séparés par un espace
+
+## Examples
+* Install module specifying the module name
+```
+drupal module:install  modulename
+```

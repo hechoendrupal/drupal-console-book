@@ -1,13 +1,13 @@
 # init
 設定ファイルをユーザーのホームディレクトリにコピーする
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal init [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --destination | Destination directory to copy files
 --override | 設定ファイルを上書きする

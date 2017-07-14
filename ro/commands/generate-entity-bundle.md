@@ -1,15 +1,24 @@
 # generate:entity:bundle
 Generează un tip de conținut nou (nod / entitate)
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:entity:bundle [options]
 geb
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | Numele Modulului.
 --bundle-name | Numele mașină pentru tipul de conținut
 --bundle-title | Numele lizibil pentru tipul de conținut
+
+## Examples
+* Generate bundle entity specifying the module, the bundle name and its title
+```
+drupal generate:entity:bundle  \
+  --module="modulename"  \
+  --bundle-name="default"  \
+  --bundle-title="default"
+```

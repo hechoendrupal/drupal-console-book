@@ -1,13 +1,13 @@
 # generate:doc:data
 Genera documentación para los comandos.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:doc:data [options]
 gdda
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | El archivo que renderiza los datos del comando

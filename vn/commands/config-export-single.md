@@ -1,24 +1,24 @@
 # config:export:single
 Xuất cấu hình đơn giản như yml file
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:export:single [options]
 ces
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --name | commands.config.export.single.options.name
---directory | Định nghĩa xuất thư mục để lưu cấu hình đầu ra
+--directory | commands.config.export.arguments.directory
 --module | Tên module.
 --include-dependencies | Export dependencies of the configuration as well.
 --optional | Export config as an optional YAML configuration in your module
 --remove-uuid | If set, the configuration will be exported without uuid key.
 --remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
-## application.gitbook.messages.examples
+## Examples
 * Provide config settings name to be exported
 ```
 drupal config:export:single \

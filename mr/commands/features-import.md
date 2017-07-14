@@ -1,18 +1,18 @@
 # features:import
 मॉड्यूल कॉन्फिगरेशन आयात करा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal features:import [arguments] [options]
 fei
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --bundle | बंडल नाव
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 packages | बंडल नाव

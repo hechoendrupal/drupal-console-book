@@ -1,13 +1,19 @@
 # module:dependency:install
 commands.module.install.dependencies.description
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:dependency:install [arguments]
 modi
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | Le ou les modules à activer doivent être séparés par un espace
+
+## Examples
+* Install the dependencies of the specfied module
+```
+drupal module:dependency:install  modulename
+```

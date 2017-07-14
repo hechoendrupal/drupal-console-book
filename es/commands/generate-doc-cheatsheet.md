@@ -1,14 +1,14 @@
 # generate:doc:cheatsheet
 Genera un cheatsheet imprimible de los comandos disponibles
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:doc:cheatsheet [options]
 gdc
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --path | La ruta dónde generar el pdf
 --wkhtmltopdf | La ruta donde reside el binario de wkhtmltopdf en su sistema

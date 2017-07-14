@@ -1,24 +1,24 @@
 # config:export:content:type
 Экспорт выбранного типа материала и его полей.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:export:content:type [arguments] [options]
 cect
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | Имя модуля.
 --optional-config | Экспорт типа материала как дополнительную YAML конфигурацию в ваш модуль
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 content-type | Тип материала для экспорта
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a content type  and module name
 ```
 drupal config:export:content:type page \

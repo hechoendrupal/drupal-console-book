@@ -1,13 +1,13 @@
 # chain
 कमाण्डो को श्रंखला में चलायें।
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal chain [arguments] [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | कमाण्ड युक्त उपभोक्ता परिभाषित फ़ाइल चलाने करने के लिए।
 --placeholder | commands.chain.options.placeholder
@@ -29,12 +29,12 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute
 
-## application.gitbook.messages.examples
+## Examples
 * Providing a file option using full path.
 ```
 drupal chain \

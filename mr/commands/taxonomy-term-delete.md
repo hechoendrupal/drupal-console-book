@@ -1,13 +1,19 @@
 # taxonomy:term:delete
 एक शब्दसंग्रह पासून वर्गीकरणातील अटी हटवा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal taxonomy:term:delete [arguments]
 ttd
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 vid | 
+
+## Examples
+* Delete all terms of the "tags" vocabulary
+```
+drupal taxonomy:term:delete  tags
+```

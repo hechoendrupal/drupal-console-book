@@ -1,13 +1,13 @@
 # settings:set
 Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal settings:set [arguments] [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -27,9 +27,15 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute
 name | Indique un nombre en formato YAML plano para establecer un valor en el archivo de configuración de Drupal Console
 value | Indique un valor para establecerlo en el archivo de configuración de Drupal Console
+
+## Examples
+* Set application language setting value to "es"
+```
+drupal settings:set  application.language es
+```

@@ -1,13 +1,19 @@
 # debug:views:plugins
 Viewsのプラグインを表示
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:views:plugins [arguments]
 dvp
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 type | Viewsのプラグインをタイプでフィルタ
+
+## Examples
+* List of views plugins
+```
+drupal debug:views:plugins
+```

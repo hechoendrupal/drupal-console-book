@@ -1,8 +1,8 @@
-# application.gitbook.messages.title
+# Available Drupal Console Commands
 
-**application.gitbook.messages.note:** application.gitbook.messages.note-description.
+**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
 
-application.gitbook.messages.command | application.gitbook.messages.details
+Drupal Console Command | Details
 ------------ | -------------
 **misc**  |
 [about](about.md) | Menampilkan informasi dasar mengenai proyek Drupal Console
@@ -219,8 +219,8 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [views:disable](views-disable.md) | Menonaktifkan View
 [views:enable](views-enable.md) | Mengaktifkan View
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --help | Tampilkan pesan bantuan ini
 --quiet | Jangan keluarkan pesan apapun dari perintah ini
@@ -240,7 +240,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI dari situs Drupal (untuk instalasi multi-situs atau kalau situsnya dijalankan di port lain selain port 80)
 --yes | Lewatkan konfirmasi dan lanjutkan
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | Perintah untuk dijalankan

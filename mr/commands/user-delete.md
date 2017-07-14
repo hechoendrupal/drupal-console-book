@@ -1,14 +1,27 @@
 # user:delete
 ऐप्लकैशनचे वापरकर्ते हटवा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal user:delete [options]
 ud
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --user-id | वापरकर्ता आयडी हटवण्यात आला आहे.
 --roles | वापरकर्त्यांच्या संबंधित भूमिका हटविल्या जातील.
+
+## Examples
+* Delete user specifying the id and the user role
+```
+drupal user:delete  \
+  --user-id="2"
+  --roles='authenticated'
+```
+* Delete user specifying its id
+```
+drupal user:delete  \
+  --user-id="3"
+```

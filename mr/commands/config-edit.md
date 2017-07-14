@@ -1,20 +1,20 @@
 # config:edit
 निवडलेले संरचना संपादित करा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:edit [arguments]
 ced
 cdit
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 config-name | संरचने नाव.
 editor | संपादक
 
-## application.gitbook.messages.examples
+## Examples
 * "Vim" (डीफॉल्ट संपादक) सह सिस्टम क्रोन कॉन्फिगरेशन संपादित करा.
 ```
 drupal config:edit system.cron

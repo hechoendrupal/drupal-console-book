@@ -1,12 +1,12 @@
 # locale:translation:status
-List available translation updates
+列出可用翻译更新
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal locale:translation:status [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-language | Language for instance es or Spanish
+language | 语言，如 zh-hans

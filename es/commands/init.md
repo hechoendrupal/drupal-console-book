@@ -1,13 +1,13 @@
 # init
 Copia los archivos de configuración al directorio home del usuario.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal init [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --destination | Directorio de destino para copiar los archivos
 --override | Sobreescribir los archivos de configuración

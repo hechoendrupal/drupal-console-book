@@ -1,13 +1,23 @@
 # debug:theme
 Megjeleníti az alkalmazás aktuális sminkjeit
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:theme [arguments]
 dt
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | Adott smink, ahol hibakeresést kell végezni
+
+## Examples
+* List of themes on the site
+```
+drupal debug:theme
+```
+* Bartik theme information
+```
+drupal debug:theme bartik
+```

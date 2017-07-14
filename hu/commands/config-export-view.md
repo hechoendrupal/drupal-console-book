@@ -1,25 +1,25 @@
 # config:export:view
 Nézet exportálása YAML-formátumban egy megadott modulba, hogy újra lehessen használni más weboldalon.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:export:view [arguments] [options]
 cev
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | A modul neve.
 --optional-config | Nézet exportálása a modulba nem kötelező YAML-konfigurációként
 --include-module-dependencies | Modulfüggőségeinek tartalmazása a modul info.yml fájljában
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 view-id | Nézet azonosítója
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a view id
 ```
 drupal config:export:view viewid

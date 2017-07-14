@@ -1,8 +1,8 @@
-# application.gitbook.messages.title
+# Available Drupal Console Commands
 
-**application.gitbook.messages.note:** application.gitbook.messages.note-description.
+**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
 
-application.gitbook.messages.command | application.gitbook.messages.details
+Drupal Console Command | Details
 ------------ | -------------
 **misc**  |
 [about](about.md) | Drupal कंसोल परियोजना के बारे मे प्रारंभिक जानकारी दिखाएँ
@@ -21,9 +21,9 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [config:diff](config-diff.md) | आउटपुट विन्यास आइटम है कि एक डायरेक्टरी के साथ तुलना में सक्रिय कॉन्फ़िगरेशन में अलग हैं।
 [config:edit](config-edit.md) | चयनित व्यवस्था को बदलें।
 [config:export](config-export.md) | मौजूदा एप्लीकेशन कॉन्फ़िगरेशन एक्सपोर्ट करे।
-[config:export:content:type](config-export-content-type.md) | किसी विशेष कंटेंट टाइप और उनके खानो का एक्सपोर्ट करें।
-[config:export:single](config-export-single.md) | एक कॉन्फिग को yml फाइल के जैसे निर्यात करें।
-[config:export:view](config-export-view.md) | एक व्यू को YAML संरूप में एक्सपोर्ट करें ताकि वो किसी दूसरे वेबसाइट में पुनर्प्रयोग किया जाये।
+[config:export:content:type](config-export-content-type.md) | एक विशिष्ट कंटेंट टाइप और अपने फ़ील्ड्स में एक्सपोर्ट करें।
+[config:export:single](config-export-single.md) | yml फाइल के रूप में सिंगल कॉन्फ़िगरेशन एक्सपोर्ट करे।
+[config:export:view](config-export-view.md) | अन्य वेबसाइट में पुन: उपयोग करने के लिए एक प्रोवाइडेड मॉड्यूल के अंदर YAML फॉर्मेट में एक व्यू एक्सपोर्ट करे।
 [config:import](config-import.md) | वर्तमान अनुप्रयोग में व्यवस्था आयात करें।
 [config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | व्यवस्था निधि को सक्रिय डायरेक्टरी में चढ़ा दें।
@@ -219,8 +219,8 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [views:disable](views-disable.md) | एक व्यू बंद करें
 [views:enable](views-enable.md) | एक व्यू चालू करें
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -240,7 +240,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | Drupal यूआरआई साइट का(एकाधिक वातावरण के लिए या एक वैकल्पिक port पर चलते समय ) का उपयोग करे
 --yes | स्किप कन्फर्मेशन और आगे बढ़ें
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute

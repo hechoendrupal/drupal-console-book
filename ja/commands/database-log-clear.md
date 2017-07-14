@@ -1,25 +1,25 @@
 # database:log:clear
 DbLogからイベントを削除する
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:log:clear [arguments] [options]
 dblc
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --type | イベントを特定のタイプでフィルタする
 --severity | イベントを特定の重要度のレベルでフィルタする
 --user-id | イベントを特定のユーザーIDでフィルタする
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 event-id | DBLogのイベントID
 
-## application.gitbook.messages.examples
+## Examples
 * Clear the database log from DBLog table
 ```
 drupal database:log:clear \

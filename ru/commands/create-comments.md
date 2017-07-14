@@ -1,25 +1,25 @@
 # create:comments
 Создание фиктивных комментариев для Drupal 8.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:comments [arguments] [options]
 crc
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Сколько комментариев вы хотите создать
 --title-words | Максимальное количество слов в заголовках комментариев
 --time-range | Как далеко назад во времени материалы должны быть датированы
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 node-id | Идентификатор материала для которого будут созданы комментарии
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the node id where the comments will be generated.
 ```
 drupal create:comments  node-id

@@ -1,7 +1,7 @@
 # site:statistics
 Affiche les statistiques actuelles du site web.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal site:statistics
 sst

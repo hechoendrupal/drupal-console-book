@@ -1,14 +1,20 @@
 # user:password:hash
-從純文字密碼產生雜湊值（Hash）
+从文本格式密码中生成哈希码
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal user:password:hash [arguments]
 uph
 usph
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-password | 一組以上的純文字密碼
+password | 文本格式的密码
+
+## Examples
+* Get hash of the word "p455w0rd"
+```
+drupal user:password:hash  p455w0rd
+```

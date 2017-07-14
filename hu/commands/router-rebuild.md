@@ -1,9 +1,15 @@
 # router:rebuild
 Az alkalmazás útvonalainak újraépítése
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal router:rebuild
 rr
 ror
+```
+
+## Examples
+* Rebuild routes
+```
+drupal router:rebuild
 ```

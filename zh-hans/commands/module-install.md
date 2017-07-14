@@ -1,17 +1,17 @@
 # module:install
-Install module or modules in the application
+安装模块
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:install [arguments] [options]
 moi
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---latest | Default to download most recent version
---composer | Uninstalls the module using Composer
+--latest | 默认下载最新版本
+--composer | 使用 Composer卸载模块
 --help | Display this help message
 --quiet | Do not output any message
 --verbose | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
@@ -30,8 +30,14 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute
-module | Module or modules to be enabled should be separated by a space
+module | 模块间用空格隔开
+
+## Examples
+* Install module specifying the module name
+```
+drupal module:install  modulename
+```

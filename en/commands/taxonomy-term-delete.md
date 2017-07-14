@@ -1,18 +1,18 @@
 # taxonomy:term:delete
 Delete taxonomy terms from a vocabulary
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal taxonomy:term:delete [arguments]
 ttd
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 vid | 
 
-## application.gitbook.messages.examples
+## Examples
 * Delete all terms of the "tags" vocabulary
 ```
 drupal taxonomy:term:delete  tags

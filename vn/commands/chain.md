@@ -1,13 +1,13 @@
 # chain
 Thi hành chuỗi câu lệnh
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal chain [arguments] [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | Người dùng định nghĩa file đang chứa những câu lệnh để thực thi
 --placeholder | commands.chain.options.placeholder
@@ -29,12 +29,12 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute
 
-## application.gitbook.messages.examples
+## Examples
 * Providing a file option using full path.
 ```
 drupal chain \

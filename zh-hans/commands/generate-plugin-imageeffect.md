@@ -1,17 +1,28 @@
 # generate:plugin:imageeffect
-Generate image effect plugin.
+生成图像效果插件
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:imageeffect [options]
 gpie
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---module | The Module name.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---description | Plugin Description
+--module | 模块名称
+--class | 插件类名
+--label | 插件标签
+--plugin-id | 插件 ID
+--description | 插件描述
+
+## Examples
+* Generate a image effect plugin specifying the module name, the class, its label, the plugin id and a description
+```
+drupal generate:plugin:imageeffect  \
+  --module="modulename"  \
+  --class="DefaultImageEffect"  \
+  --label="Default image effect"  \
+  --plugin-id="default_image_effect"  \
+  --description="My Image Effect"
+```

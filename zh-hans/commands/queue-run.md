@@ -1,13 +1,13 @@
 # queue:run
-處理選中的排程隊列（queue）。
+处理选中的队列
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal queue:run [arguments]
 qr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-name | 排程隊列名稱
+name | 队列名称

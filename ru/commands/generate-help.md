@@ -1,14 +1,22 @@
 # generate:help
 Generate an implementation of hook_help()
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:help [options]
 gh
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | Имя модуля.
 --description | Module description
+
+## Examples
+* Generate a hook help specifying the module name and the description
+```
+drupal generate:help  \
+  --module="modulename"  \
+  --description="My Awesome Module"
+```

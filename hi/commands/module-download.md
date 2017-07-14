@@ -1,22 +1,29 @@
 # module:download
 मोड्यूल या मोड्यूलो को डाउनलोड करें
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:download [arguments] [options]
 mod
 md
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --path | The path of the contrib project
 --latest | डिफ़ॉल्ट नवीनतम संस्करण डाउनलोड करने के लिए
 --composer | कंपोजर का उपयोग कर मॉड्यूल डाउनलोड करें
 --unstable | commands.module.install.options.unstable
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | मॉड्यूल या मॉड्यूलस सक्षम होने के लिए एक स्पेस से सेपरेट किया जाना चाहिए
+
+## Examples
+* Download module specifying module name and its path
+```
+drupal module:download  modulename  \
+  --path="modules/contrib"
+```

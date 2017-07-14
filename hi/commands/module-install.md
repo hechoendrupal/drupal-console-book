@@ -1,14 +1,14 @@
 # module:install
 मोड्यूल या मोड्यूलो को अनुप्रयोग में स्थापित करें
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:install [arguments] [options]
 moi
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --latest | डिफ़ॉल्ट नवीनतम संस्करण डाउनलोड करने के लिए
 --composer | Uninstalls the module using Composer
@@ -30,8 +30,14 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute
 module | मॉड्यूल या मॉड्यूलस सक्षम होने के लिए एक स्पेस से सेपरेट किया जाना चाहिए
+
+## Examples
+* Install module specifying the module name
+```
+drupal module:install  modulename
+```

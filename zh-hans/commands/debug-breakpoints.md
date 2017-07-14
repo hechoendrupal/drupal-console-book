@@ -1,18 +1,18 @@
 # debug:breakpoints
-Displays breakpoints available in application
+显示可用的断点
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:breakpoints [arguments]
 dbre
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-group | Enter Breakpoint Group Name
+group | 输入断点组名称
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a group name.
 ```
 drupal breakpoints:debug bartik

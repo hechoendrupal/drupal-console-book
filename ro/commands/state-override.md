@@ -1,14 +1,20 @@
 # state:override
 Override a State key.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal state:override [arguments]
 sto
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 key | The State key to override.
 value | The State value to set.
+
+## Examples
+* Override state value specifying the state name and the new value
+```
+drupal state:override  comment.node_comment_statistics_scale "!!float 1"
+```

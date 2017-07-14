@@ -1,24 +1,24 @@
 # config:export:single
 Ekspor konfigurasi tunggal sebagai berkas yml.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:export:single [options]
 ces
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --name | commands.config.export.single.options.name
---directory | Mendefinisikan direktori ekspor untuk menyimpan keluaran konfigurasi.
+--directory | commands.config.export.arguments.directory
 --module | Nama modul.
 --include-dependencies | Ekspor prasyarat dari konfigurasi.
 --optional | Export config as an optional YAML configuration in your module
 --remove-uuid | If set, the configuration will be exported without uuid key.
 --remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
-## application.gitbook.messages.examples
+## Examples
 * Provide config settings name to be exported
 ```
 drupal config:export:single \

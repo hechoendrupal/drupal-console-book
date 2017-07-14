@@ -1,20 +1,20 @@
 # migrate:setup
-Load and create the relevant migrations for a provided legacy database
+导入或创建数据库迁移
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:setup [options]
 mis
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---db-type | Drupal Database type
---db-host | Database Host
---db-name | Database Name
---db-user | Database User
---db-pass | Database Pass
---db-prefix | Database Prefix
---db-port | Database Port
+--db-type | Drupal 数据库类型
+--db-host | 数据库主机
+--db-name | 数据库名称
+--db-user | 数据库用户
+--db-pass | 数据库密码
+--db-prefix | 数据库前缀
+--db-port | 数据库端口
 --source-base_path | commands.migrate.setup.options.source-base-path

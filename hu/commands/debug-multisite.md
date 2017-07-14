@@ -1,8 +1,14 @@
 # debug:multisite
 A rendszeren elérhető multisite-ok listázása
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:multisite
 dmu
+```
+
+## Examples
+* Displays multisite information
+```
+drupal debug:multisite
 ```

@@ -1,13 +1,13 @@
 # chain
 साखळी आदेशाची अंमलबजावणी करावी.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal chain [arguments] [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | आदेश समाविष्ट असलेल्या वापरकर्ता परिभाषित फाइलची अंमलबजावणी.
 --placeholder | commands.chain.options.placeholder
@@ -29,12 +29,12 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute
 
-## application.gitbook.messages.examples
+## Examples
 * पूर्ण पथ वापरून फाइल पर्याय प्रदान करणे.
 ```
 drupal chain \

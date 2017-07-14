@@ -1,14 +1,14 @@
 # migrate:setup
 Adott örökölt adatbázis fontos költöztetéseinek betöltése és létrehozása
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:setup [options]
 mis
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --db-type | Drupal adatbázis típusa
 --db-host | Adatbázis-gazdagép

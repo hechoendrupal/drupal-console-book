@@ -1,14 +1,14 @@
 # debug:database:log
 Показать текущий журнал событий приложения
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:database:log [arguments] [options]
 dbb
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --type | Filter events by a specific type
 --severity | Filter events by a specific level of severity
@@ -18,7 +18,17 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --offset | Смещение стартовой позиции
 --yml | Print in a yml style
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 event-id | Идентификатор события в DBLog
+
+## Examples
+* List all the entries on the log
+```
+drupal debug:database:log
+```
+* List specific log entry by Event ID
+```
+drupal debug:database:log 21228
+```

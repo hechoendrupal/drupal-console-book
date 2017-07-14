@@ -1,14 +1,14 @@
 # generate:permissions
 commands.generate.permission.description
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:permissions [options]
 gp
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | A modul neve.
 --permissions | Engedélyek létrehozása.

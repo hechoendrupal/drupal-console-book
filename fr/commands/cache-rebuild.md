@@ -1,18 +1,18 @@
 # cache:rebuild
 Reconstruit l'ensemble des caches du site.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cache:rebuild [arguments]
 cr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 cache | Reconstruire un cache spécifique.
 
-## application.gitbook.messages.examples
+## Examples
 * Reconstruire l'ensemble des caches
 ```
 drupal cr all

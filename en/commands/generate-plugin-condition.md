@@ -1,15 +1,15 @@
 # generate:plugin:condition
 Generate a plugin condition.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:condition [options]
 gpco
 gpc
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | Plugin condition class name
@@ -19,7 +19,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --context-definition-label | Context definition label
 --context-definition-required | Context definition is required (TRUE/FALSE)
 
-## application.gitbook.messages.examples
+## Examples
 * Generate a plugin condition for a node entity type specifying the module name, the class, the label, its id and the context definition
 ```
 drupal generate:plugin:condition  \

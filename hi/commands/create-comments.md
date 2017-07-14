@@ -1,25 +1,25 @@
 # create:comments
 अपने Drupal 8 एप्लीकेशन के लिए डमी कमेंट्स बनाएँ।
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:comments [arguments] [options]
 crc
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | आप कितने भी कमेंट्स बना सकते है
 --title-words | कमेंट टाइटल्स में शब्दों की अधिकतम संख्या
 --time-range | कमेंट्स दिनांकित किया जाना चाहिए की कितनी दूर समय में वापस होगा
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 node-id | नोड आईडी जहां कमेंट्स बनाया जाएगा
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the node id where the comments will be generated.
 ```
 drupal create:comments  node-id

@@ -1,24 +1,24 @@
 # config:export:content:type
-Export a specific content type and their fields.
+导出内容类型及其字段
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:export:content:type [arguments] [options]
 cect
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---module | The Module name.
---optional-config | Export content type as an optional YAML configuration in your module
+--module | 模块名称
+--optional-config | 导出内容类型作为模块中的可选配置
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-content-type | Content Type to be exported
+content-type | 内容类型
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a content type  and module name
 ```
 drupal config:export:content:type page \

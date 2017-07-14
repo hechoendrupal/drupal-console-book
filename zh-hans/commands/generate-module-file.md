@@ -1,13 +1,20 @@
 # generate:module:file
-Generate a .module file
+生成一个 .module 文件
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:module:file [options]
 gmf
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---module | The Module name.
+--module | 模块名称
+
+## Examples
+* Generate the .module file specifying the module name
+```
+drupal generate:module:file  \
+  --module="modulename"
+```

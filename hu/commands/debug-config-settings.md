@@ -1,13 +1,13 @@
 # debug:config:settings
 A beállításfájl aktuális kulcs:érték beállításainak megjelenítése.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:config:settings
 dcs
 ```
 
-## application.gitbook.messages.examples
+## Examples
 * Displays key:value as per the settings file
 ```
 drupal debug:config:settings

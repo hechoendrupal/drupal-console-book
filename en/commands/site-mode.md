@@ -1,18 +1,18 @@
 # site:mode
 Switch system performance configuration
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal site:mode [arguments]
 smo
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 environment | Environment name [dev, prod]
 
-## application.gitbook.messages.examples
+## Examples
 * Switch system to prod
 ```
 drupal site:mode  prod

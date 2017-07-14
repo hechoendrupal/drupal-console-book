@@ -1,7 +1,7 @@
 # debug:chain
 Rendelkezésre álló láncolt fájlok felsorolása.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:chain
 dch

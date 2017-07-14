@@ -1,25 +1,21 @@
 # config:override
-Override config value in active configuration.
+覆写活动配置
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:override [arguments]
 co
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-name | Configuration name
-key | Key
-value | Value
+name | 配置名称
+key | 键
+value | 值
 
-## application.gitbook.messages.examples
-<<<<<<< HEAD
+## Examples
 * 设置 Contact 模块 flood limit 为 10.
-=======
-* Set the Contact module flood limit to 10.
->>>>>>> upstream/master
 ```
 drupal config:override contact.settings flood.limit 10
 ```

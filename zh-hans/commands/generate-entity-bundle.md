@@ -1,15 +1,24 @@
 # generate:entity:bundle
-Generate a new content type (node / entity bundle)
+生成新内容类型（node 或实体 bundle）
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:entity:bundle [options]
 geb
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---module | The Module name.
---bundle-name | The content type's machine name
---bundle-title | The content type's human-readable name
+--module | 模块名称
+--bundle-name | 内容类型的机读名称
+--bundle-title | 内容类型的名称
+
+## Examples
+* Generate bundle entity specifying the module, the bundle name and its title
+```
+drupal generate:entity:bundle  \
+  --module="modulename"  \
+  --bundle-name="default"  \
+  --bundle-title="default"
+```

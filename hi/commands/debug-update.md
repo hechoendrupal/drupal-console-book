@@ -1,8 +1,14 @@
 # debug:update
 अनुप्रयोग के उपलब्ध नवीनीकरणो को दिखाएँ
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:update
 du
+```
+
+## Examples
+* List of pending updates
+```
+drupal debug:update
 ```

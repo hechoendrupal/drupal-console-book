@@ -1,15 +1,15 @@
 # field:info
-commands.field.info.description
+View information about fields.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal field:info [options]
 fii
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---detailed | commands.field.info.options.detailed
---entity | commands.field.info.options.entity
---bundle | commands.field.info.options.bundle
+--detailed | Extended output with machine names and descriptions
+--entity | Restrict to a specific fieldabe entity type, for example: node, comment, taxonomy_term, shortcut, block_content, contact_message
+--bundle | Restrict to a specific bundle type, for example: article

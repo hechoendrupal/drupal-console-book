@@ -1,8 +1,8 @@
-# application.gitbook.messages.title
+# Available Drupal Console Commands
 
-**application.gitbook.messages.note:** application.gitbook.messages.note-description.
+**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
 
-application.gitbook.messages.command | application.gitbook.messages.details
+Drupal Console Command | Details
 ------------ | -------------
 **misc**  |
 [about](about.md) | Ipakita ang mga pangunahing impormasyon tungkol sa proyekto ng Drupal Console 
@@ -219,8 +219,8 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [views:disable](views-disable.md) | I-disable ang View
 [views:enable](views-enable.md) | Enable a View
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --help | Ipakita ang mensahe ng pagtulong
 --quiet | Huwag ipakit ang anumang mensage
@@ -240,7 +240,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI ng isang Drupal site na gagamitin (para sa multi-site ng kaligiran)
 --yes | Laktawan ang kompirmasyon at tumungo sa kabila
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | Ang utos na patakbuhin

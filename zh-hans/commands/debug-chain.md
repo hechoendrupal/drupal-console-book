@@ -1,7 +1,7 @@
 # debug:chain
-列出可用的連續命令檔案
+列出可用链式命令文件
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:chain
 dch

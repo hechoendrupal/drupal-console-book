@@ -1,19 +1,19 @@
 # create:vocabularies
 Crea vocabularios de prueba para tu Drupal 8.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:vocabularies [options]
 crv
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Cuántos vocabularios le gustaría crear
 --name-words | Número máximo de palabras en los nombres de vocabulario
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the number of vocabularies to create and maximum number of words in vocabulary names
 ```
 drupal create:vocabularies \

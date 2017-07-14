@@ -1,13 +1,19 @@
 # debug:views:plugins
 Mostrar os plugins de views atuais para a aplicação
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:views:plugins [arguments]
 dvp
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 type | Filtrar plugins de views por tipo
+
+## Examples
+* List of views plugins
+```
+drupal debug:views:plugins
+```

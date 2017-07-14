@@ -1,8 +1,8 @@
-# application.gitbook.messages.title
+# Available Drupal Console Commands
 
-**application.gitbook.messages.note:** application.gitbook.messages.note-description.
+**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
 
-application.gitbook.messages.command | application.gitbook.messages.details
+Drupal Console Command | Details
 ------------ | -------------
 **misc**  |
 [about](about.md) | 드루팔 콘솔 프로젝트에 대한 기본 정보를 표시합니다.
@@ -219,8 +219,8 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [views:disable](views-disable.md) | Disable a View
 [views:enable](views-enable.md) | Enable a View
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -240,7 +240,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute

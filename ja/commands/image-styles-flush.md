@@ -1,13 +1,23 @@
 # image:styles:flush
 画像スタイルのフラッシュを実行
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal image:styles:flush [arguments]
 isf
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 styles | 画像スタイル名称
+
+## Examples
+* Flush large image style
+```
+drupal image:styles:flush  large
+```
+* Flush thumbnail image style
+```
+drupal image:styles:flush  thumbnail
+```

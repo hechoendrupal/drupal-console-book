@@ -1,23 +1,23 @@
 # database:restore
 Restaure la structure et le contenu de votre base de données MySQL depuis une sauvegarde
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:restore [arguments] [options]
 dbr
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | Le nom du fichier de votre sauvegarde de base de données
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 database | Clé de la base de données du fichier settings.php
 
-## application.gitbook.messages.examples
+## Examples
 * Restore the database file dump to the database default or another one specified
 ```
 drupal database:restore \

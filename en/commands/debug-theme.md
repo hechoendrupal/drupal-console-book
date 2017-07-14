@@ -1,18 +1,18 @@
 # debug:theme
 Displays current themes for the application
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:theme [arguments]
 dt
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | Specific theme to debug
 
-## application.gitbook.messages.examples
+## Examples
 * List of themes on the site
 ```
 drupal debug:theme

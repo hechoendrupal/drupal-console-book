@@ -1,9 +1,15 @@
 # router:rebuild
 重建網站應用途徑
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal router:rebuild
 rr
 ror
+```
+
+## Examples
+* Rebuild routes
+```
+drupal router:rebuild
 ```

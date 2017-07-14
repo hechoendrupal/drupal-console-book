@@ -1,14 +1,14 @@
 # generate:plugin:fieldtype
 Mezőtípus bővítmény létrehozása
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:fieldtype [options]
 gpft
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | A modul neve.
 --class | Bővítmény osztályneve
@@ -17,3 +17,25 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --description | Bővítmény leírása
 --default-widget | A bővítmény alapértelmezett mező felületi eleme
 --default-formatter | A bővítmény alapértelmezett mezőformázója
+
+## Examples
+* Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description
+```
+drupal generate:plugin:fieldtype  \
+  --module="modulename"  \
+  --class="ExampleFieldType"  \
+  --label="Example field type"  \
+  --plugin-id="example_field_type"  \
+  --description="My Field Type"
+```
+* Generate a field type plugin with a default widget and formatter specifying the module name, the class, its label, the plugin id and a description
+```
+drupal generate:plugin:fieldtype  \
+  --module="modulename"  \
+  --class="ExampleFieldType"  \
+  --label="Example field type"  \
+  --plugin-id="example_field_type"  \
+  --description="My Field Type"  \
+  --default-widget="DefaultWidget"  \
+  --default-formatter="DefaultFormatter"
+```

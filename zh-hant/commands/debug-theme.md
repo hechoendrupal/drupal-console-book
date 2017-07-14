@@ -1,13 +1,23 @@
 # debug:theme
 顯示預設的版型
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:theme [arguments]
 dt
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | 除錯特定的版型
+
+## Examples
+* List of themes on the site
+```
+drupal debug:theme
+```
+* Bartik theme information
+```
+drupal debug:theme bartik
+```

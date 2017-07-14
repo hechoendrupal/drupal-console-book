@@ -1,12 +1,12 @@
 # locale:language:delete
 Supprime une langue de votre site
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal locale:language:delete [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 language | Langue, par exemple : es ou Espagnol

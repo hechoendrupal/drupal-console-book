@@ -1,26 +1,26 @@
 # create:nodes
-Create dummy nodes for your Drupal 8 application.
+生成节点
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:nodes [arguments] [options]
 crn
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---limit | How many nodes would you like to create
---title-words | Maximum number of words in node titles
---time-range | How far back in time should the nodes be dated
+--limit | 生成多少个节点
+--title-words | 节点标题允许的最多单词数量
+--time-range | 节点的创建时间范围
 --language | commands.create.nodes.options.language
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-content-types | Content type(s) to be used in node creation
+content-types | 节点的内容类型(s)
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the content type name.
 ```
 drupal create:nodes content-name

@@ -1,19 +1,31 @@
 # generate:plugin:rest:resource
-Generate plugin rest resource
+生成 REST资源插件
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:rest:resource [options]
 gprr
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---module | The Module name.
---class | Plugin Rest Resource class
+--module | 模块名称
+--class | 插件REST资源类
 --name | commands.generate.service.options.name
---plugin-id | Plugin Rest Resource id
---plugin-label | Plugin Rest Resource Label
---plugin-url | Plugin Rest Resource URL
---plugin-states | Plugin Rest Resource States
+--plugin-id | 插件REST资源id
+--plugin-label | 插件REST资源标签
+--plugin-url | 插件REST资源URL链接
+--plugin-states | 插件REST资源状态
+
+## Examples
+* Generate a rest resource plugin using GET specifying the module name, the class, the plugin id, its label, the target url and the request type
+```
+drupal generate:plugin:rest:resource  \
+  --module="modulename"  \
+  --class="DefaultRestResource"  \
+  --plugin-id="default_rest_resource"  \
+  --plugin-label="Default rest resource"  \
+  --plugin-url="http://rest.resources.example.com"  \
+  --plugin-states='GET'
+```

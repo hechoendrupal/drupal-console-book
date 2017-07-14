@@ -1,13 +1,19 @@
 # state:delete
-清除系統狀態
+删除状态
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal state:delete [arguments]
 std
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-name | 系統狀態名稱。
+name | 状态名称
+
+## Examples
+* Delete state specifying the state name
+```
+drupal state:delete  comment.maintain_entity_statistics
+```

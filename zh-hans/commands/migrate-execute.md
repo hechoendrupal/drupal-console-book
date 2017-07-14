@@ -1,27 +1,27 @@
 # migrate:execute
-Execute a migration available for application
+执行可用迁移
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:execute [arguments] [options]
 mie
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---site-url | Site Source URL
+--site-url | 来源网站 URL
 --db-type | commands.migrate.setup.migrations.options.db-type
---db-host | Database Host
---db-name | Database Name
---db-user | Database User
---db-pass | Database Pass
---db-prefix | Database Prefix
---db-port | Database Port
---exclude | Migration id(s) to exclude
---source-base_path | commands.migrate.execute.options.source-base-path
+--db-host | 数据库主机
+--db-name | 数据库名称
+--db-user | 数据库用户
+--db-pass | 数据库密码
+--db-prefix | 数据库前缀
+--db-port | 数据库端口
+--exclude | 被排除的迁移 ID
+--source-base_path | Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-migration-ids | Migration id(s)
+migration-ids | 一个或多个迁移 ID

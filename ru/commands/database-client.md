@@ -1,18 +1,18 @@
 # database:client
 Запуск клиента базы данных, если он доступен
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:client [arguments]
 dbc
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 database | Ключ базы данных из settings.php
 
-## application.gitbook.messages.examples
+## Examples
 * Launch the default client or could launch another regarding the specification on the argument
 ```
 drupal database:client <database>

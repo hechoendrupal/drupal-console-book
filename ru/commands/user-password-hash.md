@@ -1,14 +1,20 @@
 # user:password:hash
 Сгенерировать хеш для пароля.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal user:password:hash [arguments]
 uph
 usph
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 password | Пароль(и) в текстовом формате
+
+## Examples
+* Get hash of the word "p455w0rd"
+```
+drupal user:password:hash  p455w0rd
+```

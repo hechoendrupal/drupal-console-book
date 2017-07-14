@@ -1,13 +1,23 @@
 # debug:libraries
-顯示可用的 libraries
+显示应用中可用的 Libraries
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:libraries [arguments]
 dl
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-group | 輸入 Libraries 名稱
+group | 输入 Libraries 名称
+
+## Examples
+* List all available libraries
+```
+drupal debug:libraries
+```
+* List block library information
+```
+drupal debug:libraries block
+```

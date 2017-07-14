@@ -1,14 +1,14 @@
 # migrate:setup
 Charge et créé les migrations adéquates pour la base de données existante indiquée
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:setup [options]
 mis
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --db-type | Type de base de données de l'installation Drupal
 --db-host | Serveur de la base de données

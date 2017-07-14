@@ -1,8 +1,8 @@
-# application.gitbook.messages.title
+# Available Drupal Console Commands
 
-**application.gitbook.messages.note:** application.gitbook.messages.note-description.
+**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
 
-application.gitbook.messages.command | application.gitbook.messages.details
+Drupal Console Command | Details
 ------------ | -------------
 **misc**  |
 [about](about.md) | Exibir informações básicas sobre projeto Drupal Console
@@ -21,9 +21,9 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Edite a configuração selecionada.
 [config:export](config-export.md) | Exportar a configuração atual da aplicação.
-[config:export:content:type](config-export-content-type.md) | Exportar um content-type específico e todos os seus fields.
-[config:export:single](config-export-single.md) | Exportar uma configuração única como um arquivo YML.
-[config:export:view](config-export-view.md) | Exportar uma view no formato YAML em um módulo, para reutilizar em outro website.
+[config:export:content:type](config-export-content-type.md) | Exportar um tipo de conteúdo específico e os seus campos.
+[config:export:single](config-export-single.md) | Exportar configuração como um arquivo yml.
+[config:export:view](config-export-view.md) | Exportar uma view no formato YAML dentro de um módulo fornecido para reutilização em outro site.
 [config:import](config-import.md) | Importar configuração do estado atual da aplicação.
 [config:import:single](config-import-single.md) | Importar a configuratição selecionada.
 [config:override](config-override.md) | Sobrescrever valor de configuração ativa.
@@ -219,8 +219,8 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [views:disable](views-disable.md) | Desabilitar uma View
 [views:enable](views-enable.md) | Habilitar uma View
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -240,7 +240,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI do site Drupal para usar (para ambientes multisites ou quando usado em uma porta alternativa)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute

@@ -1,14 +1,14 @@
 # cron:release
 Cronのシステムロックを解放
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cron:release
 cror
 crr
 ```
 
-## application.gitbook.messages.examples
+## Examples
 * Execute the cron globally
 ```
 drupal cron:execute

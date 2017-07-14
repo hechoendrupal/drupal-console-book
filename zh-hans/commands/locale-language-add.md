@@ -1,12 +1,12 @@
 # locale:language:add
-Add a language to be supported by your site
+添加一种语言
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal locale:language:add [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-language | Language for instance es or Spanish
+language | 语言，如 zh-hans

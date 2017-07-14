@@ -1,18 +1,18 @@
 # cache:rebuild
 Перестроить и очистить весь кеш сайта.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cache:rebuild [arguments]
 cr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 cache | Очистить только конкретный кеш.
 
-## application.gitbook.messages.examples
+## Examples
 * Перестроить все кеши
 ```
 drupal cr all

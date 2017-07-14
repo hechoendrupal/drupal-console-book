@@ -1,14 +1,14 @@
 # init
-複製設定檔到使用者目錄.
+拷贝配置文件到用户的 home 目录
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal init [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --destination | Destination directory to copy files
---override | 覆寫設定檔案
+--override | 覆盖配置文件
 --autocomplete | Autocomplete tool files flag.

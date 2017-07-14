@@ -1,13 +1,23 @@
 # debug:libraries
 ライブラリを表示
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:libraries [arguments]
 dl
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 group | ライブラリ名を入力してください
+
+## Examples
+* List all available libraries
+```
+drupal debug:libraries
+```
+* List block library information
+```
+drupal debug:libraries block
+```

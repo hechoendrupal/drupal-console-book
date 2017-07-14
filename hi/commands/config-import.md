@@ -1,20 +1,20 @@
 # config:import
 वर्तमान अनुप्रयोग में व्यवस्था आयात करें।
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:import [options]
 ci
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | Path to an archive file of configuration to import.
 --directory | Path to a directory of configuration to import.
 --remove-files | Remove files after synchronization.
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a configuration file
 ```
 drupal config:import \

@@ -1,19 +1,26 @@
 # module:update
-Update core, module or modules in the application
+更新核心,模块
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:update [arguments] [options]
 moup
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---composer | Update the module using Composer
---simulate | Simulate the update process with Composer
+--composer | 使用 Composer 更新模块
+--simulate | 使用 Composer 模拟更新模块
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-module | Module or modules to be updated should be separated by a space. Leave empty for updating the core and all your modules managed by Composer.
+module | 模块之间以空格间隔, 留空更新核心以及所有被 Composer 管理的模块
+
+## Examples
+* Update module specifying module name and composer parameter
+```
+drupal module:update  modulename  \
+  --composer
+```

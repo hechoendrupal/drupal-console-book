@@ -1,25 +1,25 @@
 # config:export:view
 Экспорт представления в YAML формат внутри модуля для повторного использования на другом сайте.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:export:view [arguments] [options]
 cev
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | Имя модуля.
 --optional-config | Экспорт представления в модуль как дополнительную YAML конфигурацию
 --include-module-dependencies | Включить зависимости модуля в info YAML файл модуля
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 view-id | ID представления
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a view id
 ```
 drupal config:export:view viewid

@@ -1,18 +1,18 @@
 # database:client
-Launch a DB client if it's available
+运行数据库客户端
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:client [arguments]
 dbc
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-database | Database key from settings.php
+database | settings.php 文件中 Database 的键
 
-## application.gitbook.messages.examples
+## Examples
 * Launch the default client or could launch another regarding the specification on the argument
 ```
 drupal database:client <database>

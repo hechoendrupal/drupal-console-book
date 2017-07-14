@@ -1,19 +1,19 @@
 # help
-Displays help for a command
+显示帮助
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal help [arguments] [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---xml | To output list as XML
---raw | To output raw command list
---format | The output format (txt, xml, json, or md)
+--xml | 以 XML 格式输出
+--raw | 以 raw 格式输出
+--format | 输出格式（txt, xml, json, or md）
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-command_name | commands.help.arguments.command-name
+command_name | The command name

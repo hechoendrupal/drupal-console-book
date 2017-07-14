@@ -1,19 +1,25 @@
 # theme:install
-安裝一或多個版型至網站應用中
+安装主题
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal theme:install [arguments] [options]
 thi
 ti
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---set-default | 設定為預設版型
+--set-default | 设置主题为默认主题
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | commands.theme.install.options.module
+
+## Examples
+* Install theme specifying the name
+```
+drupal theme:install  mytheme
+```

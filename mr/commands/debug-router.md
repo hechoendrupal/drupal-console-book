@@ -1,18 +1,18 @@
 # debug:router
 अनुप्रयोग चालू मार्ग दाखवतो
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:router [arguments]
 dr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 route-name | मार्ग नावे
 
-## application.gitbook.messages.examples
+## Examples
 * अनुप्रयोगासाठी वर्तमान मार्ग प्रदर्शित करते.
 ```
 drupal rod

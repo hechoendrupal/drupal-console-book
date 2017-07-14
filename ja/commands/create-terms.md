@@ -1,24 +1,24 @@
 # create:terms
 ダミーのタームを作成
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:terms [arguments] [options]
 crt
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | 作成するタームの数
 --name-words | タームの名前に設定するの単語の最大数
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 vocabularies | 作成するタームのボキャブラリー (複数指定可)
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the vocabulary term name.
 ```
 drupal create:terms vocabulary

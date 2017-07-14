@@ -1,19 +1,19 @@
 # config:import:single
 Import the selected configuration.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:import:single [options]
 cis
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | The file(s) name or file(s) absolute path to import
---directory | कॉन्फ़िगरेशन की एक डायरेक्टरी के लिए पथ इम्पोर्ट करते हैं।
+--directory | commands.config.import.arguments.directory
 
-## application.gitbook.messages.examples
+## Examples
 * Providing a file option using full path.
 ```
 drupal config:import:single \

@@ -1,15 +1,15 @@
 # generate:controller
 Generate & Register a controller
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:controller [options]
 gcon
 gcn
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | Controller Class name
@@ -17,7 +17,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --services | Load services from the container.
 --test | Generate a test class
 
-## application.gitbook.messages.examples
+## Examples
 * Generate controller specifying the module name, the class name and its routes
 ```
 drupal generate:controller  \

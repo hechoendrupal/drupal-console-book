@@ -1,13 +1,13 @@
 # queue:run
 निवडलेल्या रांगांवर प्रक्रिया करा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal queue:run [arguments]
 qr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 name | रांग नाव.

@@ -1,18 +1,18 @@
 # debug:router
 顯示目前網站應用中建立的途徑
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:router [arguments]
 dr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 route-name | 途徑名稱
 
-## application.gitbook.messages.examples
+## Examples
 * Displays current routes for the application
 ```
 drupal rod

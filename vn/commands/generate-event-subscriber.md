@@ -1,17 +1,27 @@
 # generate:event:subscriber
 Tạo một event subscriber
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:event:subscriber [options]
 ges
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | Tên module.
 --name | commands.generate.service.options.name
 --class | Tên Class
 --events | Nạp các sự kiện từ container
 --services | Nạp các dịch vụ từ container.
+
+## Examples
+* Generate an event subscriber specifying the module name, its name, the class and the events to subscribe
+```
+drupal generate:event:subscriber  \
+  --module="modulename"  \
+  --name="modulename.default"  \
+  --class="DefaultSubscriber"  \
+  --events='kernel_request'
+```

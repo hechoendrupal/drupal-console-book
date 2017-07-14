@@ -1,20 +1,26 @@
 # theme:download
 下載網站版型
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal theme:download [arguments] [options]
 thd
 td
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --composer | 使用 --composer 參數可選用 Composer 來下載版型
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | 版型名稱
 version | 版型版本號，例如：1.x-dev
+
+## Examples
+* Download theme specifying name and version
+```
+drupal theme:download  Alina 7.x-1.2
+```

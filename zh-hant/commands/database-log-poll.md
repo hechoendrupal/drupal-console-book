@@ -1,20 +1,27 @@
 # database:log:poll
-commands.database.log.poll.description
+Poll the watchdog and print new log entries every x seconds
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:log:poll [arguments] [options]
 dblp
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---type | commands.database.log.common.options.type
---severity | commands.database.log.common.options.severity
---user-id | commands.database.log.common.options.user-id
+--type | Filter events by a specific type
+--severity | Filter events by a specific level of severity
+--user-id | Filter events by a specific user id
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-duration | commands.database.log.poll.arguments.duration
+duration | Duration in seconds which to sleep between database reads
+
+## Examples
+* Print the log entries on screen every x seconds
+```
+drupal database:log:poll \
+  100
+```

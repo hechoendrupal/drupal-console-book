@@ -1,8 +1,14 @@
 # debug:update
 利用可能なアップデートを表示
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:update
 du
+```
+
+## Examples
+* List of pending updates
+```
+drupal debug:update
 ```

@@ -1,13 +1,23 @@
 # image:styles:flush
 प्रतिमा शैली फ्लश कार्य अंमलात किंवा सर्व फ्लश प्रतिमा शैली कार्यान्वित.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal image:styles:flush [arguments]
 isf
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 styles | प्रतिमा शैलीचे नाव.
+
+## Examples
+* Flush large image style
+```
+drupal image:styles:flush  large
+```
+* Flush thumbnail image style
+```
+drupal image:styles:flush  thumbnail
+```

@@ -1,14 +1,14 @@
 # migrate:execute
 Execută o migraţie disponibilă pentru aplicaţie
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:execute [arguments] [options]
 mie
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --site-url | URL-ul sitului
 --db-type | commands.migrate.setup.migrations.options.db-type
@@ -19,9 +19,9 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --db-prefix | Prefixul bazei de date
 --db-port | Portul bazei de date
 --exclude | ID-urile migraţiilor care vor fi excluse.
---source-base_path | commands.migrate.execute.options.source-base-path
+--source-base_path | Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 migration-ids | Id-ul migraţiei

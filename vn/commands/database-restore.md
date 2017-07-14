@@ -1,23 +1,23 @@
 # database:restore
 Khôi phục cấu trúc và content của một cơ sở dữ liệu
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:restore [arguments] [options]
 dbr
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | Tên cho tệp sao lưu cơ sở dữ liệu của bạn
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 database | Khoá cơ sở dữ liệu từ tệp settings.php
 
-## application.gitbook.messages.examples
+## Examples
 * Restore the database file dump to the database default or another one specified
 ```
 drupal database:restore \

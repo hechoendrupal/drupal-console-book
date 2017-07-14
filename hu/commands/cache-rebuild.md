@@ -1,18 +1,18 @@
 # cache:rebuild
 A webhely összes gyorsítótárának újraépítése és törlése.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cache:rebuild [arguments]
 cr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 cache | Csak egy adott gyorsítótár törlése.
 
-## application.gitbook.messages.examples
+## Examples
 * Összes gyorsítótár újraépítése
 ```
 drupal cr all

@@ -1,19 +1,19 @@
 # config:import:single
 Impor konfigurasi terpilih.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:import:single [options]
 cis
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | The file(s) name or file(s) absolute path to import
---directory | Path directori dari konfigurasi yang akan diimpor.
+--directory | commands.config.import.arguments.directory
 
-## application.gitbook.messages.examples
+## Examples
 * Providing a file option using full path.
 ```
 drupal config:import:single \

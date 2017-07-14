@@ -1,24 +1,24 @@
 # database:dump
 डंप संरचना और MYSQL का कंटेंट डेटाबेसेस और टेबल्स
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:dump [arguments] [options]
 dbdu
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | अपने डेटाबेस बैकअप के लिए फ़ाइल नाम
 --gz | Pass this option if you want the sql result file gzipped
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 database | Settings.php से डाटाबेस कुंजी
 
-## application.gitbook.messages.examples
+## Examples
 * Dump default database or the one specified on the argument
 ```
 drupal database:dump \

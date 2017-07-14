@@ -1,18 +1,24 @@
 # debug:rest
 Aktuális REST-erőforrás megjelenítése
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:rest [arguments] [options]
 rede
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --authorization | Engedélyezett | tilott állapotú REST-erőforrás
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 resource-id | REST-azonosító
+
+## Examples
+* Displays rest hooks
+```
+drupal debug:rest
+```

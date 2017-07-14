@@ -1,24 +1,24 @@
 # create:terms
-Create dummy terms for your Drupal 8 application.
+生成分类术语
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:terms [arguments] [options]
 crt
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---limit | How many terms would you like to create
---name-words | Maximum number of words in term names
+--limit | 生成多少个分类术语
+--name-words | 分类术语名称允许的最多单词数量
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-vocabularies | Vocabulary(s) to be used in terms creation
+vocabularies | 用于生成分类术语的词汇表(s)
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the vocabulary term name.
 ```
 drupal create:terms vocabulary

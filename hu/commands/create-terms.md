@@ -1,24 +1,24 @@
 # create:terms
 Tesztkifejezések létrehozása egy Drupal 8 alkalmazáshoz.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:terms [arguments] [options]
 crt
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Hány szó jöjjön létre
 --name-words | A kifejezések által tartalmazott szavak maximális száma
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 vocabularies | A kifejezések létrehozásakor használandó szótárak
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the vocabulary term name.
 ```
 drupal create:terms vocabulary

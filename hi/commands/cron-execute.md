@@ -1,19 +1,19 @@
 # cron:execute
 क्रॉन लागू करने वाले किसी विशेष मोड्यूल को चलायें या सारे क्रॉन चलायें
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cron:execute [arguments]
 croe
 cre
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | मोड्यूल का नाम।
 
-## application.gitbook.messages.examples
+## Examples
 * Execute the cron globally
 ```
 drupal cron:execute

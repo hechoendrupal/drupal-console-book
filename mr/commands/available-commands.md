@@ -1,8 +1,8 @@
-# application.gitbook.messages.title
+# Available Drupal Console Commands
 
-**application.gitbook.messages.note:** application.gitbook.messages.note-description.
+**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
 
-application.gitbook.messages.command | application.gitbook.messages.details
+Drupal Console Command | Details
 ------------ | -------------
 **misc**  |
 [about](about.md) | Drupal Console प्रकल्पाबद्दल मूलभूत माहिती प्रदर्शित करते.
@@ -163,7 +163,7 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [module:uninstall](module-uninstall.md) | अनुप्रयोगात मोड्यूल किंवा मोड्यूल्स अनइन्स्टॉल करा.
 [module:update](module-update.md) | अनुप्रयोग मध्ये अद्यतन कोर, मॉड्यूल किंवा मॉड्यूल्स.
 **multisite**  |
-[multisite:new](multisite-new.md) | commands.multisite.new.description
+[multisite:new](multisite-new.md) | Sets up the files for a new multisite install.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | नोड प्रवेश परवानग्या पुन्हा तयार करा. पुनर्निर्माण सामग्रीसाठी सर्व विशेषाधिकार काढून टाकेल आणि वर्तमान मॉड्यूल्स आणि सेटिंग्जवर आधारित परवानग्या पुनर्स्थित करेल.
 **queue**  |
@@ -219,8 +219,8 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [views:disable](views-disable.md) | एक दृश्य अक्षम करा.
 [views:enable](views-enable.md) | एक दृश्य सक्षम करा.
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --help | मदतीचे संदेश प्रदर्शित करा.
 --quiet | कोणतेही संदेश उत्पादीत करू नये.
@@ -240,7 +240,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | Drupal साइटच्या यूआरआई चा वापर ( अनेक वातावरणांसाठी किंवा एक पर्यायी port वर चालवण्यासाठी ) होते.
 --yes | खात्री वगळा आणि पुढे चालू ठेवा.
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | चालविण्याजोगी आदेश.

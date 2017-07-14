@@ -1,13 +1,13 @@
 # site:new
 Download a new Drupal project
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal site:new [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --repository | repository
 --directory | directory

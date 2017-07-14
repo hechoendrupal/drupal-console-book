@@ -1,7 +1,7 @@
 # debug:chain
 ਉਪਲੱਬਧ ਚੇਨ ਫਾਇਲ ਦੀ ਸੂਚੀ
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:chain
 dch

@@ -1,8 +1,8 @@
-# application.gitbook.messages.title
+# Available Drupal Console Commands
 
-**application.gitbook.messages.note:** application.gitbook.messages.note-description.
+**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
 
-application.gitbook.messages.command | application.gitbook.messages.details
+Drupal Console Command | Details
 ------------ | -------------
 **misc**  |
 [about](about.md) | Affiche les informations concernant le projet Drupal Console
@@ -21,8 +21,8 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [config:diff](config-diff.md) | Affiche les items de configuration qui sont différents dans la configuration active par rapport à un dossier.
 [config:edit](config-edit.md) | Éditer la configuration sélectionnée.
 [config:export](config-export.md) | Exporte la configuration actuelle de l'application.
-[config:export:content:type](config-export-content-type.md) | Exporte un type de contenu ainsi que ses champs.
-[config:export:single](config-export-single.md) | Exporte une seule configuration dans un fichier yml.
+[config:export:content:type](config-export-content-type.md) | Exporte un type de contenu avec les champs qui le composent.
+[config:export:single](config-export-single.md) | Exporte une unique configuration sous la forme d'un fichier YAML.
 [config:export:view](config-export-view.md) | Exporte une vue vue dans le format YAML au sein d'un module pour la réutiliser sur un autre site.
 [config:import](config-import.md) | Importe une configuration dans le site courant.
 [config:import:single](config-import-single.md) | Importer la configuration sélectionnée.
@@ -219,8 +219,8 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [views:disable](views-disable.md) | Désactive une vue
 [views:enable](views-enable.md) | Active une vue
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --help | Afficher ce message d'aide
 --quiet | Ne renvoyer aucun message
@@ -240,7 +240,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | Définir l'URI du site Drupal à utiliser (dans le cas d'un environnement multisite ou lors de l'usage d'un port non standard)
 --yes | Passe la confirmation et lance le processus
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | La commande à exécuter

@@ -1,21 +1,21 @@
 # generate:cache:context
 Generate a cache context
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:cache:context [options]
 gcc
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --cache-context | Enter the cache context name
 --class | Cache context class name
 --services | Load services from the container.
 
-## application.gitbook.messages.examples
+## Examples
 * Generate cache for a context specifying the module, the context name and its class
 ```
 drupal generate:cache:context  \

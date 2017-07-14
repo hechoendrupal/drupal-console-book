@@ -1,14 +1,14 @@
 # debug:database:log
 अनुप्रयोगासाठी वर्तमान लॉग इव्हेंट प्रदर्शित करा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:database:log [arguments] [options]
 dbb
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --type | विशिष्ट प्रकाराद्वारे इव्हेंट फिल्टर करा.
 --severity | एका विशिष्ट स्तर तीव्रतेने इव्हेंट फिल्टर करा.
@@ -18,7 +18,17 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --offset | मर्यादा प्रारंभ करत आहे.
 --yml | एक YML शैली मुद्रण
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 event-id | DBLog इव्हेंट आयडी
+
+## Examples
+* List all the entries on the log
+```
+drupal debug:database:log
+```
+* List specific log entry by Event ID
+```
+drupal debug:database:log 21228
+```

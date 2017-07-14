@@ -1,25 +1,25 @@
 # create:comments
 ダミーのコメントを作成
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:comments [arguments] [options]
 crc
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | 作成するコメントの数
 --title-words | コメントのタイトルに設定する単語の最大数
 --time-range | コメントの作成時刻
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 node-id | コメントを作成するノードのID
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the node id where the comments will be generated.
 ```
 drupal create:comments  node-id

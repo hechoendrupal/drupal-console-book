@@ -1,18 +1,18 @@
 # migrate:rollback
-commands.migrate.rollback.description
+Rollback one or multiple migrations
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:rollback [arguments] [options]
 mir
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --source-base_path | commands.migrate.setup.options.source-base-path
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-migration-ids | commands.migrate.rollback.arguments.id
+migration-ids | Migration id(s)

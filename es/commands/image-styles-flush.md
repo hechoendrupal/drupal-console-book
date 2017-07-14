@@ -1,13 +1,23 @@
 # image:styles:flush
 Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal image:styles:flush [arguments]
 isf
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 styles | Nombre del estilo de imagen.
+
+## Examples
+* Flush large image style
+```
+drupal image:styles:flush  large
+```
+* Flush thumbnail image style
+```
+drupal image:styles:flush  thumbnail
+```

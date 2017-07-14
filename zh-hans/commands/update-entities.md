@@ -1,8 +1,14 @@
 # update:entities
-執行實體更新
+应用实体更新
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal update:entities
 upe
+```
+
+## Examples
+* Update entities
+```
+drupal update:entities
 ```

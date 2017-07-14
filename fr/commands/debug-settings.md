@@ -1,8 +1,14 @@
 # debug:settings
 Affiche la configuration personnalisée de Drupal Console.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:settings
 dse
+```
+
+## Examples
+* 
+```
+drupal debug:settings
 ```

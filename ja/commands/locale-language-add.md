@@ -1,12 +1,12 @@
 # locale:language:add
 サイトでサポートする言語を追加
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal locale:language:add [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 language | es や Spanish のような言語名

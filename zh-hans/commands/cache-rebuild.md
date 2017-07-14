@@ -1,27 +1,23 @@
 # cache:rebuild
-重建和清除所有快取
+重建缓存
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cache:rebuild [arguments]
 cr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-cache | 只清除一個特定的快取
+cache | 仅清除一个特定的缓存
 
-## application.gitbook.messages.examples
-<<<<<<< HEAD
+## Examples
 * 重建所有缓存
-=======
-* 重建所有快取
->>>>>>> upstream/master
 ```
 drupal cr all
 ```
-* 重建發現的快取
+* 重建 discovery 缓存
 ```
 drupal cr discovery
 ```

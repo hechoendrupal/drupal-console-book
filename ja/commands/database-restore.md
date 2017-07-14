@@ -1,23 +1,23 @@
 # database:restore
 データベースの構造とコンテンツをリストア
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:restore [arguments] [options]
 dbr
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | データベースのバックアップファイルの名前
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 database | settings.phpのデータベースのキー
 
-## application.gitbook.messages.examples
+## Examples
 * Restore the database file dump to the database default or another one specified
 ```
 drupal database:restore \

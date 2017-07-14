@@ -1,24 +1,24 @@
 # config:export:content:type
 Xuất một kiểu nội dung chỉ định và các field của chúng
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:export:content:type [arguments] [options]
 cect
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | Tên module.
 --optional-config | Xuất loại nội dung như một cấu hình YAML tuỳ chọn trong module của bạn
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 content-type | Content Type to be exported
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a content type  and module name
 ```
 drupal config:export:content:type page \

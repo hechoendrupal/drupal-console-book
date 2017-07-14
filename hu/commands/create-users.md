@@ -1,25 +1,25 @@
 # create:users
 Tesztfelhasználók létrehozása egy Drupal 8 alkalmazáshoz.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:users [arguments] [options]
 cru
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Hány felhasználó jöjjön létre
 --password | A létrehozott felhasználókhoz beállított jelszó
 --time-range | Mennyire legyen visszadátumozva a felhasználók létrehozása
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 roles | A felhasználók létrehozásakor használandó szerepkörök
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the user role.
 ```
 drupal create:users role

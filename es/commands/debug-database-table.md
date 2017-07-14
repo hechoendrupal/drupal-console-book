@@ -1,18 +1,28 @@
 # debug:database:table
 Muestra todas las tablas en una base de datos.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:database:table [arguments] [options]
 ddt
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --database | Clave de la base de datos de settings.php
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 table | Tabla a depurar
+
+## Examples
+* Show all tables on a database
+```
+drupal debug:database:table
+```
+* Show fields on the node table or another specified on the argument
+```
+drupal debug:database:table node
+```

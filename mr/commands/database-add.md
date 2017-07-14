@@ -1,14 +1,14 @@
 # database:add
 Settings.php वर एक डेटाबेस जोडा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:add [options]
 dba
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --database | डेटाबेसचे नाव.
 --username | डेटाबेस वापरकर्तानाव.
@@ -18,7 +18,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --port | डेटाबेस होस्ट पोर्ट.
 --driver | डेटाबेस ड्राइव्हर.
 
-## application.gitbook.messages.examples
+## Examples
 * Settings.php एक डेटाबेस जोडा.
 ```
 drupal database:add \

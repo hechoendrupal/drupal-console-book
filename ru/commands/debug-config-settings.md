@@ -1,13 +1,13 @@
 # debug:config:settings
 Отображает текущий Ключ:значение в файле настроек.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:config:settings
 dcs
 ```
 
-## application.gitbook.messages.examples
+## Examples
 * Displays key:value as per the settings file
 ```
 drupal debug:config:settings

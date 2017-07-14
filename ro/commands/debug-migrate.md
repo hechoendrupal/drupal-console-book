@@ -1,13 +1,19 @@
 # debug:migrate
 Afisează migrațiunea curentă accesibilă pentru aplicație
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:migrate [arguments]
 mid
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 tag | Tag-ul migrațiunii
+
+## Examples
+* Displays current migration
+```
+drupal debug:migrate
+```

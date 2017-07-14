@@ -1,17 +1,17 @@
 # server
 運行內建的 PHP 網頁伺服器
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal server [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 address | 伺服器位址:連接埠（address:port）參數
 
-## application.gitbook.messages.examples
+## Examples
 * 以預設伺服器位址（127.0.0.1:8088）啟動伺服器
 ```
 drupal server

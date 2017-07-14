@@ -1,19 +1,25 @@
 # theme:install
 Instalar tema o temas en la aplicación
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal theme:install [arguments] [options]
 thi
 ti
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --set-default | Establecer como tema por defecto
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | commands.theme.install.options.module
+
+## Examples
+* Install theme specifying the name
+```
+drupal theme:install  mytheme
+```

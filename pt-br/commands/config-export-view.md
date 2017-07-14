@@ -1,25 +1,25 @@
 # config:export:view
-Exportar uma view no formato YAML em um módulo, para reutilizar em outro website.
+Exportar uma view no formato YAML dentro de um módulo fornecido para reutilização em outro site.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:export:view [arguments] [options]
 cev
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | O nome do módulo.
---optional-config | Exportar a view como uma configuração YAML opcional em seu módulo
---include-module-dependencies | Incluir as dependências do módulo em um arquivo YAML de informação do módulo
+--optional-config | Exportar view como uma configuração YAML opcional em seu módulo
+--include-module-dependencies | Inclua dependências do módulo em um arquivo YAML
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-view-id | ID da view
+view-id | View ID
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a view id
 ```
 drupal config:export:view viewid

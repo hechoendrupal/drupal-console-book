@@ -1,18 +1,18 @@
 # database:drop
 एक दिए गए डेटाबेस में सभी टेबल्स ड्राप।
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:drop [arguments]
 dbd
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 database | Settings.php से डाटाबेस कुंज
 
-## application.gitbook.messages.examples
+## Examples
 * Drop the tables on the database specified on the argument
 ```
 drupal database:drop \

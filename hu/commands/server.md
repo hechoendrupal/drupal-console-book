@@ -1,17 +1,17 @@
 # server
 A PHP beépített webkiszolgálójának futtatása
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal server [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 address | A cím:port értékek
 
-## application.gitbook.messages.examples
+## Examples
 * Futtatás az alapértelmezett cím argumentumértékkel: 127.0.0.1:8088
 ```
 drupal server

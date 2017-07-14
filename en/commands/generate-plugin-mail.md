@@ -1,14 +1,14 @@
 # generate:plugin:mail
 Generate a plugin mail
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:mail [options]
 gpm
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
@@ -16,7 +16,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --plugin-id | Plugin id
 --services | Load services from the container.
 
-## application.gitbook.messages.examples
+## Examples
 * Generate an email plugin specifying the module name, the class, its label and the plugin id
 ```
 drupal generate:plugin:mail  \

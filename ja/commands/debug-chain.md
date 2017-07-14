@@ -1,7 +1,7 @@
 # debug:chain
 チェーンファイルの一覧を表示
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:chain
 dch

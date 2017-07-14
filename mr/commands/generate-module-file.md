@@ -1,13 +1,20 @@
 # generate:module:file
 .module फाइल उत्पन्न करा
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:module:file [options]
 gmf
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | मॉड्यूलचे नाव.
+
+## Examples
+* Generate the .module file specifying the module name
+```
+drupal generate:module:file  \
+  --module="modulename"
+```

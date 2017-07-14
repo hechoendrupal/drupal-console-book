@@ -1,19 +1,19 @@
 # cron:execute
 Thi hành cron implementation từ một module chỉ định hoặc tất cả để thực thi tất cả các lệnh thi hành
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cron:execute [arguments]
 croe
 cre
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | Tên module.
 
-## application.gitbook.messages.examples
+## Examples
 * Execute the cron globally
 ```
 drupal cron:execute

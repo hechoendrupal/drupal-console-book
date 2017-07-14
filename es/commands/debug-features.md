@@ -1,12 +1,12 @@
 # debug:features
 Ofrece un listado de las features registradas.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:features [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 bundle | Nombre del bundle

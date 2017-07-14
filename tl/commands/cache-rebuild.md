@@ -1,18 +1,18 @@
 # cache:rebuild
 I-rebuild at burahin ang lahat ng site caches.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cache:rebuild [arguments]
 cr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 cache | Burahin lamang ang tiyak ng cache
 
-## application.gitbook.messages.examples
+## Examples
 * I-rebuild ang lahat ng caches
 ```
 drupal cr all

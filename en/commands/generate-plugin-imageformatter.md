@@ -1,21 +1,21 @@
 # generate:plugin:imageformatter
 Generate image formatter plugin.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:imageformatter [options]
 gpif
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
 
-## application.gitbook.messages.examples
+## Examples
 * Generate a image formatter plugin specifying the module name, the class, its label and the plugin id
 ```
 drupal generate:plugin:imageformatter  \

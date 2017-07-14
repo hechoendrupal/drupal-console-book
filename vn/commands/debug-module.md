@@ -1,24 +1,24 @@
 # debug:module
 Hiển thị các module hiện có cho ứng dụng
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:module [arguments] [options]
 dm
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --status | Trạng thái module [enabled|disabled]
 --type | Loại Module [core|no-core]
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | Module name
 
-## application.gitbook.messages.examples
+## Examples
 * Display all installed modules
 ```
 drupal mod --status=installed

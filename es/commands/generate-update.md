@@ -1,14 +1,22 @@
 # generate:update
 Generar una implementación de hook_update_N()
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:update [options]
 gu
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | Nombre del módulo.
 --update-n | Número de actualización
+
+## Examples
+* Generate an update N hook implementation specifying the module name and the N value
+```
+drupal generate:update  \
+  --module="modulename"  \
+  --update-n="8001"
+```

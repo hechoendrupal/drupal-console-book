@@ -1,19 +1,19 @@
 # translation:sync
 Sincronizar archivos de traducción
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal translation:sync [arguments] [options]
 tsy
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | commands.translation.stats.options.file
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 language | Idioma cuyos ficheros se sincronizarán contra el inglés
 library | commands.translation.sync.arguments.library

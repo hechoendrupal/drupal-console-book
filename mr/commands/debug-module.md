@@ -1,24 +1,24 @@
 # debug:module
 अनुप्रयोगासाठी उपलब्ध असलेले वर्तमान मॉड्यूल प्रदर्शित करा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:module [arguments] [options]
 dm
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --status | मॉड्यूल स्थिती [सक्षम | अक्षम]
 --type | मॉड्यूल प्रकार [कोर | नो-कोर]
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | मॉड्यूल नाव
 
-## application.gitbook.messages.examples
+## Examples
 * सर्व स्थापित मॉड्यूल प्रदर्शित करा
 ```
 drupal mod --status=installed

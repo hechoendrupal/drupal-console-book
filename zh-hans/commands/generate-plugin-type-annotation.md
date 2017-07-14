@@ -1,16 +1,26 @@
 # generate:plugin:type:annotation
-Generate a plugin type with annotation discovery
+生成一个有识别注解能力的插件类别
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:type:annotation [options]
 gpta
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---module | The Module name.
---class | Plugin type class name
+--module | 模块名称
+--class | 插件类别类名
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
---label | Plugin type label
+--label | 插件类别标签
+
+## Examples
+* Generate a plugin with annotation discovery specifying module name, class name, machine name and label
+```
+drupal generate:plugin:type:annotation  \
+  --module="modulename"  \
+  --class="ExamplePlugin"  \
+  --machine-name="example_plugin"  \
+  --label="Example plugin"
+```

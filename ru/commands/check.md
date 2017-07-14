@@ -1,7 +1,7 @@
 # check
 Проверка системных требований
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal check
 ```

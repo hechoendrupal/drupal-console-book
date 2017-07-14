@@ -1,26 +1,26 @@
 # create:nodes
 Tạo dummy nodes cho ứng dụng Drupal 8 của bạn.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:nodes [arguments] [options]
 crn
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Bạn muốn tạo bao nhiêu node?
 --title-words | Maximum number of words in node titles
 --time-range | How far back in time should the nodes be dated
 --language | commands.create.nodes.options.language
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 content-types | Content type(s) được sử dụng trong node creation
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the content type name.
 ```
 drupal create:nodes content-name

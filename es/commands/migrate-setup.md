@@ -1,14 +1,14 @@
 # migrate:setup
 Cargar y crear las migraciones pertinentes para una base de datos heredada
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:setup [options]
 mis
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --db-type | Tipo de base de datos de Drupal
 --db-host | "Host" de base de datos

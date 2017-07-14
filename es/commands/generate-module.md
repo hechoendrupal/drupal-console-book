@@ -1,14 +1,14 @@
 # generate:module
 Generar un módulo.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:module [options]
 gm
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | El nombre del módulo
 --machine-name | El nombre máquina (sólo minúsculas y guión bajo)
@@ -22,3 +22,19 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --dependencies | Dependencias del módulo (por ejemplo: context, galleria, panels)
 --test | Generar una clase de test
 --twigtemplate | Generar plantilla de theme
+
+## Examples
+* Generate a module specifying the module name, machine name, the path, its description, drupal core and the package name. In this example the composer file, the unit test and twig template are generated too
+```
+drupal generate:module  \
+  --module="modulename"  \
+  --machine-name="modulename"  \
+  --module-path="/modules/custom"  \
+  --description="My Awesome Module"  \
+  --core="8.x"  \
+  --package="Custom"  \
+  --module-file  \
+  --composer  \
+  --test  \
+  --twigtemplate
+```

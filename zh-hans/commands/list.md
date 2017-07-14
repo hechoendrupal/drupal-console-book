@@ -1,19 +1,19 @@
 # list
-Lists all available commands
+列出当前可用命令
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal list [arguments] [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---xml | To output list as XML
---raw | To output raw command list
---format | The output format (txt, xml, json, or md)
+--xml | 输出命令清单为 XML 格式
+--raw | 输出命令清单为原生格式
+--format | 输出格式（txt, xml, json, or md）
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-namespace | The namespace name
+namespace | 命名空间名称

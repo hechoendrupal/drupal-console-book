@@ -1,13 +1,19 @@
 # debug:permission
 सर्व वापरकर्ता परवानग्या प्रदर्शित करते.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:permission [arguments]
 dp
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 role | वापरकर्ता भूमिका
+
+## Examples
+* Displays all the permissions availables on the site
+```
+drupal debug:permission
+```

@@ -1,14 +1,14 @@
 # generate:plugin:block
 Generate a plugin block
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:block [options]
 gpb
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
@@ -18,7 +18,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --inputs | Create inputs in a form.
 --services | Load services from the container.
 
-## application.gitbook.messages.examples
+## Examples
 * Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input
 ```
 drupal generate:plugin:block  \

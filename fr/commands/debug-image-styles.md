@@ -1,8 +1,14 @@
 # debug:image:styles
 Liste des styles d'images sur le site
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:image:styles
 dis
+```
+
+## Examples
+* List all images styles on the site
+```
+drupal debug:image:styles
 ```

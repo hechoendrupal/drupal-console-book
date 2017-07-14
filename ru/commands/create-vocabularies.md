@@ -1,19 +1,19 @@
 # create:vocabularies
 Создание фиктивных словарей для Drupal 8.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:vocabularies [options]
 crv
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Сколько словарей вы хотите создать
 --name-words | Максимальное количество слов в именах словарей
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the number of vocabularies to create and maximum number of words in vocabulary names
 ```
 drupal create:vocabularies \

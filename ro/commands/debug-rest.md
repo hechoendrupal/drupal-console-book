@@ -1,18 +1,24 @@
 # debug:rest
 Afişează resursele REST curente.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:rest [arguments] [options]
 rede
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --authorization | Starea resursei REST activat | dezactivat
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 resource-id | ID-ul resursei
+
+## Examples
+* Displays rest hooks
+```
+drupal debug:rest
+```

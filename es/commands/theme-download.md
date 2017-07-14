@@ -1,20 +1,26 @@
 # theme:download
 Descarga un tema para la aplicación
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal theme:download [arguments] [options]
 thd
 td
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --composer | Use la opción --composer para llevar a cabo la descarga del tema con Composer
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | El nombre del tema
 version | Versión del tema, por ejemplo, 1.x-dev
+
+## Examples
+* Download theme specifying name and version
+```
+drupal theme:download  Alina 7.x-1.2
+```

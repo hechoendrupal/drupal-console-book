@@ -1,15 +1,15 @@
 # generate:entity:content
 Tạo một content entity mới
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:entity:content [options]
 geco
 gect
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | Tên module.
 --entity-class | Lớp config entity
@@ -19,3 +19,25 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --has-bundles | Entity có các bundles
 --is-translatable | Content entity translatable
 --revisionable | commands.generate.entity.content.options.revisionable
+
+## Examples
+* Generate a content entity specifying the module, the entity class, the entity name, its path and label
+```
+drupal generate:entity:content  \
+  --module="modulename"  \
+  --entity-class="DefaultEntity"  \
+  --entity-name="default_entity"  \
+  --base-path="/admin/structure"  \
+  --label="Default entity"
+```
+* Generate a translatable and revisionable content entity specifying the module, the entity class, the entity name, its path and label
+```
+drupal generate:entity:content  \
+  --module="modulename"  \
+  --entity-class="DefaultEntity"  \
+  --entity-name="default_entity"  \
+  --base-path="/admin/structure"  \
+  --label="Default entity"  \
+  --is-translatable  \
+  --revisionable
+```

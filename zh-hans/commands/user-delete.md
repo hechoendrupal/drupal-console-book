@@ -1,14 +1,27 @@
 # user:delete
-刪除網站應用中的使用者
+删除网站用户(s)
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal user:delete [options]
 ud
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---user-id | 要刪除的使用者 ID
---roles | 刪除與指定角色關聯的多位使用者
+--user-id | 要删除的用户ID
+--roles | 要删除用户的角色
+
+## Examples
+* Delete user specifying the id and the user role
+```
+drupal user:delete  \
+  --user-id="2"
+  --roles='authenticated'
+```
+* Delete user specifying its id
+```
+drupal user:delete  \
+  --user-id="3"
+```

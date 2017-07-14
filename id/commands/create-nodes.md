@@ -1,26 +1,26 @@
 # create:nodes
 Membuat contoh node untuk aplikasi Drupal 8 anda.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:nodes [arguments] [options]
 crn
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Berapa banyak node yang ingin anda buat
 --title-words | Jumlah kata maksimum pada judul node
 --time-range | Berapa jauh waktu kebelakang node ini diberikan tanggal
 --language | commands.create.nodes.options.language
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 content-types | Tipe-tipe konten yang akan digunakan dalam pembuatan node
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the content type name.
 ```
 drupal create:nodes content-name

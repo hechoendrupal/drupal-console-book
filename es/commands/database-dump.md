@@ -1,24 +1,24 @@
 # database:dump
 Volcado de la estructura y contenidos de las bases de datos y tablas MySQL
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:dump [arguments] [options]
 dbdu
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file |  Nombre del archivo para el respaldo de la base de datos
 --gz | Pase esta opción si desea que el archivo sql resultante sea compimido en formato gz
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 database | Clave de la base de datos, desde settings.php
 
-## application.gitbook.messages.examples
+## Examples
 * Dump default database or the one specified on the argument
 ```
 drupal database:dump \

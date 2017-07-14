@@ -1,19 +1,25 @@
 # debug:views
 Afişează resursele curente ale views-ului pentru aplicație.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:views [arguments] [options]
 vde
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --tag | Eticheta view-ului
 --status | Statusul view-ului (Activat|Dezactivat)
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 view-id | ID-ul view-ului
+
+## Examples
+* List of views on the site
+```
+drupal debug:views
+```

@@ -1,22 +1,29 @@
 # module:download
-Download module or modules in application
+下载模块
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:download [arguments] [options]
 mod
 md
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---path | The path of the contrib project
---latest | Default to download most recent version
---composer | Download the module using Composer
+--path | 贡献项目路径
+--latest | 默认下载最新版本
+--composer | 使用 Composer 下载模块
 --unstable | commands.module.install.options.unstable
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-module | Module or modules to be enabled should be separated by a space
+module | 要启用的模块之间用空格隔开
+
+## Examples
+* Download module specifying module name and its path
+```
+drupal module:download  modulename  \
+  --path="modules/contrib"
+```

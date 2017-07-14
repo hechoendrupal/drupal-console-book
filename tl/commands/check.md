@@ -1,7 +1,7 @@
 # check
 System requirement checker
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal check
 ```

@@ -1,18 +1,18 @@
 # node:access:rebuild
 Rebuild node access permissions.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal node:access:rebuild [options]
 nar
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --batch | Process in batch mode.
 
-## application.gitbook.messages.examples
+## Examples
 * Rebuild node access permissions
 ```
 drupal node:access:rebuild --batch

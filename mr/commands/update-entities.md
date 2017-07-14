@@ -1,8 +1,14 @@
 # update:entities
 अस्तित्व सुधारणा अर्ज
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal update:entities
 upe
+```
+
+## Examples
+* Update entities
+```
+drupal update:entities
 ```

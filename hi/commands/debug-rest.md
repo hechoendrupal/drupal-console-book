@@ -1,18 +1,24 @@
 # debug:rest
 आवेदन के लिए मौजूदा REST संसाधन को प्रदर्शित करें
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:rest [arguments] [options]
 rede
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --authorization | REST साधन की स्थिति (चालू है । बंद है )
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 resource-id | Rest क्रमांक
+
+## Examples
+* Displays rest hooks
+```
+drupal debug:rest
+```

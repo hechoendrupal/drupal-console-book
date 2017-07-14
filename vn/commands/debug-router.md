@@ -1,18 +1,18 @@
 # debug:router
 Hiển thị các định tuyến hiện tại của ứng dụng
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:router [arguments]
 dr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 route-name | Các tên của định tuyến
 
-## application.gitbook.messages.examples
+## Examples
 * Displays current routes for the application
 ```
 drupal rod

@@ -1,8 +1,8 @@
-# application.gitbook.messages.title
+# Available Drupal Console Commands
 
-**application.gitbook.messages.note:** application.gitbook.messages.note-description.
+**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
 
-application.gitbook.messages.command | application.gitbook.messages.details
+Drupal Console Command | Details
 ------------ | -------------
 **misc**  |
 [about](about.md) | Afișează informațiile de bază despre proiectul Drupal Console
@@ -21,9 +21,9 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
 [config:edit](config-edit.md) | Editează configurarea selectată.
 [config:export](config-export.md) | Exportă configurările curente ale aplicației.
-[config:export:content:type](config-export-content-type.md) | Exportă un anumit tip de conținut și câmpurile aferente.
-[config:export:single](config-export-single.md) | Exportă o singură configurare ca fișier YAML.
-[config:export:view](config-export-view.md) | Exportă un view în format YAML în cadrul unui modul pentru a fi reutilizat într-un alt website.
+[config:export:content:type](config-export-content-type.md) | Exportați un anumit tip de conținut și câmpurile aferente acestuia.
+[config:export:single](config-export-single.md) | Exportați o configurare unică ca și un fișier yml .
+[config:export:view](config-export-view.md) | Exportă un view în format YAML în interiorul unui modul furnizat pentru a-l reutiliza în alt sit web.
 [config:import](config-import.md) | Importă configurarea pentru aplicația curentă.
 [config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | Suprascrie valoarea de configurare în configurarea activă.
@@ -219,8 +219,8 @@ application.gitbook.messages.command | application.gitbook.messages.details
 [views:disable](views-disable.md) | Dezactivează un View
 [views:enable](views-enable.md) | Activează un View
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -240,7 +240,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI-ul sitului Drupal care va fi folosit (pentru medii multi-sit sau când rulează pe un port alternativ)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute

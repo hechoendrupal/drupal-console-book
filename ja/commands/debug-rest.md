@@ -1,18 +1,24 @@
 # debug:rest
 Restリソースを表示
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:rest [arguments] [options]
 rede
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --authorization | Rest resource status enabled | disabled
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 resource-id | Rest ID
+
+## Examples
+* Displays rest hooks
+```
+drupal debug:rest
+```

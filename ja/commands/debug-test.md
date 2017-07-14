@@ -1,18 +1,24 @@
 # debug:test
 ユニットテストの一覧を表示
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:test [arguments] [options]
 td
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --test-class | テストクラス
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 group | Group
+
+## Examples
+* 
+```
+drupal debug:test
+```

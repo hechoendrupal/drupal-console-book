@@ -1,19 +1,19 @@
 # cron:execute
 Jalankan implementasi cron oleh modul atau jalankan semua cron-cron
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cron:execute [arguments]
 croe
 cre
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | Nama modul.
 
-## application.gitbook.messages.examples
+## Examples
 * Execute the cron globally
 ```
 drupal cron:execute

@@ -1,13 +1,23 @@
 # views:enable
 Viewsを有効化する
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal views:enable [arguments]
 ve
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 view-id | commands.views.debug.arguments.view-id
+
+## Examples
+* Enable content view
+```
+drupal views:enable  content
+```
+* Enable frontpage view
+```
+drupal views:enable  frontpage
+```

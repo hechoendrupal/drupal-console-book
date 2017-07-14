@@ -1,23 +1,23 @@
 # debug:test
 List Test Units available for the application.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:test [arguments] [options]
 td
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --test-class | Test Class
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 group | Group
 
-## application.gitbook.messages.examples
+## Examples
 * 
 ```
 drupal debug:test

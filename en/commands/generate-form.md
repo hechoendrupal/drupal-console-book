@@ -1,14 +1,14 @@
 # generate:form
 Generate a new "%s"
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:form [options]
 gf
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | The form class name
@@ -22,7 +22,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --menu-parent | Menu parent
 --menu-link-desc | A description for the menu link
 
-## application.gitbook.messages.examples
+## Examples
 * Generate an empty form with config file specifying the module name, the class, a form id and the path
 ```
 drupal generate:form  \

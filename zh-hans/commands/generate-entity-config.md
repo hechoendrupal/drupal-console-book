@@ -1,19 +1,30 @@
 # generate:entity:config
-Generate a new config entity
+生成新配置实体
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:entity:config [options]
 gec
 gecg
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---module | The Module name.
---entity-class | The config entity class
---entity-name | The config entity name
---base-path | The base-path for the config entity routes
---label | The label
---bundle-of | Acts as bundle for content entities
+--module | 模块名称
+--entity-class | 配置实体类名
+--entity-name | 配置实体名称
+--base-path | 配置实体路由的基路径
+--label | 标签
+--bundle-of | 作为内容实体(s) 的 Bundle
+
+## Examples
+* Generate config entity specifying the module, the entity class, the entity name, its path and label
+```
+drupal generate:entity:config  \
+  --module="modulename"  \
+  --entity-class="DefaultEntity"  \
+  --entity-name="default_entity"  \
+  --base-path="/admin/structure"  \
+  --label="Default entity"
+```

@@ -1,25 +1,25 @@
 # create:users
-Create dummy users for your Drupal 8 application.
+生成用户
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:users [arguments] [options]
 cru
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---limit | How many users would you like to create
---password | Password to be set to users created
---time-range | How far back in time should the users be dated
+--limit | 生成多少个用户
+--password | 用户密码
+--time-range | 用户的创建时间范围
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-roles | Role(s) to be used in user creation
+roles | 用于生成用户的角色(s)
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the user role.
 ```
 drupal create:users role

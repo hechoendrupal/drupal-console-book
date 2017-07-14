@@ -1,13 +1,13 @@
 # develop:gitbook
 Update gitbook
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal develop:gitbook [arguments] [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --directory | directory
 --help | Display this help message
@@ -28,7 +28,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute

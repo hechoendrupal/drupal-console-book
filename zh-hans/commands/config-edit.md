@@ -1,20 +1,20 @@
 # config:edit
-Edit the selected configuration.
+编辑配置
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:edit [arguments]
 ced
 cdit
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-config-name | Configuration name.
-editor | Editor.
+config-name | 配置名称
+editor | 编辑器
 
-## application.gitbook.messages.examples
+## Examples
 * Edit system cron configurations with "vim" (default editor).
 ```
 drupal config:edit system.cron

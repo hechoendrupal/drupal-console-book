@@ -1,20 +1,20 @@
 # config:override
 Override config value in active configuration.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:override [arguments]
 co
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 name | Configuration name
 key | Key
 value | Value
 
-## application.gitbook.messages.examples
+## Examples
 * Définir la valeur de "flood" du module Contact à 10.
 ```
 drupal config:override contact.settings flood.limit 10

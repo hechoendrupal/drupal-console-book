@@ -1,13 +1,19 @@
 # config:validate
-commands.config.validate.description
+Validate a drupal config against its schema
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:validate [arguments]
 cv
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 name | 
+
+## Examples
+* Provide the configuration name.
+```
+drupal config:validate configuration.name
+```

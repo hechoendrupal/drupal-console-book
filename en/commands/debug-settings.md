@@ -1,13 +1,13 @@
 # debug:settings
 List user Drupal Console settings.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:settings
 dse
 ```
 
-## application.gitbook.messages.examples
+## Examples
 * 
 ```
 drupal debug:settings

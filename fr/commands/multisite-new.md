@@ -1,19 +1,25 @@
 # multisite:new
 Prépare les fichiers pour une nouvelle installation multi-sites.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal multisite:new [arguments] [options]
 mun
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --copy-default | Copies existing site from the default install.
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 directory | Name of directory under 'sites' which should be created.
 uri | Site URI to add to sites.php.
+
+## Examples
+* Set up files for a multisite install specifying destination path and uri
+```
+drupal multisite:new  vendor/newsite http://mysite.example.com
+```

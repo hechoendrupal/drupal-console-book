@@ -1,17 +1,17 @@
 # server
 Lance le serveur web PHP interne
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal server [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 address | Les valeurs adresse:port
 
-## application.gitbook.messages.examples
+## Examples
 * Lancer en utilisant en argument la valeur d'adresse par défaut 127.0.0.1:8088
 ```
 serveur drupal

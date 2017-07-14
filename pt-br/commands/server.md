@@ -1,17 +1,17 @@
 # server
 Executar o servidor PHP atual
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal server [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 address | Valores de endereço:porta
 
-## application.gitbook.messages.examples
+## Examples
 * Executar com o endereço padrão 127.0.0.1:8088
 ```
 drupal server

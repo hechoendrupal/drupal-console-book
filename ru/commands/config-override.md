@@ -1,20 +1,20 @@
 # config:override
 Переопределить значение конфигурации в активной конфигурации.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:override [arguments]
 co
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 name | Имя конфигурации
 key | Ключ
 value | Значение
 
-## application.gitbook.messages.examples
+## Examples
 * Установить лимит флуда до 10 для модуля Contact
 ```
 drupal config:override contact.settings flood.limit 10

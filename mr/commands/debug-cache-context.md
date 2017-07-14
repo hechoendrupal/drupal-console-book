@@ -1,13 +1,13 @@
 # debug:cache:context
 अनुप्रयोगासाठी वर्तमान कॅशे संदर्भ प्रदर्शित करते.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:cache:context
 dcc
 ```
 
-## application.gitbook.messages.examples
+## Examples
 * कॅशे संदर्भ प्रदर्शित करते.
 ```
 drupal debug:cache:context

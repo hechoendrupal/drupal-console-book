@@ -1,14 +1,20 @@
 # debug:site
 List all known local and remote sites.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:site [arguments]
 dsi
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 target | Target
 property | Property
+
+## Examples
+* 
+```
+drupal debug:site
+```

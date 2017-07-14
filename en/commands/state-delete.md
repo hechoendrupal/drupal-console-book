@@ -1,18 +1,18 @@
 # state:delete
 Delete State
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal state:delete [arguments]
 std
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 name | State name.
 
-## application.gitbook.messages.examples
+## Examples
 * Delete state specifying the state name
 ```
 drupal state:delete  comment.maintain_entity_statistics

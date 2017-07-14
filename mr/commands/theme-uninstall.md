@@ -1,14 +1,20 @@
 # theme:uninstall
 थीममध्ये थीम किंवा थीम विस्थापित करा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal theme:uninstall [arguments]
 thu
 tu
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | commands.theme.uninstall.options.module
+
+## Examples
+* Uninstall theme specifying the name
+```
+drupal theme:uninstall  mytheme
+```

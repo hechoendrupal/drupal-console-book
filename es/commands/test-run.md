@@ -1,20 +1,20 @@
 # test:run
 Ejecuta un test unitario de los disponibles en la aplicación
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal test:run [arguments] [options]
 ter
 tr
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --url | commands.test.run.arguments.url
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 test-class | Clase del test
 test-methods | Métodos de prueba a ejecutar

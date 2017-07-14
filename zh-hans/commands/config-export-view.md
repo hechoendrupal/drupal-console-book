@@ -1,25 +1,25 @@
 # config:export:view
-Export a view in YAML format inside a provided module to reuse in other website.
+导出视图
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:export:view [arguments] [options]
 cev
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---module | The Module name.
---optional-config | Export view as an optional YAML configuration in your module
---include-module-dependencies | Include module dependencies in module info YAML file
+--module | 模块名称
+--optional-config | 导出视图作为模块的可选配置
+--include-module-dependencies | 在模块的 info 文件中包含相关依赖模块
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-view-id | View ID
+view-id | 视图 ID
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a view id
 ```
 drupal config:export:view viewid

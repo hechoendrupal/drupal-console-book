@@ -1,19 +1,25 @@
 # module:uninstall
-Uninstall module or modules in the application
+卸载模块
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:uninstall [arguments] [options]
 mou
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---force | Do you want to ignore dependencies and forcefully uninstall the module?
---composer | Uninstalls the module using Composer
+--force | 忽略依赖并强制卸载这个模块?
+--composer | 使用 Composer卸载模块
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-module | Enter module name
+module | 输入模块名称
+
+## Examples
+* Uninstall the module specifying the module name
+```
+drupal module:uninstall  modulename
+```

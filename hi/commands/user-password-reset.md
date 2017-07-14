@@ -1,15 +1,21 @@
 # user:password:reset
 किसी विशेष उपभोगता का पासवर्ड रिसेट करें
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal user:password:reset [arguments]
 upr
 uspr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 user | यूजर आईडी
 password | पासवर्ड टेक्स्ट फॉरमेट में
+
+## Examples
+* Update password specifying the user id and the new password
+```
+drupal user:password:reset  2 p455w0rd
+```

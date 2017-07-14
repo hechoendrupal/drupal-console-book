@@ -1,7 +1,7 @@
 # debug:chain
 Daftar berkas chain yang tersedia.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:chain
 dch

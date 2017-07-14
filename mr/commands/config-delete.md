@@ -1,19 +1,19 @@
 # config:delete
 संरचना हटवा
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:delete [arguments]
 cd
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 type | कॉन्फिगरेशन प्रकार.
 name | संरचने नाव.
 
-## application.gitbook.messages.examples
+## Examples
 * एक कॉन्फिगेशन प्रकार आणि कॉन्फिगरेशन नाव प्रदान करा.
 ```
 Drupal config: सर्व सक्रिय हटवा.

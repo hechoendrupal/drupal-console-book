@@ -1,25 +1,25 @@
 # create:users
 Создание фиктивных пользователей для Drupal 8.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:users [arguments] [options]
 cru
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Сколько пользователей вы хотите создать
 --password | Пароль, который будет установлен при создании пользователей
 --time-range | Как далеко назад во времени пользователи должны быть датированы
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 roles | Роли, которые будут использованы при создании пользователей
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the user role.
 ```
 drupal create:users role

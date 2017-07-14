@@ -1,15 +1,15 @@
 # generate:entity:config
 Új konfigurációs entitás létrehozása
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:entity:config [options]
 gec
 gecg
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | A modul neve.
 --entity-class | A konfigurációs entitás osztálya
@@ -17,3 +17,14 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --base-path | A konfigurációs entitások útvonalainak alapútvonala
 --label | A felirat
 --bundle-of | A tartalomentitások mezőkötegeként funkcionál
+
+## Examples
+* Generate config entity specifying the module, the entity class, the entity name, its path and label
+```
+drupal generate:entity:config  \
+  --module="modulename"  \
+  --entity-class="DefaultEntity"  \
+  --entity-name="default_entity"  \
+  --base-path="/admin/structure"  \
+  --label="Default entity"
+```

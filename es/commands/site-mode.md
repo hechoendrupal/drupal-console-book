@@ -1,13 +1,23 @@
 # site:mode
 Cambiar la configuración de rendimiento del sistema
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal site:mode [arguments]
 smo
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 environment | Nombre de entorno
+
+## Examples
+* Switch system to prod
+```
+drupal site:mode  prod
+```
+* Switch system to dev
+```
+drupal site:mode  dev
+```

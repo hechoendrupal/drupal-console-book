@@ -1,14 +1,20 @@
 # state:override
 Surcharge la clé d'un Etat.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal state:override [arguments]
 sto
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 key | La clé de l'Etat à surcharger.
 value | La valeur de l'Etat à fixer.
+
+## Examples
+* Override state value specifying the state name and the new value
+```
+drupal state:override  comment.node_comment_statistics_scale "!!float 1"
+```

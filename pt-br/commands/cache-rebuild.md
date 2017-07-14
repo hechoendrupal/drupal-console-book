@@ -1,18 +1,18 @@
 # cache:rebuild
 Reconstruir e limpar todos os caches do site.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cache:rebuild [arguments]
 cr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 cache | Apenas limpar um cache específico.
 
-## application.gitbook.messages.examples
+## Examples
 * Reconstruir todos os caches
 ```
 drupal cr all

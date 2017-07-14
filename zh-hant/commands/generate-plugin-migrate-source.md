@@ -1,19 +1,43 @@
 # generate:plugin:migrate:source
-commands.generate.plugin.migrate.source.description
+Generate a migrate source plugin
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:migrate:source [options]
 gpms
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
---class | commands.generate.plugin.migrate.source.options.class
---plugin-id | commands.generate.plugin.migrate.source.options.plugin-id
---table | commands.generate.plugin.migrate.source.options.table
---alias | commands.generate.plugin.migrate.source.options.alias
---group-by | commands.generate.plugin.migrate.source.options.group-by
---fields | commands.generate.plugin.migrate.source.options.fields
+--class | Plugin class name
+--plugin-id | Plugin id
+--table | Table to query
+--alias | Short alias to refer to the table as
+--group-by | Field to group results by
+--fields | Fields to export
+
+## Examples
+* Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias
+```
+drupal generate:plugin:migrate:source  \
+  --module="modulename"  \
+  --class="PluginClassName"  \
+  --plugin-id="plugin_class_name"  \
+  --table="DefaultTableName"  \
+  --alias="D"
+```
+* Generate a migration source plugin for specific fields of the users table specifying the module name, the class, its plugin id, the table, its alias and the fields
+```
+drupal generate:plugin:migrate:source  \
+  --module="modulename"  \
+  --class="DefaultPluginClass"  \
+  --plugin-id="default_plugin_class"  \
+  --table="users"  \
+  --alias="u"  \
+  --fields='"id":"id", "description":"the user id"'  \
+  --fields='"id":"username", "description":"the username"'  \
+  --fields='"id":"password", "description":"the user password"'  \
+  --fields='"id":"email", "description":"the user email"'
+```

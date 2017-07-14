@@ -1,18 +1,18 @@
 # features:import
-commands.features.import.description
+Import module config.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal features:import [arguments] [options]
 fei
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---bundle | commands.features.import.options.bundle
+--bundle | Bundle name
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-packages | commands.features.import.arguments.packages
+packages | Package name

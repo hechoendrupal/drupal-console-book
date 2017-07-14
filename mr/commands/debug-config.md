@@ -1,18 +1,18 @@
 # debug:config
 चालू संरचना दाखवा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:config [arguments]
 dc
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 name | संरचने नाव.
 
-## application.gitbook.messages.examples
+## Examples
 * सर्व कॉन्फिगरेशन ऑब्जेक्ट नावांची यादी करा.
 ```
 drupal config:debug

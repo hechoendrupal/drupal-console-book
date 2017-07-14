@@ -1,25 +1,25 @@
 # database:log:clear
 Hapus events dari tabel DBlog, filter tersedia
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:log:clear [arguments] [options]
 dblc
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --type | Filter event oleh jenis tertentu
 --severity | Filter event oleh tingkat keparahan
 --user-id | Filter event oleh ID pengguna tertentu
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 event-id | ID event DBLog
 
-## application.gitbook.messages.examples
+## Examples
 * Clear the database log from DBLog table
 ```
 drupal database:log:clear \

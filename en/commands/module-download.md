@@ -1,27 +1,27 @@
 # module:download
 Download module or modules in application
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:download [arguments] [options]
 mod
 md
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --path | The path of the contrib project
 --latest | Default to download most recent version
 --composer | Download the module using Composer
 --unstable | commands.module.install.options.unstable
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | Module or modules to be enabled should be separated by a space
 
-## application.gitbook.messages.examples
+## Examples
 * Download module specifying module name and its path
 ```
 drupal module:download  modulename  \

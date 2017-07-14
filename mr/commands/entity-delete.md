@@ -1,14 +1,20 @@
 # entity:delete
 एखादी विशिष्ट संस्था हटवा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal entity:delete [arguments]
 ed
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 entity-definition-id | अस्तित्व परिभाषा आयडी.
 entity-id | अस्तित्व आयडी हटविली जाईल.
+
+## Examples
+* Delete entity type content using node id
+```
+drupal entity:delete node 1
+```

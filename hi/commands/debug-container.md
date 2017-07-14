@@ -1,20 +1,26 @@
 # debug:container
 अनुप्रयोग की वर्तमान सर्विसेज़ को दिखाएँ।
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:container [arguments] [options]
 dco
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --parameters | Service name.
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 service | Service name.
 method | Method name.
 arguments | Array of Arguments in CSV or JSON format.
+
+## Examples
+* Displays the views.views_data_helper services
+```
+drupal debug:container views.views_data_helper
+```

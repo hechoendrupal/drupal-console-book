@@ -1,24 +1,24 @@
 # debug:module
 Отображение текущих модулей доступных для приложения
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:module [arguments] [options]
 dm
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --status | Статус модуля [включен|выключен]
 --type | Тип модуля [ядро|не ядро]
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | Module name
 
-## application.gitbook.messages.examples
+## Examples
 * Display all installed modules
 ```
 drupal mod --status=installed

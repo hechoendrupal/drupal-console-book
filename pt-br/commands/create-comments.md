@@ -1,25 +1,25 @@
 # create:comments
 Criar comentários dummy para sua aplicação Drupal 8.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:comments [arguments] [options]
 crc
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Quantos comentários você gostaria de criar.
 --title-words | Número máximo de palavras em um título de comentário.
 --time-range | Quão longe no tempo devem ser as datas dos comentários.
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 node-id | Node ID onde os comentários serão criados
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the node id where the comments will be generated.
 ```
 drupal create:comments  node-id

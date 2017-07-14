@@ -1,7 +1,7 @@
 # site:statistics
-顯示目前網站統計資訊。
+显示网站的当前统计
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal site:statistics
 sst

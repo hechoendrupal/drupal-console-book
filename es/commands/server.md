@@ -1,17 +1,17 @@
 # server
 Lanza el servidor web PHP interno
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal server [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 address | Los valores dirección:puerto
 
-## application.gitbook.messages.examples
+## Examples
 * Corre usando el valor de dirección por defecto 127.0.0.1:8088
 ```
 drupal server

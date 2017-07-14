@@ -1,12 +1,12 @@
 # locale:language:delete
 आपल्या साइटद्वारे समर्थित केलेली भाषा हटवा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal locale:language:delete [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 language | उदाहरणार्थ ईएस किंवा स्पॅनिश साठी भाषा.

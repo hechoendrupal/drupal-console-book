@@ -1,13 +1,23 @@
 # image:styles:flush
-Execute flush function by image style or execute all flush images styles
+按图像样式执行 flush 函数或对所有图像样式执行 flush 函数
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal image:styles:flush [arguments]
 isf
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-styles | The Images Styles name.
+styles | 图像样式名称
+
+## Examples
+* Flush large image style
+```
+drupal image:styles:flush  large
+```
+* Flush thumbnail image style
+```
+drupal image:styles:flush  thumbnail
+```

@@ -1,13 +1,23 @@
 # debug:theme
 Despliega los temas actuales para la aplicación
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:theme [arguments]
 dt
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | Tema específico a depurar
+
+## Examples
+* List of themes on the site
+```
+drupal debug:theme
+```
+* Bartik theme information
+```
+drupal debug:theme bartik
+```

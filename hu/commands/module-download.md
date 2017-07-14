@@ -1,22 +1,29 @@
 # module:download
 Modul vagy modulok letöltése
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:download [arguments] [options]
 mod
 md
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --path | The path of the contrib project
 --latest | Az alapértelmezés a legfrissebb verzió letöltése
 --composer | Download the module using Composer
 --unstable | commands.module.install.options.unstable
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | Az engedélyezendő modulokat szóközzel kell elválasztani
+
+## Examples
+* Download module specifying module name and its path
+```
+drupal module:download  modulename  \
+  --path="modules/contrib"
+```

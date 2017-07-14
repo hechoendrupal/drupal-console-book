@@ -1,8 +1,14 @@
 # debug:update
 Az alkalmazás jelenleg elérhető frissítéseinek megjelenítése
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:update
 du
+```
+
+## Examples
+* List of pending updates
+```
+drupal debug:update
 ```

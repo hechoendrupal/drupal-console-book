@@ -1,8 +1,14 @@
 # update:entities
 Aplicar actualizaciones a entidades
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal update:entities
 upe
+```
+
+## Examples
+* Update entities
+```
+drupal update:entities
 ```

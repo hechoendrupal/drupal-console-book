@@ -1,14 +1,14 @@
 # user:login:clear:attempts
 Clear failed login attempts for an account.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal user:login:clear:attempts [arguments]
 ulca
 uslca
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 uid | User ID.

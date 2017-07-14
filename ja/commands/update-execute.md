@@ -1,15 +1,21 @@
 # update:execute
 Update N 関数を実行する
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal update:execute [arguments]
 upex
 upe
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | モジュール名
 update-n | 実行するUpdate N 関数
+
+## Examples
+* Update all entities
+```
+drupal update:execute
+```

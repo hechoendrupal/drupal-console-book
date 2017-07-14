@@ -1,18 +1,18 @@
 # debug:entity
 Debug entities available in the system
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:entity [arguments]
 de
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 entity-type | commands.debug.entity.arguments.entity-type
 
-## application.gitbook.messages.examples
+## Examples
 * Displays the available entities
 ```
 drupal debug:entity

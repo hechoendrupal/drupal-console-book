@@ -1,24 +1,24 @@
 # config:export:content:type
-किसी विशेष कंटेंट टाइप और उनके खानो का एक्सपोर्ट करें।
+एक विशिष्ट कंटेंट टाइप और अपने फ़ील्ड्स में एक्सपोर्ट करें।
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:export:content:type [arguments] [options]
 cect
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | मोड्यूल का नाम।
---optional-config | ऐच्छिक YAML कॉन्फिग स्वरूप मॉड्यूल में कंटेंट टाइप निर्यात करें
+--optional-config | अपने मॉड्यूल में एक वैकल्पिक YAML कॉन्फ़िगरेशन के रूप में कंटेंट टाइप एक्सपोर्ट करे
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 content-type | कंटेंट टाइप एक्सपोर्ट किए जाये
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a content type  and module name
 ```
 drupal config:export:content:type page \

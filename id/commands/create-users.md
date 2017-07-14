@@ -1,25 +1,25 @@
 # create:users
 Membuat contoh pengguna untuk aplikasi Drupal 8 anda.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:users [arguments] [options]
 cru
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Berapa banyak pengguna yang akan anda buat
 --password | Kata sandi yang akan diberikan pada pengguna
 --time-range | Berapa jauh waktu kebelakang pengguna ini diberikan tanggal
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 roles | Peran-peran yang akan digunakan dalam pembuatan pengguna
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the user role.
 ```
 drupal create:users role

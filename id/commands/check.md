@@ -1,7 +1,7 @@
 # check
 Pemeriksa kebutuhan sistem
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal check
 ```

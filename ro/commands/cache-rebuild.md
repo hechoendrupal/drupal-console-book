@@ -1,18 +1,18 @@
 # cache:rebuild
 Reconstruiți și curățați tot cache-ul.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cache:rebuild [arguments]
 cr
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 cache | Curățați doar cache-ul specificat.
 
-## application.gitbook.messages.examples
+## Examples
 * Reconstruiți tot cache-ul
 ```
 drupal cr all

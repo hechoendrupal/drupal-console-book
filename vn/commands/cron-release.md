@@ -1,14 +1,14 @@
 # cron:release
 Giải phóng khoá cron hệ thống để cho phép chạy lại cron
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cron:release
 cror
 crr
 ```
 
-## application.gitbook.messages.examples
+## Examples
 * Execute the cron globally
 ```
 drupal cron:execute

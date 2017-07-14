@@ -1,15 +1,15 @@
 # generate:command
 Genera un comando para la consola.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:command [options]
 gco
 gcm
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --extension | Nombre de la extensión.
 --extension-type | Tipo de la extensión.
@@ -17,3 +17,13 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --name | Nombre del comando.
 --container-aware | Conoce el comando acerca de la instalación del sitio drupal cuando sea ejecutado
 --services | Cargar servicios desde el contenedor.
+
+## Examples
+* Generate a command specifying the extension name and type, its class and the name.
+```
+drupal generate:command  \
+  --extension="ExtensionName"  \
+  --extension-type="module"  \
+  --class="DefaultCommand"  \
+  --name="CommandName"
+```

@@ -1,13 +1,13 @@
 # quick:start
 Download, install and serve a new Drupal project
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal quick:start [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --repository | repository
 --directory | directory

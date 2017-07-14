@@ -1,23 +1,23 @@
 # debug:database:table
 Show all tables in a given database.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:database:table [arguments] [options]
 ddt
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --database | Database key from settings.php
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 table | Table to debug
 
-## application.gitbook.messages.examples
+## Examples
 * Show all tables on a database
 ```
 drupal debug:database:table

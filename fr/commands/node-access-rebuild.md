@@ -1,18 +1,18 @@
 # node:access:rebuild
 Reconstruit les permissions d'accès aux noeuds. Le processus supprimera tous les privilèges sur le contenu et les remplacera par des permissions basés sur les modules et la configuration actuels.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal node:access:rebuild [options]
 nar
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --batch | Traiter en mode batch.
 
-## application.gitbook.messages.examples
+## Examples
 * Reconstruire les permissions d'accès aux noeuds
 ```
 drupal node:access:rebuild --batch

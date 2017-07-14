@@ -1,19 +1,19 @@
 # cron:execute
-Execute cron implementations by module or execute all crons
+执行模块中的或所有的定时任务（cron）
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cron:execute [arguments]
 croe
 cre
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-module | The Module name.
+module | 模块名称
 
-## application.gitbook.messages.examples
+## Examples
 * Execute the cron globally
 ```
 drupal cron:execute

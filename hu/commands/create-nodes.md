@@ -1,26 +1,26 @@
 # create:nodes
 Teszttartalom létrehozása egy Drupal 8 alkalmazáshoz.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:nodes [arguments] [options]
 crn
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Hány tartalom jöjjön létre
 --title-words | A tartalom címei által tartalmazott szavak maximális száma
 --time-range | Mennyire legyen visszadátumozva a tartalom?
 --language | commands.create.nodes.options.language
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 content-types | A tartalom létrehozásakor használandó tartalomtípusok
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the content type name.
 ```
 drupal create:nodes content-name

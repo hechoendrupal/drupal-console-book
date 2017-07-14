@@ -1,19 +1,19 @@
 # list
 Enlista comandos
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal list [arguments] [options]
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --xml | Para desplegar la lista como XML
 --raw | Para desplegar un lista completa de comandos
 --format | Formato de salida (txt, xml, json, or md)
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 namespace | Nombre del espacio de nombres

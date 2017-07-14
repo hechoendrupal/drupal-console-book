@@ -1,18 +1,18 @@
 # database:connect
-Shows DB connection
+如果有数据库客户端，启动它
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:connect [arguments]
 dbco
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-database | Database key from settings.php
+database | settings.php 文件中 Database 的键
 
-## application.gitbook.messages.examples
+## Examples
 * Connects to an specified database, or the default if not arguments passed
 ```
 drupal database:connect \

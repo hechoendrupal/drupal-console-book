@@ -1,13 +1,23 @@
 # debug:theme
 テーマの情報を表示
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:theme [arguments]
 dt
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | 表示するテーマの名前
+
+## Examples
+* List of themes on the site
+```
+drupal debug:theme
+```
+* Bartik theme information
+```
+drupal debug:theme bartik
+```

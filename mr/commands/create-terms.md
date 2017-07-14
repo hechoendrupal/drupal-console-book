@@ -1,24 +1,24 @@
 # create:terms
 आपल्या Drupal 8 अनुप्रयोगासाठी डमी अटी तयार करा.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:terms [arguments] [options]
 crt
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | आपण किती संज्ञा तयार करू इच्छिता?
 --name-words | शब्द नावांमध्ये कमाल संख्या शब्द.
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 vocabularies | शब्दसंग्रह तयार करण्यासाठी शब्दसंग्रह(णे).
 
-## application.gitbook.messages.examples
+## Examples
 * शब्दसंग्रह संज्ञा नाव प्रदान करा.
 ```
 drupal create:terms vocabulary

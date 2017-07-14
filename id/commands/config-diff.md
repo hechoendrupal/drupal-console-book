@@ -1,23 +1,23 @@
 # config:diff
 Keluaran item konfigurasi aktif yang berbeda dibandingkan dengan pada direktori.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:diff [arguments] [options]
 cdi
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --reverse | Lihat perubahan secara terbalik (yaitu membandingkan direktori kepada konfigurasi aktif).
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 directory | Direktori pembanding. Jika hilang, pilih dari direktori konfigurasi Drupal.
 
-## application.gitbook.messages.examples
+## Examples
 * Provide a config directory
 ```
 drupal config:diff ../config/path

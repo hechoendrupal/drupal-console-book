@@ -1,14 +1,14 @@
 # generate:plugin:fieldformatter
 Generate field formatter plugin.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:fieldformatter [options]
 gpff
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
@@ -16,7 +16,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --plugin-id | Plugin id
 --field-type | Field type the plugin can be used with
 
-## application.gitbook.messages.examples
+## Examples
 * Generate a a text field formatter plugin specifying the module name, the class, the label its plugin id and the field type
 ```
 drupal generate:plugin:fieldformatter  \

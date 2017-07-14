@@ -1,18 +1,18 @@
 # debug:config
 Show the current configuration.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:config [arguments]
 dc
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 name | Configuration name.
 
-## application.gitbook.messages.examples
+## Examples
 * List all configuration object names.
 ```
 drupal config:debug

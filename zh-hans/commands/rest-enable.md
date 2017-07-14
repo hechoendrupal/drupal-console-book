@@ -1,13 +1,13 @@
 # rest:enable
-為網站應用啟用 REST 資源
+启用 REST 资源
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal rest:enable [arguments]
 ree
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-resource-id | commands.rest.debug.arguments.resource-id
+resource-id | Rest ID

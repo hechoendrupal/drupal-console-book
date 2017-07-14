@@ -1,14 +1,20 @@
 # state:override
-覆寫系統狀態的鍵名。
+覆写状态键的值
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal state:override [arguments]
 sto
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-key | 要覆寫的系統狀態鍵名
-value | 要寫入的系統狀態值
+key | 覆写的键
+value | 赋的新值
+
+## Examples
+* Override state value specifying the state name and the new value
+```
+drupal state:override  comment.node_comment_statistics_scale "!!float 1"
+```

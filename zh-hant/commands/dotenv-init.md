@@ -1,7 +1,7 @@
 # dotenv:init
 Dotenv initializer.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal dotenv:init
 ```

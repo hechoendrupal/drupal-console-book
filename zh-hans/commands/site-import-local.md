@@ -1,19 +1,25 @@
 # site:import:local
-匯入或設定本地現存的 Drupal 專案
+导入/配置一个已经存在的 Drupal 项目
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal site:import:local [arguments] [options]
 sil
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---environment | 要匯入的環境模式名稱
+--environment | 将要导入的环境名称
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
-name | 指派名稱給建立的網站設定
-directory | 現存的 Drupal 根目錄
+name | 用于生成站点配置的名称
+directory | 已存在网站 Drupal 根文件夹
+
+## Examples
+* Import local drupal project specifying the site name and the path
+```
+drupal site:import:local  SiteName /private/var/www/vhost/anexusit/drupal8.dev/web
+```

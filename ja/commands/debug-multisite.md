@@ -1,8 +1,14 @@
 # debug:multisite
 マルチサイトの一覧を表示
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:multisite
 dmu
+```
+
+## Examples
+* Displays multisite information
+```
+drupal debug:multisite
 ```

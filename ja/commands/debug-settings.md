@@ -1,8 +1,14 @@
 # debug:settings
 Drupal Consoleのユーザー設定を表示する
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:settings
 dse
+```
+
+## Examples
+* 
+```
+drupal debug:settings
 ```

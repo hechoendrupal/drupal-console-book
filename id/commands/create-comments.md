@@ -1,25 +1,25 @@
 # create:comments
 Membuat contoh komentar untuk aplikasi Drupal 8 anda.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:comments [arguments] [options]
 crc
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | Berapa banyak komentar yang ingin anda buat
 --title-words | Jumlah kata maksimum pada judul komentar
 --time-range | Berapa jauh waktu kebelakang komentar ini diberikan tanggal
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 node-id | Node ID dimana komentar akan dibuat
 
-## application.gitbook.messages.examples
+## Examples
 * Provide the node id where the comments will be generated.
 ```
 drupal create:comments  node-id

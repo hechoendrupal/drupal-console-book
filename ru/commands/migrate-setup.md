@@ -1,14 +1,14 @@
 # migrate:setup
 Загрузить и создать соответствующие миграции для предоставленной устаревшой базы данных
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:setup [options]
 mis
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --db-type | Тип базы данных Drupal
 --db-host | Хост базы данных

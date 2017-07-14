@@ -1,17 +1,17 @@
 # server
 PHPのbuilt-in web serverでDrupalを起動する
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal server [arguments]
 ```
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 address | IPアドレスとポート番号
 
-## application.gitbook.messages.examples
+## Examples
 * デフォルトの引数 "127.0.0.1:8088" で起動する
 ```
 drupal server

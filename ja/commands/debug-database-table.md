@@ -1,18 +1,28 @@
 # debug:database:table
 データベース内の全てのテーブルを表示
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:database:table [arguments] [options]
 ddt
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --database | settings.phpのデータベースのキー
 
-## application.gitbook.messages.arguments
-application.gitbook.messages.argument | application.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 table | デバッグするテーブル
+
+## Examples
+* Show all tables on a database
+```
+drupal debug:database:table
+```
+* Show fields on the node table or another specified on the argument
+```
+drupal debug:database:table node
+```

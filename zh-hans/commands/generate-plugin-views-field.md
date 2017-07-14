@@ -1,16 +1,26 @@
 # generate:plugin:views:field
-Generate a custom plugin view field.
+生成一个定制的插件视窗域.
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:views:field [options]
 gpvf
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
---module | The Module name.
---class | Views plugin field class name
---title | Views plugin field title
---description | Views plugin field description
+--module | 模块名称
+--class | 视窗插件域类名
+--title | 视窗插件域标题
+--description | 视窗插件域介绍
+
+## Examples
+* Generate a custom view field plugin specifying the module name, the class, a title and its description
+```
+drupal generate:plugin:views:field  \
+  --module="modulename"  \
+  --class="CustomViewsField"  \
+  --title="Custom views field"  \
+  --description="My awesome custom views field plugin."
+```

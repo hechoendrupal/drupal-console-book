@@ -1,14 +1,14 @@
 # generate:plugin:migrate:source
 Generate a migrate source plugin
 
-**application.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:migrate:source [options]
 gpms
 ```
 
-## application.gitbook.messages.options
-application.gitbook.messages.option | application.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
@@ -18,7 +18,7 @@ application.gitbook.messages.option | application.gitbook.messages.details
 --group-by | Field to group results by
 --fields | Fields to export
 
-## application.gitbook.messages.examples
+## Examples
 * Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias
 ```
 drupal generate:plugin:migrate:source  \
