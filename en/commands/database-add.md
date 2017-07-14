@@ -1,14 +1,14 @@
 # database:add
 Add a database to settings.php
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:add [options]
 dba
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --database | The database name
 --username | The database username
@@ -18,7 +18,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --port | The database host port
 --driver | The database driver
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Add a database to the settings.php
 ```
 drupal database:add \

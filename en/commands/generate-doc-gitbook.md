@@ -1,14 +1,14 @@
 # generate:doc:gitbook
 commands.generate.doc.gitbook.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:doc:gitbook [arguments] [options]
 gdg
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --path | commands.generate.doc.gitbook.options.path
 --help | Display this help message
@@ -29,7 +29,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute

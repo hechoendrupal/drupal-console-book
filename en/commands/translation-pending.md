@@ -1,19 +1,19 @@
 # translation:pending
 commands.translation.pending.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal translation:pending [arguments] [options]
 tp
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | commands.translation.pending.options.file
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 language | commands.translation.pending.arguments.language
 library | commands.translation.pending.arguments.library

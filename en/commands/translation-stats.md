@@ -1,19 +1,19 @@
 # translation:stats
 commands.translation.stats.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal translation:stats [arguments] [options]
 ts
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --format | commands.translation.stats.options.format
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 language | commands.translation.stats.arguments.language
 library | commands.translation.stats.arguments.library

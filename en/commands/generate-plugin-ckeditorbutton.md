@@ -1,14 +1,14 @@
 # generate:plugin:ckeditorbutton
 Generate CKEditor button plugin.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:ckeditorbutton [options]
 gpc
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
@@ -17,7 +17,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --button-name | Button name. NOTE: This corresponds to the CKEditor button name. They are the first argument of the editor.ui.addButton() or editor.ui.addRichCombo() functions in the plugin.js file.
 --button-icon-path | Button icon path. This is the path to the icon/image of the button.
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Generate CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path
 ```
 drupal generate:plugin:ckeditorbutton  \

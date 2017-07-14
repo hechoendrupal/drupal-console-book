@@ -1,14 +1,14 @@
 # translation:cleanup
 commands.translation.cleanup.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal translation:cleanup [arguments]
 tc
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 language | commands.translation.cleanup.arguments.language
 library | commands.translation.cleanup.arguments.library

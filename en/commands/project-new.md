@@ -1,12 +1,12 @@
 # project:new
 Create multisite new Drupal project
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal project:new [options]
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --uuid | uuid

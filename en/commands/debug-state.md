@@ -1,18 +1,18 @@
 # debug:state
 Show the current State keys.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:state [arguments]
 dst
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 key | The State key to debug.
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * List of the states on the site
 ```
 drupal debug:state

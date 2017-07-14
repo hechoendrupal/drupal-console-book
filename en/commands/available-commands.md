@@ -1,8 +1,8 @@
-# commands.generate.doc.gitbook.messages.title
+# Available Drupal Console Commands
 
-**commands.generate.doc.gitbook.messages.note:** commands.generate.doc.gitbook.messages.note-description.
+**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
 
-commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.messages.details
+Drupal Console Command | Details
 ------------ | -------------
 **misc**  |
 [about](about.md) | Displays basic information about Drupal Console project
@@ -218,8 +218,8 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [views:disable](views-disable.md) | Disable a View
 [views:enable](views-enable.md) | Enable a View
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --help | Display this help message
 --quiet | Suppress all output from the command
@@ -239,7 +239,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 command | The command to execute

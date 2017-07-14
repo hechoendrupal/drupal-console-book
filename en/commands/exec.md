@@ -1,17 +1,17 @@
 # exec
 Execute an external command.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal exec [arguments] [options]
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --working-directory | The current working directory.
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 bin | Executable command.

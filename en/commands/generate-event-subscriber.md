@@ -1,14 +1,14 @@
 # generate:event:subscriber
 Generate an event subscriber
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:event:subscriber [options]
 ges
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --name | commands.generate.service.options.name
@@ -16,7 +16,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --events | Load events from the container
 --services | Load services from the container.
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Generate an event subscriber specifying the module name, its name, the class and the events to subscribe
 ```
 drupal generate:event:subscriber  \

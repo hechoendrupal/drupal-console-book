@@ -1,12 +1,12 @@
 # locale:language:delete
 Delete a language to be supported by your site
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal locale:language:delete [arguments]
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 language | Language for instance es or Spanish

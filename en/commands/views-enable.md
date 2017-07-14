@@ -1,18 +1,18 @@
 # views:enable
 Enable a View
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal views:enable [arguments]
 ve
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 view-id | commands.views.debug.arguments.view-id
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Enable content view
 ```
 drupal views:enable  content

@@ -1,18 +1,18 @@
 # database:drop
 Drop all tables in a given database.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:drop [arguments]
 dbd
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 database | Database key from settings.php
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Drop the tables on the database specified on the argument
 ```
 drupal database:drop \

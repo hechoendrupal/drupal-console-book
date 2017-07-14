@@ -1,13 +1,13 @@
 # queue:run
 Process the selected queue.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal queue:run [arguments]
 qr
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 name | Queue name.

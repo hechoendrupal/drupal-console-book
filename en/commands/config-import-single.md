@@ -1,19 +1,19 @@
 # config:import:single
 Import a single configuration or a list of configurations.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:import:single [options]
 cis
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --file | The file(s) name or file(s) absolute path to import
 --directory | commands.config.import.arguments.directory
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Providing a file option using full path.
 ```
 drupal config:import:single \

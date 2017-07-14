@@ -1,18 +1,18 @@
 # debug:router
 Displays current routes for the application or information for a particular route
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:router [arguments]
 dr
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 route-name | Route names
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Displays current routes for the application
 ```
 drupal rod

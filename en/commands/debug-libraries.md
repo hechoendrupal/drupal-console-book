@@ -1,18 +1,18 @@
 # debug:libraries
 Displays libraries available in application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:libraries [arguments]
 dl
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 group | Enter Libraries Name
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * List all available libraries
 ```
 drupal debug:libraries

@@ -1,13 +1,13 @@
 # generate:doc:dash
 commands.generate.doc.dash.description
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:doc:dash [options]
 gdd
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --path | commands.generate.doc.dash.options.path

@@ -1,13 +1,13 @@
 # init
 Copy configuration files.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal init [options]
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --destination | Destination directory to copy files
 --override | Override configurations files flag

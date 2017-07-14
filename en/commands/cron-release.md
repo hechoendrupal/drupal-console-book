@@ -1,13 +1,13 @@
 # cron:release
 Release cron system lock to run cron again
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal cron:release
 cror
 ```
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Execute the cron globally
 ```
 drupal cron:execute

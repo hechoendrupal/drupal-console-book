@@ -1,14 +1,14 @@
 # site:install
 Install a Drupal project
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal site:install [arguments] [options]
 si
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --langcode | commands.site.install.options.langcode
 --db-type | commands.site.install.options.db-type
@@ -26,12 +26,12 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --account-pass | commands.site.install.options.account-pass
 --force | commands.site.install.options.force
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 profile | Drupal Profile to be installed
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Install a drupal project specifying installation type, language code, database configuration, site name, site email and admin credential settings
 ```
 drupal site:install  standard  \

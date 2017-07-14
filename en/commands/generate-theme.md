@@ -1,14 +1,14 @@
 # generate:theme
 Generate a theme.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:theme [options]
 gt
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --theme | commands.generate.theme.options.module
 --machine-name | The machine name (lowercase and underscore only)
@@ -22,7 +22,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --regions | Regions
 --breakpoints | Breakpoints
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Generate a theme without region and without breakpoint specifying the theme name, its machine name, the theme path, a description, the drupal core, the package name and the global library
 ```
 drupal generate:theme  \

@@ -1,17 +1,17 @@
 # server
 Runs PHP built-in web server
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal server [arguments]
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 address | The address:port values
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Run using default address argument value 127.0.0.1:8088
 ```
 drupal server

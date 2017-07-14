@@ -1,18 +1,18 @@
 # debug:config
 List configuration objects names and single configuration object.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:config [arguments]
 dc
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 name | Configuration object name, for example "system.site".
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * List all configuration object names.
 ```
 drupal config:debug

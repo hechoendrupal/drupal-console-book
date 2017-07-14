@@ -1,18 +1,18 @@
 # image:styles:flush
 Execute flush function by image style or execute all flush images styles
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal image:styles:flush [arguments]
 isf
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 styles | The Images Styles name.
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Flush large image style
 ```
 drupal image:styles:flush  large

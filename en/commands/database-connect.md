@@ -1,18 +1,18 @@
 # database:connect
 Shows DB connection
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:connect [arguments]
 dbco
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 database | Database key from settings.php
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Connects to an specified database, or the default if not arguments passed
 ```
 drupal database:connect \

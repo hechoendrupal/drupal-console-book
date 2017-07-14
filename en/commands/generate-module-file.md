@@ -1,18 +1,18 @@
 # generate:module:file
 Generate a .module file
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:module:file [options]
 gmf
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Generate the .module file specifying the module name
 ```
 drupal generate:module:file  \

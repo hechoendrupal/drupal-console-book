@@ -1,14 +1,14 @@
 # generate:entity:config
 Generate a new config entity
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:entity:config [options]
 gec
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --entity-class | The config entity class
@@ -17,7 +17,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --label | The label
 --bundle-of | Acts as bundle for content entities
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Generate config entity specifying the module, the entity class, the entity name, its path and label
 ```
 drupal generate:entity:config  \

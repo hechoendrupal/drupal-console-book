@@ -1,7 +1,7 @@
 # develop:example
 
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal develop:example
 ```

@@ -1,23 +1,23 @@
 # theme:install
 Install theme or themes in the application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal theme:install [arguments] [options]
 thi
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --set-default | Set theme as default theme
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 theme | commands.theme.install.options.module
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Install theme specifying the name
 ```
 drupal theme:install  mytheme

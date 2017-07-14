@@ -1,24 +1,24 @@
 # debug:module
 Displays current modules available for application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:module [arguments] [options]
 dm
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --status | Module status [installed|uninstalled]
 --type | Module type [core|no-core]
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | Module name
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Display all installed modules
 ```
 drupal mod --status=installed

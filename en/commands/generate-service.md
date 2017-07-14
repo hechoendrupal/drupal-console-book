@@ -1,14 +1,14 @@
 # generate:service
 Generate service
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:service [options]
 gs
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --name | commands.generate.service.options.name
@@ -18,7 +18,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --services | Load services from the container.
 --path-service | Path
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Generate a services without interface specifying the module name, the service name, the class and its path
 ```
 drupal generate:service  \

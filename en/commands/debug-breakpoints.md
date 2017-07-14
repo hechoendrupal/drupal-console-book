@@ -1,18 +1,18 @@
 # debug:breakpoints
 Displays breakpoints available in application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:breakpoints [arguments]
 dbre
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 group | Enter Breakpoint Group Name
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Provide a group name.
 ```
 drupal breakpoints:debug bartik

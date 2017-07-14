@@ -1,25 +1,25 @@
 # create:comments
 Create dummy comments for your Drupal 8 application.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal create:comments [arguments] [options]
 crc
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --limit | How many comments would you like to create
 --title-words | Maximum number of words in comment titles
 --time-range | How far back in time should the comments be dated
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 node-id | Node ID where the comments will be created
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Provide the node id where the comments will be generated.
 ```
 drupal create:comments  node-id

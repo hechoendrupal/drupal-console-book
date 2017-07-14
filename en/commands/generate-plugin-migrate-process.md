@@ -1,20 +1,20 @@
 # generate:plugin:migrate:process
 Generate a migrate process plugin
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:migrate:process [options]
 gpmp
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
 --plugin-id | Plugin id
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Generate a migration plugin process specifying the module name, the class and its id
 ```
 drupal generate:plugin:migrate:process  \

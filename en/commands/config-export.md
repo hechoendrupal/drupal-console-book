@@ -1,21 +1,21 @@
 # config:export
 Export current application configuration.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal config:export [options]
 ce
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --directory | Define the export directory to save the configuration output.
 --tar | If set, the configuration will be exported to an archive file.
 --remove-uuid | If set, the configuration will be exported without uuid key.
 --remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Optional you can add the path to export
 ```
 drupal config:export  \

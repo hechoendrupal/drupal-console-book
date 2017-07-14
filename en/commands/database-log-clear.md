@@ -1,25 +1,25 @@
 # database:log:clear
 Remove events from DBLog table, filters are available
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal database:log:clear [arguments] [options]
 dblc
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --type | Filter events by a specific type
 --severity | Filter events by a specific level of severity
 --user-id | Filter events by a specific user id
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 event-id | DBLog event ID
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Clear the database log from DBLog table
 ```
 drupal database:log:clear \

@@ -1,24 +1,24 @@
 # module:uninstall
 Uninstall module or modules in the application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal module:uninstall [arguments] [options]
 mou
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --force | Do you want to ignore dependencies and forcefully uninstall the module?
 --composer | Uninstalls the module using Composer
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 module | Module name (press <return> to stop adding modules)
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Uninstall the module specifying the module name
 ```
 drupal module:uninstall  modulename

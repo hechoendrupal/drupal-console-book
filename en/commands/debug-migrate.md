@@ -1,18 +1,18 @@
 # debug:migrate
 Display current migration available for the application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:migrate [arguments]
 mid
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 tag | Migrate tag
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Displays current migration
 ```
 drupal debug:migrate

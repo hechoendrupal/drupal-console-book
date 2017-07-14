@@ -1,14 +1,14 @@
 # migrate:setup
 Load and create the relevant migrations for a provided legacy database
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal migrate:setup [options]
 mis
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --db-type | Drupal Database type
 --db-host | Database Host

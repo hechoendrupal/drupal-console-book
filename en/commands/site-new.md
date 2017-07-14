@@ -1,13 +1,13 @@
 # site:new
 Download a new Drupal project
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal site:new [options]
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --repository | repository
 --directory | directory

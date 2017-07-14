@@ -1,14 +1,14 @@
 # debug:user
 Displays current users for the application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:user [options]
 dus
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --uid | Filters the result list by uids [between quotes separated by spaces]
 --username | Filters the result list by usernames [between quotes separated by spaces]
@@ -16,7 +16,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --roles | Roles to filter debug
 --limit | How many users would you like to be listed in debug
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Users list on the site
 ```
 drupal debug:user

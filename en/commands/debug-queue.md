@@ -1,13 +1,13 @@
 # debug:queue
 Displays the queues of your application
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:queue
 dq
 ```
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Displays the queues of the application
 ```
 drupal debug:queue

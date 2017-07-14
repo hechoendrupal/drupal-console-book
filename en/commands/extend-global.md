@@ -1,7 +1,7 @@
 # extend:global
 Drupal Console global example
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal extend:global
 ```

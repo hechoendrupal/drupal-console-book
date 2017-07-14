@@ -1,23 +1,23 @@
 # debug:database:table
 Show all tables in a given database.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:database:table [arguments] [options]
 ddt
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --database | Database key from settings.php
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 table | Table to debug
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Show all tables on a database
 ```
 drupal debug:database:table

@@ -1,19 +1,19 @@
 # entity:delete
 Delete an specific entity
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal entity:delete [arguments]
 ed
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 entity-definition-id | Entity definition id
 entity-id | Entity ID to be deleted
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Delete entity type content using node id
 ```
 drupal entity:delete node 1

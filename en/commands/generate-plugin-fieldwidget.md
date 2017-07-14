@@ -1,14 +1,14 @@
 # generate:plugin:fieldwidget
 Generate field widget plugin.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal generate:plugin:fieldwidget [options]
 gpfw
 ```
 
-## commands.generate.doc.gitbook.messages.options
-commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.messages.details
+## Available options
+Option | Details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
@@ -16,7 +16,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 --plugin-id | Plugin id
 --field-type | Field type the plugin can be used with
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * Generate a text type field widget plugin specifying the module name, the class, its label, the plugin id and the field type
 ```
 drupal generate:plugin:fieldwidget  \

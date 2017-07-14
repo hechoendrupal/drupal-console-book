@@ -1,19 +1,19 @@
 # debug:site
 List all known local and remote sites.
 
-**commands.generate.doc.gitbook.messages.usage:**
+**Usage:**
 ```
 drupal debug:site [arguments]
 dsi
 ```
 
-## commands.generate.doc.gitbook.messages.arguments
-commands.generate.doc.gitbook.messages.argument | commands.generate.doc.gitbook.messages.details
+## Available arguments
+Argument | Details
 ---------|-------------
 target | Target
 property | Property
 
-## commands.generate.doc.gitbook.messages.examples
+## Examples
 * 
 ```
 drupal debug:site
