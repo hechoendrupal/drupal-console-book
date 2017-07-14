@@ -3,8 +3,8 @@ List all multisites available in system
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:multisite
-$ dmu
+drupal debug:multisite
+dmu
 ```
 
 ## commands.generate.doc.gitbook.messages.examples

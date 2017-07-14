@@ -3,7 +3,7 @@ Download, install and serve a new Drupal project
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal quick:start [options]
+drupal quick:start [options]
 ```
 
 ## commands.generate.doc.gitbook.messages.options

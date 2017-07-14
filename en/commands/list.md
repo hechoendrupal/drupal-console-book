@@ -3,7 +3,7 @@ Lists all available commands
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal list [arguments] [options]
+drupal list [arguments] [options]
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -3,7 +3,7 @@ Update gitbook
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal develop:gitbook [arguments] [options]
+drupal develop:gitbook [arguments] [options]
 ```
 
 ## commands.generate.doc.gitbook.messages.options

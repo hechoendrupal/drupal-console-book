@@ -3,7 +3,7 @@
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal develop:contribute [options]
+drupal develop:contribute [options]
 ```
 
 ## commands.generate.doc.gitbook.messages.options

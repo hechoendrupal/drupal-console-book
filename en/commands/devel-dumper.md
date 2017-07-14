@@ -3,8 +3,8 @@ Change the devel dumper plugin
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal devel:dumper [arguments]
-$ dd
+drupal devel:dumper [arguments]
+dd
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

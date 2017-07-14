@@ -3,8 +3,8 @@ Displays current views resources for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:views [arguments] [options]
-$ vde
+drupal debug:views [arguments] [options]
+vde
 ```
 
 ## commands.generate.doc.gitbook.messages.options

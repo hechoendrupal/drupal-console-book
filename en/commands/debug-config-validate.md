@@ -3,8 +3,8 @@ Validate a schema implementation before a module is installed.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:config:validate [arguments] [options]
-$ dcv
+drupal debug:config:validate [arguments] [options]
+dcv
 ```
 
 ## commands.generate.doc.gitbook.messages.options

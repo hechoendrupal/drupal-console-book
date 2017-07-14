@@ -3,8 +3,8 @@ Restore structure and contents of a database.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal database:restore [arguments] [options]
-$ dbr
+drupal database:restore [arguments] [options]
+dbr
 ```
 
 ## commands.generate.doc.gitbook.messages.options

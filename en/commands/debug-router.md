@@ -3,8 +3,8 @@ Displays current routes for the application or information for a particular rout
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:router [arguments]
-$ dr
+drupal debug:router [arguments]
+dr
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

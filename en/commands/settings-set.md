@@ -3,7 +3,7 @@ Change a specific setting value in DrupalConsole config file
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal settings:set [arguments] [options]
+drupal settings:set [arguments] [options]
 ```
 
 ## commands.generate.doc.gitbook.messages.options

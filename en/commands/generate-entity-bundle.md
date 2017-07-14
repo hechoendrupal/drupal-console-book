@@ -3,8 +3,8 @@ Generate a new content type (node / entity bundle)
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:entity:bundle [options]
-$ geb
+drupal generate:entity:bundle [options]
+geb
 ```
 
 ## commands.generate.doc.gitbook.messages.options

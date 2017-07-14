@@ -3,8 +3,8 @@ Update core, module or modules in the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal module:update [arguments] [options]
-$ moup
+drupal module:update [arguments] [options]
+moup
 ```
 
 ## commands.generate.doc.gitbook.messages.options

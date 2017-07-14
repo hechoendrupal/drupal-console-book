@@ -3,8 +3,8 @@ Output configuration items that are different in active configuration compared w
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:diff [arguments] [options]
-$ cdi
+drupal config:diff [arguments] [options]
+cdi
 ```
 
 ## commands.generate.doc.gitbook.messages.options

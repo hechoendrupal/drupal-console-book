@@ -3,8 +3,8 @@ Generate field formatter plugin.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:fieldformatter [options]
-$ gpff
+drupal generate:plugin:fieldformatter [options]
+gpff
 ```
 
 ## commands.generate.doc.gitbook.messages.options

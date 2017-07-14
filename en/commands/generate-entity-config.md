@@ -3,8 +3,8 @@ Generate a new config entity
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:entity:config [options]
-$ gec
+drupal generate:entity:config [options]
+gec
 ```
 
 ## commands.generate.doc.gitbook.messages.options

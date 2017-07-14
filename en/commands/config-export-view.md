@@ -3,8 +3,8 @@ Export a view in YAML format inside a provided module to reuse in other website.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:export:view [arguments] [options]
-$ cev
+drupal config:export:view [arguments] [options]
+cev
 ```
 
 ## commands.generate.doc.gitbook.messages.options

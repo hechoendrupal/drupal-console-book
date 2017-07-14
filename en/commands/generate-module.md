@@ -3,8 +3,8 @@ Generate a module.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:module [options]
-$ gm
+drupal generate:module [options]
+gm
 ```
 
 ## commands.generate.doc.gitbook.messages.options

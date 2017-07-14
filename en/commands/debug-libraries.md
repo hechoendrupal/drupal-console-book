@@ -3,8 +3,8 @@ Displays libraries available in application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:libraries [arguments]
-$ dl
+drupal debug:libraries [arguments]
+dl
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

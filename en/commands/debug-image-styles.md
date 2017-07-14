@@ -3,8 +3,8 @@ List image styles on the site
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:image:styles
-$ dis
+drupal debug:image:styles
+dis
 ```
 
 ## commands.generate.doc.gitbook.messages.examples

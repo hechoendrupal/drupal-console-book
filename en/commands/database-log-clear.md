@@ -3,8 +3,8 @@ Remove events from DBLog table, filters are available
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal database:log:clear [arguments] [options]
-$ dblc
+drupal database:log:clear [arguments] [options]
+dblc
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -3,7 +3,7 @@ Download a new Drupal project
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal site:new [options]
+drupal site:new [options]
 ```
 
 ## commands.generate.doc.gitbook.messages.options

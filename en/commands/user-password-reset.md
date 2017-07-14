@@ -3,8 +3,8 @@ Reset password for a specific user.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal user:password:reset [arguments]
-$ upr
+drupal user:password:reset [arguments]
+upr
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

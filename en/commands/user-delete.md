@@ -3,8 +3,8 @@ Delete users for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal user:delete [options]
-$ ud
+drupal user:delete [options]
+ud
 ```
 
 ## commands.generate.doc.gitbook.messages.options

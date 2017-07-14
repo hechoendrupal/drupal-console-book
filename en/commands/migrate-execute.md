@@ -3,8 +3,8 @@ Execute a migration available for application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal migrate:execute [arguments] [options]
-$ mie
+drupal migrate:execute [arguments] [options]
+mie
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -3,8 +3,8 @@ Generate field type plugin.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:fieldtype [options]
-$ gpft
+drupal generate:plugin:fieldtype [options]
+gpft
 ```
 
 ## commands.generate.doc.gitbook.messages.options

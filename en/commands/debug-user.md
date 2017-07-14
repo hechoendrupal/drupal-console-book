@@ -3,8 +3,8 @@ Displays current users for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:user [options]
-$ dus
+drupal debug:user [options]
+dus
 ```
 
 ## commands.generate.doc.gitbook.messages.options

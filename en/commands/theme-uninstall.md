@@ -3,8 +3,8 @@ Uninstall theme or themes in the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal theme:uninstall [arguments]
-$ thu
+drupal theme:uninstall [arguments]
+thu
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

@@ -3,8 +3,8 @@ Validate a drupal config against its schema
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:validate [arguments]
-$ cv
+drupal config:validate [arguments]
+cv
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

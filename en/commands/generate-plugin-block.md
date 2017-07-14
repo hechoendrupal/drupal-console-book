@@ -3,8 +3,8 @@ Generate a plugin block
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:block [options]
-$ gpb
+drupal generate:plugin:block [options]
+gpb
 ```
 
 ## commands.generate.doc.gitbook.messages.options

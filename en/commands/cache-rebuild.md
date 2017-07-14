@@ -3,8 +3,8 @@ Rebuild and clear all site caches.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal cache:rebuild [arguments]
-$ cr
+drupal cache:rebuild [arguments]
+cr
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

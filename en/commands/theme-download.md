@@ -3,8 +3,8 @@ Download theme in application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal theme:download [arguments] [options]
-$ thd
+drupal theme:download [arguments] [options]
+thd
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,5 +21,5 @@ version | Theme version i.e 1.x-dev
 ## commands.generate.doc.gitbook.messages.examples
 * Download theme specifying name and version
 ```
-drupal theme:download pistachio 1.x
+drupal theme:download  Alina 7.x-1.2
 ```

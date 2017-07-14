@@ -3,8 +3,8 @@ Display current migration available for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:migrate [arguments]
-$ mid
+drupal debug:migrate [arguments]
+mid
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

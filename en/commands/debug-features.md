@@ -3,7 +3,7 @@ List registered features.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:features [arguments]
+drupal debug:features [arguments]
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

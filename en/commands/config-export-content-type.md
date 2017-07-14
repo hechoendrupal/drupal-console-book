@@ -3,8 +3,8 @@ Export a specific content type and their fields.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:export:content:type [arguments] [options]
-$ cect
+drupal config:export:content:type [arguments] [options]
+cect
 ```
 
 ## commands.generate.doc.gitbook.messages.options

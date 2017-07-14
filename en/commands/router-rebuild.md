@@ -3,8 +3,8 @@ Rebuild routes for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal router:rebuild
-$ rr
+drupal router:rebuild
+rr
 ```
 
 ## commands.generate.doc.gitbook.messages.examples

@@ -3,8 +3,8 @@ Sets up the files for a new multisite install.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal multisite:new [arguments] [options]
-$ mun
+drupal multisite:new [arguments] [options]
+mun
 ```
 
 ## commands.generate.doc.gitbook.messages.options

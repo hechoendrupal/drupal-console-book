@@ -3,8 +3,8 @@ Generate a migrate source plugin
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:migrate:source [options]
-$ gpms
+drupal generate:plugin:migrate:source [options]
+gpms
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -3,8 +3,8 @@ List configuration objects names and single configuration object.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:config [arguments]
-$ dc
+drupal debug:config [arguments]
+dc
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

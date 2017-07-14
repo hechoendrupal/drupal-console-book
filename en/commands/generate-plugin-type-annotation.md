@@ -3,8 +3,8 @@ Generate a plugin type with annotation discovery
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:type:annotation [options]
-$ gpta
+drupal generate:plugin:type:annotation [options]
+gpta
 ```
 
 ## commands.generate.doc.gitbook.messages.options

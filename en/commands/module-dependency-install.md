@@ -3,8 +3,8 @@ commands.module.install.dependencies.description
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal module:dependency:install [arguments]
-$ modi
+drupal module:dependency:install [arguments]
+modi
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

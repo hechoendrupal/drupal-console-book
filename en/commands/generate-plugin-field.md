@@ -3,8 +3,8 @@ Generate field type, widget and formatter plugins.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:field [options]
-$ gpf
+drupal generate:plugin:field [options]
+gpf
 ```
 
 ## commands.generate.doc.gitbook.messages.options

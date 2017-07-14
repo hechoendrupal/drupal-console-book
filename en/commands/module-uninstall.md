@@ -3,8 +3,8 @@ Uninstall module or modules in the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal module:uninstall [arguments] [options]
-$ mou
+drupal module:uninstall [arguments] [options]
+mou
 ```
 
 ## commands.generate.doc.gitbook.messages.options

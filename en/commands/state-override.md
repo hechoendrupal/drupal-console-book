@@ -3,8 +3,8 @@ Override a State key.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal state:override [arguments]
-$ sto
+drupal state:override [arguments]
+sto
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

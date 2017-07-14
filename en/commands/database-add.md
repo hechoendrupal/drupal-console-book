@@ -3,8 +3,8 @@ Add a database to settings.php
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal database:add [options]
-$ dba
+drupal database:add [options]
+dba
 ```
 
 ## commands.generate.doc.gitbook.messages.options

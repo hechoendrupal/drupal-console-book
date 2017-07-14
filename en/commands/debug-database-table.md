@@ -3,8 +3,8 @@ Show all tables in a given database.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:database:table [arguments] [options]
-$ ddt
+drupal debug:database:table [arguments] [options]
+ddt
 ```
 
 ## commands.generate.doc.gitbook.messages.options

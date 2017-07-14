@@ -3,8 +3,8 @@ Show the current State keys.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:state [arguments]
-$ dst
+drupal debug:state [arguments]
+dst
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

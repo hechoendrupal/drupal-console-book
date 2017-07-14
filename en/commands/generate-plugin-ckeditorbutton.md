@@ -3,8 +3,8 @@ Generate CKEditor button plugin.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:ckeditorbutton [options]
-$ gpc
+drupal generate:plugin:ckeditorbutton [options]
+gpc
 ```
 
 ## commands.generate.doc.gitbook.messages.options

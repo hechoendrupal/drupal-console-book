@@ -3,8 +3,8 @@ Displays current themes for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:theme [arguments]
-$ dt
+drupal debug:theme [arguments]
+dt
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

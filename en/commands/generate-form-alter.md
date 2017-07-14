@@ -3,8 +3,8 @@ Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:form:alter [options]
-$ gfa
+drupal generate:form:alter [options]
+gfa
 ```
 
 ## commands.generate.doc.gitbook.messages.options

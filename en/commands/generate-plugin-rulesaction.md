@@ -3,8 +3,8 @@ Generate a plugin rule action
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:rulesaction [options]
-$ gpra
+drupal generate:plugin:rulesaction [options]
+gpra
 ```
 
 ## commands.generate.doc.gitbook.messages.options

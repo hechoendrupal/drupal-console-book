@@ -3,8 +3,8 @@ Change a configuration object with a text editor.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:edit [arguments]
-$ ced
+drupal config:edit [arguments]
+ced
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

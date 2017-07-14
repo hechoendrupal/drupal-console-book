@@ -3,8 +3,8 @@ Poll the watchdog and print new log entries every x seconds
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal database:log:poll [arguments] [options]
-$ dblp
+drupal database:log:poll [arguments] [options]
+dblp
 ```
 
 ## commands.generate.doc.gitbook.messages.options

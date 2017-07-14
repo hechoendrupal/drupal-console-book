@@ -3,8 +3,8 @@ Enable a View
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal views:enable [arguments]
-$ ve
+drupal views:enable [arguments]
+ve
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

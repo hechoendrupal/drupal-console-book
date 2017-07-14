@@ -3,8 +3,8 @@ Shows DB connection
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal database:connect [arguments]
-$ dbco
+drupal database:connect [arguments]
+dbco
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

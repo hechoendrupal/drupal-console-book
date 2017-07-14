@@ -3,8 +3,8 @@ Displays current views plugins for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:views:plugins [arguments]
-$ dvp
+drupal debug:views:plugins [arguments]
+dvp
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

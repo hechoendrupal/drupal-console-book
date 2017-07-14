@@ -3,8 +3,8 @@ Create dummy nodes for your Drupal 8 application.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal create:nodes [arguments] [options]
-$ crn
+drupal create:nodes [arguments] [options]
+crn
 ```
 
 ## commands.generate.doc.gitbook.messages.options

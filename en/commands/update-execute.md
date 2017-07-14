@@ -3,8 +3,8 @@ Execute a specific Update N function in a module, or execute all
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal update:execute [arguments]
-$ upex
+drupal update:execute [arguments]
+upex
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

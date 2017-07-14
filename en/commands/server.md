@@ -3,7 +3,7 @@ Runs PHP built-in web server
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal server [arguments]
+drupal server [arguments]
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

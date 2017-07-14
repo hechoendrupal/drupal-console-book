@@ -3,8 +3,8 @@ Displays all plugin types.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:plugin [arguments]
-$ dpl
+drupal debug:plugin [arguments]
+dpl
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

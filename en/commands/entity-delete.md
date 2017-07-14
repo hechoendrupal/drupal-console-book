@@ -3,8 +3,8 @@ Delete an specific entity
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal entity:delete [arguments]
-$ ed
+drupal entity:delete [arguments]
+ed
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

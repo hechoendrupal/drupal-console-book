@@ -3,8 +3,8 @@ Generate a cache context
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:cache:context [options]
-$ gcc
+drupal generate:cache:context [options]
+gcc
 ```
 
 ## commands.generate.doc.gitbook.messages.options

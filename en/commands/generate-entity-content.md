@@ -3,8 +3,8 @@ Generate a new content entity
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:entity:content [options]
-$ geco
+drupal generate:entity:content [options]
+geco
 ```
 
 ## commands.generate.doc.gitbook.messages.options

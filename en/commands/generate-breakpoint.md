@@ -3,8 +3,8 @@ Generate breakpoint
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:breakpoint [options]
-$ gb
+drupal generate:breakpoint [options]
+gb
 ```
 
 ## commands.generate.doc.gitbook.messages.options

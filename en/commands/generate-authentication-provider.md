@@ -3,8 +3,8 @@ Generate an Authentication Provider
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:authentication:provider [options]
-$ gap
+drupal generate:authentication:provider [options]
+gap
 ```
 
 ## commands.generate.doc.gitbook.messages.options

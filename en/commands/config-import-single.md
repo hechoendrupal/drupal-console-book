@@ -3,8 +3,8 @@ Import a single configuration or a list of configurations.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:import:single [options]
-$ cis
+drupal config:import:single [options]
+cis
 ```
 
 ## commands.generate.doc.gitbook.messages.options

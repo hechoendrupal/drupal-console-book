@@ -3,8 +3,8 @@ Generate service
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:service [options]
-$ gs
+drupal generate:service [options]
+gs
 ```
 
 ## commands.generate.doc.gitbook.messages.options

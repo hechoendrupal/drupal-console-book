@@ -3,8 +3,8 @@ Delete State
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal state:delete [arguments]
-$ std
+drupal state:delete [arguments]
+std
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

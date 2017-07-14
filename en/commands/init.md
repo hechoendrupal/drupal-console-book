@@ -3,7 +3,7 @@ Copy configuration files.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal init [options]
+drupal init [options]
 ```
 
 ## commands.generate.doc.gitbook.messages.options

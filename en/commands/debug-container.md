@@ -3,9 +3,9 @@ Displays current services for an application.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:container [arguments] [options]
-$ dco
-$ cod
+drupal debug:container [arguments] [options]
+dco
+cod
 ```
 
 ## commands.generate.doc.gitbook.messages.options

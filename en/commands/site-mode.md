@@ -3,8 +3,8 @@ Switch system performance configuration
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal site:mode [arguments]
-$ smo
+drupal site:mode [arguments]
+smo
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

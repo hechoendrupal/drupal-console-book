@@ -3,8 +3,8 @@ Generate a plugin type with Yaml discovery
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:type:yaml [options]
-$ gpty
+drupal generate:plugin:type:yaml [options]
+gpty
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -3,8 +3,8 @@ Download module or modules in application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal module:download [arguments] [options]
-$ mod
+drupal module:download [arguments] [options]
+mod
 ```
 
 ## commands.generate.doc.gitbook.messages.options

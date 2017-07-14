@@ -3,8 +3,8 @@ Generate an implementation of hook_update_N()
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:update [options]
-$ gu
+drupal generate:update [options]
+gu
 ```
 
 ## commands.generate.doc.gitbook.messages.options

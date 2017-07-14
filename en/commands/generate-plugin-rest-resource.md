@@ -3,8 +3,8 @@ Generate plugin rest resource
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:rest:resource [options]
-$ gprr
+drupal generate:plugin:rest:resource [options]
+gprr
 ```
 
 ## commands.generate.doc.gitbook.messages.options

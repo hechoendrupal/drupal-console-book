@@ -3,8 +3,8 @@ Generate a custom plugin view field.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:views:field [options]
-$ gpvf
+drupal generate:plugin:views:field [options]
+gpvf
 ```
 
 ## commands.generate.doc.gitbook.messages.options

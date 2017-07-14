@@ -3,8 +3,8 @@ View current Drupal Installation status
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal site:status [options]
-$ ss
+drupal site:status [options]
+ss
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -3,8 +3,8 @@ List of modules implementing a cron
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:cron
-$ dcr
+drupal debug:cron
+dcr
 ```
 
 ## commands.generate.doc.gitbook.messages.examples

@@ -3,8 +3,8 @@ Run Test unit from tests available for application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal test:run [arguments] [options]
-$ ter
+drupal test:run [arguments] [options]
+ter
 ```
 
 ## commands.generate.doc.gitbook.messages.options

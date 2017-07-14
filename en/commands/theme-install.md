@@ -3,8 +3,8 @@ Install theme or themes in the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal theme:install [arguments] [options]
-$ thi
+drupal theme:install [arguments] [options]
+thi
 ```
 
 ## commands.generate.doc.gitbook.messages.options

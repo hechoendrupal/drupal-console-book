@@ -3,8 +3,8 @@ Displays current modules available for application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:module [arguments] [options]
-$ dm
+drupal debug:module [arguments] [options]
+dm
 ```
 
 ## commands.generate.doc.gitbook.messages.options

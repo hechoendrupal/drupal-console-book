@@ -3,8 +3,8 @@ Returns the relative path to the module (or absolute path)
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal module:path [arguments] [options]
-$ mop
+drupal module:path [arguments] [options]
+mop
 ```
 
 ## commands.generate.doc.gitbook.messages.options

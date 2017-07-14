@@ -3,8 +3,8 @@ Create dummy vocabularies for your Drupal 8 application.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal create:vocabularies [options]
-$ crv
+drupal create:vocabularies [options]
+crv
 ```
 
 ## commands.generate.doc.gitbook.messages.options

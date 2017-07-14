@@ -3,8 +3,8 @@ Displays the queues of your application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:queue
-$ dq
+drupal debug:queue
+dq
 ```
 
 ## commands.generate.doc.gitbook.messages.examples

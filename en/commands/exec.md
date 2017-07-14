@@ -3,7 +3,7 @@ Execute an external command.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal exec [arguments] [options]
+drupal exec [arguments] [options]
 ```
 
 ## commands.generate.doc.gitbook.messages.options

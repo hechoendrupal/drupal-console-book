@@ -3,8 +3,8 @@ Export a single configuration or a list of configurations as yml file(s).
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:export:single [options]
-$ ces
+drupal config:export:single [options]
+ces
 ```
 
 ## commands.generate.doc.gitbook.messages.options

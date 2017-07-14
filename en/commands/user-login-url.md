@@ -3,8 +3,8 @@ Returns a one-time user login url.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal user:login:url [arguments]
-$ ulu
+drupal user:login:url [arguments]
+ulu
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

@@ -3,8 +3,8 @@ commands.translation.cleanup.description
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal translation:cleanup [arguments]
-$ tc
+drupal translation:cleanup [arguments]
+tc
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

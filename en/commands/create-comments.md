@@ -3,8 +3,8 @@ Create dummy comments for your Drupal 8 application.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal create:comments [arguments] [options]
-$ crc
+drupal create:comments [arguments] [options]
+crc
 ```
 
 ## commands.generate.doc.gitbook.messages.options

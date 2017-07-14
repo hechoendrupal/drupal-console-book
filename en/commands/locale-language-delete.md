@@ -3,7 +3,7 @@ Delete a language to be supported by your site
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal locale:language:delete [arguments]
+drupal locale:language:delete [arguments]
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

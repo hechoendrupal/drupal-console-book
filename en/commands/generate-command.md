@@ -3,8 +3,8 @@ Generate commands for the console.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:command [options]
-$ gco
+drupal generate:command [options]
+gco
 ```
 
 ## commands.generate.doc.gitbook.messages.options

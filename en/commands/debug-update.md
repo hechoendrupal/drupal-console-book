@@ -3,8 +3,8 @@ Displays current updates available for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:update
-$ du
+drupal debug:update
+du
 ```
 
 ## commands.generate.doc.gitbook.messages.examples

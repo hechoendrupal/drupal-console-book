@@ -3,8 +3,8 @@ Export current application configuration.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:export [options]
-$ ce
+drupal config:export [options]
+ce
 ```
 
 ## commands.generate.doc.gitbook.messages.options

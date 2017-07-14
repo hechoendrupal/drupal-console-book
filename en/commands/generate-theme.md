@@ -3,8 +3,8 @@ Generate a theme.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:theme [options]
-$ gt
+drupal generate:theme [options]
+gt
 ```
 
 ## commands.generate.doc.gitbook.messages.options

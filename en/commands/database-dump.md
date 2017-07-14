@@ -3,8 +3,8 @@ Dump structure and contents of a database
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal database:dump [arguments] [options]
-$ dbdu
+drupal database:dump [arguments] [options]
+dbdu
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -3,8 +3,8 @@ Install module or modules in the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal module:install [arguments] [options]
-$ moi
+drupal module:install [arguments] [options]
+moi
 ```
 
 ## commands.generate.doc.gitbook.messages.options

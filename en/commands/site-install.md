@@ -3,8 +3,8 @@ Install a Drupal project
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal site:install [arguments] [options]
-$ si
+drupal site:install [arguments] [options]
+si
 ```
 
 ## commands.generate.doc.gitbook.messages.options

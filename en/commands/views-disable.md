@@ -3,8 +3,8 @@ Disable a View
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal views:disable [arguments]
-$ vd
+drupal views:disable [arguments]
+vd
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

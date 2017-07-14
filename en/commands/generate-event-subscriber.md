@@ -3,8 +3,8 @@ Generate an event subscriber
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:event:subscriber [options]
-$ ges
+drupal generate:event:subscriber [options]
+ges
 ```
 
 ## commands.generate.doc.gitbook.messages.options

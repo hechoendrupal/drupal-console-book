@@ -3,8 +3,8 @@ Release cron system lock to run cron again
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal cron:release
-$ cror
+drupal cron:release
+cror
 ```
 
 ## commands.generate.doc.gitbook.messages.examples

@@ -3,8 +3,8 @@ commands.translation.sync.description
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal translation:sync [arguments] [options]
-$ tsy
+drupal translation:sync [arguments] [options]
+tsy
 ```
 
 ## commands.generate.doc.gitbook.messages.options

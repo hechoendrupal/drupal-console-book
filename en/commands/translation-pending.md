@@ -3,8 +3,8 @@ commands.translation.pending.description
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal translation:pending [arguments] [options]
-$ tp
+drupal translation:pending [arguments] [options]
+tp
 ```
 
 ## commands.generate.doc.gitbook.messages.options

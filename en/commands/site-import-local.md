@@ -3,8 +3,8 @@ Import/Configure an existing local Drupal project
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal site:import:local [arguments] [options]
-$ sil
+drupal site:import:local [arguments] [options]
+sil
 ```
 
 ## commands.generate.doc.gitbook.messages.options

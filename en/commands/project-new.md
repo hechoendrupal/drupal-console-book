@@ -3,7 +3,7 @@ Create multisite new Drupal project
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal project:new [options]
+drupal project:new [options]
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -3,8 +3,8 @@ Returns the relative path to the theme (or absolute path)
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal theme:path [arguments] [options]
-$ thp
+drupal theme:path [arguments] [options]
+thp
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -3,8 +3,8 @@ Generate field widget plugin.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:fieldwidget [options]
-$ gpfw
+drupal generate:plugin:fieldwidget [options]
+gpfw
 ```
 
 ## commands.generate.doc.gitbook.messages.options

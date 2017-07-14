@@ -3,8 +3,8 @@ Create dummy terms for your Drupal 8 application.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal create:terms [arguments] [options]
-$ crt
+drupal create:terms [arguments] [options]
+crt
 ```
 
 ## commands.generate.doc.gitbook.messages.options

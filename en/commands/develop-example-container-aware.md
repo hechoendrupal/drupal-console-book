@@ -3,5 +3,5 @@
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal develop:example:container:aware
+drupal develop:example:container:aware
 ```

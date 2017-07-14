@@ -3,8 +3,8 @@ Displays breakpoints available in application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:breakpoints [arguments]
-$ dbre
+drupal debug:breakpoints [arguments]
+dbre
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

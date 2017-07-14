@@ -3,8 +3,8 @@ Switch site into maintenance mode
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal site:maintenance [arguments]
-$ sma
+drupal site:maintenance [arguments]
+sma
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

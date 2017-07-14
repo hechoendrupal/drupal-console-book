@@ -3,8 +3,8 @@ commands.generate.permission.description
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:permissions [options]
-$ gp
+drupal generate:permissions [options]
+gp
 ```
 
 ## commands.generate.doc.gitbook.messages.options

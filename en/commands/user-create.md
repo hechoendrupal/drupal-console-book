@@ -3,8 +3,8 @@ Create users for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal user:create [arguments] [options]
-$ uc
+drupal user:create [arguments] [options]
+uc
 ```
 
 ## commands.generate.doc.gitbook.messages.options

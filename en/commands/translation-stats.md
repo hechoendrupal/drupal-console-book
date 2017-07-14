@@ -3,8 +3,8 @@ commands.translation.stats.description
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal translation:stats [arguments] [options]
-$ ts
+drupal translation:stats [arguments] [options]
+ts
 ```
 
 ## commands.generate.doc.gitbook.messages.options

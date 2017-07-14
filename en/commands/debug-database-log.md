@@ -3,8 +3,8 @@ Displays current log events for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:database:log [arguments] [options]
-$ dbb
+drupal debug:database:log [arguments] [options]
+dbb
 ```
 
 ## commands.generate.doc.gitbook.messages.options

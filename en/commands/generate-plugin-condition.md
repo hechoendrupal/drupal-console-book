@@ -3,8 +3,8 @@ Generate a plugin condition.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:condition [options]
-$ gpco
+drupal generate:plugin:condition [options]
+gpco
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -3,8 +3,8 @@ Override config value in active configuration.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:override [arguments]
-$ co
+drupal config:override [arguments]
+co
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

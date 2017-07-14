@@ -3,7 +3,7 @@ Chain command execution
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal chain [arguments] [options]
+drupal chain [arguments] [options]
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -3,8 +3,8 @@ Process the selected queue.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal queue:run [arguments]
-$ qr
+drupal queue:run [arguments]
+qr
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

@@ -3,8 +3,8 @@ Generate image effect plugin.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:imageeffect [options]
-$ gpie
+drupal generate:plugin:imageeffect [options]
+gpie
 ```
 
 ## commands.generate.doc.gitbook.messages.options

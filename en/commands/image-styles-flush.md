@@ -3,8 +3,8 @@ Execute flush function by image style or execute all flush images styles
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal image:styles:flush [arguments]
-$ isf
+drupal image:styles:flush [arguments]
+isf
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

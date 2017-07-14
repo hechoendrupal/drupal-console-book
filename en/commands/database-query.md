@@ -3,8 +3,8 @@ Executes a SQL statement directly as argument
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal database:query [arguments] [options]
-$ dbq
+drupal database:query [arguments] [options]
+dbq
 ```
 
 ## commands.generate.doc.gitbook.messages.options

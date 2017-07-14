@@ -3,8 +3,8 @@ Drop all tables in a given database.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal database:drop [arguments]
-$ dbd
+drupal database:drop [arguments]
+dbd
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

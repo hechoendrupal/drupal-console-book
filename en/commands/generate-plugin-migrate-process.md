@@ -3,8 +3,8 @@ Generate a migrate process plugin
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:migrate:process [options]
-$ gpmp
+drupal generate:plugin:migrate:process [options]
+gpmp
 ```
 
 ## commands.generate.doc.gitbook.messages.options

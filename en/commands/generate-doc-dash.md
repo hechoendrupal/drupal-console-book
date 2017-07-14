@@ -3,8 +3,8 @@ commands.generate.doc.dash.description
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:doc:dash [options]
-$ gdd
+drupal generate:doc:dash [options]
+gdd
 ```
 
 ## commands.generate.doc.gitbook.messages.options

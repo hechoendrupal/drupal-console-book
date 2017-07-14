@@ -3,7 +3,7 @@ Displays help for a command
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal help [arguments] [options]
+drupal help [arguments] [options]
 ```
 
 ## commands.generate.doc.gitbook.messages.options

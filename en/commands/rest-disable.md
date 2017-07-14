@@ -3,8 +3,8 @@ Disable a rest resource for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal rest:disable [arguments]
-$ red
+drupal rest:disable [arguments]
+red
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

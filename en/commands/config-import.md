@@ -3,8 +3,8 @@ Import configuration to current application.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal config:import [options]
-$ ci
+drupal config:import [options]
+ci
 ```
 
 ## commands.generate.doc.gitbook.messages.options

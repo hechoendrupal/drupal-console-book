@@ -3,8 +3,8 @@ Display current rest resource for the application
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:rest [arguments] [options]
-$ rede
+drupal debug:rest [arguments] [options]
+rede
 ```
 
 ## commands.generate.doc.gitbook.messages.options

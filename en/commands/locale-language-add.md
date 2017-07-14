@@ -3,7 +3,7 @@ Add a language to be supported by your site
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal locale:language:add [arguments]
+drupal locale:language:add [arguments]
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

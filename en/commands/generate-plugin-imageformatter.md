@@ -3,8 +3,8 @@ Generate image formatter plugin.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal generate:plugin:imageformatter [options]
-$ gpif
+drupal generate:plugin:imageformatter [options]
+gpif
 ```
 
 ## commands.generate.doc.gitbook.messages.options

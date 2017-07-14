@@ -3,8 +3,8 @@ List all known local and remote sites.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:site [arguments]
-$ dsi
+drupal debug:site [arguments]
+dsi
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

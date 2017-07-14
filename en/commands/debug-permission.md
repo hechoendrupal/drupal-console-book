@@ -3,8 +3,8 @@ Displays all user permissions.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:permission [arguments]
-$ dp
+drupal debug:permission [arguments]
+dp
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

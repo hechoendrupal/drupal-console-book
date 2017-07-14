@@ -3,8 +3,8 @@ Generate a hash from a plaintext password.
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal user:password:hash [arguments]
-$ uph
+drupal user:password:hash [arguments]
+uph
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

@@ -3,8 +3,8 @@ Debug entities available in the system
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal debug:entity [arguments]
-$ de
+drupal debug:entity [arguments]
+de
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

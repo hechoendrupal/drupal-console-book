@@ -3,8 +3,8 @@ Adds/removes a role for a given user
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal user:role [arguments]
-$ ur
+drupal user:role [arguments]
+ur
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

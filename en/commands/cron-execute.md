@@ -3,8 +3,8 @@ Execute cron implementations by module or execute all crons
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```
-$ drupal cron:execute [arguments]
-$ croe
+drupal cron:execute [arguments]
+croe
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
