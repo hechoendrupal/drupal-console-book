@@ -4,7 +4,7 @@ Displays current users for the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:user [options]
-$ dus  
+$ dus
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -19,6 +19,5 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Users list on the site
 ```
-$ drupal debug:user
-
+drupal debug:user
 ```

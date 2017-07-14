@@ -4,7 +4,7 @@ Validate a schema implementation before a module is installed.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:config:validate [arguments] [options]
-$ dcv  
+$ dcv
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,8 +21,7 @@ schema-filepath |
 ## commands.generate.doc.gitbook.messages.examples
 * Validates a schema
 ```
-$ drupal debug:config:validate \
+drupal debug:config:validate \
   /path/to/file \
   /path/to/schema-filepath
-
 ```

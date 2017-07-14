@@ -4,7 +4,7 @@ List all known local and remote sites.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:site [arguments]
-$ dsi  
+$ dsi
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -16,6 +16,5 @@ property | Property
 ## commands.generate.doc.gitbook.messages.examples
 * 
 ```
-$ drupal debug:site
-
+drupal debug:site
 ```

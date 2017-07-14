@@ -4,7 +4,7 @@ Delete State
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal state:delete [arguments]
-$ std  
+$ std
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,6 +15,5 @@ name | State name.
 ## commands.generate.doc.gitbook.messages.examples
 * Delete state specifying the state name
 ```
-$ drupal state:delete  comment.maintain_entity_statistics
-
+drupal state:delete  comment.maintain_entity_statistics
 ```

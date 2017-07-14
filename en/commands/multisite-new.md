@@ -4,7 +4,7 @@ Sets up the files for a new multisite install.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal multisite:new [arguments] [options]
-$ mun  
+$ mun
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,6 +21,5 @@ uri | Site URI to add to sites.php.
 ## commands.generate.doc.gitbook.messages.examples
 * Set up files for a multisite install specifying destination path and uri
 ```
-$ drupal multisite:new  vendor/newsite http://mysite.example.com
-
+drupal multisite:new  vendor/newsite http://mysite.example.com
 ```

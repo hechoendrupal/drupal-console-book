@@ -4,7 +4,7 @@ Import module config.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal features:import [arguments] [options]
-$ fei  
+$ fei
 ```
 
 ## commands.generate.doc.gitbook.messages.options

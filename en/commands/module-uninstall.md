@@ -4,7 +4,7 @@ Uninstall module or modules in the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal module:uninstall [arguments] [options]
-$ mou  
+$ mou
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,6 +21,5 @@ module | Module name (press <return> to stop adding modules)
 ## commands.generate.doc.gitbook.messages.examples
 * Uninstall the module specifying the module name
 ```
-$ drupal module:uninstall  modulename
-
+drupal module:uninstall  modulename
 ```

@@ -4,7 +4,7 @@ Create users for the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:create [arguments] [options]
-$ uc  
+$ uc
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -23,16 +23,15 @@ password | User password
 ## commands.generate.doc.gitbook.messages.examples
 * Create user specifying username, password, role, email and status
 ```
-$ drupal user:create  john p455w0rd  \
+drupal user:create  john p455w0rd  \
   --roles='authenticated'  \
   --email="john@anexusit.com"  \
   --status="1"
 ```
 * Create admin user specifying username, password, role, email and status
 ```
-$ drupal user:create  doe p455w0rd  \
+drupal user:create  doe p455w0rd  \
   --roles='administrator'  \
   --email="doe@anexusit.com"  \
   --status="1"
-
 ```

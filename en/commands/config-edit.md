@@ -4,7 +4,7 @@ Change a configuration object with a text editor.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:edit [arguments]
-$ ced  
+$ ced
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -16,9 +16,9 @@ editor | Editor, for example "vim" or "gedit".
 ## commands.generate.doc.gitbook.messages.examples
 * Edit system cron configurations with "vim" (default editor).
 ```
-$ drupal config:edit system.cron
+drupal config:edit system.cron
 ```
 * Edit system cron configurations with "gedit".
 ```
-$ drupal config:edit system.cron gedit
+drupal config:edit system.cron gedit
 ```

@@ -4,7 +4,7 @@ Display current migration available for the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:migrate [arguments]
-$ mid  
+$ mid
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,6 +15,5 @@ tag | Migrate tag
 ## commands.generate.doc.gitbook.messages.examples
 * Displays current migration
 ```
-$ drupal debug:migrate
-
+drupal debug:migrate
 ```

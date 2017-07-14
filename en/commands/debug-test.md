@@ -4,7 +4,7 @@ List Test Units available for the application.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:test [arguments] [options]
-$ td  
+$ td
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -20,6 +20,5 @@ group | Group
 ## commands.generate.doc.gitbook.messages.examples
 * 
 ```
-$ drupal debug:test
-
+drupal debug:test
 ```

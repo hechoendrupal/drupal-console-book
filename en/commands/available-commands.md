@@ -86,7 +86,7 @@ commands.generate.doc.gitbook.messages.command | commands.generate.doc.gitbook.m
 [develop:contribute](develop-contribute.md) | 
 [develop:example](develop-example.md) | 
 [develop:example:container:aware](develop-example-container-aware.md) | 
-[develop:gitbook](develop-gitbook.md) | Update gitbook'
+[develop:gitbook](develop-gitbook.md) | Update gitbook
 **dotenv**  |
 [dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.

@@ -4,7 +4,7 @@ Returns the relative path to the theme (or absolute path)
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal theme:path [arguments] [options]
-$ thp  
+$ thp
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -20,6 +20,5 @@ theme | Theme name
 ## commands.generate.doc.gitbook.messages.examples
 * Get the path of mytheme
 ```
-$ drupal theme:path  mytheme
-
+drupal theme:path  mytheme
 ```

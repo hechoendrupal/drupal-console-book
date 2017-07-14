@@ -4,7 +4,7 @@ Displays current log events for the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:database:log [arguments] [options]
-$ dbb  
+$ dbb
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -26,10 +26,9 @@ event-id | DBLog event ID
 ## commands.generate.doc.gitbook.messages.examples
 * List all the entries on the log
 ```
-$ drupal debug:database:log
+drupal debug:database:log
 ```
 * List specific log entry by Event ID
 ```
-$ drupal debug:database:log 21228
-
+drupal debug:database:log 21228
 ```

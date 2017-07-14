@@ -4,7 +4,7 @@ View information about fields.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal field:info [options]
-$ fii  
+$ fii
 ```
 
 ## commands.generate.doc.gitbook.messages.options

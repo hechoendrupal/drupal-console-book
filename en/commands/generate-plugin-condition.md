@@ -4,7 +4,7 @@ Generate a plugin condition.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:condition [options]
-$ gpco  
+$ gpco
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,7 +21,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a plugin condition for a node entity type specifying the module name, the class, the label, its id and the context definition
 ```
-$ drupal generate:plugin:condition  \
+drupal generate:plugin:condition  \
   --module="modulename"  \
   --class="ExampleCondition"  \
   --label="Example condition"  \
@@ -32,7 +32,7 @@ $ drupal generate:plugin:condition  \
 ```
 * Generate a plugin condition for language specifying the module name, the class, the label, its id and the context definition
 ```
-$ drupal generate:plugin:condition  \
+drupal generate:plugin:condition  \
   --module="modulename"  \
   --class="ExampleCondition"  \
   --label="Example condition"  \
@@ -43,7 +43,7 @@ $ drupal generate:plugin:condition  \
 ```
 * Generate a plugin condition for role configuration specifying the module name, the class, the label, its id and the context definition
 ```
-$ drupal generate:plugin:condition  \
+drupal generate:plugin:condition  \
   --module="modulename"  \
   --class="ExampleCondition"  \
   --label="Example condition"  \
@@ -51,5 +51,4 @@ $ drupal generate:plugin:condition  \
   --context-definition-id="entity:user_role"  \
   --context-definition-label="user_role"  \
   --context-definition-required
-
 ```

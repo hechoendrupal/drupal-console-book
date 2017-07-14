@@ -4,7 +4,7 @@ Generate field type, widget and formatter plugins.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:field [options]
-$ gpf  
+$ gpf
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -28,7 +28,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)
 ```
-$ drupal generate:plugin:field  \
+drupal generate:plugin:field  \
   --module="modulename"  \
   --type-class="ExampleFieldType"  \
   --type-label="Example field type"  \
@@ -43,5 +43,4 @@ $ drupal generate:plugin:field  \
   --field-type="example_field_type"  \
   --default-widget="example_widget_type"  \
   --default-formatter="example_formatter_type"
-
 ```

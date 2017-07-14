@@ -4,7 +4,7 @@ Update core, module or modules in the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal module:update [arguments] [options]
-$ moup  
+$ moup
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,7 +21,6 @@ module | Module or modules to be updated should be separated by a space. Leave e
 ## commands.generate.doc.gitbook.messages.examples
 * Update module specifying module name and composer parameter
 ```
-$ drupal module:update  modulename  \
+drupal module:update  modulename  \
   --composer
-
 ```

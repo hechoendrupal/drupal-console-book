@@ -4,7 +4,7 @@ Rebuild and clear all site caches.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal cache:rebuild [arguments]
-$ cr  
+$ cr
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,9 +15,9 @@ cache | Only clear a specific cache.
 ## commands.generate.doc.gitbook.messages.examples
 * Rebuild all caches
 ```
-$ drupal cr all
+drupal cr all
 ```
 * Rebuild discovery cache
 ```
-$ drupal cr discovery
+drupal cr discovery
 ```

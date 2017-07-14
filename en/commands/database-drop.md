@@ -4,7 +4,7 @@ Drop all tables in a given database.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:drop [arguments]
-$ dbd  
+$ dbd
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,7 +15,6 @@ database | Database key from settings.php
 ## commands.generate.doc.gitbook.messages.examples
 * Drop the tables on the database specified on the argument
 ```
-$ drupal database:drop \
+drupal database:drop \
   <database>
-
 ```

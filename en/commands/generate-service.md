@@ -4,7 +4,7 @@ Generate service
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:service [options]
-$ gs  
+$ gs
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,7 +21,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a services without interface specifying the module name, the service name, the class and its path
 ```
-$ drupal generate:service  \
+drupal generate:service  \
   --module="modulename"  \
   --name="modulename.default"  \
   --class="DefaultService"  \
@@ -29,12 +29,11 @@ $ drupal generate:service  \
 ```
 * Generate a services with interface specifying the module name, the service name, the class, the interface name and its path
 ```
-$ drupal generate:service  \
+drupal generate:service  \
   --module="modulename"  \
   --name="modulename.default"  \
   --class="DefaultService"  \
   --interface  \
   --interface-name="InterfaceName"  \
   --path-service="/modules/custom/modulename/src/"
-
 ```

@@ -4,7 +4,7 @@ Export a single configuration or a list of configurations as yml file(s).
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:export:single [options]
-$ ces  
+$ ces
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,14 +21,13 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Provide config settings name to be exported
 ```
-$ drupal config:export:single \
+drupal config:export:single \
   --name=config.settings.name
 ```
 * if uuid and/or config hashes will be removed.
 ```
-$ drupal config:export:single \
+drupal config:export:single \
   --name=config.settings.name \
   --remove-uuid \
   --remove-config-hash
-
 ```

@@ -4,12 +4,11 @@ Displays current cache context for the application.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:cache:context
-$ dcc  
+$ dcc
 ```
 
 ## commands.generate.doc.gitbook.messages.examples
 * Displays cache context
 ```
-$ drupal debug:cache:context
-
+drupal debug:cache:context
 ```

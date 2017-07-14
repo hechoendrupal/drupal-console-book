@@ -4,7 +4,7 @@ Displays current routes for the application or information for a particular rout
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:router [arguments]
-$ dr  
+$ dr
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,9 +15,9 @@ route-name | Route names
 ## commands.generate.doc.gitbook.messages.examples
 * Displays current routes for the application
 ```
-$ drupal rod
+drupal rod
 ```
 * Displays details for the route user.page (/user)
 ```
-$ drupal rod user.page
+drupal rod user.page
 ```

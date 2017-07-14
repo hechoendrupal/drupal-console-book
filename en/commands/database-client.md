@@ -4,7 +4,7 @@ Launch a DB client if it's available
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:client [arguments]
-$ dbc  
+$ dbc
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,6 +15,5 @@ database | Database key from settings.php
 ## commands.generate.doc.gitbook.messages.examples
 * Launch the default client or could launch another regarding the specification on the argument
 ```
-$ drupal database:client <database>
-
+drupal database:client <database>
 ```

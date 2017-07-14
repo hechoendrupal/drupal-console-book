@@ -4,7 +4,7 @@ Displays current themes for the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:theme [arguments]
-$ dt  
+$ dt
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,9 +15,9 @@ theme | Specific theme to debug
 ## commands.generate.doc.gitbook.messages.examples
 * List of themes on the site
 ```
-$ drupal debug:theme
+drupal debug:theme
 ```
 * Bartik theme information
 ```
-$ drupal debug:theme bartik
+drupal debug:theme bartik
 ```

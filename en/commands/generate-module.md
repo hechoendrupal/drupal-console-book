@@ -4,7 +4,7 @@ Generate a module.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:module [options]
-$ gm  
+$ gm
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -26,7 +26,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a module specifying the module name, machine name, the path, its description, drupal core and the package name. In this example the composer file, the unit test and twig template are generated too
 ```
-$ drupal generate:module  \
+drupal generate:module  \
   --module="modulename"  \
   --machine-name="modulename"  \
   --module-path="/modules/custom"  \

@@ -4,7 +4,7 @@ Execute a migration available for application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal migrate:execute [arguments] [options]
-$ mie  
+$ mie
 ```
 
 ## commands.generate.doc.gitbook.messages.options

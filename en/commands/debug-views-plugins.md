@@ -4,7 +4,7 @@ Displays current views plugins for the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:views:plugins [arguments]
-$ dvp  
+$ dvp
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,6 +15,5 @@ type | Filter views plugins by type
 ## commands.generate.doc.gitbook.messages.examples
 * List of views plugins
 ```
-$ drupal debug:views:plugins
-
+drupal debug:views:plugins
 ```

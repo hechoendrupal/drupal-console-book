@@ -4,7 +4,7 @@ Create dummy terms for your Drupal 8 application.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal create:terms [arguments] [options]
-$ crt  
+$ crt
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,12 +21,11 @@ vocabularies | Vocabulary(s) to be used in terms creation
 ## commands.generate.doc.gitbook.messages.examples
 * Provide the vocabulary term name.
 ```
-$ drupal create:terms vocabulary
+drupal create:terms vocabulary
 ```
 * Provide the limit of terms to add and limit of title words.
 ```
-$ drupal create:terms tags \
+drupal create:terms tags \
   --limit="10" \
   --name-words="5"
-
 ```

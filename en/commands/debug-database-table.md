@@ -4,7 +4,7 @@ Show all tables in a given database.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:database:table [arguments] [options]
-$ ddt  
+$ ddt
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -20,10 +20,9 @@ table | Table to debug
 ## commands.generate.doc.gitbook.messages.examples
 * Show all tables on a database
 ```
-$ drupal debug:database:table
+drupal debug:database:table
 ```
 * Show fields on the node table or another specified on the argument
 ```
-$ drupal debug:database:table node
-
+drupal debug:database:table node
 ```

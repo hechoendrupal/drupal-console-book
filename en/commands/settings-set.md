@@ -37,5 +37,5 @@ value | Setting value to set in Drupal Console config file
 ## commands.generate.doc.gitbook.messages.examples
 * Set application language setting value to "es"
 ```
-$ drupal settings:set  application.language es
+drupal settings:set  application.language es
 ```

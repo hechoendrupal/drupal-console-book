@@ -4,7 +4,7 @@ Generate an implementation of a skeleton plugin
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:skeleton [options]
-$ gps  
+$ gps
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -18,9 +18,8 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a plugin skeleton specifying module name, the plugin id and the class
 ```
-$ drupal generate:plugin:skeleton  \
+drupal generate:plugin:skeleton  \
   --module="modulename"  \
   --plugin-id="link_relation_type"  \
   --class="DefaultLinkRelationType"
-
 ```

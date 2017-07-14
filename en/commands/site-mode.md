@@ -4,7 +4,7 @@ Switch system performance configuration
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:mode [arguments]
-$ smo  
+$ smo
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,10 +15,9 @@ environment | Environment name [dev, prod]
 ## commands.generate.doc.gitbook.messages.examples
 * Switch system to prod
 ```
-$ drupal site:mode  prod
+drupal site:mode  prod
 ```
 * Switch system to dev
 ```
-$ drupal site:mode  dev
-
+drupal site:mode  dev
 ```

@@ -4,7 +4,7 @@ Export current application configuration.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:export [options]
-$ ce  
+$ ce
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -18,15 +18,14 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Optional you can add the path to export
 ```
-$ drupal config:export  \
+drupal config:export  \
   --directory="path/to/export"
 ```
 * If export will be in a compressed file and/or if uuid and config hashes will be removed.
 ```
-$ drupal config:export  \
+drupal config:export  \
   --directory="path/to/export" \
   --tar \
   --remove-uuid \
   --remove-config-hash
-
 ```

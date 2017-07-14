@@ -4,7 +4,7 @@ Generate CKEditor button plugin.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:ckeditorbutton [options]
-$ gpc  
+$ gpc
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -20,7 +20,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path
 ```
-$ drupal generate:plugin:ckeditorbutton  \
+drupal generate:plugin:ckeditorbutton  \
   --module="modulename"  \
   --class="DefaultCKEditorButton"  \
   --label="Default ckeditor button"  \

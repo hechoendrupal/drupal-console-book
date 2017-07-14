@@ -4,7 +4,7 @@ Generate a migrate source plugin
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:migrate:source [options]
-$ gpms  
+$ gpms
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,7 +21,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias
 ```
-$ drupal generate:plugin:migrate:source  \
+drupal generate:plugin:migrate:source  \
   --module="modulename"  \
   --class="PluginClassName"  \
   --plugin-id="plugin_class_name"  \
@@ -30,7 +30,7 @@ $ drupal generate:plugin:migrate:source  \
 ```
 * Generate a migration source plugin for specific fields of the users table specifying the module name, the class, its plugin id, the table, its alias and the fields
 ```
-$ drupal generate:plugin:migrate:source  \
+drupal generate:plugin:migrate:source  \
   --module="modulename"  \
   --class="DefaultPluginClass"  \
   --plugin-id="default_plugin_class"  \
@@ -40,5 +40,4 @@ $ drupal generate:plugin:migrate:source  \
   --fields='"id":"username", "description":"the username"'  \
   --fields='"id":"password", "description":"the user password"'  \
   --fields='"id":"email", "description":"the user email"'
-
 ```

@@ -4,7 +4,7 @@ Poll the watchdog and print new log entries every x seconds
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:log:poll [arguments] [options]
-$ dblp  
+$ dblp
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -22,7 +22,6 @@ duration | Duration in seconds which to sleep between database reads
 ## commands.generate.doc.gitbook.messages.examples
 * Print the log entries on screen every x seconds
 ```
-$ drupal database:log:poll \
+drupal database:log:poll \
   100
-
 ```

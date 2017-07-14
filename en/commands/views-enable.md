@@ -4,7 +4,7 @@ Enable a View
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal views:enable [arguments]
-$ ve  
+$ ve
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,11 +15,9 @@ view-id | commands.views.debug.arguments.view-id
 ## commands.generate.doc.gitbook.messages.examples
 * Enable content view
 ```
-$ drupal views:enable  content
-
+drupal views:enable  content
 ```
 * Enable frontpage view
 ```
-$ drupal views:enable  frontpage
-
+drupal views:enable  frontpage
 ```

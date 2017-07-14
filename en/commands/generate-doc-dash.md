@@ -4,7 +4,7 @@ commands.generate.doc.dash.description
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:doc:dash [options]
-$ gdd  
+$ gdd
 ```
 
 ## commands.generate.doc.gitbook.messages.options

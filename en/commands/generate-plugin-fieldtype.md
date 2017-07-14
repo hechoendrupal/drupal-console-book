@@ -4,7 +4,7 @@ Generate field type plugin.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:fieldtype [options]
-$ gpft  
+$ gpft
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,7 +21,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description
 ```
-$ drupal generate:plugin:fieldtype  \
+drupal generate:plugin:fieldtype  \
   --module="modulename"  \
   --class="ExampleFieldType"  \
   --label="Example field type"  \
@@ -30,7 +30,7 @@ $ drupal generate:plugin:fieldtype  \
 ```
 * Generate a field type plugin with a default widget and formatter specifying the module name, the class, its label, the plugin id and a description
 ```
-$ drupal generate:plugin:fieldtype  \
+drupal generate:plugin:fieldtype  \
   --module="modulename"  \
   --class="ExampleFieldType"  \
   --label="Example field type"  \
@@ -38,5 +38,4 @@ $ drupal generate:plugin:fieldtype  \
   --description="My Field Type"  \
   --default-widget="DefaultWidget"  \
   --default-formatter="DefaultFormatter"
-
 ```

@@ -4,7 +4,7 @@ Load and create the relevant migrations for a provided legacy database
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal migrate:setup [options]
-$ mis  
+$ mis
 ```
 
 ## commands.generate.doc.gitbook.messages.options

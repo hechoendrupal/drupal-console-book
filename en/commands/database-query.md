@@ -4,7 +4,7 @@ Executes a SQL statement directly as argument
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:query [arguments] [options]
-$ dbq  
+$ dbq
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -27,6 +27,5 @@ database | Database key from settings.php
 ## commands.generate.doc.gitbook.messages.examples
 * Send a database query
 ```
-$ drupal database:query 'select * from node limit 0,1'
-
+drupal database:query 'select * from node limit 0,1'
 ```

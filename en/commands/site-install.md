@@ -4,7 +4,7 @@ Install a Drupal project
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:install [arguments] [options]
-$ si  
+$ si
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -34,7 +34,7 @@ profile | Drupal Profile to be installed
 ## commands.generate.doc.gitbook.messages.examples
 * Install a drupal project specifying installation type, language code, database configuration, site name, site email and admin credential settings
 ```
-$ drupal site:install  standard  \
+drupal site:install  standard  \
   --langcode="en"  \
   --db-type="mysql"  \
   --db-host="127.0.0.1"  \
@@ -47,5 +47,4 @@ $ drupal site:install  standard  \
   --account-name="admin"  \
   --account-mail="admin@example.com"  \
   --account-pass="p455w0rd"
-
 ```

@@ -4,7 +4,7 @@ Create dummy users for your Drupal 8 application.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal create:users [arguments] [options]
-$ cru  
+$ cru
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -22,13 +22,12 @@ roles | Role(s) to be used in user creation
 ## commands.generate.doc.gitbook.messages.examples
 * Provide the user role.
 ```
-$ drupal create:users role
+drupal create:users role
 ```
 * Provide the number of users to create, password and time range to create.
 ```
-$ drupal create:users role \
+drupal create:users role \
   --limit="5" \
   --password="usersnewpassword" \
   --time-range="1"
-
 ```

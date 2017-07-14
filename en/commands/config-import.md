@@ -4,7 +4,7 @@ Import configuration to current application.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:import [options]
-$ ci  
+$ ci
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -17,12 +17,11 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Provide a configuration file
 ```
-$ drupal config:import \
+drupal config:import \
   --file=/path/to/config/file
 ```
 * Provide a configuration directory
 ```
-$ drupal config:import  \
+drupal config:import  \
   --directory=/path/to/config/dir
-
 ```

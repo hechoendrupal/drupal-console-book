@@ -4,7 +4,7 @@ Restore structure and contents of a database.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:restore [arguments] [options]
-$ dbr  
+$ dbr
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -20,7 +20,6 @@ database | Database key from settings.php
 ## commands.generate.doc.gitbook.messages.examples
 * Restore the database file dump to the database default or another one specified
 ```
-$ drupal database:restore \
+drupal database:restore \
   --file='/srv/dump/db.sql'
-
 ```

@@ -4,7 +4,7 @@ Generate a new config entity
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:config [options]
-$ gec  
+$ gec
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -20,7 +20,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate config entity specifying the module, the entity class, the entity name, its path and label
 ```
-$ drupal generate:entity:config  \
+drupal generate:entity:config  \
   --module="modulename"  \
   --entity-class="DefaultEntity"  \
   --entity-name="default_entity"  \

@@ -4,7 +4,7 @@ Delete configuration
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:delete [arguments]
-$ cd  
+$ cd
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -16,5 +16,5 @@ name | Configuration name.
 ## commands.generate.doc.gitbook.messages.examples
 * Provide a config type and a config name
 ```
-$ drupal config:delete active all
+drupal config:delete active all
 ```

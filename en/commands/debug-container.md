@@ -4,8 +4,8 @@ Displays current services for an application.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:container [arguments] [options]
-$ dco  
-$ cod  
+$ dco
+$ cod
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -23,6 +23,5 @@ arguments | Array of Arguments in CSV or JSON format.
 ## commands.generate.doc.gitbook.messages.examples
 * Displays the views.views_data_helper services
 ```
-$ drupal debug:container views.views_data_helper
-
+drupal debug:container views.views_data_helper
 ```

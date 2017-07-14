@@ -4,7 +4,7 @@ Generate plugin rest resource
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:rest:resource [options]
-$ gprr  
+$ gprr
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,12 +21,11 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a rest resource plugin using GET specifying the module name, the class, the plugin id, its label, the target url and the request type
 ```
-$ drupal generate:plugin:rest:resource  \
+drupal generate:plugin:rest:resource  \
   --module="modulename"  \
   --class="DefaultRestResource"  \
   --plugin-id="default_rest_resource"  \
   --plugin-label="Default rest resource"  \
   --plugin-url="http://rest.resources.example.com"  \
   --plugin-states='GET'
-
 ```

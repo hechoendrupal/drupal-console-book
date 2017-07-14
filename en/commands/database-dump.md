@@ -4,7 +4,7 @@ Dump structure and contents of a database
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:dump [arguments] [options]
-$ dbdu  
+$ dbdu
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,11 +21,11 @@ database | Database key from settings.php
 ## commands.generate.doc.gitbook.messages.examples
 * Dump default database or the one specified on the argument
 ```
-$ drupal database:dump \
+drupal database:dump \
   <database>
 ```
 * Dump in gz compressed format
 ```
-$ drupal database:dump \
+drupal database:dump \
   --gz
 ```

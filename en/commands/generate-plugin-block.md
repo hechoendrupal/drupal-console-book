@@ -4,7 +4,7 @@ Generate a plugin block
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:block [options]
-$ gpb  
+$ gpb
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,7 +21,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input
 ```
-$ drupal generate:plugin:block  \
+drupal generate:plugin:block  \
   --module="modulename"  \
   --class="DefaultBlock"  \
   --label="Default block"  \

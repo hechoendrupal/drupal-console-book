@@ -4,7 +4,7 @@ Rollback one or multiple migrations
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal migrate:rollback [arguments] [options]
-$ mir  
+$ mir
 ```
 
 ## commands.generate.doc.gitbook.messages.options

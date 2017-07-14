@@ -37,7 +37,6 @@ command | The command to execute
 ## commands.generate.doc.gitbook.messages.examples
 * Providing a file option using full path.
 ```
-$ drupal chain \
+drupal chain \
   --file="/path/to/file/chain-file.yml"
-
 ```

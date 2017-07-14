@@ -4,7 +4,7 @@ Disable a View
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal views:disable [arguments]
-$ vd  
+$ vd
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,11 +15,9 @@ view-id | commands.views.debug.arguments.view-id
 ## commands.generate.doc.gitbook.messages.examples
 * Disable content view
 ```
-$ drupal views:disable  content
-
+drupal views:disable  content
 ```
 * Disable frontpage view
 ```
-$ drupal views:disable  frontpage
-
+drupal views:disable  frontpage
 ```

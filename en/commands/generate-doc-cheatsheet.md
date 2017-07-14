@@ -4,7 +4,7 @@ commands.generate.doc.cheatsheet.description
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:doc:cheatsheet [options]
-$ gdc  
+$ gdc
 ```
 
 ## commands.generate.doc.gitbook.messages.options

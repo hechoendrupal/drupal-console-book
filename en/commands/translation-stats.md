@@ -4,7 +4,7 @@ commands.translation.stats.description
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal translation:stats [arguments] [options]
-$ ts  
+$ ts
 ```
 
 ## commands.generate.doc.gitbook.messages.options

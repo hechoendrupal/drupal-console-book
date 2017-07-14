@@ -4,7 +4,7 @@ Download module or modules in application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal module:download [arguments] [options]
-$ mod  
+$ mod
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -23,7 +23,6 @@ module | Module or modules to be enabled should be separated by a space
 ## commands.generate.doc.gitbook.messages.examples
 * Download module specifying module name and its path
 ```
-$ drupal module:download  modulename  \
+drupal module:download  modulename  \
   --path="modules/contrib"
-
 ```

@@ -4,7 +4,7 @@ Displays all user permissions.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:permission [arguments]
-$ dp  
+$ dp
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,6 +15,5 @@ role | User role
 ## commands.generate.doc.gitbook.messages.examples
 * Displays all the permissions availables on the site
 ```
-$ drupal debug:permission
-
+drupal debug:permission
 ```

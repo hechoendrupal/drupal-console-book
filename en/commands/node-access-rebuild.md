@@ -4,7 +4,7 @@ Rebuild node access permissions.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal node:access:rebuild [options]
-$ nar  
+$ nar
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -15,5 +15,5 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Rebuild node access permissions
 ```
-$ drupal node:access:rebuild --batch
+drupal node:access:rebuild --batch
 ```

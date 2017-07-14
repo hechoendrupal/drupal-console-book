@@ -4,7 +4,7 @@ commands.generate.doc.gitbook.description
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:doc:gitbook [arguments] [options]
-$ gdg  
+$ gdg
 ```
 
 ## commands.generate.doc.gitbook.messages.options

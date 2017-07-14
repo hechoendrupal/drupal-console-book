@@ -4,7 +4,7 @@ Shows DB connection
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:connect [arguments]
-$ dbco  
+$ dbco
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,7 +15,6 @@ database | Database key from settings.php
 ## commands.generate.doc.gitbook.messages.examples
 * Connects to an specified database, or the default if not arguments passed
 ```
-$ drupal database:connect \
+drupal database:connect \
   <database>
-
 ```

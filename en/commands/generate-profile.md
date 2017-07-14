@@ -4,7 +4,7 @@ Generate a profile.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:profile [options]
-$ gpr  
+$ gpr
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,11 +21,10 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies
 ```
-$ drupal generate:profile  \
+drupal generate:profile  \
   --profile="NewProfileName"  \
   --machine-name="newprofilename"  \
   --description="My Useful Profile"  \
   --core="8.x"  \
   --dependencies="modulename"
-
 ```

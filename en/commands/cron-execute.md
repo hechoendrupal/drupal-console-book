@@ -4,7 +4,7 @@ Execute cron implementations by module or execute all crons
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal cron:execute [arguments]
-$ croe  
+$ croe
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,12 +15,10 @@ module | The Module name.
 ## commands.generate.doc.gitbook.messages.examples
 * Execute the cron globally
 ```
-$ drupal cron:execute
-
+drupal cron:execute
 ```
 * Execute the cron on the specified module
 ```
-$ drupal cron:execute \
+drupal cron:execute \
   <module>
-
 ```

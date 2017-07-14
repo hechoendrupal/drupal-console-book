@@ -4,7 +4,7 @@ Validate a drupal config against its schema
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:validate [arguments]
-$ cv  
+$ cv
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,5 +15,5 @@ name |
 ## commands.generate.doc.gitbook.messages.examples
 * Provide the configuration name.
 ```
-$ drupal config:validate configuration.name
+drupal config:validate configuration.name
 ```

@@ -4,7 +4,7 @@ Install module or modules in the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal module:install [arguments] [options]
-$ moi  
+$ moi
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -39,6 +39,5 @@ module | Module or modules to be enabled should be separated by a space
 ## commands.generate.doc.gitbook.messages.examples
 * Install module specifying the module name
 ```
-$ drupal module:install  modulename
-
+drupal module:install  modulename
 ```

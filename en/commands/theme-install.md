@@ -4,7 +4,7 @@ Install theme or themes in the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal theme:install [arguments] [options]
-$ thi  
+$ thi
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -20,6 +20,5 @@ theme | commands.theme.install.options.module
 ## commands.generate.doc.gitbook.messages.examples
 * Install theme specifying the name
 ```
-$ drupal theme:install  mytheme
-
+drupal theme:install  mytheme
 ```

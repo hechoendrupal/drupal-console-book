@@ -4,7 +4,7 @@ Generate a plugin rule action
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:rulesaction [options]
-$ gpra  
+$ gpra
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,7 +21,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a user rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
 ```
-$ drupal generate:plugin:rulesaction  \
+drupal generate:plugin:rulesaction  \
   --module="modulename"  \
   --class="DefaultAction"  \
   --label="Default action"  \
@@ -32,7 +32,7 @@ $ drupal generate:plugin:rulesaction  \
 ```
 * Generate a node rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
 ```
-$ drupal generate:plugin:rulesaction  \
+drupal generate:plugin:rulesaction  \
   --module="modulename"  \
   --class="DefaultAction"  \
   --label="Default action"  \
@@ -40,5 +40,4 @@ $ drupal generate:plugin:rulesaction  \
   --type="node"  \
   --category="default_action" \
   --context="default_action"
-
 ```

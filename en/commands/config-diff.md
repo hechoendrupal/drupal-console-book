@@ -4,7 +4,7 @@ Output configuration items that are different in active configuration compared w
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal config:diff [arguments] [options]
-$ cdi  
+$ cdi
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -20,5 +20,5 @@ directory | The directory to diff against. If omitted, choose from Drupal config
 ## commands.generate.doc.gitbook.messages.examples
 * Provide a config directory
 ```
-$ drupal config:diff ../config/path
+drupal config:diff ../config/path
 ```

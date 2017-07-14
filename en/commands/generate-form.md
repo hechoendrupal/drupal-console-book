@@ -4,7 +4,7 @@ Generate a new "%s"
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:form [options]
-$ gf  
+$ gf
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -25,7 +25,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate an empty form with config file specifying the module name, the class, a form id and the path
 ```
-$ drupal generate:form  \
+drupal generate:form  \
   --module="modulename"  \
   --class="DefaultForm"  \
   --form-id="default_form"  \
@@ -34,7 +34,7 @@ $ drupal generate:form  \
 ```
 * Generate a form with 2 fields and a config file specifying the module name, the class, a form id, the inputs and the path
 ```
-$ drupal generate:form  \
+drupal generate:form  \
   --module="modulename"  \
   --class="DefaultForm"  \
   --form-id="default_form"  \

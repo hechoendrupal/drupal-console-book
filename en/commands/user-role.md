@@ -4,7 +4,7 @@ Adds/removes a role for a given user
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal user:role [arguments]
-$ ur  
+$ ur
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -17,10 +17,9 @@ role | commands.user.role.role
 ## commands.generate.doc.gitbook.messages.examples
 * Add administrator role to the user admin specifying the username and the role
 ```
-$ drupal user:role  add admin administrator
+drupal user:role  add admin administrator
 ```
 * Remove administrator role from the user admin specifying the username and the role
 ```
-$ drupal user:role  remove admin administrator
-
+drupal user:role  remove admin administrator
 ```

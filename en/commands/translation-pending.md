@@ -4,7 +4,7 @@ commands.translation.pending.description
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal translation:pending [arguments] [options]
-$ tp  
+$ tp
 ```
 
 ## commands.generate.doc.gitbook.messages.options

@@ -4,7 +4,7 @@ Displays all plugin types.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:plugin [arguments]
-$ dpl  
+$ dpl
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -16,14 +16,13 @@ id | Plugin ID
 ## commands.generate.doc.gitbook.messages.examples
 * Displays a list with all the plugins on the current site
 ```
-$ drupal debug:plugin
+drupal debug:plugin
 ```
 * Displays block plugin information
 ```
-$ drupal debug:plugin block
+drupal debug:plugin block
 ```
 * Displays block broken information
 ```
-$ drupal debug:plugin block broken
-
+drupal debug:plugin block broken
 ```

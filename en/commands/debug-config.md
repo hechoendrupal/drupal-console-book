@@ -4,7 +4,7 @@ List configuration objects names and single configuration object.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:config [arguments]
-$ dc  
+$ dc
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,13 +15,13 @@ name | Configuration object name, for example "system.site".
 ## commands.generate.doc.gitbook.messages.examples
 * List all configuration object names.
 ```
-$ drupal config:debug
+drupal config:debug
 ```
 * Display system site configurations values.
 ```
-$ drupal config:debug system.site
+drupal config:debug system.site
 ```
 * List all system configuration names.
 ```
-$ drupal config:debug | grep system
+drupal config:debug | grep system
 ```

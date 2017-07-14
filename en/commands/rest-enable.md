@@ -4,7 +4,7 @@ Enable a rest resource for the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal rest:enable [arguments]
-$ ree  
+$ ree
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments

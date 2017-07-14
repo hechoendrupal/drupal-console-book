@@ -4,7 +4,7 @@ Generate a new content entity
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:entity:content [options]
-$ geco  
+$ geco
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -22,7 +22,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a content entity specifying the module, the entity class, the entity name, its path and label
 ```
-$ drupal generate:entity:content  \
+drupal generate:entity:content  \
   --module="modulename"  \
   --entity-class="DefaultEntity"  \
   --entity-name="default_entity"  \
@@ -31,7 +31,7 @@ $ drupal generate:entity:content  \
 ```
 * Generate a translatable and revisionable content entity specifying the module, the entity class, the entity name, its path and label
 ```
-$ drupal generate:entity:content  \
+drupal generate:entity:content  \
   --module="modulename"  \
   --entity-class="DefaultEntity"  \
   --entity-name="default_entity"  \

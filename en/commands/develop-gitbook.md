@@ -1,5 +1,5 @@
 # develop:gitbook
-Update gitbook'
+Update gitbook
 
 **commands.generate.doc.gitbook.messages.usage:**
 ```

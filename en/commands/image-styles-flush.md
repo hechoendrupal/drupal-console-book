@@ -4,7 +4,7 @@ Execute flush function by image style or execute all flush images styles
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal image:styles:flush [arguments]
-$ isf  
+$ isf
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,10 +15,9 @@ styles | The Images Styles name.
 ## commands.generate.doc.gitbook.messages.examples
 * Flush large image style
 ```
-$ drupal image:styles:flush  large
+drupal image:styles:flush  large
 ```
 * Flush thumbnail image style
 ```
-$ drupal image:styles:flush  thumbnail
-
+drupal image:styles:flush  thumbnail
 ```

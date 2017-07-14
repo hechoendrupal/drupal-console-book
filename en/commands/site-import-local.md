@@ -4,7 +4,7 @@ Import/Configure an existing local Drupal project
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal site:import:local [arguments] [options]
-$ sil  
+$ sil
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,5 +21,5 @@ directory | Existing Drupal root directory
 ## commands.generate.doc.gitbook.messages.examples
 * Import local drupal project specifying the site name and the path
 ```
-$ drupal site:import:local  SiteName /private/var/www/vhost/anexusit/drupal8.dev/web
+drupal site:import:local  SiteName /private/var/www/vhost/anexusit/drupal8.dev/web
 ```

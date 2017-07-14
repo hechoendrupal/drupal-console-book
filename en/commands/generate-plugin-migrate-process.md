@@ -4,7 +4,7 @@ Generate a migrate process plugin
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:migrate:process [options]
-$ gpmp  
+$ gpmp
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -17,9 +17,8 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a migration plugin process specifying the module name, the class and its id
 ```
-$ drupal generate:plugin:migrate:process  \
+drupal generate:plugin:migrate:process  \
   --module="modulename"  \
   --class="MigrationProcess"  \
   --plugin-id="migrationprocess"
-
 ```

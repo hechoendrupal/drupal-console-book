@@ -4,7 +4,7 @@ Generate commands for the console.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:command [options]
-$ gco  
+$ gco
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -20,7 +20,7 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a command specifying the extension name and type, its class and the name.
 ```
-$ drupal generate:command  \
+drupal generate:command  \
   --extension="ExtensionName"  \
   --extension-type="module"  \
   --class="DefaultCommand"  \

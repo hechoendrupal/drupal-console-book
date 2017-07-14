@@ -4,7 +4,7 @@ Remove events from DBLog table, filters are available
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:log:clear [arguments] [options]
-$ dblc  
+$ dblc
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -22,12 +22,12 @@ event-id | DBLog event ID
 ## commands.generate.doc.gitbook.messages.examples
 * Clear the database log from DBLog table
 ```
-$ drupal database:log:clear \
+drupal database:log:clear \
   <database>
 ```
 * Clear the database log from DBLog table using filters
 ```
-$ drupal database:log:clear \
+drupal database:log:clear \
   <database> \
   --type=TYPE \
   --severity=SEVERITY

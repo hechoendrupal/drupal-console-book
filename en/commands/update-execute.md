@@ -4,7 +4,7 @@ Execute a specific Update N function in a module, or execute all
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal update:execute [arguments]
-$ upex  
+$ upex
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -16,6 +16,5 @@ update-n | Specific Update N function to be executed
 ## commands.generate.doc.gitbook.messages.examples
 * Update all entities
 ```
-$ drupal update:execute
-
+drupal update:execute
 ```

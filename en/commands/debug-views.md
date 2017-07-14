@@ -4,7 +4,7 @@ Displays current views resources for the application
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:views [arguments] [options]
-$ vde  
+$ vde
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,6 +21,5 @@ view-id | View ID
 ## commands.generate.doc.gitbook.messages.examples
 * List of views on the site
 ```
-$ drupal debug:views
-
+drupal debug:views
 ```

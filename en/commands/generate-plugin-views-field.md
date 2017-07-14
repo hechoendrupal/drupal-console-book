@@ -4,7 +4,7 @@ Generate a custom plugin view field.
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal generate:plugin:views:field [options]
-$ gpvf  
+$ gpvf
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -18,10 +18,9 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Generate a custom view field plugin specifying the module name, the class, a title and its description
 ```
-$ drupal generate:plugin:views:field  \
+drupal generate:plugin:views:field  \
   --module="modulename"  \
   --class="CustomViewsField"  \
   --title="Custom views field"  \
   --description="My awesome custom views field plugin."
-
 ```

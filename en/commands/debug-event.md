@@ -4,7 +4,7 @@ Displays current events
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal debug:event [arguments]
-$ dev  
+$ dev
 ```
 
 ## commands.generate.doc.gitbook.messages.arguments
@@ -15,9 +15,9 @@ event | Event to debug
 ## commands.generate.doc.gitbook.messages.examples
 * List all the events that could be debugged
 ```
-$ drupal debug:evet
+drupal debug:evet
 ```
 * Show the information for the kernel.request event
 ```
-$ drupal debug:event kernel.request
+drupal debug:event kernel.request
 ```

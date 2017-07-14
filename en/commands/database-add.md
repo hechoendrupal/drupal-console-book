@@ -4,7 +4,7 @@ Add a database to settings.php
 **commands.generate.doc.gitbook.messages.usage:**
 ```
 $ drupal database:add [options]
-$ dba  
+$ dba
 ```
 
 ## commands.generate.doc.gitbook.messages.options
@@ -21,9 +21,8 @@ commands.generate.doc.gitbook.messages.option | commands.generate.doc.gitbook.me
 ## commands.generate.doc.gitbook.messages.examples
 * Add a database to the settings.php
 ```
-$ drupal database:add \
+drupal database:add \
   --database=DATABASE \
   --username=USERNAME \
   --password=PASSWORD
-
 ```
