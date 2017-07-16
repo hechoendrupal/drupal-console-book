@@ -1,16 +1,42 @@
 # Running the project
-After using Composer to download dependencies, you can run the project by executing:
+In order to contribute you will need a working Drupal site linked to the packages you cloned and forked.
 
+## Execute the automated process
+We provide you with a command to take care of all this process and setup for you.
 ```
-bin/drupal
+drupal console:contribute \
+--drupal=/path/to/drupal8.dev \
+--code=/Users/username/drupal-console-code/
+```
+> NOTE: You must execute `drupal init` before in order to copy the `~/.console/chain/console-contribute.yml` on your local system.
+
+## Execute all the steps manually
+If you want to execute all the steps manually you can follow instructions below: 
+
+### Download Drupal and DrupalConsole
+```
+composer create-project \
+drupal-composer/drupal-project:8.x-dev \
+drupal8.dev \
+--prefer-dist \
+--no-progress \
+--no-interaction
 ```
 
-## Create a symbolic link
-
-You can run this command to easily access the Drupal Console from anywhere on your system:
-
+### Download the Drupal Console Develop package
 ```
-sudo ln -s /path/to/drupal-console/bin/drupal /usr/local/bin/drupal
+composer require drupal/console-develop --dev
 ```
 
-**NOTE:** The name `drupal` is just an alias you can name it anything you like.
+### Install Drupal using SQLite
+```
+drupal site:install standard --db-type="sqlite" --no-interaction
+```
+
+### Create a symbolic link between Drupal and forked repositories
+```
+drupal develop:contribute \
+--code-directory=/Users/username/drupal-console-code/
+```
+
+> NOTE: You can install drupal using MySQL by executing the `site:install` command and answering the questions from the interactive mode.
