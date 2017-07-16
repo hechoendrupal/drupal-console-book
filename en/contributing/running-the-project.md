@@ -4,14 +4,14 @@ In order to contribute you will need a working Drupal site linked to the package
 ## Execute the automated process
 DrupalConsole provides you with a command to take care of all this process for you.
 ```
-drupal console:contribute \
+drupal develop:contribute \
 --drupal=/path/to/drupal8.dev \
 --code=/Users/username/drupal-console-code/
 ```
 
 The option `--drupal` is the directory where the new drupal site will be created and the option `--code` is the parent directory where the different DrupalConsole repositories were cloned.
 
-> NOTE: You must execute `drupal init` before in order to copy the `~/.console/chain/console-contribute.yml` on your local system.
+> NOTE: You must execute `drupal init` before in order to copy the `~/.console/chain/develop-contribute.yml` on your local system.
 
 ## Execute all the steps manually
 If you want to execute all the steps manually you can follow the instructions below:
@@ -39,7 +39,7 @@ drupal site:install standard --db-type="sqlite" --no-interaction
 
 ### Create a symbolic link between Drupal and forked repositories
 ```
-drupal develop:contribute \
+drupal develop:create:symlinks \
 --code-directory=/Users/username/drupal-console-code/
 ```
 
