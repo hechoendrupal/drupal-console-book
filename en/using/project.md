@@ -2,11 +2,8 @@
 
 Drupal Console provides two types of commands.
 
-**Global Launcher Commands:**
-These commands can run outside of a Drupal 8 site root.
- 
-**Per-site Commands:**
-These commands must be run within a Drupal 8 site root.
+1. **Global Launcher Commands:** These commands can run outside of a Drupal 8 site root.
+2. **Per-site Commands:** These commands must be run within a Drupal 8 site root.
 
 ### Executing Drupal Console outside a Drupal site root 
 You can run Drupal Console from any directory on your system by using the `--root` option to define the Drupal root to be use in the command execution. 
