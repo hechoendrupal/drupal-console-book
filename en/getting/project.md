@@ -16,11 +16,7 @@ Each one of your site projects should have it's own DrupalConsole installed. Thi
 
 [Install Drupal Console Using Composer](./composer.md) 
 
-**Notes:**
-* Starting on RC releases DrupalConsole must be installed per site. **Install Drupal Console using `composer global require` is no longer supported.**
-
-* Starting with RC17 there are no longer any commands available that can be run outside of a drupal project. Commands are still available outside of your drupal root. 
-For example, if your drupal root is in a /web subdirectory of your project the `drupal` command can still be run in the root of your project, where your composer.json file and vendor directory exist. 
+**Notes:** Starting on RC releases DrupalConsole must be installed per site. Install Drupal Console using `composer global require` is no longer supported.
 
 **Help!**
 

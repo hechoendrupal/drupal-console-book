@@ -8,7 +8,7 @@ Drupal Console provides two types of commands.
 ### Executing Drupal Console outside a Drupal site root 
 You can run Drupal Console from any directory on your system by using the `--root` option to define the Drupal root to be use in the command execution. 
 ```
-$ drupal --root=/var/www/drupal8.dev cr all
+drupal --root=/var/www/drupal8.dev cr all
 ```
 
 **NOTE:** Possible messages when executing Drupal Console outside a Drupal site root and no `--root` option provided.

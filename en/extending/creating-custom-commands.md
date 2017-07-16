@@ -4,7 +4,7 @@ The simple way to create a custom Command Class is to execute the `generate:comm
 
 Executing the command using the interactive command questions: 
 ```
- $ drupal generate:command
+ drupal generate:command
  
  // Welcome to the Drupal Command generator
  Enter the module name [devel]:
@@ -30,7 +30,7 @@ Generated or updated files
 Executing the `generate:command` passing inline options, make sure you adjust the following command based on your requirements.
 
 ```
-$ drupal generate:command  --module=example --class=DefaultCommand --name=example:default --container-aware -y
+drupal generate:command  --module=example --class=DefaultCommand --name=example:default --container-aware -y
 ```
 
 This command execution will generate a new Command class containing the boiler-plate required to register a new command within your Drupal module.

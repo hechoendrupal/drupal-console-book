@@ -45,19 +45,19 @@ curl.cainfo = C:\Program Files\Git\usr\ssl\certs\ca-bundle.crt;
 
 ### Install Drupal Console globally using composer:
 ```
-$ composer global require drupal/console:@stable
+composer global require drupal/console:~1
 ```
 
 ### You can now execute console using:
 
 ```
-$ drupal
+drupal
 ```
 
 or execute one of the chain available, to execute a quick install execute the following command
 
 ```
-$ drupal chain --file="C:\Users\username\.console\chain\quick-start.yml"
+drupal chain --file="C:\Users\username\.console\chain\quick-start.yml"
 ```
 
 **NOTE:** You have to provide "Windows-style" path for `file` option.

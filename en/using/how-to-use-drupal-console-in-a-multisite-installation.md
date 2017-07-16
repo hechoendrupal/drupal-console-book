@@ -4,7 +4,7 @@ Drupal Console provides support for Drupal multi-site installations. This projec
 
 ### How to list all known multi sites
 ```
-$ drupal multisite:debug
+drupal multisite:debug
 
 +---------------------+--------------------------------+
 | Site                | Directory                      |
@@ -18,6 +18,6 @@ $ drupal multisite:debug
 
 ### How to execute a command against a multi-site installation
 ```
-$ drupal --uri=http://drupal8.multi.dev cr all
-$ drupal --uri=drupal8.multi.dev cr all
+drupal --uri=http://drupal8.multi.dev cr all
+drupal --uri=drupal8.multi.dev cr all
 ```
