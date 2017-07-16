@@ -2,7 +2,7 @@
 
 You can access services from the service container by:
 
-* Injecting services to the command Class
+### Injecting services to the command Class
 
 Registering your Command class at the `console.services.yml` file.
 ```
@@ -32,7 +32,7 @@ Adding a new protected property and passing the service using the `__construct` 
   }
 ```
 
-* Using the ContainerAwareCommandTrait on your class.
+### Using the ContainerAwareCommandTrait on your class.
 
 By doing this you have access to the service container, in other words, you have access to any configured service using the provided `get` method.
 

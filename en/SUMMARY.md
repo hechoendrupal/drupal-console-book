@@ -19,7 +19,7 @@
   * [How to use Drupal Console in a remote installation](using/how-to-use-drupal-console-in-a-remote-installation.md)
 
 * [Creating custom Commands](extending/creating-custom-commands.md)
-   * [Registering Commands Automatically](extending/registering-commands.md)
+   * [Registering Commands](extending/registering-commands.md)
    * [Configuring the Command](extending/configuring-the-command.md)
    * [Command Lifecycle](extending/command-lifecycle.md)
    * [Getting Services from the Service Container](extending/getting-services-from-the-service-container.md)
