@@ -38,6 +38,18 @@ drupal site:install standard --db-type="sqlite" --no-interaction
 > NOTE: You can install drupal using MySQL by executing the `site:install` command and answering the questions from the interactive mode.
 
 ### Create a symbolic link between Drupal and forked repositories
+Before to create the symlink to forked repositories, the repository must be installed via composer.
+
+For instance if you want to contribute to the translation of Drupal Console to [Spanish](https://github.com/hechoendrupal/drupal-console-es) you must download it manually with the following command.
+
+```
+composer requiere drupa/console-es
+```
+
+This a apply for all languages and non essential packages required by default in **Drupal Console** project i.e [drupal/console-yaml](https://github.com/weknowinc/drupal-console-yaml).
+
+When you have all packages installed and your forks cloned in your directory, run the next instruction.
+
 ```
 drupal develop:create:symlinks \
 --code-directory=/Users/username/drupal-console-code/
