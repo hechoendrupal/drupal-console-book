@@ -1,16 +1,16 @@
-# Where do I find the project?
+# मी प्रकल्प कोठे शोधू?
 
-## Project landing page
+## प्रोजेक्ट लँडिंग पृष्ठ
 http://drupalconsole.com
 
-## Github repository
+## Github रिपोजिटरी
 https://github.com/hechoendrupal/drupal-console
 
-## Documentation
+## दस्तऐवजीकरण
 https://docs.drupalconsole.com/
 
-## Support chat
+## समर्थन गप्पा
 https://gitter.im/hechoendrupal/DrupalConsole
 
-## More information on Drupal.org project page
+## Drupal.org प्रकल्प पृष्ठावरील अधिक माहिती
 https://drupal.org/project/console

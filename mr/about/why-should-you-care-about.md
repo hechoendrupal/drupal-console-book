@@ -1,11 +1,11 @@
-# Why should you care about it
-Drupal 8 is more technically advanced compared to its predecessor and managing the increasing complexity of Drupal 8 could be a daunting task for anyone. Drupal Console is a suite of tools to help manage that complexity. Writing a Drupal 8 module now involves a lot more boilerplate code and there is a lot you need to know and do just to *get started* building a new module. These tasks can be repetitive and tedious, and can therefore create increased potential for errors. Fortunately, a lot of the new code can be automatically generated, using Drupal Console, without risk of copy/paste errors and with a lot of saved time.
+# आपण याबद्दल काळजी का केली पाहिजे?
+Drupal 8 हे त्याच्या predecessor तुलनेत अधिक तांत्रिकदृष्ट्या प्रगत आणि Drupal 8 वाढत जटिलता व्यवस्थापन कोणत्याही कोणालाही एक ठेवायची कार्य असू शकते. Drupal Console हा गुंतागुंत व्यवस्थापित करण्यात मदत करण्यासाठी साधनाचा एक संच आहे. एक Drupal 8 मॉड्यूल लिहिताना आता बर्याच बॉयलरप्लेट कोड समाविष्ट केले जातात आणि आपल्याला माहित असणे आवश्यक आहे आणि फक्त प्रारंभ करण्यासाठी नवीन मॉड्यूल तयार करणे. ही कार्ये पुनरावृत्ती आणि दमवणारा असू शकतात आणि यामुळे त्रुटींच्या वाढीव क्षमता निर्माण होऊ शकते. सुदैवाने, कॉपी/पेस्ट त्रुटी आणि धोका वाचवण्याच्या वेळेस धोका नसलेले, Drupal Console च्या सहाय्याने, नवीन कोडचे स्वयंचलितपणे उत्पन्न करता येते.
 
-## Benefits of the Drupal Console:
-* Takes advantage of the Symfony Console and other third-party components to generate PHP, YML, and other files.
-* Takes advantage of other modern development practices.
-* Saves development time, both during migration of existing Drupal modules and when writing new ones.
-* Provides easy-to-learn tools that make Drupal 8 development, by extension, also easier to learn.
-* Reduces development time for remaining Drupal 8 tasks and for development of new modules.
+## Drupal Console फायदे:
+* PHP, YML आणि इतर फाइल्स निर्माण करण्यासाठी Symfony Console आणि इतर तृतीय-पक्ष घटकांचा फायदा घेतो.
+* इतर आधुनिक विकास पद्धतींचा लाभ घ्या.
+* विद्यमान Drupal मॉड्यूल्सच्या स्थलांतरात आणि नवीन लिहिताना विकास वेळेची बचत होते.
+* Drupal 8 विकास, विस्तारानुसार, शिकण्यास सोपे असलेल्या टूल्स साधने देखील प्रदान करते.
+* Drupal 8 कामे उर्वरित आणि नवीन मॉड्यूलच्या विकासासाठी विकास वेळ कमी करते.
 
-Follow along in this documentation as we explore the power of this exciting new set of tools.
+या दस्तऐवजीकरणातील या रोमांचक नवीन संचाची आपण झलक पहात असताना या दस्तऐवजात आपले अनुसरण करा.

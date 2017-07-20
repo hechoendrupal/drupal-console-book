@@ -1,4 +1,4 @@
-# What is the Drupal Console?
-The Drupal Console is a suite of tools run from a command line interface (CLI) to generate boilerplate code and interact with a Drupal 8 installation. From the ground up, it has been built to utilize the same modern PHP practices which were introduced in Drupal 8.
+# Drupal Console काय आहे?
+Drupal Console बॉयलरप्लेट कोड उत्पन्न करण्यासाठी आणि Drupal 8 इंस्टॉलेशनसह संवाद साधण्यासाठी कमांड लाइन इंटरफेस (सीएलआय) वरून चालवलेल्या साधनांचा संच आहे. ग्राऊंड अप वरुन, त्याच आधुनिक PHP पद्धतींचा उपयोग करण्यासाठी बांधण्यात आले आहे ज्यास Drupal 8 मध्ये सुरु केले होते.
 
-The Drupal Console makes use of the Symfony Console and other third party components which allows you to automatically generate most of the code needed for a Drupal 8 module. In addition, Drupal Console helps you interact with your Drupal installation.
+Drupal Console Symfony Console आणि इतर तृतीय पक्ष घटक वापरते जे आपल्याला Drupal 8 मॉड्यूलसाठी आवश्यक असलेले बहुतेक कोड स्वयंचलितपणे उत्पन्न करण्याची परवानगी देते. याव्यतिरिक्त, Drupal Console आपल्या Drupal स्थापना सह संवाद साधण्यात मदत करते.
