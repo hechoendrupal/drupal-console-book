@@ -1,14 +1,18 @@
 # Getting the project
 
-The Drupal Console is a modular project using multiple repositories. 
+The Drupal Console is a modular project using multiple repositories.
+
+Main repositories:
 * [drupal/console](https://github.com/hechoendrupal/drupal-console)
 * [drupal/console-core](https://github.com/hechoendrupal/drupal-console-core)
 * [drupal/console-extend-plugin](https://github.com/hechoendrupal/drupal-console-extend-plugin)
-* [drupal/console-develop](https://github.com/weknowinc/drupal-console-develop)
 * [drupal-console-dotenv](https://github.com/weknowinc/drupal-console-dotenv)
+
+Additional projects:
+* [drupal/console-develop](https://github.com/weknowinc/drupal-console-develop)
 * [drupal-console-yaml](https://github.com/weknowinc/drupal-console-yaml)
         
-Languages are also managed into separated repositories.
+Languages are also managed into separated repositories:
 * [drupal-console-en](https://github.com/hechoendrupal/drupal-console-en)
 * [drupal-console-es](https://github.com/hechoendrupal/drupal-console-es)
 
@@ -31,4 +35,4 @@ cd /Users/username/drupal-console-code/[cloned-repository]
 composer install
 ```
 
-Read the next step to learn how to link and test these repos in a Drupal site.
+Read the next step to learn how to link and test these repositories into a Drupal site.
