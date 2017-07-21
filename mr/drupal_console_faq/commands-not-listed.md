@@ -1,4 +1,4 @@
-# Commands not listed
-This document is a work-in-progress. At any time, it is possible that the Drupal Console project is ahead of the documentation. While we endeavor to keep this book up-to-date, it is always possible that some commands have been created for the Drupal Console, but are not yet described in this document. For a full list of supported commands, use the **list** command, e.g. `$ drupal list`
+# आदेश सूचीबद्ध केलेले नाहीत.
+हे दस्तऐवज एक कार्य प्रगती आहे कोणत्याही वेळी, शक्य आहे की Drupal Console प्रकल्प दस्तऐवजापेक्षा पुढे आहे. आम्ही हे पुस्तक अद्ययावत ठेवण्याचा प्रयत्न करीत असताना, नेहमीच शक्य आहे की काही कमांडस् Drupal Console साठी तयार करण्यात आली आहेत, परंतु अद्याप या दस्तऐवजात वर्णन केलेले नाहीत. समर्थित कमांडच्या पूर्ण यादीसाठी, **list** आदेश वापरा, उदा. `$ Drupal list`
 
-If you see a command that is not yet described here, you are also welcome to [contribute to this documentation](../contributing/contributing-to-the-book.md "Contribute to the Drupal Console documentation"), using the **--help** output for the command as a simple starting point.
+आपण येथे दिलेली आज्ञा अद्याप पाहिली नसल्यास, आपण [या दस्तऐवजात योगदान द्या](../contributing/contributing-to-the-book.md "Contribute to the Drupal Console documentation"), मध्ये आपले स्वागत आहे. **--help** आदेशासाठी एक सोपे प्रारंभ बिंदू म्हणून आउटपुट.

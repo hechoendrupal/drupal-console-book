@@ -1,9 +1,9 @@
-# FAQ (Frequently Asked Questions) about DrupalConsole
+# DrupalConsole बद्दल सामान्य प्रश्न (वारंवार विचारले जाणारे प्रश्न)
 
-Having some trouble with DrupalConsole? These questions and answers are a good place to start. 
-FAQs are categorized into the following types of issues: 
+DrupalConsole सह काही समस्या येत? हे प्रश्न आणि उत्तरे प्रारंभ करण्यासाठी एक चांगली जागा आहे. 
+सामान्य प्रश्न खालील प्रकारच्या समस्या श्रेणीबद्ध आहेत:
 
-* [Installation problems](./installation-problems.md)
-* [Permissions](./permissions.md)
-* [Commands not listed](./commands-not-listed.md)
-* [Interactive Mode](./interactive-mode.md)
+* [स्थापना समस्या](./installation-problems.md)
+* [परवानग्या](./permissions.md)
+* [सूची सूचीबद्ध केली नाही](./commands-not-listed.md)
+* [संवादी मोड](./interactive-mode.md)

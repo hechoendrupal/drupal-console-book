@@ -1,3 +1,3 @@
-# Permissions
+# परवानग्या
 
-To be added.
+जोडणे बाकी.

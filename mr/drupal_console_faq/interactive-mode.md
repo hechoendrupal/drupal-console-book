@@ -1,3 +1,3 @@
-# Interactive Mode
+# संवादी मोड
 
-To be added.
+जोडणे बाकी.

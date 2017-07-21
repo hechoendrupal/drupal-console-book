@@ -1,65 +1,64 @@
-# Installation problems 
-
-When you run DrupalConsole from your Drupal 8 root directory, you can get different error messages, we will try to compile the reported issues and how to have them fixed.
+# स्थापना समस्या 
+जेव्हा आपण DrupalConsole आपल्या Drupal 8 रूट डाइरेक्टरीमधून चालवाल तेव्हा आपण वेगवेगळ्या त्रुटी संदेश मिळवू शकता, आम्ही रिपोर्ट केलेल्या समस्यांचे संकलन करण्याचा प्रयत्न करू आणि ते कसे निश्चित करायचे.
 
 --- 
 
-### Error message:
+### त्रुटी संदेश:
 ```
 [PDOException] SQLSTATE[HY000] [2002] No such file or directory
 ```
-You will need to edit your 'host' in your 'settings.php' file. 
+आपल्याला आपल्या 'settings.php' फाइलमध्ये आपले 'होस्ट' संपादित करणे आवश्यक आहे. 
 
-Navigate to `sites/default/settings.php`. In your `settings.php` file, change the `host` to read:
+`sites/default/settings.php` वर नेव्हिगेट करा. आपल्या `settings.php` फाईलमध्ये,`host` वाचण्यासाठी बदला:
 ```
 'host' => '127.0.0.1'
 ```
-or if your 'settings.php' file already reads:
+किंवा आपल्या 'settings.php' फाईल आधीपासून वाचली असेल तर:
 ```
 'host' => '127.0.0.1'
 ```
-change it to read:
+तो वाचण्यासाठी त्यास बदला:
 ```
 'host' => 'localhost'. 
 ```
-After you make the change, be sure to save the file and then run DrupalConsole again.
+आपण बदल केल्यानंतर, फाईल सेव्ह करण्याची खात्री करा आणि नंतर पुन्हा DrupalConsole चालवा.
 
 ---
 
-### Error message:
+### त्रुटी संदेश:
 ```
 [PDOException]
 SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock'
 ```
-Creating a symlink pointing to `/tmp/mysql.sock`:
+`/tmp/mysql.sock` वर इंगित करणारा सिमलिंक तयार करणे:
 ```
 ln -s /path/to/your/mysql/data/mysql.sock /tmp/mysql.sock
 ```
 
 ---
 
-### Error message:
+### त्रुटी संदेश:
 ```
 Fatal error: require(): Failed opening required 'drupal.php'
 ```
-This can be caused by the ioncube loader extension, which can be used to encode
-and decode PHP files. This extension prevents normal working of any phar files
-with require/include calls. You must disable the extension.
+हे ioncube लोडर विस्ताराद्वारे होऊ शकते, जे एन्कोड करण्यासाठी वापरले जाऊ शकते
+आणि PHP फाइल्स डीकोड करा. हा विस्तार कोणत्याही phar फायलींना सामान्य कार्य करण्यास प्रतिबंधित करतो
+आवश्यक असलेल्या कॉलसह / समाविष्ट करा आपण विस्तार अक्षम करणे आवश्यक आहे.
 
 ---
 
-### Warning message:
+### त्रुटी संदेश:
 ```
 The configuration date.timezone was missing and overwritten with America/Tijuana.
 ```
-Your timezone is not set in php.ini; you must correct this by editing the appropriate php.ini for the command line (there's a separate php.ini for the CLI). 
+आपला टाइमझोन php.ini वर सेट नाही; आपणास आदेश पंक्तीसाठी योग्य php.ini संपादित करुन तो दुरुस्त करणे आवश्यक आहे (CLI साठी वेगळा php.ini आहे). 
 
-Run `php --ini`and look for "Loaded Configuration File". For example, in Ubuntu: 
+`php --ini`चालवा आणि "लोड केलेली व्यूहरचना फाइल" पहा. उदाहरणार्थ, in Ubuntu: 
 ```
 Loaded Configuration File:         /etc/php5/cli/php.ini
 ```
-Edit that file and look for 
+ती फाईल संपादित करा आणि शोधा
 ```
 ;date.timezone =
 ```
-Uncomment this line and assign the desired timezone as seen on http://php.net/manual/en/timezones.php. 
+ही ओळ नक्कल करा आणि http://php.net/manual/en/timezones.php वर दिसत असलेल्या टाइमझोनला नियुक्त करा. 
