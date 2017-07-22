@@ -23,6 +23,7 @@
    * [Configuring the Command](extending/configuring-the-command.md)
    * [Command Lifecycle](extending/command-lifecycle.md)
    * [Getting Services from the Service Container](extending/getting-services-from-the-service-container.md)
+   * [Generating Code with a Command](extending/generating-code.md)
 
 * [Contributing new features](contributing/new-features.md)
    * [Project requirements](contributing/project-requirements.md)
