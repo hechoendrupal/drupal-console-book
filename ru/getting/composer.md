@@ -1,18 +1,32 @@
-# Установка с помощью Composer
+# Установка с помощью приложения Composer
 
-Чтобы установить Drupal Console при помощи приложения `composer`, нужно выполнить следующие команды.
+Перейти в папку с Drupal:
 
-## Установить Drupal Console глобано используя composer:
 ```
-$ composer global require drupal/console:@stable
-```
-
-## Добавить директорию с приложением в переменную `PATH` операционной системы:
-```
-$ echo "PATH=$PATH:~/.composer/vendor/bin" >> ~/.bash_profile
+cd /path/to/drupal8.dev
 ```
 
-## Запустить Drupal Console:
+Установка командой composer require: 
+
 ```
-$ drupal generate:module
+composer require drupal/console:~1.0 \
+--prefer-dist \
+--optimize-autoloader
+```
+
+## Скачать шаблон DrupalComposer
+
+```
+composer create-project \
+drupal-composer/drupal-project:8.x-dev \
+drupal8.dev \
+--prefer-dist \
+--no-progress \
+--no-interaction
+```
+
+## Обновить Drupal Console:
+
+```
+composer update drupal/console --with-dependencies
 ```

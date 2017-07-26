@@ -8,11 +8,9 @@
   * [Где найти Drupal Console?](about/where-do-i-find-the-project.md)
 
 * [Установка](getting/project.md)
-  * [Стандартная установка](getting/installer.md)
-  * [Установка на Windows ОС](getting/windows.md)
   * [С помощью Composer](getting/composer.md)
-  * [phar файл](getting/download.md)
-  * [Обновления проекта](getting/update.md)
+  * [Установка пускового файла Drupal Console](getting/launcher.md)
+  * [Установка на Windows ОС](getting/windows.md)
   
 * [Использование проекта](using/project.md)
   * [Как скопировать конфигурационные файлы](using/how-to-copy-configuration-files.md)
@@ -25,7 +23,7 @@
    * [Конфигурация комманды](extending/configuring-the-command.md)
    * [Жизненный цикл комманды](extending/command-lifecycle.md)
    * [Использование сервисов из сервисного контейнера](extending/getting-services-from-the-service-container.md)
-
+   
 * [Как помочь в разработке новых функций](contributing/new-features.md)
    * [Минимальные требования](contributing/project-requirements.md)
    * [Установка проекта](contributing/getting-the-project.md)

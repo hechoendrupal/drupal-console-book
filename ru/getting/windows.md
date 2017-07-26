@@ -8,7 +8,8 @@
 
 ## В окне команадной строки приложения Git Bash:
 
-Для работы с Drupal Console в окне команадной строки приложения Git Bash установите следующие приложения:
+Для работы с Drupal Console в окне команадной строки приложения Git Bash 
+установите следующие приложения:
 
 * [Git для Windows](https://git-for-windows.github.io/)
 * [Composer](https://github.com/composer/windows-setup)
@@ -29,7 +30,8 @@ SETX /M PATH "%PATH%;C:\php;C:\sqlite"
 
 ### Конфигурация php.ini
 
-Drupal Console зависит от следующих PHP-расширений. Убедитесь, что они подключены в файле `php.ini`.
+Drupal Console зависит от следующих PHP-расширений. 
+Убедитесь, что они подключены в файле `php.ini`.
 
 ```
 extension=php_gd2.dll
@@ -47,7 +49,7 @@ extension=php_mbstring.dll
 
 #### Конфигурация сертификатов
 
-Обновите информацию о сертификатах, предоставленных приложением by Git для Windows.
+Обновите информацию о сертификатах, предоставленных приложением Git для Windows.
 
 ```
 curl.cainfo = C:\Program Files\Git\usr\ssl\certs\ca-bundle.crt;
@@ -56,10 +58,10 @@ curl.cainfo = C:\Program Files\Git\usr\ssl\certs\ca-bundle.crt;
 ### Глобальная установка Drupal Console с помощью приложения composer:
 
 ```
-$ composer global require drupal/console:@stable
+composer global require drupal/console:~1
 ```
 
-### Теперь Drupal Console можно запускать:
+### Команда для запуска Drupal Console:
 
 ```
 $ drupal
