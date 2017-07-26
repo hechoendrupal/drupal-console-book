@@ -1,15 +1,15 @@
-# Drupal Console Documentation
+# Documentação do Drupal Console
 
-> **Note: This project is a work-in-progress.**
+> **Observação: Esse projeto é um trabalho em andamento.**
 
-This book documents the [Drupal Console](http://drupalconsole.com/) project.
+Esse livro documenta o projeto [Drupal Console](http://drupalconsole.com/).
 
-## Contribute to the project
+## Contribuir para o projeto
 
-You can contribute to improve this project on [Github](https://github.com/hechoendrupal/drupal-console)
+Você pode contribuir para melhorar esse projeto em [Github](https://github.com/hechoendrupal/drupal-console)
 
-## Contribute to this documentation
+## Contribuir para essa documentação
 
-You can contribute to improve this documentation on [GitHub](https://github.com/hechoendrupal/drupal-console-book).
+Você pode contribuir para melhorar essa documentação em [GitHub](https://github.com/hechoendrupal/drupal-console-book).
 
-> Drupal is a registered trademark of Dries Buytaert.
+> Drupal é uma marca registrada de Dries Buytaert.
