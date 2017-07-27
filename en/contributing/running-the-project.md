@@ -11,9 +11,9 @@ drupal develop:contribute \
 
 The option `--drupal` is the directory where the new drupal site will be created and the option `--code` is the parent directory where the different DrupalConsole repositories were cloned.
 
-> NOTE: Make sure you have the latest version of DrupalConsole. Get the latest version of DrupalConsole by following the instructions as mentioned [here](https://github.com/hechoendrupal/drupal-console-launcher/blob/master/README.md).
-
-> NOTE: You must execute `drupal init` before in order to copy the `~/.console/chain/develop-contribute.yml` on your local system.
+> NOTES:
+> You must execute `drupal init` before in order to copy the `~/.console/chain/develop-contribute.yml` on your local system.
+> Make sure you have the latest version of DrupalConsole. Get the latest version of DrupalConsole by following the instructions as mentioned [here](https://github.com/hechoendrupal/drupal-console-launcher/blob/master/README.md).
 
 ## Execute all the steps manually
 If you want to execute all the steps manually you can follow the instructions below:
@@ -28,16 +28,16 @@ drupal8.dev \
 --no-interaction
 ```
 
-### Download the Drupal Console Develop package
-```
-composer require drupal/console-develop --dev
-```
-
 ### Install Drupal using SQLite
 ```
 drupal site:install standard --db-type="sqlite" --no-interaction
 ```
-> NOTE: You can install drupal using MySQL by executing the `site:install` command and answering the questions from the interactive mode.
+> NOTE: You can install drupal using MySQL by executing the `site:install` command and answering the questions from the interactive mode or passing the required options.
+
+### Download the Drupal Console Develop package
+```
+composer require drupal/console-develop --dev
+```
 
 ### Create a symbolic link between Drupal and forked repositories
 ```
