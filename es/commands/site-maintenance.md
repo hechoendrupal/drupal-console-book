@@ -1,23 +1,23 @@
 # site:maintenance
 Poner el sitio en modo mantenimiento
 
-**Usage:**
+**Uso:**
 ```
 drupal site:maintenance [arguments]
 sma
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 mode | commands.site.maintenance.arguments.mode[on/off]
 
-## Examples
-* Switch on maintenance
+## Ejemplos
+* Activar el modo mantenimiento
 ```
 drupal site:maintenance  on
 ```
-* Switch off maintenance
+* Desactivar el modo mantenimiento
 ```
 drupal site:maintenance  off
 ```

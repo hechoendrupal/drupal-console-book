@@ -1,26 +1,26 @@
 # config:import
 Importa la configuración del estado actual de la aplicación.
 
-**Usage:**
+**Uso:**
 ```
 drupal config:import [options]
 ci
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
---file | Ruta al archivo de configuración que será importado.
---directory | Ruta al directorio de configuración para la importación.
---remove-files | Eliminar archivos tras la sincronización.
+--file | Ruta a un archivo de configuración para importar.
+--directory | Ruta de un directorio de configuración para importar.
+--remove-files | Eliminar archivos después de la sincronización.
 
-## Examples
-* Provide a configuration file
+## Ejemplos
+* Facilitando un archivo de configuración
 ```
 drupal config:import \
   --file=/path/to/config/file
 ```
-* Provide a configuration directory
+* Facilitando un directorio de configuración
 ```
 drupal config:import  \
   --directory=/path/to/config/dir

@@ -1,13 +1,13 @@
 # generate:doc:dash
 Generar el paquete DrupalConsole.docset para Dash
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:doc:dash [options]
 gdd
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --path | Ruta al directorio donde se guardará el docset.

@@ -1,14 +1,14 @@
 # generate:theme
 Genera un tema.
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:theme [options]
 gt
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --theme | commands.generate.theme.options.module
 --machine-name | Nombre máquina (sólo minúsculas y guión bajo)
@@ -22,8 +22,8 @@ Option | Details
 --regions | Regiones
 --breakpoints | Puntos de ruptura
 
-## Examples
-* Generate a theme without region and without breakpoint specifying the theme name, its machine name, the theme path, a description, the drupal core, the package name and the global library
+## Ejemplos
+* Generar un tema sin regiones y sin breakpoints especificando el nombre del tema, su nombre máquina, la ruta del tema, una descripción, el core de Drupal, el nombre del paquete y la librería global
 ```
 drupal generate:theme  \
   --theme="AnotherTheme"  \
@@ -35,7 +35,7 @@ drupal generate:theme  \
   --global-library="global-styling"  \
   --base-theme="false"
 ```
-* Generate a theme base on stable theme with two region defined and one breakpoint specifying the theme name, its machine name, the theme path, a description, the drupal core, the package name, a global library, its base, the regions and the breakpoint
+* Generar un tema base sobre un tema estable con dos regiones definida y un breakpoint especificando el nombre, su nombre máquina, la ruta del theme, una descripción, el core de drupal, el nombre del paquete, una librería global, el tema base, 
 ```
 drupal generate:theme  \
   --theme="MyTheme"  \

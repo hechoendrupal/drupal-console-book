@@ -1,19 +1,19 @@
 # debug:site
-Enlista todos los sitios, locales y remotos, conocidos.
+Lista todos los sitios conocidos locales y remotos.
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:site [arguments]
 dsi
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
-target | Target
-property | Property
+target | Destino
+property | Propiedad
 
-## Examples
+## Ejemplos
 * 
 ```
 drupal debug:site

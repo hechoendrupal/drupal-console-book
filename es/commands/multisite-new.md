@@ -1,25 +1,26 @@
 # multisite:new
 Prepara los archivos para una nueva instalación multisitio.
 
-**Usage:**
+**Uso:**
 ```
 drupal multisite:new [arguments] [options]
 mun
+sn
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --copy-default | Copia un sitio existente desde la instalación por defecto.
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 directory | Nombre del directorio bajo 'sites' que será creado.
 uri | URI del sitio que se añadirá al sites.php.
 
-## Examples
-* Set up files for a multisite install specifying destination path and uri
+## Ejemplos
+* Configurar los archivos para una instalación por defecto especificando el directorio de destino y la url
 ```
 drupal multisite:new  vendor/newsite http://mysite.example.com
 ```

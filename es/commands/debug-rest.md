@@ -1,24 +1,24 @@
 # debug:rest
 Muestra el actual recurso rest para la aplicación
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:rest [arguments] [options]
 rede
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --authorization | Estado del recuros rest habilitado | deshabilitado
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 resource-id | ID de recurso rest
 
-## Examples
-* Displays rest hooks
+## Ejemplos
+* Mostrar todos los hooks rest
 ```
 drupal debug:rest
 ```

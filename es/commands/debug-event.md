@@ -1,23 +1,23 @@
 # debug:event
-Mostrar los eventos actuales 
+Muestra los eventos actuales
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:event [arguments]
 dev
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
-event | El evento a depurar
+event | Evento a inspeccionar
 
-## Examples
-* List all the events that could be debugged
+## Ejemplos
+* Listar todos los eventos que pueden ser debugueados
 ```
-drupal debug:evet
+drupal debug:event
 ```
-* Show the information for the kernel.request event
+* Mostrar la información existente sobre el evento kernel.request
 ```
 drupal debug:event kernel.request
 ```

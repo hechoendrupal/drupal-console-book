@@ -1,8 +1,8 @@
-# Available Drupal Console Commands
+# Comandos de Drupal Console disponibles
 
-**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
+**Nota:** Los comandos de Drupal Console *debeb* de ser ejecutados desde el raíz de la instalación de Drupal 8.
 
-Drupal Console Command | Details
+Comando de Drupal Console | Detalles
 ------------ | -------------
 **misc**  |
 [about](about.md) | Muestra información básica sobre el proyecto Drupal Console
@@ -12,7 +12,7 @@ Drupal Console Command | Details
 [help](help.md) | Muestra ayuda para un comando dado
 [init](init.md) | Copia los archivos de configuración al directorio home del usuario.
 [list](list.md) | Enlista comandos
-[shell](shell.md) | Abre una shell que provee un REPL (Read–Eval–Print-Loop) interactiv0.
+[shell](shell.md) | Abre una shell facilitando un REPL (Read–Eval–Print-Loop) interactivo.
 [server](server.md) | Lanza el servidor web PHP interno
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
@@ -27,7 +27,7 @@ Drupal Console Command | Details
 [config:import](config-import.md) | Importa la configuración del estado actual de la aplicación.
 [config:import:single](config-import-single.md) | Importar la configuración seleccionada.
 [config:override](config-override.md) | Sobreescribir valor de la configuración activa.
-[config:validate](config-validate.md) | Validar una configuración de Drupal según su schema
+[config:validate](config-validate.md) | Validar una configuración de Drupal contra su schema
 **create**  |
 [create:comments](create-comments.md) | Crear comentarios de prueba para tu aplicación en Drupal 8.
 [create:nodes](create-nodes.md) | Crea nodos de relleno para su Drupal 8.
@@ -44,65 +44,59 @@ Drupal Console Command | Details
 [database:drop](database-drop.md) | Muestra todas las tablas de una base de datos datos.
 [database:dump](database-dump.md) | Volcado de la estructura y contenidos de las bases de datos y tablas MySQL
 [database:log:clear](database-log-clear.md) | Eliminar eventos de la tabla DBLog, filtros disponibles
-[database:log:poll](database-log-poll.md) | Observar el watchdog e imprimir nuevas entradas en el log cada x segundos
-[database:query](database-query.md) | Ejecuta una sentencia SQL directamente como argumento
+[database:log:poll](database-log-poll.md) | Editar en vivo el watchdog imprimiendo las nuevas entradas en el log cada x segundos
+[database:query](database-query.md) | Ejecuta una consulta SQL directamente como argumento
 [database:restore](database-restore.md) | Restaurar la estructura y los contenidos de bases de datos y tablas MySQL
 **debug**  |
-[debug:breakpoints](debug-breakpoints.md) | Muestra los breakpoints disponibles en la aplicación
-[debug:cache:context](debug-cache-context.md) | Muestra el contexto de caché actual para la aplicación.
-[debug:chain](debug-chain.md) | Lista las secuencias de comandos disponibles.
-[debug:config](debug-config.md) | Muestra la configuración actual.
-[debug:config:settings](debug-config-settings.md) | Muestra el par clave:valor actual en el archivo de configuración.
-[debug:config:validate](debug-config-validate.md) | Función helper para validar una implementación de schema antes de que sea instalado un módulo. Especifique las rutas de archivos de la configuración y el schema como argumentos y se lanzará la validación contra ellos, haciendo el schema más fácil de debugear ahorrando tiempo haciendo instalaciones
+[debug:breakpoints](debug-breakpoints.md) | Muestra los breakpoints disponibles
+[debug:cache:context](debug-cache-context.md) | Muestra la cache de contexto actual en la aplicación.
+[debug:chain](debug-chain.md) | Lista los archivos chain disponibles.
+[debug:config](debug-config.md) | Lista los nombres de objetos de configuración y objectos de configuración única.
+[debug:config:settings](debug-config-settings.md) | Muestra los pares clave:valor actual en el fichero settings.
+[debug:config:validate](debug-config-validate.md) | Valida una implementación de schema antes de instalar un módulo.
 [debug:container](debug-container.md) | Muestra los servicios actuales de la aplicación.
-[debug:cron](debug-cron.md) | Listado de módulos que implementan una llamada al cron
-[debug:database:log](debug-database-log.md) | Desplegar eventos registrados al momento para la aplicación
-[debug:database:table](debug-database-table.md) | Muestra todas las tablas en una base de datos.
+[debug:cron](debug-cron.md) | Listado de módulos que implementan el hook cron
+[debug:database:log](debug-database-log.md) | Muestra los eventos de log actuales de la aplicación
+[debug:database:table](debug-database-table.md) | Muestra todas las tablas de una base de datos dada.
 [debug:entity](debug-entity.md) | Debugea entidades disponibles en el sistema
-[debug:event](debug-event.md) | Mostrar los eventos actuales 
-[debug:features](debug-features.md) | Ofrece un listado de las features registradas.
-[debug:image:styles](debug-image-styles.md) | Lista los estilos de imágenes del sitio
+[debug:event](debug-event.md) | Muestra los eventos actuales
+[debug:image:styles](debug-image-styles.md) | Lista los estilos de imagen en el sitio
 [debug:libraries](debug-libraries.md) | Muestra las librerías disponibles en la aplicación
 [debug:migrate](debug-migrate.md) | Muestra la migración actual disponible para la aplicación
 [debug:module](debug-module.md) | Muestra los módulos actualmente disponibles para la aplicación
-[debug:multisite](debug-multisite.md) | Lista todos los sitios múltiples disponibles en el sistema
+[debug:multisite](debug-multisite.md) | Lista todos los multisios disponibles en el sitio
 [debug:permission](debug-permission.md) | Muestra todos los permisos y además lista todos los permisos de un especifico rol de usuario.
-[debug:plugin](debug-plugin.md) | Mostrar todos los tipos de plugin, instancias de plugin de un tipo específico, o la definición para un plugin específico.
+[debug:plugin](debug-plugin.md) | Muestra todos los tipos de plugins.
 [debug:queue](debug-queue.md) | Muestra las colas de su aplicación
 [debug:rest](debug-rest.md) | Muestra el actual recurso rest para la aplicación
 [debug:router](debug-router.md) | Muestra las rutas actuales de la aplicación o la información detallada de una ruta en particular
 [debug:settings](debug-settings.md) | Ofrece un listado de la configuración de usuario de Drupal Console.
-[debug:site](debug-site.md) | Enlista todos los sitios, locales y remotos, conocidos.
+[debug:site](debug-site.md) | Lista todos los sitios conocidos locales y remotos.
 [debug:state](debug-state.md) | Muestra las claves de Estado actual.
-[debug:test](debug-test.md) | Lista los tests unitarios disponibles para la aplicación.
-[debug:theme](debug-theme.md) | Despliega los temas actuales para la aplicación
-[debug:update](debug-update.md) | Muestra las actualizaciones actualmente disponibles para la aplicación
-[debug:user](debug-user.md) | Muestra los usuarios actuales del sitio
-[debug:views](debug-views.md) | Muestra los recursos actuales de vistas para la aplicación
-[debug:views:plugins](debug-views-plugins.md) | Mostrar los plugins de views en la aplicación
+[debug:test](debug-test.md) | Ofrece un listado de Tests Unitarios disponibles en la aplicación.
+[debug:theme](debug-theme.md) | Muestra los temas actuales en la aplicación.
+[debug:update](debug-update.md) | Muestra las actualizaciones disponibles
+[debug:user](debug-user.md) | Muestra los usuarios existentes en el sitio
+[debug:views](debug-views.md) | Muestra los recursos actuales de vistas en el sitio
+[debug:views:plugins](debug-views-plugins.md) | Muestra los plugins de vistas existentes del sitio
 **devel**  |
 [devel:dumper](devel-dumper.md) | Change the devel dumper plugin
 **develop**  |
-[develop:contribute](develop-contribute.md) | 
+[develop:contribute](develop-contribute.md) | Download Drupal + Drupal Console to contribute.
+[develop:create:symlinks](develop-create-symlinks.md) | commands.develop.create.symlinks.description
 [develop:example](develop-example.md) | 
 [develop:example:container:aware](develop-example-container-aware.md) | 
-[develop:gitbook](develop-gitbook.md) | Update gitbook
 **dotenv**  |
 [dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.
 **entity**  |
 [entity:delete](entity-delete.md) | Elimina una entidad específica
-**extend**  |
-[extend:example:one](extend-example-one.md) | Drupal Console extend example
-[extend:example:two](extend-example-two.md) | Drupal Console extend example
-**features**  |
-[features:import](features-import.md) | Importar módulo de configuración.
 **field**  |
 [field:info](field-info.md) | Muestra información sobre los campos.
 **generate**  |
 [generate:authentication:provider](generate-authentication-provider.md) | Generar un Proveedor de Autenticación
 [generate:breakpoint](generate-breakpoint.md) | Genera un breakpoint
-[generate:cache:context](generate-cache-context.md) | Generata un contexto de caché
+[generate:cache:context](generate-cache-context.md) | Genera un contexto de caché
 [generate:command](generate-command.md) | Genera un comando para la consola.
 [generate:controller](generate-controller.md) | Generar y registrar un controlador
 [generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Genera un cheatsheet imprimible de los comandos disponibles
@@ -153,7 +147,7 @@ Drupal Console Command | Details
 [locale:translation:status](locale-translation-status.md) | Lista de traducciones disponibles actualizadas
 **migrate**  |
 [migrate:execute](migrate-execute.md) | Ejecuta una migración que esté disponible para la aplicación
-[migrate:rollback](migrate-rollback.md) | Hacer Rollback de una o varias migraciones
+[migrate:rollback](migrate-rollback.md) | Revertir una o múltiples migraciones
 [migrate:setup](migrate-setup.md) | Cargar y crear las migraciones pertinentes para una base de datos heredada
 **module**  |
 [module:dependency:install](module-dependency-install.md) | commands.module.install.dependencies.description
@@ -174,9 +168,7 @@ Drupal Console Command | Details
 [rest:disable](rest-disable.md) | Deshabilita un recurso rest en la aplicación
 [rest:enable](rest-enable.md) | Habilita un recurso rest para la aplicación
 **router**  |
-[router:rebuild](router-rebuild.md) | Reconstruye las rutas de la aplicación
-**sample**  |
-[sample:default](sample-default.md) | commands.sample.default.description
+[router:rebuild](router-rebuild.md) | Reconstruye los enrutamientos de la aplicación
 **settings**  |
 [settings:set](settings-set.md) | Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole
 **site**  |
@@ -191,13 +183,13 @@ Drupal Console Command | Details
 [state:delete](state-delete.md) | Eliminar Estado
 [state:override](state-override.md) | Sobreescribir una clave de Estado.
 **taxonomy**  |
-[taxonomy:term:delete](taxonomy-term-delete.md) | Elimina términos de taxonomía de un vocabulario, este comando toma el VID como argumento o, si no se pasa ninguno, serán eliminados todos los términos de todos los vocabularios
+[taxonomy:term:delete](taxonomy-term-delete.md) | Eliminar términos de una taxonomía de un vocabulario
 **test**  |
 [test:run](test-run.md) | Ejecuta un test unitario de los disponibles en la aplicación
 **theme**  |
 [theme:download](theme-download.md) | Descarga un tema para la aplicación
 [theme:install](theme-install.md) | Instalar tema o temas en la aplicación
-[theme:path](theme-path.md) | Devuelve la ruta relativa al theme (o ruta absoluta)
+[theme:path](theme-path.md) | Devuelve la ruta relativa al tema (o ruta absoluta)
 [theme:uninstall](theme-uninstall.md) | Desinstalar tema o temas en la aplicación
 **translation**  |
 [translation:cleanup](translation-cleanup.md) | Ficheros de limpieza de traducción
@@ -205,10 +197,12 @@ Drupal Console Command | Details
 [translation:stats](translation-stats.md) | Genera estadísticas de traducción
 [translation:sync](translation-sync.md) | Sincronizar archivos de traducción
 **update**  |
+[update:command:data](update-command-data.md) | Update gitbook
 [update:entities](update-entities.md) | Aplicar actualizaciones a entidades
 [update:execute](update-execute.md) | Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos
+[update:gitbook](update-gitbook.md) | Update gitbook
 **user**  |
-[user:create](user-create.md) | Crea usuarios para la aplicación
+[user:create](user-create.md) | Crea usuarios en el sitio
 [user:delete](user-delete.md) | Eliminar usuarios del sitio
 [user:login:clear:attempts](user-login-clear-attempts.md) | Limpia intentos de inicio de sesión fallidos para una cuenta.
 [user:login:url](user-login-url.md) | Crea una url de login de usuario de uso único.
@@ -219,8 +213,8 @@ Drupal Console Command | Details
 [views:disable](views-disable.md) | Deshabilita una vista
 [views:enable](views-enable.md) | Habilita una vista
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --help | Muestra este mensaje de ayuda
 --quiet | No mostrar ningún mensaje
@@ -240,7 +234,7 @@ Option | Details
 --uri | URI del sitio en Drupal que se usará (para ambientes en multi-site o cuando esta usando un puerto alternativo)
 --yes | Saltar confirmación y ejecutar directamente
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 command | El comando a ejecutar

@@ -1,19 +1,19 @@
 # debug:breakpoints
-Muestra los breakpoints disponibles en la aplicación
+Muestra los breakpoints disponibles
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:breakpoints [arguments]
 dbre
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
-group | Introduzca el nombre del grupo de breakpoints
+group | Introduzca el nombre del grupo de breakpoint
 
-## Examples
-* Provide a group name.
+## Ejemplos
+* Especifique un nombre de grupo.
 ```
 drupal breakpoints:debug bartik
 ```

@@ -1,19 +1,19 @@
 # database:connect
 Lanzar un cliente de base de datos si está disponible
 
-**Usage:**
+**Uso:**
 ```
 drupal database:connect [arguments]
 dbco
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 database | Clave de base de datos, desde settings.php
 
-## Examples
-* Connects to an specified database, or the default if not arguments passed
+## Ejemplos
+* Conectar a una base de datos especificada, o a la por defecto si no se pasaran argumentos
 ```
 drupal database:connect \
   <database>

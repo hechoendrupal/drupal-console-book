@@ -1,18 +1,18 @@
 # migrate:rollback
-Hacer Rollback de una o varias migraciones
+Revertir una o múltiples migraciones
 
-**Usage:**
+**Uso:**
 ```
 drupal migrate:rollback [arguments] [options]
 mir
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --source-base_path | commands.migrate.setup.options.source-base-path
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
-migration-ids | Id(s) de migración
+migration-ids | id(s) de Migración

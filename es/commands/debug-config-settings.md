@@ -1,14 +1,14 @@
 # debug:config:settings
-Muestra el par clave:valor actual en el archivo de configuración.
+Muestra los pares clave:valor actual en el fichero settings.
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:config:settings
 dcs
 ```
 
-## Examples
-* Displays key:value as per the settings file
+## Ejemplos
+* Mostrar los pares clave:valor que contiene el archivo settings
 ```
 drupal debug:config:settings
 ```

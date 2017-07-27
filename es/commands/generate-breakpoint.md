@@ -1,20 +1,20 @@
 # generate:breakpoint
 Genera un breakpoint
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:breakpoint [options]
 gb
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --theme | Nombre del tema
 --breakpoints | Breakpoints
 
-## Examples
-* Generate a breakpoint specifying the theme, a breakpoint name, its label, the media query, its weight and multipliers
+## Ejemplos
+* Generar un breakpoint especificando el theme, nombre del breakpoint, su etiqueta, la media query, su peso y sus múltiplos
 ```
 drupal generate:breakpoint  \
   --theme="classy"  \

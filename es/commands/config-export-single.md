@@ -1,14 +1,14 @@
 # config:export:single
 Exporta configuración como fichero yml.
 
-**Usage:**
+**Uso:**
 ```
 drupal config:export:single [options]
 ces
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --name | commands.config.export.single.options.name
 --directory | commands.config.export.arguments.directory
@@ -18,13 +18,13 @@ Option | Details
 --remove-uuid | Si se utiliza, la configuración será exportada sin clave uuid.
 --remove-config-hash | Si se utiliza, la configuración será exportada sin la clave hash por defecto del sitio.
 
-## Examples
-* Provide config settings name to be exported
+## Ejemplos
+* Facilitar el nombre de la configuración que será exportada
 ```
 drupal config:export:single \
   --name=config.settings.name
 ```
-* if uuid and/or config hashes will be removed.
+* Eliminar el uuid y/o los hashes de configuración en la exportación de la configuración
 ```
 drupal config:export:single \
   --name=config.settings.name \

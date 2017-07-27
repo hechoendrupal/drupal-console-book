@@ -1,12 +1,14 @@
 # develop:contribute
+Download Drupal + Drupal Console to contribute.
 
-
-**Usage:**
+**Uso:**
 ```
 drupal develop:contribute [options]
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
---code-directory | commands.develop.contribute.options.code-directory
+--repository | repository
+--drupal | drupal
+--code | code

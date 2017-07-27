@@ -1,20 +1,20 @@
 # entity:delete
 Elimina una entidad específica
 
-**Usage:**
+**Uso:**
 ```
 drupal entity:delete [arguments]
 ed
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 entity-definition-id | ID de definición de la entidad
 entity-id | ID de la entitdad que será eliminada
 
-## Examples
-* Delete entity type content using node id
+## Ejemplos
+* Eliminar una entidad de tipo de contenido usando su id de nodo
 ```
 drupal entity:delete node 1
 ```

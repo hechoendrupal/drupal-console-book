@@ -1,27 +1,27 @@
 # debug:config
-Muestra la configuración actual.
+Lista los nombres de objetos de configuración y objectos de configuración única.
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:config [arguments]
 dc
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
-name | Nombre de la configuración.
+name | Nombre de configuración de objeto, por ejemplo "system.site".
 
-## Examples
-* List all configuration object names.
+## Ejemplos
+* Lista todos los nombres de objeto de configuración.
 ```
 drupal config:debug
 ```
-* Display system site configurations values.
+* Muestra los valores de configuración de sistema del sitio.
 ```
 drupal config:debug system.site
 ```
-* List all system configuration names.
+* Lista todos los nombres de configuración de sistema.
 ```
 drupal config:debug | grep system
 ```

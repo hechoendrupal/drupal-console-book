@@ -1,34 +1,34 @@
 # user:create
-Crea usuarios para la aplicación
+Crea usuarios en el sitio
 
-**Usage:**
+**Uso:**
 ```
 drupal user:create [arguments] [options]
 uc
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --roles | Roles del usuario
---email | E-mail del ususario
---status | Status del usuario
+--email | E-mail del usuario
+--status | Estado del usuario
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 username | Nombre del usuario que será creado
 password | Contraseña del usuario
 
-## Examples
-* Create user specifying username, password, role, email and status
+## Ejemplos
+* Crear usuario especificando nombre de usuario, contraseña, rol, email y estado
 ```
 drupal user:create  john p455w0rd  \
   --roles='authenticated'  \
   --email="john@anexusit.com"  \
   --status="1"
 ```
-* Create admin user specifying username, password, role, email and status
+* Crear usuario administrador especificando nombre de usuario, contraseña, rol, email y estado
 ```
 drupal user:create  doe p455w0rd  \
   --roles='administrator'  \

@@ -1,30 +1,30 @@
 # create:comments
 Crear comentarios de prueba para tu aplicación en Drupal 8.
 
-**Usage:**
+**Uso:**
 ```
 drupal create:comments [arguments] [options]
 crc
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --limit | ¿Cuántos comentarios quiere crear?
 --title-words | ¿Cuál es el número máximo de palabras en los títulos de los comentarios?
 --time-range | ¿Cuán atrás en el tiempo se deben crear los comentarios?
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 node-id | El ID del nodo en donde se crearán los comentarios
 
-## Examples
-* Provide the node id where the comments will be generated.
+## Ejemplos
+* Facilitar el id de nodo para el que se generarán los comentarios.
 ```
 drupal create:comments  node-id
 ```
-* Provide number of comments to generate, max title words and time range.
+* Facilitar el número de comentarios a generar, con un máximo de palabras en el título y un rango de tiempo.
 ```
 drupal create:comments  node-id \
   --limit="2" \

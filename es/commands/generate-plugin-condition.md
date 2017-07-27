@@ -1,15 +1,14 @@
 # generate:plugin:condition
 Genera un plugin de condición.
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:plugin:condition [options]
 gpco
-gpc
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase para el plugin de condición
@@ -19,8 +18,8 @@ Option | Details
 --context-definition-label | Etiqueta de la definición de contexto
 --context-definition-required | Una definición de contexto es obligatoria (TRUE/FALSE)
 
-## Examples
-* Generate a plugin condition for a node entity type specifying the module name, the class, the label, its id and the context definition
+## Ejemplos
+* Generar un plugin de condición para un tipo de entidad nodo especificando el nombre del módulo, la clase, la etiqueta su id y la definición de contexto
 ```
 drupal generate:plugin:condition  \
   --module="modulename"  \
@@ -31,7 +30,7 @@ drupal generate:plugin:condition  \
   --context-definition-label="node"  \
   --context-definition-required
 ```
-* Generate a plugin condition for language specifying the module name, the class, the label, its id and the context definition
+* Generar un plugin de condición para idioma especificando el nombre del módulo, la clase, la etiqueta su id y la definición de contexto
 ```
 drupal generate:plugin:condition  \
   --module="modulename"  \
@@ -42,7 +41,7 @@ drupal generate:plugin:condition  \
   --context-definition-label="Language"  \
   --context-definition-required
 ```
-* Generate a plugin condition for role configuration specifying the module name, the class, the label, its id and the context definition
+* Generar un plugin de condición para configuración de rol especificando el nombre del módulo, la clase, la etiqueta, su id y la definición de contexto
 ```
 drupal generate:plugin:condition  \
   --module="modulename"  \

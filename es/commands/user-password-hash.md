@@ -1,20 +1,20 @@
 # user:password:hash
 Crea un hash a partir de una contraseña en texto plano.
 
-**Usage:**
+**Uso:**
 ```
 drupal user:password:hash [arguments]
 uph
 usph
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 password | Contraseña(s) en formato texto
 
-## Examples
-* Get hash of the word "p455w0rd"
+## Ejemplos
+* Obtiene el hash de la palabra "p455w0rd"
 ```
 drupal user:password:hash  p455w0rd
 ```

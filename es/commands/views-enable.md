@@ -1,23 +1,23 @@
 # views:enable
 Habilita una vista
 
-**Usage:**
+**Uso:**
 ```
 drupal views:enable [arguments]
 ve
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 view-id | commands.views.debug.arguments.view-id
 
-## Examples
-* Enable content view
+## Ejemplos
+* Habilitar contenido de la vista
 ```
 drupal views:enable  content
 ```
-* Enable frontpage view
+* Habilitar vista de Portada
 ```
 drupal views:enable  frontpage
 ```

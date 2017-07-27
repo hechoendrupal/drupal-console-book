@@ -1,23 +1,23 @@
 # debug:user
-Muestra los usuarios actuales del sitio
+Muestra los usuarios existentes en el sitio
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:user [options]
 dus
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
---uid | Filtra la lista resultante por uids [entre comillas separados por espacios]
---username | Filtra la lista resultante por nombres de usuario [entre comillas separados por espacios]
---mail | Filtra la lista resultante por e-mail de usuarios [entre comillas separados por espacios]
---roles | Indique los roles con los que filtrar el listado de usuarios
---limit | Cuántos usuarios le gustaría listar
+--uid | Filtra el listado de resultados por uids [entre comillas, separados por espacios]
+--username | Filtra el listado de resultados por nombres de usuario [entre comillas, separados por espacios]
+--mail | Filtra el listado de resultados por e-mails [entre comillas, separados por espacios]
+--roles | Roles a filtrar la inspección
+--limit | Cuántos usuarios le gustaría que se listaran en la inspección
 
-## Examples
-* Users list on the site
+## Ejemplos
+* Listar todos los usuarios del sitio
 ```
 drupal debug:user
 ```

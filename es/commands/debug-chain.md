@@ -1,7 +1,7 @@
 # debug:chain
-Lista las secuencias de comandos disponibles.
+Lista los archivos chain disponibles.
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:chain
 dch

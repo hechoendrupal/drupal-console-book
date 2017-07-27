@@ -1,14 +1,14 @@
 # generate:plugin:block
 Genera un plugin de bloque
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:plugin:block [options]
 gpb
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase del plugin
@@ -18,8 +18,8 @@ Option | Details
 --inputs | Crear campos de entrada en un formulario.
 --services | Cargar servicios desde el contenedor.
 
-## Examples
-* Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input
+## Ejemplos
+* Generar un plugin de bloque en la región de la cabecera con un campo tipo input especificando el nombre del módulo, la clase, la etiqueta, su id, la región y el input
 ```
 drupal generate:plugin:block  \
   --module="modulename"  \

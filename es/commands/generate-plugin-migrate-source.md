@@ -1,14 +1,14 @@
 # generate:plugin:migrate:source
 Genera un plugin de migración de fuentes
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:plugin:migrate:source [options]
 gpms
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase del plugin
@@ -18,8 +18,8 @@ Option | Details
 --group-by | Campo por el que agrupar los resultados
 --fields | Campos a exportar
 
-## Examples
-* Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias
+## Ejemplos
+* Generar un plugin de migración de fuentes especificando el nombre del módulo, la clase, su id de plugin, la tabla y su alias
 ```
 drupal generate:plugin:migrate:source  \
   --module="modulename"  \
@@ -28,7 +28,7 @@ drupal generate:plugin:migrate:source  \
   --table="DefaultTableName"  \
   --alias="D"
 ```
-* Generate a migration source plugin for specific fields of the users table specifying the module name, the class, its plugin id, the table, its alias and the fields
+* Generar un plugin de migración de fuentes para campos específicos de la tabla de usuarios especificando el nombre del módulo, la clase, el id de plugin, la tabla, su alias y los campos
 ```
 drupal generate:plugin:migrate:source  \
   --module="modulename"  \

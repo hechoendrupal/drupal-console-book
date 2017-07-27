@@ -1,18 +1,19 @@
 # debug:router
 Muestra las rutas actuales de la aplicación o la información detallada de una ruta en particular
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:router [arguments]
 dr
+rod
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 route-name | Nombres de ruta
 
-## Examples
+## Ejemplos
 * Muestra todas las rutas disponibles en la aplicación
 ```
 drupal rod

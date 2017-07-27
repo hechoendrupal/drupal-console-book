@@ -1,25 +1,25 @@
 # debug:config:validate
-Función helper para validar una implementación de schema antes de que sea instalado un módulo. Especifique las rutas de archivos de la configuración y el schema como argumentos y se lanzará la validación contra ellos, haciendo el schema más fácil de debugear ahorrando tiempo haciendo instalaciones
+Valida una implementación de schema antes de instalar un módulo.
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:config:validate [arguments] [options]
 dcv
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --schema-name | 
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 filepath | 
 schema-filepath | 
 
-## Examples
-* 
+## Ejemplos
+* Validar un schema
 ```
 drupal debug:config:validate \
   /path/to/file \

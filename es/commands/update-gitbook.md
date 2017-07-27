@@ -1,13 +1,12 @@
-# site:new
-Download a new Drupal project
+# update:gitbook
+Update gitbook
 
 **Uso:**
 ```
-drupal site:new [options]
+drupal update:gitbook [options]
 ```
 
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---repository | repository
 --directory | directory

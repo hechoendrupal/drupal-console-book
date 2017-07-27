@@ -1,7 +1,7 @@
 # develop:example:container:aware
 
 
-**Usage:**
+**Uso:**
 ```
 drupal develop:example:container:aware
 ```

@@ -1,14 +1,14 @@
 # generate:plugin:ckeditorbutton
 Genera un plugin de botón para CKEditor.
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:plugin:ckeditorbutton [options]
 gpc
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase para el plugin
@@ -17,8 +17,8 @@ Option | Details
 --button-name | Nombre del botón. NOTA: Este corresponde al nombre del botón de CKEditor. Son el primer argumento de las funciones editor.ui.addButton() o editor.ui.addRichCombo() en el archivo plugin.js.
 --button-icon-path | Ruta del icono o imagen del botón.
 
-## Examples
-* Generate CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path
+## Ejemplos
+* Generar un botón de CKEditor especificando el nombre del módulo, la clase, la etiqueta, su id y la ruta del icono
 ```
 drupal generate:plugin:ckeditorbutton  \
   --module="modulename"  \

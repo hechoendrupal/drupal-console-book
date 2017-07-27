@@ -1,15 +1,14 @@
 # generate:entity:content
 Generar una nueva entidad de contenido
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:entity:content [options]
 geco
-gect
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --entity-class | Clase de la entidad de contenido
@@ -20,8 +19,8 @@ Option | Details
 --is-translatable | Entidad de contenido traducible
 --revisionable | commands.generate.entity.content.options.revisionable
 
-## Examples
-* Generate a content entity specifying the module, the entity class, the entity name, its path and label
+## Ejemplos
+* Generar una entidad de contenido especificando el módulo, la clase de entidad, el nombre de entidad, su ruta y la etiqueta
 ```
 drupal generate:entity:content  \
   --module="modulename"  \
@@ -30,7 +29,7 @@ drupal generate:entity:content  \
   --base-path="/admin/structure"  \
   --label="Default entity"
 ```
-* Generate a translatable and revisionable content entity specifying the module, the entity class, the entity name, its path and label
+* Generar una entidad de contenido con revisiones y traducible especificando el módulo, la clase de entidad, el nombre de entidad, la ruta, y su etiqueta
 ```
 drupal generate:entity:content  \
   --module="modulename"  \

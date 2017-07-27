@@ -1,14 +1,14 @@
 # generate:module
 Generar un módulo.
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:module [options]
 gm
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | El nombre del módulo
 --machine-name | El nombre máquina (sólo minúsculas y guión bajo)
@@ -23,8 +23,8 @@ Option | Details
 --test | Generar una clase de test
 --twigtemplate | Generar plantilla de theme
 
-## Examples
-* Generate a module specifying the module name, machine name, the path, its description, drupal core and the package name. In this example the composer file, the unit test and twig template are generated too
+## Ejemplos
+* Generar un módulo especificando el nombre del módulo, el nombre máquina, la ruta, su descripción, el core de Drupal y el nombre del paquete. En este ejemplo se generan también el archivo de composer, el test unitario y la plantilla de Twig
 ```
 drupal generate:module  \
   --module="modulename"  \

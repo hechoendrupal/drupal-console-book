@@ -1,19 +1,19 @@
 # database:drop
 Muestra todas las tablas de una base de datos datos.
 
-**Usage:**
+**Uso:**
 ```
 drupal database:drop [arguments]
 dbd
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 database | Índice de la base de datos del settings.php
 
-## Examples
-* Drop the tables on the database specified on the argument
+## Ejemplos
+* Elimina las tablas de la base de datos especificada como argumento
 ```
 drupal database:drop \
   <database>

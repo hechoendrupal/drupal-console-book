@@ -1,13 +1,13 @@
 # devel:dumper
 Change the devel dumper plugin
 
-**Usage:**
+**Uso:**
 ```
 drupal devel:dumper [arguments]
 dd
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 dumper | Name of the devel dumper plugin

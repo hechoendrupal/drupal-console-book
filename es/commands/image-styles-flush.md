@@ -1,23 +1,23 @@
 # image:styles:flush
 Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
 
-**Usage:**
+**Uso:**
 ```
 drupal image:styles:flush [arguments]
 isf
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 styles | Nombre del estilo de imagen.
 
-## Examples
-* Flush large image style
+## Ejemplos
+* Limpiar el estilo de imagen "large"
 ```
 drupal image:styles:flush  large
 ```
-* Flush thumbnail image style
+* Limpiar el estilo de imagen "thumbnail"
 ```
 drupal image:styles:flush  thumbnail
 ```

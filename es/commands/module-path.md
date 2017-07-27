@@ -1,24 +1,24 @@
 # module:path
 Indicar la ruta relativa a un módulo (o su ruta absoluta)
 
-**Usage:**
+**Uso:**
 ```
 drupal module:path [arguments] [options]
 mop
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --absolute | Indica la ruta absoluta del módulo
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 module | El nombre del módulo (nombre máquina)
 
-## Examples
-* Get the relative path of the module specifying the module name
+## Ejemplos
+* Obtener la ruta relativa del módulo especificando el nombre del módulo
 ```
 drupal module:path  modulename
 ```

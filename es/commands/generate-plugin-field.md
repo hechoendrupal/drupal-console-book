@@ -1,14 +1,14 @@
 # generate:plugin:field
 Genera plugins de widget, formateador y tipo de campo.
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:plugin:field [options]
 gpf
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --type-class | Nombre de clase del plugin de tipo de campo
@@ -25,8 +25,8 @@ Option | Details
 --default-widget | Widget de campo por defecto del plugin de tipo de campo
 --default-formatter | Formateador de campo por defecto del plugin de tipo de campo
 
-## Examples
-* Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)
+## Ejemplos
+* Generar un plugin de tipo de campo, widget y formateador especificando el nombre de módulo, el tipo (de clase, etiqueta, id de plugin y descripción), el formateador (clase, etiqueta e id de plugin) y el widget (clase, etiqueta e id de plugin)
 ```
 drupal generate:plugin:field  \
   --module="modulename"  \

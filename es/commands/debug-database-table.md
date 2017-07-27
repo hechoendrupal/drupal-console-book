@@ -1,28 +1,28 @@
 # debug:database:table
-Muestra todas las tablas en una base de datos.
+Muestra todas las tablas de una base de datos dada.
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:database:table [arguments] [options]
 ddt
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
---database | Clave de la base de datos de settings.php
+--database | Clave de la base de datos en el settings.php
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
-table | Tabla a depurar
+table | Tabla a inspeccionar
 
-## Examples
-* Show all tables on a database
+## Ejemplos
+* Mostrar todas las tablas en la base de datos
 ```
 drupal debug:database:table
 ```
-* Show fields on the node table or another specified on the argument
+* Mostrar los campos de la tabla de nodo u otra especificada en el argumento
 ```
 drupal debug:database:table node
 ```

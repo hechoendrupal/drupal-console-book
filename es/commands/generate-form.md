@@ -1,14 +1,14 @@
 # generate:form
 Genera un nuevo "%s"
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:form [options]
 gf
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | El nombre de la clase del formulario
@@ -17,13 +17,13 @@ Option | Details
 --config-file | Añadir un fichero de configuración
 --inputs | Crear campos de entrada en un formulario.
 --path | Introduzca la ruta del formulario
---menu-link-gen | Generate a menu link
---menu-link-title | A title for the menu link
---menu-parent | Menu parent
---menu-link-desc | A description for the menu link
+--menu-link-gen | Generar un enlace de menú
+--menu-link-title | Título para el enlace de menú
+--menu-parent | Menú padre
+--menu-link-desc | Descripción para el enlace de menú
 
-## Examples
-* Generate an empty form with config file specifying the module name, the class, a form id and the path
+## Ejemplos
+* Generar un formulario vacío con un archivo de configuración especificando el nombre del módulo, la clase, id del formulario y la ruta
 ```
 drupal generate:form  \
   --module="modulename"  \
@@ -32,7 +32,7 @@ drupal generate:form  \
   --config-file  \
   --path="/modulename/form/default"
 ```
-* Generate a form with 2 fields and a config file specifying the module name, the class, a form id, the inputs and the path
+* Generar un formulario con dos campos y un archivo de configuración especificando el nombre del módulo, la clase, el id de formulario, los inputs y la ruta
 ```
 drupal generate:form  \
   --module="modulename"  \

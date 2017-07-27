@@ -1,19 +1,19 @@
 # module:dependency:install
 commands.module.install.dependencies.description
 
-**Usage:**
+**Uso:**
 ```
 drupal module:dependency:install [arguments]
 modi
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
-module | El módulo o los módulos que serán habilitados deben estar separados por un espacio
+module | commands.module.install.dependencies.arguments.module
 
-## Examples
-* Install the dependencies of the specfied module
+## Ejemplos
+* Instalar las dependencias del módulo especificado
 ```
 drupal module:dependency:install  modulename
 ```

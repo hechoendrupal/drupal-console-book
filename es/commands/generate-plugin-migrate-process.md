@@ -1,24 +1,24 @@
 # generate:plugin:migrate:process
 Genera un plugin de proceso para migración
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:plugin:migrate:process [options]
 gpmp
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase del plugin
 --plugin-id | ID del Plugin
 
-## Examples
-* Generate a migration plugin process specifying the module name, the class and its id
+## Ejemplos
+* Generar un plugin de proceso para migración especificando el nombre de módulo, la clase y su id
 ```
 drupal generate:plugin:migrate:process  \
-  --module="modulename"  \
-  --class="MigrationProcess"  \
-  --plugin-id="migrationprocess"
+    --module="modulename"  \
+    --class="MigrationProcess"  \
+    --plugin-id="migrationprocess"
 ```

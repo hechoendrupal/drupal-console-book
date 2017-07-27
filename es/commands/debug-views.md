@@ -1,25 +1,25 @@
 # debug:views
-Muestra los recursos actuales de vistas para la aplicación
+Muestra los recursos actuales de vistas en el sitio
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:views [arguments] [options]
 vde
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --tag | Etiqueta de la vista
 --status | Estado de la vista (Habilitado|Deshabilitado)
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
-view-id | ID de la vista
+view-id | ID de Vista
 
-## Examples
-* List of views on the site
+## Ejemplos
+* Listado de vistas en el sitio
 ```
 drupal debug:views
 ```

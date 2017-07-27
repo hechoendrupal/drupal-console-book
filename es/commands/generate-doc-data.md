@@ -1,13 +1,13 @@
 # generate:doc:data
 Genera documentación para los comandos.
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:doc:data [options]
 gdda
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --file | El archivo que renderiza los datos del comando

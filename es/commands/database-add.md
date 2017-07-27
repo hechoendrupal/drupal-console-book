@@ -1,14 +1,14 @@
 # database:add
 Añade una base de datos al settings.php
 
-**Usage:**
+**Uso:**
 ```
 drupal database:add [options]
 dba
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --database | El nombre de la base de datos
 --username | El nombre de usuario de la base de datos
@@ -18,8 +18,8 @@ Option | Details
 --port | El puerto del servidor de la base de datos
 --driver | El driver de la base de datos
 
-## Examples
-* Add a database to the settings.php
+## Ejemplos
+* Añadir una base de datos al settings.php
 ```
 drupal database:add \
   --database=DATABASE \

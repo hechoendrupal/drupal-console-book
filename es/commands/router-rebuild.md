@@ -1,15 +1,15 @@
 # router:rebuild
-Reconstruye las rutas de la aplicación
+Reconstruye los enrutamientos de la aplicación
 
-**Usage:**
+**Uso:**
 ```
 drupal router:rebuild
 rr
 ror
 ```
 
-## Examples
-* Rebuild routes
+## Ejemplos
+* Reconstruir rutas
 ```
 drupal router:rebuild
 ```

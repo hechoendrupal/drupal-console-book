@@ -1,23 +1,23 @@
 # debug:test
-Lista los tests unitarios disponibles para la aplicación.
+Ofrece un listado de Tests Unitarios disponibles en la aplicación.
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:test [arguments] [options]
 td
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
---test-class | Clase del test
+--test-class | Clase de Test
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 group | Grupo
 
-## Examples
+## Ejemplos
 * 
 ```
 drupal debug:test

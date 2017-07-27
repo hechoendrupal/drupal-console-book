@@ -1,21 +1,20 @@
 # update:execute
 Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos
 
-**Usage:**
+**Uso:**
 ```
 drupal update:execute [arguments]
 upex
-upe
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 module | Nombre del módulo.
 update-n | Función específica de Actualizar N que será ejecutada
 
-## Examples
-* Update all entities
+## Ejemplos
+* Actualizar todas las entidades
 ```
 drupal update:execute
 ```

@@ -1,14 +1,14 @@
 # debug:cache:context
-Muestra el contexto de caché actual para la aplicación.
+Muestra la cache de contexto actual en la aplicación.
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:cache:context
 dcc
 ```
 
-## Examples
-* Displays cache context
+## Ejemplos
+* Muestra el contexto de caché
 ```
 drupal debug:cache:context
 ```

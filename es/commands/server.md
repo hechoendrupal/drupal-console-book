@@ -1,17 +1,17 @@
 # server
 Lanza el servidor web PHP interno
 
-**Usage:**
+**Uso:**
 ```
 drupal server [arguments]
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 address | Los valores dirección:puerto
 
-## Examples
+## Ejemplos
 * Corre usando el valor de dirección por defecto 127.0.0.1:8088
 ```
 drupal server

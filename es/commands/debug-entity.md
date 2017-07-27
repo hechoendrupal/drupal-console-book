@@ -1,19 +1,19 @@
 # debug:entity
 Debugea entidades disponibles en el sistema
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:entity [arguments]
 de
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 entity-type | commands.debug.entity.arguments.entity-type
 
-## Examples
-* Displays the available entities
+## Ejemplos
+* Mostrar las entidades existentes
 ```
 drupal debug:entity
 ```

@@ -1,24 +1,24 @@
 # database:restore
 Restaurar la estructura y los contenidos de bases de datos y tablas MySQL
 
-**Usage:**
+**Uso:**
 ```
 drupal database:restore [arguments] [options]
 dbr
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --file | El nombre de archivo para su archivo de respaldo de la base de datos
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 database | Clave de la base de datos en el settings.php
 
-## Examples
-* Restore the database file dump to the database default or another one specified
+## Ejemplos
+* Restaurar el volcado en archivo de la base de datos en la base de datos por defecto o en la que se especifique
 ```
 drupal database:restore \
   --file='/srv/dump/db.sql'

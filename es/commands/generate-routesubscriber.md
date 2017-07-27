@@ -1,21 +1,21 @@
 # generate:routesubscriber
 Generar un RouteSubscriber
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:routesubscriber [options]
 gr
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --name | Nombre del servicio
 --class | Nombre de la clase
 
-## Examples
-* Generate a route subscriber specifying the module name, the route name and its class
+## Ejemplos
+* Generar un RouteSubscriber especificando el nombre del módulo, el nombre de enrutado y su clase
 ```
 drupal generate:routesubscriber  \
   --module="modulename"  \

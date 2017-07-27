@@ -1,14 +1,14 @@
 # migrate:setup
 Cargar y crear las migraciones pertinentes para una base de datos heredada
 
-**Usage:**
+**Uso:**
 ```
 drupal migrate:setup [options]
 mis
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --db-type | Tipo de base de datos de Drupal
 --db-host | "Host" de base de datos

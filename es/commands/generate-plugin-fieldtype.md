@@ -1,14 +1,14 @@
 # generate:plugin:fieldtype
 Genera plugins de tipo de campo.
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:plugin:fieldtype [options]
 gpft
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase del plugin
@@ -18,8 +18,8 @@ Option | Details
 --default-widget | Widget de campo por defecto para este plugin
 --default-formatter | Formateador de campo por defecto para este plugin
 
-## Examples
-* Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description
+## Ejemplos
+* Generar un plugin de tipo de campo especificando el nombre del módulo, la clase, su etiqueta, el id de plugin y una descripción
 ```
 drupal generate:plugin:fieldtype  \
   --module="modulename"  \
@@ -28,7 +28,7 @@ drupal generate:plugin:fieldtype  \
   --plugin-id="example_field_type"  \
   --description="My Field Type"
 ```
-* Generate a field type plugin with a default widget and formatter specifying the module name, the class, its label, the plugin id and a description
+* Generar un plugin de tipo de campo con un widget por defecto y un formatter especificando el nombre del módulo, la clase, su etiqueta, el id de plugin y una descripción
 ```
 drupal generate:plugin:fieldtype  \
   --module="modulename"  \

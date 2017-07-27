@@ -1,20 +1,20 @@
 # create:vocabularies
 Crea vocabularios de prueba para tu Drupal 8.
 
-**Usage:**
+**Uso:**
 ```
 drupal create:vocabularies [options]
 crv
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --limit | Cuántos vocabularios le gustaría crear
 --name-words | Número máximo de palabras en los nombres de vocabulario
 
-## Examples
-* Provide the number of vocabularies to create and maximum number of words in vocabulary names
+## Ejemplos
+* Facilitar el número de vocabularios a crear y el número máximo de palabras en los nombres de vocabulario.
 ```
 drupal create:vocabularies \
   --limit="5" \

@@ -1,19 +1,19 @@
 # database:client
 Lanzar un cliente de base de datos si está disponible
 
-**Usage:**
+**Uso:**
 ```
 drupal database:client [arguments]
 dbc
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 database | Clave de la base de datos, desde settings.php
 
-## Examples
-* Launch the default client or could launch another regarding the specification on the argument
+## Ejemplos
+* Lanzar el cliente por defecto especificando el nombre de la base de datos
 ```
 drupal database:client <database>
 ```

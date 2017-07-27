@@ -1,30 +1,30 @@
 # config:export:content:type
 Exporta un tipo de contenido específico y sus campos.
 
-**Usage:**
+**Uso:**
 ```
 drupal config:export:content:type [arguments] [options]
 cect
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --optional-config | Exportar tipo de contenido como un fichero de configuración YAML opcional en tu módulo
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 content-type | Tipo de contenido a exportar
 
-## Examples
-* Provide a content type  and module name
+## Ejemplos
+* Puede facilitar un nombre de módulo para la exportación del tipo de contenido
 ```
 drupal config:export:content:type page \
   --module="demo"
 ```
-* If you want export content type provide the optional config
+* Si desea exportar un tipo de contenido facilitando la configuración opcional y el nombre del módulo
 ```
 drupal config:export:content:type page \
   --module="demo" \

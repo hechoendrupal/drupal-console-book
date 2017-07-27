@@ -1,25 +1,25 @@
 # module:update
 Actualizar el core, un módulo o varios en la aplicación
 
-**Usage:**
+**Uso:**
 ```
 drupal module:update [arguments] [options]
 moup
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --composer | Actualizar el módulo usando Composer
 --simulate | Simular el proceso de actualización con Composer
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 module | El módulo o módulos que vayan a ser actualizados deberían estar separados por un espacio. Déjelo vacío para actualizar el core y todos los módulos gestionados por Composer.
 
-## Examples
-* Update module specifying module name and composer parameter
+## Ejemplos
+* Actualizar un módulo especificando el nombre del módulo mediante composer
 ```
 drupal module:update  modulename  \
   --composer

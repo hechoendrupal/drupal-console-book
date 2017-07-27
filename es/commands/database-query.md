@@ -1,31 +1,31 @@
 # database:query
-Ejecuta una sentencia SQL directamente como argumento
+Ejecuta una consulta SQL directamente como argumento
 
-**Usage:**
+**Uso:**
 ```
 drupal database:query [arguments] [options]
 dbq
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
---quick | No cachear cada resultado de query, imprimir cada fila como se recive
---debug | Imprime información de debug, memoria y estaísticas de uso de CPU
---html | Produce un resultado en formato HTML
---xml | Produce un resultado en formato XML
---raw | No se escapan los caracteres especiales en la salida.
---vertical | Imprimir el las filas del resultado de la query verticalmente
---batch | Imprimir los resultados usando el tabulador como separador de columnas, con cada fila en una nueva línea. Con esta opción mysql no usa el archivo de historia
+--quick | No cachear cada resultado de la query, imprimir cada fila como se reciba
+--debug | Imprime información de debug, memoria y uso de CPU cuando se ejecute el programa
+--html | Producir la salida en formato HTML
+--xml | Producir la salida en formato XML
+--raw | No se escapan los caracteres especiales en la salida del comando.
+--vertical | Imprimir la salida de la query en filas verticales
+--batch | Imprimir los resultados usando el tabulador como separador de columna, con cada fila en una línea nueva. Con esta opción, mysql no usa el archivo de historia
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
-query | La sentencia SQL que será ejecutada
-database | Base de datos en el settings.php
+query | La consulta SQL a ejecutar
+database | Clave de la base de datos en el settings.php
 
-## Examples
-* Send a database query
+## Ejemplos
+* Ejecutar una consulta SQL
 ```
 drupal database:query 'select * from node limit 0,1'
 ```

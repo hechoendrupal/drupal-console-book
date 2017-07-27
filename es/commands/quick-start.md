@@ -1,13 +1,13 @@
 # quick:start
 Download, install and serve a new Drupal project
 
-**Usage:**
+**Uso:**
 ```
 drupal quick:start [options]
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --repository | repository
 --directory | directory

@@ -1,19 +1,19 @@
 # debug:migrate
 Muestra la migración actual disponible para la aplicación
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:migrate [arguments]
 mid
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 tag | Etiqueta de migración
 
-## Examples
-* Displays current migration
+## Ejemplos
+* Mostrar información sobre la migración actual
 ```
 drupal debug:migrate
 ```

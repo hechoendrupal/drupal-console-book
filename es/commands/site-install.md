@@ -1,14 +1,14 @@
 # site:install
 Instala un proyecto Drupal
 
-**Usage:**
+**Uso:**
 ```
 drupal site:install [arguments] [options]
 si
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --langcode | commands.site.install.options.langcode
 --db-type | commands.site.install.options.db-type
@@ -26,13 +26,13 @@ Option | Details
 --account-pass | commands.site.install.options.account-pass
 --force | commands.site.install.options.force
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 profile | Perfil de Drupal que será instalado
 
-## Examples
-* Install a drupal project specifying installation type, language code, database configuration, site name, site email and admin credential settings
+## Ejemplos
+* Instalar un proyecto Drupal especificando el tipo de instalación, código de idioma, configuración de la base de datos, nombre del sitio, e-mail del sitio y credenciales del usuario admin
 ```
 drupal site:install  standard  \
   --langcode="en"  \

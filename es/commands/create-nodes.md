@@ -1,31 +1,31 @@
 # create:nodes
 Crea nodos de relleno para su Drupal 8.
 
-**Usage:**
+**Uso:**
 ```
 drupal create:nodes [arguments] [options]
 crn
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --limit | ¿Cuántos nodos le gustaría crear?
 --title-words | Número máximo de palabras en el título de los nodos
 --time-range | Desde cuándo deberían ser fechados los nodos
 --language | commands.create.nodes.options.language
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 content-types | Tipo(s) de contenido que desea generar
 
-## Examples
-* Provide the content type name.
+## Ejemplos
+* Facilitando el nombre de tipo de contenido.
 ```
 drupal create:nodes content-name
 ```
-* Provide the limit of publications, limit of title words, time range and language.
+* Facilitando el límite de publicaciones, de palabras en el título, con rango de tiempo e idioma.
 ```
 drupal create:nodes content-name \
   --limit="5" \

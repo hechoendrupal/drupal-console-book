@@ -1,14 +1,14 @@
 # debug:image:styles
-Lista los estilos de imágenes del sitio
+Lista los estilos de imagen en el sitio
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:image:styles
 dis
 ```
 
-## Examples
-* List all images styles on the site
+## Ejemplos
+* Listar todos los estilos de imagen en el sitio
 ```
 drupal debug:image:styles
 ```

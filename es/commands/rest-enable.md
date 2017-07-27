@@ -1,13 +1,13 @@
 # rest:enable
 Habilita un recurso rest para la aplicación
 
-**Usage:**
+**Uso:**
 ```
 drupal rest:enable [arguments]
 ree
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
-resource-id | Rest ID
+resource-id | ID Rest

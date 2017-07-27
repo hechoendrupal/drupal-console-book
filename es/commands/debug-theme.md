@@ -1,23 +1,24 @@
 # debug:theme
-Despliega los temas actuales para la aplicación
+Muestra los temas actuales en la aplicación.
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:theme [arguments]
 dt
+tde
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
-theme | Tema específico a depurar
+theme | Especifique un tema para debuguear
 
-## Examples
-* List of themes on the site
+## Ejemplos
+* Listar todos los temas del sitio
 ```
 drupal debug:theme
 ```
-* Bartik theme information
+* Mostrar información del tema Bartik
 ```
 drupal debug:theme bartik
 ```

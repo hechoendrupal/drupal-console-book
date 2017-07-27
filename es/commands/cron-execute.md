@@ -1,24 +1,24 @@
 # cron:execute
 Ejecutar implementación de cron desde un módulo específico o todos para ejecutar todas las implementaciones
 
-**Usage:**
+**Uso:**
 ```
 drupal cron:execute [arguments]
 croe
 cre
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 module | Nombre del módulo.
 
-## Examples
-* Execute the cron globally
+## Ejemplos
+* Executar el cron globalmente
 ```
 drupal cron:execute
 ```
-* Execute the cron on the specified module
+* Ejecutar el cron en el módulo especificado
 ```
 drupal cron:execute \
   <module>

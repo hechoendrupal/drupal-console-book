@@ -1,21 +1,21 @@
 # generate:authentication:provider
 Generar un Proveedor de Autenticación
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:authentication:provider [options]
 gap
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---class | Authentication Provider class
---provider-id | Provider ID
+--class | Clase del proveedor de autenticación
+--provider-id | ID del proveedor
 
-## Examples
-* Generate an authentication provider specifying the module, the class and the provider id
+## Ejemplos
+* Generar un proveedor de autenticación especificando el módulo, la clase y el id de proveedor
 ```
 drupal generate:authentication:provider  \
   --module="modulename"  \

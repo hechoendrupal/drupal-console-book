@@ -1,14 +1,14 @@
 # generate:service
 Genera un servicio
 
-**Usage:**
+**Uso:**
 ```
 drupal generate:service [options]
 gs
 ```
 
-## Available options
-Option | Details
+## Opciones disponibles
+Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --name | commands.generate.service.options.name
@@ -16,10 +16,10 @@ Option | Details
 --interface | commands.common.service.options.interface
 --interface-name | commands.common.service.options.interface-name
 --services | Cargar servicios desde el contenedor.
---path-service | Path
+--path-service | Ruta
 
-## Examples
-* Generate a services without interface specifying the module name, the service name, the class and its path
+## Ejemplos
+* Generar un servicio sin interfaz especificando el nombre del módulo, el nombre del servicio, la clase y el path del servicio
 ```
 drupal generate:service  \
   --module="modulename"  \
@@ -27,7 +27,7 @@ drupal generate:service  \
   --class="DefaultService"  \
   --path-service="/modules/custom/modulename/src/"
 ```
-* Generate a services with interface specifying the module name, the service name, the class, the interface name and its path
+* Generar un servicio con interfaz especificando el nombre del módulo, el nombre del servicio, la clase, el nombre de interfaz y su ruta
 ```
 drupal generate:service  \
   --module="modulename"  \

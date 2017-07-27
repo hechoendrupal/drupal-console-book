@@ -1,14 +1,14 @@
 # debug:queue
 Muestra las colas de su aplicación
 
-**Usage:**
+**Uso:**
 ```
 drupal debug:queue
 dq
 ```
 
-## Examples
-* Displays the queues of the application
+## Ejemplos
+* Muestra todas las colas de la aplicación
 ```
 drupal debug:queue
 ```

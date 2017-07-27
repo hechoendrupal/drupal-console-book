@@ -1,24 +1,24 @@
 # views:disable
 Deshabilita una vista
 
-**Usage:**
+**Uso:**
 ```
 drupal views:disable [arguments]
 vd
 vdi
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponibles
+Argumento | Detalles
 ---------|-------------
 view-id | commands.views.debug.arguments.view-id
 
-## Examples
-* Disable content view
+## Ejemplos
+* Habilitar contenido de la vista
 ```
 drupal views:disable  content
 ```
-* Disable frontpage view
+* Deshabilitar vista de portada
 ```
 drupal views:disable  frontpage
 ```
