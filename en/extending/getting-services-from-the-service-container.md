@@ -4,7 +4,7 @@ You can access services from the service container by:
 
 ### Injecting services to the command Class
 
-Registering your Command class at the `console.services.yml` file.
+Using the `arguments` section when registering your Command class at the `console.services.yml` file.
 ```
 services:
   example.example_default:
@@ -14,7 +14,7 @@ services:
       - { name: drupal.command }
 ```
 
-Adding a new protected property and passing the service using the `__construct` method.
+Adding a new protected property.
 ```
   /**
    * The $entityTypeManager definition.
@@ -22,7 +22,10 @@ Adding a new protected property and passing the service using the `__construct` 
    * @var EntityTypeManager
    */
   protected $entityTypeManager;
+```
 
+Passing the service using the `__construct` method.
+```
   /**
    * Constructs a new DefaultCommand object.
    */
@@ -32,7 +35,7 @@ Adding a new protected property and passing the service using the `__construct` 
   }
 ```
 
-### Using the ContainerAwareCommandTrait on your class.
+### Extending the `ContainerAwareCommand` base Class on your Command class.
 
 By doing this you have access to the service container, in other words, you have access to any configured service using the provided `get` method.
 
@@ -40,9 +43,9 @@ By doing this you have access to the service container, in other words, you have
 protected function execute(InputInterface $input, OutputInterface $output)
 {
     $uid = $input->getArgument('uid');
-    $entityManager = $this->get('entity_type.manager');;
-    if ($entityManager) {
-        $user = $entityManager->getStorage('user')->load($uid);
+    $entityTypeManager = $this->get('entity_type.manager');;
+    if ($entityTypeManager) {
+        $user = $entityTypeManager->getStorage('user')->load($uid);
     }
 }
 ```
