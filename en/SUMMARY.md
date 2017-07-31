@@ -19,7 +19,7 @@
   * [How to use Drupal Console in a remote installation](using/how-to-use-drupal-console-in-a-remote-installation.md)
 
 * [Creating custom Commands](extending/creating-custom-commands.md)
-   * [The Command Class](extending/the-commands-class.md)
+   * [The Command Class](extending/the-command-class.md)
    * [Registering Commands](extending/registering-commands.md)
    * [Configuring the Command](extending/configuring-the-command.md)
    * [Command Lifecycle](extending/command-lifecycle.md)
