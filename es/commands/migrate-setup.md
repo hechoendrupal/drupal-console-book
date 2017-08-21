@@ -17,4 +17,4 @@ Opción | Detalles
 --db-pass | Contraseña de base de datos
 --db-prefix | Prefijo de base de datos
 --db-port | Puerto
---source-base_path | commands.migrate.setup.options.source-base-path
+--source-base_path | Directorio local que contiene los fuentes de su sitio (p. ej. /var/www/docroot), o la dirección de su sitio (por ejemplo, http://example.com)

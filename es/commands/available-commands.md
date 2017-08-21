@@ -16,6 +16,7 @@ Comando de Drupal Console | Detalles
 [server](server.md) | Lanza el servidor web PHP interno
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Reconstruye y limpia todas las cachés del sitio.
+[cache:tag:invalidate](cache-tag-invalidate.md) | Invalida las etiquetas de caché
 **config**  |
 [config:delete](config-delete.md) | Eliminar configuración
 [config:diff](config-diff.md) | Muestra los items de configuración que son diferentes en la configuración activa comparada con un directorio.
@@ -80,12 +81,20 @@ Comando de Drupal Console | Detalles
 [debug:views](debug-views.md) | Muestra los recursos actuales de vistas en el sitio
 [debug:views:plugins](debug-views-plugins.md) | Muestra los plugins de vistas existentes del sitio
 **devel**  |
-[devel:dumper](devel-dumper.md) | Change the devel dumper plugin
+[devel:dumper](devel-dumper.md) | commands.devel.dumper.messages.change-devel-dumper-plugin
 **develop**  |
 [develop:contribute](develop-contribute.md) | Download Drupal + Drupal Console to contribute.
-[develop:create:symlinks](develop-create-symlinks.md) | commands.develop.create.symlinks.description
+[develop:create:symlinks](develop-create-symlinks.md) | Create symlinks between Drupal site and cloned repositories.
+[develop:doc:cheatsheet](develop-doc-cheatsheet.md) | Genera un cheatsheet imprimible de los comandos disponibles. Es necesario el siguiente comando previamente: composer require knplabs/knp-snappy
+[develop:doc:dash](develop-doc-dash.md) | Generar el paquete DrupalConsole.docset para Dash
+[develop:doc:data](develop-doc-data.md) | Genera documentación para los comandos.
+[develop:doc:gitbook](develop-doc-gitbook.md) | Generar documentaciones para Comandos
 [develop:example](develop-example.md) | 
 [develop:example:container:aware](develop-example-container-aware.md) | 
+[develop:translation:cleanup](develop-translation-cleanup.md) | Hacer limpieza de ficheros de traducción
+[develop:translation:pending](develop-translation-pending.md) | Determina cadenas de traducción pendientes en un idioma o en un archivo específico de un idioma
+[develop:translation:stats](develop-translation-stats.md) | Genera estadísticas de traducción
+[develop:translation:sync](develop-translation-sync.md) | Sincronizar archivos de traducción
 **dotenv**  |
 [dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.
@@ -99,10 +108,6 @@ Comando de Drupal Console | Detalles
 [generate:cache:context](generate-cache-context.md) | Genera un contexto de caché
 [generate:command](generate-command.md) | Genera un comando para la consola.
 [generate:controller](generate-controller.md) | Generar y registrar un controlador
-[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | Genera un cheatsheet imprimible de los comandos disponibles
-[generate:doc:dash](generate-doc-dash.md) | Generar el paquete DrupalConsole.docset para Dash
-[generate:doc:data](generate-doc-data.md) | Genera documentación para los comandos.
-[generate:doc:gitbook](generate-doc-gitbook.md) | Generar documentaciones para Comandos
 [generate:entity:bundle](generate-entity-bundle.md) | Genera un nuevo tipo de contenido (nodo / bundle de entidad)
 [generate:entity:config](generate-entity-config.md) | Generar una nueva entidad de configuración
 [generate:entity:content](generate-entity-content.md) | Generar una nueva entidad de contenido
@@ -191,11 +196,6 @@ Comando de Drupal Console | Detalles
 [theme:install](theme-install.md) | Instalar tema o temas en la aplicación
 [theme:path](theme-path.md) | Devuelve la ruta relativa al tema (o ruta absoluta)
 [theme:uninstall](theme-uninstall.md) | Desinstalar tema o temas en la aplicación
-**translation**  |
-[translation:cleanup](translation-cleanup.md) | Ficheros de limpieza de traducción
-[translation:pending](translation-pending.md) | Determina cadenas de traducción pendientes en un idioma o en un archivo específico de un idioma
-[translation:stats](translation-stats.md) | Genera estadísticas de traducción
-[translation:sync](translation-sync.md) | Sincronizar archivos de traducción
 **update**  |
 [update:command:data](update-command-data.md) | Update gitbook
 [update:entities](update-entities.md) | Aplicar actualizaciones a entidades
@@ -225,7 +225,7 @@ Opción | Detalles
 --no-interaction | No hacer ningura pregunta interactiva
 --env | Nombre del ambiente.
 --root | Define la raíz de Drupal que se utilizará en la ejecución de los comandos
---debug | application.options.debug
+--debug | Activa el modo de depuración
 --learning | Generar código con explicaciones.
 --generate-chain | Imprimir opciones y argumentos como YAML para ser usado el comando chain
 --generate-inline | Imprimir opciones y argumentos de ejecución como llamada inline para ser usados en el futuro

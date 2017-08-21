@@ -14,11 +14,11 @@ Argumento | Detalles
 view-id | commands.views.debug.arguments.view-id
 
 ## Ejemplos
-* Habilitar contenido de la vista
+* Deshabilitar la vista content
 ```
 drupal views:disable  content
 ```
-* Deshabilitar vista de portada
+* Deshabilitar la vista frontpage
 ```
 drupal views:disable  frontpage
 ```

@@ -10,7 +10,7 @@ ter
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---url | commands.test.run.arguments.url
+--url | URL del test
 
 ## Argumentos disponibles
 Argumento | Detalles

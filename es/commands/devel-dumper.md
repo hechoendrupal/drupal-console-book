@@ -1,5 +1,5 @@
 # devel:dumper
-Change the devel dumper plugin
+commands.devel.dumper.messages.change-devel-dumper-plugin
 
 **Uso:**
 ```
@@ -10,4 +10,4 @@ dd
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-dumper | Name of the devel dumper plugin
+dumper | Nombre del plugin de dumper de desarrollo

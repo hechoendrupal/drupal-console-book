@@ -17,7 +17,7 @@ Opción | Detalles
 --core | Versión del core
 --package | Paquete del tema
 --global-library | Nombre de la librería de estilo global
---libraries | commands.generate.theme.options.libraries
+--libraries | Librerías
 --base-theme | Tema base (por ejemplo: classy, stable)
 --regions | Regiones
 --breakpoints | Puntos de ruptura

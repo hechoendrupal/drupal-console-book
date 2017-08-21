@@ -15,7 +15,7 @@ Opción | Detalles
 --description | Descripción del perfil
 --core | Versión del core
 --dependencies | Dependencias de módulos separadas por comas (p. ej. context, panels)
---themes | commands.generate.profile.options.themes
+--themes | Nombre del tema
 --distribution | Nombre de la distribución
 
 ## Ejemplos
