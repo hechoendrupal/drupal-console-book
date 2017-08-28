@@ -1,23 +1,25 @@
-# Using the project
+# Использование проекта
 
-Drupal Console provides two types of commands, `stand alone` and `container aware` commands.
+Два типа команд Drupal Console
 
-**Stand alone commands:**
-These commands can run outside of a Drupal 8 site root.
- 
-**Container aware commands:**
-These commands must be run within a Drupal 8 site root.
+1. **Доступные глобально:** Команды, которые можено запустить из любой папки.
+2. **Доступные отдельному сайту:** Команды, которые можено запустить только из папки с Drupal.
 
-### Executing Drupal Console outside a Drupal site root 
-You can run Drupal Console form any directory on your system by using the `--root` option to define the Drupal root to be use in the command execution. 
+### Запуск Drupal Console из любой папки 
+
+Drupal Console можно запустить из любой папки используя опцию `--root` option to define the Drupal root to be use in the command execution. 
+
 ```
-$ drupal --root=/var/www/drupal8.dev cr all
+drupal --root=/var/www/drupal8.dev cr all
 ```
+**ВНИМАНИЕ:** При запуске Drupal Console из папки без Drupal без опции `--root` можно увидеть следующие сообщения:
 
-**NOTE:** Possible messages when executing Drupal Console outside a Drupal site root and no `--root` option provided.
-
-When running the project outside of a Drupal 8 site root, the following message will be shown.  
+Сообщение при запуске Drupal Console из папки без Drupal
+> Перейдите в папку с Drupal, чтобы увидеть список всех комманд
 > In order to list all of the available commands, you should run this inside a drupal root directory.
 
-When running the project within of a Drupal 8 site root, but site is not yet installed, the following message will be shown.
+Сообщение при запуске Drupal Console из папки с неустановленным Drupal
+> Установите Drupal, чтобы увидеть список всех комманд
 > In order to list all of the available commands you should install drupal first.
+
+Помните, что вам все еще нужно уствновить Drupal Console при сайте следуя иструкции [2.1](../getting/composer.md) при установленном сайте Drupal 8 и глобальном пусковом файле Drupal Console по иструкции [2.2](../getting/launcher.md).

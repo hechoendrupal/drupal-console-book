@@ -1,18 +1,38 @@
 # Getting the project
 
+The Drupal Console is a modular project using multiple repositories.
+
+Main repositories:
+* [drupal/console](https://github.com/hechoendrupal/drupal-console)
+* [drupal/console-core](https://github.com/hechoendrupal/drupal-console-core)
+* [drupal/console-extend-plugin](https://github.com/hechoendrupal/drupal-console-extend-plugin)
+* [drupal-console-dotenv](https://github.com/weknowinc/drupal-console-dotenv)
+
+Additional projects:
+* [drupal/console-develop](https://github.com/weknowinc/drupal-console-develop)
+* [drupal-console-yaml](https://github.com/weknowinc/drupal-console-yaml)
+        
+Languages are also managed into separated repositories:
+* [drupal-console-en](https://github.com/hechoendrupal/drupal-console-en)
+* [drupal-console-es](https://github.com/hechoendrupal/drupal-console-es)
+
 ## Fork
-Fork your own copy of the [Console](https://github.com/hechoendrupal/drupal-console/fork) repository to your account
+You should fork the repositories that you want to contribute. For this task you can use the github GUI.
 
 ## Clone
-Get a copy of your recently cloned version of console in your machine.
+You need to define a directory where you will clone the repositories. i.e. `/Users/username/drupal-console-code`
 ```
-$ git clone git@github.com:[your-git-user-here]/drupal-console.git
+cd /Users/username/drupal-console-code
+git clone git@github.com:[your-github-user-here]/drupal-console.git
+git clone git@github.com:[your-github-user-here]/drupal-console-core.git
+git clone git@github.com:[your-github-user-here]/drupal-console-en.git
 ```
 
 ## Install dependencies
-Now that you have cloned the project, you need to download dependencies via Composer.
+Now that you have cloned the repositories, you need to download dependencies using Composer.
+```
+cd /Users/username/drupal-console-code/[cloned-repository]
+composer install
+```
 
-```
-$ cd /path/to/drupal-console
-$ composer install
-```
+Read the next step to learn how to link and test these repositories into a Drupal site.

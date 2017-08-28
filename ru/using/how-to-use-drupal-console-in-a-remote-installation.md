@@ -4,7 +4,7 @@ Drupal Console allows you to run commands on your local server but actually exec
 
 You can take advantage of this feature, using the `--target` option and passing the remote site name you want to interact with.  
 ```
-$ drupal --target=sample.dev cr all
+drupal --target=sample.dev cr all
 ```
 
 Setting up your local computer to use a remote site requires a little configuration.
@@ -27,7 +27,7 @@ application:
 ```
 
 ### Edit specific site configuration
-You can provide specific site configuration by duplicating the copied site file at `~/.console/sites/sample.yml` with a new same at `~/.console/sites/`.
+You can provide specific site configuration by duplicating the copied site file at `~/.console/sites/sample.yml` with a new name at `~/.console/sites/`.
 
 ```
 local:
@@ -47,7 +47,7 @@ prod:
 ### Debug sites.
 You can list all known local and remote sites by executing the `site:debug` command.
 ```
-$ drupal site:debug
+drupal site:debug
 
 +--------------------+-----------------+------------------------+
 | Site               | Host            | Root                   |
@@ -60,7 +60,7 @@ $ drupal site:debug
 
 You can show the site configuration details by passing the site name as argument to the `site:debug` command. 
 ```
-$ drupal site:debug sample.dev
+drupal site:debug sample.dev
 
 user: drupal
 port: 22
