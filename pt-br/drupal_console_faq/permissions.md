@@ -1,3 +1,3 @@
-# Permissions
+# Permissões
 
-To be added.
+À ser adicionado.

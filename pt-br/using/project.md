@@ -1,23 +1,23 @@
-# Using the project
+# Usando o projeto
 
-Drupal Console provides two types of commands, `stand alone` and `container aware` commands.
+O Drupal Console fornece dois tipos de comandos, comandos 'stand-alone' e `container aware`.
 
-**Stand alone commands:**
-These commands can run outside of a Drupal 8 site root.
+**Comandos stand alone:**
+Esses comandos podem ser executados fora de uma raiz do site Drupal 8.
  
-**Container aware commands:**
-These commands must be run within a Drupal 8 site root.
+**Comandos container aware:**
+Esses comandos devem ser executados dentro de uma raiz do site Drupal 8.
 
-### Executing Drupal Console outside a Drupal site root 
-You can run Drupal Console form any directory on your system by using the `--root` option to define the Drupal root to be use in the command execution. 
+### Executando o Drupal Console fora de uma raiz do site Drupal 
+Você pode executar o Drupal Console de qualquer diretório em seu sistema, usando a opção `--root` para definir a raiz Drupal a ser usada na execução do comando
 ```
 $ drupal --root=/var/www/drupal8.dev cr all
 ```
 
-**NOTE:** Possible messages when executing Drupal Console outside a Drupal site root and no `--root` option provided.
+**OBSERVAÇÃO:** Possíveis mensagens ao executar Drupal Console fora de uma raiz do site Drupal e nenhuma opção `--root` fornecida.
 
-When running the project outside of a Drupal 8 site root, the following message will be shown.  
+Ao executar o projeto fora de uma raiz do site Drupal 8, será exibida a seguinte mensagem.  
 > In order to list all of the available commands, you should run this inside a drupal root directory.
 
-When running the project within of a Drupal 8 site root, but site is not yet installed, the following message will be shown.
+Ao executar o projeto dentro de uma raiz do site do Drupal 8, mas o site ainda não está instalado, a seguinte mensagem será exibida.
 > In order to list all of the available commands you should install drupal first.

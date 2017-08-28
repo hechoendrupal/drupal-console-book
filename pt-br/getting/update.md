@@ -1,19 +1,19 @@
-# Update project
-Drupal 8 is under heavy development, to keep in sync with the latest changes. The easiest and recommended way of updating Drupal Console is using the self-update command.
+# Atualizar projeto
+O Drupal 8 está em desenvolvimento intenso, para manter a sincronia com as últimas mudanças. A maneira mais fácil e recomendável de atualizar o Drupal Console é usando o comando de atualização automática.
 
-## Depending on the installation method:
+## Dependendo do método de instalação:
 
-### Installed globally (and renamed to "drupal"):
+### Instalado globalmente (e renomeado para "drupal"):
 ```
 $ drupal self-update
 ```
 
-### Installed globally (using composer):
+### Instalado globalmente (usando composer):
 ```
 $ composer global update drupal/console:@stable
 ```
 
-### Installed locally (running from directory where the console.phar has been downloaded):
+### Instalado localmente (executando a partir do diretório onde o console.phar foi baixado):
 ```
 $ php console.phar self-update
 ```

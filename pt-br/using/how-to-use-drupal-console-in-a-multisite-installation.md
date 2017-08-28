@@ -1,8 +1,8 @@
-# How to use Drupal Console in a multi-site installation 
+# Como usar o Drupal Console em uma instalação multi-site 
  
-Drupal Console provides support for Drupal multi-site installations. This project provides the `multisite:debug` command to debug multi-site installations and the `--uri` option to interact with multi-site installations.
+O Console Drupal oferece suporte para instalações multi-site Drupal. Este projeto fornece o comando `multisite: debug` para depurar instalações multi-site e a opção` --uri 'para interagir com instalações multi-site
  
-### How to list all known multi sites
+### Como listar todos os vários sites conhecidos
 ```
 $ drupal multisite:debug
 
@@ -13,7 +13,7 @@ $ drupal multisite:debug
 | drupal8.multi.dev   | /var/www/drupal8.dev/multi.dev |
 +---------------------+--------------------------------+
 
- Sites are written using the format: <port>.<domain>.<path>
+ Como executar um comando contra uma instalação multi-site: <port>.<domain>.<path>
 ```
 
 ### How to execute a command against a multi-site installation

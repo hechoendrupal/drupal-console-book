@@ -1,39 +1,39 @@
 # Summary
 
-* [Drupal Console Documentation](README.md)
+* [Documentação do Drupal Console](README.md)
 
-* [What is the Drupal Console](about/what-is-the-drupal-console.md)
-  * [Why should you care about?](about/why-should-you-care-about.md)
-  * [How does Drupal Console help?](about/how-does-drupal-console-help.md)
-  * [Where do I find the project?](about/where-do-i-find-the-project.md)
+* [O que é o Drupal Console](about/what-is-the-drupal-console.md)
+  * [Porque você deveria se importar?](about/why-should-you-care-about.md)
+  * [Como o Drupal Console ajuda?](about/how-does-drupal-console-help.md)
+  * [Onde eu encontro o projeto?](about/where-do-i-find-the-project.md)
 
-* [Getting the project](getting/project.md)
-  * [Using the Installer](getting/installer.md)
-  * [Using Composer](getting/composer.md)
-  * [Download phar file](getting/download.md)
-  * [Update project](getting/update.md)
+* [Obtendo o projeto](getting/project.md)
+  * [Utilizando o instalador](getting/installer.md)
+  * [Utilizando o Composer](getting/composer.md)
+  * [Baixar o arquivo phar](getting/download.md)
+  * [Atualizar o projeto](getting/update.md)
   
-* [Using the project](using/project.md)
-  * [How to copy configuration files](using/how-to-copy-configuration-files.md)
-  * [How to download, install and serve Drupal 8](using/how-to-download-install-and-serve-drupal8.md)
-  * [How to use Drupal Console in a multi-site installation](using/how-to-use-drupal-console-in-a-multisite-installation.md)
-  * [How to use Drupal Console in a remote installation](using/how-to-use-drupal-console-in-a-remote-installation.md)
+* [Utilizando o projeto](using/project.md)
+  * [Como copiar arquivos de configuração](using/how-to-copy-configuration-files.md)
+  * [Como baixar, instalar e servir Drupal 8](using/how-to-download-install-and-serve-drupal8.md)
+  * [Como usar o Drupal Console em uma instalação multi-site](using/how-to-use-drupal-console-in-a-multisite-installation.md)
+  * [Como usar o Drupal Console em uma instalação remota](using/how-to-use-drupal-console-in-a-remote-installation.md)
 
-* [Available commands](commands/available-commands.md)
-  {% include "./commands/available-commands-list.md" %}
+* [Comandos disponíveis](commands/available-commands.md)
+  {% include "./commands/available-commands-list.md" %}  
 
-* [Contributing to Drupal Console](contributing/new-features.md)
-   * [Project requirements](contributing/project-requirements.md)
-   * [Getting the project](contributing/getting-the-project.md)
-   * [Running the project](contributing/running-the-project.md)
-   * [Keeping your fork up to date](contributing/keeping-your-fork-up-to-date.md)
-   * [Creating issues and pull requests](contributing/creating-issues-and-pull-requests.md)
-   * [Contribute to this documentation](contributing/documentation.md "Contribute to the Drupal Console book")
+* [Contribuindo para o Drupal Console](contributing/new-features.md)
+   * [Requisitos de projeto](contributing/project-requirements.md)
+   * [Obtendo o projeto](contributing/getting-the-project.md)
+   * [Executando o projeto](contributing/running-the-project.md)
+   * [Mantendo o seu fork atualizado](contributing/keeping-your-fork-up-to-date.md)
+   * [Criando issues e pull requests](contributing/creating-issues-and-pull-requests.md)
+   * [Contribuir para essa documentação](contributing/documentation.md "Contribute to the Drupal Console book")
 
-* ## FAQ (Frequently Asked Questions) about Drupal Console
-   * [Installation problems](drupal_console_faq/installation-problems.md)
-   * [Permissions](drupal_console_faq/permissions.md)
-   * [Commands not listed](drupal_console_faq/commands-not-listed.md)
-   * [Interactive Mode](drupal_console_faq/interactive-mode.md)
+* ## FAQ (Perguntas mais frequentes) sobre o Drupal Console
+   * [Problemas de instalação](drupal_console_faq/installation-problems.md)
+   * [Permissões](drupal_console_faq/permissions.md)
+   * [Comandos não listados](drupal_console_faq/commands-not-listed.md)
+   * [Modo interativo](drupal_console_faq/interactive-mode.md)
 
-* ## [References](references/links.md)
+* ## [Referências](references/links.md)

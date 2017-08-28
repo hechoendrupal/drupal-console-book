@@ -1,16 +1,17 @@
-# How to use Drupal Console in a remote site installation
+# Como usar o Drupal Console em uma instalação remota do site
 
-Drupal Console allows you to run commands on your local server but actually execute them on a remote server.
+O Console Drupal permite que você execute comandos em seu servidor local, mas execute-os em um servidor remoto.
 
-You can take advantage of this feature, using the `--target` option and passing the remote site name you want to interact with.  
+Você pode aproveitar esse recurso, usando a opção `--target` e passando o nome do site remoto com o qual deseja interagir.  
 ```
 $ drupal --target=sample.dev cr all
 ```
 
-Setting up your local computer to use a remote site requires a little configuration.
+Configurar o seu computador local para usar um site remoto requer uma pequena configuração.
 
-### Edit global configuration 
-You can provide global configuration to remote connections at the copied file `~/.console/config.yml`. This information is grouped within the `remote` key.
+### Editar configuração global 
+Você pode fornecer configuração global para conexões remotas no arquivo `~ / .console / config.yml`. Esta informação é agrupada na chave 'remote'
+
 ```
 application:
   ...
@@ -26,8 +27,8 @@ application:
       passphrase: ~/.ssh/passphrase.txt
 ```
 
-### Edit specific site configuration
-You can provide specific site configuration by duplicating the copied site file at `~/.console/sites/sample.yml` with a new same at `~/.console/sites/`.
+### Editar configuração específica de site
+Você pode fornecer a configuração específica do site, duplicando o arquivo do site copiado em `~ / .console/sites/sample.yml` com um novo mesmo em` ~ /.console/sites/ `.
 
 ```
 local:
@@ -44,8 +45,8 @@ prod:
   console: /var/www/html/docroot/console.phar
 ```
 
-### Debug sites.
-You can list all known local and remote sites by executing the `site:debug` command.
+### Debugar sites.
+Você pode listar todos os sites locais e remotos conhecidos executando o comando `site: debug`.
 ```
 $ drupal site:debug
 
@@ -58,7 +59,7 @@ $ drupal site:debug
 +--------------------+-----------------+------------------------+
 ```
 
-You can show the site configuration details by passing the site name as argument to the `site:debug` command. 
+Você pode mostrar os detalhes da configuração do site passando o nome do site como argumento para o comando `site: debug`. 
 ```
 $ drupal site:debug sample.dev
 
@@ -76,4 +77,4 @@ host: 140.211.10.62
 remote: true
 ```
 
-**NOTE:** As you may notice the global configuration and the specific site configuration are merged when debugging a site. You can override any global configuration by adding those keys on the site specific configuration.  
+**OBSERVAÇÃO:** Como você pode notar a configuração global e a configuração específica do site são mescladas ao depurar um site. Você pode substituir qualquer configuração global adicionando essas chaves na configuração específica do site.  

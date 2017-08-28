@@ -1,4 +1,4 @@
-# Getting the project
-There are different ways to get the project on your local machine.
+# Obtendo o projeto
+Existem diferentes maneiras de obter o projeto em sua máquina local.
 
-Our recommendation for getting the project on your local machine is by using the installer.
+Nossa recomendação para obter o projeto em sua máquina local é usando o instalador.

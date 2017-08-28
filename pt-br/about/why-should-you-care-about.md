@@ -1,11 +1,11 @@
-# Why should you care about it
-Drupal 8 is more technically advanced compared to its predecessor and managing the increasing complexity of Drupal 8 could be a daunting task for anyone. Drupal Console is a suite of tools to help manage that complexity. Writing a Drupal 8 module now involves a lot more boilerplate code and there is a lot you need to know and do just to *get started* building a new module. These tasks can be repetitive and tedious, and can therefore create increased potential for errors. Fortunately, a lot of the new code can be automatically generated, using Drupal Console, without risk of copy/paste errors and with a lot of saved time.
+# Por que você deveria se preocupar com isso?
+O Drupal 8 é mais tecnicamente avançado em comparação com seu antecessor e gerenciar a crescente complexidade do Drupal 8 pode ser uma tarefa difícil para qualquer um. Drupal Console é um conjunto de ferramentas para ajudar a gerenciar essa complexidade. Escrever um módulo Drupal 8 agora envolve muito mais código de referência e há muito que você precisa saber e fazer apenas para _começar_ a construir um novo módulo. Essas tarefas podem ser repetitivas e tediosas e, portanto, podem aumentar o potencial de erros. Felizmente, muitos dos novos códigos podem ser gerados automaticamente, usando o Drupal Console, sem riscos de copiar/colar erros e com muito tempo economizado.
 
-## Benefits of the Drupal Console:
-* Takes advantage of the Symfony Console and other third-party components to generate PHP, YML, and other files.
-* Takes advantage of other modern development practices.
-* Saves development time, both during migration of existing Drupal modules and when writing new ones.
-* Provides easy-to-learn tools that make Drupal 8 development, by extension, also easier to learn.
-* Reduces development time for remaining Drupal 8 tasks and for development of new modules.
+## Benefícios do Drupal Console:
+* Aproveita o Console do Symfony e outros componentes de terceiros para gerar PHP, YML e outros arquivos.
+* Aproveita outras práticas de desenvolvimento modernas.
+* Economiza tempo de desenvolvimento, tanto durante a migração dos módulos Drupal existentes quanto para a escrita de novos.
+* Fornece ferramentas fáceis de aprender que tornam o desenvolvimento do Drupal 8, por extensão, também mais fácil de aprender.
+* Reduz o tempo de desenvolvimento para as tarefas do Drupal 8 e para o desenvolvimento de novos módulos.
 
-Follow along in this documentation as we explore the power of this exciting new set of tools.
+Acompanhe essa documentação enquanto exploramos o poder desse novo e emocionante conjunto de ferramentas.

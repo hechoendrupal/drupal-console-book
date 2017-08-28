@@ -1,15 +1,15 @@
-# How to download, install and serve Drupal 8
+# Como baixar, instalar e servir o Drupal 8
 
-The easiest way to try Drupal 8 in your local machine is by executing the `chain` command and pass the option `--file=~/.console/chain/quick-start.yml` as shown on the following example.
+A maneira mais fácil de experimentar o Drupal 8 em sua máquina local é executando o comando `chain` e passa a opção` --file = ~ / .console / chain / quick-start.yml 'como mostrado no exemplo a seguir.
 
 ```
 $ drupal chain --file=~/.console/chain/quick-start.yml
 ```
-> NOTE: You must execute `drupal init` before in order to copy the `~/.console/chain/quick-start.yml` on your system.
+> OBSERVAÇÃO: Você deve executar `drupal init` antes de copiar o` ~ / .console / chain / quick-start.yml` no seu sistema.
 
-The `chain` command helps you to automate command execution, allowing you to define an external YAML file containing the definition name, option and arguments of several commands and execute that list based on the sequence defined in the file.
+O comando `chain` ajuda você a automatizar a execução do comando, permitindo que você defina um arquivo YAML externo que contenha o nome da definição, a opção e os argumentos de vários comandos e execute essa lista com base na seqüência definida no arquivo.
 
-The content of the provided `~/.console/chain/quick-start.yml` file is:
+Os conteúdos do arquivo fornecido `~ / .console / chain / quick-start.yml` são:
 ```
 commands:
   - command: site:new
@@ -33,6 +33,6 @@ commands:
   - command: server
 ```
 
-The previous configuration will execute several commands, in this case commands that will download and install Drupal using SQLite, and finally start the PHP's built in server, now you only need to open your browser and point it to 127.0.0.1:8088.
+A configuração anterior executará vários comandos, neste caso, comandos que irão baixar e instalar o Drupal usando o SQLite e, finalmente, iniciar o servidor incorporado do PHP, agora você só precisa abrir seu navegador e apontá-lo para 127.0.0.1:8088.
 
-You can duplicate or make changes on the provided YAML file, to add commands for download modules `module:download`, install modules `module:install` , import configurations `config:import` and restore your database `database:restore` or any other command provided by DrupalConsole or a custom command by your own module.
+Você pode duplicar ou fazer alterações no arquivo YAML fornecido, para adicionar comandos para módulos de download `module: download`, instalar módulos` module: install`, importar configurações `config: import` e restaurar o banco de dados` database: restore` ou any Outro comando fornecido pelo DrupalConsole ou um comando personalizado pelo seu próprio módulo.

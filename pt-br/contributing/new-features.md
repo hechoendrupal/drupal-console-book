@@ -1,11 +1,12 @@
-# Contributing new features
-If you create a new custom command or something else which would be useful for *other* Drupal installations, please consider [forking the Drupal Console project on GitHub](getting-the-project.md "Fork the Drupal Console project and clone it locally to add your functionality"). Then just [create an issue for a "feature request"](creating-issues-and-pull-requests.md "Add a new feature request as an “issue” and indicate you are working on it"), put your work in a new Git branch on your fork, publish your branch and add a pull request on GitHub (including your issue ID in the PR title). The Drupal Console maintainers are very happy to accept useful contributions and usually do so quite promptly.
+# Contribuindo com novos recursos
+Se você criar um novo comando personalizado ou algo mais que seja útil para *outras* instalações do Drupal, considere [bifurcar o projeto Drupal Console no GitHub](get-the-project.md "Fork no projeto Drupal Console e cloná-lo localmente para adicionar sua funcionalidade"). Então, apenas [crie uma issue ou "feature request"](create-issues-and-pull-requests.md "Adicionando uma nova feature como uma "issue" e indicando que você está trabalhando nela"), coloque seu trabalho em uma nova branch Git no seu fork, publique sua branch e adicione um pull request no GitHub (incluindo o ID do problema no título PR). Os mantenedores do Drupal Console estão muito felizes em aceitar contribuições úteis e geralmente o fazem com bastante prontidão.
 
-## Getting support with becoming a contributor
-If you want to contribute to Drupal Console and have any difficulty getting oriented to the process, you can find [Instant Messaging support on Gitter IM](https://gitter.im/hechoendrupal/DrupalConsole).
+## Obter suporte para se tornar um contribuinte
+Se você deseja contribuir com o Drupal Console e tiver qualquer dificuldade em orientar-se para o processo, você pode encontrar [Suporte de mensagens instantâneas no Gitter IM](https://gitter.im/hechoendrupal/DrupalConsole).
 
-## Standard GitHub Workflow
-If you haven't yet contributed to a project on GitHub, or are not sure you remember the workflow, you might first want to read the documentation  about [pull requests](https://help.github.com/articles/using-pull-requests/). You may also wish to download the GitHub application ([Mac](https://mac.github.com) | [Windows](https://windows.github.com), which simplifies the workflow a bit and provides a nice GUI for your contributions).
+## Fluxo de trabalho padrão do GitHub
+Se você ainda não contribuiu para um projeto no GitHub ou ainda não está certo de como o fluxo de trabalho se parece, leia a documentação sobre [pull requests](https://help.github.com/articles/using-pull- requests/). Você também pode baixar o aplicativo GitHub ([Mac](https://mac.github.com) | [Windows](https://windows.github.com), o que simplifica um pouco o fluxo de trabalho e fornece uma boa GUI para suas contribuições).
 
-## Github-flavored Markdown
-This documentation is written in “Github-flavored Markdown”, which is rendered on Github, directly, as HTML. If you are *already* familiar with Markdown, [GFL only adds a few useful tweaks](https://help.github.com/articles/github-flavored-markdown/ "Github-Flavored Markdown—official documentation"), otherwise you may want to read Github’s [Markdown Basics](https://help.github.com/articles/markdown-basics/) primer.
+## Markdown no padrão Github-flavored
+Esta documentação é escrita em "Markdown no padrão Github-flavored"
+This documentation is written in “Github-flavored Markdown”, que é renderizado no Github, diretamente, como HTML. Se você *já estiver* familiarizado com Markdown [GFL apenas adiciona alguns ajustes úteis](https://help.github.com/articles/github-flavored-markdown/ "Markdown no padrão Github-flavored—documentação oficial"), caso contrário, você pode querer ler o guia [Markdown Basics](https://help.github.com/articles/markdown-basics/) do Github.
