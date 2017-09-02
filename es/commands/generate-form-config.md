@@ -21,3 +21,25 @@ Opción | Detalles
 --menu-link-title | Título para el enlace de menú
 --menu-parent | Menú padre
 --menu-link-desc | Descripción para el enlace de menú
+
+## Ejemplos
+* Generar un formulario vacío con un archivo de configuración especificando el nombre de módulo, la clase un ID de formulario y la ruta
+```
+drupal generate:form:config  \
+  --module="modulename"  \
+  --class="DefaultForm"  \
+  --form-id="default_form"  \
+  --config-file  \
+  --path="/modulename/form/default"
+```
+* Genera un formulario con dos campos y un archivo de configuración especificando el nombre del módulo, la clase, el ID de formulario, los inputs y la ruta
+```
+drupal generate:form:config  \
+  --module="modulename"  \
+  --class="DefaultForm"  \
+  --form-id="default_form"  \
+  --config-file  \
+  --inputs='"name":"inputname", "type":"text_format", "label":"InputName", "options":"", "description":"Just a text input", "maxlength":"", "size":"", "default_value":"", "weight":"0", "fieldset":""'  \
+  --inputs='"name":"email", "type":"email", "label":"Email", "options":"", "description":"Just an email input", "maxlength":"", "size":"", "default_value":"", "weight":"0", "fieldset":""'  \
+  --path="/modulename/form/default"
+```
