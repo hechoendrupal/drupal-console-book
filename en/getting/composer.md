@@ -23,7 +23,6 @@ drupal8.dev \
 ```
 
 ## Update DrupalConsole
-
 ```
 composer update drupal/console --with-dependencies
 ```

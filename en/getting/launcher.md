@@ -1,4 +1,4 @@
-# Install Drupal Console Launcher
+# Install Drupal Console Launcher using the phar
 
 ```
 curl https://drupalconsole.com/installer -L -o drupal.phar
@@ -18,6 +18,16 @@ drupal self-update
 ## Run Drupal Console using the Launcher
 ```
 drupal
+```
+
+## Installing the Launcher using Composer 
+Set Composer global `minimum-stability` and `prefer-stable` configurations.
+```
+composer config minimum-stability dev
+composer config prefer-stable true
+```
+```
+composer global require drupal/console-launcher:~1.0
 ```
 
 You must execute the launcher within a drupal site directory or use `--root=/path/to/drupal8.dev
