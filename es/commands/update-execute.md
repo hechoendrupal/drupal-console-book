@@ -11,10 +11,14 @@ upex
 Argumento | Detalles
 ---------|-------------
 module | Nombre del módulo.
-update-n | Función específica de Actualizar N que será ejecutada
+update-n | commands.update.execute.options.update-n
 
 ## Ejemplos
 * Actualizar todas las entidades
 ```
 drupal update:execute
+```
+* Ejecutar las actualizaciones del módulo system
+```
+drupal update:execute system
 ```
