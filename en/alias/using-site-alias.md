@@ -17,7 +17,7 @@ List of valid key/value options for site alias file configuration.
  
 * **root**: Drupal root project directory.
 * **host**: Domain name of the remote system. Not required on local sites.
-* **port**: The port to use when connecting via shh. The port 22 used by default. 
+* **port**: The port to use when connecting via ssh. The port 22 used by default. 
 * **user**: The username to use when connecting via ssh.
 * **options**: Array of valid DrupalConsole options.
 * **arguments**: Array of valid DrupalConsole arguments.
