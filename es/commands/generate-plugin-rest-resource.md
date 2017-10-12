@@ -12,7 +12,6 @@ Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
 --class | Nombre de la clase del plugin de recurso rest
---name | commands.generate.service.options.name
 --plugin-id | ID del plugin de recurso rest
 --plugin-label | Etiqueta del plugin de recurso rest
 --plugin-url | URL del plugin de recurso rest

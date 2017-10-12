@@ -6,6 +6,7 @@ Crea una url de login de usuario de uso único.
 drupal user:login:url [arguments]
 ulu
 usli
+uli
 ```
 
 ## Argumentos disponibles

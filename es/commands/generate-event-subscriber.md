@@ -11,7 +11,7 @@ ges
 Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---name | commands.generate.service.options.name
+--name | Nombre del servicio
 --class | Nombre de la clase
 --events | Cargar eventos desde el contenedor.
 --services | Cargar servicios desde el contenedor.

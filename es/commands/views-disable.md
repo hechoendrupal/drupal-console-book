@@ -11,7 +11,7 @@ vdi
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-view-id | commands.views.debug.arguments.view-id
+view-id | ID de Vista
 
 ## Ejemplos
 * Deshabilitar la vista content

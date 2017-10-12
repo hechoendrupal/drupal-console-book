@@ -10,9 +10,9 @@ ur
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-operation | commands.user.role.operation
-user | commands.user.role.user
-role | commands.user.role.role
+operation | Añadir o eliminar
+user | El usuario en cuestión (sólo uno)
+role | Roles a añadir o eliminar. Por favor, indique el nombre máquina (sólo uno)
 
 ## Ejemplos
 * Añadir el rol administrador al usuario administrador espacificando el nombre de usuario y el rol

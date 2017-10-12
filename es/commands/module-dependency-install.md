@@ -1,5 +1,5 @@
 # module:dependency:install
-commands.module.install.dependencies.description
+Instalar las dependencias de módulos en la aplicación
 
 **Uso:**
 ```
@@ -10,7 +10,7 @@ modi
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-module | commands.module.install.dependencies.arguments.module
+module | Los módulo o módulos que serán habilitados deberían estar separados por un espacio
 
 ## Ejemplos
 * Instalar las dependencias del módulo especificado

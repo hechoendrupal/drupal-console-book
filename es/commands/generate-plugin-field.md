@@ -14,8 +14,8 @@ Opción | Detalles
 --type-class | Nombre de clase del plugin de tipo de campo
 --type-label | Etiqueta del plugin de tipo de campo
 --type-plugin-id | ID del plugin de tipo de campo
---type-description | commands.generate.plugin.field.options.type-type-description
---formatter-class | commands.generate.plugin.field.options.class
+--type-description | Descripción del plugin de tipo de campo
+--formatter-class | Nombre de clase del plugin de formateador de campo
 --formatter-label | Etiqueta del plugin de formateador de campo
 --formatter-plugin-id | ID del plugin de formateador de campo
 --widget-class | Nombre de clase del plugin de formateador de campo

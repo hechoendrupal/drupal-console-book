@@ -11,8 +11,8 @@ gcc
 Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---cache-context | Introduzca el nombre del contexto de caché
---class | Nombre de la clase de contexto de caché
+--cache-context | El nombre del contexto de caché
+--class | El nombre de la clase de contexto de caché
 --services | Cargar servicios desde el contenedor.
 
 ## Ejemplos

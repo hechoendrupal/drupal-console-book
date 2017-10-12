@@ -11,10 +11,10 @@ gs
 Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---name | commands.generate.service.options.name
+--name | Nombre del servicio
 --class | Nombre de la clase
---interface | commands.common.service.options.interface
---interface-name | commands.common.service.options.interface-name
+--interface | Interfaz
+--interface-name | Nombre de la interfaz
 --services | Cargar servicios desde el contenedor.
 --path-service | Ruta
 

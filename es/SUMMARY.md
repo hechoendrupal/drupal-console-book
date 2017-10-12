@@ -12,16 +12,27 @@
   * [Utilizando el Instalador](getting/installer.md)
   * [Utilizando Composer](getting/composer.md)
   * [Descargando el archivo phar](getting/download.md)
+  * [Instalación en Windows](getting/windows.md)
   * [Actualizar la Drupal Console](getting/update.md)
 
-* [Using the project](using/project.md)
+* [Usando el proyecto](using/project.md)
   * [Cómo copiar los ficheros de documentación](using/how-to-copy-configuration-files.md)
   * [Cómo descargar, instalar y servir Drupal 8](using/how-to-download-install-and-serve-drupal8.md)
   * [Cómo usar la Drupal Console en una instalación multi-sitio](using/how-to-use-drupal-console-in-a-multisite-installation.md)
-  * [Cómo usar la Drupal Console en una instalación remota](using/how-to-use-drupal-console-in-a-remote-installation.md)
 
-* [Comandos disponibles](commands/available-commands.md)
-  {% include "./commands/available-commands-list.md" %}
+* [Usando alias de sitios](alias/using-site-alias.md)
+  * [Preparando su entorno local](alias/setting-up-your-local-machine.md)
+  * [Cómo usar la Drupal Console en una instalación remota](alias/how-to-use-drupal-console-in-a-remote-installation.md)
+  * [Conectando a un entorno virtual](alias/connecting-to-a-virtual-environment.md)
+
+
+* [Creando comandos personalizados](extending/creating-custom-commands.md)
+  * [La clase Command](extending/the-command-class.md)
+  * [Registrando comandos](extending/registering-commands.md)
+  * [Configurando el comando](extending/configuring-the-command.md)
+  * [Ciclo de vida de un comando](extending/command-lifecycle.md)
+  * [Obteniendo servicios desde el Contenedor de Servicios](extending/getting-services-from-the-service-container.md)
+  * [Generado código con un comando](extending/generating-code.md)
 
 * [Contribuyendo a la Drupal Console](contributing/new-features.md)
    * [Requerimientos del proyecto](contributing/project-requirements.md)
@@ -31,10 +42,13 @@
    * [Reportando errores y crear Pull requests](contributing/creating-issues-and-pull-requests.md)
    * [Contribuir a esta documentación](contributing/documentation.md "Contribute to the Drupal Console book")
 
-* ## Preguntas frecuentes acerca de la Drupal Console
+* [Comandos disponibles](commands/available-commands.md)
+  {% include "./commands/available-commands-list.md" %}
+
+* [Preguntas frecuentes acerca de la Drupal Console](drupal_console_faq/faq.md)
    * [Problemas de instalación](drupal_console_faq/installation-problems.md)
    * [Permisos](drupal_console_faq/permissions.md)
    * [Comandos no listados](drupal_console_faq/commands-not-listed.md)
    * [Modo interactivo](drupal_console_faq/interactive-mode.md)
 
-* ## [Referencias](references/links.md)
+* [Referencias](references/links.md)

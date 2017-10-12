@@ -15,7 +15,7 @@ Opción | Detalles
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-theme | commands.theme.install.options.module
+theme | tema o temas que serán activados deberían estar separados por comas
 
 ## Ejemplos
 * Instalar un tema especificando el nombre

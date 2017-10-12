@@ -5,7 +5,6 @@ Eliminar eventos de la tabla DBLog, filtros disponibles
 ```
 drupal database:log:clear [arguments] [options]
 dblc
-dbc
 ```
 
 ## Opciones disponibles

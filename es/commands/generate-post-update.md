@@ -1,5 +1,5 @@
 # generate:post:update
-commands.generate.post:update.description
+Generar una implementación de hook_post_update_NAME()
 
 **Uso:**
 ```

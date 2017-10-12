@@ -13,7 +13,7 @@ Opción | Detalles
 --path | La ruta de contrib del proyecto
 --latest | Valor por defecto que descarga la versión más reciente
 --composer | Descarga el módulo usando Composer
---unstable | commands.module.install.options.unstable
+--unstable | Módulo inestable (versión de desarrollo)
 
 ## Argumentos disponibles
 Argumento | Detalles

@@ -10,9 +10,9 @@ gt
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---theme | commands.generate.theme.options.module
+--theme | Nombre del tema
 --machine-name | Nombre máquina (sólo minúsculas y guión bajo)
---theme-path | commands.generate.theme.options.module-path
+--theme-path | Ruta del tema
 --description | Descripción del tema
 --core | Versión del core
 --package | Paquete del tema

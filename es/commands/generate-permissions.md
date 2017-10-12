@@ -1,5 +1,5 @@
 # generate:permissions
-commands.generate.permission.description
+Generar permisos de módulo
 
 **Uso:**
 ```

@@ -11,7 +11,7 @@ gps
 Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---plugin-id | commands.generate.plugin.options.plugin-id
+--plugin-id | El ID del plugin.
 --class | Nombre de la clase del plugin
 --services | Cargar servicios desde el contenedor.
 

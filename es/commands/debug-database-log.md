@@ -5,6 +5,7 @@ Muestra los eventos de log actuales de la aplicación
 ```
 drupal debug:database:log [arguments] [options]
 dbb
+ws
 ```
 
 ## Opciones disponibles

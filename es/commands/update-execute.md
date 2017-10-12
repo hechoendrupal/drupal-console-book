@@ -5,6 +5,7 @@ Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecuta
 ```
 drupal update:execute [arguments]
 upex
+updb
 ```
 
 ## Argumentos disponibles

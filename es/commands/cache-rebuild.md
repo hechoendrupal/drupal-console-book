@@ -5,6 +5,7 @@ Reconstruye y limpia todas las cachés del sitio.
 ```
 drupal cache:rebuild [arguments]
 cr
+cc
 ```
 
 ## Argumentos disponibles

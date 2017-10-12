@@ -10,7 +10,7 @@ thu
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-theme | commands.theme.uninstall.options.module
+theme | El tema o temas para ser desinstalado deben ser separados por comas
 
 ## Ejemplos
 * Desinstalar tema especificando su nombre
