@@ -23,8 +23,8 @@ drupal
 ## Installing the Launcher using Composer 
 Set Composer global `minimum-stability` and `prefer-stable` configurations.
 ```
-composer config minimum-stability dev
-composer config prefer-stable true
+composer global config minimum-stability dev
+composer global config prefer-stable true
 ```
 ```
 composer global require drupal/console-launcher:~1.0
