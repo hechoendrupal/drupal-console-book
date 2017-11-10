@@ -15,7 +15,11 @@ user | ID de usuario
 password | Contraseña en formato de texto
 
 ## Ejemplos
-* Actualizar la constraseña especificando el id de usuario y la nueva contraseña
+* Actualizar la constraseña especificando el ID de usuario y la nueva contraseña
 ```
 drupal user:password:reset  2 p455w0rd
+```
+* Actualizar la contraseña especificando el usuario jmolivas y la nueva contraseña
+```
+drupal user:password:reset jmolivas p455w0rd
 ```

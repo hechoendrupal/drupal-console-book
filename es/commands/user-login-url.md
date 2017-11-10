@@ -12,10 +12,14 @@ uli
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-user-id | Id de usuario.
+user-id | ID de usuario.
 
 ## Ejemplos
-* Proporciona una url de login de un sólo uso para el id de usuario 1
+* Proporciona una URL de login de un sólo uso para el ID de usuario 1
 ```
 drupal user:login:url  1
+```
+* Proporciona una URL de login de un sólo uso para el usuario jmolivas
+```
+drupal user:login:url jmolivas
 ```

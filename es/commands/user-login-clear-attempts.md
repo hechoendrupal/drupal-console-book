@@ -11,4 +11,4 @@ uslca
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-uid | Id de usuario.
+uid | commands.user.login.clear.attempts.options.user-id
