@@ -1,13 +1,14 @@
-# Creating an Issue
-If you found an issue or maybe you like to propose a new feature to the project, you need to access the following link:
+# Сообщить о проблеме
+Если вы обнаружили проблему или может быть вы хотите предложить новую возможность в проекте, вам нужно использовать следующую ссылку:
 
 https://github.com/hechoendrupal/drupal-console/issues/new
 
-Please review the guidelines for contributing to Drupal Console at:
+Пожалуйста, ознакомьтесь с рекомендациями по участию в проекте Drupal Console здесь:
 
 https://github.com/hechoendrupal/drupal-console/blob/master/CONTRIBUTING.md
 
-## Creating a Pull Request
-Remember to create a branch before start developing! It's name should contain the issue id and a slug to tell what the thing you're working on is about, for example: `1337-lorem-ipsum`
+## Создание Pull Request
+Для начала разработки необходимо создать ветку! Имя ветки должно содержать ID проблема и короткое описание задачи над которой вы работаете, пример: `1337-lorem-ipsum`
 
-If you haven't yet contributed to a project on GitHub, or aren't still sure what the workflow looks like, read the documentation about [pull requests](https://help.github.com/articles/using-pull-requests/). You may also wish to download the GitHub application ([Mac](https://mac.github.com) | [Windows](https://windows.github.com), which simplifies the workflow a bit and provides a nice GUI for your contributions).
+Если вы не участвовали прежде в каком-либо проекте на GitHub или вы не уверены как происходит рабочий процесс, пожалуйста, прочтите сначала документацию о [pull request] (https://help.github.com/articles/using-pull-requests/). Также, вы можете скачать приложение GitHub.
+([Mac](https://mac.github.com) | [Windows](https://windows.github.com), которое немного облегчает рабочий процесс и имеет удобный графический интерфейс для вашего участия.
