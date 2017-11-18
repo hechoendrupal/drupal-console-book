@@ -10,7 +10,7 @@ ud
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---user-id | ID de usuario que será eliminado
+--user | Nombre de usuario o ID a eliminar
 --roles | Roles asociados a los usuarios que serán eliminados
 
 ## Ejemplos

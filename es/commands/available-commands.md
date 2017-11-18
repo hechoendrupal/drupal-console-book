@@ -32,6 +32,7 @@ Comando de Drupal Console | Detalles
 **create**  |
 [create:comments](create-comments.md) | Crear comentarios de prueba para tu aplicación en Drupal 8.
 [create:nodes](create-nodes.md) | Crea nodos de relleno para su Drupal 8.
+[create:roles](create-roles.md) | Crea roles de ejemplo para su aplicación Drupal 8.
 [create:terms](create-terms.md) | Crea términos de relleno para tu Drupal 8.
 [create:users](create-users.md) | Crea usuarios de prueba para tu Drupal 8.
 [create:vocabularies](create-vocabularies.md) | Crea vocabularios de prueba para tu Drupal 8.
@@ -68,11 +69,13 @@ Comando de Drupal Console | Detalles
 [debug:permission](debug-permission.md) | Muestra todos los permisos y además lista todos los permisos de un especifico rol de usuario.
 [debug:plugin](debug-plugin.md) | Muestra todos los tipos de plugins.
 [debug:queue](debug-queue.md) | Muestra las colas de su aplicación
+[debug:roles](debug-roles.md) | Muestra los roles actuales de la aplicación
 [debug:router](debug-router.md) | Muestra las rutas actuales de la aplicación o la información detallada de una ruta en particular
 [debug:settings](debug-settings.md) | Ofrece un listado de la configuración de usuario de Drupal Console.
 [debug:site](debug-site.md) | Lista todos los sitios conocidos locales y remotos.
 [debug:state](debug-state.md) | Muestra las claves de Estado actual.
 [debug:theme](debug-theme.md) | Muestra los temas actuales en la aplicación.
+[debug:theme:keys](debug-theme-keys.md) | Muestra todas las claves del tema que proveen las funciones del hook hook_theme
 [debug:update](debug-update.md) | Muestra las actualizaciones disponibles
 [debug:user](debug-user.md) | Muestra los usuarios existentes en el sitio
 [debug:views](debug-views.md) | Muestra los recursos actuales de vistas en el sitio
@@ -114,6 +117,7 @@ Comando de Drupal Console | Detalles
 [generate:form:alter](generate-form-alter.md) | Genera una implementación de hook_form_alter() o hook_form_FORM_ID_alter
 [generate:form:config](generate-form-config.md) | commands.generate.form.description
 [generate:help](generate-help.md) | Genera una implementación de hook_help()
+[generate:jstest](generate-jstest.md) | Genera un test Javascript.
 [generate:module](generate-module.md) | Generar un módulo.
 [generate:module:file](generate-module-file.md) | Generar un archivo .module
 [generate:permissions](generate-permissions.md) | Generar permisos de módulo
@@ -153,12 +157,15 @@ Comando de Drupal Console | Detalles
 [module:update](module-update.md) | Actualizar el core, un módulo o varios en la aplicación
 **multisite**  |
 [multisite:new](multisite-new.md) | Prepara los archivos para una nueva instalación multisitio.
+[multisite:update](multisite-update.md) | Actualiza los archivos de una instalación multisitio.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Reconstruir los permisos de acceso a nodos. La reconstrucción eliminará todos los privilegios al contenudo y los reemplazará con permisos basado en los módulos y configuración actual,
 **queue**  |
 [queue:run](queue-run.md) | Procesa la cola seleccionada.
 **quick**  |
 [quick:start](quick-start.md) | Download, install and serve a new Drupal project
+**role**  |
+[role:new](role-new.md) | Crea roles para la aplicación
 **router**  |
 [router:rebuild](router-rebuild.md) | Reconstruye los enrutamientos de la aplicación
 **settings**  |

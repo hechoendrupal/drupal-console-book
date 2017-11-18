@@ -11,7 +11,7 @@ upsr
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-user | ID de usuario
+user | Nombre de usuario o ID
 password | Contraseña en formato de texto
 
 ## Ejemplos

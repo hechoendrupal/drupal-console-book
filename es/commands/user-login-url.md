@@ -12,7 +12,7 @@ uli
 ## Argumentos disponibles
 Argumento | Detalles
 ---------|-------------
-user-id | ID de usuario.
+user | Nombre/ID de usuario.
 
 ## Ejemplos
 * Proporciona una URL de login de un sólo uso para el ID de usuario 1
