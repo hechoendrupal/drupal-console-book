@@ -41,4 +41,4 @@ commands:
 
 The previous configuration will execute several commands, in this case commands that will download and install Drupal using SQLite, and finally start the PHP's built in server, now you only need to open your browser and point it to 127.0.0.1:8088.
 
-You can duplicate or make changes on the provided YAML file, to add commands for download modules `module:download`, install modules `module:install`, import configurations `config:import` and restore your database `database:restore` or any other command provided by DrupalConsole or a custom command by your own module.
+You can duplicate or make changes on the provided YAML file, to add commands to download modules `module:download`, install modules `module:install`, import configurations `config:import` and restore your database `database:restore` or any other command provided by DrupalConsole or a custom command by your own module.
