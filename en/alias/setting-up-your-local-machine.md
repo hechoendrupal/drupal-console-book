@@ -4,7 +4,7 @@ Using a site alias requires some local configuration.
 
 ## Global configuration 
 
-Global configuration can provided using the copied file `~/.console/config.yml`. This information is grouped within the `remote` key.
+Global configurations can be provided using the copied file `~/.console/config.yml`. This information is grouped within the `remote` key.
 
 ```
 application:
