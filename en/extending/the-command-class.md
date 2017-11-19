@@ -20,7 +20,7 @@ class DefaultCommand extends Command
 
 By extending the `ContainerAwareCommand` Class on your class for the command (instead of the more basic `Command`), you also have access to the service container.
 
-In other words, you can access to any configured Drupal service using the provided `get` method.
+In other words, you can access any configured Drupal service using the provided `get` method.
 
 1.- Import the `ContainerAwareCommand` Class.
 ```
