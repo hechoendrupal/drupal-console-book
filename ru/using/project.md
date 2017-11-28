@@ -2,12 +2,12 @@
 
 Два типа команд Drupal Console
 
-1. **Доступные глобально:** Команды, которые можено запустить из любой папки.
-2. **Доступные отдельному сайту:** Команды, которые можено запустить только из папки с Drupal.
+1. **Доступные глобально:** Команды, которые можно запустить из любой папки.
+2. **Доступные отдельному сайту:** Команды, которые можно запустить только из папки с Drupal.
 
 ### Запуск Drupal Console из любой папки 
 
-Drupal Console можно запустить из любой папки используя опцию `--root` option to define the Drupal root to be use in the command execution. 
+Drupal Console можно запустить из любой папки, используя опцию `--root` опцию для того, чтобы указать корневую папку Drupal, где команда будет запущена. 
 
 ```
 drupal --root=/var/www/drupal8.dev cr all
@@ -15,11 +15,9 @@ drupal --root=/var/www/drupal8.dev cr all
 **ВНИМАНИЕ:** При запуске Drupal Console из папки без Drupal без опции `--root` можно увидеть следующие сообщения:
 
 Сообщение при запуске Drupal Console из папки без Drupal
-> Перейдите в папку с Drupal, чтобы увидеть список всех комманд
-> In order to list all of the available commands, you should run this inside a drupal root directory.
+> Чтобы увидеть список всех доступных команд перейдите в корневую папку Drupal.
 
 Сообщение при запуске Drupal Console из папки с неустановленным Drupal
-> Установите Drupal, чтобы увидеть список всех комманд
-> In order to list all of the available commands you should install drupal first.
+> Чтобы увидеть список всех доступных команд установите сначала Drupal.
 
-Помните, что вам все еще нужно уствновить Drupal Console при сайте следуя иструкции [2.1](../getting/composer.md) при установленном сайте Drupal 8 и глобальном пусковом файле Drupal Console по иструкции [2.2](../getting/launcher.md).
+Если у вас уже есть установленный Drupal 8 сайт и установленный глобально файл запуска по инструкции [2.2](../getting/launcher.md), вам все еще нужно установить отдельно Drupal Console внутри вашего Drupal 8 сайт, следуя инструкции [2.1](../getting/composer.md).
