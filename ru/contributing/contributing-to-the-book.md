@@ -1,24 +1,24 @@
 
-*This page is a meeting point for translators. If you're one, consider yourself invited to edit this page and state constancy of your opinions and your work*
+*Эта страница является местом встречи переводчиков. Если вы являетесь одним из них, приглашаем вас отредактировать эту страницу и выразить верность вашему мнению и вашей работе*
 
-# Guide for translators #
-If you would like to help in the translation of this book, consider yourself welcome. Please, keep in mind the following guidelines:
+# Руководство для переводчиков #
+Если вы хотели бы помочь в переводе этой книги, добро пожаловать. Пожалуйста, примите во внимание следующие рекомендации:
 
-* Be gender neutral.
-* Code and examples should not be translated.
-* Use a formal style. We prefer a formal tone.
+* Будьте нейтральны по отношению к полу.
+* Код и примеры не должны переводиться.
+* Используйте формальный стиль. Мы предпочитаем формальный тон.
 
-# Generar traducidos todos los comandos disponibles #
-*Over time, DrupalConsole programmers add more and more commands, so it's possible some available commands weren't present in this book if they are not added to the book as they are added.
-In order to solve this problem, with a single command is possible to generate (already translated) all the .md files belonging to all the available commands*
+# Перевод всех доступных команд #
+*Со временем, программисты DrupalConsole добавляют все больше и больше команд, вполне возможно, что некоторые команды не были представлены в этой книге, если они были не добавлены по мере их появления.
+Эту проблему можно решить, используя одну команду, которая сгенерирует все .md файлы (уже переведенные) для всех доступных команд*
 
-##Comand for generating documentation of all available commands currently##
-If you have cloned in your local machine both projects, DrupalConsole and this book, you should execute the following command from a directory where Drupal were installed (or using the *--root* option):
+##Команда генерации документации для всех доступных команд на текущий момент##
+Если вы склонировали локально оба проекта:  DrupalConsole и эту книгу, вам необходимо запустить следующую команду из директории куда был установлен Drupal (или используя *--root* опцию):
 
 ``` drupal generate:doc:gitbook --path=/path/directorio/drupal-console-book/en ```
 
-(Please, check you have DrupalConsole correctly configured previously in your local machine in your desired language in order to get all the commands in your language.
-[Files will be generated in the language you have DrupalConsole configured])
+(Пожалуйста, проверьте, что DrupalConsole корректно сконфигурирован локально для предпочитаемого языка, чтобы получить все команды на вашем языке.
+[Файлы будут сгенерированы на языке, который был использован для конфигурации DrupalConsole])
 
 ___
-*Please, in case of doubt, dissent or just if you want to make a proposal, please file an issue on this repository or edit directly this page.*
+*Пожалуйста, в случае сомнения, несогласия или если вы просто хотите предложить изменение, пожалуйста, напишите о проблеме в этом репозитории или отредактируйте непосредственно эту страницу*
