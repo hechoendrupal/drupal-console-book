@@ -1,5 +1,5 @@
 # generate:form
-Generate a new "%s"
+Generate a new form
 
 **Usage:**
 ```
@@ -43,3 +43,43 @@ drupal generate:form  \
   --inputs='"name":"email", "type":"email", "label":"Email", "options":"", "description":"Just an email input", "maxlength":"", "size":"", "default_value":"", "weight":"0", "fieldset":""'  \
   --path="/modulename/form/default"
 ```
+## Field Type Options
+You can add fields to the generated form after you see the prompt "New field type (press <return> to stop adding fields) []". When you begin to type in some text, then autocomplete will display the name of a valid field type if there is one available. The valid field types are as follows (this list was generated from testing the field types shown at https://api.drupal.org/api/drupal/elements/8.3.x). 
+  
+* button
+* checkbox
+* checkboxes
+* color
+* datelist
+* datetime
+* email
+* field_ui_table
+* fieldset
+* file
+* hidden
+* image_button
+* item
+* language_select
+* machine_name
+* managed_file
+* number
+* password
+* password_confirm
+* path
+* radio
+* radios
+* range
+* search
+* select
+* submit
+* table
+* table_select
+* tel
+* text_format
+* text_area
+* text_field
+* token
+* url
+* value
+* weight
+* submit
