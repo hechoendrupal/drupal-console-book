@@ -1,6 +1,6 @@
-# Getting Services from the Service Container
+# Получение сервисов из контейнера сервисов
 
-By using `ContainerAwareCommand` as the base class for the command (instead of the more basic `Command`), you have access to the service container. In other words, you have access to any configured service using the provided `getService` method.
+Используя `ContainerAwareCommand` как базового класса для ваших команд (вместо более простого `Command`), у вас есть доступ к контейнеру сервисов. Другими словами, у вас есть доступ к любому сконфигурированному сервису, используя предоставленный метод `getService`.
 
 ```
 protected function execute(InputInterface $input, OutputInterface $output)
