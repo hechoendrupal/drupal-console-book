@@ -1,21 +1,21 @@
 # Project requirements
 
-## Download Git
-We recommend downloading Git from [http://git-scm.com/downloads](http://git-scm.com/downloads)
+## Загрузить Git
+Мы рекомендуем загрузить Git с [http://git-scm.com/downloads](http://git-scm.com/downloads)
 
-## Download Composer
+## Загрузить Composer
 
-Run this in your terminal to get the latest Composer version:
+Запустите эту команду в вашей командной строке для того, чтобы получить последнюю версию Composer:
 ```
 curl -sS https://getcomposer.org/installer | php
 ```
-Or if you don't have curl:
+Или если у вас не установлен curl:
 ```
 php -r "readfile('https://getcomposer.org/installer');" | php
 ```
-This installer script will simply check some php.ini settings, warn you if they are set incorrectly, and then download the latest composer.phar in the current directory
+Этот установочный скрипт проверит некоторые настройки php.ini, предупредит вас если они установлены не верно и скачает последнюю версию composer.phar в текущий каталог
 
-You can run this terminal command to make Composer easily accessible, from anywhere on your system:
+Вы можете запустить следующую команду в командной строке для того, чтобы сделать Composer доступным повсюду в вашей системе:
 ```
 mv composer.phar /usr/local/bin/composer
 ```
