@@ -1,17 +1,17 @@
-# How to download, install and serve Drupal 8
+# Как загрузить, установить и запустить Drupal 8
 
-The easiest way to try Drupal 8 in your local machine is by executing the `quick:start` command.
+Самый простой способ попробовать Drupal 8 на вашем компьютере это запустить команду `quick:start`.
 
 ```
 drupal quick:start
 ```
-> NOTE: You must execute `drupal init` before in order to copy the `~/.console/chain/quick-start.yml` on your local system.
+> Примечание: Сначала вы должны выполнить `drupal init`, чтобы скопировать `~/.console/chain/quick-start.yml` в вашей локальной системе.
 
-The `chain` command helps you to automate command execution, allowing you to define an external YAML file containing the definition name, option and arguments of several commands and execute that list based on the sequence defined in the file.
+Команда `chain` помогает вам автоматизировать извлечение команд, позволяет вам определить внешний YAML файл содержащий определение, опции и аргументы нескольких команд и запустить список этих команд в порядке определенном в файле.
 
-The content of the provided `~/.console/chain/quick-start.yml` file is:
+Содержимое приведенного `~/.console/chain/quick-start.yml` файла:
 ```
-# How to use
+# Как использовать
 # quick:start --directory="/path/to/drupal-project/"
 # quick:start --directory="/path/to/drupal-project/" --profile="minimal"
 # quick:start --repository="acquia/lightning-project:^8.1" --directory="/path/to/drupal-project/" --profile="lightning"
@@ -25,20 +25,20 @@ vars:
     - acquia/reservoir-project
   profile: standard
 commands:
-  # Create Drupal project using DrupalComposer
+  # Создать Drupal проект используя DrupalComposer
   - command: exec
     arguments:
       bin: composer create-project %{{repository}} %{{directory}} --prefer-dist --no-progress --no-interaction
-  # Install Drupal
+  # Установить Drupal
   - command: exec
     arguments:
       bin: drupal site:install %{{profile}} --root=%{{directory}} --db-type="sqlite" --no-interaction
-  # Start PHP built-in server
+  # Запустить встроенный PHP сервер
   - command: exec
     arguments:
       bin: drupal server --root=%{{directory}}ß
 ```
 
-The previous configuration will execute several commands, in this case commands that will download and install Drupal using SQLite, and finally start the PHP's built in server, now you only need to open your browser and point it to 127.0.0.1:8088.
+Конфигурация представленная выше запустит несколько команд, в этом случае команды, которые скачают и установят Drupal, используя SQLite, и в итоге запустят встроенный PHP сервер, теперь вам надо только запустить браузер и ввести 127.0.0.1:8088.
 
-You can duplicate or make changes on the provided YAML file, to add commands for download modules `module:download`, install modules `module:install`, import configurations `config:import` and restore your database `database:restore` or any other command provided by DrupalConsole or a custom command by your own module.
+Вы можете скопировать или сделать изменения в приведенных YAML файлах, чтобы добавить команды для скачивания модулей `module:download`, для установки модулей `module:install`, импорта конфигурации `config:import` и для восстановления базы данных `database:restore` или любой другой команды представленной DrupalConsole или команды из вашего собственного модуля.
