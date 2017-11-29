@@ -1,26 +1,26 @@
-# Running the project
-In order to contribute you will need a working Drupal site linked to the packages you cloned and forked.
+# Запуск проекта
+Для того, чтобы участвовать в проекте вам необходим рабочий Drupal сайт связанный с склонированными пакетами. 
 
-## Execute the automated process
-DrupalConsole provides you with a command to take care of all this process for you.
+## Запуск автоматической установки
+DrupalConsole предоставляет вам команду выполняющую все эти процессы установки за вас.
 ```
 drupal develop:contribute \
 --drupal=/path/to/drupal8.dev \
 --code=/Users/username/drupal-console-code/
 ```
 
-The option `--drupal` is the directory where the new drupal site will be created and the option `--code` is the parent directory where the different DrupalConsole repositories were cloned.
+Опция `--drupal` указывает каталог где новый Drupal сайт будет создан и опция `--code` указывает родительский каталог куда различные DrupalConsole репозитории были склонированны.
 
-> NOTES:
+> ПРИМЕЧАНИЕ:
 >
-> You must execute `drupal init` before in order to copy the `~/.console/chain/develop-contribute.yml` on your local system.
+> Вы должны сначала запустить `drupal init` для того, чтобы скопировать `~/.console/chain/develop-contribute.yml` в вашей локальной системе.
 >
-> Make sure you have the latest version of DrupalConsole. Get the latest version of DrupalConsole by following the instructions as mentioned [here](https://github.com/hechoendrupal/drupal-console-launcher/blob/master/README.md).
+> Убедитесь, что у вас последняя версия DrupalConsole. Для того, чтобы получить последнюю версию DrupalConsole следуйте инструкциям [здесь](https://github.com/hechoendrupal/drupal-console-launcher/blob/master/README.md).
 
-## Execute all the steps manually
-If you want to execute all the steps manually you can follow the instructions below:
+## Выполнение всех шагов вручную
+Если вы захотите выполнить все шаги вручную, следуйте инструкциям ниже:
 
-### Download Drupal and DrupalConsole
+### Скачайте Drupal и DrupalConsole
 ```
 composer create-project \
 drupal-composer/drupal-project:8.x-dev \
@@ -30,41 +30,41 @@ drupal8.dev \
 --no-interaction
 ```
 
-### Install Drupal using SQLite
+### Установите Drupal, используя SQLite
 ```
 drupal site:install standard --db-type="sqlite" --no-interaction
 ```
-> NOTE: You can install drupal using MySQL by executing the `site:install` command and answering the questions from the interactive mode or passing the required options.
+> ПРИМЕЧАНИЕ: Вы можете установить Drupal, используя MySQL, применив команду `site:install` и ответив на вопросы в интерактивном режиме или передав необходимые параметры.
 
-### Download the Drupal Console Develop package
+### Загрузить пакет Drupal Console Develop
 ```
 composer require drupal/console-develop --dev
 ```
 
-### Create a symbolic link between Drupal and forked repositories
+### Создать символическую ссылку между Drupal и ответвленным репозиторием.
 ```
 drupal develop:create:symlinks \
 --code-directory=/Users/username/drupal-console-code/
 ```
 
-## Downloading additional Drupal Console language or packages
+## Загрузить дополнительные языки или пакеты Drupal Console
 
-If you want to contribute translating Drupal Console to [Spanish](https://github.com/hechoendrupal/drupal-console-es) you should:
+Если вы хотите помочь перевести Drupal Console на [Испанский](https://github.com/hechoendrupal/drupal-console-es) вам следует:
 
-1.- Download it on the drupal site by executing the following command.
+1.- Скачайте его в ваш Drupal сайт с помощью команды.
 
 ```
 composer require drupal/console-es
 ```
 
-2.- Fork and clone the repo to your local directory.
+2.- Создайте fork и склонируйте репозиторий в ваш локальный каталог.
 
-3.- Execute the `develop:create:symlinks` again, to create symlinks including the recently added package.
+3.- Выполните снова команду `develop:create:symlinks`, чтобы создать символические ссылки, включая недавно добавленные пакеты.
 
-This applies for additional languages and packages i.e [drupal/console-yaml](https://github.com/weknowinc/drupal-console-yaml).
+Это применимо к дополнительным языкам и пакеты, например [drupal/console-yaml](https://github.com/weknowinc/drupal-console-yaml).
 
-## Wrapping up
+## Заключение
 
-Now you can do the required changes and start contributing, commit you changes, push code to your forked repositories and create a Pull Request to the respective repository.
+Теперь вы можете делать необходимые изменения и начать помогать, делать комиты ваших изменений, отправлять ваш код в ответвленные репозитории и создавать Pull request в соответствующие репозиторий.
 
-Happy coding ... thanks for contributing to Drupal Console.
+Приятного кодирования ... спасибо, за ваш вклад в Drupal Console.
