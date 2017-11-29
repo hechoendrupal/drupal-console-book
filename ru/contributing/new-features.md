@@ -1,11 +1,12 @@
-# Contributing new features
-If you create a new custom command or something else which would be useful for *other* Drupal installations, please consider [forking the Drupal Console project on GitHub](getting-the-project.md "Fork the Drupal Console project and clone it locally to add your functionality"). Then just [create an issue for a "feature request"](creating-issues-and-pull-requests.md "Add a new feature request as an “issue” and indicate you are working on it"), put your work in a new Git branch on your fork, publish your branch and add a pull request on GitHub (including your issue ID in the PR title). The Drupal Console maintainers are very happy to accept useful contributions and usually do so quite promptly.
+# Добавление нового функционала
+Если вы создали новую команду или что-то другое, что может быть полезно для *других* инсталяций Drupal, пожалуйста, примите во внимание [создание fork для Drupal Console проекта на GitHub](getting-the-project.md "Создание fork для Drupal Console проекта и клонирование его локально для добавления нового функционала"). Затем просто [создайте задачу для "Запроса функционала"](creating-issues-and-pull-requests.md "Добавьте новый запрос функционала, как задачу “issue” и отметьте, что вы работаете над ней"), добавьте ваш код в новую Git ветку в вашем fork, опубликуйте вашу ветку и добавьте pull request на GitHub (включающий ID вашей задачи в название PR). Люди поддерживающие Drupal Console очень рады принять полезный вклад и обычно делают это довольно быстро.
 
-## Getting support with becoming a contributor
-If you want to contribute to Drupal Console and have any difficulty getting oriented to the process, you can find [Instant Messaging support on Gitter IM](https://gitter.im/hechoendrupal/DrupalConsole).
+## Получить поддержку участнику проекта
+Если вы хотите сделать свой вклад в Drupal Console и у вас возникли сложности связанные с пониманием процесса, вы можете найти [Поддержку через мгновенные сообщения на Gitter IM](https://gitter.im/hechoendrupal/DrupalConsole).
 
-## Standard GitHub Workflow
-If you haven't yet contributed to a project on GitHub, or are not sure you remember the workflow, you might first want to read the documentation  about [pull requests](https://help.github.com/articles/using-pull-requests/). You may also wish to download the GitHub application ([Mac](https://mac.github.com) | [Windows](https://windows.github.com), which simplifies the workflow a bit and provides a nice GUI for your contributions).
+## Стандартный рабочий процесс на GitHub
+Если вы не участвовали прежде в каком-либо проекте на GitHub или вы не уверены как происходит рабочий процесс, пожалуйста, прочтите сначала документацию о [pull request] (https://help.github.com/articles/using-pull-requests/). Также, вы можете скачать приложение GitHub.
+([Mac](https://mac.github.com) | [Windows](https://windows.github.com), которое немного облегчает рабочий процесс и имеет удобный графический интерфейс для вашего участия.
 
 ## Github-flavored Markdown
-This documentation is written in “Github-flavored Markdown”, which is rendered on Github, directly, as HTML. If you are *already* familiar with Markdown, [GFL only adds a few useful tweaks](https://help.github.com/articles/github-flavored-markdown/ "Github-Flavored Markdown—official documentation"), otherwise you may want to read Github’s [Markdown Basics](https://help.github.com/articles/markdown-basics/) primer.
+Эта документация написана на “Github-flavored Markdown”, которая будет воспроизведена Github, напрямую, как HTML. Если вы *уже* знакомы с Markdown, [GFL добавляет лишь несколько новых возможностей](https://help.github.com/articles/github-flavored-markdown/ "Github-Flavored Markdown—официальная документация"), в противном случае вы возможно захотите прочесть Github [Основы Markdown](https://help.github.com/articles/markdown-basics/) учебник для начинающих.
