@@ -1,15 +1,15 @@
-# Registering Commands Automatically
+# Автоматическая регистрация команд
 
-To make the console commands available automatically within a Drupal installation, you will need to:
+Чтобы команды командной строки были доступны автоматически внутри Drupal инсталляции вам необходимо:
 
-* Create a `Command` directory inside your module i.e. `src/Command` and create a `PHP` file suffixed with `Command.php` i.e. `MyCustomCommand.php` for each command that you want to provide.
+* Создать каталог `Command` внутри вашего модуля, например `src/Command`, и создать файл `PHP` с суффиксом `Command.php`, например `MyCustomCommand.php`, для каждой вашей команды.
 
-* Make sure you class extends one of `Command` or `ContainerAwareCommand` classes.
+* Убедитесь, что вы наследуете класс `Command` или `ContainerAwareCommand`.
 
-Drupal Console provides two types of commands, `stand alone` and `container aware` commands.
+Drupal Console предоставляет два типа команд: `stand alone` и `container aware`.
 
-## Stand alone commands
-These commands are listed and can run outside of a Drupal installation, you defined one by extending the `Command` class.
+## Автономные команды
+Эти команды выводятся и могут быть запущены вне Drupal инсталляции, вы можете определить ее, унаследовав класс `Command`.
 ```
 use Drupal\Console\Command\Command;
 
@@ -18,8 +18,8 @@ class MyStandAloneCommand extends Command
 }
 ```
  
-## Container aware commands
-These commands are listed and must be run against a Drupal, you defined one by extending the `ContainerAwareCommand` class.
+## Команды зависящие от контейнера
+Такие команды выводятся и могут быть запущены только внутри Drupal инсталляции, вы можете определить ее, унаследовав класс  `ContainerAwareCommand`.
 ```
 use Drupal\Console\Command\ContainerAwareCommand;
 
