@@ -1,6 +1,6 @@
-# Configuring the command.
+# Конфигурация команды.
 
-You must provide a`configure` method containing the configuration of the command as name, arguments, options, etc.
+Вы должны определить метод `configure`, который будет содержать конфигурацию команды: имя, аргументы, опции и т.п.
 ```
     /**
      * {@inheritdoc}
