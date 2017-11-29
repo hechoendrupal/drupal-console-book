@@ -1,4 +1,4 @@
-# Project requirements
+# Требования к проекту
 
 ## Загрузить Git
 Мы рекомендуем загрузить Git с [http://git-scm.com/downloads](http://git-scm.com/downloads)
