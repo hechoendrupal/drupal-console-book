@@ -1,20 +1,20 @@
-# Keeping your fork up to date
+# Поддержание актуальности fork
 
-After some time your forked repository and the original one (called upstream) will eventually get out of sync leaving you with an old, unsupported version.
+Через некоторое время ваш репозиторий (forked) и оригинальный (называемый upstream) будут рассинхронизированы, оставляя вас со старой, неподдерживаемой версией.
 
-To sync changes you make in a fork with the original repository, you should:
+Для синхронизации изменений, которые вы сделали в вашей fork с оригинальным репозиторием, вам следует:
 
-## Configuring a remote fork:
-Specify and configure a new remote upstream repository that points to the upstream repository in Git.
+## Сконфигурировать удаленную fork:
+Определите и сконфигурируйте новый удаленный upstream репозиторий, который указывает на upstream репозиторий расположенный в Git.
 ```
 git remote add upstream https://github.com/hechoendrupal/drupal-console.git
 ```
-For detailed information please visit Github's guide [Configuring a remote fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)  
+Для более подробной информации посетите GitHub руководство [Конфигурация удаленной fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
 
-## Syncing your fork
-Sync your fork to keep it up-to-date with the upstream repository.
+## Синхронизация вашей fork
+Синхронизация вашей fork для поддержки актуальной версии с upstream репозиторием.
 ```
 git fetch upstream
 git merge upstream/master
 ```
-For detailed information please visit Github's guide [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+Для более подробной информации посетите GitHub руководство [Синхронизация fork](https://help.github.com/articles/syncing-a-fork/)
