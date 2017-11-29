@@ -1,15 +1,15 @@
-# Command Lifecycle
+# Жизненный цикл команды
  
-Commands have three lifecycle methods:
+Команды имеют три метода жизненного цикла:
 
-## The initialize method (optional)
-This method is executed before the `interact` and `execute` methods. 
-Its main purpose is to initialize variables used in the rest of the command methods.
+## Метод инициализации (необязательный)
+Этот метод извлекается перед методами `interact` и `execute`. 
+Главная задача метода инициализировать переменные, которые будут использованы в последующих методах команды.
 
-## The interact method (optional)
-This method is executed after `initialize` and before `execute` methods. 
-Its purpose is to check if some of the options/arguments are missing and interactively ask the user for those values. This is the last place where you can ask for missing options/arguments. After this command, missing options/arguments will result in an error.
+## Метод взаимодействия (необязательный)
+Этот метод извлекается после метода `initialize` и перед методом `execute`. 
+Главная задача метода проверить установлены ли все опции/аргументы и запросить их значения от пользователя. Это последняя возможность, когда вы можете запросить отсутствующие опции/аргументы. После этой команды отсутствующие опции/аргументы приведут к ошибке.
 
-## The execute method (required)
-This method is executed after `interact` and `initialize` methods. 
-It contains the logic you want the command to execute.
+## Метод извлечения (обязательный)
+Этот метод извлекается после `interact` и `initialize` методов. 
+Метод содержит всю логику, которую вы хотите выполнить с помощью это команды.
