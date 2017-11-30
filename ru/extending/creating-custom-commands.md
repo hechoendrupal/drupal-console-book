@@ -1,8 +1,8 @@
-# Creating Custom Commands
+# Создание новых команд
 
-The simple way to create a custom Command Class is to execute the `generate:command` command.
+Самый простой способ создать новый Command класс это извлечь `generate:command` команду.
 
-Executing the command using the interactive command questions: 
+Выполнить команду, используя интерактивный метод извлечения команд: 
 ```
  $ drupal generate:command
  
@@ -27,10 +27,9 @@ Generated or updated files
  1 - modules/custom/example/src/Command/DefaultCommand.php
 ```
 
-Executing the `generate:command` passing inline options, make sure you adjust the following command based on your requirements.
+Выполнить команду`generate:command`, передав встроенные опции. Убедитесь, что вы отредактировали следующую команду согласно вашим требованиям.
 
 ```
 $ drupal generate:command  --module=example --class=DefaultCommand --name=example:default --container-aware -y
 ```
-
-This command execution will generate a new Command class containing the boiler-plate required to register a new command within your Drupal module.
+Исполнение этой команды сгенерирует новый Command класс содержащий шаблон необходимый для регистрации новой команды внутри вашего модуля Drupal.
