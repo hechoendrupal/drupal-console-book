@@ -1,47 +1,46 @@
-# Installation problems 
+# Проблемы во время установки 
 
-When you run DrupalConsole from your Drupal 8 root directory, you can get different error messages, we will try to compile the reported issues and how to have them fixed.
+
+Когда вы запускаете DrupalConsole из Drupal 8 каталога, вы можете увидеть различные сообщения об ошибках. Мы попробуем собрать все ошибки, о которых нам сообщили, и показать как их можно исправить.
 
 --- 
 
-### Error message:
+### Сообщение об ошибке:
 ```
 [PDOException] SQLSTATE[HY000] [2002] No such file or directory
 ```
-You will need to edit your 'host' in your 'settings.php' file. 
+Вам надо отредактировать значение 'host' в вашем файле 'settings.php'.
 
-Navigate to `sites/default/settings.php`. In your `settings.php` file, change the `host` to read:
+Откройте `sites/default/settings.php`. В вашем файле `settings.php`, поменяйте значение `host`:
 ```
 'host' => '127.0.0.1'
 ```
-or if your 'settings.php' file already reads:
+или если ваш файл 'settings.php' уже имеет это значение:
 ```
 'host' => '127.0.0.1'
 ```
-change it to read:
+поменяйте его на:
 ```
 'host' => 'localhost'. 
 ```
-After you make the change, be sure to save the file and then run DrupalConsole again.
+После того, как вы добавили ваши изменения, обязательно сохраните файл и затем запустите DrupalConsole заново.
 
 ---
 
-### Error message:
+### Сообщение об ошибке:
 ```
 [PDOException]
 SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock'
 ```
-Creating a symlink pointing to `/tmp/mysql.sock`:
+Создайте символическую ссылку указывающую на `/tmp/mysql.sock`:
 ```
 ln -s /path/to/your/mysql/data/mysql.sock /tmp/mysql.sock
 ```
 
 ---
 
-### Error message:
+### Сообщение об ошибке:
 ```
 Fatal error: require(): Failed opening required 'drupal.php'
 ```
-This can be caused by the ioncube loader extension, which can be used to encode
-and decode PHP files. This extension prevents normal working of any phar files
-with require/include calls. You must disable the extension.
+Причиной этой ошибки может быть загрузчик ioncube расширения, который используется для кодирования и декодирования PHP файлов. Это расширение блокирует нормальную работу phar файлов с вызовами require/include. Вам необходимо деактивировать это расширение.
