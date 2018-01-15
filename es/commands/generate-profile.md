@@ -12,7 +12,7 @@ Opción | Detalles
 -------|-------------
 --profile | Nombre del perfil
 --machine-name | Nombre-máquina (sólo minúsculas y guiones bajos)
---base-path | La ruta del perfil
+--profile-path | La ruta del perfil
 --description | Descripción del perfil
 --core | Versión del core
 --dependencies | Dependencias de módulos separadas por comas (p. ej. context, panels)

@@ -148,6 +148,10 @@ Comando de Drupal Console | Detalles
 [generate:update](generate-update.md) | Generar una implementación de hook_update_N()
 **image**  |
 [image:styles:flush](image-styles-flush.md) | Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
+**locale**  |
+[locale:language:add](locale-language-add.md) | Añadir un idioma que sea soportado en el sitio
+[locale:language:delete](locale-language-delete.md) | Eliminar un idioma soportado en el sitio
+[locale:translation:status](locale-translation-status.md) | Lista de traducciones disponibles actualizadas
 **module**  |
 [module:dependency:install](module-dependency-install.md) | Instalar las dependencias de módulos en la aplicación
 [module:download](module-download.md) | Descarga un módulo o varios en la aplicación
@@ -165,6 +169,7 @@ Comando de Drupal Console | Detalles
 **quick**  |
 [quick:start](quick-start.md) | Download, install and serve a new Drupal project
 **role**  |
+[role:delete](role-delete.md) | Eleminar roles en la aplicación
 [role:new](role-new.md) | Crea roles para la aplicación
 **router**  |
 [router:rebuild](router-rebuild.md) | Reconstruye los enrutamientos de la aplicación

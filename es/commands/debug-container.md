@@ -12,6 +12,7 @@ cod
 Opción | Detalles
 -------|-------------
 --parameters | Nombre del servicio.
+--tag | Etiqueta del servicio
 
 ## Argumentos disponibles
 Argumento | Detalles
