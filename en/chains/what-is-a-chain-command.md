@@ -1,6 +1,6 @@
 # What is a chain command
 
-A `chain` command help you to automate command execution, allowing you to define an external YAML file containing the definition name, option and arguments of several commands and execute that list based on the sequence defined in the file.
+A `chain` command is a custom command that help you automate multiple command execution, allowing you to define and read an external YAML file containing the definition name, options and arguments of multiple commands and execute that list based on the sequence defined in the file.
 
 ## Chain command features:
 
@@ -10,7 +10,9 @@ Chains commands are discovered from the following path(s):
 * **Per site** `path/to/site/console/chain`
 
 ### Define placeholders
-You can define placeholders using `{{name}}` and you can pass a key=value from the CLI as command option `--name=[VALUE]` when executing the command.  
+You can define placeholders using `{{name}}` and you can pass a --key=value from the CLI as command option `--name=[VALUE]` when executing the command.
+
+If you define placeholders and not pass a value for it using the CLI. This will be converted to a question during the interactive mode execution.
 ```
 commands:
   # Create Drupal project using DrupalComposer

@@ -1,8 +1,8 @@
-# Registering chain commands as regular commands 
+# Registering as regular commands
 
-Chains definition can contain metadata that make them discovered and registered by DrupalConsole so they can be executed as any other command.
+Chains definition can contain metadata that make them discovered and registered by DrupalConsole so they can be executed as any other regular command.
 
-In order to register a chain command you need to add a `command` section containing `name` and `description`.  
+To register as regular command you need to add a `command` section containing `name` and `description`.
 
 ```
 command:
@@ -30,4 +30,4 @@ commands:
 
 ```
 
-If you run drupal list you will see the `build` command listed.
+After adding the command section you should see the new `build` command listed when running the `list` command.

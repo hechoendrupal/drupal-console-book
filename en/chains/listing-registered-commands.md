@@ -21,7 +21,7 @@ You can debug the discovered chain commands using the `debug:chain` command.
  -------------------------- ----------------------
 ```
 
-For any non-registered chain command discovered you will see a message like this.
+For any discovered chain non yet registered as regular command you will see a message like this.
 ```
 /path/to/drupal8.dev/console/chain/custom-test.yml
  * You should register your chain file as command by providing metadata, more info at:
