@@ -22,6 +22,10 @@
   * [How to use Drupal Console in a remote installation](alias/how-to-use-drupal-console-in-a-remote-installation.md)
   * [Connecting to a virtual environment](alias/connecting-to-a-virtual-environment.md)
 
+* [What is a chain command](chains/what-is-a-chain-command.md)
+  * [Registering chain commands as regular commands](chains/registering.md)
+  * [Listing registered commands](chains/listing-registered-commands.md)
+
 * [Creating custom Commands](extending/creating-custom-commands.md)
    * [The Command Class](extending/the-command-class.md)
    * [Registering Commands](extending/registering-commands.md)
