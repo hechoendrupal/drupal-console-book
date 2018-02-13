@@ -6,7 +6,7 @@ The easiest way to try Drupal 8 in your local machine is by executing the `quick
 drupal quick:start
 ```
 
-The content of the provided `~/.console/chain/quick-start.yml` file is:
+This is a chain command provided by DrupalConsole core project, the content of this file is:
 ```
 # How to use
 # quick:start --directory="/path/to/drupal-project/"
@@ -36,4 +36,6 @@ commands:
       bin: drupal server --root=%{{directory}}ß
 ```
 
-The previous configuration will execute several commands, in this case commands that will download and install Drupal using SQLite, and finally start the PHP's built in server, now you only need to open your browser and point it to 127.0.0.1:8088.
+The previous definition will execute several commands, in this case commands that will download and install Drupal using SQLite, and finally start the PHP's built in server, now you only need to open your browser and point it to 127.0.0.1:8088.
+
+For more information about chain commands you can visit [What is a chain command](chains/what-is-a-chain-command.md)
