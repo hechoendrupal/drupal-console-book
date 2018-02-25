@@ -10,7 +10,7 @@ ed
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---all | Delete all entities of the given type.
+--all | Eliminar todas las entidades del tipo dado
 
 ## Argumentos disponibles
 Argumento | Detalles

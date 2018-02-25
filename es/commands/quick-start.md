@@ -9,6 +9,4 @@ drupal quick:start [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---repository | repository
---directory | directory
---profile | profile
+--file | 

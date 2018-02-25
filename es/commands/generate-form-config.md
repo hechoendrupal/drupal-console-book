@@ -1,10 +1,10 @@
 # generate:form:config
-commands.generate.form.description
+Genera un nuevo "ConfigFormBase"
 
 **Uso:**
 ```
 drupal generate:form:config [options]
-gf
+gfc
 ```
 
 ## Opciones disponibles

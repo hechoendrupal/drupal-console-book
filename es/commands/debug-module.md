@@ -5,7 +5,6 @@ Muestra los módulos actualmente disponibles para la aplicación
 ```
 drupal debug:module [arguments] [options]
 dm
-mod
 ```
 
 ## Opciones disponibles

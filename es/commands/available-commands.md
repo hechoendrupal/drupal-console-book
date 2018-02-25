@@ -8,6 +8,7 @@ Comando de Drupal Console | Detalles
 [about](about.md) | Muestra información básica sobre el proyecto Drupal Console
 [chain](chain.md) | Ejecución de comandos en secuencia
 [check](check.md) | Comprobador de requisitos del sistema
+[composerize](composerize.md) | Convierte código base de Drupal a Composer.
 [exec](exec.md) | Ejecutar un comando externo.
 [help](help.md) | Muestra ayuda para un comando dado
 [init](init.md) | Copia los archivos de configuración al directorio home del usuario.
@@ -60,6 +61,7 @@ Comando de Drupal Console | Detalles
 [debug:cron](debug-cron.md) | Listado de módulos que implementan el hook cron
 [debug:database:log](debug-database-log.md) | Muestra los eventos de log actuales de la aplicación
 [debug:database:table](debug-database-table.md) | Muestra todas las tablas de una base de datos dada.
+[debug:dotenv](debug-dotenv.md) | Debug Dotenv debug values.
 [debug:entity](debug-entity.md) | Debugea entidades disponibles en el sistema
 [debug:event](debug-event.md) | Muestra los eventos actuales
 [debug:image:styles](debug-image-styles.md) | Lista los estilos de imagen en el sitio
@@ -97,13 +99,13 @@ Comando de Drupal Console | Detalles
 [develop:translation:sync](develop-translation-sync.md) | Sincronizar archivos de traducción
 [develop:update:code](develop-update-code.md) | Update code
 **dotenv**  |
-[dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.
 **entity**  |
 [entity:delete](entity-delete.md) | Elimina una entidad específica
 **field**  |
 [field:info](field-info.md) | Muestra información sobre los campos.
 **generate**  |
+[generate:ajax:command](generate-ajax-command.md) | Generar y registrar un comando ajax personalizado
 [generate:authentication:provider](generate-authentication-provider.md) | Generar un Proveedor de Autenticación
 [generate:breakpoint](generate-breakpoint.md) | Genera un breakpoint
 [generate:cache:context](generate-cache-context.md) | Genera un contexto de caché
@@ -113,9 +115,9 @@ Comando de Drupal Console | Detalles
 [generate:entity:config](generate-entity-config.md) | Generar una nueva entidad de configuración
 [generate:entity:content](generate-entity-content.md) | Generar una nueva entidad de contenido
 [generate:event:subscriber](generate-event-subscriber.md) | Genera un suscriptor de eventos
-[generate:form](generate-form.md) | Genera un nuevo "%s"
+[generate:form](generate-form.md) | Genera un nuevo "FormBase"
 [generate:form:alter](generate-form-alter.md) | Genera una implementación de hook_form_alter() o hook_form_FORM_ID_alter
-[generate:form:config](generate-form-config.md) | commands.generate.form.description
+[generate:form:config](generate-form-config.md) | Genera un nuevo "ConfigFormBase"
 [generate:help](generate-help.md) | Genera una implementación de hook_help()
 [generate:jstest](generate-jstest.md) | Genera un test Javascript.
 [generate:module](generate-module.md) | Generar un módulo.
@@ -143,15 +145,12 @@ Comando de Drupal Console | Detalles
 [generate:profile](generate-profile.md) | Genera un perfil.
 [generate:routesubscriber](generate-routesubscriber.md) | Generar un RouteSubscriber
 [generate:service](generate-service.md) | Genera un servicio
+[generate:site:alias](generate-site-alias.md) | Genera un alias del sitio.
 [generate:theme](generate-theme.md) | Genera un tema.
 [generate:twig:extension](generate-twig-extension.md) | Generar una extensión de Twig.
 [generate:update](generate-update.md) | Generar una implementación de hook_update_N()
 **image**  |
 [image:styles:flush](image-styles-flush.md) | Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
-**locale**  |
-[locale:language:add](locale-language-add.md) | Añadir un idioma que sea soportado en el sitio
-[locale:language:delete](locale-language-delete.md) | Eliminar un idioma soportado en el sitio
-[locale:translation:status](locale-translation-status.md) | Lista de traducciones disponibles actualizadas
 **module**  |
 [module:dependency:install](module-dependency-install.md) | Instalar las dependencias de módulos en la aplicación
 [module:download](module-download.md) | Descarga un módulo o varios en la aplicación

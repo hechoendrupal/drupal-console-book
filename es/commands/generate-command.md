@@ -14,9 +14,11 @@ Opción | Detalles
 --extension-type | Tipo de la extensión.
 --class | Nombre de la Clase de Comandos
 --name | Nombre del comando.
+--initialize | Añadir método initialize.
 --interact | Añadir método interactivo.
 --container-aware | Conoce el comando acerca de la instalación del sitio drupal cuando sea ejecutado
 --services | Cargar servicios desde el contenedor.
+--generator | Añadir una clase class Generator para este comando.
 
 ## Ejemplos
 * Generar un comando especificando el nombre de extensión, el tipo, la clase y el nombre.

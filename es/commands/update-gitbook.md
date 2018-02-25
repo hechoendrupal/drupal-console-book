@@ -9,4 +9,4 @@ drupal update:gitbook [options]
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---directory | directory
+--file | 

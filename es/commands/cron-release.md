@@ -5,7 +5,6 @@ Desbloquea al cron para volver a ejecutarlo
 ```
 drupal cron:release
 cror
-crr
 ```
 
 ## Ejemplos

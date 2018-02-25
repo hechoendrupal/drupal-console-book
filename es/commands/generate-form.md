@@ -1,5 +1,5 @@
 # generate:form
-Genera un nuevo "%s"
+Genera un nuevo "FormBase"
 
 **Uso:**
 ```

@@ -10,7 +10,6 @@ drupal chain [options]
 Opción | Detalles
 -------|-------------
 --file | Archivo definido por el usuario que contiene comandos para ser ejecutados en secuencia.
---placeholder | commands.chain.options.placeholder
 
 ## Ejemplos
 * Facilitar una opción de archivo usando la ruta absoluta.
