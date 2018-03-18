@@ -66,6 +66,7 @@ Comando de Drupal Console | Detalles
 [debug:event](debug-event.md) | Muestra los eventos actuales
 [debug:image:styles](debug-image-styles.md) | Lista los estilos de imagen en el sitio
 [debug:libraries](debug-libraries.md) | Muestra las librerías disponibles en la aplicación
+[debug:migrate](debug-migrate.md) | Muestra la migración actual disponible para la aplicación
 [debug:module](debug-module.md) | Muestra los módulos actualmente disponibles para la aplicación
 [debug:multisite](debug-multisite.md) | Lista todos los multisios disponibles en el sitio
 [debug:permission](debug-permission.md) | Muestra todos los permisos y además lista todos los permisos de un especifico rol de usuario.
@@ -151,6 +152,14 @@ Comando de Drupal Console | Detalles
 [generate:update](generate-update.md) | Generar una implementación de hook_update_N()
 **image**  |
 [image:styles:flush](image-styles-flush.md) | Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
+**locale**  |
+[locale:language:add](locale-language-add.md) | Añadir un idioma que sea soportado en el sitio
+[locale:language:delete](locale-language-delete.md) | Eliminar un idioma soportado en el sitio
+[locale:translation:status](locale-translation-status.md) | Lista de traducciones disponibles actualizadas
+**migrate**  |
+[migrate:execute](migrate-execute.md) | Ejecuta una migración que esté disponible para la aplicación
+[migrate:rollback](migrate-rollback.md) | Revertir una o múltiples migraciones
+[migrate:setup](migrate-setup.md) | Cargar y crear las migraciones pertinentes para una base de datos heredada
 **module**  |
 [module:dependency:install](module-dependency-install.md) | Instalar las dependencias de módulos en la aplicación
 [module:download](module-download.md) | Descarga un módulo o varios en la aplicación
