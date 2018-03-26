@@ -25,3 +25,7 @@ drupal config:debug system.site
 ```
 drupal config:debug | grep system
 ```
+* Lista toda la configuración incluyendo valores sobreescritos.
+```
+drupal debug:config --show-overridden
+```

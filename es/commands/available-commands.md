@@ -137,7 +137,7 @@ Comando de Drupal Console | Detalles
 [generate:plugin:migrate:process](generate-plugin-migrate-process.md) | Genera un plugin de proceso para migración
 [generate:plugin:migrate:source](generate-plugin-migrate-source.md) | Genera un plugin de migración de fuentes
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Genera un plugin de recurso rest
-[generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Genera un plugin de acción de rules
+[generate:plugin:rulesaction](generate-plugin-rulesaction.md) | commands.generate.plugin.rulesaction.description
 [generate:plugin:skeleton](generate-plugin-skeleton.md) | Generar una implementación de un esqueleto de plugin para esos plugins de Drupal Console que no tienen un generador específico
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Genera un tipo de plugin con descubrimiento de anotaciones
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Genera un tipo de plugin con descubrimiento YAML
@@ -152,10 +152,6 @@ Comando de Drupal Console | Detalles
 [generate:update](generate-update.md) | Generar una implementación de hook_update_N()
 **image**  |
 [image:styles:flush](image-styles-flush.md) | Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
-**locale**  |
-[locale:language:add](locale-language-add.md) | Añadir un idioma que sea soportado en el sitio
-[locale:language:delete](locale-language-delete.md) | Eliminar un idioma soportado en el sitio
-[locale:translation:status](locale-translation-status.md) | Lista de traducciones disponibles actualizadas
 **migrate**  |
 [migrate:execute](migrate-execute.md) | Ejecuta una migración que esté disponible para la aplicación
 [migrate:rollback](migrate-rollback.md) | Revertir una o múltiples migraciones

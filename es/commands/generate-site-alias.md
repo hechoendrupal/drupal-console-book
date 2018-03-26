@@ -10,6 +10,7 @@ gsa
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
+--site | Usar el sitio local como destino.
 --name | Nombre del sitio.
 --environment | Nombre del entorno.
 --type | Tipo del sitio.
