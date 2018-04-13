@@ -14,8 +14,8 @@ Option | Details
 --type-class | Field type plugin class name
 --type-label | Field type plugin label
 --type-plugin-id | Field type plugin id
---type-description | commands.generate.plugin.field.options.type-type-description
---formatter-class | commands.generate.plugin.field.options.class
+--type-description | Field type plugin description
+--formatter-class | Field formatter plugin class name
 --formatter-label | Field formatter plugin label
 --formatter-plugin-id | Field formatter plugin id
 --widget-class | Field formatter plugin class name

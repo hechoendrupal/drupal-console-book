@@ -5,6 +5,7 @@ Shows DB connection
 ```
 drupal database:connect [arguments]
 dbco
+sqlc
 ```
 
 ## Available arguments

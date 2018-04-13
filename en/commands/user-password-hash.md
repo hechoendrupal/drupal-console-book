@@ -16,5 +16,5 @@ password | Password(s) in text format
 ## Examples
 * Get hash of the word "p455w0rd"
 ```
-drupal user:password:hash  p455w0rd
+drupal user:password:hash p455w0rd
 ```

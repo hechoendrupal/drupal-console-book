@@ -3,7 +3,7 @@ Get a value for a specific key in a YAML file.
 
 **Usage:**
 ```
-$ drupal yaml:get:value [arguments]
+drupal yaml:get:value [arguments]
 ```
 
 ## Available arguments

@@ -5,7 +5,6 @@ Release cron system lock to run cron again
 ```
 drupal cron:release
 cror
-crr
 ```
 
 ## Examples

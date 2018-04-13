@@ -5,13 +5,12 @@ Uninstall theme or themes in the application
 ```
 drupal theme:uninstall [arguments]
 thu
-tu
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | commands.theme.uninstall.options.module
+theme | theme or themes to be uninstalled should be separated by a space
 
 ## Examples
 * Uninstall theme specifying the name

@@ -11,10 +11,10 @@ gs
 Option | Details
 -------|-------------
 --module | The Module name.
---name | commands.generate.service.options.name
+--name | Service name
 --class | Class name
---interface | commands.common.service.options.interface
---interface-name | commands.common.service.options.interface-name
+--interface | Interface
+--interface-name | Interface name
 --services | Load services from the container.
 --path-service | Path
 

@@ -13,6 +13,7 @@ Option | Details
 --file | Path to an archive file of configuration to import.
 --directory | Path to a directory of configuration to import.
 --remove-files | Remove files after synchronization.
+--skip-uuid | commands.config.import.options.skip-uuid
 
 ## Examples
 * Provide a configuration file

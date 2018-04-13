@@ -5,6 +5,7 @@ Displays current updates available for the application
 ```
 drupal debug:update
 du
+upd
 ```
 
 ## Examples

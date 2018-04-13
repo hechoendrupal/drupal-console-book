@@ -5,7 +5,6 @@ Generate a new config entity
 ```
 drupal generate:entity:config [options]
 gec
-gecg
 ```
 
 ## Available options

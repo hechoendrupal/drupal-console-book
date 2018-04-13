@@ -5,7 +5,6 @@ Install theme or themes in the application
 ```
 drupal theme:install [arguments] [options]
 thi
-ti
 ```
 
 ## Available options
@@ -16,7 +15,7 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | commands.theme.install.options.module
+theme | theme or themes to be installed should be separated by a space
 
 ## Examples
 * Install theme specifying the name

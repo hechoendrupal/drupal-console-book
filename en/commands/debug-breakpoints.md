@@ -15,5 +15,5 @@ group | Enter Breakpoint Group Name
 ## Examples
 * Provide a group name.
 ```
-drupal breakpoints:debug bartik
+drupal debug:breakpoints bartik
 ```

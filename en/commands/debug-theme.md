@@ -5,6 +5,7 @@ Displays current themes for the application
 ```
 drupal debug:theme [arguments]
 dt
+tde
 ```
 
 ## Available arguments

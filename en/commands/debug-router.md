@@ -5,6 +5,7 @@ Displays current routes for the application or information for a particular rout
 ```
 drupal debug:router [arguments]
 dr
+rod
 ```
 
 ## Available arguments

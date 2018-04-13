@@ -5,7 +5,6 @@ Generate commands for the console.
 ```
 drupal generate:command [options]
 gco
-gcm
 ```
 
 ## Available options
@@ -15,8 +14,11 @@ Option | Details
 --extension-type | The extension type.
 --class | The Class that describes the command. (Must end with the word 'Command').
 --name | The Command name.
---container-aware | Is the command aware of the drupal site installation when executed
+--initialize | Add initialize method.
+--interact | Add interact method.
+--container-aware | Is the command aware of the drupal site installation when executed?
 --services | Load services from the container.
+--generator | Add a Generator class for this command.
 
 ## Examples
 * Generate a command specifying the extension name and type, its class and the name.

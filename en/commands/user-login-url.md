@@ -5,16 +5,21 @@ Returns a one-time user login url.
 ```
 drupal user:login:url [arguments]
 ulu
-uslu
+usli
+uli
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-user-id | User ID.
+user | User name/id.
 
 ## Examples
-* Get one time login url for user id 1
+* Get one time login url for user id 10
 ```
-drupal user:login:url  1
+drupal user:login:url  10
+```
+* Get one time login url for username jmolivas
+```
+drupal user:login:url jmolivas
 ```

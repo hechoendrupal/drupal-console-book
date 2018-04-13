@@ -1,5 +1,5 @@
 # locale:language:add
-Add a language to be supported by your site
+Add languages to be supported by your site
 
 **Usage:**
 ```

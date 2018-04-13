@@ -8,7 +8,7 @@ dse
 ```
 
 ## Examples
-* 
+* List user Drupal Console settings.
 ```
 drupal debug:settings
 ```

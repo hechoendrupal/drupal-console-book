@@ -5,17 +5,21 @@ Execute a specific Update N function in a module, or execute all
 ```
 drupal update:execute [arguments]
 upex
-upe
+updb
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
 module | The Module name.
-update-n | Specific Update N function to be executed
+update-n | commands.update.execute.options.update-n
 
 ## Examples
-* Update all entities
+* Execute all updates
 ```
 drupal update:execute
+```
+* Execute updates for system module
+```
+drupal update:execute system
 ```

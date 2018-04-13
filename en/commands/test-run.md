@@ -5,13 +5,12 @@ Run Test unit from tests available for application
 ```
 drupal test:run [arguments] [options]
 ter
-tr
 ```
 
 ## Available options
 Option | Details
 -------|-------------
---url | commands.test.run.arguments.url
+--url | Test url
 
 ## Available arguments
 Argument | Details

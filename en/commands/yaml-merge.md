@@ -3,8 +3,7 @@ Merge two or more YAML files in a new YAML file. Latest values are preserved.
 
 **Usage:**
 ```
-$ drupal yaml:merge [arguments]
-$ ym  
+drupal yaml:merge [arguments]
 ```
 
 ## Available arguments

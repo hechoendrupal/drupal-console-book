@@ -18,7 +18,7 @@ Option | Details
 --button-icon-path | Button icon path. This is the path to the icon/image of the button.
 
 ## Examples
-* Generate CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path
+* Generate plugin CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path
 ```
 drupal generate:plugin:ckeditorbutton  \
   --module="modulename"  \

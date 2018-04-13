@@ -14,7 +14,7 @@ target | Target
 property | Property
 
 ## Examples
-* 
+* List all known local and remote sites.
 ```
 drupal debug:site
 ```

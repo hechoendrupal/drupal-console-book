@@ -5,6 +5,7 @@ Rebuild and clear all site caches.
 ```
 drupal cache:rebuild [arguments]
 cr
+cc
 ```
 
 ## Available arguments

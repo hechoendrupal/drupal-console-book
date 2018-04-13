@@ -18,11 +18,11 @@ Argument | Details
 table | Table to debug
 
 ## Examples
-* Show all tables on a database
+* Show all tables in a database
 ```
 drupal debug:database:table
 ```
-* Show fields on the node table or another specified on the argument
+* Show fields in the node table or another specified in the argument
 ```
 drupal debug:database:table node
 ```

@@ -1,5 +1,5 @@
 # user:delete
-Delete users for the application
+Delete users from the application
 
 **Usage:**
 ```
@@ -10,18 +10,22 @@ ud
 ## Available options
 Option | Details
 -------|-------------
---user-id | User id to be deleted
---roles | Roles associated to users to be deleted
+--user | User name/id to be deleted
+--roles | Users with the listed roles to be deleted
 
 ## Examples
-* Delete user specifying the id and the user role
+* Delete user with the id number 2
 ```
 drupal user:delete  \
-  --user-id="2"
-  --roles='authenticated'
+  --user="2"
 ```
-* Delete user specifying its id
+* Delete user with the username "jmolivas"
 ```
 drupal user:delete  \
-  --user-id="3"
+  --user="jmolivas"
+```
+* Delete users with the role "authenticated"
+```
+drupal user:delete  \
+  --role="authenticated"
 ```

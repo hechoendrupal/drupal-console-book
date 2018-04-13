@@ -10,7 +10,7 @@ dbr
 ## Available options
 Option | Details
 -------|-------------
---file | The filename for your database backup file
+--file | The filename for your database backup file. If using a .sql.gz file, the gunzip command needs to be installed.
 
 ## Available arguments
 Argument | Details

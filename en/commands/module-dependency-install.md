@@ -1,5 +1,5 @@
 # module:dependency:install
-commands.module.install.dependencies.description
+Install dependencies module in the application
 
 **Usage:**
 ```
@@ -10,7 +10,7 @@ modi
 ## Available arguments
 Argument | Details
 ---------|-------------
-module | commands.module.install.dependencies.arguments.module
+module | Module or modules to be enabled should be separated by a space
 
 ## Examples
 * Install the dependencies of the specfied module

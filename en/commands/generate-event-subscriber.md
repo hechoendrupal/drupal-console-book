@@ -11,7 +11,7 @@ ges
 Option | Details
 -------|-------------
 --module | The Module name.
---name | commands.generate.service.options.name
+--name | Service name
 --class | Class name
 --events | Load events from the container
 --services | Load services from the container.

@@ -5,7 +5,6 @@ Generate & Register a controller
 ```
 drupal generate:controller [options]
 gcon
-gcn
 ```
 
 ## Available options
