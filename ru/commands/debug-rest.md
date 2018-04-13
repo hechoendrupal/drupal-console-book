@@ -1,24 +1,24 @@
 # debug:rest
-Display current rest resource for the application
+Отображает текущие rest ресурсы для приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:rest [arguments] [options]
 rede
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---authorization | Rest resource status enabled | disabled
+--authorization | Отображает статус ресурса активен | выключен
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 resource-id | Rest ID
 
-## Examples
-* Displays rest hooks
+## Примеры
+* Отображает rest хуки
 ```
 drupal debug:rest
 ```

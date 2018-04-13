@@ -1,25 +1,25 @@
 # generate:plugin:rulesaction
-Generate a plugin rule action
+Генерирует плагин действия правил
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:rulesaction [options]
 gpra
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---type | Action Type (user or node)
---category | Plugin category
---context | Plugin context
+--class | Имя класса плагина
+--label | Заголовок плагина
+--plugin-id | ID плагина
+--type | Тип действия (пользователь или нод)
+--category | Категория плагина
+--context | Контекст плагина
 
-## Examples
-* Generate a user rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
+## Примеры
+* Генерирует действие правила типа пользователь по имени модуля, классу, заголовку, ID плагина, типу, категории и контексту
 ```
 drupal generate:plugin:rulesaction  \
   --module="modulename"  \
@@ -30,7 +30,7 @@ drupal generate:plugin:rulesaction  \
   --category="default_action"  \
   --context="default_action"
 ```
-* Generate a node rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
+* Генерирует действие правила типа нод по имени модуля, классу, заголовку, ID плагина, типу, категории и контексту
 ```
 drupal generate:plugin:rulesaction  \
   --module="modulename"  \

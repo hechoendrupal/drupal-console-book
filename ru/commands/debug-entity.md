@@ -1,19 +1,19 @@
 # debug:entity
-Debug entities available in the system
+Отладка сущностей, имеющихся в системе
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:entity [arguments]
 de
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 entity-type | commands.debug.entity.arguments.entity-type
 
-## Examples
-* Displays the available entities
+## Примеры
+* Вывести имеющиеся сущности
 ```
 drupal debug:entity
 ```

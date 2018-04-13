@@ -1,19 +1,19 @@
 # state:delete
-Delete State
+Удаляет состояние
 
-**Usage:**
+**Использование:**
 ```
 drupal state:delete [arguments]
 std
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-name | State name.
+name | Имя состояния.
 
-## Examples
-* Delete state specifying the state name
+## Примеры
+* Удаляет состояние с указанным именем
 ```
 drupal state:delete  comment.maintain_entity_statistics
 ```

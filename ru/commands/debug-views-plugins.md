@@ -1,19 +1,19 @@
 # debug:views:plugins
 Отображает существующие плагины Представлений для приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:views:plugins [arguments]
 dvp
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 type | Отфильтровать плагины Представлений по типу
 
-## Examples
-* List of views plugins
+## Примеры
+* Лист плагинов Представлений
 ```
 drupal debug:views:plugins
 ```

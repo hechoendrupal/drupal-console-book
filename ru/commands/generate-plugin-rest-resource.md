@@ -1,25 +1,24 @@
 # generate:plugin:rest:resource
-Generate plugin rest resource
+Генерирует плагин rest ресурса
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:rest:resource [options]
 gprr
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin Rest Resource class
---name | commands.generate.service.options.name
---plugin-id | Plugin Rest Resource id
---plugin-label | Plugin Rest Resource Label
---plugin-url | Plugin Rest Resource URL
---plugin-states | Plugin Rest Resource States
+--class | Класс плагин Rest ресурса
+--plugin-id | ID плагина Rest ресурса
+--plugin-label | Заголовок плагина Rest ресурса
+--plugin-url | URL плагина Rest ресурса
+--plugin-states | Состояния плагина Rest ресурса
 
-## Examples
-* Generate a rest resource plugin using GET specifying the module name, the class, the plugin id, its label, the target url and the request type
+## Примеры
+* Генерирует плагин rest ресурса по имени модуля, классу, ID плагина, заголовку, URL и типу запроса
 ```
 drupal generate:plugin:rest:resource  \
   --module="modulename"  \

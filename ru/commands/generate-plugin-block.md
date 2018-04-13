@@ -1,25 +1,25 @@
 # generate:plugin:block
-Generate a plugin block
+Генерирует плагин блока
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:block [options]
 gpb
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---theme-region | Theme region to render Plugin Block
+--class | Имя класса плагина
+--label | Заголовок плагина
+--plugin-id | ID плагина
+--theme-region | Регион темы для отображения плагина блока
 --inputs | Создание полей ввода в форме.
 --services | Загрузка сервисов из контейнера.
 
-## Examples
-* Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input
+## Примеры
+* Генерирует плагин блока в регионе header по имени модуля, классу, заголовку, ID, региону и вводу полей
 ```
 drupal generate:plugin:block  \
   --module="modulename"  \

@@ -1,23 +1,24 @@
 # debug:router
-Displays current routes for the application
+Отображает текущие маршруты для приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:router [arguments]
 dr
+rod
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-route-name | Route names
+route-name | Имена маршрутов
 
-## Examples
-* Displays current routes for the application
+## Примеры
+* Отображает текущие маршруты для приложения
 ```
 drupal rod
 ```
-* Displays details for the route user.page (/user)
+* Отображает детали для маршрута user.page (/user)
 ```
 drupal rod user.page
 ```

@@ -1,14 +1,13 @@
 # rest:disable
-Disable a rest resource for the application
+Деактивирует rest ресурсы для приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal rest:disable [arguments]
 red
-redi
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 resource-id | Rest ID

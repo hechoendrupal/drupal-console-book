@@ -1,25 +1,25 @@
 # database:add
-Add a database to settings.php
+Добавить базу данных в settings.php
 
-**Usage:**
+**Использование:**
 ```
 drupal database:add [options]
 dba
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---database | The database name
---username | The database username
---password | The database password
---prefix | The database prefix
---host | The database host address
---port | The database host port
---driver | The database driver
+--database | Имя базы данных
+--username | Имя пользователя базы данных
+--password | Пароль пользователя базы данных
+--prefix | Префикс
+--host | Адрес хоста базы данных
+--port | Порт хоста базы данных
+--driver | Драйвер базы данных
 
-## Examples
-* Add a database to the settings.php
+## Примеры
+* Добавить базу данных в settings.php
 ```
 drupal database:add \
   --database=DATABASE \

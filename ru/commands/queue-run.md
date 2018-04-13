@@ -1,13 +1,13 @@
 # queue:run
-Process the selected queue.
+Выполнить выбранную очередь.
 
-**Usage:**
+**Использование:**
 ```
 drupal queue:run [arguments]
 qr
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-name | Queue name.
+name | Имя очереди.

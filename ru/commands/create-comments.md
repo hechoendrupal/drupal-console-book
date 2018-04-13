@@ -1,30 +1,30 @@
 # create:comments
 Создание фиктивных комментариев для Drupal 8.
 
-**Usage:**
+**Использование:**
 ```
 drupal create:comments [arguments] [options]
 crc
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --limit | Сколько комментариев вы хотите создать
 --title-words | Максимальное количество слов в заголовках комментариев
 --time-range | Как далеко назад во времени материалы должны быть датированы
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 node-id | Идентификатор материала для которого будут созданы комментарии
 
-## Examples
-* Provide the node id where the comments will be generated.
+## Примеры
+* Создает комментарий для указанного нод ID.
 ```
 drupal create:comments  node-id
 ```
-* Provide number of comments to generate, max title words and time range.
+* Создает комментарий для указанного нод ID с определенным количеством слов в название и датой создания.
 ```
 drupal create:comments  node-id \
   --limit="2" \

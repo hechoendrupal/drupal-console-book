@@ -1,14 +1,15 @@
 # debug:update
 Отобразить обновления доступные для приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:update
 du
+upd
 ```
 
-## Examples
-* List of pending updates
+## Примеры
+* Отображает отложенные обновления
 ```
 drupal debug:update
 ```

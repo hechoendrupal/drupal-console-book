@@ -1,28 +1,28 @@
 # debug:plugin
-Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
+Отображает все типы плагинов, инстанции плагинов специфичного типа или определение специфичного плагина.
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:plugin [arguments]
 dpl
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-type | Plugin type
-id | Plugin ID
+type | Тип плагина
+id | ID плагина
 
-## Examples
-* Displays a list with all the plugins on the current site
+## Примеры
+* Отображает список всех плагинов на текущем сайте
 ```
 drupal debug:plugin
 ```
-* Displays block plugin information
+* Отображает информацию о плагинах типа block
 ```
 drupal debug:plugin block
 ```
-* Displays block broken information
+* Отображает информацию о плагинах block broken
 ```
 drupal debug:plugin block broken
 ```

@@ -1,25 +1,26 @@
 # generate:profile
-Generate a profile.
+Генерирует профайл.
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:profile [options]
 gpr
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---profile | The profile name
---machine-name | The machine name (lowercase and underscore only)
---description | Profile description
---core | Core version
---dependencies | Module dependencies separated by commas (i.e. context, panels)
+--profile | Имя профайла
+--machine-name | Машинное имя (только буквы в нижнем регистре и знаки подчеркивания)
+--profile-path | commands.generate.profile.options.profile-path
+--description | Описание профайла
+--core | Версия ядра
+--dependencies | Зависимости модулей разделенные запятыми (например context, panels)
 --themes | commands.generate.profile.options.themes
---distribution | The distribution name
+--distribution | Имя дистрибьюции
 
-## Examples
-* Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies
+## Примеры
+* Генерирует профайл по имени профайла, машинному имени, описанию, версии ядра и зависимостям модулей
 ```
 drupal generate:profile  \
   --profile="NewProfileName"  \

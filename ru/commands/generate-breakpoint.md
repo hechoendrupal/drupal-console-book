@@ -1,20 +1,20 @@
 # generate:breakpoint
-Generate breakpoint
+Генерирует брейкпоинт
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:breakpoint [options]
 gb
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---theme | Theme name
---breakpoints | Breakpoints
+--theme | Имя темы
+--breakpoints | Брейкпоинты
 
-## Examples
-* Generate a breakpoint specifying the theme, a breakpoint name, its label, the media query, its weight and multipliers
+## Примеры
+* Генерирует брейкпоинт по имени темы, имени брейкпоинта, заголовку, медиа запросу, весу и умножителю
 ```
 drupal generate:breakpoint  \
   --theme="classy"  \

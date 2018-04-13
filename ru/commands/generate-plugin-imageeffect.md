@@ -1,23 +1,23 @@
 # generate:plugin:imageeffect
-Generate image effect plugin.
+Генерирует плагин эффект изображения.
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:imageeffect [options]
 gpie
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---description | Plugin Description
+--class | Название класса типа плагина
+--label | Заголовок плагина
+--plugin-id | ID плагина
+--description | Описание плагина
 
-## Examples
-* Generate a image effect plugin specifying the module name, the class, its label, the plugin id and a description
+## Примеры
+* Генерирует плагин эффект изображения по имени модуля, классу, заголовку, ID плагина и описанию
 ```
 drupal generate:plugin:imageeffect  \
   --module="modulename"  \

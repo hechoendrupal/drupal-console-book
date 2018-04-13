@@ -1,20 +1,20 @@
 # config:override
 Переопределить значение конфигурации в активной конфигурации.
 
-**Usage:**
+**Использование:**
 ```
 drupal config:override [arguments]
 co
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 name | Имя конфигурации
 key | Ключ
 value | Значение
 
-## Examples
+## Примеры
 * Установить лимит флуда до 10 для модуля Contact
 ```
 drupal config:override contact.settings flood.limit 10

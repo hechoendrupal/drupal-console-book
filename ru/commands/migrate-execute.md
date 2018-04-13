@@ -1,17 +1,17 @@
 # migrate:execute
-Выполнить миграцию доступную для приложения
+Выполняет миграцию доступную для приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal migrate:execute [arguments] [options]
 mie
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --site-url | URL-адрес сайта
---db-type | commands.migrate.setup.migrations.options.db-type
+--db-type | commands.migrate.execute.migrations.options.db-type
 --db-host | Хост базы данных
 --db-name | Имя базы данных
 --db-user | Пользователь базы данных
@@ -19,9 +19,9 @@ Option | Details
 --db-prefix | Префикс базы данных
 --db-port | Порт базы данных
 --exclude | Идентификатор(ы) миграций для исключения
---source-base_path | Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)
+--source-base_path | Локальный каталог содержащий код вашего сайта (например /var/www/docroot), или адрес вашего сайта (например http://example.com)
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 migration-ids | Идентификатор(ы) миграции

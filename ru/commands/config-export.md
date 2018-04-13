@@ -1,27 +1,27 @@
 # config:export
 Экспорт текущей конфигурации приложения.
 
-**Usage:**
+**Использование:**
 ```
 drupal config:export [options]
 ce
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---directory | Define the export directory to save the configuration output.
---tar | If set, the configuration will be exported to an archive file.
---remove-uuid | If set, the configuration will be exported without uuid key.
---remove-config-hash | If set, the configuration will be exported without the default site hash key.
+--directory | Определяет каталог экспорта для сохранения конфигурации.
+--tar | Если установлено, конфигурация будет экспортирована в архив.
+--remove-uuid | Если установлено, конфигурация будет экспортирована без uuid ключа.
+--remove-config-hash | Если установлено, конфигурация будет экспортирована без хеш ключа сайта по умолчанию.
 
-## Examples
-* Optional you can add the path to export
+## Примеры
+* Опционально вы можете добавить путь для экспорта
 ```
 drupal config:export  \
   --directory="path/to/export"
 ```
-* If export will be in a compressed file and/or if uuid and config hashes will be removed.
+* Экспорт будет заархивирован и/или uuid и хеши конфигурации будут удалены.
 ```
 drupal config:export  \
   --directory="path/to/export" \

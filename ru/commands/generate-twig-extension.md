@@ -1,22 +1,22 @@
 # generate:twig:extension
-Generate a Twig extension.
+Генерирует Twig расширение.
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:twig:extension [options]
 gte
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---name | Twig Extension name
---class | Class name
+--name | Имя Twig расширения
+--class | Имя класса
 --services | Загрузка сервисов из контейнера.
 
-## Examples
-* Generate a twig extension specifying the module name, the extension name and its class
+## Примеры
+* Генерирует twig расширение по имени модуля, имени расширения и его классу
 ```
 drupal generate:twig:extension  \
   --module="modulename"  \

@@ -1,26 +1,26 @@
 # database:log:poll
-Poll the watchdog and print new log entries every x seconds
+Опрашивает watchdog и распечатывает новые записи в логе каждые x секунд
 
-**Usage:**
+**Использование:**
 ```
 drupal database:log:poll [arguments] [options]
 dblp
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---type | Filter events by a specific type
---severity | Filter events by a specific level of severity
---user-id | Filter events by a specific user id
+--type | Фильтрует события по специфичному типу
+--severity | Фильтрует события по специфичному уровню критичности
+--user-id | Фильтрует события по специфичному ID пользователя
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-duration | Duration in seconds which to sleep between database reads
+duration | Период в секундах между чтением базы данных
 
-## Examples
-* Print the log entries on screen every x seconds
+## Примеры
+* Печатает лог записи на экране каждые x секунд
 ```
 drupal database:log:poll \
   100

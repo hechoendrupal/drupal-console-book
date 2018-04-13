@@ -1,22 +1,22 @@
 # generate:plugin:type:annotation
-Generate a plugin type with annotation discovery
+Генерирует тип плагина с обнаружением по аннотации
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:type:annotation [options]
 gpta
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin type class name
+--class | Название класса типа плагина
 --machine-name | commands.generate.plugin.type.annotation.options.plugin-id
---label | Plugin type label
+--label | Заголовок типа плагина
 
-## Examples
-* Generate a plugin with annotation discovery specifying module name, class name, machine name and label
+## Примеры
+* Генерирует плагин с обнаружением по аннотации по имени модуля, имени класса, машинному имени и заголовку
 ```
 drupal generate:plugin:type:annotation  \
   --module="modulename"  \

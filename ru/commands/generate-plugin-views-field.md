@@ -1,22 +1,22 @@
 # generate:plugin:views:field
-Generate a custom plugin view field.
+Генерирует плагин поля представления.
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:views:field [options]
 gpvf
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Views plugin field class name
---title | Views plugin field title
---description | Views plugin field description
+--class | Имя класса плагина поля представления
+--title | Название плагина поля представления
+--description | Описание плагина поля представления
 
-## Examples
-* Generate a custom view field plugin specifying the module name, the class, a title and its description
+## Примеры
+* Генерирует новый плагин поля представления по имени модуля, классу, названию и его описанию
 ```
 drupal generate:plugin:views:field  \
   --module="modulename"  \

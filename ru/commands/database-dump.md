@@ -1,30 +1,30 @@
 # database:dump
 Дамп структуры и содержимого базы данных
 
-**Usage:**
+**Использование:**
 ```
 drupal database:dump [arguments] [options]
 dbdu
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --file | Имя файла резервной копии базы данных
---gz | Pass this option if you want the sql result file gzipped
+--gz | Передайте эту опцию, если вы хотите чтобы результирующий sql файл был сжат, как gzip архив
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 database | Ключ базы данных из settings.php
 
-## Examples
-* Dump default database or the one specified on the argument
+## Примеры
+* Создаёт бэкап базы данных по умолчанию или базы данных указанной, как аргумент
 ```
 drupal database:dump \
   <database>
 ```
-* Dump in gz compressed format
+* Создаёт бэкап базы данных в формате gz архива
 ```
 drupal database:dump \
   --gz

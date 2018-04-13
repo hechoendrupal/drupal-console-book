@@ -1,17 +1,17 @@
 # exec
-Execute an external command.
+Выполнить внешнюю команду.
 
-**Usage:**
+**Использование:**
 ```
 drupal exec [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---working-directory | The current working directory.
+--working-directory | Текущая рабочая директория.
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-bin | Executable name.
+bin | Имя выполняемой команды.

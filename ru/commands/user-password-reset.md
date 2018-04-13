@@ -1,21 +1,21 @@
 # user:password:reset
 Сброс пароля указанного пользователя.
 
-**Usage:**
+**Использование:**
 ```
 drupal user:password:reset [arguments]
 upr
-uspr
+upsr
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-user | Идентификатор пользователя
+user | commands.user.password.reset.options.user
 password | Пароль в текстовом формате
 
-## Examples
-* Update password specifying the user id and the new password
+## Примеры
+* Обновить пароль, указав идентификатор пользователя и новый пароль
 ```
 drupal user:password:reset  2 p455w0rd
 ```

@@ -1,23 +1,23 @@
 # generate:event:subscriber
-Generate an event subscriber
+Генерирует подписчик на событие
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:event:subscriber [options]
 ges
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---name | commands.generate.service.options.name
---class | Имя класса
+--name | commands.generate.event.subscriber.options.name
+--class | commands.generate.event.subscriber.options.class
 --events | Загрузить события из контейнера
 --services | Загрузка сервисов из контейнера.
 
-## Examples
-* Generate an event subscriber specifying the module name, its name, the class and the events to subscribe
+## Примеры
+* Генерирует подписчик на события по имени модуля, имени, классу и листу событий для подписания
 ```
 drupal generate:event:subscriber  \
   --module="modulename"  \

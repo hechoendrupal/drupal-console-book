@@ -1,23 +1,23 @@
 # debug:user
-Displays current users for the application
+Выводит актуальных пользователей для приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:user [options]
 dus
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---uid | Filters the result list by uids [between quotes separated by spaces]
---username | Filters the result list by usernames [between quotes separated by spaces]
---mail | Filters the result list by user's e-mail [between quotes separated by spaces]
---roles | Roles to filter debug
---limit | How many users would you listed in debug
+--uid | Фильтрует результирующий список по uid [в кавычках, разделенные пробелами]
+--username | Фильтрует результирующий список по именам пользователей [в кавычках, разделенные пробелами]
+--mail | Фильтрует результирующий список по адресам электронной почты пользователей [в кавычках, разделенные пробелами]
+--roles | Роли для фильтрации отладочной информации
+--limit | Сколько вывести пользователей в отладочной информации
 
-## Examples
-* Users list on the site
+## Примеры
+* Список пользователей на сайте
 ```
 drupal debug:user
 ```

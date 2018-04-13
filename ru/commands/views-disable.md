@@ -1,24 +1,24 @@
 # views:disable
 Отключить представление
 
-**Usage:**
+**Использование:**
 ```
 drupal views:disable [arguments]
 vd
 vdi
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-view-id | commands.views.debug.arguments.view-id
+view-id | Идентификатор представления
 
-## Examples
-* Disable content view
+## Примеры
+* Отключить представление для отображения данных
 ```
 drupal views:disable  content
 ```
-* Disable frontpage view
+* Отключить представление на главной странице
 ```
 drupal views:disable  frontpage
 ```

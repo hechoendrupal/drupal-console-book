@@ -1,21 +1,21 @@
 # generate:authentication:provider
-Generate an Authentication Provider
+Генерирует провайдер аутентификации
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:authentication:provider [options]
 gap
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Authentication Provider class
---provider-id | Provider ID
+--class | Класс провайдера аутентификации
+--provider-id | ID провайдера
 
-## Examples
-* Generate an authentication provider specifying the module, the class and the provider id
+## Примеры
+* Генерирует провайдер аутентификации по модулю, классу и ID  провайдера
 ```
 drupal generate:authentication:provider  \
   --module="modulename"  \

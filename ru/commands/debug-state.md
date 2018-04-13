@@ -1,23 +1,23 @@
 # debug:state
-Show the current State keys.
+Показывает ключи текущего Состояния.
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:state [arguments]
 dst
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-key | The State key to debug.
+key | Ключ Состояния для отображения.
 
-## Examples
-* List of the states on the site
+## Примеры
+* Отображает список состояний на сайте
 ```
 drupal debug:state
 ```
-* Displays a detail of the state install_task tok from the list of states
+* Отображает детали Состояния install_task из списка состояний
 ```
 drupal debug:state install_task
 ```

@@ -1,25 +1,27 @@
 # debug:container
 Отображает текущие сервисы для приложения.
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:container [arguments] [options]
 dco
+cod
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --parameters | Имя сервиса.
+--tag | commands.debug.container.options.tag
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 service | Имя сервиса.
 method | Method name.
 arguments | Array of Arguments in CSV or JSON format.
 
-## Examples
+## Примеры
 * Displays the views.views_data_helper services
 ```
 drupal debug:container views.views_data_helper

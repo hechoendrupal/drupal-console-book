@@ -1,14 +1,14 @@
 # user:login:clear:attempts
 Сброс неудачных попыток входа в аккаунт.
 
-**Usage:**
+**Использование:**
 ```
 drupal user:login:clear:attempts [arguments]
 ulca
 uslca
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-uid | Идентификатор пользователя.
+user | commands.user.login.clear.attempts.arguments.user

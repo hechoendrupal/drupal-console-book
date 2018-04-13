@@ -1,32 +1,32 @@
 # generate:plugin:field
-Generate field type, widget and formatter plugins.
+Генерирует плагины типа поля, виджета и форматтера
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:field [options]
 gpf
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---type-class | Field type plugin class name
---type-label | Field type plugin label
---type-plugin-id | Field type plugin id
---type-description | commands.generate.plugin.field.options.type-type-description
---formatter-class | commands.generate.plugin.field.options.class
---formatter-label | Field formatter plugin label
---formatter-plugin-id | Field formatter plugin id
---widget-class | Field formatter plugin class name
---widget-label | Field widget plugin label
---widget-plugin-id | Field widget plugin id
---field-type | Field type the formatter and widget plugin can be used with
---default-widget | Default field widget of the field type plugin
---default-formatter | Default field formatter of field type plugin
+--type-class | Название класса плагина типа поля
+--type-label | Заголовок плагина типа поля
+--type-plugin-id | ID плагина типа поля
+--type-description | Описание плагина типа поля
+--formatter-class | Название класса плагина форматтера поля
+--formatter-label | Заголовок плагина форматтера поля
+--formatter-plugin-id | ID плагина форматтера поля
+--widget-class | Название класса плагина форматтера поля
+--widget-label | Заголовок плагина виджета поля
+--widget-plugin-id | ID плагина виджета поля
+--field-type | Тип поля с которым плагин форматтера и виджета может быть использован
+--default-widget | Плагин виджета по умолчанию для этого типа поля
+--default-formatter | Плагин форматтера по умолчанию для этого типа поля
 
-## Examples
-* Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)
+## Примеры
+* Генерирует плагины типа поля, виджета и форматтера по имени модуля, типу (класс, заголовок, ID плагина и описание), форматтеру (класс, заголовок, ID плагина и описание) и виджету (класс, заголовок, ID плагина и описание)
 ```
 drupal generate:plugin:field  \
   --module="modulename"  \

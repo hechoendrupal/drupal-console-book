@@ -1,13 +1,13 @@
 # debug:settings
-List user Drupal Console settings.
+Вывести пользовательские настройки Drupal Console.
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:settings
 dse
 ```
 
-## Examples
+## Примеры
 * 
 ```
 drupal debug:settings

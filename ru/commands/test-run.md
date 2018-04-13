@@ -1,20 +1,19 @@
 # test:run
 Run Test unit from tests available for application
 
-**Usage:**
+**Использование:**
 ```
 drupal test:run [arguments] [options]
 ter
-tr
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --url | commands.test.run.arguments.url
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 test-class | Test Class
 test-methods | Test method(s) to be run

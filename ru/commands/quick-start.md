@@ -1,14 +1,12 @@
 # quick:start
 Download, install and serve a new Drupal project
 
-**Usage:**
+**Использование:**
 ```
 drupal quick:start [options]
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---repository | repository
---directory | directory
---profile | profile
+--file | 

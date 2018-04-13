@@ -1,22 +1,22 @@
 # generate:plugin:skeleton
-Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator
+Генерирует имплементацию skeleton плагина для тех плагинов для которых Drupal Console не имеет специального генератора
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:skeleton [options]
 gps
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---plugin-id | commands.generate.plugin.options.plugin-id
---class | Plugin class name
+--plugin-id | ID плагина.
+--class | Имя класса плагина
 --services | Загрузка сервисов из контейнера.
 
-## Examples
-* Generate a plugin skeleton specifying module name, the plugin id and the class
+## Примеры
+* Генерирует skeleton плагин по имени модуля, ID плагина и его классу
 ```
 drupal generate:plugin:skeleton  \
   --module="modulename"  \

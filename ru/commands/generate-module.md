@@ -1,30 +1,30 @@
 # generate:module
-Generate a module.
+Сгенерировать модуль.
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:module [options]
 gm
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---module | The Module name
---machine-name | The machine name (lowercase and underscore only)
---module-path | The path of the module
---description | Module description
---core | Core version
+--module | Название модуля
+--machine-name | Машинное имя (только буквы в нижнем регистре и знак подчеркивания)
+--module-path | Путь до модуля
+--description | Описание модуля
+--core | Версия ядра
 --package | Module package
---module-file | Add a .module file
---features-bundle | Define module as feature using the given Features bundle name
---composer | Add a composer.json file
---dependencies | Module dependencies separated by commas (i.e. context, panels)
---test | Generate a test class
---twigtemplate | Generate theme template
+--module-file | Добавить файл .module
+--features-bundle | Определить модуль как feature, используя предоставленное имя бандла
+--composer | Добавить файл composer.json
+--dependencies | Зависимости модуля через запятую (например, context, panels)
+--test | Сгенерировать класс тестов
+--twigtemplate | Сгенерировать шаблон темы
 
-## Examples
-* Generate a module specifying the module name, machine name, the path, its description, drupal core and the package name. In this example the composer file, the unit test and twig template are generated too
+## Примеры
+* Генерировать модуль по имени модуля, машинному имени, пути, описанию, версии ядра и имени пакета. В этом примере Composer файл, файл юнит-тестов и twig темплейт тоже будут сгенерированы
 ```
 drupal generate:module  \
   --module="modulename"  \

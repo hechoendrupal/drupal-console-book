@@ -1,25 +1,25 @@
 # module:uninstall
-Uninstall module or modules in the application
+Удаляет модуль или модули из приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal module:uninstall [arguments] [options]
 mou
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---force | Do you want to ignore dependencies and forcefully uninstall the module?
---composer | Uninstalls the module using Composer
+--force | Вы хотите игнорировать зависимости и принудительно удалить модуль?
+--composer | Удаляет модули, используя Composer
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-module | Enter module name
+module | Введите имя модуля
 
-## Examples
-* Uninstall the module specifying the module name
+## Примеры
+* Удаляет модуль по его имени
 ```
 drupal module:uninstall  modulename
 ```

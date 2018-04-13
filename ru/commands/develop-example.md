@@ -1,7 +1,7 @@
 # develop:example
 
 
-**Usage:**
+**Использование:**
 ```
 drupal develop:example
 ```

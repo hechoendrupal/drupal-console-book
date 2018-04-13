@@ -1,31 +1,32 @@
 # database:query
-Executes a SQL statement directly as argument
+Выполняет SQL выражение, напрямую из аргумента
 
-**Usage:**
+**Использование:**
 ```
 drupal database:query [arguments] [options]
 dbq
+sqlq
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---quick | Do not cache each query result, print each row as it is received
---debug | Prints debugging information and memory and CPU usage statistics when the program exits
---html | Produce HTML output
---xml | Produce XML output
---raw | Special characters are not escaped in the output.
---vertical | Print query output rows vertically
---batch | Print results using tab as the column separator, with each row on a new line. With this option, mysql does not use the history file
+--quick | Не кэшировать результат каждого запроса, вывести каждую строку в том виде, в котором получена
+--debug | Вывести отладочную информацию и статистику использования памяти и ЦП по завершении выполнения
+--html | Вывести результат в виде HTML
+--xml | Вывести результат в виде XML
+--raw | Специальные символы не экранированы в выводе.
+--vertical | Вывести строки результата выполнения запроса вертикально
+--batch | Вывести результаты, используя табуляцию в качестве разделителя колонок, каждую строку результата на новой строке. С данной опцией MySQL не использует файл истории
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-query | The SQL statement to execute
-database | Database key from settings.php
+query | SQL выражение для выполнения
+database | Ключ базы данных из settings.php
 
-## Examples
-* Send a database query
+## Примеры
+* Отправить запрос к базе данных
 ```
 drupal database:query 'select * from node limit 0,1'
 ```

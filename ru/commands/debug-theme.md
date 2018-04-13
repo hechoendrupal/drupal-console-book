@@ -1,23 +1,24 @@
 # debug:theme
 Отображает текущие темы для приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:theme [arguments]
 dt
+tde
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 theme | Тема для отладки
 
-## Examples
-* List of themes on the site
+## Примеры
+* Выводит темы сайта
 ```
 drupal debug:theme
 ```
-* Bartik theme information
+* Информация о теме Bartik
 ```
 drupal debug:theme bartik
 ```

@@ -1,24 +1,24 @@
 # database:restore
 Восстановление структуры и содержимого базы данных
 
-**Usage:**
+**Использование:**
 ```
 drupal database:restore [arguments] [options]
 dbr
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --file | Имя файла резервной копии базы данных
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 database | Ключ базы данных из settings.php
 
-## Examples
-* Restore the database file dump to the database default or another one specified
+## Примеры
+* Восстанавливает бэкап базы данных в базу данных по умолчанию или любую другую указанную базу данных
 ```
 drupal database:restore \
   --file='/srv/dump/db.sql'

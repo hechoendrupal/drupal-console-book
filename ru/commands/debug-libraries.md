@@ -1,23 +1,23 @@
 # debug:libraries
-Displays libraries available in application
+Выводит библиотеки, доступные в приложении
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:libraries [arguments]
 dl
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-group | Enter Libraries Name
+group | Введите имя библиотеки
 
-## Examples
-* List all available libraries
+## Примеры
+* Список всех доступных библиотек
 ```
 drupal debug:libraries
 ```
-* List block library information
+* Информация о block библиотеке
 ```
 drupal debug:libraries block
 ```

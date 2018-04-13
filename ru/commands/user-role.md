@@ -1,25 +1,25 @@
 # user:role
-Adds/removes a role for a given user
+Добавить/отнять пользовательскую роль
 
-**Usage:**
+**Использование:**
 ```
 drupal user:role [arguments]
 ur
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-operation | commands.user.role.operation
-user | commands.user.role.user
-role | commands.user.role.role
+operation | Добавить (add) или отнять (remove)
+user | Пользователь (не больше одного)
+role | Список ролей. Используйте машинное имя (не больше одной)
 
-## Examples
-* Add administrator role to the user admin specifying the username and the role
+## Примеры
+* Дать пользователю admin привилегии администратора.
 ```
 drupal user:role  add admin administrator
 ```
-* Remove administrator role from the user admin specifying the username and the role
+* Дать у пользователя admin привилегии администратора.
 ```
 drupal user:role  remove admin administrator
 ```

@@ -1,26 +1,25 @@
 # generate:plugin:condition
-Generate a plugin condition.
+Генерирует плагин условия.
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:condition [options]
 gpco
-gpc
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin condition class name
---label | Plugin condition label
---plugin-id | Plugin condition id
---context-definition-id | Context definition ID
---context-definition-label | Context definition label
---context-definition-required | Context definition is requiered (TRUE/FALSE)
+--class | Название класса плагина условия
+--label | Заголовок плагина условия
+--plugin-id | ID плагина условия
+--context-definition-id | ID контекста определения
+--context-definition-label | Заголовок контекста определения
+--context-definition-required | Контекст определения обязателен (TRUE/FALSE)
 
-## Examples
-* Generate a plugin condition for a node entity type specifying the module name, the class, the label, its id and the context definition
+## Примеры
+* Генерирует плагин условия для сущности нода по имени модуля, классу, заголовку, ID и контексту определения
 ```
 drupal generate:plugin:condition  \
   --module="modulename"  \
@@ -31,7 +30,7 @@ drupal generate:plugin:condition  \
   --context-definition-label="node"  \
   --context-definition-required
 ```
-* Generate a plugin condition for language specifying the module name, the class, the label, its id and the context definition
+* Генерирует плагин условия для языка по имени модуля, классу, заголовку, ID и контексту определения
 ```
 drupal generate:plugin:condition  \
   --module="modulename"  \
@@ -42,7 +41,7 @@ drupal generate:plugin:condition  \
   --context-definition-label="Language"  \
   --context-definition-required
 ```
-* Generate a plugin condition for role configuration specifying the module name, the class, the label, its id and the context definition
+* Генерирует плагин условия для роли по имени модуля, классу, заголовку, ID и контексту определения
 ```
 drupal generate:plugin:condition  \
   --module="modulename"  \

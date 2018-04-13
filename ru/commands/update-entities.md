@@ -1,14 +1,14 @@
 # update:entities
-Applying Entity Updates
+Выполняется обновление сущностей
 
-**Usage:**
+**Использование:**
 ```
 drupal update:entities
 upe
 ```
 
-## Examples
-* Update entities
+## Примеры
+* Обновить сущности
 ```
 drupal update:entities
 ```

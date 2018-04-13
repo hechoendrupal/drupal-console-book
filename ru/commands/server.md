@@ -1,26 +1,28 @@
 # server
-Runs PHP built-in web server
+Запускает встроенный PHP вебсервер
 
-**Usage:**
+**Использование:**
 ```
 drupal server [arguments]
+serve
+rs
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-address | The address:port values
+address | адрес:порт значения
 
-## Examples
-* Run using default address argument value 127.0.0.1:8088
+## Примеры
+* Запустить, используя адрес по-умолчанию 127.0.0.1:8088
 ```
 drupal server
 ```
-* Passing address argument to use a different port number
+* Указание аргумента адреса для использования другого номера порта
 ```
 drupal server 127.0.0.1:8089
 ```
-* Running default address argument values, using --root option to define the Drupal root
+* Запуск со значением адреса по-умолчанию, использование --root опции для задания корня Drupal
 ```
 drupal --root=/var/www/drupal8.dev server
 ```

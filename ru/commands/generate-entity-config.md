@@ -1,25 +1,24 @@
 # generate:entity:config
-Generate a new config entity
+Генерирует сущность конфигурации
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:entity:config [options]
 gec
-gecg
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---entity-class | The config entity class
---entity-name | The config entity name
---base-path | The base-path for the config entity routes
---label | The label
---bundle-of | Acts as bundle for content entities
+--entity-class | Класс сущности конфигурации
+--entity-name | Имя сущности конфигурации
+--base-path | Базовые пути для маршрутов сущности конфигурации
+--label | Заголовок
+--bundle-of | Действовать, как бандл для контент сущностей
 
-## Examples
-* Generate config entity specifying the module, the entity class, the entity name, its path and label
+## Примеры
+* Генерирует сущность конфигурации по имени модуля, классу сущности, имени сущности, пути и заголовку
 ```
 drupal generate:entity:config  \
   --module="modulename"  \

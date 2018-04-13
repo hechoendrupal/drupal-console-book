@@ -1,30 +1,30 @@
 # config:export:single
 Экспорт конфигурации в yml файл.
 
-**Usage:**
+**Использование:**
 ```
 drupal config:export:single [options]
 ces
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --name | commands.config.export.single.options.name
 --directory | commands.config.export.arguments.directory
 --module | Имя модуля.
 --include-dependencies | Экспортировать зависимости конфигурации.
---optional | Export config as an optional YAML configuration in your module
---remove-uuid | If set, the configuration will be exported without uuid key.
---remove-config-hash | If set, the configuration will be exported without the default site hash key.
+--optional | Экспорт конфигурации как дополнительной YAML конфигурации в вашем модуле
+--remove-uuid | Если установлено конфигурация будет экспортирована без uuid ключа.
+--remove-config-hash | Если установлено конфигурация будет экспортирована без хеша сайта по умолчанию.
 
-## Examples
-* Provide config settings name to be exported
+## Примеры
+* Предоставление имя настройки конфигурации для экспорта
 ```
 drupal config:export:single \
   --name=config.settings.name
 ```
-* if uuid and/or config hashes will be removed.
+* Если указаны опции для uuid и/или хэш конфигурации, то они будут удалены.
 ```
 drupal config:export:single \
   --name=config.settings.name \

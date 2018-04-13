@@ -1,14 +1,13 @@
 # yaml:update:value
-The **yaml:update:value** command Обновить значение для заданного ключа в YAML файле.
+Обновить значение для заданного ключа в YAML файле.
 
 **Использование:**
 ```
-$ drupal yaml:update:value [arguments] 
-$ yuv  
+drupal yaml:update:value [arguments]
 ```
 
-## Доступные параметры
-Параметр | Описание
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 yaml-file | Путь к YAML файлу для обновления
 yaml-key | YAML ключ для обновления

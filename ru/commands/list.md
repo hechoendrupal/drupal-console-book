@@ -1,19 +1,19 @@
 # list
 Списки всех доступных команд
 
-**Usage:**
+**Использование:**
 ```
 drupal list [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --xml | Для вывода списка в формате XML
 --raw | Для вывода списка команд в исходном формате
 --format | Формат вывода (txt, xml, json, или md)
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 namespace | Пространство имен

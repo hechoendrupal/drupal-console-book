@@ -1,28 +1,27 @@
 # module:download
 Скачать модуль или модули в приложение
 
-**Usage:**
+**Использование:**
 ```
 drupal module:download [arguments] [options]
 mod
-md
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---path | The path of the contrib project
+--path | Путь к проекту модуля
 --latest | По умолчанию загружать самую последнюю версию
---composer | Download the module using Composer
---unstable | commands.module.install.options.unstable
+--composer | Скачать модуль, используя Composer
+--unstable | commands.module.download.options.unstable
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 module | Модуль или модули, которые будут включены должны быть разделены пробелом
 
-## Examples
-* Download module specifying module name and its path
+## Примеры
+* Скачивает указанный модуль в указанный путь
 ```
 drupal module:download  modulename  \
   --path="modules/contrib"

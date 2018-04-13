@@ -1,14 +1,15 @@
 # init
-Copy configuration files to user home directory.
+Копирует конфигурационные файлы в домашний каталог пользователя.
 
-**Usage:**
+**Использование:**
 ```
 drupal init [options]
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---destination | Destination directory to copy files
---override | Override configurations files
---autocomplete | Autocomplete tool files flag.
+--destination | Каталог куда будут скопированы файлы
+--site | commands.init.options.site
+--override | Перезаписать конфигурационные файлы
+--autocomplete | Флаг автозаполнения файлов.

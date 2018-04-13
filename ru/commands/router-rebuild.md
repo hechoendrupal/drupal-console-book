@@ -1,15 +1,15 @@
 # router:rebuild
 Отображает маршруты для приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal router:rebuild
 rr
 ror
 ```
 
-## Examples
-* Rebuild routes
+## Примеры
+* Перестраивает маршруты
 ```
 drupal router:rebuild
 ```

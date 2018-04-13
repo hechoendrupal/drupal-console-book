@@ -1,29 +1,29 @@
 # create:terms
 Создание фиктивных терминов для Drupal 8.
 
-**Usage:**
+**Использование:**
 ```
 drupal create:terms [arguments] [options]
 crt
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --limit | Сколько терминов вы хотите создать
 --name-words | Максимальное количество слов в именах терминов
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 vocabularies | Словари, которые будут использованы при создании терминов
 
-## Examples
-* Provide the vocabulary term name.
+## Примеры
+* Создает термины в указанном словаре.
 ```
 drupal create:terms vocabulary
 ```
-* Provide the limit of terms to add and limit of title words.
+* Создает указанное количество терминов в указанном словаре с указанным количеством слов в имени.
 ```
 drupal create:terms tags \
   --limit="10" \

@@ -1,25 +1,25 @@
 # generate:plugin:fieldtype
-Generate field type plugin.
+Генерирует плагин типа поля.
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:fieldtype [options]
 gpft
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---description | Plugin Description
---default-widget | Default field widget of this plugin
---default-formatter | Default field formatter of this plugin
+--class | Название класса плагина
+--label | Заголовок плагина
+--plugin-id | ID  плагина
+--description | Описание плагина
+--default-widget | Виджет по умолчанию для этого типа поля
+--default-formatter | Форматтер по умолчанию для этого типа поля
 
-## Examples
-* Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description
+## Примеры
+* Генерирует плагин типа поля по имени модуля, классу, заголовку, ID  плагина и описанию
 ```
 drupal generate:plugin:fieldtype  \
   --module="modulename"  \
@@ -28,7 +28,7 @@ drupal generate:plugin:fieldtype  \
   --plugin-id="example_field_type"  \
   --description="My Field Type"
 ```
-* Generate a field type plugin with a default widget and formatter specifying the module name, the class, its label, the plugin id and a description
+* Генерирует плагин типа поля с виджетом и форматтером по умолчанию по имени модуля, классу, заголовку, ID  плагина и описанию
 ```
 drupal generate:plugin:fieldtype  \
   --module="modulename"  \

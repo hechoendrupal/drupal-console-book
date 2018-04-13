@@ -1,31 +1,31 @@
 # database:log:clear
 Удалить события из таблицы DBLog, фильтры доступны
 
-**Usage:**
+**Использование:**
 ```
 drupal database:log:clear [arguments] [options]
 dblc
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --type | Отфильтровать события по указанному типу
 --severity | Отфильтровать события по указанному уровню важности
 --user-id | Отфильтровать события по указанному идентификатору пользователя
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-event-id | DBLog event ID
+event-id | DBLog ID события
 
-## Examples
-* Clear the database log from DBLog table
+## Примеры
+* Отчистить лог базы данных из таблицы DBLog
 ```
 drupal database:log:clear \
   <database>
 ```
-* Clear the database log from DBLog table using filters
+* Отчистить лог базы данных из таблицы DBLog, используя фильтры
 ```
 drupal database:log:clear \
   <database> \

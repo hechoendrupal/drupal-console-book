@@ -1,29 +1,29 @@
 # debug:module
 Отображение текущих модулей доступных для приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:module [arguments] [options]
 dm
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --status | Статус модуля [включен|выключен]
 --type | Тип модуля [ядро|не ядро]
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-module | Module name
+module | Имя модуля
 
-## Examples
-* Display all installed modules
+## Примеры
+* Отображает все установленные модули
 ```
 drupal mod --status=installed
 ```
-* Display all installed and no core modules
+* Отображает все установленные модули и модули не ядра
 ```
 drupal mod --status=installed --type=no-core
 ```

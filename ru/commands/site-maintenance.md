@@ -1,23 +1,23 @@
 # site:maintenance
 Переключить сайт в режим обслуживания
 
-**Usage:**
+**Использование:**
 ```
 drupal site:maintenance [arguments]
 sma
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-mode | commands.site.maintenance.arguments.mode[on/off]
+mode | Режим обслуживания сайта
 
-## Examples
-* Switch on maintenance
+## Примеры
+* Включить режим обслуживания
 ```
 drupal site:maintenance  on
 ```
-* Switch off maintenance
+* Выключить режим обслуживания
 ```
 drupal site:maintenance  off
 ```

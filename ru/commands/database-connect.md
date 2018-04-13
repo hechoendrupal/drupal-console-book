@@ -1,19 +1,20 @@
 # database:connect
 Показывает соединение с базой данных
 
-**Usage:**
+**Использование:**
 ```
 drupal database:connect [arguments]
 dbco
+sqlc
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 database | Ключ базы данных из settings.php
 
-## Examples
-* Connects to an specified database, or the default if not arguments passed
+## Примеры
+* Устанавливает соединение с указанной базой данных или базой данных по умолчанию, если аргумент не был передан
 ```
 drupal database:connect \
   <database>

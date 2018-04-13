@@ -1,25 +1,25 @@
 # generate:plugin:migrate:source
-Generate a migrate source plugin
+Генерирует плагин ресурса миграции
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:migrate:source [options]
 gpms
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin class name
---plugin-id | Plugin id
---table | Table to query
---alias | Short alias to refer to the table as
---group-by | Field to group results by
---fields | Fields to export
+--class | Имя класс плагина
+--plugin-id | ID плагина
+--table | Таблица запросов
+--alias | Короткий алиас для отссылки к таблице как
+--group-by | Поле по которому результаты будут сгрупированны
+--fields | Поля для экспорта
 
-## Examples
-* Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias
+## Примеры
+* Генерирует плагин ресурса миграции по имени модуля, классу, ID плагина, таблицы и алиасу
 ```
 drupal generate:plugin:migrate:source  \
   --module="modulename"  \
@@ -28,7 +28,7 @@ drupal generate:plugin:migrate:source  \
   --table="DefaultTableName"  \
   --alias="D"
 ```
-* Generate a migration source plugin for specific fields of the users table specifying the module name, the class, its plugin id, the table, its alias and the fields
+* Генерирует плагин ресурса миграции для специфичных полей таблицы пользователей по имени модуля, классу, ID плагина, таблицы, алиасу и полям
 ```
 drupal generate:plugin:migrate:source  \
   --module="modulename"  \

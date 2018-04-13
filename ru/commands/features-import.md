@@ -1,18 +1,18 @@
 # features:import
-Import module config.
+Импортирует конфигурацию модуля.
 
-**Usage:**
+**Использование:**
 ```
 drupal features:import [arguments] [options]
 fei
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---bundle | Bundle name
+--bundle | Имя бандла
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-packages | Package name
+packages | Имя пакета

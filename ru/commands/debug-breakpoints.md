@@ -1,19 +1,19 @@
 # debug:breakpoints
-Displays breakpoints available in application
+Отображает брейкпоинты досутпные в приложении
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:breakpoints [arguments]
 dbre
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-group | Enter Breakpoint Group Name
+group | Введите группу брейкпоинтов
 
-## Examples
-* Provide a group name.
+## Примеры
+* Отображает брейкпоинты для темы Bartik.
 ```
-drupal breakpoints:debug bartik
+drupal debug:breakpoints bartik
 ```

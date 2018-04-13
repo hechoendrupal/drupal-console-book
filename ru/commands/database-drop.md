@@ -1,19 +1,19 @@
 # database:drop
 Удалить все таблицы в данной базе данных.
 
-**Usage:**
+**Использование:**
 ```
 drupal database:drop [arguments]
 dbd
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 database | Ключ баы данных из settings.php
 
-## Examples
-* Drop the tables on the database specified on the argument
+## Примеры
+* Удаляет таблицы базы данных переданной в аргументе
 ```
 drupal database:drop \
   <database>

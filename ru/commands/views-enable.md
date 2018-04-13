@@ -1,23 +1,23 @@
 # views:enable
 Включить представление
 
-**Usage:**
+**Использование:**
 ```
 drupal views:enable [arguments]
 ve
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-view-id | commands.views.debug.arguments.view-id
+view-id | Идентификатор представления
 
-## Examples
-* Enable content view
+## Примеры
+* Включить представление для отображения данных
 ```
 drupal views:enable  content
 ```
-* Enable frontpage view
+* Включить представление на главной странице
 ```
 drupal views:enable  frontpage
 ```

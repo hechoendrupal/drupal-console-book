@@ -1,7 +1,7 @@
 # dotenv:debug
 Debug Dotenv debug values.
 
-**Usage:**
+**Использование:**
 ```
 drupal dotenv:debug
 ```

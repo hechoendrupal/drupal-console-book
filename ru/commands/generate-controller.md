@@ -1,24 +1,23 @@
 # generate:controller
-Generate & Register a controller
+Генерирует и регистрирует контроллер
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:controller [options]
 gcon
-gcn
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Controller Class name
---routes | The routes, must be an array containing [title, method, path]
+--class | Имя класса контроллера
+--routes | Маршруты, должны быть представлены массивом содержащим [название, метод, путь]
 --services | Загрузка сервисов из контейнера.
---test | Generate a test class
+--test | Сгенерировать класс тестов
 
-## Examples
-* Generate controller specifying the module name, the class name and its routes
+## Примеры
+* Сгенерировать контроллер по имени модуля, классу и его маршрутам
 ```
 drupal generate:controller  \
   --module="modulename"  \

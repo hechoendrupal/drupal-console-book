@@ -1,15 +1,15 @@
 # field:info
-View information about fields.
+Просмотреть информацию о полях.
 
-**Usage:**
+**Использование:**
 ```
 drupal field:info [options]
 fii
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---detailed | Extended output with machine names and descriptions
---entity | Restrict to a specific fieldabe entity type, for example: node, comment, taxonomy_term, shortcut, block_content, contact_message
---bundle | Restrict to a specific bundle type, for example: article
+--detailed | Расширенный вывод с машинными именами и описаниями
+--entity | Ограничить конкретным типом сущности с полями, например: node, comment, taxonomy_term, shortcut, block_content, contact_message
+--bundle | Ограничить конкретным бандлом, например: article

@@ -1,24 +1,24 @@
 # module:path
-Returns the relative path to the module (or absolute path)
+Возвращает относительный или абсолютный путь к модулю
 
-**Usage:**
+**Использование:**
 ```
 drupal module:path [arguments] [options]
 mop
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---absolute | Return module absolute path
+--absolute | Возвращает абсолютный путь к модулю
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-module | The Module name (machine name)
+module | Имя модуля (машинное имя)
 
-## Examples
-* Get the relative path of the module specifying the module name
+## Примеры
+* Возвращает относительный путь к модуля по машинному имени модуля
 ```
 drupal module:path  modulename
 ```

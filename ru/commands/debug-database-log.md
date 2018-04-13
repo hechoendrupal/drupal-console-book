@@ -1,34 +1,35 @@
 # debug:database:log
 Показать текущий журнал событий приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:database:log [arguments] [options]
 dbb
+ws
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---type | Filter events by a specific type
---severity | Filter events by a specific level of severity
---user-id | Filter events by a specific user id
---asc | List events in ascending order
+--type | Фильтрует события по специфичному типу
+--severity | Фильтрует события по специфичному уровню критичности
+--user-id | Фильтрует события по специфичному ID пользователя
+--asc | Список событий в восходящем порядке
 --limit | Ограничить количество результатов заданным числом
 --offset | Смещение стартовой позиции
---yml | Print in a yml style
+--yml | Распечатать в yml стиле
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 event-id | Идентификатор события в DBLog
 
-## Examples
-* List all the entries on the log
+## Примеры
+* Отобразить все записи в логе
 ```
 drupal debug:database:log
 ```
-* List specific log entry by Event ID
+* Отобразить специфичную запись лога по ID события
 ```
 drupal debug:database:log 21228
 ```

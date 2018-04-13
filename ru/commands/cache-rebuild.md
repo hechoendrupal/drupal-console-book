@@ -1,18 +1,19 @@
 # cache:rebuild
 Перестроить и очистить весь кеш сайта.
 
-**Usage:**
+**Использование:**
 ```
 drupal cache:rebuild [arguments]
 cr
+cc
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 cache | Очистить только конкретный кеш.
 
-## Examples
+## Примеры
 * Перестроить все кеши
 ```
 drupal cr all

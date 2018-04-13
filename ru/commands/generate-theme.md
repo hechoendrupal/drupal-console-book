@@ -1,29 +1,29 @@
 # generate:theme
-Generate a theme.
+Генерирует тему.
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:theme [options]
 gt
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---theme | commands.generate.theme.options.module
---machine-name | The machine name (lowercase and underscore only)
---theme-path | commands.generate.theme.options.module-path
---description | Theme description
---core | Core version
---package | Theme package
---global-library | Global styling library name
+--theme | Название темы
+--machine-name | Машинное имя (только буквы в нижнем регистре и знак подчеркивания)
+--theme-path | Путь до темы
+--description | Описание темы
+--core | Версия ядра
+--package | Пакет темы
+--global-library | Имя глобальной библиотеки стилей
 --libraries | commands.generate.theme.options.libraries
---base-theme | Base theme (i.e. classy, stable)
---regions | Regions
---breakpoints | Breakpoints
+--base-theme | Базовая тема (например, classy, stable)
+--regions | Регионы
+--breakpoints | Контрольные точки
 
-## Examples
-* Generate a theme without region and without breakpoint specifying the theme name, its machine name, the theme path, a description, the drupal core, the package name and the global library
+## Примеры
+* Генерирует тему без регионов и контрольных точек по названию темы, машинному имени, пути темы, описанию, ядру Drupal, имени пакета и глобальной библиотеке
 ```
 drupal generate:theme  \
   --theme="AnotherTheme"  \
@@ -35,7 +35,7 @@ drupal generate:theme  \
   --global-library="global-styling"  \
   --base-theme="false"
 ```
-* Generate a theme base on stable theme with two region defined and one breakpoint specifying the theme name, its machine name, the theme path, a description, the drupal core, the package name, a global library, its base, the regions and the breakpoint
+* Генерирует тему на основе темы stable с двумя регионами и одной контрольной точкой по названию темы, машинному имени, пути темы, описанию, ядру Drupal, имени пакета, глобальной библиотеке, базовой теме, регионам и контрольной точке
 ```
 drupal generate:theme  \
   --theme="MyTheme"  \

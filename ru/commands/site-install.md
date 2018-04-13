@@ -1,38 +1,38 @@
 # site:install
-Install a Drupal project
+Устанавливает Drupal проект
 
-**Usage:**
+**Использование:**
 ```
 drupal site:install [arguments] [options]
 si
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---langcode | commands.site.install.options.langcode
---db-type | commands.site.install.options.db-type
---db-file | commands.site.install.options.db-file
+--langcode | Язык Drupal
+--db-type | Тип базы данных Drupal, которая будет установлена
+--db-file | Drupal файл базы данных, которая будет установлена
 --db-host | Хост базы данных
 --db-name | Имя базы данных
 --db-user | Пользователь базы данных
 --db-pass | Пароль базы данных
 --db-prefix | Префикс базы данных
 --db-port | Порт базы данных
---site-name | commands.site.install.options.site-name
---site-mail | commands.site.install.options.site-mail
---account-name | commands.site.install.options.account-name
---account-mail | commands.site.install.options.account-mail
---account-pass | commands.site.install.options.account-pass
---force | commands.site.install.options.force
+--site-name | Название сайта Drupal
+--site-mail | E-mail сайта Drupal
+--account-name | Имя пользователя администратора Drupal
+--account-mail | E-mail администратора Drupal
+--account-pass | Пароль администратора Drupal
+--force | commands.site.install.arguments.force
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-profile | Drupal Profile to be installed
+profile | Профайл Drupal, который будет установлен
 
-## Examples
-* Install a drupal project specifying installation type, language code, database configuration, site name, site email and admin credential settings
+## Примеры
+* Установка проекта drupal, передавая тип установки, код языка, конфигурацию базы данных, имя сайта, E-mail сайта и данные для администратора сайта
 ```
 drupal site:install  standard  \
   --langcode="en"  \

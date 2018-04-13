@@ -1,22 +1,22 @@
 # generate:plugin:type:yaml
-Generate a plugin type with Yaml discovery
+Генерирует тип плагина с Yaml обнаружением
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:type:yaml [options]
 gpty
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin type class name
---plugin-name | Plugin type machine name
---plugin-file-name | Plugin file name
+--class | Название класса типа плагина
+--plugin-name | Машинное имя типа плагина
+--plugin-file-name | Имя файла плагина
 
-## Examples
-* Generate a plugin with Yaml discovery specifying module name, class name, plugin name and plugin file name
+## Примеры
+* Генерирует плагин с Yaml обнаружением по имени модуля, имени класса, имени плагина и имени файла плагина
 ```
 drupal generate:plugin:type:yaml  \
   --module="modulename"  \

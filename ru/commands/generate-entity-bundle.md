@@ -1,21 +1,21 @@
 # generate:entity:bundle
-Generate a new content type (node / entity bundle)
+Сгенерировать новый тип контента (бандл ноды / сущности)
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:entity:bundle [options]
 geb
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---bundle-name | The content type's machine name
---bundle-title | The content type's human-readable name
+--bundle-name | Машинное имя типа контента
+--bundle-title | Название типа контента
 
-## Examples
-* Generate bundle entity specifying the module, the bundle name and its title
+## Примеры
+* Сгенерировать бандл сушности, указав модуль, машинное имя бандла и его название
 ```
 drupal generate:entity:bundle  \
   --module="modulename"  \

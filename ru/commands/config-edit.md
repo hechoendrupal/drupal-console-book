@@ -1,25 +1,25 @@
 # config:edit
 Редактирование выбранной конфигурации.
 
-**Usage:**
+**Использование:**
 ```
 drupal config:edit [arguments]
 ced
 cdit
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 config-name | Имя конфигурации.
 editor | Редактор.
 
-## Examples
-* Edit system cron configurations with "vim" (default editor).
+## Примеры
+* Редактирование cron конфигураций с помощью "vim" (редактор по-умолчанию).
 ```
 drupal config:edit system.cron
 ```
-* Edit system cron configurations with "gedit".
+* Редактирование cron конфигураций с помощью "gedit".
 ```
 drupal config:edit system.cron gedit
 ```

@@ -1,19 +1,19 @@
 # help
 Показывает справку для команды
 
-**Usage:**
+**Использование:**
 ```
 drupal help [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --xml | Для вывода списка в формате XML
 --raw | Для вывода списка команд в исходном формате
 --format | Формат вывода (txt, xml, json, или md)
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-command_name | The command name
+command_name | Имя команды

@@ -1,20 +1,21 @@
 # user:login:url
-Возвращает одноразовый url для входа.
+Генерирует одноразовую ссылку для входа.
 
-**Usage:**
+**Использование:**
 ```
 drupal user:login:url [arguments]
 ulu
-uslu
+usli
+uli
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-user-id | Идентификатор пользователя.
+user | commands.user.login.url.options.user
 
-## Examples
-* Get one time login url for user id 1
+## Примеры
+* Сгенерировать одноразовую ссылку для входа пользователя с идентификатором 1
 ```
 drupal user:login:url  1
 ```

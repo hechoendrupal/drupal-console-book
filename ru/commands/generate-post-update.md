@@ -1,20 +1,20 @@
 # generate:post:update
-commands.generate.post:update.description
+Генерирует имплементацию hook_post_update_NAME()
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:post:update [options]
 gpu
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---post-update-name | Post Update Name
+--post-update-name | Имя хука после обновления
 
-## Examples
-* Generate an implementation of post update hook specifying the module name and the post update name
+## Примеры
+* Генерирует имплементацию хука после обновления по имени модуля и имени хука после обновления
 ```
 drupal generate:post:update  \
   --module="modulename"  \

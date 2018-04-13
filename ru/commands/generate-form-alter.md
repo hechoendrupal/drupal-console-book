@@ -1,26 +1,26 @@
 # generate:form:alter
-Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
+Сгенерировать реализацию hook_form_alter() или hook_form_FORM_ID_alter()
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:form:alter [options]
 gfa
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---form-id | Form ID to alter
+--form-id | Идентификатор формы для внесения изменений
 --inputs | Создание полей ввода в форме.
 
-## Examples
-* Generate a hook form alter for an empty form specifying the module name
+## Примеры
+* Сгенерировать hook_form_alter() для пустой формы, указав имя модуля
 ```
 drupal generate:form:alter  \
   --module="modulename"
 ```
-* Generate a hook form alter with 2 fields specifying the module name and the inputs
+* Сгенерировать hook_form_alter() с двумя полями, указав имя модуля и поля
 ```
 drupal generate:form:alter  \
   --module="modulename"  \

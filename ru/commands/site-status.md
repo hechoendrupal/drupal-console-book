@@ -1,19 +1,20 @@
 # site:status
-View current Drupal Installation status
+Просмотр статуса текущей установки Drupal
 
-**Usage:**
+**Использование:**
 ```
 drupal site:status [options]
 ss
+st
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --format | commands.site.status.options.format
 
-## Examples
-* Get drupal installation status specifying the output format as table
+## Примеры
+* Получает информацию об установки drupal в виде таблицы
 ```
 drupal site:status  \
   --format="table"

@@ -1,14 +1,14 @@
 # debug:cron
 Список модулей реализующих cron
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:cron
 dcr
 ```
 
-## Examples
-* This will show a list with modules implementing the cron hook
+## Примеры
+* Отображает все модули, которые имплементируют cron хук
 ```
 drupal debug:cron
 ```

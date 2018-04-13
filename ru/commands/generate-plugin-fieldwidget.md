@@ -1,23 +1,23 @@
 # generate:plugin:fieldwidget
-Generate field widget plugin.
+Генерирует плагин виджета поля.
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:fieldwidget [options]
 gpfw
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---field-type | Field type the plugin can be used with
+--class | Название класса плагина
+--label | Заголовок плагина
+--plugin-id | ID  плагина
+--field-type | Тип поля с которым плагин может быть использован
 
-## Examples
-* Generate a text type field widget plugin specifying the module name, the class, its label, the plugin id and the field type
+## Примеры
+* Генерирует плагин текстовый виджет поля по имени модуля, классу, заголовку, ID и типу поля
 ```
 drupal generate:plugin:fieldwidget  \
   --module="modulename"  \

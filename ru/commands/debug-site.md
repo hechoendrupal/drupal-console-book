@@ -1,20 +1,20 @@
 # debug:site
-List all known local and remote sites.
+Вывести список всех заданных локальных и удаленных сайтов.
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:site [arguments]
 dsi
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-target | Target
-property | Property
+target | Цель
+property | Свойство
 
-## Examples
-* 
+## Примеры
+* Выводит список сайтов
 ```
 drupal debug:site
 ```

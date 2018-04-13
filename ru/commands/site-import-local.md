@@ -1,25 +1,25 @@
 # site:import:local
-Import/Configure an existing local Drupal project
+Импортирует/Конфигурирует существующий локальный Drupal проект
 
-**Usage:**
+**Использование:**
 ```
 drupal site:import:local [arguments] [options]
 sil
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---environment | Name of the environment that is going to be imported
+--environment | Имя окружения, которое будет импортировано
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-name | Name that will be used to generate the site config
-directory | Existing Drupal root directory
+name | Имя, которое будет использовано для генерации конфигурации сайта
+directory | Существующий корневой каталог Drupal
 
-## Examples
-* Import local drupal project specifying the site name and the path
+## Примеры
+* Импортирует локальный Drupal проект, указывая его имя и директорию для установки
 ```
 drupal site:import:local  SiteName /private/var/www/vhost/anexusit/drupal8.dev/web
 ```

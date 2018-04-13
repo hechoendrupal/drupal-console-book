@@ -1,22 +1,22 @@
 # generate:cache:context
-Generate a cache context
+Генерирует контекст кеша
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:cache:context [options]
 gcc
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---cache-context | Enter the cache context name
---class | Cache context class name
+--cache-context | commands.generate.cache.context.options.name
+--class | commands.generate.cache.context.options.class
 --services | Загрузка сервисов из контейнера.
 
-## Examples
-* Generate cache for a context specifying the module, the context name and its class
+## Примеры
+* Генерирует кеш для контекста по модулю, имени контекста и классу
 ```
 drupal generate:cache:context  \
   --module="modulename"  \

@@ -1,7 +1,7 @@
 # sample:default
 commands.sample.default.description
 
-**Usage:**
+**Использование:**
 ```
 drupal sample:default
 ```

@@ -1,25 +1,25 @@
 # debug:views
 Отображение текущих ресурсов представлений приложения
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:views [arguments] [options]
 vde
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --tag | Тег представления
 --status | Статус представления (Включено|Выключено)
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 view-id | Идентификатор представления
 
-## Examples
-* List of views on the site
+## Примеры
+* Лист представлений сайта
 ```
 drupal debug:views
 ```

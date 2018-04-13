@@ -1,20 +1,20 @@
 # generate:help
-Generate an implementation of hook_help()
+Сгенерировать реализацию hook_help()
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:help [options]
 gh
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---description | Module description
+--description | commands.generate.help.options.description
 
-## Examples
-* Generate a hook help specifying the module name and the description
+## Примеры
+* Сгенерировать hook_help(), указав имя модуля и описание
 ```
 drupal generate:help  \
   --module="modulename"  \

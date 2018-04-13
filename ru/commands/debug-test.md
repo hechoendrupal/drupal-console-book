@@ -1,24 +1,24 @@
 # debug:test
-List Test Units available for the application.
+Отображает список доступных юнит тестов для приложения.
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:test [arguments] [options]
 td
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---test-class | Test Class
+--test-class | Класс теста
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-group | Group
+group | Группа
 
-## Examples
-* 
+## Примеры
+* Отображает список доступных юнит тестов
 ```
 drupal debug:test
 ```

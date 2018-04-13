@@ -1,25 +1,25 @@
 # module:update
-Update core, module or modules in the application
+Обновляет ядро, модуль или модули в приложении
 
-**Usage:**
+**Использование:**
 ```
 drupal module:update [arguments] [options]
 moup
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---composer | Update the module using Composer
---simulate | Simulate the update process with Composer
+--composer | Обновить модуль, используя Composer
+--simulate | Симулировать процесс обновления с помощью Composer
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-module | Module or modules to be updated should be separated by a space. Leave empty for updating the core and all your modules managed by Composer.
+module | Модуль или модули которые будут обновлены должны быть перечислены через пробел. Оставьте параметр пустым для обновления ядра и всех ваших модулей управляемых через Composer.
 
-## Examples
-* Update module specifying module name and composer parameter
+## Примеры
+* Обновляет модуль, используя параметр имя модуля и composer
 ```
 drupal module:update  modulename  \
   --composer

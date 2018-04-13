@@ -1,20 +1,20 @@
 # user:password:hash
 Сгенерировать хеш для пароля.
 
-**Usage:**
+**Использование:**
 ```
 drupal user:password:hash [arguments]
 uph
 usph
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 password | Пароль(и) в текстовом формате
 
-## Examples
-* Get hash of the word "p455w0rd"
+## Примеры
+* Сгенерировать хэш слова "p455w0rd"
 ```
 drupal user:password:hash  p455w0rd
 ```

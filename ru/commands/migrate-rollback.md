@@ -1,18 +1,18 @@
 # migrate:rollback
-Rollback one or multiple migrations
+Откатывает изменения для одной или множества миграций
 
-**Usage:**
+**Использование:**
 ```
 drupal migrate:rollback [arguments] [options]
 mir
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --source-base_path | commands.migrate.setup.options.source-base-path
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-migration-ids | Migration id(s)
+migration-ids | Id миграции(й)

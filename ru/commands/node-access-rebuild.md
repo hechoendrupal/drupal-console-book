@@ -1,19 +1,19 @@
 # node:access:rebuild
-Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
+Перестравает права доступа к нодам. Перестройка прав удалит все привлегии к контенту и заменит их правами основанными на текущих модулях и настройках
 
-**Usage:**
+**Использование:**
 ```
 drupal node:access:rebuild [options]
 nar
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---batch | Process in batch mode.
+--batch | Выполняет в пакетном режиме.
 
-## Examples
-* Rebuild node access permissions
+## Примеры
+* Перестравает права доступа к нодам
 ```
 drupal node:access:rebuild --batch
 ```

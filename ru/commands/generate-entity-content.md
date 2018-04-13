@@ -1,27 +1,26 @@
 # generate:entity:content
-Generate a new content entity
+Генерирует новую контент сущность
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:entity:content [options]
 geco
-gect
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---entity-class | The content entity class
---entity-name | The content entity name
---base-path | The base-path for the content entity routes
---label | The label
---has-bundles | Entity has bundles
---is-translatable | Content entity translatable
+--entity-class | Класс контент сущности
+--entity-name | Имя контент сущности
+--base-path | Базовые пути для маршрутов контент сущности
+--label | Заголовок
+--has-bundles | Сущность имеет бандла
+--is-translatable | Контент сущность поддерживает переводы
 --revisionable | commands.generate.entity.content.options.revisionable
 
-## Examples
-* Generate a content entity specifying the module, the entity class, the entity name, its path and label
+## Примеры
+* Генерирует контент сущность по имени модуля, классу сущности, имени сущности, пути и заголовку
 ```
 drupal generate:entity:content  \
   --module="modulename"  \
@@ -30,7 +29,7 @@ drupal generate:entity:content  \
   --base-path="/admin/structure"  \
   --label="Default entity"
 ```
-* Generate a translatable and revisionable content entity specifying the module, the entity class, the entity name, its path and label
+* Генерирует переводимую контент сущность с поддержкой ревизий по имени модуля, классу сущности, имени сущности, пути и заголовку
 ```
 drupal generate:entity:content  \
   --module="modulename"  \

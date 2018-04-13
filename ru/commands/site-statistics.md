@@ -1,7 +1,7 @@
 # site:statistics
 Отобразить текущую статистику сайта.
 
-**Usage:**
+**Использование:**
 ```
 drupal site:statistics
 sst

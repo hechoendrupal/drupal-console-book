@@ -1,28 +1,28 @@
 # debug:database:table
 Показать все таблицы в данной базе данных.
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:database:table [arguments] [options]
 ddt
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --database | Ключ базы данных из settings.php
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 table | Таблица для отладки
 
-## Examples
-* Show all tables on a database
+## Примеры
+* Отображает все таблицы в приложении
 ```
 drupal debug:database:table
 ```
-* Show fields on the node table or another specified on the argument
+* Отображает поля в таблице нода или в другой таблице переданной, как аргумент
 ```
 drupal debug:database:table node
 ```

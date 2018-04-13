@@ -1,14 +1,14 @@
 # generate:permissions
-commands.generate.permission.description
+commands.generate.permissions.description
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:permissions [options]
 gp
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
 --permissions | Создание прав доступа.

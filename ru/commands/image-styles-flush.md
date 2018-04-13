@@ -1,23 +1,23 @@
 # image:styles:flush
-Execute flush function by image style or execute all flush images styles
+Отчищает кеш по стилю изображений или отчищает кеш для всех стилей изображений
 
-**Usage:**
+**Использование:**
 ```
 drupal image:styles:flush [arguments]
 isf
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-styles | The Images Styles name.
+styles | Имена стилей изображений.
 
-## Examples
-* Flush large image style
+## Примеры
+* Сбрасывает кеш стиля изображений large
 ```
 drupal image:styles:flush  large
 ```
-* Flush thumbnail image style
+* Сбрасывает кеш стиля изображений thumbnail
 ```
 drupal image:styles:flush  thumbnail
 ```

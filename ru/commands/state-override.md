@@ -1,20 +1,20 @@
 # state:override
-Override a State key.
+Перезаписывает значение состояния по ключу.
 
-**Usage:**
+**Использование:**
 ```
 drupal state:override [arguments]
 sto
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-key | The State key to override.
-value | The State value to set.
+key | Ключ состояния значение, которого будет перезаписанно.
+value | Значение состояния, которое будет установленно.
 
-## Examples
-* Override state value specifying the state name and the new value
+## Примеры
+* Перезаписывает состояние с указанным именем и новым значением
 ```
 drupal state:override  comment.node_comment_statistics_scale "!!float 1"
 ```

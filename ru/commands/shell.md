@@ -1,7 +1,7 @@
 # shell
-Open a shell providing an interactive REPL (Read–Eval–Print-Loop).
+Открывает оболочку предоставляющую интерактивный REPL (цикл-чтение-вычисление-вывод).
 
-**Usage:**
+**Использование:**
 ```
 drupal shell
 ```

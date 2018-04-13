@@ -1,23 +1,23 @@
 # generate:plugin:fieldformatter
-Generate field formatter plugin.
+Генерирует плагин форматтера поля.
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:fieldformatter [options]
 gpff
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
---field-type | Field type the plugin can be used with
+--class | Название класса плагина
+--label | Заголовок плагина
+--plugin-id | ID  плагина
+--field-type | Тип поля с которым плагин может быть использован
 
-## Examples
-* Generate a a text field formatter plugin specifying the module name, the class, the label its plugin id and the field type
+## Примеры
+* Генерирует плагин текстовый форматтер поля по имени модуля, классу, заголовку, ID и типу поля
 ```
 drupal generate:plugin:fieldformatter  \
   --module="modulename"  \

@@ -1,25 +1,25 @@
 # debug:config:validate
-Validate a schema implementation before a module is installed.
+Валидирует схему имплементации перед установкой модуля.
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:config:validate [arguments] [options]
 dcv
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --schema-name | 
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
 filepath | 
 schema-filepath | 
 
-## Examples
-* 
+## Примеры
+* Валидирует указанную конфигурацию и схему конфигурации
 ```
 drupal debug:config:validate \
   /path/to/file \

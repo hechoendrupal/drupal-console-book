@@ -1,23 +1,23 @@
 # site:mode
-Switch system performance configuration
+Переключание конфигурацию производительности системы
 
-**Usage:**
+**Использование:**
 ```
 drupal site:mode [arguments]
 smo
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-environment | Environment name (dev|prod)
+environment | Имя окружения (dev|prod)
 
-## Examples
-* Switch system to prod
+## Примеры
+* Переключение системы на prod
 ```
 drupal site:mode  prod
 ```
-* Switch system to dev
+* Переключение системы на dev
 ```
 drupal site:mode  dev
 ```

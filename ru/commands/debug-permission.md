@@ -1,19 +1,19 @@
 # debug:permission
-Displays all user permissions.
+Показывает все права пользователей.
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:permission [arguments]
 dp
 ```
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-role | User role
+role | Пользовательская роль
 
-## Examples
-* Displays all the permissions availables on the site
+## Примеры
+* Показывает все права, доступные на сайте
 ```
 drupal debug:permission
 ```

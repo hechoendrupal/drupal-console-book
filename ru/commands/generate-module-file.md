@@ -1,19 +1,19 @@
 # generate:module:file
-Generate a .module file
+Сгенерировать файл .module
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:module:file [options]
 gmf
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
 
-## Examples
-* Generate the .module file specifying the module name
+## Примеры
+* Сгенерировать файл .module, указав имя модуля
 ```
 drupal generate:module:file  \
   --module="modulename"

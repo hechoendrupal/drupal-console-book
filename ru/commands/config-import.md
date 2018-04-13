@@ -1,26 +1,27 @@
 # config:import
 Импорт конфигурации в текущее приложение.
 
-**Usage:**
+**Использование:**
 ```
 drupal config:import [options]
 ci
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---file | Path to an archive file of configuration to import.
---directory | Path to a directory of configuration to import.
---remove-files | Remove files after synchronization.
+--file | Путь к архиву с конфигурацией для импорта.
+--directory | Путь к каталогу с конфигурацией для импорта.
+--remove-files | Удалить файлы после синхронизации.
+--skip-uuid | commands.config.import.options.skip-uuid
 
-## Examples
-* Provide a configuration file
+## Примеры
+* Предоставление файла с конфигурацией
 ```
 drupal config:import \
   --file=/path/to/config/file
 ```
-* Provide a configuration directory
+* Предоставление каталога с конфигурацией
 ```
 drupal config:import  \
   --directory=/path/to/config/dir

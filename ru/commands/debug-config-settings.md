@@ -1,14 +1,14 @@
 # debug:config:settings
 Отображает текущий Ключ:значение в файле настроек.
 
-**Usage:**
+**Использование:**
 ```
 drupal debug:config:settings
 dcs
 ```
 
-## Examples
-* Displays key:value as per the settings file
+## Примеры
+* Отображает текущий Ключ:значение в файле настроек
 ```
 drupal debug:config:settings
 ```

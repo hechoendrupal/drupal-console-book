@@ -1,23 +1,23 @@
 # generate:plugin:mail
-Generate a plugin mail
+Генерирует почтовый плагин
 
-**Usage:**
+**Использование:**
 ```
 drupal generate:plugin:mail [options]
 gpm
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | Plugin class name
---label | Plugin label
---plugin-id | Plugin id
+--class | Имя класса плагина
+--label | Заголовок плагина
+--plugin-id | ID плагина
 --services | Загрузка сервисов из контейнера.
 
-## Examples
-* Generate an email plugin specifying the module name, the class, its label and the plugin id
+## Примеры
+* Генерирует почтовый плагин по имени модуля, классу, заголовку и ID 
 ```
 drupal generate:plugin:mail  \
   --module="modulename"  \

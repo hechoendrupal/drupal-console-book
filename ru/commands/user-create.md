@@ -1,34 +1,34 @@
 # user:create
-Create users for the application
+Создание пользователей в приложении
 
-**Usage:**
+**Использование:**
 ```
 drupal user:create [arguments] [options]
 uc
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---roles | User roles
---email | User email
---status | User status
+--roles | Роли пользователя
+--email | Почтовый адрес пользователя
+--status | Статус пользователя
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-username | User name to be created
-password | User password
+username | Имя нового пользователя
+password | Пароль пользователя
 
-## Examples
-* Create user specifying username, password, role, email and status
+## Примеры
+* Создать активного пользователя с именем john, паролем p455w0rd, ролью authenticated и почтовым ящиком john@anexusit.com
 ```
 drupal user:create  john p455w0rd  \
   --roles='authenticated'  \
   --email="john@anexusit.com"  \
   --status="1"
 ```
-* Create admin user specifying username, password, role, email and status
+* Создать активного пользователя с именем doe, паролем p455w0rd, ролью administrator и почтовым ящиком doe@anexusit.com
 ```
 drupal user:create  doe p455w0rd  \
   --roles='administrator'  \

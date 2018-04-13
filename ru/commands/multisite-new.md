@@ -1,25 +1,26 @@
 # multisite:new
-Sets up the files for a new multisite install.
+Настраивает файлы для мультисайт установки.
 
-**Usage:**
+**Использование:**
 ```
 drupal multisite:new [arguments] [options]
 mun
+sn
 ```
 
-## Available options
-Option | Details
+## Доступные параметры
+Команда | Детали
 -------|-------------
---copy-default | Copies existing site from the default install.
+--copy-default | Копирует текущий сайт из установки по умолчанию.
 
-## Available arguments
-Argument | Details
+## Доступные аргументы
+Аргумент | Детали
 ---------|-------------
-directory | Name of directory under 'sites' which should be created.
-uri | Site URI to add to sites.php.
+directory | Имя каталога, который будет создан в 'sites'.
+uri | URI сайта, который будет добавлен в sites.php.
 
-## Examples
-* Set up files for a multisite install specifying destination path and uri
+## Примеры
+* Устанавливает файлы для мультисайт установки, указывая путь и uri
 ```
 drupal multisite:new  vendor/newsite http://mysite.example.com
 ```

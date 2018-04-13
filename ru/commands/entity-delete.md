@@ -1,20 +1,25 @@
 # entity:delete
-Delete an specific entity
+Удалить конкретную сущность
 
-**Usage:**
+**Использование:**
 ```
-drupal entity:delete [arguments]
+drupal entity:delete [arguments] [options]
 ed
 ```
 
-## Available arguments
-Argument | Details
----------|-------------
-entity-definition-id | Entity definition id
-entity-id | Entity ID to be deleted
+## Доступные параметры
+Команда | Детали
+-------|-------------
+--all | commands.entity.delete.options.all
 
-## Examples
-* Delete entity type content using node id
+## Доступные аргументы
+Аргумент | Детали
+---------|-------------
+entity-definition-id | Идентификатор определения сущности
+entity-id | Идентификатор сущности для удаления
+
+## Примеры
+* Удалить контентную сущность, используя идентификатор ноды
 ```
 drupal entity:delete node 1
 ```
