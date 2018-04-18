@@ -1,19 +1,20 @@
 # database:connect
-如果有数据库客户端，启动它
+显示 DB 连接
 
-**Usage:**
+**使用方法:**
 ```
 drupal database:connect [arguments]
 dbco
+sqlc
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-database | settings.php 文件中 Database 的键
+database | 来自 settings.php 的数据库键
 
-## Examples
-* Connects to an specified database, or the default if not arguments passed
+## 例子
+* 连接到指定的数据库，或默认数据库，如果没有传入参数
 ```
 drupal database:connect \
   <database>

@@ -1,14 +1,15 @@
 # debug:update
-显示目前有的程序更新
+显示可用于应用程序的当前更新
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:update
 du
+upd
 ```
 
-## Examples
-* List of pending updates
+## 例子
+* 挂起的更新列表
 ```
 drupal debug:update
 ```

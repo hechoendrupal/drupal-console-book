@@ -5,6 +5,7 @@
 ```
 drupal debug:update
 du
+upd
 ```
 
 ## Examples

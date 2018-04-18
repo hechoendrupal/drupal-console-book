@@ -1,14 +1,14 @@
 # debug:cron
-列出实现定时任务的模块
+实现计划任务的模块列表
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:cron
 dcr
 ```
 
-## Examples
-* This will show a list with modules implementing the cron hook
+## 例子
+* 这将显示实现 cron 钩子的模块列表
 ```
 drupal debug:cron
 ```

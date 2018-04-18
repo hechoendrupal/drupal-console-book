@@ -1,24 +1,24 @@
 # debug:module
 Display current modules available for application
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:module [arguments] [options]
 dm
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --status | Module status [enabled|disabled]
 --type | Module type [core|no-core]
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 module | Module name
 
-## Examples
+## Exemplos
 * Display all installed modules
 ```
 drupal mod --status=installed

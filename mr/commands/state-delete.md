@@ -1,19 +1,19 @@
 # state:delete
 स्थिती हटवा.
 
-**Usage:**
+**वापर:**
 ```
 drupal state:delete [arguments]
 std
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 name | स्थिती नाव.
 
-## Examples
-* Delete state specifying the state name
+## उदाहरणे
+* स्थिती नाव निर्दिष्ट करणारे हटवा
 ```
 drupal state:delete  comment.maintain_entity_statistics
 ```

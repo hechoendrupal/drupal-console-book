@@ -5,7 +5,6 @@ Parancsok létrehozása a konzolhoz.
 ```
 drupal generate:command [options]
 gco
-gcm
 ```
 
 ## Available options
@@ -15,8 +14,11 @@ Option | Details
 --extension-type | The extension type.
 --class | A parancsot leíró osztály. (A 'Command' szóra kell végződnie).
 --name | A parancs neve.
+--initialize | Add initialize method.
+--interact | Add interact method.
 --container-aware | A parancs ismeri-e a drupal telepítési helyét a végrehajtáskor
 --services | Szolgáltatások betöltése a tárolóból.
+--generator | Add a Generator class for this command.
 
 ## Examples
 * Generate a command specifying the extension name and type, its class and the name.

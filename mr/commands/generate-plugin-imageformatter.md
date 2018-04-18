@@ -1,22 +1,22 @@
 # generate:plugin:imageformatter
 प्रतिमा फॉर्मेटर प्लगइन उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:plugin:imageformatter [options]
 gpif
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | प्लगइन वर्ग नाव.
 --label | प्लगइन लेबल.
 --plugin-id | प्लगिन आयडी.
 
-## Examples
-* Generate a image formatter plugin specifying the module name, the class, its label and the plugin id
+## उदाहरणे
+* मॉड्यूलचे नाव, वर्ग, त्याचे लेबल आणि प्लगिनआयडीनिर्दिष्ट करणारा एक प्रतिमा फॉर्मेटर प्लगइन उत्पन्न करा.
 ```
 drupal generate:plugin:imageformatter  \
   --module="modulename"  \

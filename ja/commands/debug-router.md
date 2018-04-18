@@ -5,6 +5,7 @@
 ```
 drupal debug:router [arguments]
 dr
+rod
 ```
 
 ## Available arguments

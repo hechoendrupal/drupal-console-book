@@ -1,14 +1,14 @@
 # debug:image:styles
-列出网站的图像样式
+列出网站上的图片样式
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:image:styles
 dis
 ```
 
-## Examples
-* List all images styles on the site
+## 例子
+* 列出网站上的所有图片样式
 ```
 drupal debug:image:styles
 ```

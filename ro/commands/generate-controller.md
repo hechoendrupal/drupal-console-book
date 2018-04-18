@@ -5,7 +5,6 @@ Generează și Înregistrează un controller
 ```
 drupal generate:controller [options]
 gcon
-gcn
 ```
 
 ## Available options

@@ -1,5 +1,5 @@
 # docker:init
-commands.docker.init.description
+Create a docker-compose.yml file
 
 **Использование:**
 ```

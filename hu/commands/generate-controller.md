@@ -5,7 +5,6 @@ Kontroller létrehozása és regisztrálása
 ```
 drupal generate:controller [options]
 gcon
-gcn
 ```
 
 ## Available options

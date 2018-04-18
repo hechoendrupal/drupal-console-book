@@ -5,6 +5,7 @@ Lansează un client DB dacă acesta este disponibil
 ```
 drupal database:connect [arguments]
 dbco
+sqlc
 ```
 
 ## Available arguments

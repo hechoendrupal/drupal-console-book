@@ -1,24 +1,24 @@
 # database:dump
 Dump da estrutura e conteúdos da base de dados e tabelas MySQL
 
-**Usage:**
+**Utilização:**
 ```
 drupal database:dump [arguments] [options]
 dbdu
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --file |  O nome do arquivo de backup do banco de dados
 --gz | Pass this option if you want the sql result file gzipped
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 database | Senha da base de dados em settings.php
 
-## Examples
+## Exemplos
 * Dump default database or the one specified on the argument
 ```
 drupal database:dump \

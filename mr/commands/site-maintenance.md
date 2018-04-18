@@ -1,23 +1,23 @@
 # site:maintenance
 साइटला देखभाल मोडमध्ये स्विच करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal site:maintenance [arguments]
 sma
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-mode | commands.site.maintenance.arguments.mode[on/off]
+mode | साइट देखभाल मोड.
 
-## Examples
-* Switch on maintenance
+## उदाहरणे
+* देखरेखीवर स्विच करा.
 ```
 drupal site:maintenance  on
 ```
-* Switch off maintenance
+* देखभाल बंद करा.
 ```
 drupal site:maintenance  off
 ```

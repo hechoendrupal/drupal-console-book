@@ -5,7 +5,6 @@ Generează comenzi pentru consolă.
 ```
 drupal generate:command [options]
 gco
-gcm
 ```
 
 ## Available options
@@ -15,8 +14,11 @@ Option | Details
 --extension-type | The extension type.
 --class | Numele Clasei "Command"
 --name | Numele comenzii.
+--initialize | Add initialize method.
+--interact | Add interact method.
 --container-aware | Când este executată comanda este conștientă de instalarea de drupal a sitului
 --services | Încarcă serviciile din container.
+--generator | Add a Generator class for this command.
 
 ## Examples
 * Generate a command specifying the extension name and type, its class and the name.

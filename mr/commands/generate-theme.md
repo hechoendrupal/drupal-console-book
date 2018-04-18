@@ -1,29 +1,29 @@
 # generate:theme
 थीम उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:theme [options]
 gt
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
---theme | commands.generate.theme.options.module
+--theme | थीमचे नाव.
 --machine-name | मशीनचे नाव (केवळ लोअरकेस आणि अंडरस्कोर).
---theme-path | commands.generate.theme.options.module-path
+--theme-path | थीमचा मार्ग.
 --description | थीम वर्णन.
 --core | कोर आवृत्ती.
 --package | थीम पॅकेज
 --global-library | जागतिक शैली लायब्ररी नाव.
---libraries | commands.generate.theme.options.libraries
+--libraries | Libraries
 --base-theme | मूलभूत थीम (उदा. सुंदर, स्थिर)
 --regions | विभाग
 --breakpoints | ब्रेकपॉइंट
 
-## Examples
-* Generate a theme without region and without breakpoint specifying the theme name, its machine name, the theme path, a description, the drupal core, the package name and the global library
+## उदाहरणे
+* थीमविना आणि थीमचे नाव, त्याचे मशीन नाव, थीम पथ, वर्णन, Drupal core, पॅकेजचे नाव आणि जागतिक लायब्ररी दर्शविणार्या कोणत्याही बिंदूविनाहित थीम उत्पन्न करा.
 ```
 drupal generate:theme  \
   --theme="AnotherTheme"  \
@@ -35,7 +35,7 @@ drupal generate:theme  \
   --global-library="global-styling"  \
   --base-theme="false"
 ```
-* Generate a theme base on stable theme with two region defined and one breakpoint specifying the theme name, its machine name, the theme path, a description, the drupal core, the package name, a global library, its base, the regions and the breakpoint
+* परिभाषित केलेल्या दोन प्रदेशांसह स्थिर थीमवर थीम बेस उत्पन्न करा आणि थीम नाव, त्याचे मशीन नाव, थीम पथ, वर्णन, Drupal core, पॅकेज नाव, एक जागतिक लायब्ररी, त्याचे बेस, क्षेत्र आणि ब्रेकपॉइंट निर्दिष्ट करणारे एक ब्रेकपॉईंट उत्पन्न करा.
 ```
 drupal generate:theme  \
   --theme="MyTheme"  \

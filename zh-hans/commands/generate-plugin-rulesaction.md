@@ -1,16 +1,16 @@
 # generate:plugin:rulesaction
 生成一个规则（Rule）行为（action）插件
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:plugin:rulesaction [options]
 gpra
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --class | 插件类名
 --label | 插件标签
 --plugin-id | 插件id
@@ -18,7 +18,7 @@ Option | Details
 --category | 插件类别
 --context | 插件上下文
 
-## Examples
+## 例子
 * Generate a user rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
 ```
 drupal generate:plugin:rulesaction  \

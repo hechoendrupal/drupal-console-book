@@ -1,14 +1,14 @@
 # generate:plugin:migrate:source
 माइग्रेट स्रोत प्लगइन उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:plugin:migrate:source [options]
 gpms
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | प्लगइन वर्ग नाव.
@@ -18,8 +18,8 @@ Option | Details
 --group-by | फील्ड द्वारे गट परिणाम.
 --fields | निर्यात करण्यासाठी फील्ड.
 
-## Examples
-* Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias
+## उदाहरणे
+* मॉड्यूलचे नाव, वर्ग, त्याचे प्लगिन आयडी, टेबल आणि तिचे उपनाव दर्शविणारे स्थानांतरण स्रोत प्लगइन उत्पन्न करा.
 ```
 drupal generate:plugin:migrate:source  \
   --module="modulename"  \
@@ -28,7 +28,7 @@ drupal generate:plugin:migrate:source  \
   --table="DefaultTableName"  \
   --alias="D"
 ```
-* Generate a migration source plugin for specific fields of the users table specifying the module name, the class, its plugin id, the table, its alias and the fields
+* मॉड्यूलचे नाव, वर्ग, त्याचे प्लगिन आयडी, टेबल, तिचे उपनाव आणि क्षेत्र निर्दिष्ट करणारे विशिष्ट वापरकर्त्यांसाठी मायग्रेशन स्त्रोत प्लगइन उत्पन्न करा.
 ```
 drupal generate:plugin:migrate:source  \
   --module="modulename"  \

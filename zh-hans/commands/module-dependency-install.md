@@ -1,18 +1,18 @@
 # module:dependency:install
-commands.module.install.dependencies.description
+在应用中安装依赖模块
 
-**Usage:**
+**使用方法:**
 ```
 drupal module:dependency:install [arguments]
 modi
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-module | 单个或者以空格间隔的要启用的模块
+module | 多个模块名需要用空格分开
 
-## Examples
+## 例子
 * Install the dependencies of the specfied module
 ```
 drupal module:dependency:install  modulename

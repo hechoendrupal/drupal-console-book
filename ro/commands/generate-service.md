@@ -11,10 +11,10 @@ gs
 Option | Details
 -------|-------------
 --module | Numele Modulului.
---name | commands.generate.service.options.name
+--name | Numele serviciului
 --class | Numele Clasei
---interface | commands.common.service.options.interface
---interface-name | commands.common.service.options.interface-name
+--interface | Interfaţa
+--interface-name | Interface name
 --services | Încarcă serviciile din container.
 --path-service | Path
 

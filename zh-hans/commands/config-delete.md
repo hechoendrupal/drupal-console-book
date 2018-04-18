@@ -1,20 +1,20 @@
 # config:delete
 删除配置
 
-**Usage:**
+**使用方法:**
 ```
 drupal config:delete [arguments]
 cd
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-type | 配置类型
-name | 配置名称
+type | 配置类型。
+name | 配置名称。
 
-## Examples
-* Provide a config type and a config name
+## 例子
+* 提供配置类型和配置名称
 ```
 drupal config:delete active all
 ```

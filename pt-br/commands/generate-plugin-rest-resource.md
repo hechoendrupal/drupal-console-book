@@ -1,24 +1,23 @@
 # generate:plugin:rest:resource
 Generate plugin rest resource
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:plugin:rest:resource [options]
 gprr
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --module | O nome do módulo.
 --class | Plugin Rest Resource class
---name | commands.generate.service.options.name
 --plugin-id | Plugin Rest Resource id
 --plugin-label | Plugin Rest Resource Label
 --plugin-url | Plugin Rest Resource URL
 --plugin-states | Plugin Rest Resource States
 
-## Examples
+## Exemplos
 * Generate a rest resource plugin using GET specifying the module name, the class, the plugin id, its label, the target url and the request type
 ```
 drupal generate:plugin:rest:resource  \

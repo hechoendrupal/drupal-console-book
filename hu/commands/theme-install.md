@@ -5,7 +5,6 @@ Smink vagy sminkek telepítése az alkalmazásba
 ```
 drupal theme:install [arguments] [options]
 thi
-ti
 ```
 
 ## Available options
@@ -16,7 +15,7 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | commands.theme.install.options.module
+theme | A telepítendő sminkeket vesszővel kell elválasztani
 
 ## Examples
 * Install theme specifying the name

@@ -1,14 +1,14 @@
 # generate:plugin:rulesaction
 Generate a plugin rule action
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:plugin:rulesaction [options]
 gpra
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --module | O nome do módulo.
 --class | Plugin class name
@@ -18,7 +18,7 @@ Option | Details
 --category | Plugin category
 --context | Plugin context
 
-## Examples
+## Exemplos
 * Generate a user rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
 ```
 drupal generate:plugin:rulesaction  \

@@ -17,7 +17,7 @@ gt
 --core | Версия ядра
 --package | Пакет темы
 --global-library | Имя глобальной библиотеки стилей
---libraries | commands.generate.theme.options.libraries
+--libraries | Libraries
 --base-theme | Базовая тема (например, classy, stable)
 --regions | Регионы
 --breakpoints | Контрольные точки

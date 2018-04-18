@@ -1,13 +1,13 @@
 # debug:settings
 यादी वापरकर्ता Drupal कंसोल सेटिंग्ज.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:settings
 dse
 ```
 
-## Examples
+## उदाहरणे
 * 
 ```
 drupal debug:settings

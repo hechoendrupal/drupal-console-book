@@ -1,18 +1,18 @@
 # database:client
 DB पक्षकार उपलब्ध असेल तर सुर्वाथ करा
 
-**Usage:**
+**वापर:**
 ```
 drupal database:client [arguments]
 dbc
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-database | settings.php मधून डेटाबेसची चावी
+database | settings.php मधून डेटाबेसची की
 
-## Examples
+## उदाहरणे
 * डीफॉल्ट क्लायंट लाँच करा किंवा वितर्क वरील विशिष्टतेविषयी दुसरे लाँच करू शकता.
 ```
 drupal database:client <database>

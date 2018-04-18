@@ -1,18 +1,19 @@
 # cache:rebuild
-重建缓存
+重建和清除所有网站缓存。
 
-**Usage:**
+**使用方法:**
 ```
 drupal cache:rebuild [arguments]
 cr
+cc
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-cache | 仅清除一个特定的缓存
+cache | 只清除特定缓存。
 
-## Examples
+## 例子
 * 重建所有缓存
 ```
 drupal cr all

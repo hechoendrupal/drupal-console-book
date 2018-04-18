@@ -5,7 +5,6 @@ Modul vagy modulok letöltése
 ```
 drupal module:download [arguments] [options]
 mod
-md
 ```
 
 ## Available options
@@ -14,7 +13,7 @@ Option | Details
 --path | The path of the contrib project
 --latest | Az alapértelmezés a legfrissebb verzió letöltése
 --composer | Download the module using Composer
---unstable | commands.module.install.options.unstable
+--unstable | Module unstable
 
 ## Available arguments
 Argument | Details

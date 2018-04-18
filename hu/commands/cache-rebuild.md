@@ -5,6 +5,7 @@ A webhely összes gyorsítótárának újraépítése és törlése.
 ```
 drupal cache:rebuild [arguments]
 cr
+cc
 ```
 
 ## Available arguments

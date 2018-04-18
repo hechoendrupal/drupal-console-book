@@ -11,7 +11,7 @@ mie
 Option | Details
 -------|-------------
 --site-url | URL-ul sitului
---db-type | commands.migrate.setup.migrations.options.db-type
+--db-type | commands.migrate.execute.migrations.options.db-type
 --db-host | Gazda bazei de date
 --db-name | Numele bazei de date
 --db-user | Utilizatorul bazei de date

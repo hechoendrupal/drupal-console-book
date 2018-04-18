@@ -1,14 +1,14 @@
 # generate:plugin:imageeffect
 प्रतिमा प्रभाव प्लगइन उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:plugin:imageeffect [options]
 gpie
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | प्लगइन वर्ग नाव.
@@ -16,8 +16,8 @@ Option | Details
 --plugin-id | प्लगिन आयडी.
 --description | प्लगइन वर्णन.
 
-## Examples
-* Generate a image effect plugin specifying the module name, the class, its label, the plugin id and a description
+## उदाहरणे
+* मॉड्यूलचे नाव, वर्ग, त्याचे लेबल, प्लगिन आयडी आणि एक वर्णन निर्दिष्ट करणारी प्रतिमा प्रभाव प्लगइन उत्पन्न करा.
 ```
 drupal generate:plugin:imageeffect  \
   --module="modulename"  \

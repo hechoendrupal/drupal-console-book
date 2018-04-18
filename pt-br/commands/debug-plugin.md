@@ -1,19 +1,19 @@
 # debug:plugin
 Mostra todos os tipos de plugins, instâncias de um tipo específico de plugin ou a definição para um plugin específico.
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:plugin [arguments]
 dpl
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 type | Tipo de plugin
 id | Plugin ID
 
-## Examples
+## Exemplos
 * Displays a list with all the plugins on the current site
 ```
 drupal debug:plugin

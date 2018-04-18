@@ -1,24 +1,24 @@
 # debug:rest
 चालू रेस्ट अर्ज संसाधन प्रदर्शित करा
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:rest [arguments] [options]
 rede
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --authorization | रेस्ट संसाधन स्टेट्स सक्षम | अक्षम
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 resource-id | रेस्ट आयडी
 
-## Examples
-* Displays rest hooks
+## उदाहरणे
+* rest हुक प्रदर्शित करते.
 ```
 drupal debug:rest
 ```

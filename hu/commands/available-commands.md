@@ -8,6 +8,7 @@ Drupal Console Command | Details
 [about](about.md) | Alapvető információkat jelenít meg a Drupal Console projektről
 [chain](chain.md) | Chain parancs végrehajtása
 [check](check.md) | System requirement checker
+[composerize](composerize.md) | Converts Drupal codebase to composer.
 [exec](exec.md) | Execute an external command.
 [help](help.md) | Displays help for a command
 [init](init.md) | Copy configuration files to user home directory.
@@ -16,6 +17,7 @@ Drupal Console Command | Details
 [server](server.md) | A PHP beépített webkiszolgálójának futtatása
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | A webhely összes gyorsítótárának újraépítése és törlése.
+[cache:tag:invalidate](cache-tag-invalidate.md) | Invalidate cache tags.
 **config**  |
 [config:delete](config-delete.md) | Delete configuration
 [config:diff](config-diff.md) | Az aktív konfigurációt egy könyvtárral összehasonlítva az eltérő konfigurációs elemek.
@@ -28,9 +30,12 @@ Drupal Console Command | Details
 [config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | Az aktív konfiguráció értékének felülbírálása.
 [config:validate](config-validate.md) | Validate a drupal config against its schema
+**config_update**  |
+[config_update:default](config_update-default.md) | commands.config_update.default.description
 **create**  |
 [create:comments](create-comments.md) | Create dummy comments for your Drupal 8 application.
 [create:nodes](create-nodes.md) | Teszttartalom létrehozása egy Drupal 8 alkalmazáshoz.
+[create:roles](create-roles.md) | Create dummy roles for your Drupal 8 application.
 [create:terms](create-terms.md) | Tesztkifejezések létrehozása egy Drupal 8 alkalmazáshoz.
 [create:users](create-users.md) | Tesztfelhasználók létrehozása egy Drupal 8 alkalmazáshoz.
 [create:vocabularies](create-vocabularies.md) | Tesztszótárak létrehozása egy Drupal 8 alkalmazáshoz.
@@ -70,56 +75,50 @@ Drupal Console Command | Details
 [debug:plugin](debug-plugin.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 [debug:queue](debug-queue.md) | Display the queues of your application
 [debug:rest](debug-rest.md) | Aktuális REST-erőforrás megjelenítése
+[debug:roles](debug-roles.md) | Displays current roles for the application
 [debug:router](debug-router.md) | Megjeleníti az alkalmazás aktuális útvonalait
 [debug:settings](debug-settings.md) | List user Drupal Console settings.
 [debug:site](debug-site.md) | Minden ismert helyi és távoli webhely listázása.
 [debug:state](debug-state.md) | Az aktuális állapotkulcsok megjelenítése.
 [debug:test](debug-test.md) | Az alkalmazás egységtesztjeinek listázása.
 [debug:theme](debug-theme.md) | Megjeleníti az alkalmazás aktuális sminkjeit
+[debug:theme:keys](debug-theme-keys.md) | Displays all theme keys provided by hook_theme functions
 [debug:update](debug-update.md) | Az alkalmazás jelenleg elérhető frissítéseinek megjelenítése
 [debug:user](debug-user.md) | Megjeleníti az aktuális felhasználókat
 [debug:views](debug-views.md) | Alkalmazás aktuális views erőforrásainak megjelenítése
 [debug:views:plugins](debug-views-plugins.md) | Display current views plugins for the application
 **devel**  |
-[devel:dumper](devel-dumper.md) | Change the devel dumper plugin
-**develop**  |
-[develop:contribute](develop-contribute.md) | 
-[develop:example](develop-example.md) | 
-[develop:example:container:aware](develop-example-container-aware.md) | 
-[develop:gitbook](develop-gitbook.md) | Update gitbook
+[devel:dumper](devel-dumper.md) | commands.devel.dumper.messages.change-devel-dumper-plugin
+**docker**  |
+[docker:init](docker-init.md) | Create a docker-compose.yml file
 **dotenv**  |
 [dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.
 **entity**  |
 [entity:delete](entity-delete.md) | Delete an specific entity
-**extend**  |
-[extend:example:one](extend-example-one.md) | Drupal Console extend example
-[extend:example:two](extend-example-two.md) | Drupal Console extend example
 **features**  |
 [features:import](features-import.md) | Import module config.
 **field**  |
 [field:info](field-info.md) | View information about fields.
 **generate**  |
+[generate:ajax:command](generate-ajax-command.md) | Generate & Register a custom ajax command
 [generate:authentication:provider](generate-authentication-provider.md) | Hitelesítésszolgáltató létrehozása
 [generate:breakpoint](generate-breakpoint.md) | Generate breakpoint
 [generate:cache:context](generate-cache-context.md) | Generate a cache context
 [generate:command](generate-command.md) | Parancsok létrehozása a konzolhoz.
 [generate:controller](generate-controller.md) | Kontroller létrehozása és regisztrálása
-[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | commands.generate.doc.cheatsheet.description
-[generate:doc:dash](generate-doc-dash.md) | commands.generate.doc.dash.description
-[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
-[generate:doc:gitbook](generate-doc-gitbook.md) | commands.generate.doc.gitbook.description
 [generate:entity:bundle](generate-entity-bundle.md) | Új tartalomtípus létrehozása (tartalom / mezőköteg)
 [generate:entity:config](generate-entity-config.md) | Új konfigurációs entitás létrehozása
 [generate:entity:content](generate-entity-content.md) | Új tartalom entitás létrehozása
 [generate:event:subscriber](generate-event-subscriber.md) | Esemény-előfizető létrehozása
-[generate:form](generate-form.md) | Új "%s" létrehozása
+[generate:form](generate-form.md) | Generate a new "FormBase"
 [generate:form:alter](generate-form-alter.md) | A hook_form_alter() vagy hook_form_FORM_ID_alter megvalósításának létrehozása
-[generate:form:config](generate-form-config.md) | commands.generate.form.description
+[generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
 [generate:help](generate-help.md) | Generate an implementation of hook_help()
+[generate:jstest](generate-jstest.md) | Generate a JavaScript test.
 [generate:module](generate-module.md) | Modul létrehozása.
 [generate:module:file](generate-module-file.md) | Generate a .module file
-[generate:permissions](generate-permissions.md) | commands.generate.permission.description
+[generate:permissions](generate-permissions.md) | Generate module permissions
 [generate:plugin:block](generate-plugin-block.md) | Blokk bővítmény létrehozása
 [generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
 [generate:plugin:condition](generate-plugin-condition.md) | Feltételbővítmény létrehozása.
@@ -138,10 +137,11 @@ Drupal Console Command | Details
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Bővítménytípus létrehozása magyarázatészleléssel
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Bővítménytípus létrehozása YAML-észleléssel
 [generate:plugin:views:field](generate-plugin-views-field.md) | Egyéni nézetmező bővítmény létrehozása.
-[generate:post:update](generate-post-update.md) | commands.generate.post:update.description
+[generate:post:update](generate-post-update.md) | Generate an implementation of hook_post_update_NAME()
 [generate:profile](generate-profile.md) | Profil létrehozása.
 [generate:routesubscriber](generate-routesubscriber.md) | RouteSubscriber létrehozása
 [generate:service](generate-service.md) | Szolgáltatás létrehozása
+[generate:site:alias](generate-site-alias.md) | Generates a site alias.
 [generate:theme](generate-theme.md) | Smink létrehozása.
 [generate:twig:extension](generate-twig-extension.md) | Generate a Twig extension.
 [generate:update](generate-update.md) | Generate an implementation of hook_update_N()
@@ -156,7 +156,7 @@ Drupal Console Command | Details
 [migrate:rollback](migrate-rollback.md) | Rollback one or multiple migrations
 [migrate:setup](migrate-setup.md) | Adott örökölt adatbázis fontos költöztetéseinek betöltése és létrehozása
 **module**  |
-[module:dependency:install](module-dependency-install.md) | commands.module.install.dependencies.description
+[module:dependency:install](module-dependency-install.md) | Install dependencies module in the application
 [module:download](module-download.md) | Modul vagy modulok letöltése
 [module:install](module-install.md) | Modul vagy modulok telepítése
 [module:path](module-path.md) | Returns the relative path to the module (or absolute path)
@@ -164,15 +164,17 @@ Drupal Console Command | Details
 [module:update](module-update.md) | Update core, module or modules in the application
 **multisite**  |
 [multisite:new](multisite-new.md) | Sets up the files for a new multisite install.
+[multisite:update](multisite-update.md) | Update the files for a multisite installed.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 **queue**  |
 [queue:run](queue-run.md) | Process the selected queue.
-**quick**  |
-[quick:start](quick-start.md) | Download, install and serve a new Drupal project
 **rest**  |
 [rest:disable](rest-disable.md) | REST-erőforrás letiltása
 [rest:enable](rest-enable.md) | Az alkalmazás REST-erőforrásának engedélyezése
+**role**  |
+[role:delete](role-delete.md) | Delete roles for the application
+[role:new](role-new.md) | Create roles for the application
 **router**  |
 [router:rebuild](router-rebuild.md) | Az alkalmazás útvonalainak újraépítése
 **sample**  |
@@ -184,7 +186,6 @@ Drupal Console Command | Details
 [site:install](site-install.md) | Drupal projekt telepítése
 [site:maintenance](site-maintenance.md) | Webhely karbantartási módba állítása
 [site:mode](site-mode.md) | Rendszerteljesítmény beállításának átváltása
-[site:new](site-new.md) | Download a new Drupal project
 [site:statistics](site-statistics.md) | Show the current statistics of website.
 [site:status](site-status.md) | Aktuális Drupal-telepítés állapotának megtekintése
 **state**  |
@@ -199,11 +200,6 @@ Drupal Console Command | Details
 [theme:install](theme-install.md) | Smink vagy sminkek telepítése az alkalmazásba
 [theme:path](theme-path.md) | Returns the relative path to the theme (or absolute path)
 [theme:uninstall](theme-uninstall.md) | Az alkalmazás sminkjének vagy sminkjeinek eltávolítása
-**translation**  |
-[translation:cleanup](translation-cleanup.md) | commands.translation.cleanup.description
-[translation:pending](translation-pending.md) | commands.translation.pending.description
-[translation:stats](translation-stats.md) | commands.translation.stats.description
-[translation:sync](translation-sync.md) | commands.translation.sync.description
 **update**  |
 [update:entities](update-entities.md) | Applying Entity Updates
 [update:execute](update-execute.md) | Egy modul adott Update N függvényének végrehajtása, vagy az összes végrehajtása
@@ -231,7 +227,7 @@ Option | Details
 --no-interaction | Ne tegyen fel semmilyen kérdést
 --env | A környezet neve
 --root | A parancs végrehajtásakor használt Drupal gyökérkönyvtárt adja meg
---debug | application.options.debug
+--debug | Switches on debug mode
 --learning | Részletes kódkimenet létrehozása
 --generate-chain | A parancspbeállításokat és argumentumokat a chain parancsban használandó yaml-kimenetként jeleníti meg
 --generate-inline | A parancsbeállításokat és argumentumokat beágyazott parancsként jeleníti meg

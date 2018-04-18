@@ -1,14 +1,15 @@
 # debug:update
 ऐप्लकैशन साठी वर्तमानात उपलब्ध सुधारणा प्रदर्शित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:update
 du
+upd
 ```
 
-## Examples
-* List of pending updates
+## उदाहरणे
+* प्रलंबित अद्यतनांची सूची.
 ```
 drupal debug:update
 ```

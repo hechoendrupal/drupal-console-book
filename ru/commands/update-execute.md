@@ -12,10 +12,14 @@ updb
 Аргумент | Детали
 ---------|-------------
 module | Имя модуля.
-update-n | Указанный update_N хук будет выполнен
+update-n | commands.update.execute.options.update-n
 
 ## Примеры
 * Выполнить все обновления
 ```
 drupal update:execute
+```
+* Execute updates for system module
+```
+drupal update:execute system
 ```

@@ -1,26 +1,26 @@
 # user:create
 Create users for the application
 
-**Usage:**
+**Utilização:**
 ```
 drupal user:create [arguments] [options]
 uc
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --roles | User roles
 --email | User email
 --status | User status
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 username | User name to be created
 password | User password
 
-## Examples
+## Exemplos
 * Create user specifying username, password, role, email and status
 ```
 drupal user:create  john p455w0rd  \

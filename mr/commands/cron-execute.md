@@ -1,19 +1,19 @@
 # cron:execute
 क्रॉन लागू करणारे काही विशेष मोड्यूल चालावा अथवा सर्व क्रॉन चालवा.
 
-**Usage:**
+**वापर:**
 ```
 drupal cron:execute [arguments]
 croe
 cre
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 module | मॉड्यूलचे नाव.
 
-## Examples
+## उदाहरणे
 * जागतिक पातळीवर क्रोन चालवा.
 ```
 drupal cron:execute

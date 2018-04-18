@@ -1,18 +1,18 @@
 # views:enable
 启用一个视图
 
-**Usage:**
+**使用方法:**
 ```
 drupal views:enable [arguments]
 ve
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-view-id | commands.views.debug.arguments.view-id
+view-id | 视图 ID
 
-## Examples
+## 例子
 * Enable content view
 ```
 drupal views:enable  content

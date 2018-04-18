@@ -10,7 +10,7 @@ sma
 ## Available arguments
 Argument | Details
 ---------|-------------
-mode | commands.site.maintenance.arguments.mode[on/off]
+mode | साइट मेंटेनेंस मोड
 
 ## Examples
 * Switch on maintenance

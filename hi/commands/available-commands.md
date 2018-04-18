@@ -8,6 +8,7 @@ Drupal Console Command | Details
 [about](about.md) | Drupal कंसोल परियोजना के बारे मे प्रारंभिक जानकारी दिखाएँ
 [chain](chain.md) | कमाण्डो को श्रंखला में चलायें।
 [check](check.md) | System requirement checker
+[composerize](composerize.md) | Converts Drupal codebase to composer.
 [exec](exec.md) | Execute an external command.
 [help](help.md) | एक कमांड के लिए मदद प्रदर्शित करता है
 [init](init.md) | उपयोगकर्ता के होम डायरेक्टरी के लिए कॉन्फ़िगरेशन फाइल कॉपी किया है।
@@ -16,6 +17,7 @@ Drupal Console Command | Details
 [server](server.md) | PHP निर्मित वेब सर्वर चलायॆ
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | सभी साइट caches को पुनर्निर्माण और साफ़ करें।
+[cache:tag:invalidate](cache-tag-invalidate.md) | Invalidate cache tags.
 **config**  |
 [config:delete](config-delete.md) | Delete configuration
 [config:diff](config-diff.md) | आउटपुट विन्यास आइटम है कि एक डायरेक्टरी के साथ तुलना में सक्रिय कॉन्फ़िगरेशन में अलग हैं।
@@ -28,9 +30,12 @@ Drupal Console Command | Details
 [config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | व्यवस्था निधि को सक्रिय डायरेक्टरी में चढ़ा दें।
 [config:validate](config-validate.md) | Validate a drupal config against its schema
+**config_update**  |
+[config_update:default](config_update-default.md) | commands.config_update.default.description
 **create**  |
 [create:comments](create-comments.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी कमेंट्स बनाएँ।
 [create:nodes](create-nodes.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी नोड्स बनाएँ।
+[create:roles](create-roles.md) | Create dummy roles for your Drupal 8 application.
 [create:terms](create-terms.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी टर्म्ज़ बनाएँ।
 [create:users](create-users.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी यूजरस बनाएँ।
 [create:vocabularies](create-vocabularies.md) | अपने Drupal 8 एप्लीकेशन के लिए डमी वोकैब्युलरीस बनाएँ।
@@ -70,56 +75,50 @@ Drupal Console Command | Details
 [debug:plugin](debug-plugin.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 [debug:queue](debug-queue.md) | Display the queues of your application
 [debug:rest](debug-rest.md) | आवेदन के लिए मौजूदा REST संसाधन को प्रदर्शित करें
+[debug:roles](debug-roles.md) | Displays current roles for the application
 [debug:router](debug-router.md) | अनुप्रयोग के वर्तमान मार्गों को दिखाएँ
 [debug:settings](debug-settings.md) | यूजर Drupal कंसोल सेटिंग्स की सूची
 [debug:site](debug-site.md) | सभी ज्ञात स्थानीय और दूरस्थ साइटों की सूची दें।
 [debug:state](debug-state.md) | वर्तमान स्टेट कीस दिखाएँ।
 [debug:test](debug-test.md) | अनुप्रयोग की सारी उपलब्ध परिक्षण यूनिटो को दिखाएँ।
 [debug:theme](debug-theme.md) | एप्लीकेशन के लिए वर्तमान थीम्स को प्रदर्शित करता है
+[debug:theme:keys](debug-theme-keys.md) | Displays all theme keys provided by hook_theme functions
 [debug:update](debug-update.md) | अनुप्रयोग के उपलब्ध नवीनीकरणो को दिखाएँ
 [debug:user](debug-user.md) | एप्लीकेशन के लिए करंट यूजरस को प्रदर्शित करता है
 [debug:views](debug-views.md) | अनुप्रयोग के वर्तमान व्यूज साधनो को दिखाएँ
 [debug:views:plugins](debug-views-plugins.md) | Display current views plugins for the application
 **devel**  |
-[devel:dumper](devel-dumper.md) | Change the devel dumper plugin
-**develop**  |
-[develop:contribute](develop-contribute.md) | 
-[develop:example](develop-example.md) | 
-[develop:example:container:aware](develop-example-container-aware.md) | 
-[develop:gitbook](develop-gitbook.md) | Update gitbook
+[devel:dumper](devel-dumper.md) | commands.devel.dumper.messages.change-devel-dumper-plugin
+**docker**  |
+[docker:init](docker-init.md) | Create a docker-compose.yml file
 **dotenv**  |
 [dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.
 **entity**  |
 [entity:delete](entity-delete.md) | Delete an specific entity
-**extend**  |
-[extend:example:one](extend-example-one.md) | Drupal Console extend example
-[extend:example:two](extend-example-two.md) | Drupal Console extend example
 **features**  |
 [features:import](features-import.md) | Import module config.
 **field**  |
 [field:info](field-info.md) | View information about fields.
 **generate**  |
+[generate:ajax:command](generate-ajax-command.md) | Generate & Register a custom ajax command
 [generate:authentication:provider](generate-authentication-provider.md) | प्रमाणन प्रदाता उत्पन्न करें
 [generate:breakpoint](generate-breakpoint.md) | Generate breakpoint
 [generate:cache:context](generate-cache-context.md) | Generate a cache context
 [generate:command](generate-command.md) | कंसोल के लिए कमाण्डो को उत्पन्न करें।
 [generate:controller](generate-controller.md) | एक कंट्रोलर को उत्पन्न और पंजीकृत करें
-[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | commands.generate.doc.cheatsheet.description
-[generate:doc:dash](generate-doc-dash.md) | commands.generate.doc.dash.description
-[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
-[generate:doc:gitbook](generate-doc-gitbook.md) | commands.generate.doc.gitbook.description
 [generate:entity:bundle](generate-entity-bundle.md) | एक नया कंटेंट प्रकार उत्पन्न करें (नोड/एंटिटी बंडल)
 [generate:entity:config](generate-entity-config.md) | एक नया कॉन्फिग एंटिटि उत्पन्न करे
 [generate:entity:content](generate-entity-content.md) | एक नई कंटेंट एंटिटि बनाए
 [generate:event:subscriber](generate-event-subscriber.md) | एक घटना ग्राहक उत्पन्न करें
-[generate:form](generate-form.md) | एक नया "%s" उत्पन्न करें
+[generate:form](generate-form.md) | Generate a new "FormBase"
 [generate:form:alter](generate-form-alter.md) | एक hook_form_alter() या hook_form_FORM_ID_alter कार्यान्वयन उत्पन्न करें
-[generate:form:config](generate-form-config.md) | commands.generate.form.description
+[generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
 [generate:help](generate-help.md) | Generate an implementation of hook_help()
+[generate:jstest](generate-jstest.md) | Generate a JavaScript test.
 [generate:module](generate-module.md) | मोड्यूल उत्पन्न करें।
 [generate:module:file](generate-module-file.md) | Generate a .module file
-[generate:permissions](generate-permissions.md) | commands.generate.permission.description
+[generate:permissions](generate-permissions.md) | Generate module permissions
 [generate:plugin:block](generate-plugin-block.md) | प्लगिन खंड उत्पन्न करें
 [generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | CKEditor बटन प्लगइन उत्पन्न करें।
 [generate:plugin:condition](generate-plugin-condition.md) | प्लगिन नियम उत्पन्न करें।
@@ -138,10 +137,11 @@ Drupal Console Command | Details
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | प्लगिन प्रकार युक्त अननोटेशन प्रकाशन उत्पन्न करें
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | प्लगिन प्रकार युक्त YAML प्रकाशन उत्पन्न करें
 [generate:plugin:views:field](generate-plugin-views-field.md) | विशेष प्लगिन व्यू खाना उत्पन्न करें
-[generate:post:update](generate-post-update.md) | commands.generate.post:update.description
+[generate:post:update](generate-post-update.md) | Generate an implementation of hook_post_update_NAME()
 [generate:profile](generate-profile.md) | प्रोफाइल उत्पन्न करे.
 [generate:routesubscriber](generate-routesubscriber.md) | RouteSubscriber उत्पन्न करे.
 [generate:service](generate-service.md) | सर्विस उत्पन्न करें
+[generate:site:alias](generate-site-alias.md) | Generates a site alias.
 [generate:theme](generate-theme.md) | एक नया थीम उत्पन्न करें।
 [generate:twig:extension](generate-twig-extension.md) | Generate a Twig extension.
 [generate:update](generate-update.md) | Generate an implementation of hook_update_N()
@@ -156,7 +156,7 @@ Drupal Console Command | Details
 [migrate:rollback](migrate-rollback.md) | Rollback one or multiple migrations
 [migrate:setup](migrate-setup.md) | विरासत डेटाबेस के लिए प्रासंगिक माइग्रेशन बनायें और लोड करें
 **module**  |
-[module:dependency:install](module-dependency-install.md) | commands.module.install.dependencies.description
+[module:dependency:install](module-dependency-install.md) | Install dependencies module in the application
 [module:download](module-download.md) | मोड्यूल या मोड्यूलो को डाउनलोड करें
 [module:install](module-install.md) | मोड्यूल या मोड्यूलो को अनुप्रयोग में स्थापित करें
 [module:path](module-path.md) | Returns the relative path to the module (or absolute path)
@@ -164,15 +164,17 @@ Drupal Console Command | Details
 [module:update](module-update.md) | Update core, module or modules in the application
 **multisite**  |
 [multisite:new](multisite-new.md) | Sets up the files for a new multisite install.
+[multisite:update](multisite-update.md) | Update the files for a multisite installed.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 **queue**  |
 [queue:run](queue-run.md) | Process the selected queue.
-**quick**  |
-[quick:start](quick-start.md) | Download, install and serve a new Drupal project
 **rest**  |
 [rest:disable](rest-disable.md) | अनुप्रयोग में REST संसाधन अक्षम करें|
 [rest:enable](rest-enable.md) | अनुप्रयोग के रेस्ट साधन को चालू करे
+**role**  |
+[role:delete](role-delete.md) | Delete roles for the application
+[role:new](role-new.md) | Create roles for the application
 **router**  |
 [router:rebuild](router-rebuild.md) | अनुप्रयोग के मार्ग पथ को पुनर्निर्माण करें
 **sample**  |
@@ -184,11 +186,10 @@ Drupal Console Command | Details
 [site:install](site-install.md) | एक Drupal परियोजना स्थापित करें
 [site:maintenance](site-maintenance.md) | साइट को मेंटेनेंस मोड में बदले
 [site:mode](site-mode.md) | प्रणाली की कार्य-निष्पादन व्यवस्था को बदलें
-[site:new](site-new.md) | Download a new Drupal project
 [site:statistics](site-statistics.md) | वेबसाइट के मौजूदा आंकड़े बताते हैं।
 [site:status](site-status.md) | वर्तमान Drupal स्थापना के स्थिति को देखें
 **state**  |
-[state:delete](state-delete.md) | Delete State
+[state:delete](state-delete.md) | स्टेट हटाना।
 [state:override](state-override.md) | स्थिति की मौलिक को ओवरराइड करे
 **taxonomy**  |
 [taxonomy:term:delete](taxonomy-term-delete.md) | Delete taxonomy terms from a vocabulary
@@ -199,11 +200,6 @@ Drupal Console Command | Details
 [theme:install](theme-install.md) | इंस्टॉल विषय या विषयों के आवेदन में
 [theme:path](theme-path.md) | Returns the relative path to the theme (or absolute path)
 [theme:uninstall](theme-uninstall.md) | विषय की स्थापना रद्द करें या विषयों के आवेदन में
-**translation**  |
-[translation:cleanup](translation-cleanup.md) | commands.translation.cleanup.description
-[translation:pending](translation-pending.md) | commands.translation.pending.description
-[translation:stats](translation-stats.md) | commands.translation.stats.description
-[translation:sync](translation-sync.md) | commands.translation.sync.description
 **update**  |
 [update:entities](update-entities.md) | Applying Entity Updates
 [update:execute](update-execute.md) | मोड्यूल के किसी विशेष नवीनीकरण N फंक्शन को चलायें या सभी को चलायें।
@@ -231,7 +227,7 @@ Option | Details
 --no-interaction | Do not ask any interactive question
 --env | पर्यावरण का नाम।
 --root | कमाण्ड चलाने के लिए Drupal रूट परिभाषित करें
---debug | application.options.debug
+--debug | Switches on debug mode
 --learning | शब्दबहुल कोड उत्पन्न करें।
 --generate-chain | निष्पादन विकल्प में प्रिंट और तर्क को YAML आउटपुट के रूप में श्रृंखला कमांड में इस्तेमाल किया जाएगा
 --generate-inline | निष्पादन विकल्प में प्रिंट और तर्क को इनलाइन कॉल के रूप में भविष्य में उपयोग किया जाएगा

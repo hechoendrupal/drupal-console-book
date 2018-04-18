@@ -5,6 +5,7 @@ Megjeleníti az alkalmazás aktuális útvonalait
 ```
 drupal debug:router [arguments]
 dr
+rod
 ```
 
 ## Available arguments

@@ -1,20 +1,20 @@
 # user:role
 添加/移除给定用户的角色
 
-**Usage:**
+**使用方法:**
 ```
 drupal user:role [arguments]
 ur
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-operation | commands.user.role.operation
-user | commands.user.role.user
-role | commands.user.role.role
+operation | 添加或移除
+user | 用户(仅限一个)
+role | 添加或移除的角色. 请提供机读名称 (仅限一个)
 
-## Examples
+## 例子
 * Add administrator role to the user admin specifying the username and the role
 ```
 drupal user:role  add admin administrator

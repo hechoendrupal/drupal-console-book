@@ -1,24 +1,24 @@
 # cron:execute
-执行模块中的或所有的定时任务（cron）
+执行模块实现的计划任务或执行所有计划任务
 
-**Usage:**
+**使用方法:**
 ```
 drupal cron:execute [arguments]
 croe
 cre
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-module | 模块名称
+module | 模块名
 
-## Examples
-* Execute the cron globally
+## 例子
+* 全局执行定时任务
 ```
 drupal cron:execute
 ```
-* Execute the cron on the specified module
+* 执行指定模块的定时任务
 ```
 drupal cron:execute \
   <module>

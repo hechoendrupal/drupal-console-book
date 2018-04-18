@@ -12,7 +12,6 @@ Option | Details
 -------|-------------
 --module | Numele Modulului.
 --class | Clasa pluginului de tip resursă REST
---name | commands.generate.service.options.name
 --plugin-id | Id-ul pluginului de tip resursă REST
 --plugin-label | Eticheta pluginului de tip resursă REST
 --plugin-url | URL-ul pluginului de tip resursă REST

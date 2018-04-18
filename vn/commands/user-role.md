@@ -10,9 +10,9 @@ ur
 ## Available arguments
 Argument | Details
 ---------|-------------
-operation | commands.user.role.operation
-user | commands.user.role.user
-role | commands.user.role.role
+operation | Add or remove
+user | The affected user (only one)
+role | Roles to add or remove. Please provide the machine name (only one)
 
 ## Examples
 * Add administrator role to the user admin specifying the username and the role

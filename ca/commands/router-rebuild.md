@@ -1,8 +1,15 @@
 # router:rebuild
 Reconstruir rutes per l'aplicació
 
-**Ús:**
+**Usage:**
 ```
-$ drupal router:rebuild
-$ ror  
+drupal router:rebuild
+rr
+ror
+```
+
+## Examples
+* Rebuild routes
+```
+drupal router:rebuild
 ```

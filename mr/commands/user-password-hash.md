@@ -1,20 +1,20 @@
 # user:password:hash
 साधा मजकूर पासवर्ड पासून एक हॅश उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal user:password:hash [arguments]
 uph
 usph
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 password | मजकूर स्वरूपात संकेतशब्द.
 
-## Examples
-* Get hash of the word "p455w0rd"
+## उदाहरणे
+* "P455w0rd" शब्दाचा हॅश मिळवा.
 ```
 drupal user:password:hash  p455w0rd
 ```

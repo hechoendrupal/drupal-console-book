@@ -1,12 +1,12 @@
 # locale:language:add
 Afegir un idioma per el teu lloc web
 
-**Ús:**
+**Usage:**
 ```
-$ drupal locale:language:add [arguments]
+drupal locale:language:add [arguments]
 ```
 
-## Arguments disponibles
-Argument | Detalls
+## Available arguments
+Argument | Details
 ---------|-------------
 language | Idioma (p.e. ca o Català)

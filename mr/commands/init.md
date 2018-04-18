@@ -1,14 +1,15 @@
 # init
 कॉन्फिगरेशन फायलींना वापरकर्ता होम डिरेक्ट्रीमध्ये कॉपी करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal init [options]
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --destination | फायली कॉपी करण्यासाठी गंतव्य निर्देशिका.
+--site | Use local site as destination.
 --override | कॉन्फिगरेशन फायली अधिलिखित करा.
 --autocomplete | स्वयंपूर्ण साधन फायली ध्वज.

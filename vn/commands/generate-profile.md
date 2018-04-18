@@ -12,10 +12,11 @@ Option | Details
 -------|-------------
 --profile | Tên profile
 --machine-name | Tên máy (chỉ chữ thường và gạch dưới)
+--profile-path | The path of the profile
 --description | Mô tả profile
 --core | Phiên bản core
 --dependencies | Sự phụ thuộc của module chia ra bởi dấu phẩy (ví dụ context, panels)
---themes | commands.generate.profile.options.themes
+--themes | the theme name
 --distribution | Tên distribution
 
 ## Examples

@@ -1,5 +1,5 @@
 # sample:default
-Drupal Console generated command.
+commands.sample.default.description
 
 **Usage:**
 ```

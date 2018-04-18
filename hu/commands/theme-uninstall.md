@@ -5,13 +5,12 @@ Az alkalmazás sminkjének vagy sminkjeinek eltávolítása
 ```
 drupal theme:uninstall [arguments]
 thu
-tu
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | commands.theme.uninstall.options.module
+theme | Az eltávolítandó sminkeket vesszővel kell elválasztani
 
 ## Examples
 * Uninstall theme specifying the name

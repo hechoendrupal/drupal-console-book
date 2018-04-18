@@ -14,11 +14,11 @@ gco
 --extension-type | Тип расширения.
 --class | Имя класса, описывающего команду. (Должно оканчиваться словом 'Commmand').
 --name | Имя команды.
---initialize | commands.generate.command.options.initialize
---interact | commands.generate.command.options.interact
+--initialize | Add initialize method.
+--interact | Add interact method.
 --container-aware | Команда знает о исталяции Drupal сайта, когда извлекается
 --services | Загрузка сервисов из контейнера.
---generator | commands.generate.command.options.generator
+--generator | Add a Generator class for this command.
 
 ## Примеры
 * Генерирует команду по имени и типу расширения, классу и имени

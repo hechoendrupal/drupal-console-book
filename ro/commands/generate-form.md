@@ -1,5 +1,5 @@
 # generate:form
-Generează un "%s" nou
+Generate a new "FormBase"
 
 **Usage:**
 ```
@@ -10,12 +10,12 @@ gf
 ## Available options
 Option | Details
 -------|-------------
---module | Numele Modulului.
---class | Numele clasei formularului
---form-id | ID-ul formularului
---services | Încarcă serviciile din container.
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
 --config-file | Add a config file
---inputs | Creează intrări într-un formular.
+--inputs | Create inputs in a form.
 --path | Enter the form path
 --menu-link-gen | Generate a menu link
 --menu-link-title | A title for the menu link

@@ -5,6 +5,7 @@ Az alkalmazás jelenleg elérhető frissítéseinek megjelenítése
 ```
 drupal debug:update
 du
+upd
 ```
 
 ## Examples

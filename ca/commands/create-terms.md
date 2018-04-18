@@ -1,18 +1,31 @@
 # create:terms
 Crear termes 'dummy' per l'aplicació Drupal 8.
 
-**Ús:**
+**Usage:**
 ```
-$ drupal create:terms [arguments] [options]
+drupal create:terms [arguments] [options]
+crt
 ```
 
-## Opcions disponibles
-Opció | Detalls
+## Available options
+Option | Details
 -------|-------------
 --limit | Quants termes voldrieu crear
 --name-words | Màxim de paraules dels noms del termes
 
-## Arguments disponibles
-Argument | Detalls
+## Available arguments
+Argument | Details
 ---------|-------------
 vocabularies | Vocabulari utilitzat en la creació termes
+
+## Examples
+* Provide the vocabulary term name.
+```
+drupal create:terms vocabulary
+```
+* Provide the limit of terms to add and limit of title words.
+```
+drupal create:terms tags \
+  --limit="10" \
+  --name-words="5"
+```

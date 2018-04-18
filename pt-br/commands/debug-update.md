@@ -1,13 +1,14 @@
 # debug:update
 Exibir atualizações necessários para a aplicação
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:update
 du
+upd
 ```
 
-## Examples
+## Exemplos
 * List of pending updates
 ```
 drupal debug:update

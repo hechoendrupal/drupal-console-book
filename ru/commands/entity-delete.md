@@ -10,7 +10,7 @@ ed
 ## Доступные параметры
 Команда | Детали
 -------|-------------
---all | commands.entity.delete.options.all
+--all | Delete all entities of the given type.
 
 ## Доступные аргументы
 Аргумент | Детали

@@ -11,8 +11,8 @@ ges
 Option | Details
 -------|-------------
 --module | Numele Modulului.
---name | commands.generate.service.options.name
---class | Numele Clasei
+--name | Service name
+--class | Class name
 --events | Încarcă evenimente din container
 --services | Încarcă serviciile din container.
 

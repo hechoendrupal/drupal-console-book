@@ -5,6 +5,7 @@ Hiển thị các cập nhật có sẵn cho ứng dụng
 ```
 drupal debug:update
 du
+upd
 ```
 
 ## Examples

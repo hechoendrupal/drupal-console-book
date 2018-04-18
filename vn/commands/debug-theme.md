@@ -5,6 +5,7 @@ Hiển thị các themes hiện tại cho ứng dụng
 ```
 drupal debug:theme [arguments]
 dt
+tde
 ```
 
 ## Available arguments

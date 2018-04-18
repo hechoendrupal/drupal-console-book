@@ -10,6 +10,6 @@ drupal init [options]
 Команда | Детали
 -------|-------------
 --destination | Каталог куда будут скопированы файлы
---site | commands.init.options.site
+--site | Use local site as destination.
 --override | Перезаписать конфигурационные файлы
 --autocomplete | Флаг автозаполнения файлов.

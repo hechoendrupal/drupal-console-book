@@ -1,21 +1,21 @@
 # generate:plugin:field
 生成字段类型、Widget和格式化器的插件
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:plugin:field [options]
 gpf
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --type-class | 字段类型插件类名
 --type-label | 字段类型插件标签
 --type-plugin-id | 字段类型插件 ID
---type-description | commands.generate.plugin.field.options.type-type-description
---formatter-class | commands.generate.plugin.field.options.class
+--type-description | 字段类型插件描述
+--formatter-class | 字段格式化器插件类名
 --formatter-label | 字段格式化器插件标签
 --formatter-plugin-id | 字段格式化器插件 ID
 --widget-class | 字段格式化器插件类名
@@ -25,7 +25,7 @@ Option | Details
 --default-widget | 字段类型插件的默认字段 Widget
 --default-formatter | 字段类型插件的默认字段格式化器
 
-## Examples
+## 例子
 * Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)
 ```
 drupal generate:plugin:field  \

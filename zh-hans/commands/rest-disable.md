@@ -1,14 +1,13 @@
 # rest:disable
 禁用 REST 资源
 
-**Usage:**
+**使用方法:**
 ```
 drupal rest:disable [arguments]
 red
-redi
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 resource-id | Rest ID

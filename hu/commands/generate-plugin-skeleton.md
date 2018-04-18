@@ -11,8 +11,8 @@ gps
 Option | Details
 -------|-------------
 --module | A modul neve.
---plugin-id | commands.generate.plugin.options.plugin-id
---class | Bővítmény osztályneve
+--plugin-id | The Plugin Id.
+--class | Plugin class name
 --services | Szolgáltatások betöltése a tárolóból.
 
 ## Examples

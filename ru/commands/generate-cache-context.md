@@ -11,8 +11,8 @@ gcc
 Команда | Детали
 -------|-------------
 --module | Имя модуля.
---cache-context | commands.generate.cache.context.options.name
---class | commands.generate.cache.context.options.class
+--cache-context | The cache context name
+--class | Cache context class name
 --services | Загрузка сервисов из контейнера.
 
 ## Примеры

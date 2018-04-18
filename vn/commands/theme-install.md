@@ -5,7 +5,6 @@ Cài đặt theme hoặc các themes trong ứng dụng
 ```
 drupal theme:install [arguments] [options]
 thi
-ti
 ```
 
 ## Available options
@@ -16,7 +15,7 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | commands.theme.install.options.module
+theme | Theme hay các themes được bật nên được chia ra bởi dấu phẩy
 
 ## Examples
 * Install theme specifying the name

@@ -1,18 +1,18 @@
 # site:mode
 Atualizar as configurações de desempenho do sistema
 
-**Usage:**
+**Utilização:**
 ```
 drupal site:mode [arguments]
 smo
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 environment | Nome do ambiente [dev, prod]
 
-## Examples
+## Exemplos
 * Switch system to prod
 ```
 drupal site:mode  prod

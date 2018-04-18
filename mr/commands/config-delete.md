@@ -1,19 +1,19 @@
 # config:delete
 संरचना हटवा
 
-**Usage:**
+**वापर:**
 ```
 drupal config:delete [arguments]
 cd
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 type | कॉन्फिगरेशन प्रकार.
 name | संरचने नाव.
 
-## Examples
+## उदाहरणे
 * एक कॉन्फिगेशन प्रकार आणि कॉन्फिगरेशन नाव प्रदान करा.
 ```
 Drupal config: सर्व सक्रिय हटवा.

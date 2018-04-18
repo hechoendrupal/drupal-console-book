@@ -1,25 +1,25 @@
 # debug:views
 अनुप्रयोगासाठी वर्तमान दृश्ये प्रदर्शित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:views [arguments] [options]
 vde
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --tag | दृश्य टॅग
 --status | स्थिती पहा (सक्षम | अक्षम
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 view-id | दृश्य आयडी
 
-## Examples
-* List of views on the site
+## उदाहरणे
+* साइटवरील दृश्यांची सूची.
 ```
 drupal debug:views
 ```

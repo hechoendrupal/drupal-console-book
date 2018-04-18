@@ -1,24 +1,24 @@
 # debug:config:validate
 मॉड्युल प्रतिष्ठापित होण्याआधी स्कीमा अंमलबजावणी प्रमाणित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:config:validate [arguments] [options]
 dcv
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --schema-name | 
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 filepath | 
 schema-filepath | 
 
-## Examples
+## उदाहरणे
 * 
 ```
 drupal debug:config:validate \

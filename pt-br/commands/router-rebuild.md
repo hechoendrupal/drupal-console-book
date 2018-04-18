@@ -1,14 +1,14 @@
 # router:rebuild
 Reconstruir rotas de uma aplicação
 
-**Usage:**
+**Utilização:**
 ```
 drupal router:rebuild
 rr
 ror
 ```
 
-## Examples
+## Exemplos
 * Rebuild routes
 ```
 drupal router:rebuild

@@ -5,6 +5,7 @@ Afișează evenimentele curente, de intrare în jurnal, pentru aplicație
 ```
 drupal debug:database:log [arguments] [options]
 dbb
+ws
 ```
 
 ## Available options

@@ -1,26 +1,25 @@
 # theme:download
 अनुप्रयोगामध्ये थीम डाउनलोड करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal theme:download [arguments] [options]
 thd
-td
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --composer | Composer सह थीम डाउनलोड व्यवस्थापित करण्यासाठी --composer पर्याय वापरा
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 theme | थीम नाव.
 version | थीम आवृत्ती i.e 1.x-dev
 
-## Examples
-* Download theme specifying name and version
+## उदाहरणे
+* नाव आणि आवृत्ती निर्दिष्ट करणारा थीम डाउनलोड करा.
 ```
 drupal theme:download  Alina 7.x-1.2
 ```

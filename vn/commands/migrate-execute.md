@@ -11,7 +11,7 @@ mie
 Option | Details
 -------|-------------
 --site-url | Nguồn URL
---db-type | commands.migrate.setup.migrations.options.db-type
+--db-type | commands.migrate.execute.migrations.options.db-type
 --db-host | Máy chủ cơ sở dữ liệu
 --db-name | Tên cơ sở dữ liệu
 --db-user | Người dùng cơ sở dữ liệu

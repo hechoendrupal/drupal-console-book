@@ -1,13 +1,22 @@
 # generate:update
 Generate an implementation of hook_update_N()
 
-**Ús:**
+**Usage:**
 ```
-$ drupal generate:update [options]
+drupal generate:update [options]
+gu
 ```
 
-## Opcions disponibles
-Opció | Detalls
+## Available options
+Option | Details
 -------|-------------
 --module | Nom del mòdul.
 --update-n | Update Number
+
+## Examples
+* Generate an update N hook implementation specifying the module name and the N value
+```
+drupal generate:update  \
+  --module="modulename"  \
+  --update-n="8001"
+```

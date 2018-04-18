@@ -21,3 +21,7 @@ drupal debug:libraries
 ```
 drupal debug:libraries block
 ```
+* List block/drupal.block library
+```
+drupal debug:libraries block/drupal.block
+```

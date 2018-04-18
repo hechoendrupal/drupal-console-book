@@ -1,5 +1,5 @@
 # multisite:update
-commands.multisite.update.description
+Update the files for a multisite installed.
 
 **Использование:**
 ```
@@ -10,4 +10,10 @@ muu
 ## Доступные параметры
 Команда | Детали
 -------|-------------
---directory | commands.multisite.update.options.directory
+--directory | Name of new directory for multisite installed. (You could create subdir separated by '/')
+
+## Примеры
+* Update the files for a multisite installed specifying old path and new path
+```
+drupal multisite:update
+```

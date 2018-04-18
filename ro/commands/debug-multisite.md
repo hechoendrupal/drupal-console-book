@@ -5,6 +5,7 @@ Listează toate multi siturile disponibile în sistem
 ```
 drupal debug:multisite
 dmu
+msd
 ```
 
 ## Examples

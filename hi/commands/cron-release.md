@@ -5,7 +5,6 @@
 ```
 drupal cron:release
 cror
-crr
 ```
 
 ## Examples

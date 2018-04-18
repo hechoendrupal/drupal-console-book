@@ -11,7 +11,7 @@ gh
 Option | Details
 -------|-------------
 --module | मोड्यूल का नाम।
---description | मोड्यूल का विवरण
+--description | commands.generate.help.options.description
 
 ## Examples
 * Generate a hook help specifying the module name and the description

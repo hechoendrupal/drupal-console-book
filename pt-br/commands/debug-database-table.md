@@ -1,23 +1,23 @@
 # debug:database:table
 Show all tables in a given database.
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:database:table [arguments] [options]
 ddt
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --database | Database key from settings.php
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 table | Table to debug
 
-## Examples
+## Exemplos
 * Show all tables on a database
 ```
 drupal debug:database:table

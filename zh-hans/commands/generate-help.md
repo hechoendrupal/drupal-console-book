@@ -1,19 +1,19 @@
 # generate:help
 生成 hook_help() 的一个实现
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:help [options]
 gh
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
---description | 模块说明
+--module | 模块名
+--description | commands.generate.help.options.description
 
-## Examples
+## 例子
 * Generate a hook help specifying the module name and the description
 ```
 drupal generate:help  \

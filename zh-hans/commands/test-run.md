@@ -1,20 +1,19 @@
 # test:run
 运行这个程序有的测试单元
 
-**Usage:**
+**使用方法:**
 ```
 drupal test:run [arguments] [options]
 ter
-tr
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---url | commands.test.run.arguments.url
+--url | Test url
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 test-class | 测试类
 test-methods | 被运行的测试方法

@@ -1,13 +1,13 @@
 # debug:settings
 Lista configurações do Drupal Console do usuário
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:settings
 dse
 ```
 
-## Examples
+## Exemplos
 * 
 ```
 drupal debug:settings

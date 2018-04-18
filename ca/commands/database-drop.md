@@ -1,12 +1,20 @@
 # database:drop
 Esborrar les taules d'una base de dades.
 
-**Ús:**
+**Usage:**
 ```
-$ drupal database:drop [arguments]
+drupal database:drop [arguments]
+dbd
 ```
 
-## Arguments disponibles
-Argument | Detalls
+## Available arguments
+Argument | Details
 ---------|-------------
 database | Clau de la base de dades de settings.php
+
+## Examples
+* Drop the tables on the database specified on the argument
+```
+drupal database:drop \
+  <database>
+```

@@ -30,6 +30,8 @@ Drupal Console Command | Details
 [config:import:single](config-import-single.md) | Import a single configuration or a list of configurations.
 [config:override](config-override.md) | Override config value in active configuration.
 [config:validate](config-validate.md) | Validate a drupal config against its schema
+**config_update**  |
+[config_update:default](config_update-default.md) | commands.config_update.default.description
 **create**  |
 [create:comments](create-comments.md) | Create dummy comments for your Drupal 8 application.
 [create:nodes](create-nodes.md) | Create dummy nodes for your Drupal 8 application.
@@ -87,19 +89,6 @@ Drupal Console Command | Details
 [debug:views:plugins](debug-views-plugins.md) | Displays current views plugins for the application
 **devel**  |
 [devel:dumper](devel-dumper.md) | commands.devel.dumper.messages.change-devel-dumper-plugin
-**develop**  |
-[develop:contribute](develop-contribute.md) | Download Drupal + Drupal Console to contribute.
-[develop:create:symlinks](develop-create-symlinks.md) | Create symlinks between Drupal site and cloned repositories.
-[develop:doc:cheatsheet](develop-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands. The following command is mandatory prior execution: composer require knplabs/knp-snappy
-[develop:doc:dash](develop-doc-dash.md) | Generate the DrupalConsole.docset package for Dash
-[develop:doc:data](develop-doc-data.md) | Generate documentations for Commands.
-[develop:doc:gitbook](develop-doc-gitbook.md) | Generate documentations for Commands
-[develop:example](develop-example.md) | 
-[develop:example:container:aware](develop-example-container-aware.md) | 
-[develop:translation:cleanup](develop-translation-cleanup.md) | Clean up translation files
-[develop:translation:pending](develop-translation-pending.md) | Determine pending translation strings in a language or a specific file in a language
-[develop:translation:stats](develop-translation-stats.md) | Calcuate translation stats
-[develop:translation:sync](develop-translation-sync.md) | Sync translation files
 **docker**  |
 [docker:init](docker-init.md) | Create a docker-compose.yml file
 **dotenv**  |
@@ -180,8 +169,6 @@ Drupal Console Command | Details
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions.
 **queue**  |
 [queue:run](queue-run.md) | Process the selected queue.
-**quick**  |
-[quick:start](quick-start.md) | Download, install and serve a new Drupal project
 **rest**  |
 [rest:disable](rest-disable.md) | Disable a rest resource for the application
 [rest:enable](rest-enable.md) | Enable a rest resource for the application
@@ -191,7 +178,7 @@ Drupal Console Command | Details
 **router**  |
 [router:rebuild](router-rebuild.md) | Rebuild routes for the application
 **sample**  |
-[sample:default](sample-default.md) | Drupal Console generated command.
+[sample:default](sample-default.md) | commands.sample.default.description
 **settings**  |
 [settings:set](settings-set.md) | Change a specific setting value in DrupalConsole config file
 **site**  |
@@ -199,7 +186,6 @@ Drupal Console Command | Details
 [site:install](site-install.md) | Install a Drupal project
 [site:maintenance](site-maintenance.md) | Switch site into maintenance mode
 [site:mode](site-mode.md) | Switch system performance configuration
-[site:new](site-new.md) | Download a new Drupal project
 [site:statistics](site-statistics.md) | Show the current statistics of website.
 [site:status](site-status.md) | View current Drupal Installation status
 **state**  |
@@ -228,14 +214,6 @@ Drupal Console Command | Details
 **views**  |
 [views:disable](views-disable.md) | Disable a View
 [views:enable](views-enable.md) | Enable a View
-**yaml**  |
-[yaml:diff](yaml-diff.md) | Compare two YAML files in order to find differences between them.
-[yaml:get:value](yaml-get-value.md) | Get a value for a specific key in a YAML file.
-[yaml:merge](yaml-merge.md) | Merge two or more YAML files in a new YAML file. Latest values are preserved.
-[yaml:split](yaml-split.md) | Split a YAML file using indent as separator criteria
-[yaml:unset:key](yaml-unset-key.md) | Unset a YAML key in a YAML file.
-[yaml:update:key](yaml-update-key.md) | Replace a YAML key in a YAML file.
-[yaml:update:value](yaml-update-value.md) | Update a value for a specific key in a YAML file.
 
 ## Available options
 Option | Details

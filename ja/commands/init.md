@@ -10,5 +10,6 @@ drupal init [options]
 Option | Details
 -------|-------------
 --destination | Destination directory to copy files
+--site | Use local site as destination.
 --override | 設定ファイルを上書きする
 --autocomplete | Autocomplete tool files flag.

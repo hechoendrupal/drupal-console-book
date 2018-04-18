@@ -10,21 +10,21 @@ si
 ## Available options
 Option | Details
 -------|-------------
---langcode | commands.site.install.options.langcode
---db-type | commands.site.install.options.db-type
---db-file | commands.site.install.options.db-file
+--langcode | Drupal भाषा
+--db-type | Drupal के डेटाबेस प्रकार स्थापित करने में उपयोग किया जाना है
+--db-file | Drupal के डाटाबेस फ़ाइल को स्थापित करने में उपयोग किया जाना है
 --db-host | मेजबान डेटाबेस
 --db-name | डेटाबेस का नाम
 --db-user | डेटाबेस उपयोगकर्ता
 --db-pass | डेटाबेस पासवर्ड
 --db-prefix | डेटाबेस उपसर्ग
 --db-port | डेटाबेस पोर्ट
---site-name | commands.site.install.options.site-name
---site-mail | commands.site.install.options.site-mail
---account-name | commands.site.install.options.account-name
---account-mail | commands.site.install.options.account-mail
---account-pass | commands.site.install.options.account-pass
---force | commands.site.install.options.force
+--site-name | Drupal साइट का नाम
+--site-mail | Drupal साइट का नाम
+--account-name | Drupal के व्यवस्थापक खाते का नाम
+--account-mail | Drupal व्यवस्थापक का मेल खाता 
+--account-pass | व्यवस्थापक खाते का पासवर्ड
+--force | Force to reinstall the site
 
 ## Available arguments
 Argument | Details

@@ -11,8 +11,8 @@ ges
 Option | Details
 -------|-------------
 --module | मोड्यूल का नाम।
---name | commands.generate.service.options.name
---class | क्लास का नाम
+--name | Service name
+--class | Class name
 --events | घटनाओ को container से लोड करें।
 --services | सर्विसेज़ को container से लोड करें।
 

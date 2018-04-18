@@ -1,14 +1,15 @@
 # debug:multisite
-列出所有可用多站点
+列出系统中可用的所有多站点
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:multisite
 dmu
+msd
 ```
 
-## Examples
-* Displays multisite information
+## 例子
+* 显示多站点信息
 ```
 drupal debug:multisite
 ```

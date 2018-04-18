@@ -5,13 +5,12 @@ Dezinstalează tema sau temele din aplicație
 ```
 drupal theme:uninstall [arguments]
 thu
-tu
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | commands.theme.uninstall.options.module
+theme | tema sau temele ce urmează a fi dezinstalate trebuie să fie separate printr-o virgulă
 
 ## Examples
 * Uninstall theme specifying the name

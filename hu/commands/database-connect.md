@@ -5,6 +5,7 @@ Megjeleníti az adatbázis-kapcsolatot
 ```
 drupal database:connect [arguments]
 dbco
+sqlc
 ```
 
 ## Available arguments

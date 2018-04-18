@@ -5,6 +5,7 @@ Vizualizează statutul de instalare (Drupal Installation status)
 ```
 drupal site:status [options]
 ss
+st
 ```
 
 ## Available options

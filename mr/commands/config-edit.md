@@ -1,20 +1,20 @@
 # config:edit
 निवडलेले संरचना संपादित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal config:edit [arguments]
 ced
 cdit
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 config-name | संरचने नाव.
 editor | संपादक
 
-## Examples
+## उदाहरणे
 * "Vim" (डीफॉल्ट संपादक) सह सिस्टम क्रोन कॉन्फिगरेशन संपादित करा.
 ```
 drupal config:edit system.cron

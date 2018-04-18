@@ -1,20 +1,20 @@
 # config:delete
-Remove Configuração
+Remove configuração
 
-**Usage:**
+**Utilização:**
 ```
 drupal config:delete [arguments]
 cd
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 type | Configuration type.
 name | Nome de configuração.
 
-## Examples
-* Provide a config type and a config name
+## Exemplos
+* Forneça um tipo de configuração e um nome de configuração.
 ```
 drupal config:delete active all
 ```

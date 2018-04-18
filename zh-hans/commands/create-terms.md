@@ -1,29 +1,29 @@
 # create:terms
-生成分类术语
+为您的 Drupal 8 应用程序创建术语。
 
-**Usage:**
+**使用方法:**
 ```
 drupal create:terms [arguments] [options]
 crt
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---limit | 生成多少个分类术语
---name-words | 分类术语名称允许的最多单词数量
+--limit | 您要创建多少个术语？
+--name-words | 术语名称中单词的最多数量
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-vocabularies | 用于生成分类术语的词汇表(s)
+vocabularies | 用于创建术语的词汇表
 
-## Examples
-* Provide the vocabulary term name.
+## 例子
+* 提供词汇表术语名称。
 ```
 drupal create:terms vocabulary
 ```
-* Provide the limit of terms to add and limit of title words.
+* 提供添加术语和标题用词的限制条件。
 ```
 drupal create:terms tags \
   --limit="10" \

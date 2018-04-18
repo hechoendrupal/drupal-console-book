@@ -1,24 +1,26 @@
 # generate:command
 Cria comandos via console.
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:command [options]
 gco
-gcm
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
---extension | The extension name.
---extension-type | The extension type.
+--extension | O nome da extensão.
+--extension-type | O tipo da extensão.
 --class | Nome da classe do comando
 --name | Nome do comando.
+--initialize | Add initialize method.
+--interact | Add interact method.
 --container-aware | Conhece o comando ciente da instalação do site Drupal quando executado
 --services | Carrega serviços do container.
+--generator | Add a Generator class for this command.
 
-## Examples
+## Exemplos
 * Generate a command specifying the extension name and type, its class and the name.
 ```
 drupal generate:command  \

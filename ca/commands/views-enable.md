@@ -1,13 +1,23 @@
 # views:enable
 Habilitar les vistes
 
-**Ús:**
+**Usage:**
 ```
-$ drupal views:enable [arguments]
-$ ve  
+drupal views:enable [arguments]
+ve
 ```
 
-## Arguments disponibles
-Argument | Detalls
+## Available arguments
+Argument | Details
 ---------|-------------
 view-id | Identificador de la vista
+
+## Examples
+* Enable content view
+```
+drupal views:enable  content
+```
+* Enable frontpage view
+```
+drupal views:enable  frontpage
+```

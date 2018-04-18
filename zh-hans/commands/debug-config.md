@@ -1,27 +1,36 @@
 # debug:config
-显示当前配置
+列出配置对象名称和单个配置对象。
 
-**Usage:**
+**使用方法:**
 ```
-drupal debug:config [arguments]
+drupal debug:config [arguments] [options]
 dc
 ```
 
-## Available arguments
-Argument | Details
----------|-------------
-name | 配置名称
+## 可用选项
+选项 | 详细信息
+-------|-------------
+--show-overridden | Show overridden configurations.
 
-## Examples
-* List all configuration object names.
+## 可用参数
+参数 | 详细信息
+---------|-------------
+name | 配置对象名称，例如 "system.site"。
+
+## 例子
+* 列出所有配置对象名称。
 ```
 drupal config:debug
 ```
-* Display system site configurations values.
+* 显示系统的站点配置值。
 ```
 drupal config:debug system.site
 ```
-* List all system configuration names.
+* 列出所有系统配置名称。
 ```
 drupal config:debug | grep system
+```
+* List all configuration including overridden values.
+```
+drupal debug:config --show-overridden
 ```

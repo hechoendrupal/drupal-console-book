@@ -1,7 +1,7 @@
 # check
 System requirement checker
 
-**Ús:**
+**Usage:**
 ```
-$ drupal check
+drupal check
 ```

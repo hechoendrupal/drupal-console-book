@@ -1,24 +1,24 @@
 # create:terms
 Create dummy terms for your Drupal 8 application.
 
-**Usage:**
+**Utilização:**
 ```
 drupal create:terms [arguments] [options]
 crt
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --limit | How many terms would you like to create
 --name-words | Maximum number of words in term names
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 vocabularies | Vocabularie(s) to be used in terms creation
 
-## Examples
+## Exemplos
 * Provide the vocabulary term name.
 ```
 drupal create:terms vocabulary

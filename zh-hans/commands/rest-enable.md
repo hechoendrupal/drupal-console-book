@@ -1,13 +1,13 @@
 # rest:enable
 启用 REST 资源
 
-**Usage:**
+**使用方法:**
 ```
 drupal rest:enable [arguments]
 ree
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 resource-id | Rest ID

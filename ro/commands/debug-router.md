@@ -5,6 +5,7 @@ Afişează rutele curente
 ```
 drupal debug:router [arguments]
 dr
+rod
 ```
 
 ## Available arguments

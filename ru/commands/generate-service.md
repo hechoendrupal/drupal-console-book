@@ -14,9 +14,9 @@ gs
 --name | Имя сервиса
 --class | Имя класса
 --interface | Интерфейс
---interface-name | commands.generate.service.options.interface-name
+--interface-name | Interface name
 --services | Загрузка сервисов из контейнера.
---path-service | commands.generate.service.options.path-service
+--path-service | Path
 
 ## Примеры
 * Генерирует сервис без интерфейса по имени модуля, имени сервиса, классу и пути

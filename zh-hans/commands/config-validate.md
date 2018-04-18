@@ -1,19 +1,19 @@
 # config:validate
-Validate a drupal config against its schema
+根据其 Schema 验证 drupal 配置
 
-**Usage:**
+**使用方法:**
 ```
 drupal config:validate [arguments]
 cv
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 name | 
 
-## Examples
-* Provide the configuration name.
+## 例子
+* 提供配置名称。
 ```
 drupal config:validate configuration.name
 ```

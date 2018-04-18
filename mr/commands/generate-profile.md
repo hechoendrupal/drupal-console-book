@@ -1,25 +1,26 @@
 # generate:profile
 प्रोफाइल उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:profile [options]
 gpr
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --profile | प्रोफाइल नाव.
 --machine-name | मशीनचे नाव (केवळ लोअरकेस आणि अंडरस्कोर)
+--profile-path | The path of the profile
 --description | प्रोफाइल वर्णन.
 --core | कोर आवृत्ती.
 --dependencies | स्वल्पविरामाने विभक्त केलेले मॉड्यूल अवलंबन (i.ई संदर्भ, पॅनेल)
---themes | commands.generate.profile.options.themes
+--themes | the theme name
 --distribution | वितरण नाव.
 
-## Examples
-* Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies
+## उदाहरणे
+* प्रोफाइल नाव, मशीन नाव, वर्णन, कोर आणि त्याची मॉड्यूल अवलंबन निर्देशीत करतेवेळी प्रोफाइल उत्पन्न करा.
 ```
 drupal generate:profile  \
   --profile="NewProfileName"  \

@@ -1,17 +1,17 @@
 # exec
 Execute an external command.
 
-**Usage:**
+**Utilização:**
 ```
 drupal exec [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --working-directory | The current working directory.
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 bin | Executable name.

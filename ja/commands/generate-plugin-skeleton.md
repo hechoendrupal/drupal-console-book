@@ -11,7 +11,7 @@ gps
 Option | Details
 -------|-------------
 --module | モジュール名
---plugin-id | commands.generate.plugin.options.plugin-id
+--plugin-id | The Plugin Id.
 --class | Plugin class name
 --services | コンテナからサービスを読み込む
 

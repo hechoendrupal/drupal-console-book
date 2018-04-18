@@ -1,20 +1,20 @@
 # generate:help
 hook_help() चे लागूकरण उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:help [options]
 gh
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
---description | मॉड्यूल वर्णन.
+--description | commands.generate.help.options.description
 
-## Examples
-* Generate a hook help specifying the module name and the description
+## उदाहरणे
+* मॉड्यूलचे नाव आणि वर्णन दर्शविण्यास हुक मदत उत्पन्न करा.
 ```
 drupal generate:help  \
   --module="modulename"  \

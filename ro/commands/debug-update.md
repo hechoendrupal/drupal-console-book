@@ -5,6 +5,7 @@ Afişează actualizările disponibile pentru aplicaţie.
 ```
 drupal debug:update
 du
+upd
 ```
 
 ## Examples

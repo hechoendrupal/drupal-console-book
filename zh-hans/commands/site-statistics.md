@@ -1,7 +1,7 @@
 # site:statistics
 显示网站的当前统计
 
-**Usage:**
+**使用方法:**
 ```
 drupal site:statistics
 sst

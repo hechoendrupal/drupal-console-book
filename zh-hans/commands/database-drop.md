@@ -1,19 +1,19 @@
 # database:drop
-删除数据库所有表
+删除给定数据库中的所有表。
 
-**Usage:**
+**使用方法:**
 ```
 drupal database:drop [arguments]
 dbd
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-database | settings.php 文件中 Database 的键
+database | 来自 settings.php 的数据库键
 
-## Examples
-* Drop the tables on the database specified on the argument
+## 例子
+* 删除由参数指定的数据库中的表
 ```
 drupal database:drop \
   <database>

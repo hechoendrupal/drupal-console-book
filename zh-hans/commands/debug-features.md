@@ -1,12 +1,12 @@
 # debug:features
-List registered features.
+列出注册的功能。
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:features [arguments]
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-bundle | Bundle name
+bundle | Bundle 名称

@@ -1,13 +1,13 @@
 # rest:enable
 अनुप्रयोगासाठी विश्रांती संसाधन सक्षम करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal rest:enable [arguments]
 ree
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 resource-id | विशिष्ठ आयडी.

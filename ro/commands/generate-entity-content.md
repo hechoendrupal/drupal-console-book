@@ -5,7 +5,6 @@ Generează o entitate de conținut nouă
 ```
 drupal generate:entity:content [options]
 geco
-gect
 ```
 
 ## Available options

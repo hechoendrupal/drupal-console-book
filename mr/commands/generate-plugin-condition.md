@@ -1,15 +1,14 @@
 # generate:plugin:condition
 प्लगिन स्थिती उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:plugin:condition [options]
 gpco
-gpc
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | प्लगिन स्थिती वर्ग नाव.
@@ -19,8 +18,8 @@ Option | Details
 --context-definition-label | संदर्भ व्याख्या लेबल.
 --context-definition-required | संदर्भ व्याख्या आवश्यक आहे (सत्य / चूक)
 
-## Examples
-* Generate a plugin condition for a node entity type specifying the module name, the class, the label, its id and the context definition
+## उदाहरणे
+* मॉड्यूल नाव, वर्ग, लेबल, आयडी आणि संदर्भ परिभाषित केल्याने नोड करणार्या घटकासाठी प्लगइनची स्थिती उत्पन्न करा.
 ```
 drupal generate:plugin:condition  \
   --module="modulename"  \
@@ -31,7 +30,7 @@ drupal generate:plugin:condition  \
   --context-definition-label="node"  \
   --context-definition-required
 ```
-* Generate a plugin condition for language specifying the module name, the class, the label, its id and the context definition
+* मॉड्यूल नाव, वर्ग, लेबल, आयडी आणि संदर्भ परिभाषा निर्दिष्ट करणार्या भाषांसाठी प्लगइनची स्थिती उत्पन्न करा.
 ```
 drupal generate:plugin:condition  \
   --module="modulename"  \
@@ -42,7 +41,7 @@ drupal generate:plugin:condition  \
   --context-definition-label="Language"  \
   --context-definition-required
 ```
-* Generate a plugin condition for role configuration specifying the module name, the class, the label, its id and the context definition
+* मॉड्यूलचे नाव, वर्ग, लेबल, आयडी आणि संदर्भ व्याख्या निर्दिष्ट करणारे रोल कॉन्फिगरेशनसाठी प्लगइन स्थिती उत्पन्न करा.
 ```
 drupal generate:plugin:condition  \
   --module="modulename"  \

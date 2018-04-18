@@ -1,17 +1,24 @@
 # theme:path
 Returns the relative path to the theme (or absolute path)
 
-**Ús:**
+**Usage:**
 ```
-$ drupal theme:path [arguments] [options]
+drupal theme:path [arguments] [options]
+thp
 ```
 
-## Opcions disponibles
-Opció | Detalls
+## Available options
+Option | Details
 -------|-------------
 --absolute | Return theme absolute path
 
-## Arguments disponibles
-Argument | Detalls
+## Available arguments
+Argument | Details
 ---------|-------------
-module | The Theme name (machine name)
+theme | Theme name
+
+## Examples
+* Get the path of mytheme
+```
+drupal theme:path  mytheme
+```

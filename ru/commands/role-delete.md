@@ -1,5 +1,5 @@
 # role:delete
-commands.role.delete.description
+Delete roles for the application
 
 **Использование:**
 ```
@@ -11,3 +11,9 @@ rd
 Аргумент | Детали
 ---------|-------------
 roles | commands.role.delete.argument.roles
+
+## Примеры
+* Delete role specifying rolename
+```
+drupal role:delete  moderator
+```

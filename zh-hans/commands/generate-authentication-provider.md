@@ -1,20 +1,20 @@
 # generate:authentication:provider
 生成认证提供者
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:authentication:provider [options]
 gap
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --class | 认证提供者类
 --provider-id | 提供者 ID
 
-## Examples
+## 例子
 * Generate an authentication provider specifying the module, the class and the provider id
 ```
 drupal generate:authentication:provider  \

@@ -5,7 +5,6 @@ Dezactiveaza o resursă REST
 ```
 drupal rest:disable [arguments]
 red
-redi
 ```
 
 ## Available arguments

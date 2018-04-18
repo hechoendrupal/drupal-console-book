@@ -1,19 +1,19 @@
 # debug:views:plugins
-显示当前应用的视图插件
+显示应用程序的当前视图插件
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:views:plugins [arguments]
 dvp
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-type | 通过类型过滤视图插件
+type | 按类型过滤视图插件
 
-## Examples
-* List of views plugins
+## 例子
+* 视图插件列表
 ```
 drupal debug:views:plugins
 ```

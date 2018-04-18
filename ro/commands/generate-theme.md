@@ -10,14 +10,14 @@ gt
 ## Available options
 Option | Details
 -------|-------------
---theme | commands.generate.theme.options.module
+--theme | Numele temei
 --machine-name | Numele maşină (doar caracere minuscule şi caracterul "_" sunt suportate)
---theme-path | commands.generate.theme.options.module-path
+--theme-path | Calea spre temă
 --description | Descrierea temei
 --core | Versiunea nucleului
 --package | Pachetul
 --global-library | Numele librariei de stilizare globală
---libraries | commands.generate.theme.options.libraries
+--libraries | Libraries
 --base-theme | Tema de bază (ex.: classy, stable)
 --regions | Regiuni
 --breakpoints | Puncte de întrerupere

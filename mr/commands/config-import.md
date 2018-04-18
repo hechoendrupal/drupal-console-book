@@ -1,20 +1,21 @@
 # config:import
 वर्तमान अनुप्रयोगावरील कॉन्फिगरेशन आयात करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal config:import [options]
 ci
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --file | आयात करण्यासाठी कॉन्फिगरेशनच्या संग्रहण फाईलचा मार्ग.
 --directory | आयात करण्यासाठी कॉन्फिगरेशनच्या निर्देशिकेत मार्ग.
 --remove-files | सिंक्रोनाइझेशननंतर फायली काढा.
+--skip-uuid | commands.config.import.options.skip-uuid
 
-## Examples
+## उदाहरणे
 * संरचना फाइल पुरवा.
 ```
 drupal config:import \

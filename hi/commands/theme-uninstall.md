@@ -5,13 +5,12 @@
 ```
 drupal theme:uninstall [arguments]
 thu
-tu
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | commands.theme.uninstall.options.module
+theme | स्थापना विषय या विषयों को एक अल्पविराम से अलग किया जाना चाहिए
 
 ## Examples
 * Uninstall theme specifying the name

@@ -1,14 +1,14 @@
 # user:login:clear:attempts
 清空一个用户的登录尝试数据。
 
-**Usage:**
+**使用方法:**
 ```
 drupal user:login:clear:attempts [arguments]
 ulca
 uslca
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-uid | 用户ID.
+user | User name/id.

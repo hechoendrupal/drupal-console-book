@@ -1,14 +1,14 @@
 # generate:module
 生成新模块
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:module [options]
 gm
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
 --module | 模块名
 --machine-name | 模块名 (只能用小写英文字母和下划线)
@@ -23,7 +23,7 @@ Option | Details
 --test | 生成一个测试类
 --twigtemplate | Generate theme template
 
-## Examples
+## 例子
 * Generate a module specifying the module name, machine name, the path, its description, drupal core and the package name. In this example the composer file, the unit test and twig template are generated too
 ```
 drupal generate:module  \

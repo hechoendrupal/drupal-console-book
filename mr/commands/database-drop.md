@@ -1,18 +1,18 @@
 # database:drop
 दिलेल्या डेटाबेसमध्ये सर्व सारण्या ड्रॉप करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal database:drop [arguments]
 dbd
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-database | Settings.php पासून डेटाबेस की.
+database | settings.php पासून डेटाबेस की.
 
-## Examples
+## उदाहरणे
 * वितर्क वर निर्दिष्ट डेटाबेसवर सारण्या ड्रॉप करा.
 ```
 drupal database:drop \

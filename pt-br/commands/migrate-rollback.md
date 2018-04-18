@@ -1,18 +1,18 @@
 # migrate:rollback
 Rollback one or multiple migrations
 
-**Usage:**
+**Utilização:**
 ```
 drupal migrate:rollback [arguments] [options]
 mir
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
---source-base_path | commands.migrate.setup.options.source-base-path
+--source-base_path | Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 migration-ids | Migration id(s)

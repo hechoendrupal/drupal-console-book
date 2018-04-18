@@ -1,18 +1,26 @@
 # multisite:new
 Sets up the files for a new multisite install.
 
-**Ús:**
+**Usage:**
 ```
-$ drupal multisite:new [arguments] [options]
+drupal multisite:new [arguments] [options]
+mun
+sn
 ```
 
-## Opcions disponibles
-Opció | Detalls
+## Available options
+Option | Details
 -------|-------------
---site-uri | Site URI to add to sites.php.
---copy-install | Copies existing site from the default install.
+--copy-default | Copies existing site from the default install.
 
-## Arguments disponibles
-Argument | Detalls
+## Available arguments
+Argument | Details
 ---------|-------------
-sites-subdir | Name of directory under 'sites' which should be created.
+directory | Name of directory under 'sites' which should be created.
+uri | Site URI to add to sites.php.
+
+## Examples
+* Set up files for a multisite install specifying destination path and uri
+```
+drupal multisite:new  vendor/newsite http://mysite.example.com
+```

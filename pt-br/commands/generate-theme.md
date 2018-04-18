@@ -1,28 +1,28 @@
 # generate:theme
 Generate a theme.
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:theme [options]
 gt
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
---theme | commands.generate.theme.options.module
+--theme | The theme name
 --machine-name | The machine name (lowercase and underscore only)
---theme-path | commands.generate.theme.options.module-path
+--theme-path | The path of the theme
 --description | Theme description
 --core | Core version
 --package | Theme package
 --global-library | Global styling library name
---libraries | commands.generate.theme.options.libraries
+--libraries | Libraries
 --base-theme | Base theme (i.e. classy, stable)
 --regions | Regions
 --breakpoints | Breakpoints
 
-## Examples
+## Exemplos
 * Generate a theme without region and without breakpoint specifying the theme name, its machine name, the theme path, a description, the drupal core, the package name and the global library
 ```
 drupal generate:theme  \

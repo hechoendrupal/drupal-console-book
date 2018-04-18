@@ -1,14 +1,15 @@
 # debug:database:log
 Exibir eventos de log atuais do aplicativo
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:database:log [arguments] [options]
 dbb
+ws
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --type | Filter events by a specific type
 --severity | Filter events by a specific level of severity
@@ -18,12 +19,12 @@ Option | Details
 --offset | Ponto de partida de um limite
 --yml | Print in a yml style
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 event-id | DBLog evento ID
 
-## Examples
+## Exemplos
 * List all the entries on the log
 ```
 drupal debug:database:log

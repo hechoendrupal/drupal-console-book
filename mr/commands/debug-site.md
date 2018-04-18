@@ -1,19 +1,19 @@
 # debug:site
 सर्व ज्ञात स्थानिक आणि दूरस्थ साइटची सूची करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:site [arguments]
 dsi
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 target | लक्ष्य
 property | मालमत्ता
 
-## Examples
+## उदाहरणे
 * 
 ```
 drupal debug:site

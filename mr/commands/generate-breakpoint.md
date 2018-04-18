@@ -1,20 +1,20 @@
 # generate:breakpoint
 ब्रेकपॉईंट उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:breakpoint [options]
 gb
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --theme | थीम नाव
 --breakpoints | ब्रेकपॉइंट
 
-## Examples
-* Generate a breakpoint specifying the theme, a breakpoint name, its label, the media query, its weight and multipliers
+## उदाहरणे
+* थीम, एक ब्रेकपॉईंट नाव, त्याचे लेबल, मीडिया क्वेरी, त्याचे वजन आणि मल्टिप्लायर निर्दिष्ट करणारा ब्रेकपॉइंट उत्पन्न करा.
 ```
 drupal generate:breakpoint  \
   --theme="classy"  \

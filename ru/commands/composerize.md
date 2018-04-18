@@ -1,5 +1,5 @@
 # composerize
-commands.composerize.description
+Converts Drupal codebase to composer.
 
 **Использование:**
 ```
@@ -9,5 +9,5 @@ drupal composerize [options]
 ## Доступные параметры
 Команда | Детали
 -------|-------------
---show-packages | commands.composerize.options.show-packages
---include-version | commands.composerize.options.include-version
+--show-packages | Show list of packages.
+--include-version | Include version on suggested result command.

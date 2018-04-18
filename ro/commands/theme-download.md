@@ -5,7 +5,6 @@ Descarcă tema în aplicație
 ```
 drupal theme:download [arguments] [options]
 thd
-td
 ```
 
 ## Available options

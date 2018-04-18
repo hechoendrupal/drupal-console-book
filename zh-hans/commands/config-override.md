@@ -1,21 +1,21 @@
 # config:override
-覆写活动配置
+覆盖活动配置中的配置值。
 
-**Usage:**
+**使用方法:**
 ```
 drupal config:override [arguments]
 co
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 name | 配置名称
 key | 键
 value | 值
 
-## Examples
-* 设置 Contact 模块 flood limit 为 10.
+## 例子
+* 将联系人模块的洪水限制设置为 10。
 ```
 drupal config:override contact.settings flood.limit 10
 ```

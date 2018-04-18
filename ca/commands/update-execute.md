@@ -1,14 +1,25 @@
 # update:execute
 Executar una funció Update N en un mòdul, o executar-les totes
 
-**Ús:**
+**Usage:**
 ```
-$ drupal update:execute [arguments]
-$ upe  
+drupal update:execute [arguments]
+upex
+updb
 ```
 
-## Arguments disponibles
-Argument | Detalls
+## Available arguments
+Argument | Details
 ---------|-------------
 module | Nom del mòdul.
-update-n | Funció Update N a executar
+update-n | commands.update.execute.options.update-n
+
+## Examples
+* Update all entities
+```
+drupal update:execute
+```
+* Execute updates for system module
+```
+drupal update:execute system
+```

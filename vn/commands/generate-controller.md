@@ -5,7 +5,6 @@ Tạo và đăng ký một trình điều khiển
 ```
 drupal generate:controller [options]
 gcon
-gcn
 ```
 
 ## Available options

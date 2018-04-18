@@ -11,10 +11,10 @@ gs
 Option | Details
 -------|-------------
 --module | モジュール名
---name | commands.generate.service.options.name
+--name | Service name
 --class | Class name
---interface | commands.common.service.options.interface
---interface-name | commands.common.service.options.interface-name
+--interface | Interface
+--interface-name | Interface name
 --services | コンテナからサービスを読み込む
 --path-service | Path
 

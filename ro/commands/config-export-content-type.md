@@ -12,6 +12,8 @@ Option | Details
 -------|-------------
 --module | Numele Modulului.
 --optional-config | Exportați tipul de conținut ca și un fișier opțional de configurare YAML în modulul dvs.
+--remove-uuid | If set, the configuration will be exported without uuid key.
+--remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
 ## Available arguments
 Argument | Details

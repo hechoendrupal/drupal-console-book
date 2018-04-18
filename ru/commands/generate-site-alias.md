@@ -1,5 +1,5 @@
 # generate:site:alias
-commands.generate.site.alias.description
+Generates a site alias.
 
 **Использование:**
 ```
@@ -10,14 +10,14 @@ gsa
 ## Доступные параметры
 Команда | Детали
 -------|-------------
---site | commands.generate.site.alias.options.site
---name | commands.generate.site.alias.options.name
---environment | commands.generate.site.alias.options.environment
---type | commands.generate.site.alias.options.type
---composer-root | commands.generate.site.alias.options.composer-root
---site-uri | commands.generate.site.alias.options.site-uri
---host | commands.generate.site.alias.options.host
---user | commands.generate.site.alias.options.user
---port | commands.generate.site.alias.options.port
---extra-options | commands.generate.site.alias.options.extra-options
---directory | commands.generate.site.alias.options.directory
+--site | Use local site as destination.
+--name | Site name.
+--environment | Environment name.
+--type | The site type.
+--composer-root | The Drupal root project directory.
+--site-uri | Drupal uri (for multi-sites).
+--host | The ip/domain name of the remote system. Not required on local sites.
+--user | The username to use when connecting via ssh.
+--port | The port to use when connecting via ssh.
+--extra-options | Used only when the target requires extra options, such as alternative authentication method and/or alternative identity file.
+--directory | Directory to store the generated site alias.

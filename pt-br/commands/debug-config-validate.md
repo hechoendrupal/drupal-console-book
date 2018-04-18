@@ -1,24 +1,24 @@
 # debug:config:validate
 Validate a schema implementation before a module is installed.
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:config:validate [arguments] [options]
 dcv
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --schema-name | 
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 filepath | 
 schema-filepath | 
 
-## Examples
+## Exemplos
 * 
 ```
 drupal debug:config:validate \

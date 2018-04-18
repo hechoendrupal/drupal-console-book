@@ -1,20 +1,25 @@
 # user:login:url
 एक-प्रयोगकर्ता लॉगिन url मिळवते.
 
-**Usage:**
+**वापर:**
 ```
 drupal user:login:url [arguments]
 ulu
-uslu
+usli
+uli
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-user-id | वापरकर्ता आयडी.
+user | User name/id.
 
-## Examples
-* Get one time login url for user id 1
+## उदाहरणे
+* यूजर आयडी 1 ला एकदा लॉगिन यूआरएल मिळवा.
 ```
 drupal user:login:url  1
+```
+* Get one time login url for username jmolivas
+```
+drupal user:login:url jmolivas
 ```

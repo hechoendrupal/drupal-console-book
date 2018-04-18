@@ -1,28 +1,28 @@
 # debug:plugin
 सर्व प्लगिन प्रकार, एका विशिष्ट प्रकारच्या प्लगिनची उदाहरणे, किंवा विशिष्ट प्लगइनसाठी परिभाषित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:plugin [arguments]
 dpl
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 type | प्लगिन प्रकार
 id | प्लगिन आयडी
 
-## Examples
-* Displays a list with all the plugins on the current site
+## उदाहरणे
+* वर्तमान साइटवरील सर्व प्लगइनसह एक सूची प्रदर्शित करते.
 ```
 drupal debug:plugin
 ```
-* Displays block plugin information
+* ब्लॉक प्लगइन माहिती प्रदर्शित करते.
 ```
 drupal debug:plugin block
 ```
-* Displays block broken information
+* तुटलेली माहिती ब्लॉक करते.
 ```
 drupal debug:plugin block broken
 ```

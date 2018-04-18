@@ -5,7 +5,6 @@ Tắt một tài nguyên rest cho ứng dụng
 ```
 drupal rest:disable [arguments]
 red
-redi
 ```
 
 ## Available arguments

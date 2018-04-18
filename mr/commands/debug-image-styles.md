@@ -1,14 +1,14 @@
 # debug:image:styles
 साइटवरील प्रतिमा शैलीची यादी
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:image:styles
 dis
 ```
 
-## Examples
-* List all images styles on the site
+## उदाहरणे
+* साइटवरील सर्व प्रतिमा शैलीची सूची करा.
 ```
 drupal debug:image:styles
 ```

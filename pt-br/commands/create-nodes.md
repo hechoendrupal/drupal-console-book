@@ -1,26 +1,26 @@
 # create:nodes
 Create dummy nodes for your Drupal 8 application.
 
-**Usage:**
+**Utilização:**
 ```
 drupal create:nodes [arguments] [options]
 crn
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --limit | How many nodes would you like to create
 --title-words | Maximum number of words in node titles
 --time-range | How far back in time should the nodes be dated
 --language | commands.create.nodes.options.language
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 content-types | Content type(s) to be used in node creation
 
-## Examples
+## Exemplos
 * Provide the content type name.
 ```
 drupal create:nodes content-name

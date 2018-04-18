@@ -1,21 +1,21 @@
 # config:override
 Sobreescriure el valor de la configuració activa.
 
-**Ús:**
+**Usage:**
 ```
-$ drupal config:override [arguments]
-$ co  
+drupal config:override [arguments]
+co
 ```
 
-## Arguments disponibles
-Argument | Detalls
+## Available arguments
+Argument | Details
 ---------|-------------
 name | Configuration name
 key | Clau
 value | Valor
 
-## Exemples
+## Examples
 * Definir el valor de "flood" del mòdul Contact a 10.
 ```
-$ drupal config:override contact.settings flood.limit 10
+drupal config:override contact.settings flood.limit 10
 ```

@@ -10,9 +10,9 @@ ur
 ## Available arguments
 Argument | Details
 ---------|-------------
-operation | commands.user.role.operation
-user | commands.user.role.user
-role | commands.user.role.role
+operation | 追加または削除
+user | 対象となるユーザー (1ユーザーのみ)
+role | 追加・削除する役割。システム内部名称で1つだけ指定してください。
 
 ## Examples
 * Add administrator role to the user admin specifying the username and the role

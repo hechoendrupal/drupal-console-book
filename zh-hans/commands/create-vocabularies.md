@@ -1,20 +1,20 @@
 # create:vocabularies
-生成词汇表
+为您的 Drupal 8 应用程序创建词汇表。
 
-**Usage:**
+**使用方法:**
 ```
 drupal create:vocabularies [options]
 crv
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---limit | 生成多少个词汇表
---name-words | 词汇表名称允许的最多单词数量
+--limit | 你想创建多少个词汇表
+--name-words | 词汇表名称中的最大单词数量
 
-## Examples
-* Provide the number of vocabularies to create and maximum number of words in vocabulary names
+## 例子
+* 提供创建词汇表的数量和词汇表名称中的最大单词数量
 ```
 drupal create:vocabularies \
   --limit="5" \

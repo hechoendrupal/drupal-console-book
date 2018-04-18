@@ -1,20 +1,20 @@
 # generate:update
 hook_update_N() चा अंमलबजावणी उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:update [options]
 gu
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --update-n | नंबर अद्यतनित करा.
 
-## Examples
-* Generate an update N hook implementation specifying the module name and the N value
+## उदाहरणे
+* मॉड्यूल नाव आणि N मूल्य निर्दिष्ट करणारा अद्यतन हुक कार्यान्वयन उत्पन्न करा.
 ```
 drupal generate:update  \
   --module="modulename"  \

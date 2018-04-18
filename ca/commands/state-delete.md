@@ -1,12 +1,19 @@
 # state:delete
 Delete State
 
-**Ús:**
+**Usage:**
 ```
-$ drupal state:delete [arguments]
+drupal state:delete [arguments]
+std
 ```
 
-## Arguments disponibles
-Argument | Detalls
+## Available arguments
+Argument | Details
 ---------|-------------
 name | State name.
+
+## Examples
+* Delete state specifying the state name
+```
+drupal state:delete  comment.maintain_entity_statistics
+```

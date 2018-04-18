@@ -1,24 +1,24 @@
 # create:terms
 आपल्या Drupal 8 अनुप्रयोगासाठी डमी अटी तयार करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal create:terms [arguments] [options]
 crt
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --limit | आपण किती संज्ञा तयार करू इच्छिता?
 --name-words | शब्द नावांमध्ये कमाल संख्या शब्द.
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 vocabularies | शब्दसंग्रह तयार करण्यासाठी शब्दसंग्रह(णे).
 
-## Examples
+## उदाहरणे
 * शब्दसंग्रह संज्ञा नाव प्रदान करा.
 ```
 drupal create:terms vocabulary

@@ -5,7 +5,6 @@ Instalează tema sau temele în aplicație
 ```
 drupal theme:install [arguments] [options]
 thi
-ti
 ```
 
 ## Available options
@@ -16,7 +15,7 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | commands.theme.install.options.module
+theme | tema sau temele ce urmează a fi instalate trebuie separate printr-o virgulă
 
 ## Examples
 * Install theme specifying the name

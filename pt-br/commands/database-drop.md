@@ -1,18 +1,18 @@
 # database:drop
 Drop all tables in a given database.
 
-**Usage:**
+**Utilização:**
 ```
 drupal database:drop [arguments]
 dbd
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 database | Database key from settings.php
 
-## Examples
+## Exemplos
 * Drop the tables on the database specified on the argument
 ```
 drupal database:drop \

@@ -5,6 +5,7 @@ Xây dựng lại và làm sạch tất cả cache trên trang.
 ```
 drupal cache:rebuild [arguments]
 cr
+cc
 ```
 
 ## Available arguments

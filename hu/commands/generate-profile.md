@@ -12,10 +12,11 @@ Option | Details
 -------|-------------
 --profile | A profil neve
 --machine-name | A programok által használt név (csak kisbetűk és aláhúzás)
+--profile-path | The path of the profile
 --description | Profil leírása
 --core | Drupal alaprendszer verziója
 --dependencies | Modulfüggőségek vesszővel elválasztva (pl. context, panels)
---themes | commands.generate.profile.options.themes
+--themes | the theme name
 --distribution | A disztribúció neve
 
 ## Examples

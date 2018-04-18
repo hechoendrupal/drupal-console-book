@@ -5,6 +5,7 @@ Hiển thị các định tuyến hiện tại của ứng dụng
 ```
 drupal debug:router [arguments]
 dr
+rod
 ```
 
 ## Available arguments

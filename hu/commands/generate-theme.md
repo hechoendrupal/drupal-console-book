@@ -10,14 +10,14 @@ gt
 ## Available options
 Option | Details
 -------|-------------
---theme | commands.generate.theme.options.module
+--theme | A smink neve
 --machine-name | A programok által használt név (csak kisbetűk és aláhúzás)
---theme-path | commands.generate.theme.options.module-path
+--theme-path | A smink útvonala
 --description | A smink leírása
 --core | Drupal alaprendszer verziója
 --package | Smink csomagja
 --global-library | Globális stíluskönyvtár neve
---libraries | commands.generate.theme.options.libraries
+--libraries | Libraries
 --base-theme | Alapsmink (pl. classy, stable)
 --regions | Régiók
 --breakpoints | Töréspontok

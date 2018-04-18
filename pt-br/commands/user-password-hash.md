@@ -1,19 +1,19 @@
 # user:password:hash
 Gerar o hash de uma senha em formato texto.
 
-**Usage:**
+**Utilização:**
 ```
 drupal user:password:hash [arguments]
 uph
 usph
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 password | Senha(s) em formato texto
 
-## Examples
+## Exemplos
 * Get hash of the word "p455w0rd"
 ```
 drupal user:password:hash  p455w0rd

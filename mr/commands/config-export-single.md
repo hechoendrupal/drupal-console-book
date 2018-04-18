@@ -1,14 +1,14 @@
 # config:export:single
 Yml फाइल म्हणून एकच कॉन्फिगरेशन निर्यात करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal config:export:single [options]
 ces
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --name | commands.config.export.single.options.name
 --directory | commands.config.export.arguments.directory
@@ -18,7 +18,7 @@ Option | Details
 --remove-uuid | सेट केल्यास, uuid कीशिवाय कॉन्फिगरेशन निर्यात केले जाईल.
 --remove-config-hash | सेट केल्यास, डीफॉल्ट साइट हॅश कीशिवाय कॉन्फिगरेशन निर्यात केले जाईल.
 
-## Examples
+## उदाहरणे
 * निर्यात करण्याकरिता कॉन्फिगरेशन संरचना नाव प्रदान करा.
 ```
 drupal config:export:single \

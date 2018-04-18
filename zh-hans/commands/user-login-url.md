@@ -1,20 +1,25 @@
 # user:login:url
 返回一次性登录链接.
 
-**Usage:**
+**使用方法:**
 ```
 drupal user:login:url [arguments]
 ulu
-uslu
+usli
+uli
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-user-id | 用户ID
+user | User name/id.
 
-## Examples
+## 例子
 * Get one time login url for user id 1
 ```
 drupal user:login:url  1
+```
+* Get one time login url for username jmolivas
+```
+drupal user:login:url jmolivas
 ```

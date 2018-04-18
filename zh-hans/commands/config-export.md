@@ -1,27 +1,27 @@
 # config:export
-导出配置
+导出当前应用配置。
 
-**Usage:**
+**使用方法:**
 ```
 drupal config:export [options]
 ce
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---directory | Define the export directory to save the configuration output.
---tar | If set, the configuration will be exported to an archive file.
---remove-uuid | If set, the configuration will be exported without uuid key.
---remove-config-hash | If set, the configuration will be exported without the default site hash key.
+--directory | 定义导出目录以保存配置输出。
+--tar | 如果设置，配置将导出到归档文件。
+--remove-uuid | 如果设置，配置导出时将没有 uuid 键。
+--remove-config-hash | 如果设置，配置导出时将没有默认站点哈希键。
 
-## Examples
-* Optional you can add the path to export
+## 例子
+* 您可以选择添加要导出的路径
 ```
 drupal config:export  \
   --directory="path/to/export"
 ```
-* If export will be in a compressed file and/or if uuid and config hashes will be removed.
+* 导出的配置到压缩文件中，并且 uuid 和配置哈希将被删除。
 ```
 drupal config:export  \
   --directory="path/to/export" \

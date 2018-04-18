@@ -11,7 +11,7 @@ ges
 Option | Details
 -------|-------------
 --module | モジュール名
---name | commands.generate.service.options.name
+--name | Service name
 --class | Class name
 --events | コンテナからイベントを読み込む
 --services | コンテナからサービスを読み込む

@@ -1,23 +1,24 @@
 # debug:router
-显示路由
+显示应用程序的当前路由或特定路由的信息
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:router [arguments]
 dr
+rod
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 route-name | 路由名称
 
-## Examples
-* Displays current routes for the application
+## 例子
+* 显示应用程序的当前路由
 ```
 drupal rod
 ```
-* Displays details for the route user.page (/user)
+* 显示路由 user.page (/user) 的详细信息
 ```
 drupal rod user.page
 ```

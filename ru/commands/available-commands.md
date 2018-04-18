@@ -8,7 +8,7 @@
 [about](about.md) | Отображение основных сведений о проекте Drupal Console
 [chain](chain.md) | Последовательное выполнение команд
 [check](check.md) | Проверка системных требований
-[composerize](composerize.md) | commands.composerize.description
+[composerize](composerize.md) | Converts Drupal codebase to composer.
 [exec](exec.md) | Выполнить внешнюю команду.
 [help](help.md) | Показывает справку для команды
 [init](init.md) | Копирует конфигурационные файлы в домашний каталог пользователя.
@@ -30,10 +30,12 @@
 [config:import:single](config-import-single.md) | Импорт выбранной конфигурации.
 [config:override](config-override.md) | Переопределить значение конфигурации в активной конфигурации.
 [config:validate](config-validate.md) | Валидирует Drupal конфигурацию на основе его схемы
+**config_update**  |
+[config_update:default](config_update-default.md) | commands.config_update.default.description
 **create**  |
 [create:comments](create-comments.md) | Создание фиктивных комментариев для Drupal 8.
 [create:nodes](create-nodes.md) | Создание фиктивных материалов для Drupal 8.
-[create:roles](create-roles.md) | commands.create.roles.description
+[create:roles](create-roles.md) | Create dummy roles for your Drupal 8 application.
 [create:terms](create-terms.md) | Создание фиктивных терминов для Drupal 8.
 [create:users](create-users.md) | Создание фиктивных пользователей для Drupal 8.
 [create:vocabularies](create-vocabularies.md) | Создание фиктивных словарей для Drupal 8.
@@ -73,35 +75,22 @@
 [debug:plugin](debug-plugin.md) | Отображает все типы плагинов, инстанции плагинов специфичного типа или определение специфичного плагина.
 [debug:queue](debug-queue.md) | Показать очереди вашего приложения
 [debug:rest](debug-rest.md) | Отображает текущие rest ресурсы для приложения
-[debug:roles](debug-roles.md) | commands.debug.roles.description
+[debug:roles](debug-roles.md) | Displays current roles for the application
 [debug:router](debug-router.md) | Отображает текущие маршруты для приложения
 [debug:settings](debug-settings.md) | Вывести пользовательские настройки Drupal Console.
 [debug:site](debug-site.md) | Вывести список всех заданных локальных и удаленных сайтов.
 [debug:state](debug-state.md) | Показывает ключи текущего Состояния.
 [debug:test](debug-test.md) | Отображает список доступных юнит тестов для приложения.
 [debug:theme](debug-theme.md) | Отображает текущие темы для приложения
-[debug:theme:keys](debug-theme-keys.md) | commands.debug.theme.keys.description
+[debug:theme:keys](debug-theme-keys.md) | Displays all theme keys provided by hook_theme functions
 [debug:update](debug-update.md) | Отобразить обновления доступные для приложения
 [debug:user](debug-user.md) | Выводит актуальных пользователей для приложения
 [debug:views](debug-views.md) | Отображение текущих ресурсов представлений приложения
 [debug:views:plugins](debug-views-plugins.md) | Отображает существующие плагины Представлений для приложения
 **devel**  |
 [devel:dumper](devel-dumper.md) | commands.devel.dumper.messages.change-devel-dumper-plugin
-**develop**  |
-[develop:contribute](develop-contribute.md) | Download Drupal + Drupal Console to contribute.
-[develop:create:symlinks](develop-create-symlinks.md) | Create symlinks between Drupal site and cloned repositories.
-[develop:doc:cheatsheet](develop-doc-cheatsheet.md) | Generate a printable cheatsheet for Commands
-[develop:doc:dash](develop-doc-dash.md) | Generate the DrupalConsole.docset package for Dash
-[develop:doc:data](develop-doc-data.md) | Generate documentations for Commands.
-[develop:doc:gitbook](develop-doc-gitbook.md) | Generate documentations for Commands
-[develop:example](develop-example.md) | 
-[develop:example:container:aware](develop-example-container-aware.md) | 
-[develop:translation:cleanup](develop-translation-cleanup.md) | Очистить файлы переводов
-[develop:translation:pending](develop-translation-pending.md) | Determine pending translation string in a language or a specific file in a language
-[develop:translation:stats](develop-translation-stats.md) | Generate translate stats
-[develop:translation:sync](develop-translation-sync.md) | Sync translation files
 **docker**  |
-[docker:init](docker-init.md) | commands.docker.init.description
+[docker:init](docker-init.md) | Create a docker-compose.yml file
 **dotenv**  |
 [dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.
@@ -112,7 +101,7 @@
 **field**  |
 [field:info](field-info.md) | Просмотреть информацию о полях.
 **generate**  |
-[generate:ajax:command](generate-ajax-command.md) | commands.generate.ajax.command.description
+[generate:ajax:command](generate-ajax-command.md) | Generate & Register a custom ajax command
 [generate:authentication:provider](generate-authentication-provider.md) | Генерирует провайдер аутентификации
 [generate:breakpoint](generate-breakpoint.md) | Генерирует брейкпоинт
 [generate:cache:context](generate-cache-context.md) | Генерирует контекст кеша
@@ -122,14 +111,14 @@
 [generate:entity:config](generate-entity-config.md) | Генерирует сущность конфигурации
 [generate:entity:content](generate-entity-content.md) | Генерирует новую контент сущность
 [generate:event:subscriber](generate-event-subscriber.md) | Генерирует подписчик на событие
-[generate:form](generate-form.md) | Генерировать новую "FormBase"
+[generate:form](generate-form.md) | Generate a new "FormBase"
 [generate:form:alter](generate-form-alter.md) | Сгенерировать реализацию hook_form_alter() или hook_form_FORM_ID_alter()
-[generate:form:config](generate-form-config.md) | Генерировать новую "ConfigFormBase"
+[generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
 [generate:help](generate-help.md) | Сгенерировать реализацию hook_help()
-[generate:jstest](generate-jstest.md) | commands.generate.jstest.description
+[generate:jstest](generate-jstest.md) | Generate a JavaScript test.
 [generate:module](generate-module.md) | Сгенерировать модуль.
 [generate:module:file](generate-module-file.md) | Сгенерировать файл .module
-[generate:permissions](generate-permissions.md) | commands.generate.permissions.description
+[generate:permissions](generate-permissions.md) | Generate module permissions
 [generate:plugin:block](generate-plugin-block.md) | Генерирует плагин блока
 [generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
 [generate:plugin:condition](generate-plugin-condition.md) | Генерирует плагин условия.
@@ -152,7 +141,7 @@
 [generate:profile](generate-profile.md) | Генерирует профайл.
 [generate:routesubscriber](generate-routesubscriber.md) | Генерирует RouteSubscriber
 [generate:service](generate-service.md) | Генерирует сервис
-[generate:site:alias](generate-site-alias.md) | commands.generate.site.alias.description
+[generate:site:alias](generate-site-alias.md) | Generates a site alias.
 [generate:theme](generate-theme.md) | Генерирует тему.
 [generate:twig:extension](generate-twig-extension.md) | Генерирует Twig расширение.
 [generate:update](generate-update.md) | Генерирует имплементацию hook_update_N()
@@ -175,19 +164,17 @@
 [module:update](module-update.md) | Обновляет ядро, модуль или модули в приложении
 **multisite**  |
 [multisite:new](multisite-new.md) | Настраивает файлы для мультисайт установки.
-[multisite:update](multisite-update.md) | commands.multisite.update.description
+[multisite:update](multisite-update.md) | Update the files for a multisite installed.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Перестравает права доступа к нодам. Перестройка прав удалит все привлегии к контенту и заменит их правами основанными на текущих модулях и настройках
 **queue**  |
 [queue:run](queue-run.md) | Выполнить выбранную очередь.
-**quick**  |
-[quick:start](quick-start.md) | Download, install and serve a new Drupal project
 **rest**  |
 [rest:disable](rest-disable.md) | Деактивирует rest ресурсы для приложения
 [rest:enable](rest-enable.md) | Активирует rest ресурсы для приложения
 **role**  |
-[role:delete](role-delete.md) | commands.role.delete.description
-[role:new](role-new.md) | commands.role.new.description
+[role:delete](role-delete.md) | Delete roles for the application
+[role:new](role-new.md) | Create roles for the application
 **router**  |
 [router:rebuild](router-rebuild.md) | Отображает маршруты для приложения
 **sample**  |
@@ -199,7 +186,6 @@
 [site:install](site-install.md) | Устанавливает Drupal проект
 [site:maintenance](site-maintenance.md) | Переключить сайт в режим обслуживания
 [site:mode](site-mode.md) | Переключание конфигурацию производительности системы
-[site:new](site-new.md) | Download a new Drupal project
 [site:statistics](site-statistics.md) | Отобразить текущую статистику сайта.
 [site:status](site-status.md) | Просмотр статуса текущей установки Drupal
 **state**  |
@@ -228,14 +214,6 @@
 **views**  |
 [views:disable](views-disable.md) | Отключить представление
 [views:enable](views-enable.md) | Включить представление
-**yaml**  |
-[yaml:diff](yaml-diff.md) | Сравнение двух YAML файлов и определение различий между ними.
-[yaml:get:value](yaml-get-value.md) | Get a value for a specific key in a YAML file.
-[yaml:merge](yaml-merge.md) | Слияние одного или более YAML файлов в новый YAML файл. Последующие значения заменят собой исходные.
-[yaml:split](yaml-split.md) | Разбить YAML файл используя отступ в качестве критерия разделителя
-[yaml:unset:key](yaml-unset-key.md) | Unset a YAML key in a YAML file.
-[yaml:update:key](yaml-update-key.md) | Заменить YAML ключ в YAML файле.
-[yaml:update:value](yaml-update-value.md) | Обновить значение для заданного ключа в YAML файле.
 
 ## Доступные параметры
 Команда | Детали
@@ -249,7 +227,7 @@
 --no-interaction | Не задавать вопросы
 --env | Имя среды окружения
 --root | Указать корневую директорию Drupal для выполнения команд
---debug | application.options.debug
+--debug | Switches on debug mode
 --learning | Генерация подробного вывода
 --generate-chain | Показать параметры и аргументы выполняемой команды как yaml вывод для передачи по цепочке
 --generate-inline | Показать параметры и аргументы выполняемой команды одной строкой

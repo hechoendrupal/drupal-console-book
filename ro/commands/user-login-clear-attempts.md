@@ -11,4 +11,4 @@ uslca
 ## Available arguments
 Argument | Details
 ---------|-------------
-uid | ID utilizator.
+user | User name/id.

@@ -1,7 +1,7 @@
 # check
 Verificador de requisitos do sistema
 
-**Usage:**
+**Utilização:**
 ```
 drupal check
 ```

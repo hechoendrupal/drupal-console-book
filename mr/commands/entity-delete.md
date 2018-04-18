@@ -1,20 +1,25 @@
 # entity:delete
-एखादी विशिष्ट संस्था हटवा.
+एखादी विशिष्ट एंटिटी हटवा.
 
-**Usage:**
+**वापर:**
 ```
-drupal entity:delete [arguments]
+drupal entity:delete [arguments] [options]
 ed
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
+-------|-------------
+--all | Delete all entities of the given type.
+
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 entity-definition-id | अस्तित्व परिभाषा आयडी.
 entity-id | अस्तित्व आयडी हटविली जाईल.
 
-## Examples
-* Delete entity type content using node id
+## उदाहरणे
+* नोड आयडी वापरून घटकाची सामग्री काढून टाका.
 ```
 drupal entity:delete node 1
 ```

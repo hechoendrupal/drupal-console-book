@@ -11,8 +11,8 @@ gps
 Option | Details
 -------|-------------
 --module | Tên module.
---plugin-id | commands.generate.plugin.options.plugin-id
---class | Tên lớp plugin
+--plugin-id | The Plugin Id.
+--class | Plugin class name
 --services | Nạp các dịch vụ từ container.
 
 ## Examples

@@ -1,28 +1,28 @@
 # generate:form
-Cria um novo "%s"
+Generate a new "FormBase"
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:form [options]
 gf
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
---module | O nome do módulo.
---class | O nome da classe do Formulário
---form-id | O id do formulário
---services | Carrega serviços do container.
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
 --config-file | Add a config file
---inputs | Cria entradas de formulário.
+--inputs | Create inputs in a form.
 --path | Enter the form path
 --menu-link-gen | Generate a menu link
 --menu-link-title | A title for the menu link
 --menu-parent | Menu parent
 --menu-link-desc | A description for the menu link
 
-## Examples
+## Exemplos
 * Generate an empty form with config file specifying the module name, the class, a form id and the path
 ```
 drupal generate:form  \

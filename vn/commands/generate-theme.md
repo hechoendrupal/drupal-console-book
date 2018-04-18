@@ -10,14 +10,14 @@ gt
 ## Available options
 Option | Details
 -------|-------------
---theme | commands.generate.theme.options.module
+--theme | Tên của theme
 --machine-name | Tên máy (chỉ sử dụng chữ thường và dấu gạch dưới)
---theme-path | commands.generate.theme.options.module-path
+--theme-path | Đường dẫn của theme
 --description | Mô tả của theme
 --core | Phiên bản Core
 --package | Gói theme
 --global-library | Tên thư viện style chung
---libraries | commands.generate.theme.options.libraries
+--libraries | Libraries
 --base-theme | Theme cơ sở (i.e. classy, stable)
 --regions | Regions
 --breakpoints | Breakpoints

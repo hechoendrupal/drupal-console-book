@@ -1,18 +1,18 @@
 # debug:views:plugins
 Mostrar os plugins de views atuais para a aplicação
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:views:plugins [arguments]
 dvp
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 type | Filtrar plugins de views por tipo
 
-## Examples
+## Exemplos
 * List of views plugins
 ```
 drupal debug:views:plugins

@@ -1,14 +1,14 @@
 # user:login:clear:attempts
 Limpar tentativas falhas de login para um usuário.
 
-**Usage:**
+**Utilização:**
 ```
 drupal user:login:clear:attempts [arguments]
 ulca
 uslca
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
-uid | ID do usuário.
+user | User name/id.

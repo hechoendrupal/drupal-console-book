@@ -1,30 +1,32 @@
 # config:export:content:type
-导出内容类型及其字段
+导出特定的内容类型及其字段。
 
-**Usage:**
+**使用方法:**
 ```
 drupal config:export:content:type [arguments] [options]
 cect
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
---optional-config | 导出内容类型作为模块中的可选配置
+--module | 模块名
+--optional-config | 将内容类型导出为模块中的可选 YAML 配置
+--remove-uuid | If set, the configuration will be exported without uuid key.
+--remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-content-type | 内容类型
+content-type | 要导出的内容类型
 
-## Examples
-* Provide a content type  and module name
+## 例子
+* 提供内容类型和模块名称
 ```
 drupal config:export:content:type page \
   --module="demo"
 ```
-* If you want export content type provide the optional config
+* 如果要导出内容类型提供可选配置
 ```
 drupal config:export:content:type page \
   --module="demo" \

@@ -4,6 +4,8 @@ PHP निर्मित वेब सर्वर चलायॆ
 **Usage:**
 ```
 drupal server [arguments]
+serve
+rs
 ```
 
 ## Available arguments

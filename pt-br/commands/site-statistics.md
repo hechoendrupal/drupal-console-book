@@ -1,7 +1,7 @@
 # site:statistics
 Exibe as estatísticas atuais para o website.
 
-**Usage:**
+**Utilização:**
 ```
 drupal site:statistics
 sst

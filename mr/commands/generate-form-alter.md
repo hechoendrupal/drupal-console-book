@@ -1,26 +1,26 @@
 # generate:form:alter
 Hook_form_alter() किंवा hook_form_FORM_ID_alter चा अंमलबजावणी उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:form:alter [options]
 gfa
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --form-id | बदलण्यासाठी फॉर्म आयडी.
 --inputs | फॉर्म मध्ये इनपुट तयार करा.
 
-## Examples
-* Generate a hook form alter for an empty form specifying the module name
+## उदाहरणे
+* मॉड्यूलचे नाव निर्दिष्ट केलेल्या रिकाम्या फॉर्मसाठी हुक फॉर्म बदलवा.
 ```
 drupal generate:form:alter  \
   --module="modulename"
 ```
-* Generate a hook form alter with 2 fields specifying the module name and the inputs
+* मॉड्यूलचे नाव आणि आदान हे निर्दिष्ट केलेल्या 2 फील्डसह एक हुक फॉर्म बदलवा.
 ```
 drupal generate:form:alter  \
   --module="modulename"  \

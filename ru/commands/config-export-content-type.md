@@ -12,8 +12,8 @@ cect
 -------|-------------
 --module | Имя модуля.
 --optional-config | Экспорт типа материала как дополнительную YAML конфигурацию в ваш модуль
---remove-uuid | commands.config.export.content.type.options.remove-uuid
---remove-config-hash | commands.config.export.content.type.options.remove-config-hash
+--remove-uuid | If set, the configuration will be exported without uuid key.
+--remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
 ## Доступные аргументы
 Аргумент | Детали

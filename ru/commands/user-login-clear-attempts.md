@@ -11,4 +11,4 @@ uslca
 ## Доступные аргументы
 Аргумент | Детали
 ---------|-------------
-user | commands.user.login.clear.attempts.arguments.user
+user | User name/id.

@@ -1,5 +1,5 @@
 # generate:ajax:command
-commands.generate.ajax.command.description
+Generate & Register a custom ajax command
 
 **Использование:**
 ```
@@ -11,6 +11,6 @@ gac
 Команда | Детали
 -------|-------------
 --module | Имя модуля.
---class | commands.generate.ajax.command.options.class
---method | commands.generate.ajax.command.options.method
---js-name | commands.generate.ajax.command.options.js-name
+--class | Ajax Class name
+--method | Custom ajax method
+--js-name | Custom javascript name

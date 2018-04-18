@@ -11,8 +11,8 @@ gps
 Option | Details
 -------|-------------
 --module | Numele Modulului.
---plugin-id | commands.generate.plugin.options.plugin-id
---class | Numele clasei pluginului
+--plugin-id | The Plugin Id.
+--class | Plugin class name
 --services | Încarcă serviciile din container.
 
 ## Examples

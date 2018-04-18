@@ -1,17 +1,17 @@
 # migrate:execute
 अनुप्रयोगासाठी उपलब्ध स्थलांतरित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal migrate:execute [arguments] [options]
 mie
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --site-url | साइट स्त्रोत URL.
---db-type | commands.migrate.setup.migrations.options.db-type
+--db-type | commands.migrate.execute.migrations.options.db-type
 --db-host | डेटाबेस यजमान.
 --db-name | डेटाबेस नाव.
 --db-user | डेटाबेस वापरकर्ता.
@@ -19,9 +19,9 @@ Option | Details
 --db-prefix | डेटाबेस उपसर्ग.
 --db-port | डेटाबेस हस्तांतरण.
 --exclude | वगळण्यासाठी स्थलांतरण आयडी.
---source-base_path | Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)
+--source-base_path | आपल्या स्रोत साइटसह असलेली स्थानिक फाइल निर्देशिका (उदा./var/www/docroot), किंवा आपल्या साइटचा पत्ता (उदाहरणार्थ http://example.com)
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 migration-ids | स्थलांतरण आयडी.

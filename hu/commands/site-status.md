@@ -5,6 +5,7 @@ Aktuális Drupal-telepítés állapotának megtekintése
 ```
 drupal site:status [options]
 ss
+st
 ```
 
 ## Available options

@@ -1,5 +1,5 @@
 # generate:form
-Új "%s" létrehozása
+Generate a new "FormBase"
 
 **Usage:**
 ```
@@ -10,12 +10,12 @@ gf
 ## Available options
 Option | Details
 -------|-------------
---module | A modul neve.
---class | Az űrlap osztályának neve
---form-id | Az űrlap-azonosító
---services | Szolgáltatások betöltése a tárolóból.
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
 --config-file | Add a config file
---inputs | Bemenetek létrehozása egy űrlapban.
+--inputs | Create inputs in a form.
 --path | Enter the form path
 --menu-link-gen | Generate a menu link
 --menu-link-title | A title for the menu link

@@ -10,21 +10,21 @@ si
 ## Available options
 Option | Details
 -------|-------------
---langcode | commands.site.install.options.langcode
---db-type | commands.site.install.options.db-type
---db-file | commands.site.install.options.db-file
+--langcode | Drupalの言語
+--db-type | インストールに使用するデータベースのタイプ
+--db-file | インストールに使用するデータベースのファイル
 --db-host | Database Host
 --db-name | Database Name
 --db-user | Database User
 --db-pass | Database Pass
 --db-prefix | Database Prefix
 --db-port | Database Port
---site-name | commands.site.install.options.site-name
---site-mail | commands.site.install.options.site-mail
---account-name | commands.site.install.options.account-name
---account-mail | commands.site.install.options.account-mail
---account-pass | commands.site.install.options.account-pass
---force | commands.site.install.options.force
+--site-name | Drupalのサイト名
+--site-mail | Drupalサイトのメールアドレス
+--account-name | 管理者アカウントの名前
+--account-mail | 管理者アカウントのメールアドレス
+--account-pass | 管理者アカウントのパスワード
+--force | Force to reinstall the site
 
 ## Available arguments
 Argument | Details

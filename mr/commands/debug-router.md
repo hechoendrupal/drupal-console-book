@@ -1,18 +1,19 @@
 # debug:router
 अनुप्रयोग चालू मार्ग दाखवतो
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:router [arguments]
 dr
+rod
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 route-name | मार्ग नावे
 
-## Examples
+## उदाहरणे
 * अनुप्रयोगासाठी वर्तमान मार्ग प्रदर्शित करते.
 ```
 drupal rod

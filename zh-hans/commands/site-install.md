@@ -1,37 +1,37 @@
 # site:install
 安装 Drupal
 
-**Usage:**
+**使用方法:**
 ```
 drupal site:install [arguments] [options]
 si
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---langcode | commands.site.install.options.langcode
---db-type | commands.site.install.options.db-type
---db-file | commands.site.install.options.db-file
+--langcode | Drupal语言
+--db-type | 要安装的Drupal数据库类型
+--db-file | 要安装的Drupal数据库文件
 --db-host | 数据库主机
 --db-name | 数据库名称
 --db-user | 数据库用户
 --db-pass | 数据库密码
 --db-prefix | 数据库前缀
 --db-port | 数据库端口
---site-name | commands.site.install.options.site-name
---site-mail | commands.site.install.options.site-mail
---account-name | commands.site.install.options.account-name
---account-mail | commands.site.install.options.account-mail
---account-pass | commands.site.install.options.account-pass
---force | commands.site.install.options.force
+--site-name | Drupal网站名
+--site-mail | Drupal网站邮件
+--account-name | Drupal管理员帐号名
+--account-mail | Drupal管理员帐号邮件
+--account-pass | Drupal管理员帐号密码
+--force | Force to reinstall the site
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 profile | 要安装的Drupal配置档案
 
-## Examples
+## 例子
 * Install a drupal project specifying installation type, language code, database configuration, site name, site email and admin credential settings
 ```
 drupal site:install  standard  \

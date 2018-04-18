@@ -1,14 +1,14 @@
 # generate:plugin:block
 प्लगइन ब्लॉक उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:plugin:block [options]
 gpb
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | प्लगइन वर्ग नाव
@@ -18,8 +18,8 @@ Option | Details
 --inputs | फॉर्म मध्ये इनपुट तयार करा.
 --services | कंटेनर मधून सेवा भरा.
 
-## Examples
-* Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input
+## उदाहरणे
+* मॉड्यूल नाव, वर्ग, लेबल, आयडी, क्षेत्र आणि इनपुट निर्दिष्ट करणारा इनपुट फील्डसह हेडर क्षेत्रामध्ये एक प्लगइन ब्लॉक उत्पन्न करा.
 ```
 drupal generate:plugin:block  \
   --module="modulename"  \

@@ -1,18 +1,23 @@
 # debug:config
 चालू संरचना दाखवा.
 
-**Usage:**
+**वापर:**
 ```
-drupal debug:config [arguments]
+drupal debug:config [arguments] [options]
 dc
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
+-------|-------------
+--show-overridden | Show overridden configurations.
+
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 name | संरचने नाव.
 
-## Examples
+## उदाहरणे
 * सर्व कॉन्फिगरेशन ऑब्जेक्ट नावांची यादी करा.
 ```
 drupal config:debug
@@ -24,4 +29,8 @@ drupal config:debug system.site
 * सर्व सिस्टम कॉन्फिगरेशन नावांची यादी करा.
 ```
 drupal config:debug | grep system
+```
+* List all configuration including overridden values.
+```
+drupal debug:config --show-overridden
 ```

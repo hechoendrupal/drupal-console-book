@@ -10,21 +10,21 @@ si
 ## Available options
 Option | Details
 -------|-------------
---langcode | commands.site.install.options.langcode
---db-type | commands.site.install.options.db-type
---db-file | commands.site.install.options.db-file
+--langcode | Limba proiectului
+--db-type | Tipul bazei de date care va fi folosit la instalarea proiectului
+--db-file | Drupal Database file to be used in install
 --db-host | Gazda bazei de date
 --db-name | Numele bazei de date
 --db-user | Utilizatorul bazei de date
 --db-pass | Parola bazei de date
 --db-prefix | Prefixul bazei de date
 --db-port | Portul bazei de date
---site-name | commands.site.install.options.site-name
---site-mail | commands.site.install.options.site-mail
---account-name | commands.site.install.options.account-name
---account-mail | commands.site.install.options.account-mail
---account-pass | commands.site.install.options.account-pass
---force | commands.site.install.options.force
+--site-name | Numele sitului drupal
+--site-mail | Adresa de email a sitului
+--account-name | Numele de utilizator al administratorului sitului
+--account-mail | Adresa de email a administratorului sitului
+--account-pass | Parola administratorului sitului
+--force | Force to reinstall the site
 
 ## Available arguments
 Argument | Details

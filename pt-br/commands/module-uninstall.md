@@ -1,24 +1,24 @@
 # module:uninstall
 Desinstala módulos ou módulos na aplicação
 
-**Usage:**
+**Utilização:**
 ```
 drupal module:uninstall [arguments] [options]
 mou
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --force | Quer ignorar as dependências desinstalar o módulo forçadamente?
 --composer | Uninstalls the module using Composer
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 module | Digite o nome do módulo
 
-## Examples
+## Exemplos
 * Uninstall the module specifying the module name
 ```
 drupal module:uninstall  modulename

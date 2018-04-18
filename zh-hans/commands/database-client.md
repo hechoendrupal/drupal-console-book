@@ -1,19 +1,19 @@
 # database:client
-运行数据库客户端
+启动数据库客户端（如果可用）
 
-**Usage:**
+**使用方法:**
 ```
 drupal database:client [arguments]
 dbc
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-database | settings.php 文件中 Database 的键
+database | 来自 settings.php 的数据库键
 
-## Examples
-* Launch the default client or could launch another regarding the specification on the argument
+## 例子
+* 启动默认客户端，或在不考虑指定的参数情况下另外启动一个
 ```
 drupal database:client <database>
 ```

@@ -1,7 +1,7 @@
 # dotenv:init
 Dotenv initializer.
 
-**Usage:**
+**Utilização:**
 ```
 drupal dotenv:init
 ```

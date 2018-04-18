@@ -1,20 +1,19 @@
 # test:run
 ऍप्लिकेशनसाठी उपलब्ध असलेल्या चाचण्यांमधून टेस्ट युनिट चालवा.
 
-**Usage:**
+**वापर:**
 ```
 drupal test:run [arguments] [options]
 ter
-tr
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
---url | commands.test.run.arguments.url
+--url | Test url
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 test-class | चाचणी वर्ग.
 test-methods | धावण्याची कसोटी पद्धत.

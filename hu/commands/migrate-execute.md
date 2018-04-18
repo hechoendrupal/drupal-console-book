@@ -11,7 +11,7 @@ mie
 Option | Details
 -------|-------------
 --site-url | Webhely forrás URL-címe
---db-type | commands.migrate.setup.migrations.options.db-type
+--db-type | commands.migrate.execute.migrations.options.db-type
 --db-host | Adatbázis-gazdagép
 --db-name | Adatbázis neve
 --db-user | Adatbázis-felhasználó

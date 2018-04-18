@@ -1,14 +1,14 @@
 # debug:cache:context
-为应用显示当前缓存上下文
+显示应用程序的当前缓存上下文。
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:cache:context
 dcc
 ```
 
-## Examples
-* Displays cache context
+## 例子
+* 显示缓存上下文
 ```
 drupal debug:cache:context
 ```

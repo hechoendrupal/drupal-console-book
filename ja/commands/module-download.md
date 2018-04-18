@@ -5,7 +5,6 @@
 ```
 drupal module:download [arguments] [options]
 mod
-md
 ```
 
 ## Available options
@@ -14,7 +13,7 @@ Option | Details
 --path | プロジェクトのパス
 --latest | 最新バージョンをダウンロードする
 --composer | Composerを利用してモジュールをダウンロードする
---unstable | commands.module.install.options.unstable
+--unstable | Module unstable
 
 ## Available arguments
 Argument | Details

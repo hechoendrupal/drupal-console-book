@@ -1,14 +1,14 @@
 # generate:plugin:fieldformatter
 Gerar um plugin de formato de campo.
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:plugin:fieldformatter [options]
 gpff
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --module | O nome do módulo.
 --class | Nome da classe do plugin
@@ -16,7 +16,7 @@ Option | Details
 --plugin-id | Id do plugin
 --field-type | Tipo de campo que pode ser usado com o plugin
 
-## Examples
+## Exemplos
 * Generate a a text field formatter plugin specifying the module name, the class, the label its plugin id and the field type
 ```
 drupal generate:plugin:fieldformatter  \

@@ -5,6 +5,7 @@ A rendszeren elérhető multisite-ok listázása
 ```
 drupal debug:multisite
 dmu
+msd
 ```
 
 ## Examples

@@ -1,13 +1,13 @@
 # debug:cache:context
 अनुप्रयोगासाठी वर्तमान कॅशे संदर्भ प्रदर्शित करते.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:cache:context
 dcc
 ```
 
-## Examples
+## उदाहरणे
 * कॅशे संदर्भ प्रदर्शित करते.
 ```
 drupal debug:cache:context

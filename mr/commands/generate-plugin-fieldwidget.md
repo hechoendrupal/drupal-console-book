@@ -1,14 +1,14 @@
 # generate:plugin:fieldwidget
 फिल्ड विजेट प्लगिन उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:plugin:fieldwidget [options]
 gpfw
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | प्लगइन वर्ग नाव.
@@ -16,8 +16,8 @@ Option | Details
 --plugin-id | प्लगिन आयडी.
 --field-type | फील्ड प्रकार प्लगइन सह वापरले जाऊ शकते.
 
-## Examples
-* Generate a text type field widget plugin specifying the module name, the class, its label, the plugin id and the field type
+## उदाहरणे
+* मॉड्यूलचे नाव, वर्ग, त्याचे लेबल, प्लगिन आयडी आणि फिल्ड प्रकार निर्दिष्ट करणारा मजकूर प्रकार फील्ड विजेट प्लगिन उत्पन्न करा.
 ```
 drupal generate:plugin:fieldwidget  \
   --module="modulename"  \

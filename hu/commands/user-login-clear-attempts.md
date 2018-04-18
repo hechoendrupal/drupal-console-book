@@ -11,4 +11,4 @@ uslca
 ## Available arguments
 Argument | Details
 ---------|-------------
-uid | Felhasználói azonosító.
+user | User name/id.

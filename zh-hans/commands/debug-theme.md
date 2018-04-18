@@ -1,23 +1,24 @@
 # debug:theme
-显示当前主题
+显示应用程序的当前主题
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:theme [arguments]
 dt
+tde
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-theme | 指定主题进行调试
+theme | 调试指定主题
 
-## Examples
-* List of themes on the site
+## 例子
+* 网站上的主题列表
 ```
 drupal debug:theme
 ```
-* Bartik theme information
+* Bartik 主题信息
 ```
 drupal debug:theme bartik
 ```

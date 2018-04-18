@@ -5,17 +5,21 @@ Tiến hành một hàm cụ thể cập nhật N trong một module, hoặc ti�
 ```
 drupal update:execute [arguments]
 upex
-upe
+updb
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
 module | Tên module.
-update-n | Hàm cập nhật N cụ thể để được tiến hành
+update-n | commands.update.execute.options.update-n
 
 ## Examples
 * Update all entities
 ```
 drupal update:execute
+```
+* Execute updates for system module
+```
+drupal update:execute system
 ```

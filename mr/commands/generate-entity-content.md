@@ -1,15 +1,14 @@
 # generate:entity:content
-एक नवीन सामग्री संस्था उत्पन्न करा.
+एक नवीन सामग्री एंटिटी उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:entity:content [options]
 geco
-gect
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --entity-class | सामग्री अस्तित्व श्रेणी.
@@ -20,8 +19,8 @@ Option | Details
 --is-translatable | सामग्री अस्तित्व भाषांतरयोग्य.
 --revisionable | commands.generate.entity.content.options.revisionable
 
-## Examples
-* Generate a content entity specifying the module, the entity class, the entity name, its path and label
+## उदाहरणे
+* मॉड्यूल, घटक वर्ग, अस्तित्व नाव, त्याचे पथ आणि लेबल निर्दिष्ट करणारी एक सामग्री अस्तित्व उत्पन्न करा.
 ```
 drupal generate:entity:content  \
   --module="modulename"  \
@@ -30,7 +29,7 @@ drupal generate:entity:content  \
   --base-path="/admin/structure"  \
   --label="Default entity"
 ```
-* Generate a translatable and revisionable content entity specifying the module, the entity class, the entity name, its path and label
+* मॉड्यूल, एंटिटी क्लास, एंटिटीचे नाव, त्याचे पथ आणि लेबल निर्दिष्ट करणारे भाषांतरयोग्य आणि पुनरावर्तनीय सामग्री अस्तित्व उत्पन्न करा.
 ```
 drupal generate:entity:content  \
   --module="modulename"  \

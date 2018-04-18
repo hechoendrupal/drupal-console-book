@@ -5,7 +5,6 @@ Lansează sistemul de blocare pentru a repermite reluarea rulării cron-ului
 ```
 drupal cron:release
 cror
-crr
 ```
 
 ## Examples

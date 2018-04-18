@@ -1,14 +1,14 @@
 # generate:plugin:rulesaction
 प्लगिन नियम क्रिया उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:plugin:rulesaction [options]
 gpra
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | प्लगइन वर्ग नाव.
@@ -18,8 +18,8 @@ Option | Details
 --category | प्लगइन श्रेणी
 --context | प्लगइन संदर्भ
 
-## Examples
-* Generate a user rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
+## उदाहरणे
+* मॉड्यूल नाव, वर्ग, त्याचे लेबल, प्लगिन id, प्रकार, श्रेणी आणि त्याचे संदर्भ निर्दिष्ट करणारा वापरकर्ता नियम कृती प्लगिन उत्पन्न करा.
 ```
 drupal generate:plugin:rulesaction  \
   --module="modulename"  \
@@ -30,7 +30,7 @@ drupal generate:plugin:rulesaction  \
   --category="default_action"  \
   --context="default_action"
 ```
-* Generate a node rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
+* मॉड्यूल नाव, वर्ग, त्याचे लेबल, प्लगिन आयडी, प्रकार, श्रेणी आणि त्याचे संदर्भ निर्दिष्ट करणारे नोड नियत कार्य प्लगइन उत्पन्न करा.
 ```
 drupal generate:plugin:rulesaction  \
   --module="modulename"  \

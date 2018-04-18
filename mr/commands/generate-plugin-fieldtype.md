@@ -1,14 +1,14 @@
 # generate:plugin:fieldtype
 फील्ड प्रकार प्लगिन उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:plugin:fieldtype [options]
 gpft
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | प्लगइन वर्ग नाव.
@@ -18,8 +18,8 @@ Option | Details
 --default-widget | या प्लगइनचे डीफॉल्ट फील्ड विजेट.
 --default-formatter | या प्लगइनची डीफॉल्ट फिल्ड फॉर्मेटर.
 
-## Examples
-* Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description
+## उदाहरणे
+* मॉड्यूल नाव, वर्ग, त्याचे लेबल, प्लगिन आयडी आणि वर्णन निर्दिष्ट करणारा एक फील्ड प्रकारचा प्लगिन उत्पन्न करा.
 ```
 drupal generate:plugin:fieldtype  \
   --module="modulename"  \
@@ -28,7 +28,7 @@ drupal generate:plugin:fieldtype  \
   --plugin-id="example_field_type"  \
   --description="My Field Type"
 ```
-* Generate a field type plugin with a default widget and formatter specifying the module name, the class, its label, the plugin id and a description
+* डीफॉल्ट विजेटसह फिल्ड प्रकार प्लगइन उत्पन्न करा आणि फॉर्मेटर मॉड्यूलचे नाव, वर्ग, त्याचे लेबल, प्लगिन आयडी आणि वर्णन निर्दिष्ट करा.
 ```
 drupal generate:plugin:fieldtype  \
   --module="modulename"  \

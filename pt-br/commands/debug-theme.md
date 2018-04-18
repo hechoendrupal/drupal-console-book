@@ -1,18 +1,19 @@
 # debug:theme
 Exibir informações sobre os temas da aplicação
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:theme [arguments]
 dt
+tde
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 theme | Defina o tema para carregar maiores informações 
 
-## Examples
+## Exemplos
 * List of themes on the site
 ```
 drupal debug:theme

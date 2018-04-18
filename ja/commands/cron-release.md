@@ -5,7 +5,6 @@ Cronのシステムロックを解放
 ```
 drupal cron:release
 cror
-crr
 ```
 
 ## Examples

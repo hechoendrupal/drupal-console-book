@@ -11,8 +11,8 @@ ges
 Option | Details
 -------|-------------
 --module | A modul neve.
---name | commands.generate.service.options.name
---class | Osztálynév
+--name | Service name
+--class | Class name
 --events | Események betöltése a tárolóból
 --services | Szolgáltatások betöltése a tárolóból.
 

@@ -14,8 +14,8 @@ Option | Details
 --type-class | खाना प्रकार प्लगिन क्लास का नाम
 --type-label | खाना प्रकार प्लगिन उप-शीर्षक
 --type-plugin-id | खाना प्रकार प्लगिन id
---type-description | commands.generate.plugin.field.options.type-type-description
---formatter-class | commands.generate.plugin.field.options.class
+--type-description | खाना प्रकार प्लगिन विवरण
+--formatter-class | खाना formatter प्लगिन क्लास का नाम
 --formatter-label | खाना formatter प्लगिन उप-शीर्षक
 --formatter-plugin-id | खाना formatter प्लगिन id
 --widget-class | खाना formatter प्लगिन क्लास का नाम

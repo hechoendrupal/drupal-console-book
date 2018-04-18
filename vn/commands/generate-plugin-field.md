@@ -14,8 +14,8 @@ Option | Details
 --type-class | Tên lớp field type plugin
 --type-label | Nhãn field type plugin
 --type-plugin-id | Field type plugin id
---type-description | commands.generate.plugin.field.options.type-type-description
---formatter-class | commands.generate.plugin.field.options.class
+--type-description | Mô tả field type plugin
+--formatter-class | Tên lớp field formatter plugin
 --formatter-label | Nhãn field formatter plugin
 --formatter-plugin-id | Field formatter plugin id
 --widget-class | Tên lớp field formatter plugin

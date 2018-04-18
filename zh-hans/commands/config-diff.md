@@ -1,24 +1,24 @@
 # config:diff
-输出选取目录中和使用中不同的配置项目.
+比对目录，输出与活动配置不同的配置项。
 
-**Usage:**
+**使用方法:**
 ```
 drupal config:diff [arguments] [options]
 cdi
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---reverse | 反向显示差异(就是说：从一个目录到使用配置的比较).
+--reverse | 反向查看变化（比如，比对目录与活动配置的差异）。
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-directory | 要对比的目录. 缺省使用配置目录.
+directory | 对比的目录。如果省略，则从 Drupal 配置目录中进行选择。
 
-## Examples
-* Provide a config directory
+## 例子
+* 提供一个配置目录
 ```
 drupal config:diff ../config/path
 ```

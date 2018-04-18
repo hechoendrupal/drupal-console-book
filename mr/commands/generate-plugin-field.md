@@ -1,21 +1,21 @@
 # generate:plugin:field
 फील्ड प्रकार, विजेट आणि फॉर्मेटर प्लगइन उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:plugin:field [options]
 gpf
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --type-class | फील्ड प्रकार प्लगइन वर्ग नाव.
 --type-label | फील्ड प्रकार प्लगइन लेबल.
 --type-plugin-id | फील्ड प्रकार प्लगइन आयडी.
---type-description | commands.generate.plugin.field.options.type-type-description
---formatter-class | commands.generate.plugin.field.options.class
+--type-description | फील्ड प्रकार प्लगइन वर्णन.
+--formatter-class | फील्ड फॉर्मेटर प्लगइन वर्ग नाव.
 --formatter-label | फील्ड फॉर्मेटर प्लगइन लेबल.
 --formatter-plugin-id | फील्ड फॉर्मेटर प्लगिन आयडी.
 --widget-class | फील्ड फॉर्मेटर प्लगइन वर्ग नाव.
@@ -25,8 +25,8 @@ Option | Details
 --default-widget | फील्ड प्रकार प्लगइनचे डीफॉल्ट फील्ड विजेट.
 --default-formatter | फील्ड प्रकार प्लगइनचे डीफॉल्ट फील्ड फॉर्मेटर.
 
-## Examples
-* Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)
+## उदाहरणे
+* मॉड्यूल नाव, प्रकार (वर्ग, लेबल, प्लगिन आयडी आणि वर्णन), फॉर्मेटर (वर्ग, लेबल, प्लगइन आयडी) आणि विजेट (वर्ग, लेबल आणि प्लगइन आयडी) निर्दिष्ट करणारा फील्ड प्रकार, विजेट आणि फॉर्मेटर प्लगइन उत्पन्न करा.
 ```
 drupal generate:plugin:field  \
   --module="modulename"  \

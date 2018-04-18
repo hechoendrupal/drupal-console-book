@@ -1,14 +1,13 @@
 # rest:disable
 अर्ज REST संसाधन अक्षम.
 
-**Usage:**
+**वापर:**
 ```
 drupal rest:disable [arguments]
 red
-redi
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 resource-id | विशिष्ठ आयडी.

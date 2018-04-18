@@ -1,20 +1,19 @@
 # theme:uninstall
 थीममध्ये थीम किंवा थीम विस्थापित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal theme:uninstall [arguments]
 thu
-tu
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-theme | commands.theme.uninstall.options.module
+theme | थीम किंवा विस्थापित होणार्या थीमची स्वल्पविरामाने विभक्त केलेली असावी.
 
-## Examples
-* Uninstall theme specifying the name
+## उदाहरणे
+* विस्थापित थीम नाव निर्दिष्ट.
 ```
 drupal theme:uninstall  mytheme
 ```

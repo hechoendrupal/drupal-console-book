@@ -4,6 +4,8 @@ PHPのbuilt-in web serverでDrupalを起動する
 **Usage:**
 ```
 drupal server [arguments]
+serve
+rs
 ```
 
 ## Available arguments

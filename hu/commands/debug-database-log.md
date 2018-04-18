@@ -5,6 +5,7 @@ Az alkalmazás aktuális naplóeseményeinek megjelenítése
 ```
 drupal debug:database:log [arguments] [options]
 dbb
+ws
 ```
 
 ## Available options

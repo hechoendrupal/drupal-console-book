@@ -11,7 +11,7 @@ mie
 Option | Details
 -------|-------------
 --site-url | साइट स्रोत URL
---db-type | commands.migrate.setup.migrations.options.db-type
+--db-type | commands.migrate.execute.migrations.options.db-type
 --db-host | मेजबान डेटाबेस
 --db-name | डेटाबेस का नाम
 --db-user | डेटाबेस उपयोगकर्ता

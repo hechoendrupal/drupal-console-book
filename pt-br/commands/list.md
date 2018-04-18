@@ -1,19 +1,19 @@
 # list
 Lists commands22
 
-**Usage:**
+**Utilização:**
 ```
 drupal list [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --xml | To output list as XML
 --raw | To output raw command list
 --format | The output format (txt, xml, json, or md)
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 namespace | The namespace name

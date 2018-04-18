@@ -24,7 +24,7 @@ si
 --account-name | Имя пользователя администратора Drupal
 --account-mail | E-mail администратора Drupal
 --account-pass | Пароль администратора Drupal
---force | commands.site.install.arguments.force
+--force | Force to reinstall the site
 
 ## Доступные аргументы
 Аргумент | Детали

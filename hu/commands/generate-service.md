@@ -11,10 +11,10 @@ gs
 Option | Details
 -------|-------------
 --module | A modul neve.
---name | commands.generate.service.options.name
+--name | Szolgáltatásnév
 --class | Osztálynév
---interface | commands.common.service.options.interface
---interface-name | commands.common.service.options.interface-name
+--interface | Interfész
+--interface-name | Interface name
 --services | Szolgáltatások betöltése a tárolóból.
 --path-service | Path
 

@@ -1,24 +1,24 @@
 # debug:module
 अनुप्रयोगासाठी उपलब्ध असलेले वर्तमान मॉड्यूल प्रदर्शित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:module [arguments] [options]
 dm
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --status | मॉड्यूल स्थिती [सक्षम | अक्षम]
 --type | मॉड्यूल प्रकार [कोर | नो-कोर]
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 module | मॉड्यूल नाव
 
-## Examples
+## उदाहरणे
 * सर्व स्थापित मॉड्यूल प्रदर्शित करा
 ```
 drupal mod --status=installed

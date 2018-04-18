@@ -1,5 +1,5 @@
 # generate:form
-एक नया "%s" उत्पन्न करें
+Generate a new "FormBase"
 
 **Usage:**
 ```
@@ -10,12 +10,12 @@ gf
 ## Available options
 Option | Details
 -------|-------------
---module | मोड्यूल का नाम।
---class | फॉर्म क्लास का नाम
---form-id | फॉर्म आईडी
---services | सर्विसेज़ को container से लोड करें।
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
 --config-file | Add a config file
---inputs | एक फॉर्म के लिए आदानो को बनाएँ।
+--inputs | Create inputs in a form.
 --path | Enter the form path
 --menu-link-gen | Generate a menu link
 --menu-link-title | A title for the menu link

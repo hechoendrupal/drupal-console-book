@@ -1,15 +1,28 @@
 # config:import
 Importar la configuració a l'aplicació actual.
 
-**Ús:**
+**Usage:**
 ```
-$ drupal config:import [options]
-$ ci  
+drupal config:import [options]
+ci
 ```
 
-## Opcions disponibles
-Opció | Detalls
+## Available options
+Option | Details
 -------|-------------
---file | Camí del fitxer de configuració.
---directory | Camí del directori de la configuració a importar.
---remove-files | Eliminar fitxers despres de la sincronització.
+--file | Path to an archive file of configuration to import.
+--directory | Path to a directory of configuration to import.
+--remove-files | Remove files after synchronization.
+--skip-uuid | commands.config.import.options.skip-uuid
+
+## Examples
+* Provide a configuration file
+```
+drupal config:import \
+  --file=/path/to/config/file
+```
+* Provide a configuration directory
+```
+drupal config:import  \
+  --directory=/path/to/config/dir
+```

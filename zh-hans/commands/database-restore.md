@@ -1,24 +1,24 @@
 # database:restore
-还原数据库
+还原数据库结构和内容。
 
-**Usage:**
+**使用方法:**
 ```
 drupal database:restore [arguments] [options]
 dbr
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
 --file | 数据库备份文件文件名
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-database | settings.php 文件中 Database 的键
+database | 来自 settings.php 的数据库键
 
-## Examples
-* Restore the database file dump to the database default or another one specified
+## 例子
+* 将数据库转储文件还原到默认或指定数据库
 ```
 drupal database:restore \
   --file='/srv/dump/db.sql'

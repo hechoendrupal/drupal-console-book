@@ -1,25 +1,24 @@
 # theme:install
 अनुप्रयोगामध्ये थीम किंवा थीम स्थापित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal theme:install [arguments] [options]
 thi
-ti
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --set-default | थीम डीफॉल्ट थीम म्हणून सेट करा.
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-theme | commands.theme.install.options.module
+theme | थीम किंवा स्थापित करण्यास थीम कॉमाद्वारे विभक्त व्हायला हवी.
 
-## Examples
-* Install theme specifying the name
+## उदाहरणे
+* नाव निर्दिष्ट करणारी थीम स्थापित करा.
 ```
 drupal theme:install  mytheme
 ```

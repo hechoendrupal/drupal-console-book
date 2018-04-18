@@ -1,5 +1,5 @@
 # state:delete
-Delete State
+स्टेट हटाना।
 
 **Usage:**
 ```
@@ -10,10 +10,10 @@ std
 ## Available arguments
 Argument | Details
 ---------|-------------
-name | State name.
+name | स्टेट का नाम।
 
 ## Examples
-* Delete state specifying the state name
+* स्टेट को स्टेट का नाम निर्दिष्ट करना हटाएं
 ```
 drupal state:delete  comment.maintain_entity_statistics
 ```

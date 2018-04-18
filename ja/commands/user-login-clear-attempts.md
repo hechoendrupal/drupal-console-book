@@ -11,4 +11,4 @@ uslca
 ## Available arguments
 Argument | Details
 ---------|-------------
-uid | ユーザーID
+user | User name/id.

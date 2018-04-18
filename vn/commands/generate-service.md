@@ -11,10 +11,10 @@ gs
 Option | Details
 -------|-------------
 --module | Tên module.
---name | commands.generate.service.options.name
+--name | Tên dịch vụ
 --class | Tên Class
---interface | commands.common.service.options.interface
---interface-name | commands.common.service.options.interface-name
+--interface | Interface
+--interface-name | Interface name
 --services | Nạp các dịch vụ từ container.
 --path-service | Path
 

@@ -5,7 +5,6 @@ Tạo một plugin condition.
 ```
 drupal generate:plugin:condition [options]
 gpco
-gpc
 ```
 
 ## Available options

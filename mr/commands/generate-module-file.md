@@ -1,19 +1,19 @@
 # generate:module:file
 .module फाइल उत्पन्न करा
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:module:file [options]
 gmf
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 
-## Examples
-* Generate the .module file specifying the module name
+## उदाहरणे
+* मॉड्यूल नावाचे .module फाइल उत्पन्न करा.
 ```
 drupal generate:module:file  \
   --module="modulename"

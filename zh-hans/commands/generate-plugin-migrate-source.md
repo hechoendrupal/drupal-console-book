@@ -1,16 +1,16 @@
 # generate:plugin:migrate:source
 Generate a migrate source plugin
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:plugin:migrate:source [options]
 gpms
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --class | Plugin class name
 --plugin-id | Plugin id
 --table | Table to query
@@ -18,7 +18,7 @@ Option | Details
 --group-by | Field to group results by
 --fields | Fields to export
 
-## Examples
+## 例子
 * Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias
 ```
 drupal generate:plugin:migrate:source  \

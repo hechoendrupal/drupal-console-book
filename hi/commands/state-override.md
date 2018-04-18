@@ -14,7 +14,7 @@ key | स्थिति की मौलिक को ओवरराइड क
 value | स्थिति की मूल्य को ओवरराइड करे
 
 ## Examples
-* Override state value specifying the state name and the new value
+* स्टेट वैल्यू, स्टेट नाम निर्दिष्ट करना और न्य वैल्यू ओवरराइड करें
 ```
 drupal state:override  comment.node_comment_statistics_scale "!!float 1"
 ```

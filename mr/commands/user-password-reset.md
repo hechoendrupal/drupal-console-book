@@ -1,21 +1,25 @@
 # user:password:reset
 एका विशिष्ट वापरकर्त्यासाठी संकेतशब्द रीसेट करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal user:password:reset [arguments]
 upr
-uspr
+upsr
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-user | वापरकर्ता आयडी
+user | User name/id
 password | मजकूर स्वरूपात संकेतशब्द
 
-## Examples
-* Update password specifying the user id and the new password
+## उदाहरणे
+* संकेतशब्द आणि वापरकर्ता आयडी आणि नवीन पासवर्ड निर्दिष्ट संकेतशब्द अद्ययावत करा.
 ```
 drupal user:password:reset  2 p455w0rd
+```
+* Update password specifying the user jmolivas and the new password
+```
+drupal user:password:reset jmolivas p455w0rd
 ```

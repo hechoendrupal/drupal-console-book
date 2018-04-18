@@ -4,6 +4,8 @@ Chạy PHP built-in web server
 **Usage:**
 ```
 drupal server [arguments]
+serve
+rs
 ```
 
 ## Available arguments

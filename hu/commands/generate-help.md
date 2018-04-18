@@ -11,7 +11,7 @@ gh
 Option | Details
 -------|-------------
 --module | A modul neve.
---description | A modul leírása
+--description | commands.generate.help.options.description
 
 ## Examples
 * Generate a hook help specifying the module name and the description

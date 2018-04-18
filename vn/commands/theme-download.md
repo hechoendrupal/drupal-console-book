@@ -5,7 +5,6 @@ Tải xuống theme trong ứng dụng
 ```
 drupal theme:download [arguments] [options]
 thd
-td
 ```
 
 ## Available options

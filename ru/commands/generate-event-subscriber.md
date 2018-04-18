@@ -11,8 +11,8 @@ ges
 Команда | Детали
 -------|-------------
 --module | Имя модуля.
---name | commands.generate.event.subscriber.options.name
---class | commands.generate.event.subscriber.options.class
+--name | Service name
+--class | Class name
 --events | Загрузить события из контейнера
 --services | Загрузка сервисов из контейнера.
 

@@ -5,6 +5,7 @@ DBLogのイベントを表示
 ```
 drupal debug:database:log [arguments] [options]
 dbb
+ws
 ```
 
 ## Available options

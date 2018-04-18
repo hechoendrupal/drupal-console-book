@@ -1,19 +1,19 @@
 # list
 सर्व उपलब्ध आदेशांची यादी करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal list [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --xml | एक्सएमएलच्या रूपात आऊटपुट सूचीमध्ये.
 --raw | कच्च्या आदेश सूचीचे आउटपुट करण्यासाठी.
 --format | आउटपुट स्वरूप (txt, xml, json, किंवा md)
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 namespace | नेमस्पेस नाव.

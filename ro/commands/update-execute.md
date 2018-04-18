@@ -5,17 +5,21 @@ Execută o funcţie specifică Update N dintr-un modul sau execută-le pe toate
 ```
 drupal update:execute [arguments]
 upex
-upe
+updb
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
 module | Numele Modulului.
-update-n | Funcţia specifică Update N care va fi executată
+update-n | commands.update.execute.options.update-n
 
 ## Examples
 * Update all entities
 ```
 drupal update:execute
+```
+* Execute updates for system module
+```
+drupal update:execute system
 ```

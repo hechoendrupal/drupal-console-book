@@ -1,24 +1,24 @@
 # views:disable
 एक दृश्य अक्षम करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal views:disable [arguments]
 vd
 vdi
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-view-id | commands.views.debug.arguments.view-id
+view-id | दृश्य आयडी
 
-## Examples
-* Disable content view
+## उदाहरणे
+* सामग्री दृश्य अक्षम करा.
 ```
 drupal views:disable  content
 ```
-* Disable frontpage view
+* FrontPage View अक्षम करा.
 ```
 drupal views:disable  frontpage
 ```

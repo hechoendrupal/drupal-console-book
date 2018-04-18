@@ -14,8 +14,8 @@ Option | Details
 --type-class | Mezőtípus bővítmény osztályneve
 --type-label | Mezőtípus bővítmény felirata
 --type-plugin-id | Mezőtípus bővítmény azonosítója
---type-description | commands.generate.plugin.field.options.type-type-description
---formatter-class | commands.generate.plugin.field.options.class
+--type-description | Mezőtípus bővítmény leírása
+--formatter-class | Mezőformázó bővítmény osztályneve
 --formatter-label | Mezőformázó bővítmény felirata
 --formatter-plugin-id | Mezőformázó bővítmény azonosítója
 --widget-class | Mezőformázó bővítmény osztályneve

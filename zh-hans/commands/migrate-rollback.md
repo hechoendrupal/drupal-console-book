@@ -1,18 +1,18 @@
 # migrate:rollback
-Rollback one or multiple migrations
+回滚一个或多个迁移
 
-**Usage:**
+**使用方法:**
 ```
 drupal migrate:rollback [arguments] [options]
 mir
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---source-base_path | commands.migrate.setup.options.source-base-path
+--source-base_path | Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-migration-ids | Migration id(s)
+migration-ids | 迁移ID(s)

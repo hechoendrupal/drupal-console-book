@@ -5,6 +5,7 @@
 ```
 drupal site:status [options]
 ss
+st
 ```
 
 ## Available options
@@ -13,7 +14,7 @@ Option | Details
 --format | commands.site.status.options.format
 
 ## Examples
-* Get drupal installation status specifying the output format as table
+* तालिका के रूप में आउटपुट स्वरूप निर्दिष्ट करने के लिए Drupal स्थापना स्थिति प्राप्त करें
 ```
 drupal site:status  \
   --format="table"

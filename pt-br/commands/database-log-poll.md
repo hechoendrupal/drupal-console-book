@@ -1,25 +1,25 @@
 # database:log:poll
 Poll the watchdog and print new log entries every x seconds
 
-**Usage:**
+**Utilização:**
 ```
 drupal database:log:poll [arguments] [options]
 dblp
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --type | Filter events by a specific type
 --severity | Filter events by a specific level of severity
 --user-id | Filter events by a specific user id
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 duration | Duration in seconds which to sleep between database reads
 
-## Examples
+## Exemplos
 * Print the log entries on screen every x seconds
 ```
 drupal database:log:poll \

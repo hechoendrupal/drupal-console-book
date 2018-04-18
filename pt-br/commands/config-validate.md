@@ -1,18 +1,18 @@
 # config:validate
 Validate a drupal config against its schema
 
-**Usage:**
+**Utilização:**
 ```
 drupal config:validate [arguments]
 cv
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 name | 
 
-## Examples
+## Exemplos
 * Provide the configuration name.
 ```
 drupal config:validate configuration.name

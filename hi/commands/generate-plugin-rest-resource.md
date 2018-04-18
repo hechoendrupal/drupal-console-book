@@ -12,7 +12,6 @@ Option | Details
 -------|-------------
 --module | मोड्यूल का नाम।
 --class | प्लगिन रेस्ट साधन क्लास
---name | commands.generate.service.options.name
 --plugin-id | प्लगिन रेस्ट साधन
 --plugin-label | प्लगिन रेस्ट साधन उप-शीर्षक
 --plugin-url | प्लगिन रेस्ट साधन URL

@@ -1,14 +1,14 @@
 # module:install
 Instala módulo(s) na aplicação
 
-**Usage:**
+**Utilização:**
 ```
 drupal module:install [arguments] [options]
 moi
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --latest | Padrão para baixar a versão mais recente
 --composer | Uninstalls the module using Composer
@@ -21,7 +21,7 @@ Option | Details
 --no-interaction | Do not ask any interactive question
 --env | The Environment name
 --root | Define the Drupal root to be used in command execution
---debug | application.options.debug
+--debug | Switches on debug mode
 --learning | Generate a verbose code output
 --generate-chain | Shows command options and arguments as yaml output to be used in chain command
 --generate-inline | Shows command options and arguments as inline command
@@ -30,13 +30,13 @@ Option | Details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 command | The command to execute
 module | Módulo(s) a serem instalados deverão ser separados por um espaço
 
-## Examples
+## Exemplos
 * Install module specifying the module name
 ```
 drupal module:install  modulename

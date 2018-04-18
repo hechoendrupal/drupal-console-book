@@ -13,7 +13,7 @@ mod
 --path | Путь к проекту модуля
 --latest | По умолчанию загружать самую последнюю версию
 --composer | Скачать модуль, используя Composer
---unstable | commands.module.download.options.unstable
+--unstable | Module unstable
 
 ## Доступные аргументы
 Аргумент | Детали

@@ -1,24 +1,24 @@
 # module:path
 मॉड्यूलला सापेक्ष पथ परत मिळवते (किंवा निरपेक्ष पथ).
 
-**Usage:**
+**वापर:**
 ```
 drupal module:path [arguments] [options]
 mop
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --absolute | रिटर्न मॉड्यूल परिपूर्ण पथ
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 module | मॉड्यूल नाव (मशीनचे नाव)
 
-## Examples
-* Get the relative path of the module specifying the module name
+## उदाहरणे
+* मॉड्यूलचे नाव दर्शविणारा मॉड्यूलचा सापेक्ष पथ मिळवा.
 ```
 drupal module:path  modulename
 ```

@@ -8,6 +8,7 @@ Drupal Console Command | Details
 [about](about.md) | Hiển thị thông tin cơ bản về dự án Drupal Console
 [chain](chain.md) | Thi hành chuỗi câu lệnh
 [check](check.md) | System requirement checker
+[composerize](composerize.md) | Converts Drupal codebase to composer.
 [exec](exec.md) | Execute an external command.
 [help](help.md) | Displays help for a command
 [init](init.md) | Copy configuration files to user home directory.
@@ -16,6 +17,7 @@ Drupal Console Command | Details
 [server](server.md) | Chạy PHP built-in web server
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | Xây dựng lại và làm sạch tất cả cache trên trang.
+[cache:tag:invalidate](cache-tag-invalidate.md) | Invalidate cache tags.
 **config**  |
 [config:delete](config-delete.md) | Delete configuration
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
@@ -28,9 +30,12 @@ Drupal Console Command | Details
 [config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | Ghi đè giá trị cấu hình trong cấu hình đang hoạt động
 [config:validate](config-validate.md) | Validate a drupal config against its schema
+**config_update**  |
+[config_update:default](config_update-default.md) | commands.config_update.default.description
 **create**  |
 [create:comments](create-comments.md) | Create dummy comments for your Drupal 8 application.
 [create:nodes](create-nodes.md) | Tạo dummy nodes cho ứng dụng Drupal 8 của bạn.
+[create:roles](create-roles.md) | Create dummy roles for your Drupal 8 application.
 [create:terms](create-terms.md) | Tạo dummy terms cho ứng dụng Drupal 8 của bạn.
 [create:users](create-users.md) | Tạo dummy users cho ứng dụng Drupal 8 của bạn.
 [create:vocabularies](create-vocabularies.md) | Tạo dummy vocabularies cho ứng dụng Drupal 8 của bạn.
@@ -70,56 +75,50 @@ Drupal Console Command | Details
 [debug:plugin](debug-plugin.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 [debug:queue](debug-queue.md) | Display the queues of your application
 [debug:rest](debug-rest.md) | Hiển thị rest resource hiện có cho ứng dụng
+[debug:roles](debug-roles.md) | Displays current roles for the application
 [debug:router](debug-router.md) | Hiển thị các định tuyến hiện tại của ứng dụng
 [debug:settings](debug-settings.md) | List user Drupal Console settings.
 [debug:site](debug-site.md) | Liệt kê tất cả các sites cục bộ và từ xa đã biết.
 [debug:state](debug-state.md) | Hiển thị State keys hiện tại.
 [debug:test](debug-test.md) | Danh sách các đơn vị thử nghiệm có sẵn của ứng dụng.
 [debug:theme](debug-theme.md) | Hiển thị các themes hiện tại cho ứng dụng
+[debug:theme:keys](debug-theme-keys.md) | Displays all theme keys provided by hook_theme functions
 [debug:update](debug-update.md) | Hiển thị các cập nhật có sẵn cho ứng dụng
 [debug:user](debug-user.md) | Hiển thị các người dùng hiện tại cho ứng dụng
 [debug:views](debug-views.md) | Hiển thị các views resources hiện tại cho ứng dụng
 [debug:views:plugins](debug-views-plugins.md) | Display current views plugins for the application
 **devel**  |
-[devel:dumper](devel-dumper.md) | Change the devel dumper plugin
-**develop**  |
-[develop:contribute](develop-contribute.md) | 
-[develop:example](develop-example.md) | 
-[develop:example:container:aware](develop-example-container-aware.md) | 
-[develop:gitbook](develop-gitbook.md) | Update gitbook
+[devel:dumper](devel-dumper.md) | commands.devel.dumper.messages.change-devel-dumper-plugin
+**docker**  |
+[docker:init](docker-init.md) | Create a docker-compose.yml file
 **dotenv**  |
 [dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.
 **entity**  |
 [entity:delete](entity-delete.md) | Delete an specific entity
-**extend**  |
-[extend:example:one](extend-example-one.md) | Drupal Console extend example
-[extend:example:two](extend-example-two.md) | Drupal Console extend example
 **features**  |
 [features:import](features-import.md) | Import module config.
 **field**  |
 [field:info](field-info.md) | View information about fields.
 **generate**  |
+[generate:ajax:command](generate-ajax-command.md) | Generate & Register a custom ajax command
 [generate:authentication:provider](generate-authentication-provider.md) | Tạo ra một Authentication Provider
 [generate:breakpoint](generate-breakpoint.md) | Generate breakpoint
 [generate:cache:context](generate-cache-context.md) | Generate a cache context
 [generate:command](generate-command.md) | Tạo ra các lệnh cho trình điều khiển.
 [generate:controller](generate-controller.md) | Tạo và đăng ký một trình điều khiển
-[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | commands.generate.doc.cheatsheet.description
-[generate:doc:dash](generate-doc-dash.md) | commands.generate.doc.dash.description
-[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
-[generate:doc:gitbook](generate-doc-gitbook.md) | commands.generate.doc.gitbook.description
 [generate:entity:bundle](generate-entity-bundle.md) | Tạo một loại nội dung mới (node / entity bundle)
 [generate:entity:config](generate-entity-config.md) | Tạo một config entity mới
 [generate:entity:content](generate-entity-content.md) | Tạo một content entity mới
 [generate:event:subscriber](generate-event-subscriber.md) | Tạo một event subscriber
-[generate:form](generate-form.md) | Tạo một "%s" mới
+[generate:form](generate-form.md) | Generate a new "FormBase"
 [generate:form:alter](generate-form-alter.md) | Tạo một implementation của hook_form_alter() hoặc hook_form_FORM_ID_alter
-[generate:form:config](generate-form-config.md) | commands.generate.form.description
+[generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
 [generate:help](generate-help.md) | Generate an implementation of hook_help()
+[generate:jstest](generate-jstest.md) | Generate a JavaScript test.
 [generate:module](generate-module.md) | Tạo một module.
 [generate:module:file](generate-module-file.md) | Generate a .module file
-[generate:permissions](generate-permissions.md) | commands.generate.permission.description
+[generate:permissions](generate-permissions.md) | Generate module permissions
 [generate:plugin:block](generate-plugin-block.md) | Tạo một plugin block
 [generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
 [generate:plugin:condition](generate-plugin-condition.md) | Tạo một plugin condition.
@@ -138,10 +137,11 @@ Drupal Console Command | Details
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Tạo một kiểu plugin với annotation discovery
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Tạo một plugin với Yaml discovery
 [generate:plugin:views:field](generate-plugin-views-field.md) | Tạo một tùy chỉnh plugin view field.
-[generate:post:update](generate-post-update.md) | commands.generate.post:update.description
+[generate:post:update](generate-post-update.md) | Generate an implementation of hook_post_update_NAME()
 [generate:profile](generate-profile.md) | Tạo một profile.
 [generate:routesubscriber](generate-routesubscriber.md) | Tạo một RouteSubscriber
 [generate:service](generate-service.md) | Tạo dịch vụ
+[generate:site:alias](generate-site-alias.md) | Generates a site alias.
 [generate:theme](generate-theme.md) | Tạo một theme.
 [generate:twig:extension](generate-twig-extension.md) | Generate a Twig extension.
 [generate:update](generate-update.md) | Generate an implementation of hook_update_N()
@@ -156,7 +156,7 @@ Drupal Console Command | Details
 [migrate:rollback](migrate-rollback.md) | Rollback one or multiple migrations
 [migrate:setup](migrate-setup.md) | Load and create the relevant migrations for a provided legacy database
 **module**  |
-[module:dependency:install](module-dependency-install.md) | commands.module.install.dependencies.description
+[module:dependency:install](module-dependency-install.md) | Install dependencies module in the application
 [module:download](module-download.md) | Tải module hoặc các modules trong ứng dụng
 [module:install](module-install.md) | Cài đặt module hoặc các module trong ứng dụng
 [module:path](module-path.md) | Returns the relative path to the module (or absolute path)
@@ -164,15 +164,17 @@ Drupal Console Command | Details
 [module:update](module-update.md) | Update core, module or modules in the application
 **multisite**  |
 [multisite:new](multisite-new.md) | Sets up the files for a new multisite install.
+[multisite:update](multisite-update.md) | Update the files for a multisite installed.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | Rebuild node access permissions. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.
 **queue**  |
 [queue:run](queue-run.md) | Process the selected queue.
-**quick**  |
-[quick:start](quick-start.md) | Download, install and serve a new Drupal project
 **rest**  |
 [rest:disable](rest-disable.md) | Tắt một tài nguyên rest cho ứng dụng
 [rest:enable](rest-enable.md) | Bật một rest resource cho ứng dụng
+**role**  |
+[role:delete](role-delete.md) | Delete roles for the application
+[role:new](role-new.md) | Create roles for the application
 **router**  |
 [router:rebuild](router-rebuild.md) | Xây dựng lại định tuyến cho ứng dụng
 **sample**  |
@@ -184,7 +186,6 @@ Drupal Console Command | Details
 [site:install](site-install.md) | Cài đặt một dự án Drupal
 [site:maintenance](site-maintenance.md) | Chuyển site sang chế độ bảo trì
 [site:mode](site-mode.md) | Chuyển đổi cấu hình hiệu năng của hệ thống
-[site:new](site-new.md) | Download a new Drupal project
 [site:statistics](site-statistics.md) | Show the current statistics of website.
 [site:status](site-status.md) | Xem trạng thái cài đặt hiện tại
 **state**  |
@@ -199,11 +200,6 @@ Drupal Console Command | Details
 [theme:install](theme-install.md) | Cài đặt theme hoặc các themes trong ứng dụng
 [theme:path](theme-path.md) | Returns the relative path to the theme (or absolute path)
 [theme:uninstall](theme-uninstall.md) | Gỡ cài đặt theme hay các themes trong ứng dụng
-**translation**  |
-[translation:cleanup](translation-cleanup.md) | commands.translation.cleanup.description
-[translation:pending](translation-pending.md) | commands.translation.pending.description
-[translation:stats](translation-stats.md) | commands.translation.stats.description
-[translation:sync](translation-sync.md) | commands.translation.sync.description
 **update**  |
 [update:entities](update-entities.md) | Applying Entity Updates
 [update:execute](update-execute.md) | Tiến hành một hàm cụ thể cập nhật N trong một module, hoặc tiến hành tất cả
@@ -231,7 +227,7 @@ Option | Details
 --no-interaction | Do not ask any interactive question
 --env | Tên môi trường
 --root | Định nghĩa Drupal root dùng để thực thi lệnh
---debug | application.options.debug
+--debug | Switches on debug mode
 --learning | Sinh ra chi tiết mã thực thi
 --generate-chain | In các lựa chọn thi hành và các đối số dạng yaml, để sử dụng trong chuỗi lệnh
 --generate-inline | In các lựa chọn thi hành và các đối số dạng inline, để sử dụng sau

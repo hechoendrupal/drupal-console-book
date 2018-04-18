@@ -3,9 +3,14 @@ Delete an specific entity
 
 **Usage:**
 ```
-drupal entity:delete [arguments]
+drupal entity:delete [arguments] [options]
 ed
 ```
+
+## Available options
+Option | Details
+-------|-------------
+--all | Delete all entities of the given type.
 
 ## Available arguments
 Argument | Details

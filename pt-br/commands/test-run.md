@@ -1,20 +1,19 @@
 # test:run
 Executar testes unitários disponíveis para a aplicação
 
-**Usage:**
+**Utilização:**
 ```
 drupal test:run [arguments] [options]
 ter
-tr
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
---url | commands.test.run.arguments.url
+--url | Test url
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 test-class | Classe de teste
 test-methods | Método(s) de teste para ser executado

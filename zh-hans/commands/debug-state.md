@@ -1,23 +1,23 @@
 # debug:state
-显示当前状态的键(s)
+显示当前的状态键。
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:state [arguments]
 dst
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-key | 状态的键
+key | 调试的状态键。
 
-## Examples
-* List of the states on the site
+## 例子
+* 网站上的状态列表
 ```
 drupal debug:state
 ```
-* Displays a detail of the state install_task tok from the list of states
+* 从状态列表中显示状态 install_task 的详细信息
 ```
 drupal debug:state install_task
 ```

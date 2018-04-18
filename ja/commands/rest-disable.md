@@ -5,7 +5,6 @@ Restリソースを無効化する
 ```
 drupal rest:disable [arguments]
 red
-redi
 ```
 
 ## Available arguments

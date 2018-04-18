@@ -5,17 +5,21 @@
 ```
 drupal update:execute [arguments]
 upex
-upe
+updb
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
 module | मोड्यूल का नाम।
-update-n | विशिष्ट अपडेट N फंक्शन एक्सेक्युट किया जाना
+update-n | commands.update.execute.options.update-n
 
 ## Examples
 * Update all entities
 ```
 drupal update:execute
+```
+* Execute updates for system module
+```
+drupal update:execute system
 ```

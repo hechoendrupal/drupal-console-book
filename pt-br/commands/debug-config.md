@@ -1,18 +1,23 @@
 # debug:config
 Exibe a configuração atual.
 
-**Usage:**
+**Utilização:**
 ```
-drupal debug:config [arguments]
+drupal debug:config [arguments] [options]
 dc
 ```
 
-## Available arguments
-Argument | Details
+## Opções disponíveis
+Opção | Detalhes
+-------|-------------
+--show-overridden | Show overridden configurations.
+
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 name | Nome da configuração.
 
-## Examples
+## Exemplos
 * List all configuration object names.
 ```
 drupal config:debug
@@ -24,4 +29,8 @@ drupal config:debug system.site
 * List all system configuration names.
 ```
 drupal config:debug | grep system
+```
+* List all configuration including overridden values.
+```
+drupal debug:config --show-overridden
 ```

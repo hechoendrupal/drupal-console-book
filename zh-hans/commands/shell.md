@@ -1,7 +1,7 @@
 # shell
-Open a shell providing an interactive REPL (Read–Eval–Print-Loop).
+打开一个提供交互式REPL(Read–Eval–Print-Loop) shell.
 
-**Usage:**
+**使用方法:**
 ```
 drupal shell
 ```

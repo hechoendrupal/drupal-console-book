@@ -5,7 +5,6 @@
 ```
 drupal module:download [arguments] [options]
 mod
-md
 ```
 
 ## Available options
@@ -14,7 +13,7 @@ Option | Details
 --path | The path of the contrib project
 --latest | डिफ़ॉल्ट नवीनतम संस्करण डाउनलोड करने के लिए
 --composer | कंपोजर का उपयोग कर मॉड्यूल डाउनलोड करें
---unstable | commands.module.install.options.unstable
+--unstable | Module unstable
 
 ## Available arguments
 Argument | Details

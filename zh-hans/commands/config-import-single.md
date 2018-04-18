@@ -1,25 +1,25 @@
 # config:import:single
-导入选择的配置
+导入单个配置或一系列配置。
 
-**Usage:**
+**使用方法:**
 ```
 drupal config:import:single [options]
 cis
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---file | The file(s) name or file(s) absolute path to import
+--file | 要导入的文件名或文件绝对路径
 --directory | commands.config.import.arguments.directory
 
-## Examples
-* Providing a file option using full path.
+## 例子
+* 使用完整路径提供文件选项。
 ```
 drupal config:import:single \
   --file="/path/to/file/block.block.default_block.yml"
 ```
-* Providing file and directory options
+* 提供文件和目录选项
 ```
 drupal config:import:single  \
   --file="block.block.default_block.yml" \

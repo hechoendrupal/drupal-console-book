@@ -1,19 +1,19 @@
 # debug:site
-列出已知当地和远程网站.
+列出所有已知的本地和远程站点。
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:site [arguments]
 dsi
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-target | Target
+target | 目标
 property | Property
 
-## Examples
+## 例子
 * 
 ```
 drupal debug:site

@@ -1,23 +1,23 @@
 # generate:event:subscriber
 एक कार्यक्रम ग्राहक उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:event:subscriber [options]
 ges
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
---name | commands.generate.service.options.name
---class | वर्ग नाव
+--name | Service name
+--class | Class name
 --events | कंटेनर मधून इव्हेंट्स भरा.
 --services | कंटेनर मधून सेवा भरा.
 
-## Examples
-* Generate an event subscriber specifying the module name, its name, the class and the events to subscribe
+## उदाहरणे
+* मॉड्यूल नाव, त्याचे नाव, वर्ग आणि सदस्यता घेण्यासाठी इव्हेंट्स निर्दिष्ट करणारा एक इव्हेंट सब्सक्राइबर उत्पन्न करा.
 ```
 drupal generate:event:subscriber  \
   --module="modulename"  \

@@ -1,16 +1,27 @@
 # generate:plugin:mail
 Generate a plugin mail
 
-**Ús:**
+**Usage:**
 ```
-$ drupal generate:plugin:mail [options]
+drupal generate:plugin:mail [options]
+gpm
 ```
 
-## Opcions disponibles
-Opció | Detalls
+## Available options
+Option | Details
 -------|-------------
 --module | Nom del mòdul.
 --class | Plugin class name
 --label | Plugin label
 --plugin-id | Plugin id
 --services | Carregar serveis des del contenidor.
+
+## Examples
+* Generate an email plugin specifying the module name, the class, its label and the plugin id
+```
+drupal generate:plugin:mail  \
+  --module="modulename"  \
+  --class="HtmlFormatterMail"  \
+  --label="Html formatter mail"  \
+  --plugin-id="html_formatter_mail"
+```

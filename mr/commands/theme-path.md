@@ -1,24 +1,24 @@
 # theme:path
 थीमवरील सापेक्ष पथ (किंवा निरपेक्ष पथ) मिळवते.
 
-**Usage:**
+**वापर:**
 ```
 drupal theme:path [arguments] [options]
 thp
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --absolute | थीम नि:शुल्क पथ परत
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-theme | Theme name
+theme | थीम नाव
 
-## Examples
-* Get the path of mytheme
+## उदाहरणे
+* माझ्या थीमचा मार्ग मिळवा.
 ```
 drupal theme:path  mytheme
 ```

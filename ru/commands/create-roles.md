@@ -1,5 +1,5 @@
 # create:roles
-commands.create.roles.description
+Create dummy roles for your Drupal 8 application.
 
 **Использование:**
 ```
@@ -10,4 +10,14 @@ crr
 ## Доступные параметры
 Команда | Детали
 -------|-------------
---limit | commands.create.roles.options.limit
+--limit | How many roles would you like to create
+
+## Примеры
+* Provide roles.
+```
+drupal create:roles
+```
+* Provide the number of roles to create
+```
+drupal create:roles
+```

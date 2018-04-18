@@ -10,21 +10,21 @@ si
 ## Available options
 Option | Details
 -------|-------------
---langcode | commands.site.install.options.langcode
---db-type | commands.site.install.options.db-type
---db-file | commands.site.install.options.db-file
+--langcode | A Drupal nyelve
+--db-type | A telepítéskor használandó Drupal adatbázis
+--db-file | A telepítéskor használandó Drupal adatbázisfájl
 --db-host | Adatbázis-gazdagép
 --db-name | Adatbázis neve
 --db-user | Adatbázis-felhasználó
 --db-pass | Adatbázis jelszó
 --db-prefix | Adatbázis előtag
 --db-port | Adatbázis port
---site-name | commands.site.install.options.site-name
---site-mail | commands.site.install.options.site-mail
---account-name | commands.site.install.options.account-name
---account-mail | commands.site.install.options.account-mail
---account-pass | commands.site.install.options.account-pass
---force | commands.site.install.options.force
+--site-name | A Drupal webhely neve
+--site-mail | A Drupal webhely e-mail címe
+--account-name | A Drupal adminisztrátori fiók neve
+--account-mail | A Drupal adminisztrátori fiók e-mail címe
+--account-pass | A Drupal adminisztrátori fiók jelszava
+--force | Force to reinstall the site
 
 ## Available arguments
 Argument | Details

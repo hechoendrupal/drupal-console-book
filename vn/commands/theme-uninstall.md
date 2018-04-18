@@ -5,13 +5,12 @@ Gỡ cài đặt theme hay các themes trong ứng dụng
 ```
 drupal theme:uninstall [arguments]
 thu
-tu
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | commands.theme.uninstall.options.module
+theme | theme hay các themes sẽ gỡ bỏ cần được chia ra bởi dấu phẩy
 
 ## Examples
 * Uninstall theme specifying the name

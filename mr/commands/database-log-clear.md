@@ -1,25 +1,25 @@
 # database:log:clear
 DBLog सारणीतून कार्यक्रम काढा, फिल्टर उपलब्ध आहेत.
 
-**Usage:**
+**वापर:**
 ```
 drupal database:log:clear [arguments] [options]
 dblc
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --type | विशिष्ट प्रकाराद्वारे इव्हेंट फिल्टर करा.
 --severity | एका विशिष्ट स्तर तीव्रतेने इव्हेंट फिल्टर करा.
 --user-id | विशिष्ट वापरकर्ता आयडी द्वारे इव्हेंट फिल्टर करा.
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 event-id | DBLog इव्हेंट आयडी.
 
-## Examples
+## उदाहरणे
 * DBLog सारणीतून डेटाबेस लॉग साफ करा.
 ```
 drupal database:log:clear \

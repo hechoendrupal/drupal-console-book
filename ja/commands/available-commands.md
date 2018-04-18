@@ -8,6 +8,7 @@ Drupal Console Command | Details
 [about](about.md) | Drupal Consoleプロジェクトについての基本情報を表示
 [chain](chain.md) | 連続した複数のコマンドを実行
 [check](check.md) | 動作環境をチェックする
+[composerize](composerize.md) | Converts Drupal codebase to composer.
 [exec](exec.md) | 外部コマンドを実行する
 [help](help.md) | コマンドのヘルプを表示する
 [init](init.md) | 設定ファイルをユーザーのホームディレクトリにコピーする
@@ -16,6 +17,7 @@ Drupal Console Command | Details
 [server](server.md) | PHPのbuilt-in web serverでDrupalを起動する
 **cache**  |
 [cache:rebuild](cache-rebuild.md) | キャッシュのクリアと再生成
+[cache:tag:invalidate](cache-tag-invalidate.md) | Invalidate cache tags.
 **config**  |
 [config:delete](config-delete.md) | 設定を削除する
 [config:diff](config-diff.md) | Ouput configuration items that are different in active configuration compared with a directory.
@@ -28,9 +30,12 @@ Drupal Console Command | Details
 [config:import:single](config-import-single.md) | Import the selected configuration.
 [config:override](config-override.md) | Override config value in active configuration.
 [config:validate](config-validate.md) | Validate a drupal config against its schema
+**config_update**  |
+[config_update:default](config_update-default.md) | commands.config_update.default.description
 **create**  |
 [create:comments](create-comments.md) | ダミーのコメントを作成
 [create:nodes](create-nodes.md) | ダミーのノードを作成
+[create:roles](create-roles.md) | Create dummy roles for your Drupal 8 application.
 [create:terms](create-terms.md) | ダミーのタームを作成
 [create:users](create-users.md) | ダミーのユーザーを作成
 [create:vocabularies](create-vocabularies.md) | ダミーのボキャブラリーを追加
@@ -70,56 +75,50 @@ Drupal Console Command | Details
 [debug:plugin](debug-plugin.md) | Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 [debug:queue](debug-queue.md) | キューを表示
 [debug:rest](debug-rest.md) | Restリソースを表示
+[debug:roles](debug-roles.md) | Displays current roles for the application
 [debug:router](debug-router.md) | ルートを表示
 [debug:settings](debug-settings.md) | Drupal Consoleのユーザー設定を表示する
 [debug:site](debug-site.md) | 全てのローカルおよびリモートサイトを表示する
 [debug:state](debug-state.md) | ステートキーを表示
 [debug:test](debug-test.md) | ユニットテストの一覧を表示
 [debug:theme](debug-theme.md) | テーマの情報を表示
+[debug:theme:keys](debug-theme-keys.md) | Displays all theme keys provided by hook_theme functions
 [debug:update](debug-update.md) | 利用可能なアップデートを表示
 [debug:user](debug-user.md) | ユーザー情報を表示
 [debug:views](debug-views.md) | Viewsのリソースを表示する
 [debug:views:plugins](debug-views-plugins.md) | Viewsのプラグインを表示
 **devel**  |
-[devel:dumper](devel-dumper.md) | Change the devel dumper plugin
-**develop**  |
-[develop:contribute](develop-contribute.md) | 
-[develop:example](develop-example.md) | 
-[develop:example:container:aware](develop-example-container-aware.md) | 
-[develop:gitbook](develop-gitbook.md) | Update gitbook
+[devel:dumper](devel-dumper.md) | commands.devel.dumper.messages.change-devel-dumper-plugin
+**docker**  |
+[docker:init](docker-init.md) | Create a docker-compose.yml file
 **dotenv**  |
 [dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
 [dotenv:init](dotenv-init.md) | Dotenv initializer.
 **entity**  |
 [entity:delete](entity-delete.md) | Delete an specific entity
-**extend**  |
-[extend:example:one](extend-example-one.md) | Drupal Console extend example
-[extend:example:two](extend-example-two.md) | Drupal Console extend example
 **features**  |
 [features:import](features-import.md) | Import module config.
 **field**  |
 [field:info](field-info.md) | View information about fields.
 **generate**  |
+[generate:ajax:command](generate-ajax-command.md) | Generate & Register a custom ajax command
 [generate:authentication:provider](generate-authentication-provider.md) | Generate an Authentication Provider
 [generate:breakpoint](generate-breakpoint.md) | Generate breakpoint
 [generate:cache:context](generate-cache-context.md) | Generate a cache context
 [generate:command](generate-command.md) | Generate commands for the console.
 [generate:controller](generate-controller.md) | Generate & Register a controller
-[generate:doc:cheatsheet](generate-doc-cheatsheet.md) | commands.generate.doc.cheatsheet.description
-[generate:doc:dash](generate-doc-dash.md) | commands.generate.doc.dash.description
-[generate:doc:data](generate-doc-data.md) | commands.generate.doc.data.description
-[generate:doc:gitbook](generate-doc-gitbook.md) | commands.generate.doc.gitbook.description
 [generate:entity:bundle](generate-entity-bundle.md) | Generate a new content type (node / entity bundle)
 [generate:entity:config](generate-entity-config.md) | Generate a new config entity
 [generate:entity:content](generate-entity-content.md) | Generate a new content entity
 [generate:event:subscriber](generate-event-subscriber.md) | Generate an event subscriber
-[generate:form](generate-form.md) | Generate a new "%s"
+[generate:form](generate-form.md) | Generate a new "FormBase"
 [generate:form:alter](generate-form-alter.md) | Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter
-[generate:form:config](generate-form-config.md) | commands.generate.form.description
+[generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
 [generate:help](generate-help.md) | Generate an implementation of hook_help()
+[generate:jstest](generate-jstest.md) | Generate a JavaScript test.
 [generate:module](generate-module.md) | Generate a module.
 [generate:module:file](generate-module-file.md) | Generate a .module file
-[generate:permissions](generate-permissions.md) | commands.generate.permission.description
+[generate:permissions](generate-permissions.md) | Generate module permissions
 [generate:plugin:block](generate-plugin-block.md) | Generate a plugin block
 [generate:plugin:ckeditorbutton](generate-plugin-ckeditorbutton.md) | Generate CKEditor button plugin.
 [generate:plugin:condition](generate-plugin-condition.md) | Generate a plugin condition.
@@ -138,10 +137,11 @@ Drupal Console Command | Details
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Generate a plugin type with annotation discovery
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Generate a plugin type with Yaml discovery
 [generate:plugin:views:field](generate-plugin-views-field.md) | Generate a custom plugin view field.
-[generate:post:update](generate-post-update.md) | commands.generate.post:update.description
+[generate:post:update](generate-post-update.md) | Generate an implementation of hook_post_update_NAME()
 [generate:profile](generate-profile.md) | Generate a profile.
 [generate:routesubscriber](generate-routesubscriber.md) | Generate a RouteSubscriber
 [generate:service](generate-service.md) | Generate service
+[generate:site:alias](generate-site-alias.md) | Generates a site alias.
 [generate:theme](generate-theme.md) | Generate a theme.
 [generate:twig:extension](generate-twig-extension.md) | Generate a Twig extension.
 [generate:update](generate-update.md) | Generate an implementation of hook_update_N()
@@ -156,7 +156,7 @@ Drupal Console Command | Details
 [migrate:rollback](migrate-rollback.md) | Rollback one or multiple migrations
 [migrate:setup](migrate-setup.md) | Load and create the relevant migrations for a provided legacy database
 **module**  |
-[module:dependency:install](module-dependency-install.md) | commands.module.install.dependencies.description
+[module:dependency:install](module-dependency-install.md) | Install dependencies module in the application
 [module:download](module-download.md) | モジュールをダウンロード
 [module:install](module-install.md) | モジュールをインストール
 [module:path](module-path.md) | モジュールの相対パスまたは絶対パスを返す
@@ -164,15 +164,17 @@ Drupal Console Command | Details
 [module:update](module-update.md) | コアやモジュールを更新
 **multisite**  |
 [multisite:new](multisite-new.md) | Sets up the files for a new multisite install.
+[multisite:update](multisite-update.md) | Update the files for a multisite installed.
 **node**  |
 [node:access:rebuild](node-access-rebuild.md) | ノードのアクセス権限を再構築します。全てのコンテンツに対する権限設定を削除し、現在のモジュールおよび設定で置き換えます。
 **queue**  |
 [queue:run](queue-run.md) | 選択したキューを処理する
-**quick**  |
-[quick:start](quick-start.md) | Download, install and serve a new Drupal project
 **rest**  |
 [rest:disable](rest-disable.md) | Restリソースを無効化する
 [rest:enable](rest-enable.md) | Restリソースを有効化する
+**role**  |
+[role:delete](role-delete.md) | Delete roles for the application
+[role:new](role-new.md) | Create roles for the application
 **router**  |
 [router:rebuild](router-rebuild.md) | ルートを再構築する
 **sample**  |
@@ -184,7 +186,6 @@ Drupal Console Command | Details
 [site:install](site-install.md) | Drupalプロジェクトをインストールする
 [site:maintenance](site-maintenance.md) | サイトをメンテナンスモードに切り替える
 [site:mode](site-mode.md) | システムのパフォーマンス設定を切り替える
-[site:new](site-new.md) | Download a new Drupal project
 [site:statistics](site-statistics.md) | サイトの統計情報を表示する
 [site:status](site-status.md) | Drupalのインストール状態を表示する
 **state**  |
@@ -199,11 +200,6 @@ Drupal Console Command | Details
 [theme:install](theme-install.md) | テーマをインストールする
 [theme:path](theme-path.md) | テーマの相対パスまたは絶対パスを返す
 [theme:uninstall](theme-uninstall.md) | テーマをアンインストールする
-**translation**  |
-[translation:cleanup](translation-cleanup.md) | commands.translation.cleanup.description
-[translation:pending](translation-pending.md) | commands.translation.pending.description
-[translation:stats](translation-stats.md) | commands.translation.stats.description
-[translation:sync](translation-sync.md) | commands.translation.sync.description
 **update**  |
 [update:entities](update-entities.md) | エンティティの更新を適用する
 [update:execute](update-execute.md) | Update N 関数を実行する
@@ -231,7 +227,7 @@ Option | Details
 --no-interaction | 対話的な質問を行わない
 --env | 環境の名前
 --root | コマンドを実行するDrupalのルートディレクトリを定義する
---debug | application.options.debug
+--debug | Switches on debug mode
 --learning | 冗長なコードの出力を行う
 --generate-chain | コマンドのオプションと引数をチェーンコマンドとして表示する
 --generate-inline | コマンドのオプションと引数をインラインコマンドとして表示する

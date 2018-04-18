@@ -1,28 +1,28 @@
 # debug:plugin
-显示所有插件类型,指定类型的插件实例,或指定插件的定义
+显示所有插件类型。
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:plugin [arguments]
 dpl
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 type | 插件类型
 id | 插件 ID
 
-## Examples
-* Displays a list with all the plugins on the current site
+## 例子
+* 显示当前站点上所有插件的列表
 ```
 drupal debug:plugin
 ```
-* Displays block plugin information
+* 显示区块插件信息
 ```
 drupal debug:plugin block
 ```
-* Displays block broken information
+* 显示区块损坏信息
 ```
 drupal debug:plugin block broken
 ```

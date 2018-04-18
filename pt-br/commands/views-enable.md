@@ -1,18 +1,18 @@
 # views:enable
 Habilitar uma View
 
-**Usage:**
+**Utilização:**
 ```
 drupal views:enable [arguments]
 ve
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
-view-id | commands.views.debug.arguments.view-id
+view-id | ID da View
 
-## Examples
+## Exemplos
 * Enable content view
 ```
 drupal views:enable  content

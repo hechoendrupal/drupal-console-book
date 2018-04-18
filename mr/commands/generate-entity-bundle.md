@@ -1,21 +1,21 @@
 # generate:entity:bundle
-नवीन सामग्री प्रकार उत्पन्न करा (नोड / संस्था बंडल)
+नवीन सामग्री प्रकार उत्पन्न करा (नोड / एंटिटीचे बंडल)
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:entity:bundle [options]
 geb
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --bundle-name | सामग्रीचे प्रकारचे मशीन नाव.
 --bundle-title | सामग्री प्रकारचे मानवी-वाचनीय नाव.
 
-## Examples
-* Generate bundle entity specifying the module, the bundle name and its title
+## उदाहरणे
+* मॉड्यूल, बंडल नाव आणि त्याचे शीर्षक निर्दिष्ट बंडल अस्तित्व उत्पन्न करा.
 ```
 drupal generate:entity:bundle  \
   --module="modulename"  \

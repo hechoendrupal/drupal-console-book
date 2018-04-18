@@ -5,7 +5,6 @@
 ```
 drupal theme:install [arguments] [options]
 thi
-ti
 ```
 
 ## Available options
@@ -16,7 +15,7 @@ Option | Details
 ## Available arguments
 Argument | Details
 ---------|-------------
-theme | commands.theme.install.options.module
+theme | विषय या विषयों सक्षम होने के लिए एक अल्पविराम से अलग किया जाना चाहिए
 
 ## Examples
 * Install theme specifying the name

@@ -1,22 +1,22 @@
 # generate:plugin:fieldwidget
 生成字段 Widget 插件
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:plugin:fieldwidget [options]
 gpfw
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --class | 插件类名
 --label | 插件标签
 --plugin-id | 插件 ID
 --field-type | 字段类型，可以和该插件一起使用的字段类型
 
-## Examples
+## 例子
 * Generate a text type field widget plugin specifying the module name, the class, its label, the plugin id and the field type
 ```
 drupal generate:plugin:fieldwidget  \

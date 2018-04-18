@@ -5,7 +5,6 @@ Cron rendszerzár feloldása a cron újbóli futtatásához
 ```
 drupal cron:release
 cror
-crr
 ```
 
 ## Examples

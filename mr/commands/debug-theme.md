@@ -1,23 +1,24 @@
 # debug:theme
 अनुप्रयोगासाठी वर्तमान थीम प्रदर्शित करते.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:theme [arguments]
 dt
+tde
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-theme | Specific theme to debug.
+theme | डीबग करण्यासाठी विशिष्ट थीम.
 
-## Examples
-* List of themes on the site
+## उदाहरणे
+* साइटवरील थीमची सूची.
 ```
 drupal debug:theme
 ```
-* Bartik theme information
+* बार्टिक थीमची माहिती.
 ```
 drupal debug:theme bartik
 ```

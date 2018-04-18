@@ -5,6 +5,7 @@ Reconstruiți și curățați tot cache-ul.
 ```
 drupal cache:rebuild [arguments]
 cr
+cc
 ```
 
 ## Available arguments

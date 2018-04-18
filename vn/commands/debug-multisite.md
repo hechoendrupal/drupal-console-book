@@ -5,6 +5,7 @@ Liệt kê tất cả các multisites đang có sẵn trong hệ thống
 ```
 drupal debug:multisite
 dmu
+msd
 ```
 
 ## Examples

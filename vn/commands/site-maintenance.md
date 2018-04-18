@@ -10,7 +10,7 @@ sma
 ## Available arguments
 Argument | Details
 ---------|-------------
-mode | commands.site.maintenance.arguments.mode[on/off]
+mode | Chế độ bảo trì site
 
 ## Examples
 * Switch on maintenance

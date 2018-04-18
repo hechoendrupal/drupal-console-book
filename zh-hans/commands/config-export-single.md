@@ -1,30 +1,30 @@
 # config:export:single
-导出单个配置
+将单个配置或一系列配置导出为 yml 文件。
 
-**Usage:**
+**使用方法:**
 ```
 drupal config:export:single [options]
 ces
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
 --name | commands.config.export.single.options.name
 --directory | commands.config.export.arguments.directory
---module | 模块名称
---include-dependencies | 同时输出其他相关配置.
---optional | Export config as an optional YAML configuration in your module
---remove-uuid | If set, the configuration will be exported without uuid key.
---remove-config-hash | If set, the configuration will be exported without the default site hash key.
+--module | 模块名
+--include-dependencies | 导出配置的依赖关系。
+--optional | 将配置导出为模块中的可选 YAML 配置
+--remove-uuid | 如果设置，配置导出时将没有 uuid 键。
+--remove-config-hash | 如果设置，配置导出时将没有默认站点哈希键。
 
-## Examples
-* Provide config settings name to be exported
+## 例子
+* 提供要导出的配置设置名称
 ```
 drupal config:export:single \
   --name=config.settings.name
 ```
-* if uuid and/or config hashes will be removed.
+* uuid 和/或配置哈希将被删除。
 ```
 drupal config:export:single \
   --name=config.settings.name \

@@ -1,25 +1,25 @@
 # user:role
 दिलेल्या वापरकर्त्यासाठी भूमिका जोडते / काढते.
 
-**Usage:**
+**वापर:**
 ```
 drupal user:role [arguments]
 ur
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-operation | commands.user.role.operation
-user | commands.user.role.user
-role | commands.user.role.role
+operation | जोडा किंवा काढा.
+user | प्रभावित वापरकर्ता (केवळ एक).
+role | जोडण्यासाठी किंवा काढण्यासाठी भूमिका कृपया मशीनचे नाव (केवळ एकच) द्या.
 
-## Examples
-* Add administrator role to the user admin specifying the username and the role
+## उदाहरणे
+* वापरकर्ता प्रशासनामध्ये वापरकर्ता प्रशासकीय व्यवस्थापक नाव आणि भूमिका निर्दिष्ट करा.
 ```
 drupal user:role  add admin administrator
 ```
-* Remove administrator role from the user admin specifying the username and the role
+* वापरकर्ता प्रशासनाकडून वापरकर्तानाव आणि भूमिका निर्दिष्ट करणारा प्रशासक भूमिका काढून टाका.
 ```
 drupal user:role  remove admin administrator
 ```

@@ -1,12 +1,12 @@
 # debug:features
 List registered features.
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:features [arguments]
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 bundle | Bundle name

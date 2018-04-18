@@ -5,6 +5,7 @@
 ```
 drupal debug:theme [arguments]
 dt
+tde
 ```
 
 ## Available arguments

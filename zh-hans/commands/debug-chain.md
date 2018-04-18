@@ -1,7 +1,7 @@
 # debug:chain
-列出可用链式命令文件
+列出可用的链命令文件。
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:chain
 dch

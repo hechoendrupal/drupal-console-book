@@ -5,7 +5,6 @@
 ```
 drupal theme:download [arguments] [options]
 thd
-td
 ```
 
 ## Available options

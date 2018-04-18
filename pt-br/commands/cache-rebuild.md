@@ -1,18 +1,19 @@
 # cache:rebuild
 Reconstruir e limpar todos os caches do site.
 
-**Usage:**
+**Utilização:**
 ```
 drupal cache:rebuild [arguments]
 cr
+cc
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 cache | Apenas limpar um cache específico.
 
-## Examples
+## Exemplos
 * Reconstruir todos os caches
 ```
 drupal cr all

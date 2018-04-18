@@ -5,7 +5,6 @@
 ```
 drupal rest:disable [arguments]
 red
-redi
 ```
 
 ## Available arguments

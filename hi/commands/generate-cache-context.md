@@ -11,7 +11,7 @@ gcc
 Option | Details
 -------|-------------
 --module | मोड्यूल का नाम।
---cache-context | Enter the cache context name
+--cache-context | The cache context name
 --class | Cache context class name
 --services | सर्विसेज़ को container से लोड करें।
 

@@ -10,21 +10,21 @@ si
 ## Available options
 Option | Details
 -------|-------------
---langcode | commands.site.install.options.langcode
---db-type | commands.site.install.options.db-type
---db-file | commands.site.install.options.db-file
+--langcode | Ngôn ngữDrupal
+--db-type | Loại Drupal Database sẽ được sử dụng trong quá trình cài đặt
+--db-file | Drupal Database file sẽ được sử dụng trong quá trình cài đặt
 --db-host | Máy chủ cơ sở dữ liệu
 --db-name | Tên cơ sở dữ liệu
 --db-user | Người dùng cơ sở dữ liệu
 --db-pass | Mật khẩu cơ sở dữ liệu
 --db-prefix | Tiền tố cơ sở dữ liệu
 --db-port | Cổng vào cơ sở dữ liệu
---site-name | commands.site.install.options.site-name
---site-mail | commands.site.install.options.site-mail
---account-name | commands.site.install.options.account-name
---account-mail | commands.site.install.options.account-mail
---account-pass | commands.site.install.options.account-pass
---force | commands.site.install.options.force
+--site-name | Tên Drupal site
+--site-mail | Drupal site mail
+--account-name | Tên tài khoản quản trị Drupal
+--account-mail | Mail tài khoản quản trị Drupal
+--account-pass | Mật khẩu tài khoản quản trị Drupal
+--force | Force to reinstall the site
 
 ## Available arguments
 Argument | Details

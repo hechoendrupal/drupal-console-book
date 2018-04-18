@@ -1,13 +1,13 @@
 # debug:settings
-列出用户Drupal控制台设置.
+列出用户的 Drupal Console 设置。
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:settings
 dse
 ```
 
-## Examples
+## 例子
 * 
 ```
 drupal debug:settings

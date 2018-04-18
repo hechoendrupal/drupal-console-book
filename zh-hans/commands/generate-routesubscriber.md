@@ -1,20 +1,20 @@
 # generate:routesubscriber
 生成一个路径订阅
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:routesubscriber [options]
 gr
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --name | 服务名
 --class | 类名
 
-## Examples
+## 例子
 * Generate a route subscriber specifying the module name, the route name and its class
 ```
 drupal generate:routesubscriber  \

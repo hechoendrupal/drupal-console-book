@@ -1,12 +1,12 @@
 # locale:language:add
 आपल्या साइटद्वारे समर्थित करण्यासाठी एक भाषा जोडा.
 
-**Usage:**
+**वापर:**
 ```
 drupal locale:language:add [arguments]
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 language | उदाहरणार्थ ईएस किंवा स्पॅनिश साठी भाषा.

@@ -1,5 +1,5 @@
 # role:new
-commands.role.new.description
+Create roles for the application
 
 **Использование:**
 ```
@@ -12,3 +12,9 @@ rn
 ---------|-------------
 rolename | commands.role.new.argument.rolename
 machine-name | commands.role.new.argument.machine-name
+
+## Примеры
+* Create role specifying rolename and machine-name
+```
+drupal role:new  moderator moderator
+```

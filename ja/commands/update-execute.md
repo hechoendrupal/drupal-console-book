@@ -5,17 +5,21 @@ Update N 関数を実行する
 ```
 drupal update:execute [arguments]
 upex
-upe
+updb
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
 module | モジュール名
-update-n | 実行するUpdate N 関数
+update-n | commands.update.execute.options.update-n
 
 ## Examples
 * Update all entities
 ```
 drupal update:execute
+```
+* Execute updates for system module
+```
+drupal update:execute system
 ```

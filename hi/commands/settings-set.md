@@ -18,7 +18,7 @@ Option | Details
 --no-interaction | Do not ask any interactive question
 --env | The Environment name
 --root | Define the Drupal root to be used in command execution
---debug | application.options.debug
+--debug | Switches on debug mode
 --learning | Generate a verbose code output
 --generate-chain | Shows command options and arguments as yaml output to be used in chain command
 --generate-inline | Shows command options and arguments as inline command

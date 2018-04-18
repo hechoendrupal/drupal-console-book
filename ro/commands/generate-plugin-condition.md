@@ -5,7 +5,6 @@ Generează o condiție pentru extensie.
 ```
 drupal generate:plugin:condition [options]
 gpco
-gpc
 ```
 
 ## Available options

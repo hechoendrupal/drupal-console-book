@@ -14,8 +14,8 @@ Option | Details
 --type-class | Numele clasei extensiei de tip câmp
 --type-label | Eticheta extensiei de tip câmp
 --type-plugin-id | ID-ul extensiei de tip câmp
---type-description | commands.generate.plugin.field.options.type-type-description
---formatter-class | commands.generate.plugin.field.options.class
+--type-description | Descrierea extensiei de tip câmp
+--formatter-class | Numele clasei extensiei de formatare a câmpului
 --formatter-label | Eticheta extensiei de formatare a câmpului
 --formatter-plugin-id | ID-ul extensiei de formatare a câmpului
 --widget-class | Numele clasei extensiei de formatare a câmpului

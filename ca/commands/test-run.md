@@ -1,19 +1,19 @@
 # test:run
 Executa els Test Units disponibles per l'aplicació
 
-**Ús:**
+**Usage:**
 ```
-$ drupal test:run [arguments] [options]
-$ tr  
+drupal test:run [arguments] [options]
+ter
 ```
 
-## Opcions disponibles
-Opció | Detalls
+## Available options
+Option | Details
 -------|-------------
---url | commands.test.run.arguments.url
+--url | Test url
 
-## Arguments disponibles
-Argument | Detalls
+## Available arguments
+Argument | Details
 ---------|-------------
 test-class | Classe de verificació
 test-methods | Test method(s) to be run

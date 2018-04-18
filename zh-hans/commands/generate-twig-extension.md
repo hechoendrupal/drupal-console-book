@@ -1,21 +1,21 @@
 # generate:twig:extension
 生成一个 Twig 扩展
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:twig:extension [options]
 gte
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --name | Twig 扩展名称
 --class | 类名
---services | 从容器中导入服务
+--services | 从容器加载服务。
 
-## Examples
+## 例子
 * Generate a twig extension specifying the module name, the extension name and its class
 ```
 drupal generate:twig:extension  \

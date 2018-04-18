@@ -1,14 +1,14 @@
 # database:add
 Settings.php वर एक डेटाबेस जोडा.
 
-**Usage:**
+**वापर:**
 ```
 drupal database:add [options]
 dba
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --database | डेटाबेसचे नाव.
 --username | डेटाबेस वापरकर्तानाव.
@@ -18,7 +18,7 @@ Option | Details
 --port | डेटाबेस होस्ट पोर्ट.
 --driver | डेटाबेस ड्राइव्हर.
 
-## Examples
+## उदाहरणे
 * Settings.php एक डेटाबेस जोडा.
 ```
 drupal database:add \

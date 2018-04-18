@@ -1,21 +1,21 @@
 # generate:plugin:skeleton
 Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:plugin:skeleton [options]
 gps
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --module | O nome do módulo.
---plugin-id | commands.generate.plugin.options.plugin-id
---class | Nome da classe do plugin
+--plugin-id | The Plugin Id.
+--class | Plugin class name
 --services | Carrega serviços do container.
 
-## Examples
+## Exemplos
 * Generate a plugin skeleton specifying module name, the plugin id and the class
 ```
 drupal generate:plugin:skeleton  \

@@ -1,24 +1,24 @@
 # config:diff
-Ouput configuration items that are different in active configuration compared with a directory.
+Mostra os itens de configuração que são diferentes na configuração ativa em comparação com um diretório.
 
-**Usage:**
+**Utilização:**
 ```
 drupal config:diff [arguments] [options]
 cdi
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
---reverse | See the changes in reverse (i.e diff a directory to the active configuration).
+--reverse | Veja as mudanças em sentido inverso (por exemplo, diff de um diretório para a configuração ativa).
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
-directory | The directory to diff against. If omitted, choose from Drupal config directories.
+directory | O diretório para diferenciar. Se omitido, escolha dos diretórios de configuração do Drupal.
 
-## Examples
-* Provide a config directory
+## Exemplos
+* Forneça um diretório de configuração
 ```
 drupal config:diff ../config/path
 ```

@@ -1,28 +1,28 @@
 # debug:database:table
 दिलेल्या डेटाबेसमध्ये सर्व सारण्या दर्शवा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:database:table [arguments] [options]
 ddt
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --database | Settings.php पासून डेटाबेस की.
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 table | टेबल डीबग करण्यासाठी.
 
-## Examples
-* Show all tables on a database
+## उदाहरणे
+* डेटाबेसवर सर्व टेबल्स दर्शवा.
 ```
 drupal debug:database:table
 ```
-* Show fields on the node table or another specified on the argument
+* वितर्क वर निर्दिष्ट केलेल्या नोड सारणीवर फील्ड दर्शवा किंवा दुसरे.
 ```
 drupal debug:database:table node
 ```

@@ -1,20 +1,20 @@
 # generate:post:update
-commands.generate.post:update.description
+Hook_post_update_NAME() चा अंमलबजावणी उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:post:update [options]
 gpu
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --post-update-name | पोस्ट अद्यतन नाव.
 
-## Examples
-* Generate an implementation of post update hook specifying the module name and the post update name
+## उदाहरणे
+* मॉड्यूलचे नाव आणि पोस्ट अपडेट नाव दर्शविणारी पोस्ट अपडेट हुक अंमलबजावणी उत्पन्न करा.
 ```
 drupal generate:post:update  \
   --module="modulename"  \

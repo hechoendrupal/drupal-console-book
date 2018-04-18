@@ -1,5 +1,5 @@
 # generate:form
-Tạo một "%s" mới
+Generate a new "FormBase"
 
 **Usage:**
 ```
@@ -10,12 +10,12 @@ gf
 ## Available options
 Option | Details
 -------|-------------
---module | Tên module.
---class | Tên lớp của form
---form-id | ID của form
---services | Nạp các dịch vụ từ container.
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
 --config-file | Add a config file
---inputs | Tạo các đầu vào trong một form.
+--inputs | Create inputs in a form.
 --path | Enter the form path
 --menu-link-gen | Generate a menu link
 --menu-link-title | A title for the menu link

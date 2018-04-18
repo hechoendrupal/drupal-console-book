@@ -1,25 +1,25 @@
 # config:edit
-编辑配置
+使用文本编辑器更改配置对象。
 
-**Usage:**
+**使用方法:**
 ```
 drupal config:edit [arguments]
 ced
 cdit
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-config-name | 配置名称
-editor | 编辑器
+config-name | 配置对象名称，例如 "user.settings"。
+editor | 编辑器，例如 "vim" 或 "gedit"。
 
-## Examples
-* Edit system cron configurations with "vim" (default editor).
+## 例子
+* 使用 "vim"（默认编辑器）编辑系统 cron 配置。
 ```
 drupal config:edit system.cron
 ```
-* Edit system cron configurations with "gedit".
+* 使用用 "gedit" 编辑系统 cron 配置。
 ```
 drupal config:edit system.cron gedit
 ```

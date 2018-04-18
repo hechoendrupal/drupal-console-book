@@ -1,24 +1,24 @@
 # debug:rest
-显示当前 REST 资源
+显示应用程序的当前 REST 资源
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:rest [arguments] [options]
 rede
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---authorization | REST 资源状态 启用 | 禁用
+--authorization | REST 资源状态 enabled | disabled
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-resource-id | REST 资源 ID
+resource-id | REST ID
 
-## Examples
-* Displays rest hooks
+## 例子
+* 显示 REST 钩子
 ```
 drupal debug:rest
 ```

@@ -5,7 +5,6 @@
 ```
 drupal generate:entity:content [options]
 geco
-gect
 ```
 
 ## Available options

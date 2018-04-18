@@ -1,23 +1,23 @@
 # views:enable
 एक दृश्य सक्षम करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal views:enable [arguments]
 ve
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
-view-id | commands.views.debug.arguments.view-id
+view-id | दृश्य आयडी
 
-## Examples
-* Enable content view
+## उदाहरणे
+* सामग्री दृश्य सक्षम करा.
 ```
 drupal views:enable  content
 ```
-* Enable frontpage view
+* FrontPage view सक्षम करा
 ```
 drupal views:enable  frontpage
 ```

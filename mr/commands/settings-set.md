@@ -1,13 +1,13 @@
 # settings:set
 Drupal Console कॉन्फिग फाइलमध्ये विशिष्ट सेटिंग मूल्य बदला.
 
-**Usage:**
+**वापर:**
 ```
 drupal settings:set [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -18,7 +18,7 @@ Option | Details
 --no-interaction | Do not ask any interactive question
 --env | The Environment name
 --root | Define the Drupal root to be used in command execution
---debug | application.options.debug
+--debug | Switches on debug mode
 --learning | Generate a verbose code output
 --generate-chain | Shows command options and arguments as yaml output to be used in chain command
 --generate-inline | Shows command options and arguments as inline command
@@ -27,15 +27,15 @@ Option | Details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 command | The command to execute
 name | Drupal Console कॉन्फिग फाइलमध्ये मूल्य सेट करण्यासाठी YAML मध्ये नाव सेट करणे फॅंटन स्वरूप.
 value | मूल्य Drupal Console कॉन्फिग फाइलमध्ये सेट करणे.
 
-## Examples
-* Set application language setting value to "es"
+## उदाहरणे
+* अनुप्रयोग भाषा सेटिंग मूल्य "%s" वर सेट करा.
 ```
 drupal settings:set  application.language es
 ```

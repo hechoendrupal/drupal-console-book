@@ -1,17 +1,19 @@
 # server
 运行PHP内建的网站服务器
 
-**Usage:**
+**使用方法:**
 ```
 drupal server [arguments]
+serve
+rs
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 address | IP地址:端口号
 
-## Examples
+## 例子
 * 用缺省地址和端口127.0.0.1:8088
 ```
 Drupal服务器

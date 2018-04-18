@@ -1,17 +1,16 @@
 # generate:entity:content
 生成新内容实体
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:entity:content [options]
 geco
-gect
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --entity-class | 内容实体类名
 --entity-name | 内容实体名称
 --base-path | 内容实体路由的基本路径
@@ -20,7 +19,7 @@ Option | Details
 --is-translatable | 内容实体可翻译
 --revisionable | commands.generate.entity.content.options.revisionable
 
-## Examples
+## 例子
 * Generate a content entity specifying the module, the entity class, the entity name, its path and label
 ```
 drupal generate:entity:content  \

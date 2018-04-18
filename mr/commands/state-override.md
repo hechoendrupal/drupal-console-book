@@ -1,20 +1,20 @@
 # state:override
 एखाद्या स्थिती की वर अधिशून्य करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal state:override [arguments]
 sto
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 key | अधिलिखित करण्यासाठी स्थिती की.
 value | सेट करण्यासाठी स्थिती मूल्य.
 
-## Examples
-* Override state value specifying the state name and the new value
+## उदाहरणे
+* स्थिती नाव अधोरेखीत करते आणि स्थिती नाव आणि नवीन मूल्य निर्दिष्ट करते.
 ```
 drupal state:override  comment.node_comment_statistics_scale "!!float 1"
 ```

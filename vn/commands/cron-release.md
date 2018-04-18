@@ -5,7 +5,6 @@ Giải phóng khoá cron hệ thống để cho phép chạy lại cron
 ```
 drupal cron:release
 cror
-crr
 ```
 
 ## Examples

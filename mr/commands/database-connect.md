@@ -1,18 +1,19 @@
 # database:connect
 डीबी कनेक्शन दर्शविते.
 
-**Usage:**
+**वापर:**
 ```
 drupal database:connect [arguments]
 dbco
+sqlc
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 database | Settings.php पासून डेटाबेस की.
 
-## Examples
+## उदाहरणे
 * निर्दिष्ट केलेल्या डेटाबेसशी कनेक्ट होते किंवा डीफॉल्ट नसल्यास वितर्क पास केले जातात.
 ```
 drupal database:connect \

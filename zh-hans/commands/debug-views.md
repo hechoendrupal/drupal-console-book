@@ -1,25 +1,25 @@
 # debug:views
-显示网站当前视图资源
+显示应用程序的当前视图资源
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:views [arguments] [options]
 vde
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
 --tag | 视图标签
---status | 视图状态(已启用|已禁用)
+--status | 视图状态 (Enabled|Disabled)
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-view-id | 视图ID
+view-id | 视图 ID
 
-## Examples
-* List of views on the site
+## 例子
+* 网站上的视图列表
 ```
 drupal debug:views
 ```

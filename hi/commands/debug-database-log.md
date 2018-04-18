@@ -5,6 +5,7 @@
 ```
 drupal debug:database:log [arguments] [options]
 dbb
+ws
 ```
 
 ## Available options

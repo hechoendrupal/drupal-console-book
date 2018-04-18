@@ -1,14 +1,14 @@
 # router:rebuild
 重建路由
 
-**Usage:**
+**使用方法:**
 ```
 drupal router:rebuild
 rr
 ror
 ```
 
-## Examples
+## 例子
 * Rebuild routes
 ```
 drupal router:rebuild

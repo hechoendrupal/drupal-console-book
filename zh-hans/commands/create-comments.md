@@ -1,32 +1,32 @@
 # create:comments
-创建评论
+为您的 Drupal 8 应用程序创建评论。
 
-**Usage:**
+**使用方法:**
 ```
 drupal create:comments [arguments] [options]
 crc
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---limit | 创建评论数量
+--limit | 您想要创建多少条评论
 --title-words | 评论标题中的最大单词数量
---time-range | 评论的创建时间区间
+--time-range | 评论的创建时间范围
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-node-id | 创建评论的节点 ID
+node-id | 创建评论依附的节点 ID
 
-## Examples
-* Provide the node id where the comments will be generated.
+## 例子
+* 提供生成评论的节点 ID。
 ```
-drupal create:comments  node-id
+drupal create:comments node-id
 ```
-* Provide number of comments to generate, max title words and time range.
+* 提供生成的评论数量，最大标题字和时间范围。
 ```
-drupal create:comments  node-id \
+drupal create:comments node-id \
   --limit="2" \
   --title-words="5" \
   --time-range="1"

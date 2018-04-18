@@ -4,6 +4,8 @@ A PHP beépített webkiszolgálójának futtatása
 **Usage:**
 ```
 drupal server [arguments]
+serve
+rs
 ```
 
 ## Available arguments

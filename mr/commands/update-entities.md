@@ -1,14 +1,14 @@
 # update:entities
 अस्तित्व सुधारणा अर्ज
 
-**Usage:**
+**वापर:**
 ```
 drupal update:entities
 upe
 ```
 
-## Examples
-* Update entities
+## उदाहरणे
+* अस्तित्व अद्यतनित करा.
 ```
 drupal update:entities
 ```

@@ -1,15 +1,14 @@
 # generate:controller
 उत्पन्न करा आणि कंट्रोलर नोंदवा
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:controller [options]
 gcon
-gcn
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | कंट्रोलर वर्ग नाव
@@ -17,8 +16,8 @@ Option | Details
 --services | कंटेनर मधून सेवा भरा.
 --test | चाचणी वर्ग उत्पन्न करा
 
-## Examples
-* Generate controller specifying the module name, the class name and its routes
+## उदाहरणे
+* मॉड्युल नाव, वर्ग नाव व त्याचे रूट निर्दिष्ट करणारा कंट्रोलर उत्पन्न करा.
 ```
 drupal generate:controller  \
   --module="modulename"  \

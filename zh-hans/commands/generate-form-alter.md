@@ -1,20 +1,20 @@
 # generate:form:alter
 生成 hook_form_alter() 或 hook_form_FORM_ID_alter 实现
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:form:alter [options]
 gfa
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --form-id | 要修改（Alter）的的表单(Form)ID
---inputs | 创建一个输入表单
+--inputs | 在表单中创建输入。
 
-## Examples
+## 例子
 * Generate a hook form alter for an empty form specifying the module name
 ```
 drupal generate:form:alter  \

@@ -1,13 +1,13 @@
 # update:entities
 应用实体更新
 
-**Usage:**
+**使用方法:**
 ```
 drupal update:entities
 upe
 ```
 
-## Examples
+## 例子
 * Update entities
 ```
 drupal update:entities

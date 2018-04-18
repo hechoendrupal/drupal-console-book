@@ -1,18 +1,18 @@
 # features:import
 मॉड्यूल कॉन्फिगरेशन आयात करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal features:import [arguments] [options]
 fei
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --bundle | बंडल नाव
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 packages | बंडल नाव

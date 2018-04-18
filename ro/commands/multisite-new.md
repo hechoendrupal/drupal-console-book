@@ -5,6 +5,7 @@ Sets up the files for a new multisite install.
 ```
 drupal multisite:new [arguments] [options]
 mun
+sn
 ```
 
 ## Available options

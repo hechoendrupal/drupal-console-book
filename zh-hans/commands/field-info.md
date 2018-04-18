@@ -1,14 +1,14 @@
 # field:info
 View information about fields.
 
-**Usage:**
+**使用方法:**
 ```
 drupal field:info [options]
 fii
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
 --detailed | Extended output with machine names and descriptions
 --entity | Restrict to a specific fieldabe entity type, for example: node, comment, taxonomy_term, shortcut, block_content, contact_message

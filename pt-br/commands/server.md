@@ -1,17 +1,19 @@
 # server
 Executar o servidor PHP atual
 
-**Usage:**
+**Utilização:**
 ```
 drupal server [arguments]
+serve
+rs
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 address | Valores de endereço:porta
 
-## Examples
+## Exemplos
 * Executar com o endereço padrão 127.0.0.1:8088
 ```
 drupal server

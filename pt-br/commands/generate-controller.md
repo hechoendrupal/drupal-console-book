@@ -1,15 +1,14 @@
 # generate:controller
 Cria e Registra um controller
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:controller [options]
 gcon
-gcn
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --module | O nome do módulo.
 --class | Nome da classe do Controller
@@ -17,7 +16,7 @@ Option | Details
 --services | Carrega serviços do container.
 --test | Criar uma classe de teste
 
-## Examples
+## Exemplos
 * Generate controller specifying the module name, the class name and its routes
 ```
 drupal generate:controller  \

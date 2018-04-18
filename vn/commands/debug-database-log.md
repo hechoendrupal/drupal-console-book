@@ -5,6 +5,7 @@ Hiển thị các dấu sự kiện hiện tại cho ứng dụng
 ```
 drupal debug:database:log [arguments] [options]
 dbb
+ws
 ```
 
 ## Available options

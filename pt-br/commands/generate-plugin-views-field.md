@@ -1,21 +1,21 @@
 # generate:plugin:views:field
 Generate a custom plugin view field.
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:plugin:views:field [options]
 gpvf
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --module | O nome do módulo.
 --class | Views plugin field class name
 --title | Views plugin field title
 --description | Views plugin field description
 
-## Examples
+## Exemplos
 * Generate a custom view field plugin specifying the module name, the class, a title and its description
 ```
 drupal generate:plugin:views:field  \

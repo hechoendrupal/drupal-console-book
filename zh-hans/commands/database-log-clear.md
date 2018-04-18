@@ -1,31 +1,31 @@
 # database:log:clear
-清除事件日志
+从 DBLog 表中删除事件，过滤器可用
 
-**Usage:**
+**使用方法:**
 ```
 drupal database:log:clear [arguments] [options]
 dblc
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---type | 用指定类型过滤事件
---severity | 用指定的严重等级过滤事件
---user-id | 用指定的用户ID过滤事件
+--type | 按特定类型过滤事件
+--severity | 按特定级别的严重等级过滤事件
+--user-id | 按特定用户 ID 过滤事件
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 event-id | DBLog 事件 ID
 
-## Examples
-* Clear the database log from DBLog table
+## 例子
+* 从 DBLog 表中清除数据库日志
 ```
 drupal database:log:clear \
   <database>
 ```
-* Clear the database log from DBLog table using filters
+* 使用过滤器从 DBLog 表中清除数据库日志
 ```
 drupal database:log:clear \
   <database> \

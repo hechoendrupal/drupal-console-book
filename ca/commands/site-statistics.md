@@ -1,7 +1,8 @@
 # site:statistics
 Mostrar les estadístiques del lloc web.
 
-**Ús:**
+**Usage:**
 ```
-$ drupal site:statistics
+drupal site:statistics
+sst
 ```

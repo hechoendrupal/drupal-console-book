@@ -1,20 +1,25 @@
 # user:login:url
 Cria uma URL de login de uso único.
 
-**Usage:**
+**Utilização:**
 ```
 drupal user:login:url [arguments]
 ulu
-uslu
+usli
+uli
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
-user-id | ID do usuário.
+user | User name/id.
 
-## Examples
+## Exemplos
 * Get one time login url for user id 1
 ```
 drupal user:login:url  1
+```
+* Get one time login url for username jmolivas
+```
+drupal user:login:url jmolivas
 ```

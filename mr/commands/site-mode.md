@@ -1,23 +1,23 @@
 # site:mode
 सिस्टम कार्यक्षमता कॉन्फिगरेशन स्विच करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal site:mode [arguments]
 smo
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 environment | पर्यावरण नाव[dev, prod]
 
-## Examples
-* Switch system to prod
+## उदाहरणे
+* prod करण्यास प्रणाली स्विच करा.
 ```
 drupal site:mode  prod
 ```
-* Switch system to dev
+* dev करण्यास प्रणाली स्विच करा.
 ```
 drupal site:mode  dev
 ```

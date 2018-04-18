@@ -1,24 +1,45 @@
 # generate:form:config
-commands.generate.form.description
+Generate a new "ConfigFormBase"
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:form:config [options]
-gf
 gfc
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
---module | मॉड्यूलचे नाव.
---class | फॉर्म क्लास नाव
---form-id | फॉर्म आयडी
---services | कंटेनर मधून सेवा भरा.
---config-file | एक कॉन्फिग फाइल जोडा.
---inputs | फॉर्म मध्ये इनपुट तयार करा.
---path | फॉर्म पथ प्रविष्ट करा.
---menu-link-gen | मेनू लिंक उत्पन्न करा.
---menu-link-title | मेन्यू लिंकसाठी एक शीर्षक.
---menu-parent | मेनू पालक.
---menu-link-desc | मेन्यू लिंकसाठी एक वर्णन.
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
+--config-file | Add a config file
+--inputs | Create inputs in a form.
+--path | Enter the form path
+--menu-link-gen | Generate a menu link
+--menu-link-title | A title for the menu link
+--menu-parent | Menu parent
+--menu-link-desc | A description for the menu link
+
+## उदाहरणे
+* Generate an empty form with config file specifying the module name, the class, a form id and the path
+```
+drupal generate:form:config  \
+  --module="modulename"  \
+  --class="DefaultForm"  \
+  --form-id="default_form"  \
+  --config-file  \
+  --path="/modulename/form/default"
+```
+* Generate a form with 2 fields and a config file specifying the module name, the class, a form id, the inputs and the path
+```
+drupal generate:form:config  \
+  --module="modulename"  \
+  --class="DefaultForm"  \
+  --form-id="default_form"  \
+  --config-file  \
+  --inputs='"name":"inputname", "type":"text_format", "label":"InputName", "options":"", "description":"Just a text input", "maxlength":"", "size":"", "default_value":"", "weight":"0", "fieldset":""'  \
+  --inputs='"name":"email", "type":"email", "label":"Email", "options":"", "description":"Just an email input", "maxlength":"", "size":"", "default_value":"", "weight":"0", "fieldset":""'  \
+  --path="/modulename/form/default"
+```

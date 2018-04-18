@@ -5,6 +5,7 @@
 ```
 drupal debug:multisite
 dmu
+msd
 ```
 
 ## Examples

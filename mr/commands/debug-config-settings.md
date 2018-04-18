@@ -1,13 +1,13 @@
 # debug:config:settings
 चालू की प्रदर्शित करते: सेटिंग्ज फाइलवरील मूल्य.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:config:settings
 dcs
 ```
 
-## Examples
+## उदाहरणे
 * की प्रदर्शित करते: सेटिंग फाइलनुसार मूल्य.
 ```
 drupal debug:config:settings

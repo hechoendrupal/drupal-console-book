@@ -10,7 +10,7 @@ dc
 ## Доступные параметры
 Команда | Детали
 -------|-------------
---show-overridden | commands.debug.config.options.show-overridden
+--show-overridden | Show overridden configurations.
 
 ## Доступные аргументы
 Аргумент | Детали
@@ -29,4 +29,8 @@ drupal config:debug system.site
 * Выводит все имена кофигурации содержащие system.
 ```
 drupal config:debug | grep system
+```
+* List all configuration including overridden values.
+```
+drupal debug:config --show-overridden
 ```

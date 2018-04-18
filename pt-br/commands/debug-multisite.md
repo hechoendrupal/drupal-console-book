@@ -1,13 +1,14 @@
 # debug:multisite
 Listar todos os multi-sites disponíveis no sistema
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:multisite
 dmu
+msd
 ```
 
-## Examples
+## Exemplos
 * Displays multisite information
 ```
 drupal debug:multisite

@@ -12,10 +12,14 @@ uli
 ## Доступные аргументы
 Аргумент | Детали
 ---------|-------------
-user | commands.user.login.url.options.user
+user | User name/id.
 
 ## Примеры
 * Сгенерировать одноразовую ссылку для входа пользователя с идентификатором 1
 ```
 drupal user:login:url  1
+```
+* Get one time login url for username jmolivas
+```
+drupal user:login:url jmolivas
 ```

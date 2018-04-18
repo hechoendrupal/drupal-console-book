@@ -1,24 +1,24 @@
 # database:dump
 डंप संरचना आणि डेटाबेसची सामग्री.
 
-**Usage:**
+**वापर:**
 ```
 drupal database:dump [arguments] [options]
 dbdu
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --file | आपल्या डेटाबेस बॅकअपसाठी फाइलनाव.
 --gz | जर तुम्हाला हवे असेल तर एससीएल रिझल्ट फाइल gzipped
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 database | Settings.php पासून डेटाबेस की.
 
-## Examples
+## उदाहरणे
 * डिफॉल्ट डेटाबेस किंवा वितर्क वर निर्दिष्ट केलेले डेटा डंप करा.
 ```
 drupal database:dump \

@@ -1,19 +1,19 @@
 # views:disable
 Desabilitar uma View
 
-**Usage:**
+**Utilização:**
 ```
 drupal views:disable [arguments]
 vd
 vdi
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
-view-id | commands.views.debug.arguments.view-id
+view-id | ID da View
 
-## Examples
+## Exemplos
 * Disable content view
 ```
 drupal views:disable  content

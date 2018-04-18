@@ -1,14 +1,14 @@
 # debug:user
 Exibe informações dos usuários da aplicação
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:user [options]
 dus
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --uid | Filters the result list by uids [between quotes separated by spaces]
 --username | Filters the result list by usernames [between quotes separated by spaces]
@@ -16,7 +16,7 @@ Option | Details
 --roles | Filtrar por papéis
 --limit | Limitar quantidade de usuários a serem carregados
 
-## Examples
+## Exemplos
 * Users list on the site
 ```
 drupal debug:user

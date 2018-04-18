@@ -12,7 +12,7 @@ cod
 Команда | Детали
 -------|-------------
 --parameters | Имя сервиса.
---tag | commands.debug.container.options.tag
+--tag | Service tag 
 
 ## Доступные аргументы
 Аргумент | Детали

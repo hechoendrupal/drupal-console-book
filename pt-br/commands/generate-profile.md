@@ -1,24 +1,25 @@
 # generate:profile
 Generate a profile.
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:profile [options]
 gpr
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --profile | The profile name
 --machine-name | The machine name (lowercase and underscore only)
+--profile-path | The path of the profile
 --description | Profile description
 --core | Core version
 --dependencies | Module dependencies separated by commas (i.e. context, panels)
---themes | commands.generate.profile.options.themes
+--themes | the theme name
 --distribution | The distribution name
 
-## Examples
+## Exemplos
 * Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies
 ```
 drupal generate:profile  \

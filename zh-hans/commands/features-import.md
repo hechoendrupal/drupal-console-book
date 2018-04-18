@@ -1,18 +1,18 @@
 # features:import
-Import module config.
+导入模块配置
 
-**Usage:**
+**使用方法:**
 ```
 drupal features:import [arguments] [options]
 fei
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
 --bundle | Bundle name
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-packages | Package name
+packages | 包名

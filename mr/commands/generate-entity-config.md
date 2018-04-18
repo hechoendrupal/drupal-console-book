@@ -1,25 +1,24 @@
 # generate:entity:config
-नवीन कॉन्फिग संस्था उत्पन्न करा.
+नवीन कॉन्फिग एंटिटी उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:entity:config [options]
 gec
-gecg
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
---entity-class | कॉन्फिग संस्था वर्ग.
+--entity-class | कॉन्फिग एंटिटी वर्ग.
 --entity-name | संरचना अस्तित्व नाव.
 --base-path | संरचना अस्तित्व मार्ग साठी बेस-पथ.
 --label | लेबल
---bundle-of | सामग्री संस्थांसाठी बंडल म्हणून कार्य.
+--bundle-of | सामग्री एंटिटीसाठी बंडल म्हणून कार्य.
 
-## Examples
-* Generate config entity specifying the module, the entity class, the entity name, its path and label
+## उदाहरणे
+* मॉड्यूल, अस्तित्व श्रेणी, अस्तित्व नाव, त्याचे पथ आणि लेबल निर्दिष्ट करणारी संरचना संस्था उत्पन्न करा.
 ```
 drupal generate:entity:config  \
   --module="modulename"  \

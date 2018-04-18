@@ -12,10 +12,11 @@ Option | Details
 -------|-------------
 --profile | प्रोफाइल नाम
 --machine-name | मशीन का नाम (लोअरकेस और अंडरस्कोर केवल)
+--profile-path | The path of the profile
 --description | प्रोफाइल विवरण
 --core | कोर संस्करण
 --dependencies | मॉड्यूल निर्भरता अल्पविराम से अलग किया जाता है (जेसे context, panels)
---themes | commands.generate.profile.options.themes
+--themes | the theme name
 --distribution | वितरण नाम
 
 ## Examples

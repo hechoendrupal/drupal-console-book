@@ -1,17 +1,16 @@
 # generate:plugin:condition
 生成条件插件
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:plugin:condition [options]
 gpco
-gpc
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --class | 条件插件类名
 --label | 条件插件标签
 --plugin-id | 条件插件 ID
@@ -19,7 +18,7 @@ Option | Details
 --context-definition-label | 上下文定义标签
 --context-definition-required | 上下文定义是必须的（TURE 或 FALSE）
 
-## Examples
+## 例子
 * Generate a plugin condition for a node entity type specifying the module name, the class, the label, its id and the context definition
 ```
 drupal generate:plugin:condition  \

@@ -1,5 +1,5 @@
 # devel:dumper
-Change the devel dumper plugin
+commands.devel.dumper.messages.change-devel-dumper-plugin
 
 **Usage:**
 ```

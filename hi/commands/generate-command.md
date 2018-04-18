@@ -5,7 +5,6 @@
 ```
 drupal generate:command [options]
 gco
-gcm
 ```
 
 ## Available options
@@ -15,8 +14,11 @@ Option | Details
 --extension-type | The extension type.
 --class | कमाण्ड क्लास का नाम
 --name | कमाण्ड का नाम।
+--initialize | Add initialize method.
+--interact | Add interact method.
 --container-aware | Drupal साइट स्थापना के बारे में कमांड पता है जब एक्सेक्युट होगा?
 --services | सर्विसेज़ को container से लोड करें।
+--generator | Add a Generator class for this command.
 
 ## Examples
 * Generate a command specifying the extension name and type, its class and the name.

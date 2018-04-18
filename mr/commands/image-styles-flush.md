@@ -1,23 +1,23 @@
 # image:styles:flush
 प्रतिमा शैली फ्लश कार्य अंमलात किंवा सर्व फ्लश प्रतिमा शैली कार्यान्वित.
 
-**Usage:**
+**वापर:**
 ```
 drupal image:styles:flush [arguments]
 isf
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 styles | प्रतिमा शैलीचे नाव.
 
-## Examples
-* Flush large image style
+## उदाहरणे
+* मोठ्या प्रतिमा शैली फ्लश करा.
 ```
 drupal image:styles:flush  large
 ```
-* Flush thumbnail image style
+* थंबनेल प्रतिमा शैली फ्लश करा.
 ```
 drupal image:styles:flush  thumbnail
 ```

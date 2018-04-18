@@ -1,24 +1,24 @@
 # module:update
 Update core, module or modules in the application
 
-**Usage:**
+**Utilização:**
 ```
 drupal module:update [arguments] [options]
 moup
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --composer | Update the module using Composer
 --simulate | Simulate the update process with Composer
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 module | Module or modules to be updated should be separated by a space. Leave empty for updating the core and all your modules managed by Composer.
 
-## Examples
+## Exemplos
 * Update module specifying module name and composer parameter
 ```
 drupal module:update  modulename  \

@@ -5,6 +5,7 @@ Executes a SQL statement directly as argument
 ```
 drupal database:query [arguments] [options]
 dbq
+sqlq
 ```
 
 ## Available options

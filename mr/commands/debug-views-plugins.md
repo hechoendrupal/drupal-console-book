@@ -1,19 +1,19 @@
 # debug:views:plugins
 अनुप्रयोगासाठी वर्तमान दृश्ये प्लगइन प्रदर्शित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:views:plugins [arguments]
 dvp
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 type | दृश्ये प्लगइन प्रकारानुसार फिल्टर करा.
 
-## Examples
-* List of views plugins
+## उदाहरणे
+* दृश्यांची प्लगइनची सूची.
 ```
 drupal debug:views:plugins
 ```

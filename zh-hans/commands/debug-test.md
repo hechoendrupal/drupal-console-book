@@ -1,23 +1,23 @@
 # debug:test
-列出可用的程序测试.
+列出可用于应用程序的测试单元。
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:test [arguments] [options]
 td
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
 --test-class | 测试类
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 group | 组
 
-## Examples
+## 例子
 * 
 ```
 drupal debug:test

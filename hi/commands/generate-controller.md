@@ -5,7 +5,6 @@
 ```
 drupal generate:controller [options]
 gcon
-gcn
 ```
 
 ## Available options

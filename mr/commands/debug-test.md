@@ -1,23 +1,23 @@
 # debug:test
 अनुप्रयोगासाठी उपलब्ध चाचणी आयटम्स.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:test [arguments] [options]
 td
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --test-class | चाचणी वर्ग.
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 group | गट
 
-## Examples
+## उदाहरणे
 * 
 ```
 drupal debug:test

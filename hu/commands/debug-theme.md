@@ -5,6 +5,7 @@ Megjeleníti az alkalmazás aktuális sminkjeit
 ```
 drupal debug:theme [arguments]
 dt
+tde
 ```
 
 ## Available arguments

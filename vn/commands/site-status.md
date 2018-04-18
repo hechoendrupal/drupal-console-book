@@ -5,6 +5,7 @@ Xem trạng thái cài đặt hiện tại
 ```
 drupal site:status [options]
 ss
+st
 ```
 
 ## Available options

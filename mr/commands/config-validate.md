@@ -1,18 +1,18 @@
 # config:validate
 त्याच्या स्कीमा विरूद्ध drupal कॉन्फिगरेशन प्रमाणित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal config:validate [arguments]
 cv
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 name | 
 
-## Examples
+## उदाहरणे
 * संरचना नाव द्या.
 ```
 drupal config:validate configuration.name

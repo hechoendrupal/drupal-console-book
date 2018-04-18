@@ -1,18 +1,18 @@
 # debug:event
 Display current events 
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:event [arguments]
 dev
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 event | Event to debug
 
-## Examples
+## Exemplos
 * List all the events that could be debugged
 ```
 drupal debug:evet

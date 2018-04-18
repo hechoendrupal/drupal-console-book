@@ -1,12 +1,12 @@
 # debug:features
 नोंदणीकृत वैशिष्ट्ये सूचीबद्ध करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:features [arguments]
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 bundle | बंडल नाव

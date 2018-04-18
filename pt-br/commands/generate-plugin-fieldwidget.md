@@ -1,14 +1,14 @@
 # generate:plugin:fieldwidget
 Generate field widget plugin.
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:plugin:fieldwidget [options]
 gpfw
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --module | O nome do módulo.
 --class | Plugin class name
@@ -16,7 +16,7 @@ Option | Details
 --plugin-id | Plugin id
 --field-type | Field type the plugin can be used with
 
-## Examples
+## Exemplos
 * Generate a text type field widget plugin specifying the module name, the class, its label, the plugin id and the field type
 ```
 drupal generate:plugin:fieldwidget  \

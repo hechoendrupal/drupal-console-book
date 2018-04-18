@@ -10,14 +10,14 @@ gt
 ## Available options
 Option | Details
 -------|-------------
---theme | commands.generate.theme.options.module
+--theme | थीम का नाम
 --machine-name | यांत्रिक नाम (लोअरकेस और केवल अंडरस्कोर)
---theme-path | commands.generate.theme.options.module-path
+--theme-path | थीम का पथ
 --description | थीम विवरण
 --core | मूल संस्करण
 --package | थीम पैकेज
 --global-library | वैश्विक स्टाइल पुस्तकालय नाम
---libraries | commands.generate.theme.options.libraries
+--libraries | Libraries
 --base-theme | आधार थीम (i.e. classy, stable)
 --regions | क्षेत्र
 --breakpoints | ब्रेक पॉइंट्स

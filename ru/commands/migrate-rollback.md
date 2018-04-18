@@ -10,7 +10,7 @@ mir
 ## Доступные параметры
 Команда | Детали
 -------|-------------
---source-base_path | commands.migrate.setup.options.source-base-path
+--source-base_path | Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)
 
 ## Доступные аргументы
 Аргумент | Детали

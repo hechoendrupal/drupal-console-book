@@ -1,5 +1,5 @@
 # debug:theme:keys
-commands.debug.theme.keys.description
+Displays all theme keys provided by hook_theme functions
 
 **Использование:**
 ```
@@ -10,4 +10,4 @@ dtk
 ## Доступные аргументы
 Аргумент | Детали
 ---------|-------------
-key | commands.debug.theme.keys.arguments.key
+key | Key

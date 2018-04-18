@@ -1,14 +1,14 @@
 # debug:config:settings
-配置文件调试
+显示当前设置文件的键值对。
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:config:settings
 dcs
 ```
 
-## Examples
-* Displays key:value as per the settings file
+## 例子
+* 根据设置文件显示键值对
 ```
 drupal debug:config:settings
 ```

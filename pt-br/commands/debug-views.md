@@ -1,24 +1,24 @@
 # debug:views
 Exibir informações sobre a View atual
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:views [arguments] [options]
 vde
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --tag | Tag da View
 --status | Status da View (Habilitado|Desabilitado)
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 view-id | ID da View
 
-## Examples
+## Exemplos
 * List of views on the site
 ```
 drupal debug:views

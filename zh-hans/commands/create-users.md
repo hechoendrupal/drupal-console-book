@@ -1,30 +1,30 @@
 # create:users
-生成用户
+为您的 Drupal 8 应用程序创建用户。
 
-**Usage:**
+**使用方法:**
 ```
 drupal create:users [arguments] [options]
 cru
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---limit | 生成多少个用户
---password | 用户密码
---time-range | 用户的创建时间范围
+--limit | 您要创建多少用户？
+--password | 设置创建用户时用户的密码
+--time-range | 设置创建用户的时间
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-roles | 用于生成用户的角色(s)
+roles | 创建用户时使用的角色
 
-## Examples
-* Provide the user role.
+## 例子
+* 提供用户角色。
 ```
 drupal create:users role
 ```
-* Provide the number of users to create, password and time range to create.
+* 提供创建用户的数量，密码和创建时间范围。
 ```
 drupal create:users role \
   --limit="5" \

@@ -1,5 +1,5 @@
 # module:dependency:install
-commands.module.install.dependencies.description
+Install dependencies module in the application
 
 **Usage:**
 ```

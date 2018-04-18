@@ -1,19 +1,20 @@
 # migrate:setup
-El comandament **migrate:setup** executa Carregar i crear migracions proveïdes per una base de dades heretada
+Carregar i crear migracions proveïdes per una base de dades heretada
 
-**Ús:**
+**Usage:**
 ```
-$ drupal migrate:setup [options] 
+drupal migrate:setup [options]
+mis
 ```
 
-## Opcions disponibles
-Opció | Detalls
+## Available options
+Option | Details
 -------|-------------
 --db-type | Tipus de base de dades Drupal
---db-host | Nom del host
+--db-host | Nom de l'amfitrió
 --db-name | Nom de la base de dades
 --db-user | Usuari de la base de dades
 --db-pass | Contrasenya de la base de dades
 --db-prefix | Prefix de la base de dades
 --db-port | Port de la base de dades
---files-directory | Directori dels fitxers
+--source-base_path | Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)

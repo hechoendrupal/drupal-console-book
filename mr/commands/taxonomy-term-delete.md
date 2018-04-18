@@ -1,19 +1,19 @@
 # taxonomy:term:delete
 एक शब्दसंग्रह पासून वर्गीकरणातील अटी हटवा.
 
-**Usage:**
+**वापर:**
 ```
 drupal taxonomy:term:delete [arguments]
 ttd
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 vid | 
 
-## Examples
-* Delete all terms of the "tags" vocabulary
+## उदाहरणे
+* "टॅग" शब्दसंग्रह सर्व अटी हटवा.
 ```
 drupal taxonomy:term:delete  tags
 ```

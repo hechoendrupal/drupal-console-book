@@ -1,18 +1,18 @@
 # site:maintenance
 切换网站到维护模式
 
-**Usage:**
+**使用方法:**
 ```
 drupal site:maintenance [arguments]
 sma
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
-mode | commands.site.maintenance.arguments.mode[on/off]
+mode | 网站维护模式
 
-## Examples
+## 例子
 * Switch on maintenance
 ```
 drupal site:maintenance  on

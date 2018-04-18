@@ -1,14 +1,14 @@
 # generate:plugin:ckeditorbutton
 CKEditor बटण प्लगइन उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:plugin:ckeditorbutton [options]
 gpc
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | प्लगइन वर्ग नाव
@@ -17,8 +17,8 @@ Option | Details
 --button-name | बटण नाव सुचना: हे CKEditor बटनचे नाव आहे. ते plugin.ui.addButton() किंवा editor.ui.addRichCombo() फंक्शन्स प्लगइन.जेएस फाईलमधील पहिले तर्क आहेत.
 --button-icon-path | बटण चिन्ह पथ हे बटण च्या चिन्ह / प्रतिमा पथ आहे.
 
-## Examples
-* Generate CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path
+## उदाहरणे
+* मॉड्यूलचे नाव, वर्ग, लेबल, आयडी, बटनचे नाव व चिन्ह मार्ग निर्देशीत करून CKEditor बटण उत्पन्न करा.
 ```
 drupal generate:plugin:ckeditorbutton  \
   --module="modulename"  \

@@ -1,5 +1,5 @@
 # generate:form
-Генерировать новую "FormBase"
+Generate a new "FormBase"
 
 **Использование:**
 ```
@@ -10,17 +10,17 @@ gf
 ## Доступные параметры
 Команда | Детали
 -------|-------------
---module | Имя модуля.
---class | Название класса формы
---form-id | Идентификатор формы
---services | Загрузка сервисов из контейнера.
---config-file | Добавить config файл
---inputs | Создание полей ввода в форме.
---path | Введите путь формы
---menu-link-gen | Сгенерировать ссылку в меню
---menu-link-title | Название ссылки в меню
---menu-parent | Родительское меню
---menu-link-desc | Описание ссылки в меню
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
+--config-file | Add a config file
+--inputs | Create inputs in a form.
+--path | Enter the form path
+--menu-link-gen | Generate a menu link
+--menu-link-title | A title for the menu link
+--menu-parent | Menu parent
+--menu-link-desc | A description for the menu link
 
 ## Примеры
 * Генерирует пустую форму с config файлом по имени модуля, классу, ID формы и пути

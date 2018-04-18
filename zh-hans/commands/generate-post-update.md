@@ -1,19 +1,19 @@
 # generate:post:update
-commands.generate.post:update.description
+生成一个 hook_post_update_NAME() 的实现
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:post:update [options]
 gpu
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --post-update-name | Post Update 名称
 
-## Examples
+## 例子
 * Generate an implementation of post update hook specifying the module name and the post update name
 ```
 drupal generate:post:update  \

@@ -1,23 +1,23 @@
 # debug:state
 वर्तमान अवस्था की दाखवा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:state [arguments]
 dst
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 key | डीबग करण्यासाठी अवस्था की.
 
-## Examples
-* List of the states on the site
+## उदाहरणे
+* साइटवरील अवस्थांची यादी.
 ```
 drupal debug:state
 ```
-* Displays a detail of the state install_task tok from the list of states
+* अवस्थांच्या यादीतून install_task अवस्था तपशील दाखवतो.
 ```
 drupal debug:state install_task
 ```

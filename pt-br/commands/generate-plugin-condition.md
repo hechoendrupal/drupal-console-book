@@ -1,15 +1,14 @@
 # generate:plugin:condition
 Criar um plugin de condition.
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:plugin:condition [options]
 gpco
-gpc
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --module | O nome do módulo.
 --class | Nome da classe do plugin
@@ -19,7 +18,7 @@ Option | Details
 --context-definition-label | Label da definição de contexto
 --context-definition-required | A definição de contexto é obrigatória (TRUE/FALSE)
 
-## Examples
+## Exemplos
 * Generate a plugin condition for a node entity type specifying the module name, the class, the label, its id and the context definition
 ```
 drupal generate:plugin:condition  \

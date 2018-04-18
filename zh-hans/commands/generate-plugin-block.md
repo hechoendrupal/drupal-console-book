@@ -1,24 +1,24 @@
 # generate:plugin:block
 生成区块插件
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:plugin:block [options]
 gpb
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --class | 插件类名
 --label | 插件标签
 --plugin-id | 插件 ID
 --theme-region | 呈现插件区块的主题区域
---inputs | 创建一个输入表单
---services | 从容器中导入服务
+--inputs | 在表单中创建输入。
+--services | 从容器加载服务。
 
-## Examples
+## 例子
 * Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input
 ```
 drupal generate:plugin:block  \

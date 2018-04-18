@@ -1,7 +1,7 @@
 # about
-显示 Drupal Console 项目基本信息
+显示有关 Drupal Console 项目的基本信息
 
-**Usage:**
+**使用方法:**
 ```
 drupal about
 ```

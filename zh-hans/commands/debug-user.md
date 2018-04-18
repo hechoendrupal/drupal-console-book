@@ -1,23 +1,23 @@
 # debug:user
-显示网站的当前用户(s)
+显示应用程序的当前用户
 
-**Usage:**
+**使用方法:**
 ```
 drupal debug:user [options]
 dus
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---uid | 使用用户ID过滤 [使用空格进行间隔, 值包含空格两边加引号]
---username | 使用用户名过滤 [使用空格进行间隔, 值包含空格两边加引号]
---mail | 使用用户邮件地址过滤 [使用空格进行间隔, 值包含空格两边加引号]
---roles | 用于过滤用户的角色
---limit | 指定显示的用户数量
+--uid | 用 uids 过滤结果列表 [放在引号里面以空格分隔]
+--username | 按用户名过滤结果列表 [放在引号里面以空格分隔]
+--mail | 根据用户的电子邮件过滤结果列表 [放在引号里面以空格分隔]
+--roles | 过滤出要调试的角色
+--limit | 您希望在调试中列出多少用户
 
-## Examples
-* Users list on the site
+## 例子
+* 网站用户列表
 ```
 drupal debug:user
 ```

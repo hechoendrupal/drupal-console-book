@@ -5,7 +5,6 @@ Generează o entitate de configurare nouă
 ```
 drupal generate:entity:config [options]
 gec
-gecg
 ```
 
 ## Available options

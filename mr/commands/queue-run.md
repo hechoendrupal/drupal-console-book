@@ -1,13 +1,13 @@
 # queue:run
 निवडलेल्या रांगांवर प्रक्रिया करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal queue:run [arguments]
 qr
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 name | रांग नाव.

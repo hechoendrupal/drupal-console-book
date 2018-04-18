@@ -11,8 +11,8 @@ gps
 Option | Details
 -------|-------------
 --module | मोड्यूल का नाम।
---plugin-id | commands.generate.plugin.options.plugin-id
---class | प्लगिन का क्लास नाम
+--plugin-id | The Plugin Id.
+--class | Plugin class name
 --services | सर्विसेज़ को container से लोड करें।
 
 ## Examples

@@ -1,19 +1,19 @@
 # generate:breakpoint
 生成断点
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:breakpoint [options]
 gb
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
 --theme | 主题名称
 --breakpoints | 断点
 
-## Examples
+## 例子
 * Generate a breakpoint specifying the theme, a breakpoint name, its label, the media query, its weight and multipliers
 ```
 drupal generate:breakpoint  \

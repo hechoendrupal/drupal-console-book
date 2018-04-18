@@ -1,13 +1,13 @@
 # devel:dumper
-Change the devel dumper plugin
+commands.devel.dumper.messages.change-devel-dumper-plugin
 
-**Usage:**
+**使用方法:**
 ```
 drupal devel:dumper [arguments]
 dd
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 dumper | Name of the devel dumper plugin

@@ -1,25 +1,25 @@
 # database:add
-Add a database to settings.php
+添加数据库到 settings.php
 
-**Usage:**
+**使用方法:**
 ```
 drupal database:add [options]
 dba
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---database | The database name
---username | The database username
---password | The database password
---prefix | The database prefix
---host | The database host address
---port | The database host port
---driver | The database driver
+--database | 数据库名称
+--username | 数据库用户名
+--password | 数据库密码
+--prefix | 数据库前缀
+--host | 数据库主机地址
+--port | 数据库主机端口
+--driver | 数据库驱动
 
-## Examples
-* Add a database to the settings.php
+## 例子
+* 添加数据库到 settings.php
 ```
 drupal database:add \
   --database=DATABASE \

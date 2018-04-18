@@ -11,7 +11,7 @@ vdi
 ## Available arguments
 Argument | Details
 ---------|-------------
-view-id | commands.views.debug.arguments.view-id
+view-id | ビューのID
 
 ## Examples
 * Disable content view

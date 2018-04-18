@@ -12,11 +12,11 @@ gpr
 -------|-------------
 --profile | Имя профайла
 --machine-name | Машинное имя (только буквы в нижнем регистре и знаки подчеркивания)
---profile-path | commands.generate.profile.options.profile-path
+--profile-path | The path of the profile
 --description | Описание профайла
 --core | Версия ядра
 --dependencies | Зависимости модулей разделенные запятыми (например context, panels)
---themes | commands.generate.profile.options.themes
+--themes | the theme name
 --distribution | Имя дистрибьюции
 
 ## Примеры

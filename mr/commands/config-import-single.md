@@ -1,19 +1,19 @@
 # config:import:single
 निवडलेले कॉन्फिगरेशन आयात करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal config:import:single [options]
 cis
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --file | आयात करण्यासाठी फाईल (ली) नावाची किंवा फाईल (फां) पूर्ण पथ.
 --directory | commands.config.import.arguments.directory
 
-## Examples
+## उदाहरणे
 * पूर्ण मार्ग वापरून फाइल पर्याय प्रदान करणे.
 ```
 drupal config:import:single \

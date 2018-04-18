@@ -11,7 +11,7 @@ gh
 Option | Details
 -------|-------------
 --module | Tên module.
---description | Mô tả module
+--description | commands.generate.help.options.description
 
 ## Examples
 * Generate a hook help specifying the module name and the description

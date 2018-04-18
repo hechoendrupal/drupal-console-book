@@ -1,14 +1,14 @@
 # generate:plugin:mail
 एक प्लगइन मेल उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:plugin:mail [options]
 gpm
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | प्लगइन वर्ग नाव.
@@ -16,8 +16,8 @@ Option | Details
 --plugin-id | प्लगिन आयडी.
 --services | कंटेनर मधून सेवा भरा.
 
-## Examples
-* Generate an email plugin specifying the module name, the class, its label and the plugin id
+## उदाहरणे
+* मॉड्यूल नाव, वर्ग, त्याचे लेबल आणि प्लगिनआयडीनिर्दिष्ट करणारा ईमेल प्लगइन उत्पन्न करा.
 ```
 drupal generate:plugin:mail  \
   --module="modulename"  \

@@ -1,25 +1,26 @@
 # multisite:new
-Sets up the files for a new multisite install.
+नवीन बहुउद्देशीय प्रतिष्ठापनासाठी फायली सेट करते.
 
-**Usage:**
+**वापर:**
 ```
 drupal multisite:new [arguments] [options]
 mun
+sn
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --copy-default | विद्यमान साइट डीफॉल्ट इन्स्टॉलेशन मधून कॉपी करतात.
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 directory | "sites" या निर्देशिकेचे नाव जे तयार करायला हवे.
 uri | साइट यूआरआय sites.php वर जोडण्यासाठी.
 
-## Examples
-* Set up files for a multisite install specifying destination path and uri
+## उदाहरणे
+* एक मल्टिसाईट स्थापित करण्यासाठी फाईल सेट करा आणि गंतव्य स्थान निर्दिष्ट करते.
 ```
 drupal multisite:new  vendor/newsite http://mysite.example.com
 ```

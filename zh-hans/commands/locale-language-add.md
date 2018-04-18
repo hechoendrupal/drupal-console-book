@@ -1,12 +1,12 @@
 # locale:language:add
 添加一种语言
 
-**Usage:**
+**使用方法:**
 ```
 drupal locale:language:add [arguments]
 ```
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 language | 语言，如 zh-hans

@@ -1,28 +1,28 @@
 # generate:form
-生成新 "%s"
+Generate a new "FormBase"
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:form [options]
 gf
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
---class | 表单 类名
---form-id | 表单 ID
---services | 从容器中导入服务
+--module | The Module name.
+--class | The form class name
+--form-id | The Form id
+--services | Load services from the container.
 --config-file | Add a config file
---inputs | 创建一个输入表单
---path | 输入表单路径
+--inputs | Create inputs in a form.
+--path | Enter the form path
 --menu-link-gen | Generate a menu link
 --menu-link-title | A title for the menu link
 --menu-parent | Menu parent
 --menu-link-desc | A description for the menu link
 
-## Examples
+## 例子
 * Generate an empty form with config file specifying the module name, the class, a form id and the path
 ```
 drupal generate:form  \

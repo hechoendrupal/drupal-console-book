@@ -5,17 +5,21 @@ Egy modul adott Update N függvényének végrehajtása, vagy az összes végreh
 ```
 drupal update:execute [arguments]
 upex
-upe
+updb
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
 module | A modul neve.
-update-n | Végrehajtandó adott Update N függvény
+update-n | commands.update.execute.options.update-n
 
 ## Examples
 * Update all entities
 ```
 drupal update:execute
+```
+* Execute updates for system module
+```
+drupal update:execute system
 ```

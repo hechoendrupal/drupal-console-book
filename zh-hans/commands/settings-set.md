@@ -1,13 +1,13 @@
 # settings:set
 改变 DrupalConsole 配置文件中的配置
 
-**Usage:**
+**使用方法:**
 ```
 drupal settings:set [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -18,7 +18,7 @@ Option | Details
 --no-interaction | Do not ask any interactive question
 --env | The Environment name
 --root | Define the Drupal root to be used in command execution
---debug | application.options.debug
+--debug | Switches on debug mode
 --learning | Generate a verbose code output
 --generate-chain | Shows command options and arguments as yaml output to be used in chain command
 --generate-inline | Shows command options and arguments as inline command
@@ -27,14 +27,14 @@ Option | Details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## Available arguments
-Argument | Details
+## 可用参数
+参数 | 详细信息
 ---------|-------------
 command | The command to execute
 name | Setting name in YAML flatten format to set a value in Drupal Console config file
 value | Setting value to set in Drupal Console config file
 
-## Examples
+## 例子
 * Set application language setting value to "es"
 ```
 drupal settings:set  application.language es

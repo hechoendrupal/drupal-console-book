@@ -5,6 +5,7 @@ Afișează temele curente pentru aplicație
 ```
 drupal debug:theme [arguments]
 dt
+tde
 ```
 
 ## Available arguments

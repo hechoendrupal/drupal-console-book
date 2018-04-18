@@ -1,13 +1,13 @@
 # queue:run
 Process the selected queue.
 
-**Usage:**
+**Utilização:**
 ```
 drupal queue:run [arguments]
 qr
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 name | Queue name.

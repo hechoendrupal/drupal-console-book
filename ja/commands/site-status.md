@@ -5,6 +5,7 @@ Drupalのインストール状態を表示する
 ```
 drupal site:status [options]
 ss
+st
 ```
 
 ## Available options

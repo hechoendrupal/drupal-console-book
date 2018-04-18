@@ -5,13 +5,12 @@ Chạy đơn vị thử nghiệm từ các thử nghiệm có sẵn cho ứng d�
 ```
 drupal test:run [arguments] [options]
 ter
-tr
 ```
 
 ## Available options
 Option | Details
 -------|-------------
---url | commands.test.run.arguments.url
+--url | Test url
 
 ## Available arguments
 Argument | Details

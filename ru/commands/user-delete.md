@@ -10,7 +10,7 @@ ud
 ## Доступные параметры
 Команда | Детали
 -------|-------------
---user | commands.user.delete.options.user
+--user | User name/id to be deleted
 --roles | Пользователи с данной ролью будут удалены
 
 ## Примеры
@@ -24,4 +24,9 @@ drupal user:delete  \
 ```
 drupal user:delete  \
   --user-id="3"
+```
+* Delete users with the role "authenticated"
+```
+drupal user:delete  \
+  --role="authenticated"
 ```

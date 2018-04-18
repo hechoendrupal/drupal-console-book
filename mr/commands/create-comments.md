@@ -1,25 +1,25 @@
 # create:comments
 आपल्या Drupal 8 अनुप्रयोगासाठी डमी टिप तयार करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal create:comments [arguments] [options]
 crc
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --limit | आपण किती टिप्पण्या तयार करू इच्छिता?
 --title-words | टिप्पणी शीर्षके मध्ये शब्दांची कमाल संख्या.
 --time-range | टिप्पण्या किती काळापर्यंत पोचल्या पाहिजेत.
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 node-id | नोड आयडी जेथे टिप्पण्या तयार केल्या जातील.
 
-## Examples
+## उदाहरणे
 * नोड आयडी द्या जेथे टिप्पण्या निर्माण होतील.
 ```
 drupal create:comments  node-id

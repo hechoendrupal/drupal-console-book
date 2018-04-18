@@ -11,7 +11,7 @@ mie
 Option | Details
 -------|-------------
 --site-url | Site Source URL
---db-type | commands.migrate.setup.migrations.options.db-type
+--db-type | commands.migrate.execute.migrations.options.db-type
 --db-host | Database Host
 --db-name | Database Name
 --db-user | Database User

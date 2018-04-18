@@ -5,6 +5,7 @@
 ```
 drupal cache:rebuild [arguments]
 cr
+cc
 ```
 
 ## Available arguments

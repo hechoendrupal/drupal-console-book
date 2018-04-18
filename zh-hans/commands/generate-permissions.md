@@ -1,14 +1,14 @@
 # generate:permissions
-commands.generate.permission.description
+Generate module permissions
 
-**Usage:**
+**使用方法:**
 ```
 drupal generate:permissions [options]
 gp
 ```
 
-## Available options
-Option | Details
+## 可用选项
+选项 | 详细信息
 -------|-------------
---module | 模块名称
+--module | 模块名
 --permissions | 创建权限

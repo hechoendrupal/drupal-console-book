@@ -11,8 +11,8 @@ ges
 Option | Details
 -------|-------------
 --module | Tên module.
---name | commands.generate.service.options.name
---class | Tên Class
+--name | Service name
+--class | Class name
 --events | Nạp các sự kiện từ container
 --services | Nạp các dịch vụ từ container.
 

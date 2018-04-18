@@ -1,27 +1,32 @@
 # user:delete
 ऐप्लकैशनचे वापरकर्ते हटवा.
 
-**Usage:**
+**वापर:**
 ```
 drupal user:delete [options]
 ud
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
---user-id | वापरकर्ता आयडी हटवण्यात आला आहे.
+--user | User name/id to be deleted
 --roles | वापरकर्त्यांच्या संबंधित भूमिका हटविल्या जातील.
 
-## Examples
-* Delete user specifying the id and the user role
+## उदाहरणे
+* वापरकर्ताआयडीआणि वापरकर्ता भूमिका निर्दिष्ट करणारा हटवा.
 ```
 drupal user:delete  \
   --user-id="2"
   --roles='authenticated'
 ```
-* Delete user specifying its id
+* वापरकर्त्यास त्याचा आयडी निर्दिष्ट करून हटवा.
 ```
 drupal user:delete  \
   --user-id="3"
+```
+* Delete users with the role "authenticated"
+```
+drupal user:delete  \
+  --role="authenticated"
 ```

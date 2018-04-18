@@ -1,25 +1,25 @@
 # config:export:view
 Exportar uma view no formato YAML dentro de um módulo fornecido para reutilização em outro site.
 
-**Usage:**
+**Utilização:**
 ```
 drupal config:export:view [arguments] [options]
 cev
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --module | O nome do módulo.
 --optional-config | Exportar view como uma configuração YAML opcional em seu módulo
 --include-module-dependencies | Inclua dependências do módulo em um arquivo YAML
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 view-id | View ID
 
-## Examples
+## Exemplos
 * Provide a view id
 ```
 drupal config:export:view viewid

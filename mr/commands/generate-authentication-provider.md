@@ -1,21 +1,21 @@
 # generate:authentication:provider
 एक प्रमाणीकरण प्रदाता उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:authentication:provider [options]
 gap
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूलचे नाव.
 --class | प्रमाणीकरण प्रदाता वर्ग.
 --provider-id | प्रदाता आयडी.
 
-## Examples
-* Generate an authentication provider specifying the module, the class and the provider id
+## उदाहरणे
+* मॉड्यूल, वर्ग आणि प्रदाता आयडी निर्दिष्ट करणारा प्रमाणीकरण प्रदाता उत्पन्न करा.
 ```
 drupal generate:authentication:provider  \
   --module="modulename"  \

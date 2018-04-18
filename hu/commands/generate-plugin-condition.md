@@ -5,7 +5,6 @@ Feltételbővítmény létrehozása.
 ```
 drupal generate:plugin:condition [options]
 gpco
-gpc
 ```
 
 ## Available options

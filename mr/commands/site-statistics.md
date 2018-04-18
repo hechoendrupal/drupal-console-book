@@ -1,7 +1,7 @@
 # site:statistics
 वेबसाइटच्या वर्तमान आकडेवारी दर्शवा.
 
-**Usage:**
+**वापर:**
 ```
 drupal site:statistics
 sst

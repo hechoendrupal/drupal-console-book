@@ -12,6 +12,8 @@ Option | Details
 -------|-------------
 --module | A modul neve.
 --optional-config | Tartalomtípus exportálása a modulba nem kötelező YAML-konfigurációként
+--remove-uuid | If set, the configuration will be exported without uuid key.
+--remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
 ## Available arguments
 Argument | Details

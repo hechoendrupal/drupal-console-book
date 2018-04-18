@@ -5,12 +5,14 @@ Egy alkalmazás aktuális szolgáltatásait jeleníti meg.
 ```
 drupal debug:container [arguments] [options]
 dco
+cod
 ```
 
 ## Available options
 Option | Details
 -------|-------------
 --parameters | Service name.
+--tag | Service tag 
 
 ## Available arguments
 Argument | Details

@@ -5,17 +5,21 @@ Resetează parola pentru un utilizator.
 ```
 drupal user:password:reset [arguments]
 upr
-uspr
+upsr
 ```
 
 ## Available arguments
 Argument | Details
 ---------|-------------
-user | ID Utilizator.
+user | User name/id
 password | Parola sub formă de text.
 
 ## Examples
 * Update password specifying the user id and the new password
 ```
 drupal user:password:reset  2 p455w0rd
+```
+* Update password specifying the user jmolivas and the new password
+```
+drupal user:password:reset jmolivas p455w0rd
 ```

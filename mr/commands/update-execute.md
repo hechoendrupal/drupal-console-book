@@ -1,21 +1,25 @@
 # update:execute
 विभागाची एक विशिष्ट सुधारणा N कार्य चालवा, किंवा सर्व कार्ये चालवा.
 
-**Usage:**
+**वापर:**
 ```
 drupal update:execute [arguments]
 upex
-upe
+updb
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 module | मॉड्यूलचे नाव.
-update-n | विशिष्ट सुधारणा कार्याची अंमलबजावणी करण्यासाठी
+update-n | commands.update.execute.options.update-n
 
-## Examples
-* Update all entities
+## उदाहरणे
+* अस्तित्व अद्यतनित करा.
 ```
 drupal update:execute
+```
+* Execute updates for system module
+```
+drupal update:execute system
 ```

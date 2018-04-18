@@ -1,15 +1,14 @@
 # generate:entity:config
 Gerar uma nova entidade de configuração
 
-**Usage:**
+**Utilização:**
 ```
 drupal generate:entity:config [options]
 gec
-gecg
 ```
 
-## Available options
-Option | Details
+## Opções disponíveis
+Opção | Detalhes
 -------|-------------
 --module | O nome do módulo.
 --entity-class | Classe da entidade de configuração
@@ -18,7 +17,7 @@ Option | Details
 --label | O rótulo
 --bundle-of | Atua como um bundle de entidades de conteúdo
 
-## Examples
+## Exemplos
 * Generate config entity specifying the module, the entity class, the entity name, its path and label
 ```
 drupal generate:entity:config  \

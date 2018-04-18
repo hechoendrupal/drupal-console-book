@@ -1,18 +1,18 @@
 # debug:state
 Exibir as chaves atuais de Estado.
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:state [arguments]
 dst
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 key | Debug para a chave de Estado.
 
-## Examples
+## Exemplos
 * List of the states on the site
 ```
 drupal debug:state

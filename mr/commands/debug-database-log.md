@@ -1,14 +1,15 @@
 # debug:database:log
 अनुप्रयोगासाठी वर्तमान लॉग इव्हेंट प्रदर्शित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:database:log [arguments] [options]
 dbb
+ws
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --type | विशिष्ट प्रकाराद्वारे इव्हेंट फिल्टर करा.
 --severity | एका विशिष्ट स्तर तीव्रतेने इव्हेंट फिल्टर करा.
@@ -18,17 +19,17 @@ Option | Details
 --offset | मर्यादा प्रारंभ करत आहे.
 --yml | एक YML शैली मुद्रण
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 event-id | DBLog इव्हेंट आयडी
 
-## Examples
-* List all the entries on the log
+## उदाहरणे
+* लॉग वर सर्व नोंदींची यादी करा.
 ```
 drupal debug:database:log
 ```
-* List specific log entry by Event ID
+* इव्हेंट आयडीद्वारे विशिष्ट लॉग प्रविष्टीची सूची द्या.
 ```
 drupal debug:database:log 21228
 ```

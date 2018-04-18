@@ -1,7 +1,7 @@
 # dotenv:init
 Dotenv initializer.
 
-**Usage:**
+**使用方法:**
 ```
 drupal dotenv:init
 ```

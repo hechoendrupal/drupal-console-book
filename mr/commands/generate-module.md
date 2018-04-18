@@ -1,14 +1,14 @@
 # generate:module
 मॉड्यूल उत्पन्न करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal generate:module [options]
 gm
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --module | मॉड्यूल नाव.
 --machine-name | मशीनचे नाव (केवळ लोअरकेस आणि अंडरस्कोर)
@@ -23,8 +23,8 @@ Option | Details
 --test | चाचणी श्रेणी उत्पन्न करा.
 --twigtemplate | थीम टेम्पलेट उत्पन्न करा.
 
-## Examples
-* Generate a module specifying the module name, machine name, the path, its description, drupal core and the package name. In this example the composer file, the unit test and twig template are generated too
+## उदाहरणे
+* मॉड्यूल नाव, मशीनचे नाव, पथ, त्याचे वर्णन, ड्रापल कोर आणि संकुल नाव निर्देशीत केलेले मॉड्यूल उत्पन्न करा. या उदाहरणात संगीतकार फाइल, युनिट टेस्ट आणि टिम टेम्प्लेट सुद्धा उत्पन्न केले जातात.
 ```
 drupal generate:module  \
   --module="modulename"  \

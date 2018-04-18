@@ -12,6 +12,8 @@ Option | Details
 -------|-------------
 --module | मोड्यूल का नाम।
 --optional-config | अपने मॉड्यूल में एक वैकल्पिक YAML कॉन्फ़िगरेशन के रूप में कंटेंट टाइप एक्सपोर्ट करे
+--remove-uuid | If set, the configuration will be exported without uuid key.
+--remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
 ## Available arguments
 Argument | Details

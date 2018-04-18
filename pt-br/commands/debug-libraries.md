@@ -1,18 +1,18 @@
 # debug:libraries
 Displays libraries available in application
 
-**Usage:**
+**Utilização:**
 ```
 drupal debug:libraries [arguments]
 dl
 ```
 
-## Available arguments
-Argument | Details
+## Argumentos disponíveis
+Argumento | Detalhes
 ---------|-------------
 group | Enter Libraries Name
 
-## Examples
+## Exemplos
 * List all available libraries
 ```
 drupal debug:libraries
@@ -20,4 +20,8 @@ drupal debug:libraries
 * List block library information
 ```
 drupal debug:libraries block
+```
+* List block/drupal.block library
+```
+drupal debug:libraries block/drupal.block
 ```

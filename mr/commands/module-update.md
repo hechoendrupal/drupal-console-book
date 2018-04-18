@@ -1,25 +1,25 @@
 # module:update
 अनुप्रयोग मध्ये अद्यतन कोर, मॉड्यूल किंवा मॉड्यूल्स.
 
-**Usage:**
+**वापर:**
 ```
 drupal module:update [arguments] [options]
 moup
 ```
 
-## Available options
-Option | Details
+## उपलब्ध पर्याय
+पर्याय | तपशील
 -------|-------------
 --composer | Composer वापरून मॉड्यूल अद्यतनित करा.
 --simulate | Composer सह अद्ययावत प्रक्रियेचे अनुकरण करा.
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 module | अद्ययावत करण्यासाठी मॉड्यूल किंवा मॉड्यूल्सना स्पेसद्वारे विभक्त व्हायला हवे. कोर अद्यतनित करण्यासाठी रिक्त सोडा आणि Composer द्वारे व्यवस्थापित केलेले आपले सर्व मॉड्यूल.
 
-## Examples
-* Update module specifying module name and composer parameter
+## उदाहरणे
+* मॉड्यूल नाव आणि composer पॅरामीटर निर्दिष्ट मॉड्यूल अद्यतनित करा.
 ```
 drupal module:update  modulename  \
   --composer

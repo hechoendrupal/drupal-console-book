@@ -1,19 +1,19 @@
 # debug:migrate
 अनुप्रयोगासाठी वर्तमान स्थलांतर प्रदर्शित करा.
 
-**Usage:**
+**वापर:**
 ```
 drupal debug:migrate [arguments]
 mid
 ```
 
-## Available arguments
-Argument | Details
+## उपलब्ध वितर्क
+वितर्क | तपशील
 ---------|-------------
 tag | टॅगचे स्थलांतर करा.
 
-## Examples
-* Displays current migration
+## उदाहरणे
+* वर्तमान स्थलांतर दर्शवितो.
 ```
 drupal debug:migrate
 ```
