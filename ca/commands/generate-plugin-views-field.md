@@ -1,21 +1,21 @@
 # generate:plugin:views:field
 Generar un connector de camp de vista predeterminat.
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:plugin:views:field [options]
 gpvf
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --class | Nom de la classe del connector del camp de vista
 --title | Títol del connector de camp de vista
 --description | Descripció del connector de camp de vista
 
-## Examples
+## Exemples
 * Generate a custom view field plugin specifying the module name, the class, a title and its description
 ```
 drupal generate:plugin:views:field  \

@@ -1,14 +1,14 @@
 # generate:event:subscriber
 Generar un subscriptor d'esdeveniments
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:event:subscriber [options]
 ges
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --name | Service name
@@ -16,7 +16,7 @@ Option | Details
 --events | Carregar esdeveniments des del contenidor
 --services | Carregar serveis des del contenidor.
 
-## Examples
+## Exemples
 * Generate an event subscriber specifying the module name, its name, the class and the events to subscribe
 ```
 drupal generate:event:subscriber  \

@@ -1,14 +1,14 @@
 # site:install
 Instal·lar un projecte Drupal
 
-**Usage:**
+**Ús:**
 ```
 drupal site:install [arguments] [options]
 si
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --langcode | Idioma del Drupal
 --db-type | Tipus de base de dades que de l'instal·lació de Drupal
@@ -26,12 +26,12 @@ Option | Details
 --account-pass | Contrasenya de l'usuari administrador de Drupal
 --force | Force to reinstall the site
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 profile | Perfil Drupal a instal·lar
 
-## Examples
+## Exemples
 * Install a drupal project specifying installation type, language code, database configuration, site name, site email and admin credential settings
 ```
 drupal site:install  standard  \

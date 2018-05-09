@@ -1,25 +1,25 @@
 # create:users
 Crear usuaris 'dummy' per l'aplicació Drupal 8.
 
-**Usage:**
+**Ús:**
 ```
 drupal create:users [arguments] [options]
 cru
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --limit | Quants usuaris voldrieu crear
 --password | La contrasenya que s'utilitzarà per els usuaris creats
 --time-range | Quant de temps enrere ha de ser la data dels usuaris
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 roles | Rol(s) utilitzats en la creació d'usuaris
 
-## Examples
+## Exemples
 * Provide the user role.
 ```
 drupal create:users role

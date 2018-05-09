@@ -1,14 +1,14 @@
 # generate:site:alias
 Generates a site alias.
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:site:alias [options]
 gsa
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --site | Use local site as destination.
 --name | Site name.

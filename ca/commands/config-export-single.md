@@ -1,14 +1,14 @@
 # config:export:single
 Exportar la configuració com a fitxer YML
 
-**Usage:**
+**Ús:**
 ```
 drupal config:export:single [options]
 ces
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --name | commands.config.export.single.options.name
 --directory | commands.config.export.arguments.directory
@@ -18,7 +18,7 @@ Option | Details
 --remove-uuid | If set, the configuration will be exported without uuid key.
 --remove-config-hash | If set, the configuration will be exported without the default site hash key.
 
-## Examples
+## Exemples
 * Provide config settings name to be exported
 ```
 drupal config:export:single \

@@ -1,13 +1,13 @@
 # debug:queue
 Display the queues of your application
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:queue
 dq
 ```
 
-## Examples
+## Exemples
 * Displays the queues of the application
 ```
 drupal debug:queue

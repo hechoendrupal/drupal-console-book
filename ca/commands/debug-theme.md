@@ -1,19 +1,19 @@
 # debug:theme
 Mostrar els temes actuals per l'aplicació
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:theme [arguments]
 dt
 tde
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 theme | Especifica el tema a depurar
 
-## Examples
+## Exemples
 * List of themes on the site
 ```
 drupal debug:theme

@@ -1,13 +1,13 @@
 # chain
 Execució de comandaments en secuència
 
-**Usage:**
+**Ús:**
 ```
 drupal chain [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --file | El fitxer definit per l'usuari que conté el comandaments que s'executaran.
 --help | Display this help message
@@ -30,12 +30,12 @@ Option | Details
 --directory | directory
 --language | language
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 command | The command to execute
 
-## Examples
+## Exemples
 * Providing a file option using full path.
 ```
 drupal chain \

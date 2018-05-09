@@ -1,12 +1,12 @@
 # locale:language:delete
 Esborrar un idioma del teu lloc web
 
-**Usage:**
+**Ús:**
 ```
 drupal locale:language:delete [arguments]
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 language | Idioma (p.e. ca o Català)

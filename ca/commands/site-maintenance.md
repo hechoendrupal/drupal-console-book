@@ -1,18 +1,18 @@
 # site:maintenance
 Canviar al mode manteniment
 
-**Usage:**
+**Ús:**
 ```
 drupal site:maintenance [arguments]
 sma
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 mode | Mode de manteniment del lloc
 
-## Examples
+## Exemples
 * Switch on maintenance
 ```
 drupal site:maintenance  on

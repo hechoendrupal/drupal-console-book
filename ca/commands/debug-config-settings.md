@@ -1,13 +1,13 @@
 # debug:config:settings
 Mostra l'actual clau:valor del fitxer de configuració.
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:config:settings
 dcs
 ```
 
-## Examples
+## Exemples
 * Displays key:value as per the settings file
 ```
 drupal debug:config:settings

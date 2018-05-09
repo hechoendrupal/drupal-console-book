@@ -1,21 +1,21 @@
 # generate:twig:extension
 Generate a Twig extension.
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:twig:extension [options]
 gte
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --name | Twig Extension name
 --class | Class name
 --services | Carregar serveis des del contenidor.
 
-## Examples
+## Exemples
 * Generate a twig extension specifying the module name, the extension name and its class
 ```
 drupal generate:twig:extension  \

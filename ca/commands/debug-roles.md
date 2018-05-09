@@ -1,13 +1,13 @@
 # debug:roles
 Displays current roles for the application
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:roles
 dusr
 ```
 
-## Examples
+## Exemples
 * Roles list on the site
 ```
 drupal debug:roles

@@ -1,26 +1,26 @@
 # module:download
 Descarregar mòduls a la aplicació
 
-**Usage:**
+**Ús:**
 ```
 drupal module:download [arguments] [options]
 mod
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --path | The path of the contrib project
 --latest | Descarregar la versió més actual de forma predeterminada
 --composer | Download the module using Composer
 --unstable | Module unstable
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 module | Mòduls per habilitar separats per un espai
 
-## Examples
+## Exemples
 * Download module specifying module name and its path
 ```
 drupal module:download  modulename  \

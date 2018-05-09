@@ -1,19 +1,19 @@
 # views:disable
 Deshabilitar les vistes
 
-**Usage:**
+**Ús:**
 ```
 drupal views:disable [arguments]
 vd
 vdi
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 view-id | Identificador de la vista
 
-## Examples
+## Exemples
 * Disable content view
 ```
 drupal views:disable  content

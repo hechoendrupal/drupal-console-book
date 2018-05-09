@@ -1,27 +1,27 @@
 # debug:container
 Mostrar els serveis actuals de l'aplicació.
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:container [arguments] [options]
 dco
 cod
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --parameters | Service name.
 --tag | Service tag 
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 service | Service name.
 method | Method name.
 arguments | Array of Arguments in CSV or JSON format.
 
-## Examples
+## Exemples
 * Displays the views.views_data_helper services
 ```
 drupal debug:container views.views_data_helper

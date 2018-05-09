@@ -1,7 +1,7 @@
 # user:login:url
 Generar la 'one-time login url' del usuari.
 
-**Usage:**
+**Ús:**
 ```
 drupal user:login:url [arguments]
 ulu
@@ -9,12 +9,12 @@ usli
 uli
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 user | User name/id.
 
-## Examples
+## Exemples
 * Get one time login url for user id 1
 ```
 drupal user:login:url  1

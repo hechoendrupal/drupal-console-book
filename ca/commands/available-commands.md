@@ -2,7 +2,7 @@
 
 **Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
 
-Drupal Console Command | Details
+Drupal Console Command | Detalls
 ------------ | -------------
 **misc**  |
 [about](about.md) | Mostrar l'informació bàsica sobre el projecte Drupal Console
@@ -215,8 +215,8 @@ Drupal Console Command | Details
 [views:disable](views-disable.md) | Deshabilitar les vistes
 [views:enable](views-enable.md) | Habilitar les vistes
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --help | Mostrar aquest missatge d'ajuda
 --quiet | No mostrar aquest missatge
@@ -236,7 +236,7 @@ Option | Details
 --uri | URI del lloc web Drupal que s'utilitzarà (per entorns "multisite" o quan s'utilitza un port alternatiu)
 --yes | Ometre la confirmació
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 command | El comandament a executar

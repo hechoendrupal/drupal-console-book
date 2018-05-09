@@ -1,14 +1,14 @@
 # generate:entity:content
 Generar una entitat de contingut
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:entity:content [options]
 geco
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --entity-class | La classe de l'entitat de contingut
@@ -19,7 +19,7 @@ Option | Details
 --is-translatable | Content entity translatable
 --revisionable | commands.generate.entity.content.options.revisionable
 
-## Examples
+## Exemples
 * Generate a content entity specifying the module, the entity class, the entity name, its path and label
 ```
 drupal generate:entity:content  \

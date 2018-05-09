@@ -1,13 +1,13 @@
 # cron:release
 Desbloquejar el cron del sistema per tornar-lo a executar
 
-**Usage:**
+**Ús:**
 ```
 drupal cron:release
 cror
 ```
 
-## Examples
+## Exemples
 * Execute the cron globally
 ```
 drupal cron:execute

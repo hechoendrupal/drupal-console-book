@@ -1,19 +1,19 @@
 # generate:post:update
 Generate an implementation of hook_post_update_NAME()
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:post:update [options]
 gpu
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --post-update-name | Post Update Name
 
-## Examples
+## Exemples
 * Generate an implementation of post update hook specifying the module name and the post update name
 ```
 drupal generate:post:update  \

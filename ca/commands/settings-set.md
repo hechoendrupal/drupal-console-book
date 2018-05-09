@@ -1,13 +1,13 @@
 # settings:set
 Canviar un valor especific al fitxer de configuració de Drupal Console
 
-**Usage:**
+**Ús:**
 ```
 drupal settings:set [arguments] [options]
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --help | Display this help message
 --quiet | Do not output any message
@@ -27,14 +27,14 @@ Option | Details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 command | The command to execute
 name | Setting name in YAML flatten format to set a value in Drupal Console config file
 value | Setting value to set in Drupal Console config file
 
-## Examples
+## Exemples
 * Set application language setting value to "es"
 ```
 drupal settings:set  application.language es

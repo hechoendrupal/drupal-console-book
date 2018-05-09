@@ -1,18 +1,18 @@
 # features:import
 Import module config.
 
-**Usage:**
+**Ús:**
 ```
 drupal features:import [arguments] [options]
 fei
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --bundle | Bundle name
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 packages | Package name

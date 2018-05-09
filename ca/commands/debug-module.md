@@ -1,24 +1,24 @@
 # debug:module
 Mostrar els mòduls disponibles per l'aplicació
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:module [arguments] [options]
 dm
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --status | Estat del mòdul [habilitat|deshabilitat]
 --type | Tipus de mòdul [core|no-core]
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 module | Module name
 
-## Examples
+## Exemples
 * Display all installed modules
 ```
 drupal mod --status=installed

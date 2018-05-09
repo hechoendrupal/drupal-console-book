@@ -1,20 +1,20 @@
 # user:role
 Adds/removes a role for a given user
 
-**Usage:**
+**Ús:**
 ```
 drupal user:role [arguments]
 ur
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 operation | Add or remove
 user | The affected user (only one)
 role | Roles to add or remove. Please provide the machine name (only one)
 
-## Examples
+## Exemples
 * Add administrator role to the user admin specifying the username and the role
 ```
 drupal user:role  add admin administrator

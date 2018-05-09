@@ -1,14 +1,14 @@
 # generate:module
 Generar un mòdul
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:module [options]
 gm
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul
 --machine-name | Nom màquina del mòdul (només minúscules i caràcter de subratllat)
@@ -23,7 +23,7 @@ Option | Details
 --test | Generar classe de verificació
 --twigtemplate | Generate theme template
 
-## Examples
+## Exemples
 * Generate a module specifying the module name, machine name, the path, its description, drupal core and the package name. In this example the composer file, the unit test and twig template are generated too
 ```
 drupal generate:module  \

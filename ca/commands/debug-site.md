@@ -1,19 +1,19 @@
 # debug:site
 Llistar tots els llocs locals i remots coneguts.
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:site [arguments]
 dsi
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 target | Target
 property | Property
 
-## Examples
+## Exemples
 * 
 ```
 drupal debug:site

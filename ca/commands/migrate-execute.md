@@ -1,14 +1,14 @@
 # migrate:execute
 Executar les migracions disponibles per l'aplicació
 
-**Usage:**
+**Ús:**
 ```
 drupal migrate:execute [arguments] [options]
 mie
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --site-url | URL de lloc d'origen
 --db-type | commands.migrate.execute.migrations.options.db-type
@@ -21,7 +21,7 @@ Option | Details
 --exclude | Identificadors(s) a excluir de la migració
 --source-base_path | Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 migration-ids | Identificador(s) de la migració

@@ -1,21 +1,21 @@
 # generate:cache:context
 Generate a cache context
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:cache:context [options]
 gcc
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --cache-context | The cache context name
 --class | Cache context class name
 --services | Carregar serveis des del contenidor.
 
-## Examples
+## Exemples
 * Generate cache for a context specifying the module, the context name and its class
 ```
 drupal generate:cache:context  \

@@ -1,19 +1,19 @@
 # cache:rebuild
 Reconstruir i esborrar la memòria cau del lloc web.
 
-**Usage:**
+**Ús:**
 ```
 drupal cache:rebuild [arguments]
 cr
 cc
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 cache | Esborrar una memòria cau específica.
 
-## Examples
+## Exemples
 * Reconstruir tota la memòria cau.
 ```
 drupal cr all

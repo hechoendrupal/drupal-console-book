@@ -1,13 +1,13 @@
 # devel:dumper
 commands.devel.dumper.messages.change-devel-dumper-plugin
 
-**Usage:**
+**Ús:**
 ```
 drupal devel:dumper [arguments]
 dd
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 dumper | Name of the devel dumper plugin

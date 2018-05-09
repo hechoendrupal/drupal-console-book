@@ -1,23 +1,23 @@
 # debug:test
 Llistar els Test Units disponibles per l'aplicació.
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:test [arguments] [options]
 td
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --test-class | Classe de verificació
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 group | Grup
 
-## Examples
+## Exemples
 * 
 ```
 drupal debug:test

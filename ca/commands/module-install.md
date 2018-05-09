@@ -1,14 +1,14 @@
 # module:install
 Instal·lar mòdul en l'aplicació
 
-**Usage:**
+**Ús:**
 ```
 drupal module:install [arguments] [options]
 moi
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --latest | Descarregar la versió més actual de forma predeterminada
 --composer | Uninstalls the module using Composer
@@ -30,13 +30,13 @@ Option | Details
 --uri | URI of the Drupal site to use (for multi-site environments or when running on an alternate port)
 --yes | Skip confirmation and proceed
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 command | The command to execute
 module | Mòduls per habilitar separats per un espai
 
-## Examples
+## Exemples
 * Install module specifying the module name
 ```
 drupal module:install  modulename

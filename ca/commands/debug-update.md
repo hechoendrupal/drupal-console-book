@@ -1,14 +1,14 @@
 # debug:update
 Mostrar les actualitzacions disponibles per l'aplicació
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:update
 du
 upd
 ```
 
-## Examples
+## Exemples
 * List of pending updates
 ```
 drupal debug:update

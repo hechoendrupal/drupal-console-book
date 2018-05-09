@@ -1,13 +1,13 @@
 # debug:theme:keys
 Displays all theme keys provided by hook_theme functions
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:theme:keys [arguments]
 dtk
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 key | Key

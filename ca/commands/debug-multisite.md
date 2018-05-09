@@ -1,14 +1,14 @@
 # debug:multisite
 Mostrar tots els multisites disponibles del sistema
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:multisite
 dmu
 msd
 ```
 
-## Examples
+## Exemples
 * Displays multisite information
 ```
 drupal debug:multisite

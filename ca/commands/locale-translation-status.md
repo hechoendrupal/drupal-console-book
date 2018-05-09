@@ -1,12 +1,12 @@
 # locale:translation:status
 LListar les actualitzacions de les traduccions disponibles
 
-**Usage:**
+**Ús:**
 ```
 drupal locale:translation:status [arguments]
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 language | Idioma (p.e. ca o Català)

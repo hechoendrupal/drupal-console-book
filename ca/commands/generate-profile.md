@@ -1,14 +1,14 @@
 # generate:profile
 Generar un perfil.
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:profile [options]
 gpr
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --profile | Nom del perfil
 --machine-name | Nom màquina del perfil (només minúscules)
@@ -19,7 +19,7 @@ Option | Details
 --themes | the theme name
 --distribution | Nom de la distribució
 
-## Examples
+## Exemples
 * Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies
 ```
 drupal generate:profile  \

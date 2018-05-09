@@ -1,18 +1,18 @@
 # debug:state
 Mostrar l'estat actual de les claus.
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:state [arguments]
 dst
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 key | L'estat de la clau a depurar.
 
-## Examples
+## Exemples
 * List of the states on the site
 ```
 drupal debug:state

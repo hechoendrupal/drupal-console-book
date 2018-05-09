@@ -1,18 +1,18 @@
 # site:mode
 Canviar la configuració de rendiment del sistema
 
-**Usage:**
+**Ús:**
 ```
 drupal site:mode [arguments]
 smo
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 environment | Nom de l'entorn [dev, prod]
 
-## Examples
+## Exemples
 * Switch system to prod
 ```
 drupal site:mode  prod

@@ -1,14 +1,14 @@
 # generate:plugin:fieldtype
 Generar connector de tipus de camp.
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:plugin:fieldtype [options]
 gpft
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --class | Nom de la classe del connector
@@ -18,7 +18,7 @@ Option | Details
 --default-widget | Giny de camp predeterminat d'aquest connector
 --default-formatter | Formatador de camp predeterminat d'aquest connector
 
-## Examples
+## Exemples
 * Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description
 ```
 drupal generate:plugin:fieldtype  \

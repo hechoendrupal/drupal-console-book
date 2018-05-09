@@ -1,14 +1,14 @@
 # generate:entity:config
 Generar una nova entitat de continguts
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:entity:config [options]
 gec
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --entity-class | Classe de l'entitat de continguts
@@ -17,7 +17,7 @@ Option | Details
 --label | Etiqueta
 --bundle-of | Actua com a 'bundle' per l'entitat de continguts
 
-## Examples
+## Exemples
 * Generate config entity specifying the module, the entity class, the entity name, its path and label
 ```
 drupal generate:entity:config  \

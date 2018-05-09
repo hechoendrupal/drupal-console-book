@@ -1,14 +1,14 @@
 # generate:theme
 Generar un tema.
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:theme [options]
 gt
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --theme | Nom del tema
 --machine-name | Nom màquina del tema (només minúscules i caràcter de subratllat)
@@ -22,7 +22,7 @@ Option | Details
 --regions | Regions
 --breakpoints | Punts d'interrupció (Breakpoints)
 
-## Examples
+## Exemples
 * Generate a theme without region and without breakpoint specifying the theme name, its machine name, the theme path, a description, the drupal core, the package name and the global library
 ```
 drupal generate:theme  \

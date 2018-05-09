@@ -1,14 +1,14 @@
 # generate:service
 Generar un servei
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:service [options]
 gs
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --name | Nom del servei
@@ -18,7 +18,7 @@ Option | Details
 --services | Carregar serveis des del contenidor.
 --path-service | Path
 
-## Examples
+## Exemples
 * Generate a services without interface specifying the module name, the service name, the class and its path
 ```
 drupal generate:service  \

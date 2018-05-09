@@ -1,18 +1,18 @@
 # generate:module:file
 Generate a .module file
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:module:file [options]
 gmf
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 
-## Examples
+## Exemples
 * Generate the .module file specifying the module name
 ```
 drupal generate:module:file  \

@@ -1,7 +1,7 @@
 # debug:chain
 List available chain files.
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:chain
 dch

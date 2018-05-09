@@ -1,19 +1,19 @@
 # server
 Executar el servidor PHP integrat
 
-**Usage:**
+**Ús:**
 ```
 drupal server [arguments]
 serve
 rs
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 address | Adreça:port valor
 
-## Examples
+## Exemples
 * Executar el servidor utilitzant l'argument de l'adreça predeterminat 127.0.0.1:8088
 ```
 drupal server

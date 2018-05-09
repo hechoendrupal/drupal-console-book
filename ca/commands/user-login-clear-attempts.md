@@ -1,14 +1,14 @@
 # user:login:clear:attempts
 Esborrar els intents de connexió d'un compte.
 
-**Usage:**
+**Ús:**
 ```
 drupal user:login:clear:attempts [arguments]
 ulca
 uslca
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 user | User name/id.

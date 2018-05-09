@@ -1,14 +1,14 @@
 # generate:plugin:condition
 Generar una condició per a un connector
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:plugin:condition [options]
 gpco
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --class | Nom de la classe de la condició del connector
@@ -18,7 +18,7 @@ Option | Details
 --context-definition-label | Etiqueta de la definició del context
 --context-definition-required | La definició del context es necessària (cert/fals)
 
-## Examples
+## Exemples
 * Generate a plugin condition for a node entity type specifying the module name, the class, the label, its id and the context definition
 ```
 drupal generate:plugin:condition  \

@@ -1,13 +1,13 @@
 # composerize
 Converts Drupal codebase to composer.
 
-**Usage:**
+**Ús:**
 ```
 drupal composerize [options]
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --show-packages | Show list of packages.
 --include-version | Include version on suggested result command.

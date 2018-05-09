@@ -1,18 +1,18 @@
 # database:client
 Executar un client de base de dades
 
-**Usage:**
+**Ús:**
 ```
 drupal database:client [arguments]
 dbc
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 database | Clau de la base de dades des de settings.php
 
-## Examples
+## Exemples
 * Launch the default client or could launch another regarding the specification on the argument
 ```
 drupal database:client <database>

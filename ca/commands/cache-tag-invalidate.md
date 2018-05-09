@@ -1,18 +1,18 @@
 # cache:tag:invalidate
 Invalidate cache tags.
 
-**Usage:**
+**Ús:**
 ```
 drupal cache:tag:invalidate [arguments]
 cti
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 tag | One or more tags to invalidate.
 
-## Examples
+## Exemples
 * Invalidate routes
 ```
 drupal cti routes

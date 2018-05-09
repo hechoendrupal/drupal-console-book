@@ -1,14 +1,14 @@
 # generate:plugin:rest:resource
 Generar un connector de recursos Rest
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:plugin:rest:resource [options]
 gprr
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --class | Classe del connector de recursos Rest
@@ -17,7 +17,7 @@ Option | Details
 --plugin-url | URL del connector de recursos Rest
 --plugin-states | Estats del connector de recursos Rest
 
-## Examples
+## Exemples
 * Generate a rest resource plugin using GET specifying the module name, the class, the plugin id, its label, the target url and the request type
 ```
 drupal generate:plugin:rest:resource  \

@@ -1,14 +1,14 @@
 # generate:command
 Generar comandaments per la consola
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:command [options]
 gco
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --extension | The extension name.
 --extension-type | The extension type.
@@ -20,7 +20,7 @@ Option | Details
 --services | Carregar serveis des del contenidor.
 --generator | Add a Generator class for this command.
 
-## Examples
+## Exemples
 * Generate a command specifying the extension name and type, its class and the name.
 ```
 drupal generate:command  \

@@ -1,14 +1,14 @@
 # generate:plugin:block
 Generar un connector de bloc
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:plugin:block [options]
 gpb
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --class | Nom de la classe del connector
@@ -18,7 +18,7 @@ Option | Details
 --inputs | Crear camp entrada (input) en un formulari.
 --services | Carregar serveis des del contenidor.
 
-## Examples
+## Exemples
 * Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input
 ```
 drupal generate:plugin:block  \

@@ -1,19 +1,19 @@
 # database:connect
 Llançar un client de base de dades
 
-**Usage:**
+**Ús:**
 ```
 drupal database:connect [arguments]
 dbco
 sqlc
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 database | Clau de la base de dades des de settings.php
 
-## Examples
+## Exemples
 * Connects to an specified database, or the default if not arguments passed
 ```
 drupal database:connect \

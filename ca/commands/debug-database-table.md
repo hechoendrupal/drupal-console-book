@@ -1,23 +1,23 @@
 # debug:database:table
 Mostrar les taules d'una base de dades.
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:database:table [arguments] [options]
 ddt
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --database | Database key from settings.php
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 table | Table to debug
 
-## Examples
+## Exemples
 * Show all tables on a database
 ```
 drupal debug:database:table

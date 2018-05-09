@@ -1,14 +1,14 @@
 # generate:ajax:command
 Generate & Register a custom ajax command
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:ajax:command [options]
 gac
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --class | Ajax Class name

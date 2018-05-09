@@ -1,18 +1,18 @@
 # create:roles
 Create dummy roles for your Drupal 8 application.
 
-**Usage:**
+**Ús:**
 ```
 drupal create:roles [options]
 crr
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --limit | How many roles would you like to create
 
-## Examples
+## Exemples
 * Provide roles.
 ```
 drupal create:roles

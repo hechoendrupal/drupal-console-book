@@ -1,23 +1,23 @@
 # database:restore
 Restaurar l'estructura, continguts i taules de la base de dades MySQL
 
-**Usage:**
+**Ús:**
 ```
 drupal database:restore [arguments] [options]
 dbr
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --file | El nom del fitxer de la seva còpia de la base de dades
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 database | Clau de la base de dades des de settings.php
 
-## Examples
+## Exemples
 * Restore the database file dump to the database default or another one specified
 ```
 drupal database:restore \

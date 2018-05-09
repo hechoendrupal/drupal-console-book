@@ -1,18 +1,18 @@
 # theme:uninstall
 Desinstal·lar els temes de l'aplicació
 
-**Usage:**
+**Ús:**
 ```
 drupal theme:uninstall [arguments]
 thu
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 theme | Els temes a desinstal·lar han d'estar separats per comes
 
-## Examples
+## Exemples
 * Uninstall theme specifying the name
 ```
 drupal theme:uninstall  mytheme

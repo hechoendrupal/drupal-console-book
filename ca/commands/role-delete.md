@@ -1,18 +1,18 @@
 # role:delete
 Delete roles for the application
 
-**Usage:**
+**Ús:**
 ```
 drupal role:delete [arguments]
 rd
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 roles | commands.role.delete.argument.roles
 
-## Examples
+## Exemples
 * Delete role specifying rolename
 ```
 drupal role:delete  moderator

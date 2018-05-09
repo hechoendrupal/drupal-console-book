@@ -1,14 +1,14 @@
 # generate:permissions
 Generate module permissions
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:permissions [options]
 gp
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --permissions | Crear permisos

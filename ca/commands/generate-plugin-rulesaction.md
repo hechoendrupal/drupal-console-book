@@ -1,14 +1,14 @@
 # generate:plugin:rulesaction
 Generar un connector d'acció de regla
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:plugin:rulesaction [options]
 gpra
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --class | Nom de la clase del connector
@@ -18,7 +18,7 @@ Option | Details
 --category | Categoría del connector
 --context | Context del connector
 
-## Examples
+## Exemples
 * Generate a user rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context
 ```
 drupal generate:plugin:rulesaction  \

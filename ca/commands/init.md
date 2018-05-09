@@ -1,13 +1,13 @@
 # init
 Copy configuration files to user home directory.
 
-**Usage:**
+**Ús:**
 ```
 drupal init [options]
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --destination | Destination directory to copy files
 --site | Use local site as destination.

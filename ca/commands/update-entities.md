@@ -1,13 +1,13 @@
 # update:entities
 Applying Entity Updates
 
-**Usage:**
+**Ús:**
 ```
 drupal update:entities
 upe
 ```
 
-## Examples
+## Exemples
 * Update entities
 ```
 drupal update:entities

@@ -1,25 +1,25 @@
 # database:log:clear
 Eliminar esdeveniments de la taula DBLog, filtre disponible
 
-**Usage:**
+**Ús:**
 ```
 drupal database:log:clear [arguments] [options]
 dblc
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --type | Filter events by a specific type
 --severity | Filter events by a specific level of severity
 --user-id | Filter events by a specific user id
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 event-id | DBLog event ID
 
-## Examples
+## Exemples
 * Clear the database log from DBLog table
 ```
 drupal database:log:clear \

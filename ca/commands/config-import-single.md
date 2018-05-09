@@ -1,19 +1,19 @@
 # config:import:single
 Import the selected configuration.
 
-**Usage:**
+**Ús:**
 ```
 drupal config:import:single [options]
 cis
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --file | The file(s) name or file(s) absolute path to import
 --directory | commands.config.import.arguments.directory
 
-## Examples
+## Exemples
 * Providing a file option using full path.
 ```
 drupal config:import:single \

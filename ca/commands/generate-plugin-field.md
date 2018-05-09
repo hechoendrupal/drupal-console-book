@@ -1,14 +1,14 @@
 # generate:plugin:field
 Generar connectors de tipus de camp, giny i formatador de connectors
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:plugin:field [options]
 gpf
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | Nom del mòdul.
 --type-class | Nom de la classe del connector de tipus de camp
@@ -25,7 +25,7 @@ Option | Details
 --default-widget | Giny de camp predeterminat del connector de tipus de camp
 --default-formatter | Formatador de camp predeterminat del connector de tipus de camp
 
-## Examples
+## Exemples
 * Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)
 ```
 drupal generate:plugin:field  \

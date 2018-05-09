@@ -1,7 +1,7 @@
 # shell
 Open a shell providing an interactive REPL (Read–Eval–Print-Loop).
 
-**Usage:**
+**Ús:**
 ```
 drupal shell
 ```

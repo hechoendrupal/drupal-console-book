@@ -1,13 +1,13 @@
 # debug:settings
 Mostrar la clau actual: valor del fitxer de configuració.
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:settings
 dse
 ```
 
-## Examples
+## Exemples
 * 
 ```
 drupal debug:settings

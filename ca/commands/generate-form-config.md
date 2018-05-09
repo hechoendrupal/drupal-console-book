@@ -1,14 +1,14 @@
 # generate:form:config
 Generate a new "ConfigFormBase"
 
-**Usage:**
+**Ús:**
 ```
 drupal generate:form:config [options]
 gfc
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --module | The Module name.
 --class | The form class name
@@ -22,7 +22,7 @@ Option | Details
 --menu-parent | Menu parent
 --menu-link-desc | A description for the menu link
 
-## Examples
+## Exemples
 * Generate an empty form with config file specifying the module name, the class, a form id and the path
 ```
 drupal generate:form:config  \

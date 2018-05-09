@@ -1,23 +1,23 @@
 # theme:install
 Instal·lar temes per l'aplicació
 
-**Usage:**
+**Ús:**
 ```
 drupal theme:install [arguments] [options]
 thi
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --set-default | Definir tema com a predeterminat
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 theme | Els temes a instal·lar han d'estar separats per comes
 
-## Examples
+## Exemples
 * Install theme specifying the name
 ```
 drupal theme:install  mytheme

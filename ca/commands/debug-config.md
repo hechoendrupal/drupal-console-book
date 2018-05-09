@@ -1,23 +1,23 @@
 # debug:config
 Mostrar la configuració actual
 
-**Usage:**
+**Ús:**
 ```
 drupal debug:config [arguments] [options]
 dc
 ```
 
-## Available options
-Option | Details
+## Opcions disponibles
+Opció | Detalls
 -------|-------------
 --show-overridden | Show overridden configurations.
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 name | Nom de la configuració
 
-## Examples
+## Exemples
 * List all configuration object names.
 ```
 drupal config:debug

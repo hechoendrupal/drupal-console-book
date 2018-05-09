@@ -10,6 +10,6 @@ drupal init [options]
 Opción | Detalles
 -------|-------------
 --destination | Directorio de destino para copiar los archivos
---site | Usar el sitio local como destino.
+--site | Use local site as destination.
 --override | Sobreescribir los archivos de configuración
 --autocomplete | Flag para herramienta de autocompletado.

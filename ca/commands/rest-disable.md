@@ -1,13 +1,13 @@
 # rest:disable
 Deshabilitar el recurs Rest per l'aplicació
 
-**Usage:**
+**Ús:**
 ```
 drupal rest:disable [arguments]
 red
 ```
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Detalls
 ---------|-------------
 resource-id | Rest ID
