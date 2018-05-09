@@ -32,8 +32,8 @@
    * [Creating issues and pull requests](contributing/creating-issues-and-pull-requests.md)
    * [Contribute to this documentation](contributing/documentation.md "Contribute to the Drupal Console book")
 
-* [Available commands](commands/available-commands.md)
-  {% include "./commands/available-commands-list.md" %}
+# * [Available commands](commands/available-commands.md)
+#  {% include "./commands/available-commands-list.md" %}
 
 * [FAQ (Frequently Asked Questions) about Drupal Console](drupal_console_faq/faq.md)
    * [Installation problems](drupal_console_faq/installation-problems.md)
