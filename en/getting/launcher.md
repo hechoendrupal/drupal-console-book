@@ -20,16 +20,6 @@ drupal self-update
 drupal
 ```
 
-## Installing the Launcher using Composer 
-Set Composer global `minimum-stability` and `prefer-stable` configurations.
-```
-composer global config minimum-stability dev
-composer global config prefer-stable true
-```
-```
-composer global require drupal/console-launcher:~1.0
-```
-
 You must execute the launcher within a drupal site directory or use `--root=/path/to/drupal8.dev
 ` to specify your drupal site path.
 
