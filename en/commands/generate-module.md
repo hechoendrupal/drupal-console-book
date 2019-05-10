@@ -29,7 +29,7 @@ Option | Details
 drupal generate:module  \
   --module="modulename"  \
   --machine-name="modulename"  \
-  --module-path="/modules/custom"  \
+  --module-path="modules/custom"  \
   --description="My Awesome Module"  \
   --core="8.x"  \
   --package="Custom"  \
