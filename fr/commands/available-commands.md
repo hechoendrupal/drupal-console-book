@@ -1,8 +1,8 @@
-# Available Drupal Console Commands
+# Commandes disponibles pour de Drupal Console
 
-**Note:** Drupal Console commands *must* be run from the root of a Drupal 8 installation.
+**Note:** Les commandes Drupal Console commands *doivent* être exécutées depuis la racine de l'installation de Drupal.
 
-Drupal Console Command | Details
+Commande Drupal Console | Détails
 ------------ | -------------
 **misc**  |
 [about](about.md) | Affiche les informations concernant le projet Drupal Console
@@ -236,7 +236,7 @@ Option | Details
 --uri | Définir l'URI du site Drupal à utiliser (dans le cas d'un environnement multisite ou lors de l'usage d'un port non standard)
 --yes | Passe la confirmation et lance le processus
 
-## Available arguments
-Argument | Details
+## Arguments disponibles
+Argument | Détails
 ---------|-------------
 command | La commande à exécuter
