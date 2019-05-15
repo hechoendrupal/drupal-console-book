@@ -26,3 +26,14 @@ drupal config:import \
 drupal config:import  \
   --directory=/path/to/config/dir
 ```
+
+## How to install Drupal 8 from an existing configuration
+If you want to restore an existing site, you will need to run
+the following command to configure Drupal Console so that it can
+restore a website that was previously installed.
+
+```
+drupal settings:set overrides.config.skip-validate-site-uuid true
+```
+
+See more details here https://weknowinc.com/blog/how-install-drupal-8-existing-configuration
