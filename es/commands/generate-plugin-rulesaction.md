@@ -1,5 +1,5 @@
 # generate:plugin:rulesaction
-Genera un plugin de acción de rules
+commands.generate.plugin.rulesaction.description
 
 **Uso:**
 ```
@@ -11,33 +11,9 @@ gpra
 Opción | Detalles
 -------|-------------
 --module | Nombre del módulo.
---class | Nombre de clase del plugin
---label | Etiqueta del plugin
---plugin-id | ID del plugin
---type | Tipo de acción (usuario o nodo)
---category | Categoría del plugin
---context | Contexto del plugin
-
-## Ejemplos
-* Generar un plugin de acción de rule de usuario especificando el nombre del módulo, la clase, su etiqueta, el id de plugin, el tipo,  su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, la categoría y su contexto
-```
-drupal generate:plugin:rulesaction  \
-  --module="modulename"  \
-  --class="DefaultAction"  \
-  --label="Default action"  \
-  --plugin-id="default_action"  \
-  --type="user"  \
-  --category="default_action"  \
-  --context="default_action"
-```
-* Generar un plugin de acción de rule de nodo especificando el nombre del módulo, la clase, su etiqueta, el id de plugin, el tipo, la categoría y su contexto
-```
-drupal generate:plugin:rulesaction  \
-  --module="modulename"  \
-  --class="DefaultAction"  \
-  --label="Default action"  \
-  --plugin-id="default_action"  \
-  --type="node"  \
-  --category="default_action" \
-  --context="default_action"
-```
+--class | commands.generate.plugin.rulesaction.options.class
+--label | commands.generate.plugin.rulesaction.options.label
+--plugin-id | commands.generate.plugin.rulesaction.options.plugin-id
+--type | commands.generate.plugin.rulesaction.options.type
+--category | commands.generate.plugin.rulesaction.options.category
+--context | commands.generate.plugin.rulesaction.options.context

@@ -10,8 +10,8 @@ dbdu
 ## Opciones disponibles
 Opción | Detalles
 -------|-------------
---file |  Nombre del archivo para el respaldo de la base de datos
---gz | Pasar esta opción si desea el archivo de resultado sql comprimido con gzip
+--file | Nombre del archivo para el respaldo de la base de datos
+--gz | Pase esta opción si desea el archivo de resultado sql comprimido con gzip
 
 ## Argumentos disponibles
 Argumento | Detalles

@@ -22,3 +22,15 @@ drupal rod
 ```
 drupal rod user.page
 ```
+* Muestra la lista de rutas en el sitio
+```
+drupal debug:router
+```
+* Muestra información sobre la ruta de user.login
+```
+drupal debug:router user.login
+```
+* Muestra inforamción para las rutas con el patrón (/user/login)
+```
+drupal debug:router --pattern=/user/login
+```

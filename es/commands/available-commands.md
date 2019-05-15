@@ -30,8 +30,6 @@ Comando de Drupal Console | Detalles
 [config:import:single](config-import-single.md) | Importar la configuración seleccionada.
 [config:override](config-override.md) | Sobreescribir valor de la configuración activa.
 [config:validate](config-validate.md) | Validar una configuración de Drupal contra su schema
-**config_update**  |
-[config_update:default](config_update-default.md) | commands.config_update.default.description
 **create**  |
 [create:comments](create-comments.md) | Crear comentarios de prueba para tu aplicación en Drupal 8.
 [create:nodes](create-nodes.md) | Crea nodos de relleno para su Drupal 8.
@@ -63,9 +61,9 @@ Comando de Drupal Console | Detalles
 [debug:cron](debug-cron.md) | Listado de módulos que implementan el hook cron
 [debug:database:log](debug-database-log.md) | Muestra los eventos de log actuales de la aplicación
 [debug:database:table](debug-database-table.md) | Muestra todas las tablas de una base de datos dada.
+[debug:dotenv](debug-dotenv.md) | Debug Dotenv debug values.
 [debug:entity](debug-entity.md) | Debugea entidades disponibles en el sistema
 [debug:event](debug-event.md) | Muestra los eventos actuales
-[debug:features](debug-features.md) | Lista las features registradas.
 [debug:image:styles](debug-image-styles.md) | Lista los estilos de imagen en el sitio
 [debug:libraries](debug-libraries.md) | Muestra las librerías disponibles en la aplicación
 [debug:migrate](debug-migrate.md) | Muestra la migración actual disponible para la aplicación
@@ -90,14 +88,11 @@ Comando de Drupal Console | Detalles
 **devel**  |
 [devel:dumper](devel-dumper.md) | commands.devel.dumper.messages.change-devel-dumper-plugin
 **docker**  |
-[docker:init](docker-init.md) | Create a docker-compose.yml file
+[docker:init](docker-init.md) | Crea un archivo docker-compose.yml
 **dotenv**  |
-[dotenv:debug](dotenv-debug.md) | Debug Dotenv debug values.
-[dotenv:init](dotenv-init.md) | Dotenv initializer.
+[dotenv:init](dotenv-init.md) | Añade soporte y la configuración requerida para trabajar con un archivo .env
 **entity**  |
 [entity:delete](entity-delete.md) | Elimina una entidad específica
-**features**  |
-[features:import](features-import.md) | Importar módulo de configuración.
 **field**  |
 [field:info](field-info.md) | Muestra información sobre los campos.
 **generate**  |
@@ -111,9 +106,9 @@ Comando de Drupal Console | Detalles
 [generate:entity:config](generate-entity-config.md) | Generar una nueva entidad de configuración
 [generate:entity:content](generate-entity-content.md) | Generar una nueva entidad de contenido
 [generate:event:subscriber](generate-event-subscriber.md) | Genera un suscriptor de eventos
-[generate:form](generate-form.md) | Generate a new "FormBase"
+[generate:form](generate-form.md) | Genera un nuevo "FormBase"
 [generate:form:alter](generate-form-alter.md) | Genera una implementación de hook_form_alter() o hook_form_FORM_ID_alter
-[generate:form:config](generate-form-config.md) | Generate a new "ConfigFormBase"
+[generate:form:config](generate-form-config.md) | Genera un nuevo "ConfigFormBase"
 [generate:help](generate-help.md) | Genera una implementación de hook_help()
 [generate:jstest](generate-jstest.md) | Genera un test Javascript.
 [generate:module](generate-module.md) | Generar un módulo.
@@ -132,7 +127,7 @@ Comando de Drupal Console | Detalles
 [generate:plugin:migrate:process](generate-plugin-migrate-process.md) | Genera un plugin de proceso para migración
 [generate:plugin:migrate:source](generate-plugin-migrate-source.md) | Genera un plugin de migración de fuentes
 [generate:plugin:rest:resource](generate-plugin-rest-resource.md) | Genera un plugin de recurso rest
-[generate:plugin:rulesaction](generate-plugin-rulesaction.md) | Genera un plugin de acción de rules
+[generate:plugin:rulesaction](generate-plugin-rulesaction.md) | commands.generate.plugin.rulesaction.description
 [generate:plugin:skeleton](generate-plugin-skeleton.md) | Generar una implementación de un esqueleto de plugin para esos plugins de Drupal Console que no tienen un generador específico
 [generate:plugin:type:annotation](generate-plugin-type-annotation.md) | Genera un tipo de plugin con descubrimiento de anotaciones
 [generate:plugin:type:yaml](generate-plugin-type-yaml.md) | Genera un tipo de plugin con descubrimiento YAML
@@ -177,8 +172,6 @@ Comando de Drupal Console | Detalles
 [role:new](role-new.md) | Crea roles para la aplicación
 **router**  |
 [router:rebuild](router-rebuild.md) | Reconstruye los enrutamientos de la aplicación
-**sample**  |
-[sample:default](sample-default.md) | commands.sample.default.description
 **settings**  |
 [settings:set](settings-set.md) | Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole
 **site**  |
