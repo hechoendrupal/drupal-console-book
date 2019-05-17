@@ -21,7 +21,7 @@ List of valid key/value options for site alias file configuration.
 * **user**: The username to use when connecting via ssh.
 * **options**: Array of valid DrupalConsole options.
 * **arguments**: Array of valid DrupalConsole arguments.
-* **extra-options**: Used only when the target requires extra options, such as alternative authentication method and/or alternative identity file. 
+* **extra-options**: Used only when the target requires extra options, such as tty option, alternative authentication method and/or alternative identity file. 
 * **type**: Type of site to interact with. Allowed options `local`, `ssh`, `container`. The `local` option is used by default.
 
 **NOTE:**: The values `root` and `type` are required.

@@ -2,6 +2,23 @@
 
 Puede conectar a una máquina virtual o docker facilitando los valores adecuados para `extra-options` y `type`.
 
+## Pantheon Example
+```
+dev:
+  root: /path/to/pantheon/drupal
+  host: pantheonHost
+  user: pantheonUsername
+  type: ssh
+  options:
+    uri: default
+    drupal-console-binary: drupal
+  extra-options: '-o "AddressFamily inet"'  
+```
+Por defecto, la opción `uri` es` default` y la opción `drupal-console-binary` es` drupal`, por lo que no es necesario agregar opciones, pero si ha cambiado el nombre de su consola binaria drupal o uri, puede definir el nombre en la configuración.
+
+En `extra-options` puedes definir la opción de tty si es necesario, ejemplo:` extra-options: '-tt'`
+
+
 ## Ejemplo DrupalVM
 ```
 dev:

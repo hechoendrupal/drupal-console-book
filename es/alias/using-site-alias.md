@@ -21,7 +21,7 @@ Listado de opciones clave/valor válidas en el archivo de configuración de un a
 * **user**: Nombre de usuario para la conexión por SSH.
 * **options**: Matriz (array) de opciones válidas de DrupalConsole.
 * **arguments**: Matriz (array) de argumentos válidos de DrupalConsole.
-* **extra-options**: Usado sólo cuando el objetivo requiere opciones extra, como autenticación alternativa y/o un archivo de identidad alternativa.
+* **extra-options**: Usado sólo cuando el objetivo requiere opciones extra, como la opción tty, autenticación alternativa y/o un archivo de identidad alternativa.
 * **type**: Tipo del sitio con el que interactuar. Las opciones permitidas son: `local`, `ssh`, `container`. Por defecto, se usa la opción `local`.
 
 **NOTA:**: Los valores `root` y `type` son obligatorios.
