@@ -20,7 +20,7 @@ Argumento | Detalles
 view-id | ID de la vista
 
 ## Ejemplos
-* Es posible facilitar un id de vista como argumento
+* Es posible facilitar un id de vista como argumento.
 ```
 drupal config:export:view viewid
 ```

@@ -48,3 +48,13 @@ drupal site:install  standard  \
   --account-mail="admin@example.com"  \
   --account-pass="p455w0rd"
 ```
+* Instalar un proyecto drupal usando una url de mysql
+```
+drupal site:install  standard  mysql://dbUser:dbPass@dbHost/dbName \
+  --langcode="en"  \
+  --site-name="Drupal 8"  \
+  --site-mail="admin@example.com"  \
+  --account-name="admin"  \
+  --account-mail="admin@example.com"  \
+  --account-pass="p455w0rd"
+```

@@ -19,5 +19,23 @@ Opción | Detalles
 --host | La ip/dominio del sitio remoto. No obligatorio para sitios locales.
 --user | El nombre de usuario a usar al conectar por ssh.
 --port | El puesto a usar al conectar por ssh.
+--drupal-console-binary | El nombre del binario de Drupal console. Por defecto es "drupal"
 --extra-options | Usado sólo cuando el objetivo requiere opciones extra, como un método de autenticación alternativa y/o un archivo de identidad alternativo.
 --directory | Directorio para guardar el alias del sitio generado.
+
+## Ejemplos
+* Genera un alias de sitio para conectar por SSH usando un tty como opción extra
+```
+drupal generate:site:alias  \
+  --name="demo"  \
+  --environment="dev"  \
+  --type="ssh" \
+  --composer-root="/path/to/remote/project" \
+  --site-uri="default" \
+  --host="hostName/domain" \
+  --user="userName" \
+  --port="port" \
+  --drupal-console-binary="drupal" \
+  --extra-options="-tt" \
+  --directory="/Users/hjuarez/drupalSq/console/"
+```
