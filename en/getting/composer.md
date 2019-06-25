@@ -12,6 +12,12 @@ composer require drupal/console:~1.0 \
 --optimize-autoloader
 ```
 
+If you install Drupal Console Using Composer on Docksal, execute following command firstly:
+
+```
+fin exec git config --global core.filemode false
+```
+
 ## Download using DrupalComposer project template
 ```
 composer create-project \
