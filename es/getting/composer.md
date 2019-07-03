@@ -1,17 +1,34 @@
-# Instala Drupal Console Usando Composer
-Puedes instalar este proyecto usando composer.
+# Instalar Drupal Console usando Composer en un proyecto existente
 
-## Instalando Drupal Console globalmente usando composer:
+Cambie el directorio al sitio de Drupal:
 ```
-$ composer global require drupal/console:@stable
-```
-
-## Agregar el directorio del binario a la ruta de clases:
-```
-$ echo "PATH=$PATH:~/.composer/vendor/bin" >> ~/.bash_profile
+cd /path/to/drupal8.dev
 ```
 
-## Ahora ejecutar Drupal Console usando:
+Ejecutar el comando del compositor requiere:
 ```
-$ drupal generate:module
+composer require drupal/console:~1.0 \
+--prefer-dist \
+--optimize-autoloader
+```
+
+Si instala Drupal Console usando Composer en Docksal, primero ejecute el siguiente comando:
+```
+fin exec git config --global core.filemode false
+```
+
+## Descargar usando la plantilla de proyecto DrupalComposer
+Esta opción descarga un nuevo proyecto de drupal con drupalConsole incluido.
+```
+composer create-project \
+drupal-composer/drupal-project:8.x-dev \
+drupal8.dev \
+--prefer-dist \
+--no-progress \
+--no-interaction
+```
+
+## Actualizar DrupalConsole
+```
+composer update drupal/console --with-dependencies
 ```

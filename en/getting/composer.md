@@ -1,4 +1,4 @@
-# Install Drupal Console Using Composer
+# Install Drupal Console using Composer in an existing project
 
 Change directory to Drupal site:
 ```
@@ -19,6 +19,7 @@ fin exec git config --global core.filemode false
 ```
 
 ## Download using DrupalComposer project template
+This option downloads a new drupal project with drupalConsole included.
 ```
 composer create-project \
 drupal-composer/drupal-project:8.x-dev \
