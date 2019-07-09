@@ -66,19 +66,16 @@ Comando de Drupal Console | Detalles
 [debug:event](debug-event.md) | Muestra los eventos actuales
 [debug:image:styles](debug-image-styles.md) | Lista los estilos de imagen en el sitio
 [debug:libraries](debug-libraries.md) | Muestra las librerías disponibles en la aplicación
-[debug:migrate](debug-migrate.md) | Muestra la migración actual disponible para la aplicación
 [debug:module](debug-module.md) | Muestra los módulos actualmente disponibles para la aplicación
 [debug:multisite](debug-multisite.md) | Lista todos los multisios disponibles en el sitio
 [debug:permission](debug-permission.md) | Muestra todos los permisos y además lista todos los permisos de un especifico rol de usuario.
 [debug:plugin](debug-plugin.md) | Muestra todos los tipos de plugins.
 [debug:queue](debug-queue.md) | Muestra las colas de su aplicación
-[debug:rest](debug-rest.md) | Muestra el actual recurso rest para la aplicación
 [debug:roles](debug-roles.md) | Muestra los roles actuales de la aplicación
 [debug:router](debug-router.md) | Muestra las rutas actuales de la aplicación o la información detallada de una ruta en particular
 [debug:settings](debug-settings.md) | Ofrece un listado de la configuración de usuario de Drupal Console.
 [debug:site](debug-site.md) | Lista todos los sitios conocidos locales y remotos.
 [debug:state](debug-state.md) | Muestra las claves de Estado actual.
-[debug:test](debug-test.md) | Ofrece un listado de Tests Unitarios disponibles en la aplicación.
 [debug:theme](debug-theme.md) | Muestra los temas actuales en la aplicación.
 [debug:theme:keys](debug-theme-keys.md) | Muestra todas las claves del tema que proveen las funciones del hook hook_theme
 [debug:update](debug-update.md) | Muestra las actualizaciones disponibles
@@ -142,14 +139,6 @@ Comando de Drupal Console | Detalles
 [generate:update](generate-update.md) | Generar una implementación de hook_update_N()
 **image**  |
 [image:styles:flush](image-styles-flush.md) | Ejecutar la función limpieza por cada uno o por todos los estilos de imágenes
-**locale**  |
-[locale:language:add](locale-language-add.md) | Añadir un idioma que sea soportado en el sitio
-[locale:language:delete](locale-language-delete.md) | Eliminar un idioma soportado en el sitio
-[locale:translation:status](locale-translation-status.md) | Lista de traducciones disponibles actualizadas
-**migrate**  |
-[migrate:execute](migrate-execute.md) | Ejecuta una migración que esté disponible para la aplicación
-[migrate:rollback](migrate-rollback.md) | Revertir una o múltiples migraciones
-[migrate:setup](migrate-setup.md) | Cargar y crear las migraciones pertinentes para una base de datos heredada
 **module**  |
 [module:dependency:install](module-dependency-install.md) | Instalar las dependencias de módulos en la aplicación
 [module:download](module-download.md) | Descarga un módulo o varios en la aplicación
@@ -164,9 +153,6 @@ Comando de Drupal Console | Detalles
 [node:access:rebuild](node-access-rebuild.md) | Reconstruir los permisos de acceso a nodos. La reconstrucción eliminará todos los privilegios al contenudo y los reemplazará con permisos basado en los módulos y configuración actual,
 **queue**  |
 [queue:run](queue-run.md) | Procesa la cola seleccionada.
-**rest**  |
-[rest:disable](rest-disable.md) | Deshabilita un recurso rest en la aplicación
-[rest:enable](rest-enable.md) | Habilita un recurso rest para la aplicación
 **role**  |
 [role:delete](role-delete.md) | Eleminar roles en la aplicación
 [role:new](role-new.md) | Crea roles para la aplicación
@@ -186,8 +172,6 @@ Comando de Drupal Console | Detalles
 [state:override](state-override.md) | Sobreescribir una clave de Estado.
 **taxonomy**  |
 [taxonomy:term:delete](taxonomy-term-delete.md) | Eliminar términos de una taxonomía de un vocabulario
-**test**  |
-[test:run](test-run.md) | Ejecuta un test unitario de los disponibles en la aplicación
 **theme**  |
 [theme:download](theme-download.md) | Descarga un tema para la aplicación
 [theme:install](theme-install.md) | Instalar tema o temas en la aplicación
