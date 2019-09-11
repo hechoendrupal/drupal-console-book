@@ -4,7 +4,7 @@ This project was relocated to new repository [Drupal Console](https://github.com
 
 Book content was relocated to 
 ```
-├── content
+content
     └── docs
          ├── ca
          ├── en
